@@ -1,0 +1,13 @@
+PREFIX schema: <https://schema.org/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<https://linked.data.gov.au/dataset/eiatest/sprat>
+    a schema:Dataset ;
+    schema:name "Species Profile and Threats (SPRAT) Dataset" ;
+    schema:description "The Species of National Environmental Significance Database contains data on the distribution of species related to the Environment Protection and Biodiversity Conservation Act 1999 (EPBC Act)." ;
+    schema:creator <https://linked.data.gov.au/org/dcceew> ;
+    schema:publisher <https://linked.data.gov.au/org/dcceew> ;
+    schema:dateCreated ""^^xsd:date ;
+    schema:dateModified ""^^xsd:date ;
+    schema:url "https://www.dcceew.gov.au/environment/environmental-information-data/databases-applications/snes"^^xsd:anyURI ;
+.

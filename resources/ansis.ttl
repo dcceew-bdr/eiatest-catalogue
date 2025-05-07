@@ -1,0 +1,16 @@
+PREFIX schema: <https://schema.org/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<https://linked.data.gov.au/dataset/eiatest/ansis>
+    a schema:Dataset ;
+    schema:name "Australian National Soil Information System (ANSIS) Dataset" ;
+    schema:description """The Australian National Soil Information System (ANSIS) provides access to nationally consistent soil data and information to support the sustainable management of soil - it does not hold data.
+
+ This system is a federator so the data is delivered from their respective points-of-truth via the portal.""" ;
+    schema:creator
+        <https://linked.data.gov.au/org/csiro> ,
+        <https://linked.data.gov.au/org/daff> ;
+    schema:publisher <https://linked.data.gov.au/org/daff> ;
+    schema:dateCreated ""^^xsd:date ;
+    schema:dateModified ""^^xsd:date ;
+.

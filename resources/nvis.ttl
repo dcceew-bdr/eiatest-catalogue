@@ -1,0 +1,18 @@
+PREFIX schema: <https://schema.org/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<https://linked.data.gov.au/dataset/eiatest/nvis>
+    a schema:Dataset ;
+    schema:name "National Vegitation Information System (NVIS) Dataset" ;
+    schema:description """NVIS provides information on the extent and distribution of vegetation types in Australia.
+
+NVIS provides data for extant (current) and estimated pre-1750 native vegetation. Products include spatial and non-spatial data using a hierarchical classification system. We classify vegetation into groups based on:
+- dominant species
+- vegetation structure
+- growth form.
+""" ;
+    schema:creator <https://linked.data.gov.au/org/dcceew> ;
+    schema:publisher <https://linked.data.gov.au/org/dcceew> ;
+    schema:dateCreated ""^^xsd:date ;
+    schema:dateModified ""^^xsd:date ;
+.
