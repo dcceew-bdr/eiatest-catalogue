@@ -1,0 +1,12 @@
+PREFIX schema: <https://schema.org/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<https://linked.data.gov.au/def/eia-supermodel>
+    a schema:Dataset ;
+    schema:name "Environment Information Australia (EIA) Supermodel" ;
+    schema:description """This multi-part enterprise data model...""" ;
+    schema:creator <https://kurrawong.ai> ;
+    schema:publisher <https://linked.data.gov.au/org/agldwg> ;
+    schema:dateCreated ""^^xsd:date ;
+    schema:dateModified ""^^xsd:date ;
+.
