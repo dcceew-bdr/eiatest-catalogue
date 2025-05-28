@@ -1,0 +1,10 @@
+# https://taskfile.dev
+
+version: "3"
+
+tasks:
+  fup:
+    cmd: docker compose up -d
+
+  fdown:
+    cmd: docker compose down
