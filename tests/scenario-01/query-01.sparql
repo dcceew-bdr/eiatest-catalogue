@@ -1,0 +1,19 @@
+# Parameter: SE Qld
+PREFIX geo: <http://www.opengis.net/ont/geosparql#>
+PREFIX geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX schema: <https://schema.org/>
+
+SELECT ?iri ?name ?dataset_bb ?kw ?kw_label
+WHERE {
+    ?iri
+        a schema:Dataset ;
+        schema:name ?name ;
+        schema:keywords ?kw ;
+        geo:hasBoundingBox/geo:asWKT ?dataset_bb ;
+    .
+
+    ?kw schema:name ?kw_label .
+
+    FILTER geof:sfOverlaps("POLYGON ((141.5 -25, 141.5 -28.5, 146 -28.5, 146 -25, 141.5 -25))", ?dataset_bb)
+}
+ORDER BY ?name
