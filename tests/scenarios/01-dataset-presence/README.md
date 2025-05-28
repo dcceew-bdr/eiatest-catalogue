@@ -4,7 +4,11 @@
 
 ### Description
 
-This scenario describes the kind of data that is present per dataset in a given area.
+This scenario shows how all datasets relevant to a given area can be listed with their kind given.
+
+### Purpose
+
+Shows integration of datasets at a metadata-only level.
 
 ### Logic
 
@@ -49,8 +53,7 @@ WHERE {
 ORDER BY ?name
 ```
 
-| **File**          | **Description**                     | **Parameter Variable**         | **Parameter Values**                                                                            | **Expected results**                     |
-|-------------------|-------------------------------------|--------------------------------|-------------------------------------------------------------------------------------------------|------------------------------------------|
-| `query-01.sparql` | Dataset filter as per 'Logic' above | `XXXX` - WKT Literal (polygon) | `POLYGON ((141.5 -25, 141.5 -28.5, 146 -28.5, 146 -25, 141.5 -25))` - SE Qld                    | AusTraits, BDR                           |                      |
-| `query-02.sparql` | As above                            | As above                       | `POLYGON ((148.8 -35.35, 148.8 -35.53, 149 -35.53, 149 -35.35, 148.8 -35.35))` - Within the ACT | ANSIS, AusTraits, BDR, HCAS, NVIS, SPRAT |                      |
-
+| **File**          | **Parameter Variable**        | **Parameter Values**                                                                            | **Expected results**                     |
+|-------------------|-------------------------------|-------------------------------------------------------------------------------------------------|------------------------------------------|
+| `query-01.sparql` | `XXXX`, WKT Literal (polygon) | `POLYGON ((141.5 -25, 141.5 -28.5, 146 -28.5, 146 -25, 141.5 -25))` - SE Qld                    | AusTraits, BDR                           |
+| `query-02.sparql` | As above                      | `POLYGON ((148.8 -35.35, 148.8 -35.53, 149 -35.53, 149 -35.35, 148.8 -35.35))` - Within the ACT | ANSIS, AusTraits, BDR, HCAS, NVIS, SPRAT |
