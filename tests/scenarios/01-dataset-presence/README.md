@@ -4,7 +4,7 @@
 
 ### Description
 
-This scenario shows how all datasets relevant to a given area can be listed with their kind given.
+This scenario shows how all datasets relevant to a given area can be listed with their kind.
 
 ### Purpose
 
