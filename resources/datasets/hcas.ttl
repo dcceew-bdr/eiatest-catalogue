@@ -1,3 +1,4 @@
+PREFIX geo: <http://www.opengis.net/ont/geosparql#>
 PREFIX schema: <https://schema.org/>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
@@ -12,4 +13,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:keywords <http://vocabs.lter-europe.net/EnvThes/EnvEu_13> ;  # habitat
     schema:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
     schema:publisher <https://linked.data.gov.au/org/dcceew> ;
+    geo:boundingBox [
+        a geo:Geometry ;
+        geo:asWKT "POLYGON ((112 -9.5, 112 -44, 154 -44, 154 -9.5, 112 -9.5))"^^geo:wktLiteral ;  # all of Australia
+    ] ;
 .
