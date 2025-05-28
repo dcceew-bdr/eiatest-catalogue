@@ -15,7 +15,8 @@ for f in Path(Path(__file__).parent.parent.resolve() / "resources/datasets").glo
     data_graph +=  ref_graph
 
     print(f)
-    shapes_graph = Graph().parse("../../loci-data-profile/validator.ttl")
+    shapes_graph = Graph().parse("validator-geosparql.ttl")
+    shapes_graph.parse("../../loci-data-profile/validator.ttl")
     shapes_graph.parse("../../eia-data-profile/validator.ttl")
     v = validate(data_graph, shacl_graph=shapes_graph)
 
