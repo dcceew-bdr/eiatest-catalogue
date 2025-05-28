@@ -8,7 +8,10 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 Using Knowledge Graph technology, the BDR consolidates biodiversity data currently scattered across government, industry, and research institutions. It supports Australia's Nature Positive agenda by making biodiversity data more accessible, accurate, and interoperable with existing environmental information systems.""" ;
     schema:creator <https://linked.data.gov.au/org/dcceew> ;
+    schema:citation "Metadata created by the BDR Team" ;
+    schema:dateCreated "2024"^^xsd:gYear ;
+    schema:dateModified "2025-05-27"^^xsd:date ;
+    schema:keywords <http://vocabs.lter-europe.net/EnvThes/21673> ;  # biodiversity
+    schema:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
     schema:publisher <https://linked.data.gov.au/org/dcceew> ;
-    schema:dateCreated ""^^xsd:date ;
-    schema:dateModified ""^^xsd:date ;
 .

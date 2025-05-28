@@ -1,0 +1,23 @@
+PREFIX schema: <https://schema.org/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+<https://linked.data.gov.au/org/daff>
+    a schema:Organization ;
+    schema:name "Department of Agriculture, Forestry & Fisheries" ;
+    schema:url "https://www.agriculture.gov.au/"^^xsd:anyURI ;
+.
+
+
+<https://linked.data.gov.au/org/csiro>
+    a schema:Organization ;
+    schema:name "Commonwealth Scientific and Industrial Research Organisation" ;
+    schema:url "https://csiro.au/"^^xsd:anyURI ;
+.
+
+
+<https://linked.data.gov.au/org/dcceew>
+    a schema:Organization ;
+    schema:name "Department of Climate Change, energy, the Environment and Water" ;
+    schema:url "https://www.dcceew.gov.au/"^^xsd:anyURI ;
+.
