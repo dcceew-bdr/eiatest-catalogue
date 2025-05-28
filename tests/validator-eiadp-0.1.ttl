@@ -1,0 +1,61 @@
+PREFIX : <https://linked.data.gov.au/def/eia-dp/validator/>
+PREFIX geo: <http://www.opengis.net/ont/geosparql#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX schema: <https://schema.org/>
+PREFIX sh: <http://www.w3.org/ns/shacl#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX time: <http://www.w3.org/2006/time#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+<https://linked.data.gov.au/def/eia-dp/validator>
+    a owl:Ontology ;
+    schema:dateCreated "2021-04-19"^^xsd:date ;
+    schema:creator <https://kurrawong.ai> ;
+    schema:dateModified "2025-05-19"^^xsd:date ;
+    schema:publisher <https://linked.data.gov.au/org/dcceew> ;
+    schema:description "The EIA Data Profile SHACL validator." ;
+    schema:name "EIA Data Profile Validator" ;
+    schema:hasPart
+        :Requirement-D-keywords-envthes ,
+        :Requirement-D-boundingbox ;
+    schema:version "0.1" ;
+.
+
+<https://linked.data.gov.au/org/dcceew>
+    a schema:Organization ;
+    schema:name "Department of Climate Change, Energy, the Environment and Water" ;
+    schema:url "https://www.dcceew.gov.au"^^xsd:anyURI ;
+.
+
+<https://kurrawong.ai>
+    a schema:Organization ;
+    schema:name "KurrawongAI" ;
+    schema:url "https://kurrawong.ai"^^xsd:anyURI ;
+.
+
+:Requirement-D-keywords-envthes
+	a sh:NodeShape ;
+    sh:targetObjectsOf schema:keywords ;
+    sh:property [
+        sh:path skos:inScheme ;
+        sh:value <http://vocabs.lter-europe.net/EnvThes> ;
+        sh:minCount 1 ;
+        sh:message "Keywords for the dataset must be Concept IRIs from the EnvThes vocabulary"
+    ] ;
+.
+
+:Requirement-D-boundingbox
+	a sh:NodeShape ;
+    sh:targetClass schema:Dataset ;
+    sh:property [
+        sh:path geo:boundingBox ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:class geo:Geometry ;
+        sh:message "Each Dataset must indicate exactly one bounding box showing the area of Earth it's data is relevant to"
+    ] ;
+.
+

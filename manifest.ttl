@@ -17,20 +17,28 @@ PREFIX schema: <https://schema.org/>
             prof:hasArtifact "resources/datasets/*.ttl" ;
             prof:hasRole mrr:ResourceData ;
             schema:description "EIA Datasets" ;
-            schema:name "Resource Data" ;
-            dcterms:conformsTo <https://linked.data.gov.au/def/loci-dp> ;
+            schema:name "Datasets" ;
+            dcterms:conformsTo "tests/validator-eiadp-0.1.ttl" ;
+            # dcterms:conformsTo <https://linked.data.gov.au/def/loci-dp> ;
         ] ,
         [
             prof:hasArtifact "resources/reference/envthes.ttl" ;
             prof:hasRole mrr:ResourceData ;
             schema:description "EIA Reference Vocabularies" ;
-            schema:name "Resource Data" ;
+            schema:name "Reference Vocabularies" ;
             dcterms:conformsTo <https://w3id.org/profile/vocpub> ;
         ] ,
         [
-            prof:hasArtifact "background/*.ttl" ;
+            prof:hasArtifact "resources/reference/nsl.ttl" ;
+            prof:hasRole mrr:ResourceData ;
+            schema:description "EIA Reference Vocabularies" ;
+            schema:name "Reference Data" ;
+            # dcterms:conformsTo <https://w3id.org/profile/vocpub> ;
+        ] ,
+        [
+            prof:hasArtifact "resources/background/*.ttl" ;
             prof:hasRole mrr:CompleteCatalogueAndResourceLabels ;
             schema:description "Files containing all the labels and vocab inScheme predicates for the resources' content" ;
-            schema:name "Labels" ;
+            schema:name "Background Details" ;
         ] ;
 .
