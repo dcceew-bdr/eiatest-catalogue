@@ -14,6 +14,8 @@ WHERE {
 
     ?kw schema:name ?kw_label .
 
-    FILTER geof:sfOverlaps("POLYGON ((141.5 -25, 141.5 -28.5, 146 -28.5, 146 -25, 141.5 -25))", ?dataset_bb)
+    BIND ("POLYGON ((141.5 -25, 141.5 -28.5, 146 -28.5, 146 -25, 141.5 -25))"^^geo:wktLiteral AS ?input_area)
+
+    FILTER geof:sfIntersects(?input_area, ?dataset_bb)
 }
 ORDER BY ?name

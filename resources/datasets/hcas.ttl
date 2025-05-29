@@ -13,7 +13,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:keywords <http://vocabs.lter-europe.net/EnvThes/EnvEu_13> ;  # habitat
     schema:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
     schema:publisher <https://linked.data.gov.au/org/dcceew> ;
-    geo:boundingBox [
+    geo:hasBoundingBox [
         a geo:Geometry ;
         geo:asWKT "POLYGON ((148.75 -35.12, 148.75 -35.95, 149.425 -35.95, 149.425 -35.12, 148.75 -35.12))"^^geo:wktLiteral ;  # all of Australia
     ] ;

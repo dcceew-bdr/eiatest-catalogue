@@ -1,43 +1,38 @@
 PREFIX dcterms: <http://purl.org/dc/terms/>
-PREFIX mrr: <https://prez.dev/ManifestResourceRoles/>
-PREFIX prez: <https://prez.dev/>
 PREFIX prof: <http://www.w3.org/ns/dx/prof/>
 PREFIX schema: <https://schema.org/>
 
-[]
-    a prez:Manifest ;
-    prof:hasResource
+[]    a <https://prez.dev/Manifest> ;
+    prof:hasResource 
         [
-            prof:hasArtifact "catalogue.ttl" ;
-            prof:hasRole mrr:CatalogueData ;
-            schema:description "The definition of, and medata for, the container which here is a dcat:Catalog object" ;
-            schema:name "Catalogue Definition"
-        ] ,
-        [
-            prof:hasArtifact "resources/datasets/*.ttl" ;
-            prof:hasRole mrr:ResourceData ;
-            schema:description "EIA Datasets" ;
-            schema:name "Datasets" ;
-            dcterms:conformsTo "tests/validator-eiadp-0.1.ttl" ;
-            # dcterms:conformsTo <https://linked.data.gov.au/def/loci-dp> ;
-        ] ,
-        [
+            dcterms:conformsTo <https://w3id.org/profile/vocpub> ;
             prof:hasArtifact "resources/reference/envthes.ttl" ;
-            prof:hasRole mrr:ResourceData ;
+            prof:hasRole <https://prez.dev/ManifestResourceRoles/ResourceData> ;
             schema:description "EIA Reference Vocabularies" ;
             schema:name "Reference Vocabularies" ;
-            dcterms:conformsTo <https://w3id.org/profile/vocpub> ;
+        ] ,
+        [
+            dcterms:conformsTo "tests/validator-eiadp-0.1.ttl" ;
+            prof:hasArtifact "resources/datasets/*.ttl" ;
+            prof:hasRole <https://prez.dev/ManifestResourceRoles/ResourceData> ;
+            schema:description "EIA Datasets" ;
+            schema:name "Datasets" ;
         ] ,
         [
             prof:hasArtifact "resources/reference/nsl.ttl" ;
-            prof:hasRole mrr:ResourceData ;
+            prof:hasRole <https://prez.dev/ManifestResourceRoles/ResourceData> ;
             schema:description "EIA Reference Vocabularies" ;
             schema:name "Reference Data" ;
-            # dcterms:conformsTo <https://w3id.org/profile/vocpub> ;
+        ] ,
+        [
+            prof:hasArtifact "catalogue.ttl" ;
+            prof:hasRole <https://prez.dev/ManifestResourceRoles/CatalogueData> ;
+            schema:description "The definition of, and medata for, the container which here is a dcat:Catalog object" ;
+            schema:name "Catalogue Definition" ;
         ] ,
         [
             prof:hasArtifact "resources/background/*.ttl" ;
-            prof:hasRole mrr:CompleteCatalogueAndResourceLabels ;
+            prof:hasRole <https://prez.dev/ManifestResourceRoles/CompleteCatalogueAndResourceLabels> ;
             schema:description "Files containing all the labels and vocab inScheme predicates for the resources' content" ;
             schema:name "Background Details" ;
         ] ;

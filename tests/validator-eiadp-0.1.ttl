@@ -51,7 +51,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 	a sh:NodeShape ;
     sh:targetClass schema:Dataset ;
     sh:property [
-        sh:path geo:boundingBox ;
+        sh:path geo:hasBoundingBox ;
         sh:minCount 1 ;
         sh:maxCount 1 ;
         sh:class geo:Geometry ;

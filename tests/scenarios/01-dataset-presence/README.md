@@ -48,7 +48,9 @@ WHERE {
 
     ?kw schema:name ?kw_label .
 
-    FILTER geof:sfOverlaps(XXXX, ?dataset_bb)
+    BIND (XXXX^^geo:wktLiteral AS ?input_area)
+
+    FILTER geof:sfIntersects(?input_area, ?dataset_bb)
 }
 ORDER BY ?name
 ```
