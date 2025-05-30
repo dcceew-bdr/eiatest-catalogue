@@ -6,23 +6,25 @@ PREFIX schema: <https://schema.org/>
     prof:hasResource 
         [
             dcterms:conformsTo <https://w3id.org/profile/vocpub> ;
-            prof:hasArtifact "resources/reference/envthes.ttl" ;
+            prof:hasArtifact "resources/reference/*.ttl" ;
             prof:hasRole <https://prez.dev/ManifestResourceRoles/ResourceData> ;
             schema:description "EIA Reference Vocabularies" ;
             schema:name "Reference Vocabularies" ;
+            dcterms:conformsTo <https://w3id.org/profile/vocpub> ;
         ] ,
         [
-            dcterms:conformsTo "tests/validator-eiadp-0.1.ttl" ;
-            prof:hasArtifact "resources/datasets/*.ttl" ;
+            dcterms:conformsTo "validators/eiadp-0.1.ttl" ;
+            prof:hasArtifact "resources/datasets/spatial/*.ttl" ;
             prof:hasRole <https://prez.dev/ManifestResourceRoles/ResourceData> ;
-            schema:description "EIA Datasets" ;
-            schema:name "Datasets" ;
+            schema:description "Spatial EIA Datasets" ;
+            schema:name "Spatial Datasets" ;
         ] ,
         [
-            prof:hasArtifact "resources/reference/nsl.ttl" ;
+            dcterms:conformsTo "validators/bcp.ttl" ;
+            prof:hasArtifact "resources/datasets/non-spatial/*.ttl" ;
             prof:hasRole <https://prez.dev/ManifestResourceRoles/ResourceData> ;
-            schema:description "EIA Reference Vocabularies" ;
-            schema:name "Reference Data" ;
+            schema:description "Non-spatial EIA Datasets" ;
+            schema:name "Non-Spatial Datasets" ;
         ] ,
         [
             prof:hasArtifact "catalogue.ttl" ;
