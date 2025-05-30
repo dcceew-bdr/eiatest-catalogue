@@ -1,0 +1,57 @@
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX prof: <http://www.w3.org/ns/dx/prof/>
+PREFIX schema: <https://schema.org/>
+
+<http://www.w3.org/ns/sosa/>
+    a owl:Ontology ;
+    schema:name "SOSA Ontology" ;
+.
+
+<http://www.w3.org/ns/ssn/>
+    a owl:Ontology ;
+    schema:name "Semantic Sensor Network Ontology" ;
+.
+
+<http://www.opengis.net/doc/IS/geosparql/1.1>
+    a owl:Ontology ;
+    schema:name "GeoSPARQL" ;
+.
+
+
+<https://linked.data.gov.au/def/abis>
+    a prof:Profile ;
+    schema:name "Australian Biodiversity Information Standard" ;
+    dcterms:conformsTo
+        <http://www.w3.org/ns/sosa/> ,
+        <http://www.opengis.net/doc/IS/geosparql/1.1> ;
+.
+
+<https://linked.data.gov.au/def/bdr-pr>
+    a prof:Profile ;
+    schema:name "BDR Profile of ABIS" ;
+    dcterms:conformsTo <https://linked.data.gov.au/def/abis> ;
+.
+
+<https://anzsoil.org/def/au/domain>
+    a owl:Ontology ;
+    schema:name "ANSIS Ontology" ;
+    dcterms:conformsTo
+        <http://www.w3.org/ns/sosa/> ,
+        <http://www.w3.org/ns/ssn/> ,
+        <http://www.opengis.net/doc/IS/geosparql/1.1> ;
+.
+
+<https://linked.data.gov.au/def/loci-dp>
+    a prof:Profile ;
+    schema:name "Loc-I Data Profile" ;
+    dcterms:conformsTo
+        <http://www.w3.org/ns/sosa/> ,
+        <http://www.opengis.net/doc/IS/geosparql/1.1> ;
+.
+
+<https://linked.data.gov.au/def/eia-dp>
+    a prof:Profile ;
+    schema:name "EIA Data Profile" ;
+    dcterms:conformsTo <https://linked.data.gov.au/def/loci-dp> ;
+.

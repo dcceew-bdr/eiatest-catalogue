@@ -1,0 +1,76 @@
+PREFIX : <https://linked.data.gov.au/def/eia-dk/>
+PREFIX cs: <https://linked.data.gov.au/eia-dk>
+PREFIX orgs: <https://linked.data.gov.au/dataset/bdr/orgs/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+:observations-environment
+    a skos:Concept ;
+    skos:definition "Observations of the environment"@en ;
+    skos:historyNote "Created for the EIA Test Catalogue in 2025" ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Observations of the Environment"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:characteristics-environment
+    a skos:Concept ;
+    skos:definition "Characteristics of the environment compiled from extended research"@en ;
+    skos:historyNote "Created for the EIA Test Catalogue in 2025" ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Environment Characteristics"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:observations-biodiversity
+    a skos:Concept ;
+    skos:definition "Observations of biodiversity"@en ;
+    skos:historyNote "Created for the EIA Test Catalogue in 2025" ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Observations of Biodiversity"@en ;
+    skos:broader :observations-environment ;
+.
+
+:observations-soil
+    a skos:Concept ;
+    skos:definition "Observations of soil"@en ;
+    skos:historyNote "Created for the EIA Test Catalogue in 2025" ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Observations of Soil"@en ;
+    skos:broader :observations-environment ;
+.
+
+:characteristics-biodiversity
+    a skos:Concept ;
+    skos:definition "Characteristics of biodiversity (taxa) compiled from extended research"@en ;
+    skos:historyNote "Created for the EIA Test Catalogue in 2025" ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Biodiversity Characteristics"@en ;
+    skos:broader :characteristics-environment ;
+.
+
+:characteristics-soil
+    a skos:Concept ;
+    skos:definition "Characteristics of soil compiled from extended research"@en ;
+    skos:historyNote "Created for the EIA Test Catalogue in 2025" ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Characteristics of Soil"@en ;
+    skos:broader :characteristics-environment ;
+.
+
+cs:
+    a skos:ConceptScheme ;
+    skos:definition """A vocabulary of the kinds of data within Environmental Information Australia"""@en ;
+    skos:hasTopConcept
+        :observations-environment ,
+        :characteristics-environment ;
+    skos:historyNote "Created for the EIA Test Catalogue in 2025" ;
+    skos:prefLabel "EIA Data Kinds Vocabulary"@en ;
+    schema:creator <https://linked.data.gov.au/org/dcceew> ;
+    schema:dateCreated "2025-05-29"^^xsd:date ;
+    schema:dateModified "2025-05-29"^^xsd:date ;
+    schema:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
+    schema:publisher <https://linked.data.gov.au/org/dcceew> ;
+.
