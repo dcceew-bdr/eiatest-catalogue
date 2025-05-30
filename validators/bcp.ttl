@@ -1,5 +1,4 @@
 PREFIX : <https://linked.data.gov.au/def/bcp/validator/>
-PREFIX dcat: <http://www.w3.org/ns/dcat#>
 PREFIX geo: <http://www.opengis.net/ont/geosparql#>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX prov: <http://www.w3.org/ns/prov#>
@@ -20,15 +19,15 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:description "The Basic Catalogue Profile SHACL validator" ;
     schema:name "Basic Catalogue Profile Validator" ;
     schema:hasPart
-        :Requirement-R-exists ,
-        :Requirement-R-name ,
-        :Requirement-R-desc ,
-        :Requirement-R-created ,
-        :Requirement-R-modified ,
-        :Requirement-R-creator ,
-        :Requirement-R-publisher ,
-        :Requirement-R-history ,
-        :Requirement-R-license ;
+        :Requirement-CW-exists ,
+        :Requirement-CW-name ,
+        :Requirement-CW-desc ,
+        :Requirement-CW-created ,
+        :Requirement-CW-modified ,
+        :Requirement-CW-creator ,
+        :Requirement-CW-publisher ,
+        :Requirement-CW-history ,
+        :Requirement-CW-license ;
 .
 
 <https://linked.data.gov.au/org/dcceew>
@@ -49,9 +48,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:url "https://kurrawong.ai"^^xsd:anyURI ;
 .
 
-:Requirement-R-exists
+:Requirement-CW-exists
 	a sh:NodeShape ;
-    sh:targetNode dcat:Resource ;
+    sh:targetNode schema:CreativeWork ;
     sh:property [
         sh:path [ sh:inversePath rdf:type ] ;
         sh:minCount 1 ;
@@ -59,9 +58,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     ] ;
 .
 
-:Requirement-R-name
+:Requirement-CW-name
 	a sh:NodeShape ;
-	sh:targetClass dcat:Resource ;
+	sh:targetClass schema:CreativeWork ;
     sh:message "Each catalogued resource MUST have one and only one name which is to be a text literal, indicated using the schema:name predicate" ;
     sh:property [
         sh:path schema:name ;
@@ -74,9 +73,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     ] ;
 .
 
-:Requirement-R-desc
+:Requirement-CW-desc
 	a sh:NodeShape ;
-	sh:targetClass dcat:Resource ;
+	sh:targetClass schema:CreativeWork ;
     sh:message "Each catalogued resource MUST have one and description which is to be a text literal, indicated using the schema:description predicate" ;
     sh:property [
         sh:path schema:description ;
@@ -89,12 +88,12 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     ] ;
 .
 
-# :Requirement-R-id
+# :Requirement-CW-id
 # nothing to validate
 
-:Requirement-R-created
+:Requirement-CW-created
 	a sh:NodeShape ;
-	sh:targetClass dcat:Resource ;
+	sh:targetClass schema:CreativeWork ;
     sh:message "Requirement D-created: Each catalogued resource MUST have exactly one created date indicated using the schema:dateCreated predicate with a literal value of either xsd:date, xsd:dateTime or xsd:dateTimeStamp type" ;
     sh:property [
         sh:path schema:dateCreated ;
@@ -109,9 +108,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     ]
 .
 
-:Requirement-R-modified
+:Requirement-CW-modified
 	a sh:NodeShape ;
-	sh:targetClass dcat:Resource ;
+	sh:targetClass schema:CreativeWork ;
     sh:message "Requirement D-modified: Each catalogued resource MUST have exactly one created date indicated using the schema:dateModified predicate with a literal value of either xsd:date, xsd:dateTime or xsd:dateTimeStamp type" ;
     sh:property [
         sh:path schema:dateModified ;
@@ -125,9 +124,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     ]
 .
 
-:Requirement-R-creator
+:Requirement-CW-creator
 	a sh:NodeShape ;
-    sh:targetClass dcat:Resource ;
+    sh:targetClass schema:CreativeWork ;
 	sh:property [
 		sh:path schema:creator ;
         sh:minCount 1 ;
@@ -139,9 +138,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 	] ;
 .
 
-:Requirement-R-publisher
+:Requirement-CW-publisher
 	a sh:NodeShape ;
-    sh:targetClass dcat:Resource ;
+    sh:targetClass schema:CreativeWork ;
 	sh:property [
 		sh:path schema:publisher ;
 		sh:description "Requirement D-publisher: Each catalogued resource MUST indicate one or more agents with the schema:publisher predicate, typed as an schema:Person or schema:Organization" ;
@@ -153,9 +152,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 	] ;
 .
 
-:Requirement-R-history
+:Requirement-CW-history
 	a sh:NodeShape ;
-	sh:targetClass dcat:Resource ;
+	sh:targetClass schema:CreativeWork ;
     sh:message "Requirement D-history: Each catalogued resource SHOULD indicate how it was produced or its origin by use of one of the following predicates: skos:historyNote, schema:citation, prov:wasDerivedFrom" ;
     sh:or (
         :provenance-properties-01
@@ -165,9 +164,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     sh:severity sh:Warning ;
 .
 
-:Requirement-R-license
+:Requirement-CW-license
 	a sh:NodeShape ;
-	sh:targetClass dcat:Resource ;
+	sh:targetClass schema:CreativeWork ;
     sh:message "Requirement D-license: Each catalogued resource MUST indicate a license that defines conditions for its use with the schema:license predicate with the value indicated coming from either the RDF Licenses dataset or being locally-defined odrl:Policy instance" ;
     sh:property [
         sh:path schema:license ;

@@ -21,3 +21,10 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:name "Department of Climate Change, energy, the Environment and Water" ;
     schema:url "https://www.dcceew.gov.au/"^^xsd:anyURI ;
 .
+
+
+<https://linked.data.gov.au/org/canbr>
+    a schema:Organization ;
+    schema:name "Centre for Australian National Biodiversity Research" ;
+    schema:url "https://www.anbg.gov.au/cpbr/index.html"^^xsd:anyURI ;
+.
