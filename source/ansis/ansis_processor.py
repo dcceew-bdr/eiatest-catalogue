@@ -51,6 +51,8 @@ lu_land_uses = {
     "cropping": URIRef("https://linked.data.gov.au/def/alum/3.3"),
     "logged native forest": URIRef("https://linked.data.gov.au/def/alum/2.2"),
     "urban": URIRef("https://linked.data.gov.au/def/alum/5.4"),
+    "vegetables/flowers": URIRef("https://linked.data.gov.au/def/alum/3.4"),
+    "quarry/mining": URIRef("https://linked.data.gov.au/def/alum/5.8"),
 }
 
 if __name__ == "__main__":
@@ -98,4 +100,4 @@ if __name__ == "__main__":
         for k, v in ansis_namespaces.items():
             g.bind(k, v)
 
-print(g.serialize(format="turtle"))
+g.serialize(destination="ansis-data.ttl", format="longturtle")
