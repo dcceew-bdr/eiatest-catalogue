@@ -13,12 +13,7 @@ PREFIX schema: <https://schema.org/>
         ] ,
         [
             dcterms:conformsTo "validators/eiadp-0.1.ttl" ;
-            prof:hasArtifact 
-                [
-                    schema:contentLocation "https--linked.data.gov.au-def-eia-supermodel.ttl" ;
-                    schema:mainEntity <https://linked.data.gov.au/def/eia-supermodel> ;
-                ] ,
-                "resources/datasets/spatial/*.ttl" ;
+            prof:hasArtifact "resources/datasets/spatial/*.ttl" ;
             prof:hasRole <https://prez.dev/ManifestResourceRoles/ResourceData> ;
             schema:description "Spatial EIA Datasets" ;
             schema:name "Spatial Datasets" ;

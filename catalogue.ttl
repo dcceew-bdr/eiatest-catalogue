@@ -11,13 +11,16 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:dateModified "2025-05-08"^^xsd:date ;
     schema:description "Environmental Information Australia datasets and reference data collected in a catalogue to test out and demonstrate 'deep' dataset interoperability by using Semantic Web and Knowledge Graph technologies" ;
     schema:hasPart
-        <https://linked.data.gov.au/dataset/bdr> ,
+        <https://linked.data.gov.au/dataset/eiatest/bdr> ,
         <https://linked.data.gov.au/dataset/eiatest/ansis> ,
         <https://linked.data.gov.au/dataset/eiatest/austraits> ,
         <https://linked.data.gov.au/dataset/eiatest/hcas> ,
+        <https://linked.data.gov.au/dataset/eiatest/nsl> ,
         <https://linked.data.gov.au/dataset/eiatest/nvis> ,
         <https://linked.data.gov.au/dataset/eiatest/sprat> ,
-        <https://linked.data.gov.au/def/eia-supermodel> ;
+        <https://linked.data.gov.au/eia-dk> ,
+        <http://vocabs.lter-europe.net/EnvThes> ,
+        <https://linked.data.gov.au/def/alum> ;
     schema:name "EIA Test Catalogue" ;
     schema:publisher <https://linked.data.gov.au/org/dcceew> ;
 .
