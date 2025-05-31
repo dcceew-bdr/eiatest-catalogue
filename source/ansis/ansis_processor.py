@@ -1,17 +1,16 @@
 import json
 from rdflib import Graph, URIRef, BNode, Literal, Namespace
-from rdflib.namespace import PROV, RDF, RDFS, SDO
+from rdflib.namespace import GEO, PROV, RDF, RDFS, SDO
 from _ANSIS import ANSIS
 from pathlib import Path
 
 D = Namespace("https://linked.data.gov.au/dataset/eiatest/ansis/")
 TERN = Namespace("https://w3id.org/tern/ontologies/tern/")
 
-lu_authorities = {
+lu_sid_authorities = {
     "NSW Govt": URIRef("https://linked.data.gov.au/org/nsw"),
     "CSIRO": URIRef("https://linked.data.gov.au/org/csiro"),
 }
-
 
 ansis_namespaces = {
     "ansis":    "https://anzsoil.org/def/au/domain/",
@@ -38,7 +37,13 @@ def make_iri(value):
     prefix, val = value.split(":")
     namespace = ansis_namespaces.get(prefix)
     return URIRef(f"{namespace}{val}")
-    
+
+def make_quantity_value(g, value, unit) -> BNode:
+    qv = BNode()
+    g.add((qv, RDF.type, SDO.QuantitativeValue))
+    g.add((qv, SDO.value, Literal(value)))
+    g.add((qv, SDO.unitCode, make_iri(unit)))
+    return qv
 
 lu_land_uses = {
     "National/State Parks": URIRef("https://linked.data.gov.au/def/alum/1.1.3"),
@@ -58,46 +63,178 @@ lu_land_uses = {
 if __name__ == "__main__":
     g = Graph()
 
+    fc = URIRef("https://linked.data.gov.au/dataset/eiatest/ansis/SoilSites")
+
     for f in Path(__file__).parent.glob("3c*.json"):
         data = json.load(open(f))
 
         for d in data["data"]:
-            id = d["scopedIdentifier"][0]["value"]
-            iri = URIRef(D + id)
+            #
+            # Values
+            #
 
-            id_authority = d["scopedIdentifier"][0]["authority"]
+            # IRI
+            id = d["id"]
 
+            # disturbance
+            disturbances = d.get("disturbance", None)
+            disturbance_values = []
+            if disturbances is not None:
+                for disturbance in disturbances:
+                    disturbance_values.append(disturbance["result"])
+
+            # elevation
+            elevations = d.get("elevation", None)
+            elevation_values = []
+            if elevations is not None:
+                for elevation in elevations:
+                    elevation_values.append(elevation["result"]["value"])
+
+            # geometry
             wkt = d["geometry"]["result"].replace("SRID=4283;", "")
 
-            disturbances = d.get("disturbance", None)
-            if disturbances:
-                for disturbances in disturbances:
-                    g.add((iri, ANSIS.disturbance, make_iri(disturbances["result"])))
-
+            # land use
             land_uses = d.get("landUse", None)
-            if land_uses:
+            land_use_values = []
+            if land_uses is not None:
                 for land_use in land_uses:
-                    lu = lu_land_uses.get(land_use["result"]["value"])
+                    land_use_values.append(land_use["result"]["value"])
 
-                    if lu:
-                        g.add((iri, ANSIS.hasLandUse, lu))
-                    else:
-                        print(land_use["result"]["value"])
-            #
-            # site_visits = d.get("siteVisit", None)
-            #
-            #
-            #
-            # site_visit = d["siteVisit"][0]["endedAtTime"]
-            #
-            # soil_profile_classification = d["siteVisit"][0]["soilProfile"][0]["classification"][0]["result"]["value"]
-            # soil_profile_depth = d["siteVisit"][0]["soilProfile"][0]["depth"]["result"]["value"]
+            # scoped identifier
+            sid = d["scopedIdentifier"][0]["value"]
+            sid_authority = d["scopedIdentifier"][0]["authority"]
 
+            # site visit
+            site_visits = d.get("siteVisit", None)
+            outcrop_types = []
+            runoff_type = None
+            soil_profile_types = []
+            if site_visits:
+                for site_visit in site_visits:
+                    # land surfaces
+                    land_surface = site_visit.get("land_surface", None)
+                    if land_surface is not None:
+                        outcrop =  site_visit.get("outcrop", None)
+                        if outcrop is not None:
+                            outcrop_types.append(outcrop["abundance"]["result"])
+                        runoff = site_visit.get("runoff", None)
+                        if runoff is not None:
+                            runoff_type = runoff["result"]
+
+                    # soil profiles
+                    soil_profiles = site_visit.get("soil_profile", None)
+                    if soil_profiles is not None:
+                        soil_profiles = []
+
+                        for soil_profile in soil_profiles:
+                            classifications_values = []
+                            depth_value = None
+                            drainage_value = None
+                            permeability_value = None
+                            substrate_value = None
+
+                            # classification
+                            classifications = site_visit.get("classifications", None)
+                            if classifications is not None:
+                                for classification in classifications:
+                                    classifications_values.append(classification["result"]["value"])
+
+                            # depth
+                            depth = site_visit.get("depth", None)
+                            if depth is not None:
+                                depth_value = depth["result"]["value"]
+                                                            
+                            # drainage
+                            drainage = site_visit.get("drainage", None)
+                            if drainage is not None:
+                                drainage_value = depth["result"]
+                                
+                            # permeability
+                            permeability = site_visit.get("permeability", None)
+                            if permeability is not None:
+                                permeability_value = depth["result"]
+
+                            # soil layers
+                            # not done
+
+                            # substrate
+                            substrate = site_visit.get("substrate", None)
+                            if substrate is not None:
+                                substrate_value = depth["lithology"]["result"]
+
+                            soil_profile_types.append((classifications_values, depth_value, drainage_value, permeability_value, substrate_value))
+
+            #
+            # RDF
+            #
+
+            # IRI
+            iri = URIRef(D + id)
             g.add((iri, RDF.type, ANSIS.SoilSite))
-            g.add((iri, RDF.type, TERN.Site))
-            g.add((iri, PROV.wasAttributedTo, lu_authorities[id_authority]))
+            g.add((iri, RDF.type, GEO.Feature))
+            g.add((iri, SDO.isPartOf, fc))
+            g.add((fc, SDO.hasPart, iri))
+
+            # disturbance
+            for disturbance_value in disturbance_values:
+                g.add((iri, ANSIS.disturbance, make_iri(disturbance_value)))
+
+            # elevation
+            for elevation_value in elevation_values:
+                elev = make_quantity_value(g, elevation_value, "unit:M")
+                g.add((iri, ANSIS.elevation, elev))
+
+            # geometry
+            geom = BNode()
+            g.add((iri, GEO.hasGeometry, geom))
+            g.add((geom, RDF.type, GEO.Geometry))
+            g.add((geom, GEO.asWKT, Literal(wkt, datatype=GEO.wktLiteral)))
+
+            # land use
+            for land_use_value in land_use_values:
+                lu = lu_land_uses[land_use_value]
+                if lu is not None:
+                    g.add((iri, ANSIS.hasLandUse, lu))
+
+            # scoped identifier
+            g.add((iri, SDO.identifier, Literal(sid, datatype=lu_sid_authorities[sid_authority])))
+
+            # site visit
+            # land surfaces
+            for site_visit_value in site_visits:
+                for outcrop_type in outcrop_types:
+                    g.add((iri, ANSIS.hasOutcrop, make_iri(outcrop_type)))
+
+                if runoff_type is not None:
+                    g.add((iri, ANSIS.runoff, make_iri(runoff_type)))
+
+                # soil profiles
+                for soil_profile_type in soil_profile_types:
+                    sp = BNode()
+                    g.add((iri, ANSIS.relatedProfile, sp))
+
+                    # classification
+                    for classification_value in soil_profile_type[0]:
+                        g.add((sp, ANSIS.classification, make_iri(classification_value)))
+                    # depth
+                    if soil_profile_type[1] is not None:
+                        g.add((sp, ANSIS.depth, make_quantity_value(sp, soil_profile_type[1], "unit:CentiM")))
+                    # drainage
+                    if soil_profile_type[2] is not None:
+                        g.add((sp, ANSIS.drainage, make_iri(soil_profile_type[2])))
+                    # permeability
+                    if soil_profile_type[3] is not None:
+                        g.add((sp, ANSIS.permeability, make_iri(soil_profile_type[3])))
+                    # substrate
+                    if soil_profile_type[4] is not None:
+                        g.add((sp, ANSIS.hasSubstrate, make_iri(soil_profile_type[4])))
 
         for k, v in ansis_namespaces.items():
             g.bind(k, v)
+        g.bind("tern", TERN)
+        g.bind("alum", "https://linked.data.gov.au/def/alum/")
+        g.bind("ss", "https://linked.data.gov.au/dataset/eiatest/ansis/SoilSites")
+        g.bind("ansisdata", "https://linked.data.gov.au/dataset/eiatest/ansis/")
 
-g.serialize(destination="ansis-data.ttl", format="longturtle")
+
+g.serialize(destination="ansis-data.ttl", format="turtle")

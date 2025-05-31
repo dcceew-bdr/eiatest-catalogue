@@ -5,14 +5,15 @@ PREFIX schema: <https://schema.org/>
 []    a <https://prez.dev/Manifest> ;
     prof:hasResource 
         [
-            dcterms:conformsTo <https://w3id.org/profile/vocpub> ;
+            # dcterms:conformsTo <https://w3id.org/profile/vocpub> ;
             prof:hasArtifact "resources/reference/*.ttl" ;
             prof:hasRole <https://prez.dev/ManifestResourceRoles/ResourceData> ;
             schema:description "EIA Reference Vocabularies" ;
             schema:name "Reference Vocabularies" ;
         ] ,
         [
-            dcterms:conformsTo "validators/eiadp-0.1.ttl" ;
+            # dcterms:conformsTo "validators/eiadp-0.1.ttl" ;
+            dcterms:conformsTo <https://linked.data.gov.au/def/loci-dp> ;
             prof:hasArtifact "resources/datasets/spatial/*.ttl" ;
             prof:hasRole <https://prez.dev/ManifestResourceRoles/ResourceData> ;
             schema:description "Spatial EIA Datasets" ;
