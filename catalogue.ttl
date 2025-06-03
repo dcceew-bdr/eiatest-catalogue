@@ -13,7 +13,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:hasPart
         <https://linked.data.gov.au/dataset/eiatest/bdr> ,
         <https://linked.data.gov.au/dataset/eiatest/ansis> ,
-        <https://linked.data.gov.au/dataset/eiatest/austraits> ,
+        <https://w3id.org/APD/traits> ,
         <https://linked.data.gov.au/dataset/eiatest/hcas> ,
         <https://linked.data.gov.au/dataset/eiatest/nsl> ,
         <https://linked.data.gov.au/dataset/eiatest/nvis> ,

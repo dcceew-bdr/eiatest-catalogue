@@ -1,0 +1,5078 @@
+@base <localhost://> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix APD: <https://w3id.org/APD/traits/> .
+@prefix APD_glossary: <https://w3id.org/APD/glossary/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dwc: <http://rs.tdwg.org/dwc/terms/attributes/> .
+@prefix dcam: <http://purl.org/dc/dcam/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ets: <http://terminologies.gfbio.org/terms/ETS/> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix oboecore: <http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#> .
+@prefix ont: <https://w3id.org/iadopt/ont/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix uom: <https://w3id.org/uom/> .
+@prefix datacite: <http://purl.org/datacite/v4.4/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix Cerrado: <http://cerrado.linkeddata.es/ecology/> .
+@prefix CorVeg: <http://linked.data.gov.au/def/corveg-cv/> .
+@prefix CO: <https://cropontology.org/rdf/> .
+@prefix DCM: <http://dicom.nema.org/resources/ontology/DCM/> .
+@prefix EDAM: <http://edamontology.org/> .
+@prefix EFO: <http://www.ebi.ac.uk/efo/> .
+@prefix EnvThes: <http://vocabs.lter-europe.net/EnvThes/> .
+@prefix hupson: <http://scai.fraunhofer.de/HuPSON#> .
+@prefix IOBC: <http://purl.jp/bio/4/id/> .
+@prefix MESH: <http://purl.bioontology.org/ontology/MESH/> .
+@prefix odo: <http://purl.dataone.org/odo/> .
+@prefix ORCID: <https://orcid.org/> .
+@prefix SIO: <http://semanticscience.org/resource/> .
+@prefix SWEET_phenSolid: <http://sweetontology.net/phenSolid/> .
+@prefix SWEET_phenSystem: <http://sweetontology.net/phenSystem/> .
+@prefix SWEET_procWave: <http://sweetontology.net/procWave/> .
+@prefix SWEET_prop: <http://sweetontology.net/prop/> .
+@prefix SWEET_propConductivity: <http://sweetontology.net/propConductivity> .
+@prefix SWEET_propPressure: <http://sweetontology.net/propPressure/> .
+@prefix SWEET_propTime: <http://sweetontology.net/propTime/> .
+@prefix SWEET_realmSoil: <http://sweetontology.net/realmSoil/> .
+@prefix SWEET_reprSciComponent: <http://sweetontology.net/reprSciComponent/> .
+@prefix SWEET_reprTimeDay: <http://sweetontology.net/reprTimeDay/> .
+
+<http://cerrado.linkeddata.es/ecology/ccon/#Recruitment>
+    dcterms:identifier "Recruitment" ;
+    skos:prefLabel "recruitment"@en .
+
+<http://cerrado.linkeddata.es/ecology/fire#PlantMortality>
+    dcterms:identifier "PlantMortality" ;
+    skos:prefLabel "Plant Mortality"@en .
+
+<http://cerrado.linkeddata.es/ecology/fire#PlantResprout>
+    dcterms:identifier "PlantResprout" ;
+    skos:prefLabel "Plant resprout"@en .
+
+<http://dicom.nema.org/resources/ontology/DCM/125315>
+    dcterms:identifier "125315" ;
+    skos:prefLabel "calculated"@en .
+
+oboecore:MeasuredCharacteristic
+    dcterms:description "A measured characteristic of an entity is one that is measurable within the physical world. A measured characteristic includes primary and derived physical dimensions (e.g., length, mass, area, density). The measured value assigned to a measured characteristic may be a quantity (a numerical value) or a quality (a category), including both nominal and ordinal categories."@en ;
+    skos:prefLabel "measured characteristic"@en .
+
+EDAM:data_3722
+    dcterms:identifier "data_3722" ;
+    skos:prefLabel "physiology parameter"@en .
+
+EDAM:data_3723
+    dcterms:identifier "data_3723" ;
+    skos:prefLabel "morphology parameter"@en .
+
+EDAM:topic_3321
+    dcterms:identifier "data_3321" ;
+    skos:prefLabel "molecular genetics"@en .
+
+<http://linked.data.gov.au/def/corveg-cv/8e1b8694-7bc4-4ce7-90c1-69d68e07a3aa>
+    dcterms:identifier "8e1b8694-7bc4-4ce7-90c1-69d68e07a3aa" ;
+    skos:prefLabel "vegetation stratum"@en .
+
+<http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C61556>
+    dcterms:identifier "C61556" ;
+    skos:prefLabel "defence"@en .
+
+MESH:D000068098
+    dcterms:identifier "D000068098" ;
+    skos:prefLabel "seed bank"@en .
+
+MESH:D004579
+    dcterms:identifier "D004579" ;
+    skos:prefLabel "electron transport"@en .
+
+MESH:D005740
+    dcterms:identifier "D005740" ;
+    skos:prefLabel "gas"@en .
+
+MESH:D008962
+    dcterms:identifier "D008962" ;
+    skos:prefLabel "Models, Theoretical"@en .
+
+MESH:D012273
+    dcterms:identifier "D012273" ;
+    skos:prefLabel "Ribulose-Bisphosphate Carboxylase"@en .
+
+MESH:D013718
+    dcterms:identifier "D013718" ;
+    skos:prefLabel "tensile strength"@en .
+
+MESH:D019245
+    dcterms:identifier "D019245" ;
+    skos:prefLabel "compressive strength"@en .
+
+MESH:D055595
+    dcterms:identifier "D055595" ;
+    skos:prefLabel "mechanical phenomena"@en .
+
+odo:ECSO_00000310
+    dcterms:identifier "ECSO_00000310" ;
+    skos:prefLabel "community"@en .
+
+odo:ECSO_00000549
+    dcterms:identifier "ECSO_00000549" ;
+    skos:prefLabel "tree diameter at breast height"@en .
+
+odo:ECSO_00000619
+    dcterms:identifier "ECSO_00000619" ;
+    skos:prefLabel "mass fraction"@en .
+
+odo:ECSO_00000620
+    dcterms:identifier "ECSO_00000620" ;
+    skos:prefLabel "mass fraction of carbon dioxide"@en .
+
+odo:ECSO_00000669
+    dcterms:identifier "ECSO_00000669" ;
+    skos:prefLabel "d13C"@en .
+
+odo:ECSO_00001142
+    dcterms:identifier "ECSO_00001142" ;
+    skos:prefLabel "carbon stable isotope ratio"@en .
+
+odo:ECSO_00001160
+    dcterms:identifier "ECSO_00001160" ;
+    skos:prefLabel "count density"@en .
+
+odo:ECSO_00001671
+    dcterms:identifier "ECSO_00001671" ;
+    skos:prefLabel "d18O in water"@en .
+
+odo:ECSO_00001677
+    dcterms:identifier "ECSO_00001677" ;
+    skos:prefLabel "d18O"@en .
+
+odo:ECSO_00001737
+    dcterms:identifier "ECSO_00001737" ;
+    skos:prefLabel "stable nitrogen isotope ratio"@en .
+
+odo:ECSO_00001738
+    dcterms:identifier "ECSO_00001738" ;
+    skos:prefLabel "d15N"@en .
+
+odo:ECSO_00001740
+    dcterms:identifier "ECSO_00001740" ;
+    skos:prefLabel "stable oxygen isotope ratio"@en .
+
+odo:ECSO_00002723
+    dcterms:identifier "ECSO_00002723" ;
+    skos:prefLabel "solar zenith angle"@en .
+
+odo:MOSAIC_00000974
+    dcterms:identifier "MOSAIC_00000974" ;
+    skos:prefLabel "Spectroradiometer"@en .
+
+<http://purl.jp/bio/4/id/200906054028027590>
+    dcterms:identifier "200906054028027590" ;
+    skos:prefLabel "establishment"@en .
+
+<http://purl.jp/bio/4/id/200906064703668091>
+    dcterms:identifier "200906064703668091" ;
+    skos:prefLabel "water holding capacity"@en .
+
+obo:CARO_0000043
+    dcterms:identifier "CARO_0000043" ;
+    skos:prefLabel "tissue"@en .
+
+obo:CHEBI_15377
+    dcterms:identifier "CHEBI_15377" ;
+    skos:prefLabel "water"@en .
+
+obo:CHEBI_15379
+    dcterms:identifier "CHEBI_15379" ;
+    skos:prefLabel "dioxygen, oxygen"@en .
+
+obo:CHEBI_16526
+    dcterms:identifier "CHEBI_16526" ;
+    skos:prefLabel "carbon dioxide"@en .
+
+obo:CHEBI_16646
+    dcterms:identifier "CHEBI_16646" ;
+    skos:prefLabel "carbohydrate"@en .
+
+obo:CHEBI_18059
+    dcterms:identifier "CHEBI_18059" ;
+    skos:prefLabel "lipid"@en .
+
+obo:CHEBI_18154
+    dcterms:identifier "CHEBI_18154" ;
+    skos:prefLabel "polysaccharide"@en .
+
+obo:CHEBI_18230
+    dcterms:identifier "CHEBI_18230" ;
+    skos:prefLabel "chlorophyll a"@en .
+
+obo:CHEBI_18248
+    dcterms:identifier "CHEBI_18248" ;
+    skos:prefLabel "iron atom"@en .
+
+obo:CHEBI_18291
+    dcterms:identifier "CHEBI_18291" ;
+    skos:prefLabel "manganese atom"@en .
+
+obo:CHEBI_22984
+    dcterms:identifier "CHEBI_22984" ;
+    skos:prefLabel "calcium atom"@en .
+
+obo:CHEBI_23044
+    dcterms:identifier "CHEBI_23044" ;
+    skos:prefLabel "carotenoid"@en .
+
+obo:CHEBI_23116
+    dcterms:identifier "CHEBI_23116" ;
+    skos:prefLabel "chlorine atom"@en .
+
+obo:CHEBI_23367
+    dcterms:identifier "CHEBI_23367" ;
+    skos:prefLabel "molecular"@en .
+
+obo:CHEBI_24866
+    dcterms:identifier "CHEBI_24866" ;
+    skos:prefLabel "salt"@en .
+
+obo:CHEBI_25107
+    dcterms:identifier "CHEBI_25107" ;
+    skos:prefLabel "magnesium atom"@en .
+
+obo:CHEBI_25555
+    dcterms:identifier "CHEBI_25555" ;
+    skos:prefLabel "nitrogen atom"@en .
+
+obo:CHEBI_26195
+    dcterms:identifier "CHEBI_26195" ;
+    skos:prefLabel "polyphenol"@en .
+
+obo:CHEBI_26216
+    dcterms:identifier "CHEBI_26216" ;
+    skos:prefLabel "potassium atom"@en .
+
+obo:CHEBI_26708
+    dcterms:identifier "CHEBI_26708" ;
+    skos:prefLabel "sodium atom"@en .
+
+obo:CHEBI_26833
+    dcterms:identifier "CHEBI_26833" ;
+    skos:prefLabel "sulfur atom"@en .
+
+obo:CHEBI_26848
+    dcterms:identifier "CHEBI_26848" ;
+    skos:prefLabel "tannin"@en .
+
+obo:CHEBI_27027
+    dcterms:identifier "CHEBI_27027" ;
+    skos:prefLabel "micronutrient"@en .
+
+obo:CHEBI_27325
+    dcterms:identifier "CHEBI_27325" ;
+    skos:prefLabel "xanthophyll"@en .
+
+obo:CHEBI_27363
+    dcterms:identifier "CHEBI_27363" ;
+    skos:prefLabel "zinc atom"@en .
+
+obo:CHEBI_27560
+    dcterms:identifier "CHEBI_27560" ;
+    skos:prefLabel "boron atom"@en .
+
+obo:CHEBI_27568
+    dcterms:identifier "CHEBI_27568" ;
+    skos:prefLabel "selenium atom"@en .
+
+obo:CHEBI_27573
+    dcterms:identifier "CHEBI_27573" ;
+    skos:prefLabel "silicon atom"@en .
+
+obo:CHEBI_27594
+    dcterms:identifier "CHEBI_27594" ;
+    skos:prefLabel "carbon atom"@en .
+
+obo:CHEBI_27638
+    dcterms:identifier "CHEBI_27638" ;
+    skos:prefLabel "cobalt atom"@en .
+
+obo:CHEBI_27888
+    dcterms:identifier "CHEBI_27888" ;
+    skos:prefLabel "chlorophyll b"@en .
+
+obo:CHEBI_28017
+    dcterms:identifier "CHEBI_28017" ;
+    skos:prefLabel "starch"@en .
+
+obo:CHEBI_28073
+    dcterms:identifier "CHEBI_28073" ;
+    skos:prefLabel "chromium atom"@en .
+
+obo:CHEBI_28112
+    dcterms:identifier "CHEBI_28112" ;
+    skos:prefLabel "nickel atom"@en .
+
+obo:CHEBI_28659
+    dcterms:identifier "CHEBI_28659" ;
+    skos:prefLabel "phosphorus atom"@en .
+
+obo:CHEBI_28685
+    dcterms:identifier "CHEBI_28685" ;
+    skos:prefLabel "molybdenum atom"@en .
+
+obo:CHEBI_28694
+    dcterms:identifier "CHEBI_28694" ;
+    skos:prefLabel "copper atom"@en .
+
+obo:CHEBI_28966
+    dcterms:identifier "CHEBI_28966" ;
+    skos:prefLabel "chlorophyll"@en .
+
+obo:CHEBI_28984
+    dcterms:identifier "CHEBI_28984" ;
+    skos:prefLabel "aluminium atom"@en .
+
+obo:CHEBI_30778
+    dcterms:identifier "CHEBI_30778" ;
+    skos:prefLabel "gallic acid"@en .
+
+obo:CHEBI_33284
+    dcterms:identifier "CHEBI_33284" ;
+    skos:prefLabel "nutrient"@en .
+
+obo:CHEBI_33292
+    dcterms:identifier "CHEBI_33292" ;
+    skos:prefLabel "fuel"@en .
+
+obo:CHEBI_33815
+    dcterms:identifier "CHEBI_33815" ;
+    skos:prefLabel "oxygen-18 atom"@en .
+
+obo:CHEBI_33853
+    dcterms:identifier "CHEBI_33853" ;
+    skos:prefLabel "phenol"@en .
+
+obo:CHEBI_33937
+    dcterms:identifier "CHEBI_33937" ;
+    skos:prefLabel "macronutrient"@en .
+
+obo:CHEBI_35381
+    dcterms:identifier "CHEBI_35381" ;
+    skos:prefLabel "monosaccharide"@en .
+
+obo:CHEBI_36080
+    dcterms:identifier "CHEBI_36080" ;
+    skos:prefLabel "protein"@en .
+
+obo:CHEBI_36233
+    dcterms:identifier "CHEBI_36233" ;
+    skos:prefLabel "disaccharide"@en .
+
+obo:CHEBI_36928
+    dcterms:identifier "CHEBI_36928" ;
+    skos:prefLabel "carbon-13 atom"@en .
+
+obo:CHEBI_36934
+    dcterms:identifier "CHEBI_36934" ;
+    skos:prefLabel "nitrogen-15 atom"@en .
+
+obo:CHEBI_47778
+    dcterms:identifier "CHEBI_47778" ;
+    skos:prefLabel "glyceride"@en .
+
+obo:CHEBI_61266
+    dcterms:identifier "CHEBI_61266" ;
+    skos:prefLabel "hemicellulose"@en .
+
+obo:CHEBI_62967
+    dcterms:identifier "CHEBI_62967" ;
+    skos:prefLabel "amorphous cellulose"@en .
+
+obo:CHEBI_6457
+    dcterms:identifier "CHEBI_6457" ;
+    skos:prefLabel "lignin"@en .
+
+obo:CHMO_0000506
+    dcterms:identifier "CHMO_0000506" ;
+    skos:prefLabel "isotope ratio mass spectrometry"@en .
+
+obo:CHMO_0000514
+    dcterms:identifier "CHMO_0000514" ;
+    skos:prefLabel "stable isotope ratio mass spectrometry"@en .
+
+obo:CHMO_0001549
+    dcterms:identifier "CHMO_0001549" ;
+    skos:prefLabel "sample drying"@en .
+
+obo:CL_0000000
+    dcterms:identifier "CL_0000000" ;
+    skos:prefLabel "cell"@en .
+
+obo:CL_0002371
+    dcterms:identifier "CL_0002371" ;
+    skos:prefLabel "somatic cell"@en .
+
+obo:CO_321_0000015
+    dcterms:identifier "CO_321_0000015" ;
+    skos:prefLabel "growth habit"@en .
+
+obo:ECOCORE_00000018
+    dcterms:identifier "ECOCORE_00000018" ;
+    skos:prefLabel "life history"@en .
+
+obo:ECOCORE_00000022
+    dcterms:identifier "ECOCORE_00000022" ;
+    skos:prefLabel "symbiosis"@en .
+
+obo:ECOCORE_00000146
+    dcterms:identifier "ECOCORE_00000146" ;
+    skos:prefLabel "parasite"@en .
+
+obo:ENVO_00001998
+    dcterms:identifier "ENVO_00001998" ;
+    skos:prefLabel "soil"@en .
+
+obo:ENVO_00002040
+    dcterms:identifier "ENVO_00002040" ;
+    skos:prefLabel "wood"@en .
+
+obo:ENVO_01000155
+    dcterms:identifier "ENVO_01000155" ;
+    skos:prefLabel "biomass"@en .
+
+obo:ENVO_01000203
+    dcterms:identifier "ENVO_01000203" ;
+    skos:prefLabel "environmental condition"@en .
+
+obo:ENVO_01000230
+    dcterms:identifier "ENVO_01000230" ;
+    skos:prefLabel "arid"@en .
+
+obo:ENVO_01000267
+    dcterms:identifier "ENVO_01000267" ;
+    skos:prefLabel "atmosphere"@en .
+
+obo:ENVO_01000355
+    dcterms:identifier "ENVO_01000355" ;
+    skos:prefLabel "vegetation layer"@en .
+
+obo:ENVO_01000406
+    dcterms:identifier "ENVO_01000406" ;
+    skos:prefLabel "snow"@en .
+
+obo:ENVO_01000451
+    dcterms:identifier "ENVO_01000451" ;
+    skos:prefLabel "atmospheric carbon dioxide"@en .
+
+obo:ENVO_01000628
+    dcterms:identifier "ENVO_01000628" ;
+    skos:prefLabel "plant litter"@en .
+
+obo:ENVO_01000710
+    dcterms:identifier "ENVO_01000710" ;
+    skos:prefLabel "flood"@en .
+
+obo:ENVO_01000739
+    dcterms:identifier "ENVO_01000739" ;
+    skos:prefLabel "habitat"@en .
+
+obo:ENVO_01000786
+    dcterms:identifier "ENVO_01000786" ;
+    skos:prefLabel "fire"@en .
+
+obo:ENVO_01000789
+    dcterms:identifier "ENVO_01000789" ;
+    skos:prefLabel "flame"@en .
+
+obo:ENVO_01000839
+    dcterms:identifier "ENVO_01000839" ;
+    skos:prefLabel "combustion process"@en .
+
+obo:ENVO_01001023
+    dcterms:identifier "ENVO_01001023" ;
+    skos:prefLabel "radiation"@en .
+
+obo:ENVO_01001242
+    dcterms:identifier "ENVO_01001242" ;
+    skos:prefLabel "canopy"@en .
+
+obo:ENVO_01001864
+    dcterms:identifier "ENVO_01001864" ;
+    skos:prefLabel "photosynthetically active radiation"@en .
+
+obo:ENVO_02000090
+    dcterms:identifier "ENVO_02000090" ;
+    skos:prefLabel "ash"@en .
+
+obo:ENVO_02000126
+    dcterms:identifier "ENVO_02000126" ;
+    skos:prefLabel "wood ash"@en .
+
+obo:ENVO_02500035
+    dcterms:identifier "ENVO_02500035" ;
+    skos:prefLabel "transpiration"@en .
+
+obo:ENVO_2000016
+    dcterms:identifier "ENVO_2000016" ;
+    skos:prefLabel "potential energy"@en .
+
+obo:ENVO_21001214
+    dcterms:identifier "ENVO_21001214" ;
+    skos:prefLabel "infrared radiation"@en .
+
+obo:FLOPO_0000089
+    dcterms:identifier "FLOPO_0000089" ;
+    skos:prefLabel "whole plant phenotype"@en .
+
+obo:FLOPO_0000093
+    dcterms:identifier "FLOPO_0000093" ;
+    skos:prefLabel "stem shape"@en .
+
+obo:FLOPO_0000500
+    dcterms:identifier "FLOPO_0000500" ;
+    skos:prefLabel "leaf morphology"@en .
+
+obo:FLOPO_0000692
+    dcterms:identifier "FLOPO_0000692" ;
+    skos:prefLabel "leaf mass density"@en .
+
+obo:FLOPO_0001888
+    dcterms:identifier "FLOPO_0001889" ;
+    skos:prefLabel "cotyledon pilosity"@en .
+
+obo:FLOPO_0002203
+    dcterms:identifier "FLOPO_0002203" ;
+    skos:prefLabel "inflorescence phenotypic sex"@en .
+
+obo:FLOPO_0003076
+    dcterms:identifier "FLOPO_0003076" ;
+    skos:prefLabel "anther attachment quality"@en .
+
+obo:FLOPO_0003507
+    dcterms:identifier "FLOPO_0003507" ;
+    skos:prefLabel "filament 2-D shape"@en .
+
+obo:FLOPO_0003626
+    dcterms:identifier "FLOPO_0003626" ;
+    skos:prefLabel "hypocotyl pilosity"@en .
+
+obo:FLOPO_0003673
+    dcterms:identifier "FLOPO_0003673" ;
+    skos:prefLabel "root branchiness"@en .
+
+obo:FLOPO_0004243
+    dcterms:identifier "FLOPO_0004243" ;
+    skos:prefLabel "plant cuticle thickness"@en .
+
+obo:FLOPO_0004574
+    dcterms:identifier "FLOPO_0004574" ;
+    skos:prefLabel "filament attached to"@en .
+
+obo:FLOPO_0005619
+    dcterms:identifier "FLOPO_0005619" ;
+    skos:prefLabel "leaf surface feature shape"@en .
+
+obo:FLOPO_0006416
+    dcterms:identifier "FLOPO_0006416" ;
+    skos:prefLabel "leaf spiny"@en .
+
+obo:FLOPO_0008799
+    dcterms:identifier "FLOPO_0008799" ;
+    skos:prefLabel "bark morphology"@en .
+
+obo:FLOPO_0010468
+    dcterms:identifier "FLOPO_0010468" ;
+    skos:prefLabel "leaf curled"@en .
+
+obo:FLOPO_0013426
+    dcterms:identifier "FLOPO_0013426" ;
+    skos:prefLabel "stem surface feature shape"@en .
+
+obo:FLOPO_0013872
+    dcterms:identifier "FLOPO_0013872" ;
+    skos:prefLabel "root texture"@en .
+
+obo:FLOPO_0015264
+    dcterms:identifier "FLOPO_0015264" ;
+    skos:prefLabel "stem spiny"@en .
+
+obo:FLOPO_0016172
+    dcterms:identifier "FLOPO_0016172" ;
+    skos:prefLabel "primary root phenotype"@en .
+
+obo:FLOPO_0018653
+    dcterms:identifier "FLOPO_0018653" ;
+    skos:prefLabel "epidermis thickness"@en .
+
+obo:FLOPO_0024051
+    dcterms:identifier "FLOPO_0024051" ;
+    skos:prefLabel "anther orientation"@en .
+
+obo:FLOPO_0900022
+    dcterms:identifier "FLOPO_0900022" ;
+    skos:prefLabel "whole plant lifeform"@en .
+
+obo:FLOPO_0900032
+    dcterms:identifier "FLOPO_0900032" ;
+    skos:prefLabel "whole plant growth form"@en .
+
+obo:FLOPO_0900038
+    dcterms:identifier "FLOPO_0900038" ;
+    skos:prefLabel "shoot axis woodiness"@en .
+
+obo:FLOPO_0900041
+    dcterms:identifier "FLOPO_0900041" ;
+    skos:prefLabel "tissue succulence"@en .
+
+obo:FLOPO_0900045
+    dcterms:identifier "FLOPO_0900045" ;
+    skos:prefLabel "whole plant parasitic"@en .
+
+obo:FLOPO_0900073
+    dcterms:identifier "FLOPO_0900073" ;
+    skos:prefLabel "leaf margin entire"@en .
+
+obo:GO_0000003
+    dcterms:identifier "GO_0000003" ;
+    skos:prefLabel "reproduction"@en .
+
+obo:GO_0003006
+    dcterms:identifier "GO_0003006" ;
+    skos:prefLabel "developmental process involved in reproduction"@en .
+
+obo:GO_0005575
+    dcterms:identifier "GO_0005575" ;
+    skos:prefLabel "cellular component"@en .
+
+obo:GO_0006833
+    dcterms:identifier "GO_0006833" ;
+    skos:prefLabel "water transport"@en .
+
+obo:GO_0009399
+    dcterms:identifier "GO_0009399" ;
+    skos:prefLabel "nitrogen fixation"@en .
+
+obo:GO_0009505
+    dcterms:identifier "GO_0009505" ;
+    skos:prefLabel "plant-type cell wall"@en .
+
+obo:GO_0009507
+    dcterms:identifier "GO_0009507" ;
+    skos:prefLabel "chloroplast"@en .
+
+obo:GO_0009521
+    dcterms:identifier "GO_0009521" ;
+    skos:prefLabel "photosystem"@en .
+
+obo:GO_0009538
+    dcterms:identifier "GO_0009538" ;
+    skos:prefLabel "photosystem I reaction center"@en .
+
+obo:GO_0009539
+    dcterms:identifier "GO_0009539" ;
+    skos:prefLabel "photosystem II reaction center"@en .
+
+obo:GO_0009579
+    dcterms:identifier "GO_0009579" ;
+    skos:prefLabel "thylakoid"@en .
+
+obo:GO_0009628
+    dcterms:identifier "GO_0009628" ;
+    skos:prefLabel "response to abiotic stimulus"@en .
+
+obo:GO_0009760
+    dcterms:identifier "GO_0009760" ;
+    skos:prefLabel "C4 photosynthesis"@en .
+
+obo:GO_0009761
+    dcterms:identifier "GO_0009761" ;
+    skos:prefLabel "CAM photosynthesis"@en .
+
+obo:GO_0009845
+    dcterms:identifier "GO_0009845" ;
+    skos:prefLabel "seed germination"@en .
+
+obo:GO_0009853
+    dcterms:identifier "GO_0009853" ;
+    skos:prefLabel "photorespiration"@en .
+
+obo:GO_0009856
+    dcterms:identifier "GO_0009856" ;
+    skos:prefLabel "pollination"@en .
+
+obo:GO_0009877
+    dcterms:identifier "GO_0009877" ;
+    skos:prefLabel "nodulation"@en .
+
+obo:GO_0009900
+    dcterms:identifier "GO_0009900" ;
+    skos:prefLabel "dehiscence"@en .
+
+obo:GO_0009987
+    dcterms:identifier "GO_0009987" ;
+    skos:prefLabel "cellular process"@en .
+
+obo:GO_0010109
+    dcterms:identifier "GO_0010109" ;
+    skos:prefLabel "regulation of photosynthesis"@en .
+
+obo:GO_0010162
+    dcterms:identifier "GO_0010162" ;
+    skos:prefLabel "seed dormancy"@en .
+
+obo:GO_0015979
+    dcterms:identifier "GO_0015979" ;
+    skos:prefLabel "photosynthesis"@en .
+
+obo:GO_0016020
+    dcterms:identifier "GO_0016020" ;
+    skos:prefLabel "membrane"@en .
+
+obo:GO_0016265
+    dcterms:identifier "GO_0016265" ;
+    skos:prefLabel "death"@en .
+
+obo:GO_0018995
+    dcterms:identifier "GO_0018995" ;
+    skos:prefLabel "host"@en .
+
+obo:GO_0019253
+    dcterms:identifier "GO_0019253" ;
+    skos:prefLabel "Calvin cycle; C3 photosynthesis (reductive pentose-phosphate cycle)"@en .
+
+obo:GO_0019684
+    dcterms:identifier "GO_0019684" ;
+    skos:prefLabel "photosynthesis, light reaction"@en .
+
+obo:GO_0019685
+    dcterms:identifier "GO_0019685" ;
+    skos:prefLabel "photosynthesis, dark reaction"@en .
+
+obo:GO_0019954
+    dcterms:identifier "GO_0019954" ;
+    skos:prefLabel "asexual reproduction"@en .
+
+obo:GO_0022900
+    dcterms:identifier "GO_0022900" ;
+    skos:prefLabel "electron transport chain"@en .
+
+obo:GO_0031099
+    dcterms:identifier "GO_0031099" ;
+    skos:prefLabel "regeneration"@en .
+
+obo:GO_0036377
+    dcterms:identifier "GO_0036377" ;
+    skos:prefLabel "arbuscular mycorrhizal association"@en .
+
+obo:GO_0040007
+    dcterms:identifier "GO_0040007" ;
+    skos:prefLabel "growth"@en .
+
+obo:GO_0044237
+    dcterms:identifier "GO_0044237" ;
+    skos:prefLabel "cellular metabolic process"@en .
+
+obo:GO_0044403
+    dcterms:identifier "GO_0044403" ;
+    skos:prefLabel "biological process involved in symbiotic interaction, symbiosis"@en .
+
+obo:GO_0044419
+    dcterms:identifier "GO_0044419" ;
+    skos:prefLabel "biological process involved in interspecies interaction between organisms"@en .
+
+obo:GO_0045333
+    dcterms:identifier "GO_0045333" ;
+    skos:prefLabel "cellular respiration"@en .
+
+obo:GO_0048492
+    dcterms:identifier "GO_0048492" ;
+    skos:prefLabel "rubisco complex, ribulose bisphosphate carboxylase complex"@en .
+
+obo:GO_0050896
+    dcterms:identifier "GO_0050896" ;
+    skos:prefLabel "response to stimulus"@en .
+
+obo:GO_0062074
+    dcterms:identifier "GO_0062074" ;
+    skos:prefLabel "pollen aperture"@en .
+
+obo:GO_0072519
+    dcterms:identifier "GO_0072519" ;
+    skos:prefLabel "parasitism"@en .
+
+obo:GO_0085030
+    dcterms:identifier "GO_0085030" ;
+    skos:prefLabel "mutualism"@en .
+
+obo:GO_0085035
+    dcterms:identifier "GO_0085035" ;
+    skos:prefLabel "haustorium"@en .
+
+obo:GO_0090406
+    dcterms:identifier "GO_0090406" ;
+    skos:prefLabel "pollen tube"@en .
+
+obo:GO_0090546
+    dcterms:identifier "GO_0090546" ;
+    skos:prefLabel "chlorophyll fluorescence"@en .
+
+obo:HP_0012531
+    dcterms:identifier "HP_0012531" ;
+    skos:prefLabel "pain"@en .
+
+obo:IAO_0000111
+    skos:prefLabel "editor preferred term"@en .
+
+obo:IAO_0000708
+    dcterms:description "A centrally registered identifier that is issued by ORCID (https://orcid.org/) and used to persistantly identify oneself as a human researcher or contributor."@en ;
+    skos:prefLabel "ORCID identifier"@en .
+
+obo:IAO_0100001
+    dcterms:description "Use on obsolete terms, relating the term to another term that can be used as a substitute"@en ;
+    skos:prefLabel "term replaced by"@en .
+
+obo:MOP_0000591
+    dcterms:identifier "MOP_0000591" ;
+    skos:prefLabel "carboxylation"@en .
+
+obo:NCBITaxon_1117
+    dcterms:identifier "NCBITaxon_1117" ;
+    skos:prefLabel "cyanobacteria"@en .
+
+obo:NCBITaxon_3193
+    dcterms:identifier "NCBITaxon_3193" ;
+    skos:prefLabel "plants, land plants"@en .
+
+obo:NCBITaxon_4751
+    dcterms:identifier "NCBITaxon_4751" ;
+    skos:prefLabel "fungi"@en .
+
+obo:NCIT_C116358
+    dcterms:identifier "NCIT_C116358" ;
+    skos:prefLabel "suitable, amenable"@en .
+
+obo:NCIT_C120715
+    dcterms:identifier "NCT_C120715" ;
+    skos:prefLabel "shortest diameter"@en .
+
+obo:NCIT_C124422
+    dcterms:identifier "NCIT_C124422" ;
+    skos:prefLabel "airway conductance"@en .
+
+obo:NCIT_C124537
+    dcterms:identifier "NCIT_C124537" ;
+    skos:prefLabel "fused"@en .
+
+obo:NCIT_C126395
+    dcterms:identifier "NCIT_C126395" ;
+    skos:prefLabel "recycle"@en .
+
+obo:NCIT_C13018
+    dcterms:identifier "NCIT_C13018" ;
+    skos:prefLabel "organ"@en .
+
+obo:NCIT_C13202
+    dcterms:identifier "NCIT_C13202" ;
+    skos:prefLabel "chromosome"@en .
+
+obo:NCIT_C14187
+    dcterms:identifier "NCIT_C14187" ;
+    skos:prefLabel "bacteria"@en .
+
+obo:NCIT_C14329
+    dcterms:identifier "NCIT_C14329" ;
+    skos:prefLabel "microorganism"@en .
+
+obo:NCIT_C153298
+    dcterms:identifier "NCIT_C153298" ;
+    skos:prefLabel "longevity"@en .
+
+obo:NCIT_C157201
+    dcterms:identifier "NCIT_C157201" ;
+    skos:prefLabel "combustion"@en .
+
+obo:NCIT_C158868
+    dcterms:identifier "NCIT_C158868" ;
+    skos:prefLabel "adaptation"@en .
+
+obo:NCIT_C166400
+    dcterms:identifier "NCIT_C166400" ;
+    skos:prefLabel "inclusive"@en .
+
+obo:NCIT_C16940
+    dcterms:identifier "NCIT_C16940" ;
+    skos:prefLabel "optics"@en .
+
+obo:NCIT_C16977
+    dcterms:identifier "NCIT_C16977" ;
+    skos:prefLabel "phenotype"@en .
+
+obo:NCIT_C16990
+    dcterms:identifier "NCIT_C16990" ;
+    skos:prefLabel "physiology"@en .
+
+obo:NCIT_C17732
+    dcterms:identifier "NCIT_C17732" ;
+    skos:prefLabel "visible light"@en .
+
+obo:NCIT_C17941
+    dcterms:identifier "NCIT_C17941" ;
+    skos:prefLabel "exposure"@en .
+
+obo:NCIT_C179804
+    dcterms:identifier "NCIT_C179804" ;
+    skos:prefLabel "number fraction"@en .
+
+obo:NCIT_C180567
+    dcterms:identifier "NCIT_C180567" ;
+    skos:prefLabel "enzyme activity"@en .
+
+obo:NCIT_C19536
+    dcterms:identifier "NCIT_C19536" ;
+    skos:prefLabel "metabolic process"@en .
+
+obo:NCIT_C19899
+    dcterms:identifier "NCIT_C19899" ;
+    skos:prefLabel "biochemical reaction"@en .
+
+obo:NCIT_C25150
+    dcterms:identifier "NCIT_C25150" ;
+    skos:prefLabel "age"@en .
+
+obo:NCIT_C25154
+    dcterms:identifier "NCIT_C25154" ;
+    skos:prefLabel "axis"@en .
+
+obo:NCIT_C25161
+    dcterms:identifier "NCIT_C25161" ;
+    skos:prefLabel "classification"@en .
+
+obo:NCIT_C25201
+    dcterms:identifier "NCIT_C25201" ;
+    skos:prefLabel "sensitivity"@en .
+
+obo:NCIT_C25227
+    dcterms:identifier "NCIT_C25227" ;
+    skos:prefLabel "high"@en .
+
+obo:NCIT_C25245
+    dcterms:identifier "NCIT_C25245" ;
+    skos:prefLabel "surface"@en .
+
+obo:NCIT_C25251
+    dcterms:identifier "NCIT_C25251" ;
+    skos:prefLabel "primary"@en .
+
+obo:NCIT_C25256
+    dcterms:identifier "NCIT_C25256" ;
+    skos:prefLabel "quantity"@en .
+
+obo:NCIT_C25284
+    dcterms:identifier "NCIT_C25284" ;
+    skos:prefLabel "type"@en .
+
+obo:NCIT_C25304
+    dcterms:identifier "NCIT_C25304" ;
+    skos:prefLabel "total"@en .
+
+obo:NCIT_C25309
+    dcterms:identifier "NCIT_C25309" ;
+    skos:prefLabel "lower"@en .
+
+obo:NCIT_C25330
+    dcterms:identifier "NCIT_C25330" ;
+    skos:prefLabel "duration"@en .
+
+obo:NCIT_C25341
+    dcterms:identifier "NCIT_C25341" ;
+    skos:prefLabel "location"@en .
+
+obo:NCIT_C25343
+    dcterms:identifier "NCIT_C25343" ;
+    skos:prefLabel "mechanism"@en .
+
+obo:NCIT_C25355
+    dcterms:identifier "NCIT_C25355" ;
+    skos:prefLabel "upper"@en .
+
+obo:NCIT_C25376
+    dcterms:identifier "NCIT_C25376" ;
+    skos:prefLabel "small, smaller"@en .
+
+obo:NCIT_C25390
+    dcterms:identifier "NCIT_C25390" ;
+    skos:prefLabel "index"@en .
+
+obo:NCIT_C25423
+    dcterms:identifier "NCIT_C25423" ;
+    skos:prefLabel "apical"@en .
+
+obo:NCIT_C25446
+    dcterms:identifier "NCIT_C25446" ;
+    skos:prefLabel "change"@en .
+
+obo:NCIT_C25463
+    dcterms:identifier "NCIT_C25463" ;
+    skos:prefLabel "count"@en .
+
+obo:NCIT_C25513
+    dcterms:identifier "NCIT_C25513" ;
+    skos:prefLabel "formation"@en .
+
+obo:NCIT_C25518
+    dcterms:identifier "NCIT_C25518" ;
+    skos:prefLabel "function"@en .
+
+obo:NCIT_C25533
+    dcterms:identifier "NCIT_C25533" ;
+    skos:prefLabel "increase"@en .
+
+obo:NCIT_C25558
+    dcterms:identifier "NCIT_C25558" ;
+    skos:prefLabel "longest"@en .
+
+obo:NCIT_C25564
+    dcterms:identifier "NCIT_C25564" ;
+    skos:prefLabel "maximum"@en .
+
+obo:NCIT_C25570
+    dcterms:identifier "NCIT_C25570" ;
+    skos:prefLabel "minimum"@en .
+
+obo:NCIT_C25652
+    dcterms:identifier "NCIT_C25652" ;
+    skos:prefLabel "requirement"@en .
+
+obo:NCIT_C25755
+    dcterms:identifier "NCIT_C25755" ;
+    skos:prefLabel "response"@en .
+
+obo:NCIT_C28176
+    dcterms:identifier "NCIT_C28176" ;
+    skos:prefLabel "parasite"@en .
+
+obo:NCIT_C37940
+    dcterms:identifier "NCIT_C37940" ;
+    skos:prefLabel "deficit"@en .
+
+obo:NCIT_C37994
+    dcterms:identifier "NCIT_C37994" ;
+    skos:prefLabel "movement"@en .
+
+obo:NCIT_C38024
+    dcterms:identifier "NCIT_C38024" ;
+    skos:prefLabel "specified"@en .
+
+obo:NCIT_C40098
+    dcterms:identifier "NCIT_C40098" ;
+    skos:prefLabel "taxon"@en .
+
+obo:NCIT_C41141
+    dcterms:identifier "NCIT_C41141" ;
+    skos:prefLabel "flow"@en .
+
+obo:NCIT_C42882
+    dcterms:identifier "NCIT_C42882" ;
+    skos:prefLabel "release"@en .
+
+obo:NCIT_C43359
+    dcterms:identifier "NCIT_C43359" ;
+    skos:prefLabel "group"@en .
+
+obo:NCIT_C43366
+    dcterms:identifier "NCIT_C43366" ;
+    skos:prefLabel "compound"@en .
+
+obo:NCIT_C43414
+    dcterms:identifier "NCIT_C43414" ;
+    skos:prefLabel "tolerance"@en .
+
+obo:NCIT_C44280
+    dcterms:identifier "NCIT_C44280" ;
+    skos:prefLabel "external"@en .
+
+obo:NCIT_C44473
+    dcterms:identifier "NCIT_C44473" ;
+    skos:prefLabel "measured"@en .
+
+obo:NCIT_C45997
+    dcterms:identifier "NCIT_C45997" ;
+    skos:prefLabel "pH"@en .
+
+obo:NCIT_C47933
+    dcterms:identifier "NCIT_C47933" ;
+    skos:prefLabel "isotope"@en .
+
+obo:NCIT_C48164
+    dcterms:identifier "NCIT_C48164" ;
+    skos:prefLabel "medium"@en .
+
+obo:NCIT_C49148
+    dcterms:identifier "NCIT_C49158" ;
+    skos:prefLabel "magnitude"@en .
+
+obo:NCIT_C49159
+    dcterms:identifier "NCIT_C49159" ;
+    skos:prefLabel "proportion"@en .
+
+obo:NCIT_C49508
+    dcterms:identifier "NCIT_C49508" ;
+    skos:prefLabel "large, larger"@en .
+
+obo:NCIT_C50710
+    dcterms:identifier "NCIT_C50710" ;
+    skos:prefLabel "protrustion"@en .
+
+obo:NCIT_C52349
+    dcterms:identifier "NCIT_C52349" ;
+    skos:prefLabel "obtain"@en .
+
+obo:NCIT_C54264
+    dcterms:identifier "NCIT_C54264" ;
+    skos:prefLabel "avoidance"@en .
+
+obo:NCIT_C60778
+    dcterms:identifier "NCIT_C60778" ;
+    skos:prefLabel "performance"@en .
+
+obo:NCIT_C61404
+    dcterms:identifier "NCIT_C61404" ;
+    skos:prefLabel "spread"@en .
+
+obo:NCIT_C61427
+    dcterms:identifier "NCIT_C61427" ;
+    skos:prefLabel "saturated"@en .
+
+obo:NCIT_C61460
+    dcterms:identifier "NCIT_C61460" ;
+    skos:prefLabel "appendage"@en .
+
+obo:NCIT_C61485
+    dcterms:identifier "NCIT_C61485" ;
+    skos:prefLabel "broad"@en .
+
+obo:NCIT_C61532
+    dcterms:identifier "NCIT_C61532" ;
+    skos:prefLabel "arrangement"@en .
+
+obo:NCIT_C61556
+    dcterms:identifier "NCIT_C61556" ;
+    skos:prefLabel "defense"@en .
+
+obo:NCIT_C62306
+    dcterms:identifier "NCIT_C62306" ;
+    skos:prefLabel "ambient"@en .
+
+obo:NCIT_C63390
+    dcterms:identifier "NCIT_C63390" ;
+    skos:prefLabel "vapor"@en .
+
+obo:NCIT_C63795
+    dcterms:identifier "NCIT_C63795" ;
+    skos:prefLabel "cross section"@en .
+
+obo:NCIT_C66715
+    dcterms:identifier "NCIT_C66715" ;
+    skos:prefLabel "consumption"@en .
+
+obo:NCIT_C67469
+    dcterms:identifier "NCIT_C67469" ;
+    skos:prefLabel "volume fraction"@en .
+
+obo:NCIT_C70693
+    dcterms:identifier "NCIT_C70693" ;
+    skos:prefLabel "gradient"@en .
+
+obo:NCIT_C73434
+    dcterms:identifier "NCIT_C73434" ;
+    skos:prefLabel "air"@en .
+
+obo:NCIT_C73990
+    dcterms:identifier "NCIT_C73990" ;
+    skos:prefLabel "temporal"@en .
+
+obo:NCIT_C78209
+    dcterms:identifier "NCIT_C78209" ;
+    skos:prefLabel "ability"@en .
+
+obo:NCIT_C79672
+    dcterms:identifier "NCIT_C79672" ;
+    skos:prefLabel "spore"@en .
+
+obo:NCIT_C79692
+    dcterms:identifier "NCIT_C79692" ;
+    skos:prefLabel "fascicle"@en .
+
+obo:NCIT_C80489
+    dcterms:identifier "NCIT_C80489" ;
+    skos:prefLabel "denominator"@en .
+
+obo:NCIT_C81002
+    dcterms:identifier "NCIT_C81002" ;
+    skos:prefLabel "climbing"@en .
+
+obo:NCIT_C82333
+    dcterms:identifier "NCIT_C82333" ;
+    skos:prefLabel "diffusion"@en .
+
+obo:NCIT_C88112
+    dcterms:identifier "NCIT_C88112" ;
+    skos:prefLabel "photon"@en .
+
+obo:NCIT_C88204
+    dcterms:identifier "NCIT_C88204" ;
+    skos:prefLabel "desiccation"@en .
+
+obo:NCIT_C90067
+    dcterms:identifier "NCIT_C90067" ;
+    skos:prefLabel "basal"@en .
+
+obo:NCIT_C93062
+    dcterms:identifier "NCIT_C93062" ;
+    skos:prefLabel "wood"@en .
+
+obo:NCIT_C93204
+    dcterms:identifier "NCIT_C93204" ;
+    skos:prefLabel "resorption"@en .
+
+obo:NCIT_C9445
+    dcterms:identifier "NCIT_C9445" ;
+    skos:prefLabel "rupture"@en .
+
+obo:NCIT_C96684
+    dcterms:identifier "NCIT_C96684" ;
+    skos:prefLabel "longest diameter"@en .
+
+obo:OBI_0000971
+    dcterms:identifier "OBI_0000971" ;
+    skos:prefLabel "fresh specimen"@en .
+
+obo:OBI_0001930
+    dcterms:identifier "OBI_0001930" ;
+    skos:prefLabel "categorical value specification"@en .
+
+obo:OBI_0100026
+    dcterms:identifier "OBI_0100026" ;
+    skos:prefLabel "organism"@en .
+
+obo:OBI_0302893
+    dcterms:identifier "OBI_0302893" ;
+    skos:prefLabel "storage"@en .
+
+obo:OMIT_0009112
+    dcterms:identifier "OMIT_0009112" ;
+    skos:prefLabel "light"@en .
+
+obo:OMIT_0022986
+    dcterms:identifier "OMIT_0022986" ;
+    skos:prefLabel "genetic structures"@en .
+
+obo:OMIT_0027297
+    dcterms:identifier "OMIT_0027297" ;
+    skos:prefLabel "seed dispersal"@en .
+
+obo:OMIT_0027643
+    dcterms:identifier "OMIT_0027643" ;
+    skos:prefLabel "genome size"@en .
+
+obo:PATO_0000008
+    dcterms:identifier "PATO_0000008" ;
+    skos:prefLabel "speed"@en .
+
+obo:PATO_0000014
+    dcterms:identifier "PATO_0000014" ;
+    skos:prefLabel "colour / color"@en .
+
+obo:PATO_0000025
+    dcterms:identifier "PATO_0000025" ;
+    skos:prefLabel "composition"@en .
+
+obo:PATO_0000033
+    dcterms:identifier "PATO_0000033" ;
+    skos:prefLabel "concentration"@en .
+
+obo:PATO_0000040
+    dcterms:identifier "PATO_0000040" ;
+    skos:prefLabel "distance"@en .
+
+obo:PATO_0000044
+    dcterms:identifier "PATO_0000044" ;
+    skos:prefLabel "frequency"@en .
+
+obo:PATO_0000051
+    dcterms:identifier "PATO_0000051" ;
+    skos:prefLabel "morphology"@en .
+
+obo:PATO_0000052
+    dcterms:identifier "PATO_0000052" ;
+    skos:prefLabel "shape"@en .
+
+obo:PATO_0000060
+    dcterms:identifier "PATO_0000060" ;
+    skos:prefLabel "spatial pattern, distribution"@en .
+
+obo:PATO_0000066
+    dcterms:identifier "PATO_0000066" ;
+    skos:prefLabel "pilosity"@en .
+
+obo:PATO_0000070
+    dcterms:identifier "PATO_0000070" ;
+    skos:prefLabel "amount (presence or absence in organism)"@en .
+
+obo:PATO_0000077
+    dcterms:identifier "PATO_0000077" ;
+    skos:prefLabel "response to"@en .
+
+obo:PATO_0000117
+    dcterms:identifier "PATO_0000117" ;
+    skos:prefLabel "size"@en .
+
+obo:PATO_0000119
+    dcterms:identifier "PATO_0000119" ;
+    skos:prefLabel "height"@en .
+
+obo:PATO_0000122
+    dcterms:identifier "PATO_0000122" ;
+    skos:prefLabel "length"@en .
+
+obo:PATO_0000125
+    dcterms:identifier "PATO_0000125" ;
+    skos:prefLabel "mass"@en .
+
+obo:PATO_0000133
+    dcterms:identifier "PATO_0000133" ;
+    skos:prefLabel "orientation"@en .
+
+obo:PATO_0000140
+    dcterms:identifier "PATO_0000140" ;
+    skos:prefLabel "position"@en .
+
+obo:PATO_0000141
+    dcterms:identifier "PATO_0000141" ;
+    skos:prefLabel "structure"@en .
+
+obo:PATO_0000150
+    dcterms:identifier "PATO_0000150" ;
+    skos:prefLabel "texture"@en .
+
+obo:PATO_0000161
+    dcterms:identifier "PATO_0000161" ;
+    skos:prefLabel "rate"@en .
+
+obo:PATO_0000165
+    dcterms:identifier "PATO_0000165" ;
+    skos:prefLabel "time"@en .
+
+obo:PATO_0000169
+    dcterms:identifier "PATO_0000169" ;
+    skos:prefLabel "viability"@en .
+
+obo:PATO_0000261
+    dcterms:identifier "PATO_0000261" ;
+    skos:prefLabel "maturity"@en .
+
+obo:PATO_0000327
+    dcterms:identifier "PATO_0000327" ;
+    skos:prefLabel "dark"@en .
+
+obo:PATO_0000330
+    dcterms:identifier "PATO_0000330" ;
+    skos:prefLabel "irregular"@en .
+
+obo:PATO_0000383
+    dcterms:identifier "PATO_0000383" ;
+    skos:prefLabel "female"@en .
+
+obo:PATO_0000384
+    dcterms:identifier "PATO_0000384" ;
+    skos:prefLabel "male"@en .
+
+obo:PATO_0000404
+    dcterms:identifier "PATO_0000404" ;
+    skos:prefLabel "coiled"@en .
+
+obo:PATO_0000405
+    dcterms:identifier "PATO_0000405" ;
+    skos:prefLabel "curled"@en .
+
+obo:PATO_0000407
+    dcterms:identifier "PATO_0000407" ;
+    skos:prefLabel "flat"@en .
+
+obo:PATO_0000410
+    dcterms:identifier "PATO_0000410" ;
+    skos:prefLabel "pinnate"@en .
+
+obo:PATO_0000453
+    dcterms:identifier "PATO_0000453" ;
+    skos:prefLabel "glabrous"@en .
+
+obo:PATO_0000454
+    dcterms:identifier "PATO_0000454" ;
+    skos:prefLabel "hairy"@en .
+
+obo:PATO_0000462
+    dcterms:identifier "PATO_0000462" ;
+    skos:prefLabel "absent"@en .
+
+obo:PATO_0000467
+    dcterms:identifier "PATO_0000467" ;
+    skos:prefLabel "present"@en .
+
+obo:PATO_0000573
+    dcterms:identifier "PATO_0000573" ;
+    skos:prefLabel "increased length, long"@en .
+
+obo:PATO_0000591
+    dcterms:identifier "PATO_0000591" ;
+    skos:prefLabel "increased thickness, thickened; high thickness; stout"@en .
+
+obo:PATO_0000599
+    dcterms:identifier "PATO_0000599" ;
+    skos:prefLabel "decreased width"@en .
+
+obo:PATO_0000600
+    dcterms:identifier "PATO_0000600" ;
+    skos:prefLabel "increased width"@en .
+
+obo:PATO_0000617
+    dcterms:identifier "PATO_0000617" ;
+    skos:prefLabel "bent"@en .
+
+obo:PATO_0000892
+    dcterms:identifier "PATO_0000892" ;
+    skos:prefLabel "female sterile"@en .
+
+obo:PATO_0000915
+    dcterms:identifier "PATO_0000915" ;
+    skos:prefLabel "thickness"@en .
+
+obo:PATO_0000918
+    dcterms:identifier "PATO_0000918" ;
+    skos:prefLabel "volume"@en .
+
+obo:PATO_0000921
+    dcterms:identifier "PATO_0000921" ;
+    skos:prefLabel "width"@en .
+
+obo:PATO_0000955
+    dcterms:identifier "PATO_0000955" ;
+    skos:prefLabel "fertile"@en .
+
+obo:PATO_0000965
+    dcterms:identifier "PATO_0000965" ;
+    skos:prefLabel "symmetry"@en .
+
+obo:PATO_0000982
+    dcterms:identifier "PATO_0000982" ;
+    skos:prefLabel "permeable"@en .
+
+obo:PATO_0001019
+    dcterms:identifier "PATO_0001019" ;
+    skos:prefLabel "mass density, density"@en .
+
+obo:PATO_0001021
+    dcterms:identifier "PATO_0001021" ;
+    skos:prefLabel "energy"@en .
+
+obo:PATO_0001024
+    dcterms:identifier "PATO_0001024" ;
+    skos:prefLabel "power"@en .
+
+obo:PATO_0001025
+    dcterms:identifier "PATO_0001025" ;
+    skos:prefLabel "pressure"@en .
+
+obo:PATO_0001026
+    dcterms:identifier "PATO_0001026" ;
+    skos:prefLabel "work"@en .
+
+obo:PATO_0001029
+    dcterms:identifier "PATO_0001029" ;
+    skos:prefLabel "efficiency"@en .
+
+obo:PATO_0001031
+    dcterms:identifier "PATO_0001031" ;
+    skos:prefLabel "elasticity"@en .
+
+obo:PATO_0001034
+    dcterms:identifier "PATO_0001034" ;
+    skos:prefLabel "strain"@en .
+
+obo:PATO_0001035
+    dcterms:identifier "PATO_0001035" ;
+    skos:prefLabel "force"@en .
+
+obo:PATO_0001046
+    dcterms:identifier "PATO_0001046" ;
+    skos:prefLabel "resistance to"@en .
+
+obo:PATO_0001190
+    dcterms:identifier "PATO_0001190" ;
+    skos:prefLabel "juvenile"@en .
+
+obo:PATO_0001195
+    dcterms:identifier "PATO_0001195" ;
+    skos:prefLabel "proximal to"@en .
+
+obo:PATO_0001206
+    dcterms:identifier "PATO_0001206" ;
+    skos:prefLabel "serrated"@en .
+
+obo:PATO_0001230
+    dcterms:identifier "PATO_0001230" ;
+    skos:prefLabel "strength"@en .
+
+obo:PATO_0001234
+    dcterms:identifier "PATO_0001234" ;
+    skos:prefLabel "distal to"@en .
+
+obo:PATO_0001297
+    dcterms:identifier "PATO_0001297" ;
+    skos:prefLabel "reflectivity"@en .
+
+obo:PATO_0001309
+    dcterms:identifier "PATO_0001309" ;
+    skos:prefLabel "duration"@en .
+
+obo:PATO_0001323
+    dcterms:identifier "PATO_0001323" ;
+    skos:prefLabel "area"@en .
+
+obo:PATO_0001328
+    dcterms:identifier "PATO_0001328" ;
+    skos:prefLabel "actinomorphic"@en .
+
+obo:PATO_0001334
+    dcterms:identifier "PATO_0001334" ;
+    skos:prefLabel "diameter"@en .
+
+obo:PATO_0001340
+    dcterms:identifier "PATO_0001340" ;
+    skos:prefLabel "hermaphrodite"@en .
+
+obo:PATO_0001351
+    dcterms:identifier "PATO_0001351" ;
+    skos:prefLabel "area density"@en .
+
+obo:PATO_0001353
+    dcterms:identifier "PATO_0001353" ;
+    skos:prefLabel "volume density"@en .
+
+obo:PATO_0001365
+    dcterms:identifier "PATO_0001365" ;
+    skos:prefLabel "spiny"@en .
+
+obo:PATO_0001374
+    dcterms:identifier "PATO_0001374" ;
+    skos:prefLabel "ploidy"@en .
+
+obo:PATO_0001394
+    dcterms:identifier "PATO_0001394" ;
+    skos:prefLabel "diploid"@en .
+
+obo:PATO_0001421
+    dcterms:identifier "PATO_0001421" ;
+    skos:prefLabel "alive"@en .
+
+obo:PATO_0001422
+    dcterms:identifier "PATO_0001422" ;
+    skos:prefLabel "dead"@en .
+
+obo:PATO_0001470
+    dcterms:identifier "PATO_0001470" ;
+    skos:prefLabel "ratio; proportion"@en .
+
+obo:PATO_0001487
+    dcterms:identifier "PATO_0001487" ;
+    skos:prefLabel "senescent"@en .
+
+obo:PATO_0001510
+    dcterms:identifier "PATO_0001510" ;
+    skos:prefLabel "functional"@en .
+
+obo:PATO_0001537
+    dcterms:identifier "PATO_0001537" ;
+    skos:prefLabel "soluble in"@en .
+
+obo:PATO_0001538
+    dcterms:identifier "PATO_0001538" ;
+    skos:prefLabel "insoluble in"@en .
+
+obo:PATO_0001555
+    dcterms:identifier "PATO_0001555" ;
+    skos:prefLabel "has number of"@en .
+
+obo:PATO_0001585
+    dcterms:identifier "PATO_0001585" ;
+    skos:prefLabel "conductivity"@en .
+
+obo:PATO_0001591
+    dcterms:identifier "PATO_0001591" ;
+    skos:prefLabel "curvature"@en .
+
+obo:PATO_0001595
+    dcterms:identifier "PATO_0001595" ;
+    skos:prefLabel "depth"@en .
+
+obo:PATO_0001620
+    dcterms:identifier "PATO_0001620" ;
+    skos:prefLabel "turgor"@en .
+
+obo:PATO_0001667
+    dcterms:identifier "PATO_0001667" ;
+    skos:prefLabel "attached to"@en .
+
+obo:PATO_0001701
+    dcterms:identifier "PATO_0001701" ;
+    skos:prefLabel "mature"@en .
+
+obo:PATO_0001708
+    dcterms:identifier "PATO_0001708" ;
+    skos:prefLabel "1-D extent"@en .
+
+obo:PATO_0001709
+    dcterms:identifier "PATO_0001709" ;
+    skos:prefLabel "2-D extent"@en .
+
+obo:PATO_0001710
+    dcterms:identifier "PATO_0001710" ;
+    skos:prefLabel "3-D extent"@en .
+
+obo:PATO_0001711
+    dcterms:identifier "PATO_0001711" ;
+    skos:prefLabel "perimeter"@en .
+
+obo:PATO_0001729
+    dcterms:identifier "PATO_0001729" ;
+    skos:prefLabel "shedability"@en .
+
+obo:PATO_0001731
+    dcterms:identifier "PATO_0001731" ;
+    skos:prefLabel "deciduous"@en .
+
+obo:PATO_0001733
+    dcterms:identifier "PATO_0001733" ;
+    skos:prefLabel "evergreen"@en .
+
+obo:PATO_0001824
+    dcterms:identifier "PATO_0001824" ;
+    skos:prefLabel "dry"@en .
+
+obo:PATO_0001854
+    dcterms:identifier "PATO_0001854" ;
+    skos:prefLabel "vertical"@en .
+
+obo:PATO_0001855
+    dcterms:identifier "PATO_0001855" ;
+    skos:prefLabel "horizontal"@en .
+
+obo:PATO_0001894
+    dcterms:identifier "PATO_0001894" ;
+    skos:prefLabel "phenotypic sex"@en .
+
+obo:PATO_0001925
+    dcterms:identifier "PATO_0001925" ;
+    skos:prefLabel "surface feature shape"@en .
+
+obo:PATO_0001951
+    dcterms:identifier "PATO_0001951" ;
+    skos:prefLabel "whorled"@en .
+
+obo:PATO_0001963
+    dcterms:identifier "PATO_0001963" ;
+    skos:prefLabel "revolute"@en .
+
+obo:PATO_0001979
+    dcterms:identifier "PATO_0001979" ;
+    skos:prefLabel "lobed"@en .
+
+obo:PATO_0001995
+    dcterms:identifier "PATO_0001995" ;
+    skos:prefLabel "organismal quality"@en .
+
+obo:PATO_0002009
+    dcterms:identifier "PATO_0002009" ;
+    skos:prefLabel "branchiness"@en .
+
+obo:PATO_0002046
+    dcterms:identifier "PATO_0002046" ;
+    skos:prefLabel "abaxial"@en .
+
+obo:PATO_0002047
+    dcterms:identifier "PATO_0002047" ;
+    skos:prefLabel "adaxial"@en .
+
+obo:PATO_0002079
+    dcterms:identifier "PATO_0002079" ;
+    skos:prefLabel "physical quality"@en .
+
+obo:PATO_0002205
+    dcterms:identifier "PATO_0002205" ;
+    skos:prefLabel "capacitance"@en .
+
+obo:PATO_0002211
+    dcterms:identifier "PATO_0002211" ;
+    skos:prefLabel "recurved"@en .
+
+obo:PATO_0002242
+    dcterms:identifier "PATO_0002242" ;
+    skos:prefLabel "velocity"@en .
+
+obo:PATO_0002266
+    dcterms:identifier "PATO_0002266" ;
+    skos:prefLabel "3-D shape"@en .
+
+obo:PATO_0002267
+    dcterms:identifier "PATO_0002267" ;
+    skos:prefLabel "edge shape"@en .
+
+obo:PATO_0002284
+    dcterms:identifier "PATO_0002284" ;
+    skos:prefLabel "tension"@en .
+
+obo:PATO_0002326
+    dcterms:identifier "PATO_0002326" ;
+    skos:prefLabel "angle"@en .
+
+obo:PATO_0002351
+    dcterms:identifier "PATO_0002351" ;
+    skos:prefLabel "fleshy"@en .
+
+obo:PATO_0002352
+    dcterms:identifier "PATO_0002352" ;
+    skos:prefLabel "herbaceous"@en .
+
+obo:PATO_0002354
+    dcterms:identifier "PATO_0002354" ;
+    skos:prefLabel "active"@en .
+
+obo:PATO_0002384
+    dcterms:identifier "PATO_0002384" ;
+    skos:prefLabel "waxy"@en .
+
+obo:PATO_0002434
+    dcterms:identifier "PATO_0002434" ;
+    skos:prefLabel "perpendicular to"@en .
+
+obo:PATO_0002482
+    dcterms:identifier "PATO_0002482" ;
+    skos:prefLabel "slit-like"@en .
+
+obo:PATO_0005006
+    dcterms:identifier "PATO_0005006" ;
+    skos:prefLabel "differentiated from"@en .
+
+obo:PATO_0085001
+    dcterms:identifier "PATO_0085001" ;
+    skos:prefLabel "salinity"@en .
+
+obo:PCO_0000001
+    dcterms:identifier "PCO_0000001" ;
+    skos:prefLabel "population"@en .
+
+obo:PO_0000003
+    dcterms:identifier "PO_0000003" ;
+    skos:prefLabel "whole plant"@en .
+
+obo:PO_0000022
+    dcterms:identifier "PO_0000022" ;
+    skos:prefLabel "plant cuticle"@en .
+
+obo:PO_0000034
+    dcterms:identifier "PO_0000034" ;
+    skos:prefLabel "vascular system"@en .
+
+obo:PO_0000037
+    dcterms:identifier "PO_0000037" ;
+    skos:prefLabel "shoot axis apex"@en .
+
+obo:PO_0000049
+    dcterms:identifier "PO_0000049" ;
+    skos:prefLabel "leaf lamina abaxial epidermis"@en .
+
+obo:PO_0000050
+    dcterms:identifier "PO_0000050" ;
+    skos:prefLabel "leaf lamina adaxial epidermis"@en .
+
+obo:PO_0000055
+    dcterms:identifier "PO_0000055" ;
+    skos:prefLabel "bud"@en .
+
+obo:PO_0000056
+    dcterms:identifier "PO_0000056" ;
+    skos:prefLabel "flower bud"@en .
+
+obo:PO_0000074
+    dcterms:identifier "PO_0000074" ;
+    skos:prefLabel "parenchyma cell"@en .
+
+obo:PO_0000077
+    dcterms:identifier "PO_0000077" ;
+    skos:prefLabel "sclerenchyma cell"@en .
+
+obo:PO_0000282
+    dcterms:identifier "PO_0004510" ;
+    skos:prefLabel "trichome"@en .
+
+obo:PO_0000293
+    dcterms:identifier "PO_0000293" ;
+    skos:prefLabel "guard cell"@en .
+
+obo:PO_0000301
+    dcterms:identifier "PO_0000301" ;
+    skos:prefLabel "tracheids"@en .
+
+obo:PO_0001052
+    dcterms:identifier "PO_0001052" ;
+    skos:prefLabel "vascular leaf expansion stage"@en .
+
+obo:PO_0001095
+    dcterms:identifier "PO_0001095" ;
+    skos:prefLabel "plant embryo true leaf formation stage"@en .
+
+obo:PO_0002000
+    dcterms:identifier "PO_0002000" ;
+    skos:prefLabel "stomatal complex"@en .
+
+obo:PO_0004013
+    dcterms:identifier "PO_0004013" ;
+    skos:prefLabel "epidermal cell"@en .
+
+obo:PO_0004512
+    dcterms:identifier "PO_0004512" ;
+    skos:prefLabel "heatwood"@en .
+
+obo:PO_0004513
+    dcterms:identifier "PO_0004513" ;
+    skos:prefLabel "sapwood"@en .
+
+obo:PO_0004518
+    dcterms:identifier "PO_0004518" ;
+    skos:prefLabel "bark"@en .
+
+obo:PO_0004533
+    dcterms:identifier "PO_0004533" ;
+    skos:prefLabel "axial secondary xylem parenchyma"@en .
+
+obo:PO_0004534
+    dcterms:identifier "PO_0004534" ;
+    skos:prefLabel "ray secondary xylem parenchyma"@en .
+
+obo:PO_0004536
+    dcterms:identifier "PO_0004536" ;
+    skos:prefLabel "fruit pedicel"@en .
+
+obo:PO_0005011
+    dcterms:identifier "PO_0005011" ;
+    skos:prefLabel "anther dehiscence zone"@en .
+
+obo:PO_0005051
+    dcterms:identifier "PO_0005051" ;
+    skos:prefLabel "hypodermis"@en .
+
+obo:PO_0005352
+    dcterms:identifier "PO_0005352" ;
+    skos:prefLabel "xylem"@en .
+
+obo:PO_0005647
+    dcterms:identifier "PO_0005647" ;
+    skos:prefLabel "spongy mesophyll"@en .
+
+obo:PO_0005648
+    dcterms:identifier "PO_0005648" ;
+    skos:prefLabel "palisade mesophyll"@en .
+
+obo:PO_0005679
+    dcterms:identifier "PO_0005679" ;
+    skos:prefLabel "epidermis"@en .
+
+obo:PO_0005848
+    dcterms:identifier "PO_0005848" ;
+    skos:prefLabel "wood, secondary xylem"@en .
+
+obo:PO_0006070
+    dcterms:identifier "PO_0006070" ;
+    skos:prefLabel "mesophyll"@en .
+
+obo:PO_0006079
+    dcterms:identifier "PO_0006079" ;
+    skos:prefLabel "shoot system meristem"@en .
+
+obo:PO_0006109
+    dcterms:identifier "PO_0006109" ;
+    skos:prefLabel "pith"@en .
+
+obo:PO_0006205
+    dcterms:identifier "PO_0006205" ;
+    skos:prefLabel "spongy mesophyll cell"@en .
+
+obo:PO_0006206
+    dcterms:identifier "PO_0006206" ;
+    skos:prefLabel "palisade mesophyll cell"@en .
+
+obo:PO_0006339
+    dcterms:identifier "PO_0006339" ;
+    skos:prefLabel "juvenile vascular leaf"@en .
+
+obo:PO_0006340
+    dcterms:identifier "PO_0006340" ;
+    skos:prefLabel "adult vascular leaf"@en .
+
+obo:PO_0006504
+    dcterms:identifier "PO_0006504" ;
+    skos:prefLabel "leaf trichome"@en .
+
+obo:PO_0007016
+    dcterms:identifier "PO_0007016" ;
+    skos:prefLabel "whole plant flowering stage"@en .
+
+obo:PO_0007057
+    dcterms:identifier "PO_0007057" ;
+    skos:prefLabel "seed germination stage"@en .
+
+obo:PO_0007094
+    dcterms:identifier "PO_0007094" ;
+    skos:prefLabel "LP.01 one leaf visible stage"@en .
+
+obo:PO_0007616
+    dcterms:identifier "PO_0007616" ;
+    skos:prefLabel "flowering stage"@en .
+
+obo:PO_0008001
+    dcterms:identifier "PO_0008001" ;
+    skos:prefLabel "fruit distal end"@en .
+
+obo:PO_0008002
+    dcterms:identifier "PO_0008002" ;
+    skos:prefLabel "fruit proximal end"@en .
+
+obo:PO_0008021
+    dcterms:identifier "PO_0008021" ;
+    skos:prefLabel "tertiary leaf vein"@en .
+
+obo:PO_0008032
+    dcterms:identifier "PO_0008032" ;
+    skos:prefLabel "stomata; stomatal pore"@en .
+
+obo:PO_0009001
+    dcterms:identifier "PO_0009001" ;
+    skos:prefLabel "fruit"@en .
+
+obo:PO_0009005
+    dcterms:identifier "PO_0009005" ;
+    skos:prefLabel "root"@en .
+
+obo:PO_0009006
+    dcterms:identifier "PO_0009006" ;
+    skos:prefLabel "shoot system"@en .
+
+obo:PO_0009007
+    dcterms:identifier "PO_0009007" ;
+    skos:prefLabel "portion of plant tissue"@en .
+
+obo:PO_0009008
+    dcterms:identifier "PO_0009008" ;
+    skos:prefLabel "plant organ"@en .
+
+obo:PO_0009009
+    dcterms:identifier "PO_0009009" ;
+    skos:prefLabel "plant embryo"@en .
+
+obo:PO_0009010
+    dcterms:identifier "PO_0009010" ;
+    skos:prefLabel "seed"@en .
+
+obo:PO_0009011
+    dcterms:identifier "PO_0009011" ;
+    skos:prefLabel "plant structure"@en .
+
+obo:PO_0009023
+    dcterms:identifier "PO_0009023" ;
+    skos:prefLabel "leaf axil"@en .
+
+obo:PO_0009029
+    dcterms:identifier "PO_0009029" ;
+    skos:prefLabel "stamen"@en .
+
+obo:PO_0009030
+    dcterms:identifier "PO_0009030" ;
+    skos:prefLabel "carpel"@en .
+
+obo:PO_0009031
+    dcterms:identifier "PO_0009031" ;
+    skos:prefLabel "sepal"@en .
+
+obo:PO_0009032
+    dcterms:identifier "PO_0009032" ;
+    skos:prefLabel "petal"@en .
+
+obo:PO_0009033
+    dcterms:identifier "PO_0009033" ;
+    skos:prefLabel "tepal"@en .
+
+obo:PO_0009046
+    dcterms:identifier "PO_0009046" ;
+    skos:prefLabel "flower"@en .
+
+obo:PO_0009047
+    dcterms:identifier "PO_0009047" ;
+    skos:prefLabel "stem"@en .
+
+obo:PO_0009049
+    dcterms:identifier "PO_0009049" ;
+    skos:prefLabel "inflorescence"@en .
+
+obo:PO_0009058
+    dcterms:identifier "PO_0009058" ;
+    skos:prefLabel "perianth"@en .
+
+obo:PO_0009059
+    dcterms:identifier "PO_0009059" ;
+    skos:prefLabel "corolla"@en .
+
+obo:PO_0009060
+    dcterms:identifier "PO_0009060" ;
+    skos:prefLabel "calyx"@en .
+
+obo:PO_0009061
+    dcterms:identifier "PO_0009061" ;
+    skos:prefLabel "androecium"@en .
+
+obo:PO_0009062
+    dcterms:identifier "PO_0009062" ;
+    skos:prefLabel "gynoecium"@en .
+
+obo:PO_0009064
+    dcterms:identifier "PO_0009064" ;
+    skos:prefLabel "receptacle"@en .
+
+obo:PO_0009066
+    dcterms:identifier "PO_0009066" ;
+    skos:prefLabel "anther"@en .
+
+obo:PO_0009067
+    dcterms:identifier "PO_0009067" ;
+    skos:prefLabel "filament"@en .
+
+obo:PO_0009068
+    dcterms:identifier "PO_0009068" ;
+    skos:prefLabel "connective"@en .
+
+obo:PO_0009069
+    dcterms:identifier "PO_0009069" ;
+    skos:prefLabel "anther theca"@en .
+
+obo:PO_0009072
+    dcterms:identifier "PO_0009072" ;
+    skos:prefLabel "plant ovary"@en .
+
+obo:PO_0009073
+    dcterms:identifier "PO_0009073" ;
+    skos:prefLabel "stigma"@en .
+
+obo:PO_0009074
+    dcterms:identifier "PO_0006469" ;
+    skos:prefLabel "style"@en .
+
+obo:PO_0009077
+    dcterms:identifier "PO_0009077" ;
+    skos:prefLabel "staminode"@en .
+
+obo:PO_0009084
+    dcterms:identifier "PO_0009084" ;
+    skos:prefLabel "pericarp"@en .
+
+obo:PO_0009085
+    dcterms:identifier "PO_0009085" ;
+    skos:prefLabel "exocarp"@en .
+
+obo:PO_0009086
+    dcterms:identifier "PO_0009086" ;
+    skos:prefLabel "endocarp"@en .
+
+obo:PO_0009087
+    dcterms:identifier "PO_0009087" ;
+    skos:prefLabel "mesocarp"@en .
+
+obo:PO_0009088
+    dcterms:identifier "PO_0009088" ;
+    skos:prefLabel "seed coat"@en .
+
+obo:PO_0009089
+    dcterms:identifier "PO_0009089" ;
+    skos:prefLabel "endosperm"@en .
+
+obo:PO_0020003
+    dcterms:identifier "PO_0020003" ;
+    skos:prefLabel "plant ovule"@en .
+
+obo:PO_0020030
+    dcterms:identifier "PO_0020030" ;
+    skos:prefLabel "cotyledon"@en .
+
+obo:PO_0020035
+    dcterms:identifier "PO_0020035" ;
+    skos:prefLabel "epicotyl"@en .
+
+obo:PO_0020038
+    dcterms:identifier "PO_0020038" ;
+    skos:prefLabel "petiole"@en .
+
+obo:PO_0020039
+    dcterms:identifier "PO_0020039" ;
+    skos:prefLabel "leaf lamina"@en .
+
+obo:PO_0020040
+    dcterms:identifier "PO_0020040" ;
+    skos:prefLabel "leaf base"@en .
+
+obo:PO_0020042
+    dcterms:identifier "PO_0020042" ;
+    skos:prefLabel "simple leaf"@en .
+
+obo:PO_0020043
+    dcterms:identifier "PO_0020043" ;
+    skos:prefLabel "compound leaf"@en .
+
+obo:PO_0020049
+    dcterms:identifier "PO_0020049" ;
+    skos:prefLabel "leaflet"@en .
+
+obo:PO_0020100
+    dcterms:identifier "PO_0020100" ;
+    skos:prefLabel "hypocotyl"@en .
+
+obo:PO_0020101
+    dcterms:identifier "PO_0020101" ;
+    skos:prefLabel "stomium"@en .
+
+obo:PO_0020121
+    dcterms:identifier "PO_0020121" ;
+    skos:prefLabel "lateral root"@en .
+
+obo:PO_0020127
+    dcterms:identifier "PO_0020127" ;
+    skos:prefLabel "primary root"@en .
+
+obo:PO_0020128
+    dcterms:identifier "PO_0020128" ;
+    skos:prefLabel "leaf margin"@en .
+
+obo:PO_0020137
+    dcterms:identifier "PO_0020137" ;
+    skos:prefLabel "leaf apex"@en .
+
+obo:PO_0020138
+    dcterms:identifier "PO_0020138" ;
+    skos:prefLabel "leaf lamina vein"@en .
+
+obo:PO_0020139
+    dcterms:identifier "PO_0020139" ;
+    skos:prefLabel "leaf midvein, midrib"@en .
+
+obo:PO_0020140
+    dcterms:identifier "PO_0020140" ;
+    skos:prefLabel "secondary leaf vein"@en .
+
+obo:PO_0020141
+    dcterms:identifier "PO_0020141" ;
+    skos:prefLabel "stem node"@en .
+
+obo:PO_0025023
+    dcterms:identifier "PO_0025023" ;
+    skos:prefLabel "whorl, floral whorl"@en .
+
+obo:PO_0025025
+    dcterms:identifier "PO_0025025" ;
+    skos:prefLabel "root system"@en .
+
+obo:PO_0025034
+    dcterms:identifier "PO_0025034" ;
+    skos:prefLabel "leaf"@en .
+
+obo:PO_0025060
+    dcterms:identifier "PO_0025060" ;
+    skos:prefLabel "lamina"@en .
+
+obo:PO_0025073
+    dcterms:identifier "PO_0025073" ;
+    skos:prefLabel "branch"@en .
+
+obo:PO_0025082
+    dcterms:identifier "PO_0025082" ;
+    skos:prefLabel "reproductive shoot system"@en .
+
+obo:PO_0025083
+    dcterms:identifier "PO_0025083" ;
+    skos:prefLabel "strobilus"@en .
+
+obo:PO_0025117
+    dcterms:identifier "PO_0025117" ;
+    skos:prefLabel "plant anatomical space; lumen"@en .
+
+obo:PO_0025129
+    dcterms:identifier "PO_0025129" ;
+    skos:prefLabel "petiole lamina"@en .
+
+obo:PO_0025161
+    dcterms:identifier "PO_0025161" ;
+    skos:prefLabel "portion of plant substance"@en .
+
+obo:PO_0025169
+    dcterms:identifier "PO_0025169" ;
+    skos:prefLabel "prickle"@en .
+
+obo:PO_0025172
+    dcterms:identifier "PO_0025172" ;
+    skos:prefLabel "thorn"@en .
+
+obo:PO_0025173
+    dcterms:identifier "PO_0025173" ;
+    skos:prefLabel "spine leaf"@en .
+
+obo:PO_0025174
+    dcterms:identifier "PO_0025174" ;
+    skos:prefLabel "spine stipule"@en .
+
+obo:PO_0025281
+    dcterms:identifier "PO_0025281" ;
+    skos:prefLabel "pollen"@en .
+
+obo:PO_0025335
+    dcterms:identifier "PO_0025335" ;
+    skos:prefLabel "phyllode"@en .
+
+obo:PO_0025354
+    dcterms:identifier "PO_0025354" ;
+    skos:prefLabel "cladode"@en .
+
+obo:PO_0025379
+    dcterms:identifier "PO_0025379" ;
+    skos:prefLabel "intercellular space"@en .
+
+obo:PO_0025388
+    dcterms:identifier "PO_0025388" ;
+    skos:prefLabel "epicuticular wax"@en .
+
+obo:PO_0025407
+    dcterms:identifier "PO_0025407" ;
+    skos:prefLabel "plant fiber cell"@en .
+
+obo:PO_0025413
+    dcterms:identifier "PO_0025413" ;
+    skos:prefLabel "primary leaf vein"@en .
+
+obo:PO_0025417
+    dcterms:identifier "PO_0025417" ;
+    skos:prefLabel "xylem vessel"@en .
+
+obo:PO_0025447
+    dcterms:identifier "PO_0025447" ;
+    skos:prefLabel "secondary xylem tracheid"@en .
+
+obo:PO_0025470
+    dcterms:identifier "PO_0025470" ;
+    skos:prefLabel "plant embryo cotyledon"@en .
+
+obo:PO_0025500
+    dcterms:identifier "PO_0025500" ;
+    skos:prefLabel "whole plant fruit development stage"@en .
+
+obo:PO_0025517
+    dcterms:identifier "PO_0025517" ;
+    skos:prefLabel "leaf lamina lobes"@en .
+
+obo:PO_0025518
+    dcterms:identifier "PO_0025518" ;
+    skos:prefLabel "leaf lamina tooth"@en .
+
+obo:PO_0025539
+    dcterms:identifier "PO_0025539" ;
+    skos:prefLabel "xylem sap"@en .
+
+obo:PO_0025607
+    dcterms:identifier "PO_0025607" ;
+    skos:prefLabel "vegetative shoot system"@en .
+
+obo:PO_0025613
+    dcterms:identifier "PO_0025613" ;
+    skos:prefLabel "spine petiole"@en .
+
+obo:PO_0030112
+    dcterms:identifier "PO_0030112" ;
+    skos:prefLabel "pedicel"@en .
+
+obo:SP_0000003
+    dcterms:identifier "SP_0000003" ;
+    skos:prefLabel "plant habit"@en .
+
+obo:STATO_0000034
+    dcterms:identifier "STATO_0000034" ;
+    skos:prefLabel "model parameter"@en .
+
+obo:STATO_0000071
+    dcterms:identifier "STATO_0000071" ;
+    skos:prefLabel "reaction rate"@en .
+
+obo:STATO_0000072
+    dcterms:identifier "STATO_0000072" ;
+    skos:prefLabel "substrate concentration"@en .
+
+obo:STATO_0000228
+    dcterms:identifier "STATO_0000228" ;
+    skos:prefLabel "ordinal variable"@en .
+
+obo:STATO_0000251
+    dcterms:identifier "STATO_0000251" ;
+    skos:prefLabel "continuous variable"@en .
+
+obo:STATO_0000252
+    dcterms:identifier "STATO_0000252" ;
+    skos:prefLabel "categorical variable"@en .
+
+obo:STATO_0000300
+    dcterms:identifier "STATO_0000300" ;
+    skos:prefLabel "dimensionless ratio"@en .
+
+obo:STATO_0000398
+    dcterms:identifier "STATO_0000398" ;
+    skos:prefLabel "weighted arithmetic mean"@en .
+
+obo:TO_0000006
+    dcterms:identifier "TO_0000006" ;
+    skos:prefLabel "calcium sensitivity"@en .
+
+obo:TO_0000017
+    dcterms:identifier "TO_0000017" ;
+    skos:prefLabel "plant morphology trait"@en .
+
+obo:TO_0000043
+    dcterms:identifier "TO_0000043" ;
+    skos:prefLabel "root morphology trait"@en .
+
+obo:TO_0000055
+    dcterms:identifier "TO_0000055" ;
+    skos:prefLabel "leaf lamina pubescence"@en .
+
+obo:TO_0000064
+    dcterms:identifier "TO_0000064" ;
+    skos:prefLabel "plant embryo morphology trait"@en .
+
+obo:TO_0000077
+    dcterms:identifier "TO_0000077" ;
+    skos:prefLabel "shoot system morphology trait"@en .
+
+obo:TO_0000078
+    dcterms:identifier "TO_0000078" ;
+    skos:prefLabel "root dry weight, root dry mass"@en .
+
+obo:TO_0000115
+    dcterms:identifier "TO_0000115" ;
+    skos:prefLabel "root mass density"@en .
+
+obo:TO_0000131
+    dcterms:identifier "TO_0000131" ;
+    skos:prefLabel "leaf water potential"@en .
+
+obo:TO_0000135
+    dcterms:identifier "TO_0000135" ;
+    skos:prefLabel "leaf length"@en .
+
+obo:TO_0000136
+    dcterms:identifier "TO_0000136" ;
+    skos:prefLabel "leaf relative water content"@en .
+
+obo:TO_0000146
+    dcterms:identifier "TO_0000146" ;
+    skos:prefLabel "seed length"@en .
+
+obo:TO_0000149
+    dcterms:identifier "TO_0000149" ;
+    skos:prefLabel "seed width"@en .
+
+obo:TO_0000164
+    dcterms:identifier "TO_0000164" ;
+    skos:prefLabel "stress trait"@en .
+
+obo:TO_0000181
+    dcterms:identifier "TO_0000181" ;
+    skos:prefLabel "seed weight, seed mass"@en .
+
+obo:TO_0000184
+    dcterms:identifier "TO_0000184" ;
+    skos:prefLabel "seed morphology trait"@en .
+
+obo:TO_0000202
+    dcterms:identifier "TO_0000202" ;
+    skos:prefLabel "germination ratio"@en .
+
+obo:TO_0000206
+    dcterms:identifier "TO_0000206" ;
+    skos:prefLabel "leaf angle"@en .
+
+obo:TO_0000207
+    dcterms:identifier "TO_0000207" ;
+    skos:prefLabel "plant height"@en .
+
+obo:TO_0000225
+    dcterms:identifier "TO_0000225" ;
+    skos:prefLabel "stamen number"@en .
+
+obo:TO_0000237
+    dcterms:identifier "TO_0000237" ;
+    skos:prefLabel "water stress trait"@en .
+
+obo:TO_0000253
+    dcterms:identifier "TO_0000253" ;
+    skos:prefLabel "seed dormancy"@en .
+
+obo:TO_0000254
+    dcterms:identifier "TO_0000254" ;
+    skos:prefLabel "growth media pH sensitivity"@en .
+
+obo:TO_0000258
+    dcterms:identifier "TO_0000258" ;
+    skos:prefLabel "leaf thickness"@en .
+
+obo:TO_0000275
+    dcterms:identifier "TO_0000275" ;
+    skos:prefLabel "perianth morphology trait"@en .
+
+obo:TO_0000276
+    dcterms:identifier "TO_0000276" ;
+    skos:prefLabel "drought tolerance"@en .
+
+obo:TO_0000277
+    dcterms:identifier "TO_0000277" ;
+    skos:prefLabel "biochemical trait"@en .
+
+obo:TO_0000278
+    dcterms:identifier "TO_0000278" ;
+    skos:prefLabel "root to shoot ratio"@en .
+
+obo:TO_0000279
+    dcterms:identifier "TO_0000279" ;
+    skos:prefLabel "root mass"@en .
+
+obo:TO_0000281
+    dcterms:identifier "TO_0000281" ;
+    skos:prefLabel "metabolite content trait"@en .
+
+obo:TO_0000283
+    dcterms:identifier "TO_0000283" ;
+    skos:prefLabel "biological process trait, physiological process trait"@en .
+
+obo:TO_0000286
+    dcterms:identifier "TO_0000286" ;
+    skos:prefLabel "submergence sensitivity"@en .
+
+obo:TO_0000291
+    dcterms:identifier "TO_0000291" ;
+    skos:prefLabel "carbohydrate content"@en .
+
+obo:TO_0000293
+    dcterms:identifier "TO_0000293" ;
+    skos:prefLabel "chlorophyll a content"@en .
+
+obo:TO_0000295
+    dcterms:identifier "TO_0000295" ;
+    skos:prefLabel "chlorophyll b content"@en .
+
+obo:TO_0000298
+    dcterms:identifier "TO_0000298" ;
+    skos:prefLabel "chlorophyll ratio"@en .
+
+obo:TO_0000304
+    dcterms:identifier "TO_0000304" ;
+    skos:prefLabel "seed thickness"@en .
+
+obo:TO_0000319
+    dcterms:identifier "TO_0000319" ;
+    skos:prefLabel "rubisco content"@en .
+
+obo:TO_0000321
+    dcterms:identifier "TO_0000321" ;
+    skos:prefLabel "rubisco to nitrogen content ratio"@en .
+
+obo:TO_0000325
+    dcterms:identifier "TO_0000325" ;
+    skos:prefLabel "soluble protein content"@en .
+
+obo:TO_0000333
+    dcterms:identifier "TO_0000333" ;
+    skos:prefLabel "sugar content"@en .
+
+obo:TO_0000340
+    dcterms:identifier "TO_0000340" ;
+    skos:prefLabel "total soluble sugar content"@en .
+
+obo:TO_0000345
+    dcterms:identifier "TO_0000345" ;
+    skos:prefLabel "seed viability"@en .
+
+obo:TO_0000352
+    dcterms:identifier "TO_0000352" ;
+    skos:prefLabel "plant dry weight, plant dry mass"@en .
+
+obo:TO_0000357
+    dcterms:identifier "TO_0000357" ;
+    skos:prefLabel "plant growth and development trait"@en .
+
+obo:TO_0000361
+    dcterms:identifier "TO_0000361" ;
+    skos:prefLabel "stem morphology trait"@en .
+
+obo:TO_0000370
+    dcterms:identifier "TO_0000370" ;
+    skos:prefLabel "leaf width"@en .
+
+obo:TO_0000387
+    dcterms:identifier "TO_0000387" ;
+    skos:prefLabel "plant trait"@en .
+
+obo:TO_0000398
+    dcterms:identifier "TO_0000398" ;
+    skos:prefLabel "whole plant morphology trait"@en .
+
+obo:TO_0000429
+    dcterms:identifier "TO_0000429" ;
+    skos:prefLabel "salt sensitivity"@en .
+
+obo:TO_0000435
+    dcterms:identifier "TO_0000435" ;
+    skos:prefLabel "seed longevity"@en .
+
+obo:TO_0000465
+    dcterms:identifier "TO_0000465" ;
+    skos:prefLabel "mineral and ion content trait"@en .
+
+obo:TO_0000469
+    dcterms:identifier "TO_0000469" ;
+    skos:prefLabel "days to maturity"@en .
+
+obo:TO_0000470
+    dcterms:identifier "TO_0000470" ;
+    skos:prefLabel "vascular tissue morphology trait"@en .
+
+obo:TO_0000482
+    dcterms:identifier "TO_0000482" ;
+    skos:prefLabel "chemical stress sensitivity"@en .
+
+obo:TO_0000484
+    dcterms:identifier "TO_0000484" ;
+    skos:prefLabel "seed shape"@en .
+
+obo:TO_0000490
+    dcterms:identifier "TO_0000490" ;
+    skos:prefLabel "seed protein content"@en .
+
+obo:TO_0000492
+    dcterms:identifier "TO_0000492" ;
+    skos:prefLabel "leaf shape"@en .
+
+obo:TO_0000494
+    dcterms:identifier "TO_0000494" ;
+    skos:prefLabel "pigment content trait"@en .
+
+obo:TO_0000496
+    dcterms:identifier "TO_0000496" ;
+    skos:prefLabel "carotenoid content"@en .
+
+obo:TO_0000499
+    dcterms:identifier "TO_0000499" ;
+    skos:prefLabel "flower morphology trait"@en .
+
+obo:TO_0000505
+    dcterms:identifier "TO_0000505" ;
+    skos:prefLabel "leaf weight, leaf mass"@en .
+
+obo:TO_0000507
+    dcterms:identifier "TO_0000507" ;
+    skos:prefLabel "osmotic adjustment capacity"@en .
+
+obo:TO_0000522
+    dcterms:identifier "TO_0000522" ;
+    skos:prefLabel "stomatal conductance"@en .
+
+obo:TO_0000523
+    dcterms:identifier "TO_0000523" ;
+    skos:prefLabel "stomatal resistance"@en .
+
+obo:TO_0000524
+    dcterms:identifier "TO_0000524" ;
+    skos:prefLabel "submergence tolerance"@en .
+
+obo:TO_0000529
+    dcterms:identifier "TO_0000529" ;
+    skos:prefLabel "abaxial stomatal frequency"@en .
+
+obo:TO_0000530
+    dcterms:identifier "TO_0000530" ;
+    skos:prefLabel "adaxial stomatal frequency"@en .
+
+obo:TO_0000537
+    dcterms:identifier "TO_0000537" ;
+    skos:prefLabel "flower color"@en .
+
+obo:TO_0000540
+    dcterms:identifier "TO_0000540" ;
+    skos:prefLabel "leaf area trait"@en .
+
+obo:TO_0000541
+    dcterms:identifier "TO_0000541" ;
+    skos:prefLabel "leaf position trait"@en .
+
+obo:TO_0000543
+    dcterms:identifier "TO_0000543" ;
+    skos:prefLabel "leaf nitrogen content"@en .
+
+obo:TO_0000552
+    dcterms:identifier "TO_0000552" ;
+    skos:prefLabel "shoot dry mass"@en .
+
+obo:TO_0000562
+    dcterms:identifier "TO_0000562" ;
+    skos:prefLabel "specific leaf area"@en .
+
+obo:TO_0000566
+    dcterms:identifier "TO_0000566" ;
+    skos:prefLabel "leaf stomatal complex frequency"@en .
+
+obo:TO_0000571
+    dcterms:identifier "TO_0000571" ;
+    skos:prefLabel "shoot fresh mass"@en .
+
+obo:TO_0000578
+    dcterms:identifier "TO_0000578" ;
+    skos:prefLabel "root fresh mass"@en .
+
+obo:TO_0000598
+    dcterms:identifier "TO_0000598" ;
+    skos:prefLabel "protein content"@en .
+
+obo:TO_0000696
+    dcterms:identifier "TO_0000696" ;
+    skos:prefLabel "starch content"@en .
+
+obo:TO_0000701
+    dcterms:identifier "TO_0000701" ;
+    skos:prefLabel "turgor pressure"@en .
+
+obo:TO_0000709
+    dcterms:identifier "TO_0000709" ;
+    skos:prefLabel "leaf gloss"@en .
+
+obo:TO_0000731
+    dcterms:identifier "TO_0000731" ;
+    skos:prefLabel "lignin content"@en .
+
+obo:TO_0000748
+    dcterms:identifier "TO_0000748" ;
+    skos:prefLabel "leaf morphology trait"@en .
+
+obo:TO_0000766
+    dcterms:identifier "TO_0000766" ;
+    skos:prefLabel "petiole length"@en .
+
+obo:TO_0000769
+    dcterms:identifier "TO_0000769" ;
+    skos:prefLabel "seedling hypocotyl morphology trait"@en .
+
+obo:TO_0000775
+    dcterms:identifier "TO_0000775" ;
+    skos:prefLabel "plant embryo cotyledon morphology trait"@en .
+
+obo:TO_0000786
+    dcterms:identifier "TO_0000786" ;
+    skos:prefLabel "reproductive shoot system morphology trait"@en .
+
+obo:TO_0000820
+    dcterms:identifier "TO_0000820" ;
+    skos:prefLabel "leaf vein morphology trait"@en .
+
+obo:TO_0000824
+    dcterms:identifier "TO_0000824" ;
+    skos:prefLabel "leaf attitude"@en .
+
+obo:TO_0000839
+    dcterms:identifier "TO_0000839" ;
+    skos:prefLabel "plant structure morphology trait"@en .
+
+obo:TO_0000843
+    dcterms:identifier "TO_0000843" ;
+    skos:prefLabel "portion of plant tissue morphology trait"@en .
+
+obo:TO_0000850
+    dcterms:identifier "TO_0000850" ;
+    skos:prefLabel "fruit type"@en .
+
+obo:TO_0000858
+    dcterms:identifier "TO_0000858" ;
+    skos:prefLabel "flower diameter"@en .
+
+obo:TO_0000860
+    dcterms:identifier "TO_0000860" ;
+    skos:prefLabel "flower length"@en .
+
+obo:TO_0000862
+    dcterms:identifier "TO_0000862" ;
+    skos:prefLabel "floral organ morphology trait"@en .
+
+obo:TO_0000865
+    dcterms:identifier "TO_0000865" ;
+    skos:prefLabel "tepal morphology trait"@en .
+
+obo:TO_0000888
+    dcterms:identifier "TO_0000888" ;
+    skos:prefLabel "seed coat luster"@en .
+
+obo:TO_0000891
+    dcterms:identifier "TO_0000891" ;
+    skos:prefLabel "leaf wet weight"@en .
+
+obo:TO_0000893
+    dcterms:identifier "TO_0000893" ;
+    skos:prefLabel "stem shape trait"@en .
+
+obo:TO_0000900
+    dcterms:identifier "TO_0000900" ;
+    skos:prefLabel "root nodule number"@en .
+
+obo:TO_0000903
+    dcterms:identifier "TO_0000903" ;
+    skos:prefLabel "seed coat texture"@en .
+
+obo:TO_0000933
+    dcterms:identifier "TO_0000933" ;
+    skos:prefLabel "plant phenological trait"@en .
+
+obo:TO_0000951
+    dcterms:identifier "TO_0000951" ;
+    skos:prefLabel "corolla color"@en .
+
+obo:TO_0000952
+    dcterms:identifier "TO_0000952" ;
+    skos:prefLabel "stem mass"@en .
+
+obo:TO_0000953
+    dcterms:identifier "TO_0000953" ;
+    skos:prefLabel "stem number"@en .
+
+obo:TO_0000980
+    dcterms:identifier "TO_0000980" ;
+    skos:prefLabel "plant embryo cotyledon color"@en .
+
+obo:TO_0000985
+    dcterms:identifier "TO_0000985" ;
+    skos:prefLabel "root system morphology trait"@en .
+
+obo:TO_0000993
+    dcterms:identifier "TO_0000993" ;
+    skos:prefLabel "cellulose content"@en .
+
+obo:TO_0000994
+    dcterms:identifier "TO_0000994" ;
+    skos:prefLabel "androecium morphology trait"@en .
+
+obo:TO_0001014
+    dcterms:identifier "TO_0001014" ;
+    skos:prefLabel "leaf dry weight, leaf dry mass"@en .
+
+obo:TO_0001015
+    dcterms:identifier "TO_0001015" ;
+    skos:prefLabel "photosynthetic rate"@en .
+
+obo:TO_0001017
+    dcterms:identifier "TO_0001017" ;
+    skos:prefLabel "water use efficiency"@en .
+
+obo:TO_0001018
+    dcterms:identifier "TO_0001018" ;
+    skos:prefLabel "transpiration rate"@en .
+
+obo:TO_0001025
+    dcterms:identifier "TO_0001025" ;
+    skos:prefLabel "leaf phosphorus content"@en .
+
+obo:TO_0001026
+    dcterms:identifier "TO_0001026" ;
+    skos:prefLabel "respiration rate"@en .
+
+obo:TO_0001028
+    dcterms:identifier "TO_0001028" ;
+    skos:prefLabel "osmotic adjustment break point"@en .
+
+obo:TO_0001058
+    dcterms:identifier "TO_0001058" ;
+    skos:prefLabel "root system depth"@en .
+
+obo:TO_0001112
+    dcterms:identifier "TO_0001112" ;
+    skos:prefLabel "root width"@en .
+
+obo:TO_0001114
+    dcterms:identifier "TO_0001114" ;
+    skos:prefLabel "leaflet area"@en .
+
+obo:TO_0001116
+    dcterms:identifier "TO_0001116" ;
+    skos:prefLabel "leaflet shape"@en .
+
+obo:TO_0001117
+    dcterms:identifier "TO_0001117" ;
+    skos:prefLabel "leaflet weight"@en .
+
+obo:TO_0002616
+    dcterms:identifier "TO_0002616" ;
+    skos:prefLabel "flowering time trait"@en .
+
+obo:TO_0002617
+    dcterms:identifier "TO_0002617" ;
+    skos:prefLabel "fruit color"@en .
+
+obo:TO_0002620
+    dcterms:identifier "TO_0002620" ;
+    skos:prefLabel "exocarp color"@en .
+
+obo:TO_0002626
+    dcterms:identifier "TO_0002626" ;
+    skos:prefLabel "fruit length"@en .
+
+obo:TO_0002627
+    dcterms:identifier "TO_0002627" ;
+    skos:prefLabel "fruit width"@en .
+
+obo:TO_0002629
+    dcterms:identifier "TO_0002629" ;
+    skos:prefLabel "fruit morphology trait"@en .
+
+obo:TO_0002635
+    dcterms:identifier "TO_0002635" ;
+    skos:prefLabel "leaf margin morphology trait"@en .
+
+obo:TO_0002637
+    dcterms:identifier "TO_0002637" ;
+    skos:prefLabel "leaf size trait"@en .
+
+obo:TO_0002661
+    dcterms:identifier "TO_0002661" ;
+    skos:prefLabel "seed maturation"@en .
+
+obo:TO_0002666
+    dcterms:identifier "TO_0002666" ;
+    skos:prefLabel "seed phosphorus content"@en .
+
+obo:TO_0002683
+    dcterms:identifier "TO_0002683" ;
+    skos:prefLabel "plant cell morphology trait"@en .
+
+obo:TO_0002684
+    dcterms:identifier "TO_0002684" ;
+    skos:prefLabel "plant cell size"@en .
+
+obo:TO_0002722
+    dcterms:identifier "TO_0002722" ;
+    skos:prefLabel "leaf pubescence"@en .
+
+obo:TO_0002725
+    dcterms:identifier "TO_0002725" ;
+    skos:prefLabel "life cycle habit"@en .
+
+obo:TO_0003000
+    dcterms:identifier "TO_0003000" ;
+    skos:prefLabel "stem fresh mass"@en .
+
+obo:TO_0003001
+    dcterms:identifier "TO_0003001" ;
+    skos:prefLabel "stem dry weight, stem dry mass"@en .
+
+obo:TO_0003005
+    dcterms:identifier "TO_0003005" ;
+    skos:prefLabel "fruit dry weight"@en .
+
+obo:TO_0003034
+    dcterms:identifier "TO_0003034" ;
+    skos:prefLabel "leaf moisture content"@en .
+
+obo:TO_0003035
+    dcterms:identifier "TO_0003035" ;
+    skos:prefLabel "stem moisture content"@en .
+
+obo:TO_0003049
+    dcterms:identifier "TO_0003049" ;
+    skos:prefLabel "leaf potassium content"@en .
+
+obo:TO_0003074
+    dcterms:identifier "TO_0003074" ;
+    skos:prefLabel "root nitrogen content"@en .
+
+obo:TO_0003076
+    dcterms:identifier "TO_0003076" ;
+    skos:prefLabel "stem phosphorus content"@en .
+
+obo:TO_0003088
+    dcterms:identifier "TO_0003088" ;
+    skos:prefLabel "leaf carbon content"@en .
+
+obo:TO_0003089
+    dcterms:identifier "TO_0003089" ;
+    skos:prefLabel "stem carbon content"@en .
+
+obo:TO_0003090
+    dcterms:identifier "TO_0003090" ;
+    skos:prefLabel "root carbon content"@en .
+
+obo:TO_0006001
+    dcterms:identifier "TO_0006001" ;
+    skos:prefLabel "salt tolerance"@en .
+
+obo:TO_0006014
+    dcterms:identifier "TO_0006014" ;
+    skos:prefLabel "phyllotaxy"@en .
+
+obo:TO_0006039
+    dcterms:identifier "TO_0006039" ;
+    skos:prefLabel "petal number"@en .
+
+obo:TO_0006041
+    dcterms:identifier "TO_0006041" ;
+    skos:prefLabel "tepal number"@en .
+
+obo:TO_0006061
+    dcterms:identifier "TO_0006061" ;
+    skos:prefLabel "days to germinate"@en .
+
+obo:TO_0006062
+    dcterms:identifier "TO_0006062" ;
+    skos:prefLabel "plant width"@en .
+
+obo:TO_0006063
+    dcterms:identifier "TO_0006063" ;
+    skos:prefLabel "leaf margin serrated"@en .
+
+obo:TO_0006066
+    dcterms:identifier "TO_0006066" ;
+    skos:prefLabel "leaf trichome density"@en .
+
+obo:TO_0007000
+    dcterms:identifier "TO_0007000" ;
+    skos:prefLabel "seed volume"@en .
+
+obo:TO_0010001
+    dcterms:identifier "TO_0010001" ;
+    skos:prefLabel "percent germination"@en .
+
+obo:TO_0012002
+    dcterms:identifier "TO_0012002" ;
+    skos:prefLabel "leaf chlorophyll content"@en .
+
+obo:TO_0012004
+    dcterms:identifier "TO_0012004" ;
+    skos:prefLabel "quantum yield"@en .
+
+obo:TO_0012007
+    dcterms:identifier "TO_0012007" ;
+    skos:prefLabel "quantum yield determined by the light curve"@en .
+
+obo:TO_0012009
+    dcterms:identifier "TO_0012009" ;
+    skos:prefLabel "continuous fluorescence yield"@en .
+
+obo:TO_0020016
+    dcterms:identifier "TO_0020016" ;
+    skos:prefLabel "seed texture"@en .
+
+obo:TO_0020027
+    dcterms:identifier "TO_0020027" ;
+    skos:prefLabel "apical axillary primary branch number"@en .
+
+obo:TO_0020076
+    dcterms:identifier "TO_0020076" ;
+    skos:prefLabel "phenolic compound content"@en .
+
+obo:TO_0020083
+    dcterms:identifier "TO_0020083" ;
+    skos:prefLabel "stem diameter"@en .
+
+obo:TO_0020107
+    dcterms:identifier "TO_0020107" ;
+    skos:prefLabel "plant cell length"@en .
+
+obo:TO_1000002
+    dcterms:identifier "TO_1000002" ;
+    skos:prefLabel "secondary xylem volumetric density, wood volumetric density"@en .
+
+obo:TO_1000043
+    dcterms:identifier "TO_1000043" ;
+    skos:prefLabel "root system phosphorus content"@en .
+
+obo:UBERON_0000119
+    dcterms:identifier "UBERON_0000119" ;
+    skos:prefLabel "cell layer"@en .
+
+obo:UBERON_0005156
+    dcterms:identifier "UBERON_0005156" ;
+    skos:prefLabel "reproductive structure"@en .
+
+obo:UBERON_0007023
+    dcterms:identifier "UBERON_0007023" ;
+    skos:prefLabel "adult (adult organism)"@en .
+
+obo:UO_0000003
+    dcterms:identifier "UO_0000003" ;
+    skos:prefLabel "time unit"@en .
+
+obo:UO_0000035
+    dcterms:identifier "UO_0000035" ;
+    skos:prefLabel "month"@en .
+
+obo:UO_0000185
+    dcterms:identifier "UO_0000185" ;
+    skos:prefLabel "degree"@en .
+
+obo:XCO_0000000
+    dcterms:identifier "XCO_0000000" ;
+    skos:prefLabel "experimental condition"@en .
+
+datacite:IsReviewedBy
+    skos:prefLabel "reviewed by"@en .
+
+dc:description
+    skos:prefLabel "description"@en .
+
+dc:identifier
+    skos:prefLabel "identifier"@en .
+
+dcterms:bibliographicCitation
+    dcterms:created "2/15/2003"^^<xsd:date> ;
+    skos:prefLabel "bibliographic citation"@en .
+
+dcterms:created
+    dcterms:created "7/11/2000"^^<xsd:date> ;
+    dcterms:description "Recommended practice is to describe the date, date/time, or period of time as recommended for the property Date, of which this is a subproperty."@en ;
+    skos:note "Date of creation of the resource."@en ;
+    skos:prefLabel "date created"@en .
+
+dcterms:date
+    dcterms:description "A point or period of time associated with an event in the lifecycle of the resource."@en ;
+    skos:prefLabel "date"@en .
+
+dcterms:description
+    dcterms:created "1/14/2008"^^<xsd:date> ;
+    dcterms:description "Description may include but is not limited to: an abstract, a table of contents, a graphical representation, or a free-text account of the resource."@en ;
+    skos:note "An account of the resource."@en ;
+    skos:prefLabel "description"@en .
+
+dcterms:extent
+    dcterms:created "7/11/2000"^^<xsd:date> ;
+    dcterms:description "Recommended practice is to specify the file size in megabytes and duration in ISO 8601 format."@en ;
+    skos:note "The size or duration of the resource."@en ;
+    skos:prefLabel "extent"@en .
+
+dcterms:format
+    skos:prefLabel "format"@en .
+
+dcterms:identifier
+    dcterms:created "1/14/2008"^^<xsd:date> ;
+    dcterms:description "Recommended practice is to identify the resource by means of a string conforming to an identification system. Examples include International Standard Book Number (ISBN), Digital Object Identifier (DOI), and Uniform Resource Name (URN).  Persistent identifiers should be provided as HTTP URIs."@en ;
+    skos:note "An unambiguous reference to the resource within a given context."@en ;
+    skos:prefLabel "identifier"@en .
+
+dcterms:issued
+    dcterms:description "Date of formal issuance of the resource."@en ;
+    skos:note "Recommended practice is to describe the date, date/time, or period of time as recommended for the property Date, of which this is a subproperty."@en ;
+    skos:prefLabel "issued"@en .
+
+dcterms:license
+    skos:prefLabel "license"@en .
+
+dcterms:modified
+    dcterms:created "7/11/2000"^^<xsd:date> ;
+    dcterms:description "Recommended practice is to describe the date, date/time, or period of time as recommended for the property Date, of which this is a subproperty."@en ;
+    skos:note "Date on which the resource was changed."@en ;
+    skos:prefLabel "date modified"@en .
+
+dcterms:publisher
+    skos:prefLabel "publisher"@en .
+
+dcterms:references
+    dcterms:created "7/11/2000"^^<xsd:date> ;
+    dcterms:description "This property is intended to be used with non-literal values. This property is an inverse property of Is Referenced By."@en ;
+    skos:note "A related resource that is referenced, cited, or otherwise pointed to by the described resource."@en ;
+    skos:prefLabel "references"@en .
+
+dcterms:relation
+    skos:prefLabel "relation"@en .
+
+dcterms:reviewed
+    dcterms:description "Recommended practice is to describe the date, date/time, or period of time as recommended for the property Date, of which this is a subproperty."@en ;
+    skos:prefLabel "date reviewed"@en .
+
+dcterms:subject
+    dcterms:created "1/14/2008"^^<xsd:date> ;
+    dcterms:description "Recommended practice is to refer to the subject with a URI. If this is not possible or feasible, a literal value that identifies the subject may be provided. Both should preferably refer to a subject in a controlled vocabulary."@en ;
+    skos:note "A topic of the resource."@en ;
+    skos:prefLabel "subject"@en .
+
+dcterms:title
+    dcterms:created "1/14/2008"^^<xsd:date> ;
+    skos:note "A name given to the resource."@en ;
+    skos:prefLabel "title"@en .
+
+hupson:SCAIVPH_00000131
+    dcterms:identifier "SCAIVPH_00000131" ;
+    skos:prefLabel "Hagen Poiseuille equation"@en .
+
+SIO:SIO_000147
+    dcterms:description "A keyword is a descriptor in which the association of the word with the entity facilitates information retrieval."@en ;
+    skos:prefLabel "keyword"@en .
+
+SIO:SIO_000384
+    dcterms:identifier "SIO_000384" ;
+    skos:prefLabel "emit"@en .
+
+SIO:SIO_000879
+    dcterms:identifier "SIO_000879" ;
+    skos:prefLabel "reactant"@en .
+
+SIO:SIO_001106
+    dcterms:identifier "SIO_001106" ;
+    skos:prefLabel "produce"@en .
+
+SIO:SIO_010363
+    dcterms:identifier "SIO_010363" ;
+    skos:prefLabel "product"@en .
+
+SIO:SIO_010418
+    dcterms:identifier "SIO_010418" ;
+    skos:prefLabel "solute"@en .
+
+SWEET_phenSolid:Bend
+    dcterms:identifier "Bend" ;
+    skos:prefLabel "bend"@en .
+
+SWEET_phenSolid:Deform
+    dcterms:identifier "Deform" ;
+    skos:prefLabel "deform"@en .
+
+SWEET_phenSolid:Fracture
+    dcterms:identifier "Fracture" ;
+    skos:prefLabel "fracture"@en .
+
+SWEET_phenSolid:Rip
+    dcterms:identifier "Rip" ;
+    skos:prefLabel "rip, tear"@en .
+
+SWEET_phenSolid:Shear
+    dcterms:identifier "Shear" ;
+    skos:prefLabel "shear"@en .
+
+SWEET_phenSystem:Inundation
+    dcterms:identifier "Inundation" ;
+    skos:prefLabel "inundation"@en .
+
+SWEET_procWave:Absorption
+    dcterms:identifier "Absorption" ;
+    skos:prefLabel "absorption"@en .
+
+SWEET_procWave:Reflection
+    dcterms:identifier "Reflection" ;
+    skos:prefLabel "reflection"@en .
+
+SWEET_procWave:Transmission
+    dcterms:identifier "Transmission" ;
+    skos:prefLabel "transmission"@en .
+
+SWEET_prop:ElectromagneticProperty
+    dcterms:identifier "ElectromagneticProperty" ;
+    skos:prefLabel "electromagnetic property"@en .
+
+<http://sweetontology.net/propConductivity/Resistance>
+    dcterms:identifier "Resistance" ;
+    skos:prefLabel "resistance"@en .
+
+SWEET_propPressure:CompressiveStrength
+    dcterms:identifier "CompressiveStrength" ;
+    skos:prefLabel "compressive strength"@en .
+
+SWEET_propPressure:ModulusOfElasticity
+    dcterms:identifier "ModulusOfElasticity" ;
+    skos:prefLabel "modulus of elasticity"@en .
+
+SWEET_propPressure:TensileStrength
+    dcterms:identifier "TensileStrength" ;
+    skos:prefLabel "tensile strength"@en .
+
+SWEET_propPressure:YoungsModulus
+    dcterms:identifier "YoungsModulus" ;
+    skos:prefLabel "youngs modulus"@en .
+
+SWEET_propTime:TimeInterval
+    dcterms:identifier "TimeInterval" ;
+    skos:prefLabel "time interval"@en .
+
+SWEET_realmSoil:Ground
+    dcterms:identifier "Ground" ;
+    skos:prefLabel "ground"@en .
+
+SWEET_reprSciComponent:Resource
+    dcterms:identifier "Resource" ;
+    skos:prefLabel "resource"@en .
+
+SWEET_reprTimeDay:Dawn
+    dcterms:identifier "Dawn" ;
+    skos:prefLabel "dawn"@en .
+
+ets:expectedUnit
+    dcterms:description "The unit expected for measurement entries."@en ;
+    skos:prefLabel "unit"@en .
+
+ets:maxAllowedValue
+    dcterms:description "An upper boundary for accepted numerical values."@en ;
+    skos:note "May be used for eliminating invalid data. This boundary may constrain a range of values of meaningful orders of magnitude, or constrain entries to positive values."@en ;
+    skos:prefLabel "maxAllowedValue"@en .
+
+ets:minAllowedValue
+    dcterms:description "A lower boundary for accepted numerical values."@en ;
+    skos:note "May be used for eliminating invalid data. This boundary may constrain a range of values of meaningful orders of magnitude."@en ;
+    skos:prefLabel "minAllowedValue"@en .
+
+ets:traitDescription
+    dcterms:created "9/27/2017"^^<xsd:date> ;
+    dcterms:description "A short, unambiguous definition of the trait as used in the specific study context; may refer to a method of measurement; may copy the description of a public trait ontology;"@en ;
+    skos:note "The definition should make use of terms provided by existing public ontologies, e.g. the mass (PATO:mass), either fresh or dried, of a fruit (PO:fruit)"@en ;
+    skos:prefLabel "traitDescription"@en .
+
+ets:traitID
+    dcterms:description "Unique identifier of the trait according to a public ontology, or a user-provided thesaurus of traits."@en ;
+    skos:prefLabel "traitID"@en .
+
+ets:valueType
+    dcterms:description "Type of trait values. Possible entries are numeric, integer, categorical, ordinal, logical, or character."@en ;
+    skos:note "Numerical values represent measurements of length, volumes, ratios, rates or timespans. Integer values apply to count data (e.g. eggs per clutch). Binary data (encoded as 0 or 1) or logical data (coded as TRUE or FALSE) may apply to qualitative traits such as specific behavior during mating (e.g. are territories defended) or specialization to a given habitat (e.g. species restricted to relicts of primeval forests). Categorical traits should define a constrained set of factor levels, such as sex differences in wing morphology (both sexes winged, both sexes unwinged, only males winged, only females winged) or unconstrained entries such as color. Ordinal categorical traits may be better encoded as integer values, e.g. a logical sequence as in the case of life stages or hibernation stages, or habitat preference traits such as horizontal stratum use."@en ;
+    skos:prefLabel "value type"@en .
+
+<http://vocabs.lter-europe.net/EnvThes/10031>
+    dcterms:identifier "10031" ;
+    skos:prefLabel "tree breast height diameter"@en .
+
+<http://vocabs.lter-europe.net/EnvThes/10107>
+    dcterms:identifier "10107" ;
+    skos:prefLabel "epiphyte"@en .
+
+<http://vocabs.lter-europe.net/EnvThes/10118>
+    dcterms:identifier "10118" ;
+    skos:prefLabel "vegetation reflectance"@en .
+
+<http://vocabs.lter-europe.net/EnvThes/10362>
+    dcterms:identifier "10362" ;
+    skos:prefLabel "wilting point"@en .
+
+<http://vocabs.lter-europe.net/EnvThes/10380>
+    dcterms:identifier "10380" ;
+    skos:prefLabel "dry matter biomass"@en .
+
+<http://vocabs.lter-europe.net/EnvThes/20310>
+    dcterms:identifier "20310" ;
+    skos:prefLabel "stable isotope"@en .
+
+<http://vocabs.lter-europe.net/EnvThes/20373>
+    dcterms:identifier "20373" ;
+    skos:prefLabel "disturbance (event)"@en .
+
+<http://vocabs.lter-europe.net/EnvThes/20410>
+    dcterms:identifier "20410" ;
+    skos:prefLabel "seedling establishment"@en .
+
+<http://vocabs.lter-europe.net/EnvThes/20535>
+    dcterms:identifier "20535" ;
+    skos:prefLabel "vegetation"@en .
+
+<http://vocabs.lter-europe.net/EnvThes/20581>
+    dcterms:identifier "20581" ;
+    skos:prefLabel "fine root"@en .
+
+<http://vocabs.lter-europe.net/EnvThes/20656>
+    dcterms:identifier "20656" ;
+    skos:prefLabel "mycorrhizae"@en .
+
+<http://vocabs.lter-europe.net/EnvThes/20698>
+    dcterms:identifier "20698" ;
+    skos:prefLabel "seedling"@en .
+
+<http://vocabs.lter-europe.net/EnvThes/20744>
+    dcterms:identifier "20744" ;
+    skos:prefLabel "woody plants"@en .
+
+<http://vocabs.lter-europe.net/EnvThes/20927>
+    dcterms:identifier "20927" ;
+    skos:prefLabel "dead wood biomass"@en .
+
+<http://vocabs.lter-europe.net/EnvThes/21008>
+    dcterms:identifier "21008" ;
+    skos:prefLabel "clonal reproduction"@en .
+
+<http://vocabs.lter-europe.net/EnvThes/21032>
+    dcterms:identifier "21032" ;
+    skos:prefLabel "clonal growth"@en .
+
+<http://vocabs.lter-europe.net/EnvThes/21034>
+    dcterms:identifier "21034" ;
+    skos:prefLabel "vegetative growth"@en .
+
+<http://vocabs.lter-europe.net/EnvThes/21038>
+    dcterms:identifier "21038" ;
+    skos:prefLabel "dispersal"@en .
+
+<http://vocabs.lter-europe.net/EnvThes/21042>
+    dcterms:identifier "21042" ;
+    skos:prefLabel "seed dispersal"@en .
+
+<http://vocabs.lter-europe.net/EnvThes/21043>
+    dcterms:identifier "21043" ;
+    skos:prefLabel "generation time"@en .
+
+<http://vocabs.lter-europe.net/EnvThes/21061>
+    dcterms:identifier "21061" ;
+    skos:prefLabel "mating system"@en .
+
+<http://vocabs.lter-europe.net/EnvThes/21064>
+    dcterms:identifier "21064" ;
+    skos:prefLabel "survival"@en .
+
+<http://vocabs.lter-europe.net/EnvThes/21065>
+    dcterms:identifier "21065" ;
+    skos:prefLabel "survival rate"@en .
+
+<http://vocabs.lter-europe.net/EnvThes/21071>
+    dcterms:identifier "21071" ;
+    skos:prefLabel "production"@en .
+
+<http://vocabs.lter-europe.net/EnvThes/21088>
+    dcterms:identifier "21088" ;
+    skos:prefLabel "sap flow"@en .
+
+<http://vocabs.lter-europe.net/EnvThes/21096>
+    dcterms:identifier "21096" ;
+    skos:prefLabel "chemical defence"@en .
+
+<http://vocabs.lter-europe.net/EnvThes/21097>
+    dcterms:identifier "21097" ;
+    skos:prefLabel "competition"@en .
+
+<http://vocabs.lter-europe.net/EnvThes/21109>
+    dcterms:identifier "21109" ;
+    skos:prefLabel "plant defense"@en .
+
+<http://vocabs.lter-europe.net/EnvThes/21165>
+    dcterms:identifier "21165" ;
+    skos:prefLabel "normalized difference vegetation index"@en .
+
+<http://vocabs.lter-europe.net/EnvThes/21166>
+    dcterms:identifier "21166" ;
+    skos:prefLabel "photochemical reflectance index"@en .
+
+<http://vocabs.lter-europe.net/EnvThes/21173>
+    dcterms:identifier "21173" ;
+    skos:prefLabel "biomass dry"@en .
+
+<http://vocabs.lter-europe.net/EnvThes/21174>
+    dcterms:identifier "21174" ;
+    skos:prefLabel "biomass fresh"@en .
+
+<http://vocabs.lter-europe.net/EnvThes/21196>
+    dcterms:identifier "21196" ;
+    skos:prefLabel "biomass moisture content"@en .
+
+<http://vocabs.lter-europe.net/EnvThes/21211>
+    dcterms:identifier "21211" ;
+    skos:prefLabel "stomatal conductance"@en .
+
+<http://vocabs.lter-europe.net/EnvThes/21245>
+    dcterms:identifier "21245" ;
+    skos:prefLabel "environmental stress"@en .
+
+<http://vocabs.lter-europe.net/EnvThes/21360>
+    dcterms:identifier "21360" ;
+    skos:prefLabel "biomass allocation"@en .
+
+<http://vocabs.lter-europe.net/EnvThes/21379>
+    dcterms:identifier "21379" ;
+    skos:prefLabel "cell size"@en .
+
+<http://vocabs.lter-europe.net/EnvThes/21405>
+    dcterms:identifier "21405" ;
+    skos:prefLabel "ploidy level"@en .
+
+<http://vocabs.lter-europe.net/EnvThes/21409>
+    dcterms:identifier "21409" ;
+    skos:prefLabel "relative growth rate"@en .
+
+<http://vocabs.lter-europe.net/EnvThes/21412>
+    dcterms:identifier "21412" ;
+    skos:prefLabel "life form"@en .
+
+<http://vocabs.lter-europe.net/EnvThes/21418>
+    dcterms:identifier "21418" ;
+    skos:prefLabel "nitrogen use efficiency"@en .
+
+<http://vocabs.lter-europe.net/EnvThes/21422>
+    dcterms:identifier "21422" ;
+    skos:prefLabel "photosynthetic rate"@en .
+
+<http://vocabs.lter-europe.net/EnvThes/21436>
+    dcterms:identifier "21436" ;
+    skos:prefLabel "shade tolerance"@en .
+
+<http://vocabs.lter-europe.net/EnvThes/21488>
+    dcterms:identifier "21488" ;
+    skos:prefLabel "habitat disturbance"@en .
+
+<http://vocabs.lter-europe.net/EnvThes/21497>
+    dcterms:identifier "21497" ;
+    skos:prefLabel "resource availability"@en .
+
+<http://vocabs.lter-europe.net/EnvThes/21551>
+    dcterms:identifier "21551" ;
+    skos:prefLabel "dry matter content"@en .
+
+<http://vocabs.lter-europe.net/EnvThes/21558>
+    dcterms:identifier "21558" ;
+    skos:prefLabel "osmotic pressure"@en .
+
+<http://vocabs.lter-europe.net/EnvThes/21564>
+    dcterms:identifier "21564" ;
+    skos:prefLabel "surface area"@en .
+
+<http://vocabs.lter-europe.net/EnvThes/21577>
+    dcterms:identifier "21577" ;
+    skos:prefLabel "vapor pressure"@en .
+
+<http://vocabs.lter-europe.net/EnvThes/21580>
+    dcterms:identifier "21580" ;
+    skos:prefLabel "reflectance"@en .
+
+<http://vocabs.lter-europe.net/EnvThes/21586>
+    dcterms:identifier "21586" ;
+    skos:prefLabel "temporal pattern"@en .
+
+<http://vocabs.lter-europe.net/EnvThes/21649>
+    dcterms:identifier "21649" ;
+    skos:prefLabel "flowering time"@en .
+
+<http://vocabs.lter-europe.net/EnvThes/21762>
+    dcterms:identifier "21762" ;
+    skos:prefLabel "remote sensing"@en .
+
+<http://vocabs.lter-europe.net/EnvThes/21785>
+    dcterms:identifier "21785" ;
+    skos:prefLabel "aquatic"@en .
+
+<http://vocabs.lter-europe.net/EnvThes/21880>
+    dcterms:identifier "21880" ;
+    skos:prefLabel "terrestrial"@en .
+
+<http://vocabs.lter-europe.net/EnvThes/21900>
+    dcterms:identifier "21900" ;
+    skos:prefLabel "layer"@en .
+
+<http://vocabs.lter-europe.net/EnvThes/21976>
+    dcterms:identifier "21976" ;
+    skos:prefLabel "fresh"@en .
+
+<http://vocabs.lter-europe.net/EnvThes/22003>
+    dcterms:identifier "22003" ;
+    skos:prefLabel "per unit area"@en .
+
+<http://vocabs.lter-europe.net/EnvThes/22004>
+    dcterms:identifier "22004" ;
+    skos:prefLabel "per unit length"@en .
+
+<http://vocabs.lter-europe.net/EnvThes/22005>
+    dcterms:identifier "22005" ;
+    skos:prefLabel "per unit time"@en .
+
+<http://vocabs.lter-europe.net/EnvThes/22025>
+    dcterms:identifier "22025" ;
+    skos:prefLabel "above ground biomass"@en .
+
+<http://vocabs.lter-europe.net/EnvThes/22051>
+    dcterms:identifier "22051" ;
+    skos:prefLabel "nitrogen symbiotic fixation"@en .
+
+<http://vocabs.lter-europe.net/EnvThes/22082>
+    dcterms:identifier "22082" ;
+    skos:prefLabel "air carbon dioxide concentration"@en .
+
+<http://vocabs.lter-europe.net/EnvThes/22087>
+    dcterms:identifier "22087" ;
+    skos:prefLabel "concentration of nitrogen in seeds"@en .
+
+<http://vocabs.lter-europe.net/EnvThes/22096>
+    dcterms:identifier "22096" ;
+    skos:prefLabel "flowering date"@en .
+
+<http://vocabs.lter-europe.net/EnvThes/22120>
+    dcterms:identifier "22120" ;
+    skos:prefLabel "fire severity index"@en .
+
+<http://vocabs.lter-europe.net/EnvThes/22133>
+    dcterms:identifier "22133" ;
+    skos:prefLabel "hydraulic conductivity"@en .
+
+<http://vocabs.lter-europe.net/EnvThes/22155>
+    dcterms:identifier "22155" ;
+    skos:prefLabel "leaf age"@en .
+
+<http://vocabs.lter-europe.net/EnvThes/22157>
+    dcterms:identifier "22157" ;
+    skos:prefLabel "leaf area index"@en .
+
+<http://vocabs.lter-europe.net/EnvThes/22158>
+    dcterms:identifier "22158" ;
+    skos:prefLabel "leaf area ratio"@en .
+
+<http://vocabs.lter-europe.net/EnvThes/22159>
+    dcterms:identifier "22159" ;
+    skos:prefLabel "leaf longevity time"@en .
+
+<http://vocabs.lter-europe.net/EnvThes/22160>
+    dcterms:identifier "22160" ;
+    skos:prefLabel "leaf nitrogen concentration"@en .
+
+<http://vocabs.lter-europe.net/EnvThes/22162>
+    dcterms:identifier "22162" ;
+    skos:prefLabel "leaf size"@en .
+
+<http://vocabs.lter-europe.net/EnvThes/22192>
+    dcterms:identifier "22192" ;
+    skos:prefLabel "plant height"@en .
+
+<http://vocabs.lter-europe.net/EnvThes/22197>
+    dcterms:identifier "22197" ;
+    skos:prefLabel "plant transpiration"@en .
+
+<http://vocabs.lter-europe.net/EnvThes/22221>
+    dcterms:identifier "22221" ;
+    skos:prefLabel "saturated hydraulic conductivity"@en .
+
+<http://vocabs.lter-europe.net/EnvThes/22222>
+    dcterms:identifier "22222" ;
+    skos:prefLabel "saturated water content"@en .
+
+<http://vocabs.lter-europe.net/EnvThes/22228>
+    dcterms:identifier "22228" ;
+    skos:prefLabel "seed longevity time"@en .
+
+<http://vocabs.lter-europe.net/EnvThes/22229>
+    dcterms:identifier "22229" ;
+    skos:prefLabel "seed mass"@en .
+
+<http://vocabs.lter-europe.net/EnvThes/22232>
+    dcterms:identifier "22232" ;
+    skos:prefLabel "seed viability ratio"@en .
+
+<http://vocabs.lter-europe.net/EnvThes/22281>
+    dcterms:identifier "22281" ;
+    skos:prefLabel "soil water content"@en .
+
+<http://vocabs.lter-europe.net/EnvThes/22283>
+    dcterms:identifier "22283" ;
+    skos:prefLabel "soil water potential"@en .
+
+<http://vocabs.lter-europe.net/EnvThes/22311>
+    dcterms:identifier "22311" ;
+    skos:prefLabel "water potential"@en .
+
+<http://vocabs.lter-europe.net/EnvThes/30063>
+    dcterms:identifier "30063" ;
+    skos:prefLabel "plant species trait"@en .
+
+<http://vocabs.lter-europe.net/EnvThes/30101>
+    dcterms:identifier "30101" ;
+    skos:prefLabel "below ground biomass"@en .
+
+<http://vocabs.lter-europe.net/EnvThes/30127>
+    dcterms:identifier "30127" ;
+    skos:prefLabel "chlorophyll content"@en .
+
+EFO:EFO_0000433
+    dcterms:identifier "0000433" ;
+    skos:prefLabel "duration"@en .
+
+EFO:EFO_0000542
+    dcterms:identifier "0000542" ;
+    skos:prefLabel "individual"@en .
+
+EFO:EFO_0000727
+    dcterms:identifier "0000727" ;
+    skos:prefLabel "treatment"@en .
+
+EFO:EFO_0000997
+    dcterms:identifier "0000997" ;
+    skos:prefLabel "storage organ"@en .
+
+EFO:EFO_0005061
+    dcterms:identifier "0005061" ;
+    skos:prefLabel "substrate"@en .
+
+<http://www.ontology-of-units-of-measure.org/resource/om-2/DryMass>
+    dcterms:identifier "DryMass" ;
+    skos:prefLabel "dry mass"@en .
+
+rdf:type
+    skos:prefLabel "type"@en .
+
+skos:altLabel
+    dcterms:description "An alternative lexical label for a resource."@en ;
+    skos:prefLabel "alternative label"@en .
+
+skos:broader
+    dcterms:description "Relates a concept to a concept that is more general in meaning."@en ;
+    skos:prefLabel "has broader"@en .
+
+skos:changeNote
+    dcterms:description "A note about a modification to a concept."@en ;
+    skos:prefLabel "change note"@en .
+
+skos:closeMatch
+    dcterms:description "skos:closeMatch is used to link two concepts that are sufficiently similar that they can be used interchangeably in some information retrieval applications. In order to avoid the possibility of compound errors when combining mappings across more than two concept schemes, skos:closeMatch is not declared to be a transitive property."@en ;
+    skos:prefLabel "has close match"@en .
+
+skos:definition
+    skos:prefLabel "definition"@en .
+
+skos:exactMatch
+    skos:prefLabel "has exact match"@en .
+
+skos:example
+    skos:prefLabel "example"@en .
+
+skos:hasTopConcept
+    skos:prefLabel "has top concept"@en .
+
+skos:inScheme
+    dcterms:description "Relates a resource (for example a concept) to a concept scheme in which it is included."@en ;
+    skos:prefLabel "is in scheme"@en .
+
+skos:mappingRelation
+    dcterms:description "Relates two concepts coming, by convention, from different schemes, and that have comparable meanings"@en ;
+    skos:note "These concept mapping relations mirror semantic relations, and the data model defined below is similar (with the exception of skos:exactMatch) to the data model defined for semantic relations. A distinct vocabulary is provided for concept mapping relations, to provide a convenient way to differentiate links within a concept scheme from links between concept schemes. However, this pattern of usage is not a formal requirement of the SKOS data model, and relies on informal definitions of best practice."@en ;
+    skos:prefLabel "is in mapping relation with"@en .
+
+skos:narrower
+    dcterms:description "Relates a concept to a concept that is more specific in meaning."@en ;
+    skos:prefLabel "has narrower"@en .
+
+skos:note
+    dcterms:description "A general note, for any purpose."@en ;
+    skos:prefLabel "note"@en .
+
+skos:prefLabel
+    dcterms:description "The preferred lexical label for a resource, in a given language."@en ;
+    skos:prefLabel "preferred label"@en .
+
+skos:relatedMatch
+    dcterms:description "skos:relatedMatch is used to state an associative mapping link between two conceptual resources in different concept schemes."@en ;
+    skos:prefLabel "has related match"@en .
+
+skos:scopeNote
+    dcterms:description "A note that helps to clarify the meaning and/or the use of a concept."@en ;
+    skos:prefLabel "scope note"@en .
+
+skos:semanticRelation
+    dcterms:description "Links a concept to a concept related by meaning."@en ;
+    skos:prefLabel "is in semantic relation with"@en .
+
+skos:topConceptOf
+    skos:prefLabel "top concept of"@en .
+
+<https://books.google.com/books?vid=ISBN0521262968>
+    dcterms:bibliographicCitation "Field C & Mooney HA. The photosynthesis-nitrogen relationship in wild plants. pp 25-55 In T. Givnish (ed) *On the Economy of Plant Form and Function*. (Cambridge University Press 1986)."@en ;
+    dcterms:identifier "ISBN: 0521262968" ;
+    dcterms:title "The photosynthesis-nitrogen relationship in wild plants."@en ;
+    skos:prefLabel "Field & Mooney 1986" .
+
+<https://books.google.com/books?vid=ISBN1842464221>
+    dcterms:bibliographicCitation "Beentje, Henk Jaap. The Kew Plant Glossary: An Illustrated Dictionary of Plant Terms. (Royal Botanic Gardens, 2010)."@en ;
+    dcterms:identifier "ISBN:1842464221" ;
+    dcterms:title "The Kew plant glossary: an illustrated dictionary of plant terms"@en ;
+    skos:prefLabel "Beentje 2010" .
+
+<https://books.google.com/books?vid=ISBN9780128126288>
+    dcterms:bibliographicCitation "Simpson, Michael G. *Plant Systematics* 3rd edn (Academic Press, 2019)"@en ;
+    dcterms:identifier "ISBN:9780128126288" ;
+    dcterms:title "Plant Systematics"@en ;
+    skos:prefLabel "Simpson 2019" .
+
+<https://books.google.com/books?vid=ISBN9780323148658>
+    dcterms:bibliographicCitation "Leck, M. A.  Ecology of soil seed banks (Elsevier, 2012)."@en ;
+    dcterms:identifier "ISBN:978-0124145467" ;
+    dcterms:title "Ecology of soil seed banks"@en ;
+    skos:prefLabel "Leck 2012" .
+
+<https://books.google.com/books?vid=ISBN9780643063792>
+    dcterms:bibliographicCitation "Von Caemmerer, Susanna. *Biochemical Models of Leaf Photosynthesis*. (CSIRO Publishing, 2000)."@en ;
+    dcterms:identifier "ISBN:9780643063792" ;
+    dcterms:title "Biochemical Models of Leaf Photosynthesis."@en ;
+    skos:prefLabel "Von Caemmerer 2000" .
+
+<https://books.google.com/books?vid=ISBN9780801475184>
+    dcterms:bibliographicCitation "Ellis, Beth, et al. Manual of Leaf Architecture. (Cornell University Press, 2009)."@en ;
+    dcterms:identifier "ISBN:9780801475184" ;
+    dcterms:title "Manual of Leaf Architecture"@en ;
+    skos:prefLabel "Ellis 2009" .
+
+<https://books.google.com/books?vid=ISBN9781405149990>
+    dcterms:bibliographicCitation "Jones, Hamlyn G.  What Is Water Use Efficiency? *Water Use Efficiency in Plant Biology* (John Wiley & Sons, 2009)."@en ;
+    dcterms:identifier "ISBN:9781405149990" ;
+    dcterms:title "What is Water Use Efficiency?"@en ;
+    skos:prefLabel "Jones 2009" .
+
+<https://cropontology.org/rdf/CO_357:0000007>
+    dcterms:identifier "CO_357:0000007" ;
+    skos:prefLabel "Bark thickness"@en .
+
+<https://cropontology.org/rdf/CO_357:0000022>
+    dcterms:identifier "CO_357:0000022" ;
+    skos:prefLabel "Stem diameter"@en .
+
+<https://cropontology.org/rdf/CO_357:0000048>
+    dcterms:identifier "CO_357:0000048" ;
+    skos:prefLabel "Tree height"@en .
+
+<https://cropontology.org/rdf/CO_357:0000085>
+    dcterms:identifier "CO_357:0000085" ;
+    skos:prefLabel "Delta C13"@en .
+
+<https://cropontology.org/rdf/CO_357:0000086>
+    dcterms:identifier "CO_357:0000086" ;
+    skos:prefLabel "Leaf carbon content"@en .
+
+<https://cropontology.org/rdf/CO_357:0000101>
+    dcterms:identifier "CO_357:0000101" ;
+    skos:prefLabel "Crown size"@en .
+
+<https://cropontology.org/rdf/CO_357:0000111>
+    dcterms:identifier "CO_357:0000111" ;
+    skos:prefLabel "Tree height"@en .
+
+<https://cropontology.org/rdf/CO_357:0000113>
+    dcterms:identifier "CO_357:0000113" ;
+    skos:prefLabel "Wood Carbon content"@en .
+
+<https://cropontology.org/rdf/CO_357:0000133>
+    dcterms:identifier "CO_357:0000133" ;
+    skos:prefLabel "Wood density"@en .
+
+<https://cropontology.org/rdf/CO_357:0000151>
+    dcterms:identifier "CO_357:0000151" ;
+    skos:prefLabel "Wood vessels diameter"@en .
+
+<https://cropontology.org/rdf/CO_357:0000159>
+    dcterms:identifier "CO_357:0000159" ;
+    skos:prefLabel "Leaf nitrogen content"@en .
+
+<https://cropontology.org/rdf/CO_357:0000160>
+    dcterms:identifier "CO_357:0000160" ;
+    skos:prefLabel "Leaf nitrogen content"@en .
+
+<https://cropontology.org/rdf/CO_357:0000242>
+    dcterms:identifier "CO_357:0000242" ;
+    skos:prefLabel "Stomatal conductance to water vapour"@en .
+
+<https://cropontology.org/rdf/CO_357:0000245>
+    dcterms:identifier "CO_357:0000245" ;
+    skos:prefLabel "Stomatal density"@en .
+
+<https://cropontology.org/rdf/CO_357:0000249>
+    dcterms:identifier "CO_357:0000249" ;
+    skos:prefLabel "Leaf chlorophyll content"@en .
+
+<https://cropontology.org/rdf/CO_357:0000250>
+    dcterms:identifier "CO_357:0000250" ;
+    skos:prefLabel "Leaf chlorophyll content"@en .
+
+<https://cropontology.org/rdf/CO_357:0000251>
+    dcterms:identifier "CO_357:0000251" ;
+    skos:prefLabel "Lamina shape"@en .
+
+<https://cropontology.org/rdf/CO_357:0000255>
+    dcterms:identifier "CO_357:0000255" ;
+    skos:prefLabel "Leaf mass per leaf area"@en .
+
+<https://cropontology.org/rdf/CO_357:0000257>
+    dcterms:identifier "CO_357:0000257" ;
+    skos:prefLabel "Leaf area"@en .
+
+<https://cropontology.org/rdf/CO_357:0000268>
+    dcterms:identifier "CO_357:0000268" ;
+    skos:prefLabel "Petiole length"@en .
+
+<https://cropontology.org/rdf/CO_357:0000273>
+    dcterms:identifier "CO_357:0000273" ;
+    skos:prefLabel "Leaf rubisco content"@en .
+
+<https://cropontology.org/rdf/CO_357:0000281>
+    dcterms:identifier "CO_357:0000281" ;
+    skos:prefLabel "Leaf soluble protein content"@en .
+
+<https://cropontology.org/rdf/CO_357:0000287>
+    dcterms:identifier "CO_357:0000287" ;
+    skos:prefLabel "Ratio leaf nitrogen to leaf carbon"@en .
+
+<https://cropontology.org/rdf/CO_357:0000289>
+    dcterms:identifier "CO_357:0000289" ;
+    skos:prefLabel "Water use efficiency"@en .
+
+<https://cropontology.org/rdf/CO_357:0000304>
+    dcterms:identifier "CO_357:0000304" ;
+    skos:prefLabel "Ability to vegetative propagation"@en .
+
+<https://cropontology.org/rdf/CO_357:0000429>
+    dcterms:identifier "CO_357:0000429" ;
+    skos:prefLabel "Xylem hydraulic conductivity"@en .
+
+<https://cropontology.org/rdf/CO_357:0000454>
+    dcterms:identifier "CO_357:0000454" ;
+    skos:prefLabel "Xylem pressure"@en .
+
+<https://cropontology.org/rdf/CO_357:0000455>
+    dcterms:identifier "CO_357:0000455" ;
+    skos:prefLabel "Stomatal conductance to CO2"@en .
+
+<https://cropontology.org/rdf/CO_357:0000512>
+    dcterms:identifier "CO_357:0000512" ;
+    skos:prefLabel "C/N"@en .
+
+<https://cropontology.org/rdf/CO_357:0000513>
+    dcterms:identifier "CO_357:0000513" ;
+    skos:prefLabel "Delta 15N"@en .
+
+<https://cropontology.org/rdf/CO_357:0000514>
+    dcterms:identifier "CO_357:0000514" ;
+    skos:prefLabel "Chlorophyll a"@en .
+
+<https://cropontology.org/rdf/CO_357:0000515>
+    dcterms:identifier "CO_357:0000515" ;
+    skos:prefLabel "Chlorophyll b"@en .
+
+<https://cropontology.org/rdf/CO_357:0000516>
+    dcterms:identifier "CO_357:0000516" ;
+    skos:prefLabel "Chlorophyll a to b ratio"@en .
+
+<https://cropontology.org/rdf/CO_357:0000518>
+    dcterms:identifier "CO_357:0000518" ;
+    skos:prefLabel "Leaf dry mass"@en .
+
+<https://cropontology.org/rdf/CO_357:0000519>
+    dcterms:identifier "CO_357:0000519" ;
+    skos:prefLabel "Leaf water content"@en .
+
+<https://cropontology.org/rdf/CO_357:0000524>
+    dcterms:identifier "CO_357:0000524" ;
+    skos:prefLabel "Water use efficiency"@en .
+
+<https://cropontology.org/rdf/CO_357:0000526>
+    dcterms:identifier "CO_357:0000526" ;
+    skos:prefLabel "Stem diameter"@en .
+
+<https://cropontology.org/rdf/CO_357:0000527>
+    dcterms:identifier "CO_357:0000527" ;
+    skos:prefLabel "Photosynthetic rate"@en .
+
+<https://cropontology.org/rdf/CO_357:0000532>
+    dcterms:identifier "CO_357:0000532" ;
+    skos:prefLabel "Internal CO2 concentration"@en .
+
+<https://cropontology.org/rdf/CO_357:0000534>
+    dcterms:identifier "CO_357:0000534" ;
+    skos:prefLabel "Instantaneous carboxylation efficiency"@en .
+
+<https://cropontology.org/rdf/CO_357:0000535>
+    dcterms:identifier "CO_357:0000535" ;
+    skos:prefLabel "Leaf electron transport rate"@en .
+
+<https://cropontology.org/rdf/CO_357:0000536>
+    dcterms:identifier "CO_357:0000536" ;
+    skos:prefLabel "Transpiration rate"@en .
+
+<https://cropontology.org/rdf/CO_357:0000539>
+    dcterms:identifier "CO_357:0000539" ;
+    skos:prefLabel "Leaf quantum yield of photosystem II"@en .
+
+<https://data.kew.org/sid/sidsearch.html>
+    dcterms:bibliographicCitation "Seed Information Database: Royal Botanic Gardens, Kew. *Royal Botanic Gardens, Kew* http://data.kew.org/sid/sidsearch.html (2021)."@en ;
+    dcterms:identifier "url:data.kew.org/sid/sidsearch.html" ;
+    dcterms:title "Seed Information Database: Royal Botanic Gardens, Kew"@en ;
+    skos:prefLabel "Kew Seed Information Database 2022" .
+
+<https://doi.org/10.1002/ajb2.1538>
+    dcterms:bibliographicCitation "Schoenenberger, J., von Balthazar, M., Lopez Martinez, A., Albert, B., Prieu, C., Magallon, S., & Sauquet, H. Phylogenetic analysis of fossil flowers using an angiosperm-wide data set: proof-of-concept and challenges ahead. *American Journal of Botany* 107(10), 1433-1448 (2020)."@en ;
+    dcterms:identifier "doi:10.1002/ajb2.1538" ;
+    dcterms:title "Phylogenetic analysis of fossil flowers using an angiosperm-wide data set: proof-of-concept and challenges ahead"@en ;
+    skos:prefLabel "Sch<U+00F6>nenberger 2020" .
+
+<https://doi.org/10.1002/ece3.1173>
+    dcterms:bibliographicCitation "Walker, Anthony P., et al. The relationship of leaf photosynthetic traits 'Vcmax and Jmax' to leaf nitrogen, leaf phosphorus, and specific leaf area: a meta<U+0090>analysis and modeling study. *Ecology and Evolution* 4(16), 3218-3235 (2014)."@en ;
+    dcterms:identifier "doi:10.1002/ece3.1173" ;
+    dcterms:title "The relationship of leaf photosynthetic traits <U+201C> Vcmax and Jmax <U+201C> to leaf nitrogen, leaf phosphorus, and specific leaf area: a meta-analysis and modeling study"@en ;
+    skos:prefLabel "Walker 2014" .
+
+<https://doi.org/10.1002/ece3.7544>
+    dcterms:bibliographicCitation "Cross, A. T., & Lambers, H.  Calcicole<U+2013>calcifuge plant strategies limit restoration potential in a regional semi<U+2010>arid flora. *Ecology and Evolution*, 11(11), 6941-6961 (2021)."@en ;
+    dcterms:identifier "doi:10.1002/ece3.7544" ;
+    dcterms:title "Calcicole<U+2013>calcifuge plant strategies limit restoration potential in a regional semi-arid flora"@en ;
+    skos:prefLabel "Cross & Lambers 2021" .
+
+<https://doi.org/10.1007/978-1-4684-7747-4_8>
+    dcterms:bibliographicCitation "Bradbeer, J. W., and J. W. Bradbeer. Seed viability and vigour. *Seed Dormancy and Germination* 95-109 (1988)."@en ;
+    dcterms:identifier "doi:10.1007/978-1-4684-7747-4_8" ;
+    dcterms:title "Seed Viability and Vigour"@en ;
+    skos:prefLabel "Bradbeer 1988" .
+
+<https://doi.org/10.1007/978-3-662-04931-0>
+    dcterms:bibliographicCitation "Tyree, Melvin T., and Martin H. Zimmermann. Xylem Structure and the Ascent of Sap. (Springer Science & Business Media, 2013)."@en ;
+    dcterms:identifier "doi:10.1007/978-3-662-04931-0" ;
+    dcterms:title "Xylem structure and the ascent of sap."@en ;
+    skos:prefLabel "Tyree & Zimmerman 2002" .
+
+<https://doi.org/10.1007/978-94-007-1242-3_13>
+    dcterms:bibliographicCitation "Scholz, F. G., Phillips, N. G., Bucci, S. J., Meinzer, F. C., & Goldstein, G.. Hydraulic capacitance: biophysics and functional significance of internal water sources in relation to tree size. pp.  341-361 in *Size-and age-related changes in tree structure and function*  (Springer Verlag, 2011)."@en ;
+    dcterms:identifier "doi:10.1007/978-94-007-1242-3_13" ;
+    dcterms:title "Hydraulic capacitance: Biophysics and functional significance of internal water sources in relation to tree size"@en ;
+    skos:prefLabel "Scholz 2011" .
+
+<https://doi.org/10.1007/BF00121013>
+    dcterms:bibliographicCitation "Noble, I.R. and Slatyer, R.O. The use of vital attributes to predict successional changes in plant communities subject to recurrent disturbances. *Vegetatio* 43, 5-21 (1980)."@en ;
+    dcterms:identifier "doi:10.1007/BF00121013" ;
+    dcterms:title "The use of vital attributes to predict successional changes in plant communities subject to recurrent disturbances."@en ;
+    skos:prefLabel "Noble & Slatyer 1980" .
+
+<https://doi.org/10.1007/BF00195081>
+    dcterms:bibliographicCitation "Long, S.P., Postl, W.F. & Bolh<U+00E1>r-Nordenkampf, H.R. Quantum yields for uptake of carbon dioxide in C3 vascular plants of contrasting habitats and taxonomic groupings. *Planta* 189, 226<U+2013>234 (1993)."@en ;
+    dcterms:identifier "doi:10.1007/BF00195081" ;
+    dcterms:title "Quantum yields for uptake of carbon dioxide in C3 vascular plants of contrasting habitats and taxonomic groupings."@en ;
+    skos:prefLabel "Long 1993" .
+
+<https://doi.org/10.1007/BF00317209>
+    dcterms:bibliographicCitation "Poorter, H., Remkes, C.  Leaf area ratio and net assimilation rate of 24 wild species differing in relative growth rate. *Oecologia* 83, 553-559 (1990)."@en ;
+    dcterms:identifier "doi:10.1007/BF00317209" ;
+    dcterms:title "Leaf area ratio and net assimilation rate of 24 wild species differing in relative growth rate"@en ;
+    skos:prefLabel "Poorter & Remkes 1990" .
+
+<https://doi.org/10.1007/BF00386231>
+    dcterms:bibliographicCitation "Farquhar, G. D., von Caemmerer, S. V., & Berry, J. A.  A biochemical model of photosynthetic CO 2 assimilation in leaves of C 3 species. *Planta* 149, 78-90 (1980)."@en ;
+    dcterms:identifier "doi:10.1007/BF00386231" ;
+    dcterms:title "A biochemical model of photosynthetic CO 2 assimilation in leaves of C 3 species."@en ;
+    skos:prefLabel "Farquhar 1980" .
+
+<https://doi.org/10.1007/BF02803249>
+    dcterms:bibliographicCitation "Tyler, G. Some ecophysiological and historical approaches to species richness and calcicole/calcifuge behaviour<U+2014>contribution to a debate. *Folia Geobotanica*, 38, 419<U+2013>428 (2003)."@en ;
+    dcterms:identifier "doi:10.1007/BF02803249" ;
+    dcterms:title "Some ecophysiological and historical approaches to species richness and calcicole/calcifuge behaviour<U+2014>contribution to a debate."@en ;
+    skos:prefLabel "Tyler 2003" .
+
+<https://doi.org/10.1007/BF02858770>
+    dcterms:bibliographicCitation "Lamont, B.B., Le Maitre, D.C., Cowling, R.M. et al. Canopy seed storage in woody plants. *The Botanical Review* 57, 277<U+2013>317 (1991)."@en ;
+    dcterms:identifier "doi:10.1007/BF02858770" ;
+    dcterms:title "Canopy seed storage in woody plants"@en ;
+    skos:prefLabel "Lamont 1991" .
+
+<https://doi.org/10.1007/s00442-006-0523-z>
+    dcterms:bibliographicCitation "Lord, J.M., Westoby, M. Accessory costs of seed production. *Oecologia* 150, 310<U+2013>317 (2006)."@en ;
+    dcterms:identifier "doi:10.1007/s00442-006-0523-z" ;
+    dcterms:title "Accessory costs of seed production"@en ;
+    skos:prefLabel "Lord & Westoby 2006" .
+
+<https://doi.org/10.1007/s004420000624>
+    dcterms:bibliographicCitation "Singsaas, E., Ort, D. & DeLucia, E. Variation in measured values of photosynthetic quantum yield in ecophysiological studies. *Oecologia* 128, 15<U+2013>23 (2001)."@en ;
+    dcterms:identifier "doi:10.1007/s004420000624" ;
+    dcterms:title "Variation in measured values of photosynthetic quantum yield in ecophysiological studies."@en ;
+    skos:prefLabel "Singsaas 2001" .
+
+<https://doi.org/10.1007/s004420050337>
+    dcterms:bibliographicCitation "Gamon, JAm, L. Serrano, and J. S. Surfus. The photochemical reflectance index: an optical indicator of photosynthetic radiation use efficiency across species, functional types, and nutrient levels. *Oecologia* 112, 492-501 (1997)."@en ;
+    dcterms:identifier "doi:10.1007/s004420050337" ;
+    dcterms:title "The photochemical reflectance index: an optical indicator of photosynthetic radiation use efficiency across species, functional types, and nutrient levels"@en ;
+    skos:prefLabel "Gamon 1997" .
+
+<https://doi.org/10.1007/s11284-010-0712-4>
+    dcterms:bibliographicCitation "Niinemets, <U+00DC>lo. A review of light interception in plant stands from leaf to canopy in different plant functional types and in species with varying shade tolerance. *Ecological Research* 25(4), 693-714 (2010)."@en ;
+    dcterms:identifier "doi:10.1007/s11284-010-0712-4" ;
+    dcterms:title "A review of light interception in plant stands from leaf to canopy in different plant functional types and in species with varying shade tolerance"@en ;
+    skos:prefLabel "Niinemets 2010" .
+
+<https://doi.org/10.1016/B978-0-12-380868-4.00004-1>
+    dcterms:bibliographicCitation "Ogburn, R. Matthew, and Erika J. Edwards. The ecological water-use strategies of succulent plants. *Advances in Botanical Research* Vol. 55, 179-225 (Academic Press, 2010)."@en ;
+    dcterms:identifier "doi:10.1016/B978-0-12-380868-4.00004-1" ;
+    dcterms:title "The Ecological Water-Use Strategies of Succulent Plants"@en ;
+    skos:prefLabel "Ogburn & Edwards 2010" .
+
+<https://doi.org/10.1016/S0034-4257(02)00010-X>
+    dcterms:bibliographicCitation "Sims, D. A., & Gamon, J. A. Relationships between leaf pigment content and spectral reflectance across a wide range of species, leaf structures and developmental stages. *Remote sensing of environment* 81(2-3), 337-354 (2002)."@en ;
+    dcterms:identifier "doi:10.1016/S0034-4257(02)00010-X" ;
+    dcterms:title "Relationships between leaf pigment content and spectral reflectance across a wide range of species, leaf structures and developmental stages"@en ;
+    skos:prefLabel "Sims & Gamon 2002" .
+
+<https://doi.org/10.1016/S0169-5347(03)00061-2>
+    dcterms:bibliographicCitation "Falster, Daniel S., and Mark Westoby. Plant height and evolutionary games. *Trends in Ecology & Evolution* 18(7), 337-343 (2003)."@en ;
+    dcterms:identifier "doi:10.1016/S0169-5347(03)00061-2" ;
+    dcterms:title "Plant height and evolutionary games"@en ;
+    skos:prefLabel "Falster 2003a" .
+
+<https://doi.org/10.1016/j.ecoinf.2021.101232>
+    dcterms:bibliographicCitation "Ely, K. S., Rogers, A., Agarwal, D. A., Ainsworth, E. A., Albert, L. P., Ali, A., ... & Yang, D. A reporting format for leaf-level gas exchange data and metadata. *Ecological Informatics* 61, 101232 (2021)."@en ;
+    dcterms:identifier "doi:10.1016/j.ecoinf.2021.101232" ;
+    dcterms:title "A reporting format for leaf-level gas exchange data and metadata"@en ;
+    skos:prefLabel "Ely 2021" .
+
+<https://doi.org/10.1016/j.plantsci.2012.05.009>
+    dcterms:bibliographicCitation "Flexas et al. Mesophyll diffusion conductance to CO2: An unappreciated central player in photosynthesis. *Plant Science* 193, 70-84 (2012)."@en ;
+    dcterms:identifier "doi:10.1016/j.plantsci.2012.05.009" ;
+    dcterms:title "Mesophyll diffusion conductance to CO2: An unappreciated central player in photosynthesis."@en ;
+    skos:prefLabel "Flexas 2012" .
+
+<https://doi.org/10.1016/j.ppees.2007.01.001>
+    dcterms:bibliographicCitation "Hanley, Mick E., et al. Plant structural traits and their role in anti-herbivore defence. *Perspectives in Plant Ecology, Evolution and Systematics* 8(4), 157-178 (2007)."@en ;
+    dcterms:identifier "doi:10.1016/j.ppees.2007.01.001" ;
+    dcterms:title "Plant structural traits and their role in anti-herbivore defence"@en ;
+    skos:prefLabel "Hanley 2007" .
+
+<https://doi.org/10.1016/j.ppees.2019.125497>
+    dcterms:bibliographicCitation "Vesk, P. A., & Yen, J. D.  Plant resprouting: how many sprouts and how deep? Flexible modelling of multi-species experimental disturbances. *Perspectives in Plant Ecology, Evolution and Systematics*, 41, 125497 (2019)."@en ;
+    dcterms:identifier "doi:10.1016/j.ppees.2019.125497" ;
+    dcterms:title "Plant resprouting: How many sprouts and how deep? Flexible modelling of multispecies experimental disturbances."@en ;
+    skos:prefLabel "Vesk & Yen 2019" .
+
+<https://doi.org/10.1016/j.scitotenv.2015.04.002>
+    dcterms:bibliographicCitation "Clarke, Peter J., et al. A synthesis of postfire recovery traits of woody plants in Australian ecosystems. *Science of the Total Environment* 534, 31-42 (2015)."@en ;
+    dcterms:identifier "doi:10.1016/j.scitotenv.2015.04.002" ;
+    dcterms:title "A synthesis of postfire recovery traits of woody plants in Australian ecosystems"@en ;
+    skos:prefLabel "Clarke 2015" .
+
+<https://doi.org/10.1016/j.tplants.2010.10.003>
+    dcterms:bibliographicCitation "Cooke, J., & Leishman, M. R.. Is plant ecology more siliceous than we realise?. *Trends in Plant Science* 16(2), 61-68 (2011)."@en ;
+    dcterms:identifier "doi: 10.1016/j.tplants.2010.10.003" ;
+    dcterms:title "Is plant ecology more siliceous than we realise?"@en ;
+    skos:prefLabel "Cooke & Leishman 2011" .
+
+<https://doi.org/10.1016/j.tree.2022.11.002>
+    dcterms:bibliographicCitation "de Tombeur, F., Raven, J. A., Toussaint, A., Lambers, H., Cooke, J., Hartley, S. E., ... & Violle, C. Why do plants silicify? *Trends in Ecology & Evolution* 38(3): 275-288 (2023)."@en ;
+    dcterms:identifier "doi:10.1016/j.tree.2022.11.002" ;
+    dcterms:title "Why do plants silicify?"@en ;
+    skos:prefLabel "de Tombeur 2023" .
+
+<https://doi.org/10.1017/CBO9780511845727>
+    dcterms:bibliographicCitation "Jones, H.  Plants and Microclimate, A Quantitative Approach to Environmental Plant Physiology. 3rd edn (Cambridge University Press, 2014)."@en ;
+    dcterms:identifier "doi:10.1017/CBO9780511845727" ;
+    dcterms:title "Plants and Microclimate: A Quantitative Approach to Environmental Plant Physiology"@en ;
+    skos:prefLabel "Jones 1992" .
+
+<https://doi.org/10.1017/S0960258510000267>
+    dcterms:bibliographicCitation "Thompson, K., & Ooi, M. K. To germinate or not to germinate: more than just a question of dormancy. *Seed Science Research*, 20(4), 209-211 (2010)."@en ;
+    dcterms:identifier "doi:10.1017/S0960258510000267" ;
+    dcterms:title "To germinate or not to germinate: more than just a question of dormancy"@en ;
+    skos:prefLabel "Thompson & Ooi 2010" .
+
+<https://doi.org/10.1023/A1009875226637>
+    dcterms:bibliographicCitation "Casanova, M.T., Brock, M.A. How do depth, duration and frequency of flooding influence the establishment of wetland plant communities? *Plant Ecology* 147, 237-250 (2000)."@en ;
+    dcterms:identifier "doi:10.1023/A:1009875226637" ;
+    dcterms:title "How do depth, duration and frequency of flooding influence the establishment of wetland plant communities?"@en ;
+    skos:prefLabel "Casanova & Brock 2000" .
+
+<https://doi.org/10.1038/282424a0>
+    dcterms:bibliographicCitation "Wong, S., Cowan, I. & Farquhar, G. Stomatal conductance correlates with photosynthetic capacity. *Nature* 282, 424<U+2013>426 (1979)."@en ;
+    dcterms:identifier "doi:10.1038/282424a0" ;
+    dcterms:title "Stomatal conductance correlates with photosynthetic capacity."@en ;
+    skos:prefLabel "Wong 1979" .
+
+<https://doi.org/10.1038/nature02403>
+    dcterms:bibliographicCitation "Wright, I. J., Reich, P. B., Westoby, M., Ackerly, D. D., Baruch, Z., Bongers, F., ... & Villar, R.  The worldwide leaf economics spectrum. *Nature* 428(6985), 821-827  (2004)."@en ;
+    dcterms:identifier "doi:10.1038/nature02403" ;
+    dcterms:title "The worldwide leaf economics spectrum"@en ;
+    skos:prefLabel "Wright 2004" .
+
+<https://doi.org/10.1038/s41467-022-32545-0>
+    dcterms:bibliographicCitation "Ellsworth, D.S., Crous, K.Y., De Kauwe, M.G. et al. Convergence in phosphorus constraints to photosynthesis in forests around the world. *Nature Communications* 13, 5005 (2022)."@en ;
+    dcterms:identifier "doi:10.1038/s41467-022-32545-0" ;
+    dcterms:title "Convergence in phosphorus constraints to photosynthesis in forests around the world."@en ;
+    skos:prefLabel "Ellsworth 2022" .
+
+<https://doi.org/10.1038/s41597-019-0189-0>
+    dcterms:bibliographicCitation "Kissling, W. Daniel, et al. PalmTraits 1.0, a species-level functional trait database of palms worldwide. *Scientific Data* 6(1), 1-13 (2019)."@en ;
+    dcterms:identifier "doi:10.1038/s41597-019-0189-0" ;
+    dcterms:title "PalmTraits 1.0, a species-level functional trait database of palms worldwide"@en ;
+    skos:prefLabel "Kissling 2019" .
+
+<https://doi.org/10.1038/sdata.2018.135>
+    dcterms:bibliographicCitation "Tav<U+015F>ano<U+011F>lu, <U+00C7>a<U+011F>atay , and Juli G. Pausas. A functional trait database for Mediterranean Basin plants. *Scientific Data* 5(1) 1-18 (2018)."@en ;
+    dcterms:identifier "doi:10.1038/sdata.2018.135" ;
+    dcterms:title "Data Descriptor: A functional trait database for Mediterranean Basin plants"@en ;
+    skos:prefLabel "Tav<U+015F>ano<U+011F>lu & Pausas 2018" .
+
+<https://doi.org/10.1046/j.1365-2435.2001.00522.x>
+    dcterms:bibliographicCitation "Wright, I. J., and K. Cannon. Relationships between leaf lifespan and structural defences in a low-nutrient, sclerophyll flora. *Functional Ecology* 15(3), 351-359  (2001)."@en ;
+    dcterms:identifier "doi:10.1046/j.1365-2435.2001.00522.x" ;
+    dcterms:title "Relationships between leaf lifespan and structural defences in a low-nutrient, sclerophyll flora"@en ;
+    skos:prefLabel "Wright & Cannon 2001" .
+
+<https://doi.org/10.1046/j.1365-3040.2002.00891.x>
+    dcterms:bibliographicCitation "Medlyn, B. E., et al. Temperature response of parameters of a biochemically based model of photosynthesis. II. A review of experimental data. *Plant, Cell & Environment* 25(9), 1167-1179 (2002)."@en ;
+    dcterms:identifier "doi:10.1046/j.1365-3040.2002.00891.x" ;
+    dcterms:title "Temperature response of parameters of a biochemically based model of photosynthesis. II. A review of experimental data"@en ;
+    skos:prefLabel "Medlyn 2002" .
+
+<https://doi.org/10.1046/j.1442-9993.2001.01154.x>
+    dcterms:bibliographicCitation "Sanson, G., et al. Measurement of leaf biomechanical properties in studies of herbivory: opportunities, problems and procedures. *Austral Ecology* 26(5), 535-546 (2001)."@en ;
+    dcterms:identifier "doi:10.1046/j.1442-9993.2001.01154.x" ;
+    dcterms:title "Measurement of leaf biomechanical properties in studies of herbivory: Opportunities, problems and procedures"@en ;
+    skos:prefLabel "Sanson 2001" .
+
+<https://doi.org/10.1046/j.1469-8137.2003.00765.x>
+    dcterms:bibliographicCitation "Falster, Daniel S., and Mark Westoby. Leaf size and angle vary widely across species: what consequences for light interception? *New Phytologist* 158(3), 509-525 (2003)."@en ;
+    dcterms:identifier "doi:10.1046/j.1469-8137.2003.00765.x" ;
+    dcterms:title "Leaf size and angle vary widely across species: what consequences for light interception?"@en ;
+    skos:prefLabel "Falster 2003b" .
+
+<https://doi.org/10.1071/9780643109865>
+    dcterms:bibliographicCitation "Brooker, Ian, and Dean Nicolle. Atlas of leaf venation and oil gland patterns in the eucalypts. (CSIRO Publishing, 2013)."@en ;
+    dcterms:identifier "doi:10.1071/9780643109865" ;
+    dcterms:title "Atlas of Leaf Venation and Oil Gland Patterns in the Eucalypts"@en ;
+    skos:prefLabel "Brooker & Nicolle 2013" .
+
+<https://doi.org/10.1071/BT02124>
+    dcterms:bibliographicCitation "Cornelissen, J. H. C., et al. A handbook of protocols for standardised and easy measurement of plant functional traits worldwide. *Australian journal of Botany* 51(4), 335-380 (2003)."@en ;
+    dcterms:identifier "doi:10.1071/BT02124" ;
+    dcterms:title "A handbook of protocols for standardised and easy measurement of plant functional traits worldwide"@en ;
+    skos:prefLabel "Cornellison 2003" .
+
+<https://doi.org/10.1071/BT06106>
+    dcterms:bibliographicCitation "Merritt, D. J., et al. Seed dormancy and germination stimulation syndromes for Australian temperate species. *Australian Journal of Botany* 55(3), 336-344 (2007)."@en ;
+    dcterms:identifier "doi:10.1071/BT06106" ;
+    dcterms:title "Seed dormancy and germination stimulation syndromes for Australian temperate species"@en ;
+    skos:prefLabel "Merritt 2007" .
+
+<https://doi.org/10.1071/BT11284>
+    dcterms:bibliographicCitation "Curtis, Ellen M., Andrea Leigh, and Scott Rayburg. Relationships among leaf traits of Australian arid zone plants: alternative modes of thermal protection. *Australian Journal of Botany* 60(6), 471-483 (2012)."@en ;
+    dcterms:identifier "doi:10.1071/BT11284" ;
+    dcterms:title "Relationships among leaf traits of Australian arid zone plants: alternative modes of thermal protection"@en ;
+    skos:prefLabel "Curtis 2012" .
+
+<https://doi.org/10.1071/BT12225>
+    dcterms:bibliographicCitation "P<U+00E9>rez-Harguindeguy N., et al. New handbook for standardised measurement of plant functional traits worldwide. *Australian Journal of Botany* 61, 167-234 (2013)."@en ;
+    dcterms:identifier "doi:10.1071/BT12225" ;
+    dcterms:title "New handbook for standardised measurement of plant functional traits worldwide"@en ;
+    skos:prefLabel "P<U+00E9>rez-Harguindeguy 2013" .
+
+<https://doi.org/10.1071/BT20048>
+    dcterms:bibliographicCitation "Wigley, Benjamin J., et al. A handbook for the standardised sampling of plant functional traits in disturbance-prone ecosystems, with a focus on open ecosystems. *Australian Journal of Botany* 68(8), 473-531 (2020)."@en ;
+    dcterms:identifier "doi:10.1071/BT20048" ;
+    dcterms:title "A handbook for the standardised sampling of plant functional traits in disturbance-prone ecosystems, with a focus on open ecosystems"@en ;
+    skos:prefLabel "Wigley 2020" .
+
+<https://doi.org/10.1071/BT9900255>
+    dcterms:bibliographicCitation "Auld, T. D. The survival of juvenile plants of the resprouting shrub Angophora hispida (Myrtaceae) after a simulated low intensity fire. *Australian Journal of Botany*, 38(3), 255-260 (1990)."@en ;
+    dcterms:identifier "doi:10.1071/BT9900255" ;
+    dcterms:title "The survival of juvenile plants of the resprouting shrub Angophora hispida (Myrtaceae) after a simulated low intensity fire"@en ;
+    skos:prefLabel "Auld 1990" .
+
+<https://doi.org/10.1071/FP05298>
+    dcterms:bibliographicCitation "Warren, Charles. Estimating the internal conductance to CO2 movement. *Functional Plant Biology* 33, 431-442 (2006)."@en ;
+    dcterms:identifier "doi:10.1071/FP05298" ;
+    dcterms:title "Estimating the internal conductance to CO2 movement."@en ;
+    skos:prefLabel "Warren 2006" .
+
+<https://doi.org/10.1079/SSR2003150>
+    dcterms:bibliographicCitation "Baskin, Jerry M., & Carol C. Baskin. A classification system for seed dormancy. *Seed Science Research* 14(1), 1-16  (2004)."@en ;
+    dcterms:identifier "doi:10.1079/SSR2003150" ;
+    dcterms:title "A classification system for seed dormancy"@en ;
+    skos:prefLabel "Baskin & Baskin 2004" .
+
+<https://doi.org/10.1079/SSR2005209>
+    dcterms:bibliographicCitation "Walck, J. L., Baskin, J. M., Baskin, C. C., & Hidayati, S. N. Defining transient and persistent seed banks in species with pronounced seasonal dormancy and germination patterns. *Seed Science Research*, 15(3), 189-196 (2005)."@en ;
+    dcterms:identifier "doi:10.1079/SSR2005209" ;
+    dcterms:title "Defining transient and persistent seed banks in species with pronounced seasonal dormancy and germination patterns"@en ;
+    skos:prefLabel "Walck 2005" .
+
+<https://doi.org/10.1080/014311697216810>
+    dcterms:bibliographicCitation "Jurgens, C. The modified normalized difference vegetation index (mNDVI) a new index to determine frost damages in agriculture based on Landsat TM data. *International Journal of Remote Sensing* 18(17), 3583-3594 (1997)."@en ;
+    dcterms:identifier "doi:10.1080/014311697216810" ;
+    dcterms:title "The modified normalized difference vegetation index (mNDVI) a new index to determine frost damages in agriculture based on Landsat TM data"@en ;
+    skos:prefLabel "Jurgens 1997" .
+
+<https://doi.org/10.1080/014311697217387>
+    dcterms:bibliographicCitation "Pe<U+00F1>uelas, J., et al.  Photochemical reflectance index and leaf photosynthetic radiation-use-efficiency assessment in Mediterranean trees. *International Journal of Remote Sensing* 18(13), 2863-2868 (1997)."@en ;
+    dcterms:identifier "doi:10.1080/014311697217387" ;
+    dcterms:title "Photochemical reflectance index and leaf photosynthetic radiation-use-efficiency assessment in Mediterranean trees"@en ;
+    skos:prefLabel "Pe<U+00F1>uelas 1997" .
+
+<https://doi.org/10.1080/07352689.2017.1364209>
+    dcterms:bibliographicCitation "Pyke, Graham H. Fire-stimulated flowering: A review and look to the future, *Critical Reviews in Plant Sciences*, 36:3, 179-189 (2017)."@en ;
+    dcterms:identifier "doi:10.1080/07352689.2017.1364209" ;
+    dcterms:title "Fire-stimulated flowering: A review and look to the future"@en ;
+    skos:prefLabel "Pyke 2017" .
+
+<https://doi.org/10.1080/07352689.2020.1768465>
+    dcterms:bibliographicCitation "Lamont, B. B., Pausas, J. G., He, T., Witkowski, E. T., & Hanley, M. E. Fire as a selective agent for both serotiny and nonserotiny over space and time. *Critical Reviews in Plant Sciences*, 39(2), 140-172 (2020)."@en ;
+    dcterms:identifier "doi:10.1080/07352689.2020.1768465" ;
+    dcterms:title "Fire as a selective agent for both serotiny and nonserotiny over space and time."@en ;
+    skos:prefLabel "Lamont 2020" .
+
+<https://doi.org/10.1086/319579>
+    dcterms:bibliographicCitation "Burrows, G. E. Comparative anatomy of the photosynthetic organs of 39 xeromorphic species from subhumid New South Wales, Australia. *International Journal of Plant Sciences* 162(2), 411-430 (2001)."@en ;
+    dcterms:identifier "doi:10.1086/319579" ;
+    dcterms:title "Comparative Anatomy of the Photosynthetic Organs of 39 Xeromorphic Species from Subhumid New South Wales, Australia"@en ;
+    skos:prefLabel "Burrows 2001" .
+
+<https://doi.org/10.1086/670400>
+    dcterms:bibliographicCitation "Carlquist, Sherwin. More woodiness/less woodiness: evolutionary avenues, ontogenetic mechanisms. *International Journal of Plant Sciences* 174(7) 964-991 (2013)."@en ;
+    dcterms:identifier "doi:10.1086/670400" ;
+    dcterms:title "More Woodiness/Less Woodiness: Evolutionary Avenues, Ontogenetic Mechanisms"@en ;
+    skos:prefLabel "Carlquist 2013" .
+
+<https://doi.org/10.1093/jexbot/51.345.659>
+    dcterms:bibliographicCitation "Maxwell, Kate, and Giles N. Johnson. Chlorophyll fluorescence: a practical guide. *Journal of Experimental Botany* 51, 659-668 (2000)."@en ;
+    dcterms:identifier "doi:10.1093/jexbot/51.345.659" ;
+    dcterms:title "Chlorophyll fluorescence: a practical guide"@en ;
+    skos:prefLabel "Maxwell & Johnson 2000" .
+
+<https://doi.org/10.1093/jxb/36.10.1590>
+    dcterms:bibliographicCitation "Schulte, P. J., and T. M. Hinckley. A comparison of pressure-volume curve data analysis techniques. *Journal of Experimental Botany* 36(10), 1590-1602 (1985)."@en ;
+    dcterms:identifier "doi:10.1093/jxb/36.10.1590" ;
+    dcterms:title "A Comparison of Pressure-Volume Curve Data Analysis Techniques"@en ;
+    skos:prefLabel "Schulte & Hinckley 1985" .
+
+<https://doi.org/10.1093/jxb/erp117>
+    dcterms:bibliographicCitation "Evans, J.R. , R. Kaldenhoff, B. Genty, I. Terashima. Resistances along the CO2 diffusion pathway inside leaves. *Journal of Experimental Botany* 60, 2235-2248 (2009)."@en ;
+    dcterms:identifier "doi:10.1093/jxb/erp117" ;
+    dcterms:title "Resistances along the CO2 diffusion pathway inside leaves."@en ;
+    skos:prefLabel "Evans 2009" .
+
+<https://doi.org/10.1093/pcp/pcv155>
+    dcterms:bibliographicCitation "Santos, Joaquim, et al. eHALOPH a database of salt-tolerant plants: helping put halophytes to work. *Plant and Cell Physiology* 57(1), e10-e10 (2016)."@en ;
+    dcterms:identifier "doi:10.1093/pcp/pcv155" ;
+    dcterms:title "eHALOPH a Database of Salt-Tolerant Plants: Helping put Halophytes to Work"@en ;
+    skos:prefLabel "Santos 2016" .
+
+<https://doi.org/10.1094/PHI-I-2004-0330-01>
+    dcterms:bibliographicCitation "Nickrent, D.L. and Musselman, L.J.  Introduction to Parasitic Flowering Plants. *The Plant Health Instructor* https://www.apsnet.org/edcenter/disandpath/parasiticplants/intro/Pages/ParasiticPlants.aspx  (2016)."@en ;
+    dcterms:identifier "doi:10.1094/PHI-I-2004-0330-01" ;
+    dcterms:title "Introduction to Parasitic Flowering Plants"@en ;
+    skos:prefLabel "Nickrent & Musselman 2004" .
+
+<https://doi.org/10.1111/1365-2745.12035>
+    dcterms:bibliographicCitation "Lawes, Michael J., Jeremy J. Midgley, and Peter J. Clarke. Costs and benefits of relative bark thickness in relation to fire damage: a savanna/forest contrast. *Journal of Ecology* 101(2), 517-524 (2013)."@en ;
+    dcterms:identifier "doi:10.1111/1365-2745.12035" ;
+    dcterms:title "Costs and benefits of relative bark thickness in relation to fire damage: a savanna/forest contrast"@en ;
+    skos:prefLabel "Lawes 2013" .
+
+<https://doi.org/10.1111/geb.12346>
+    dcterms:bibliographicCitation "Chen, Si-<U+0090>Chong, and Angela T. Moles. A mammoth mouthful? A test of the idea that larger animals ingest larger seeds. *Global Ecology and Biogeography* 24(11), 1269-1280 (2015)."@en ;
+    dcterms:identifier "doi:10.1111/geb.12346" ;
+    dcterms:title "A mammoth mouthful? A test of the idea that larger animals ingest larger seeds"@en ;
+    skos:prefLabel "Chen 2015" .
+
+<https://doi.org/10.1111/geb.13065>
+    dcterms:bibliographicCitation "Delmas, Chloe EL, Robert M. Kooyman, and Maurizio Rossetto. Evolutionary constraints and adaptation shape the size and colour of rain forest fruits and flowers at continental scale. *Global Ecology and Biogeography* 29(5), 830-841 (2020)."@en ;
+    dcterms:identifier "doi:10.1111/geb.13065" ;
+    dcterms:title "Evolutionary constraints and adaptation shape the size and colour of rain forest fruits and flowers at continental scale"@en ;
+    skos:prefLabel "Delmas 2020" .
+
+<https://doi.org/10.1111/j.1365-2435.2010.01826.x>
+    dcterms:bibliographicCitation "Salminen, J. P., & Karonen, M. Chemical ecology of tannins and other phenolics: we need a change in approach. *Functional Ecology* 25(2), 325-338 (2011)."@en ;
+    dcterms:identifier "doi:10.1111/j.1365-2435.2010.01826.x" ;
+    dcterms:title "Chemical ecology of tannins and other phenolics: we need a change in approach"@en ;
+    skos:prefLabel "Salminen & Karonen 2011" .
+
+<https://doi.org/10.1111/j.1365-2699.2012.02773.x>
+    dcterms:bibliographicCitation "Gallagher, Rachael V., and Michelle R. Leishman. A global analysis of trait variation and evolution in climbing plants. *Journal of Biogeography* 39(10), 1757-1771 (2012)."@en ;
+    dcterms:identifier "doi:10.1111/j.1365-2699.2012.02773.x" ;
+    dcterms:title "A global analysis of trait variation and evolution in climbing plants"@en ;
+    skos:prefLabel "Gallagher 2012" .
+
+<https://doi.org/10.1111/j.1365-2745.2007.01302.x>
+    dcterms:bibliographicCitation "Keith, David A., et al. Plant functional types can predict decade-scale changes in fire-prone vegetation. *Journal of Ecology* 95(6), 1324-1337 (2007)."@en ;
+    dcterms:identifier "doi:10.1111/j.1365-2745.2007.01302.x" ;
+    dcterms:title "Plant functional types can predict decade-scale changes in fire-prone vegetation"@en ;
+    skos:prefLabel "Keith 2007" .
+
+<https://doi.org/10.1111/j.1469-8137.1991.tb00035.x>
+    dcterms:bibliographicCitation "Tyree, Melvin T., and Frank W. Ewers. The hydraulic architecture of trees and other woody plants. *New Phytologist* 119(3), 345-360 (1991)."@en ;
+    dcterms:identifier "doi:10.1111/j.1469-8137.1991.tb00035.x" ;
+    dcterms:title "The hydraulic architecture of trees and other woody plants"@en ;
+    skos:prefLabel "Tyree & Ewers 1991" .
+
+<https://doi.org/10.1111/j.1469-8137.1992.tb01131.x>
+    dcterms:bibliographicCitation "Choong, M. F., et al. Leaf fracture toughness and sclerophylly: their correlations and ecological implications. *New Phytologist* 121(4), 597-610 (1992)."@en ;
+    dcterms:identifier "doi:10.1111/j.1469-8137.1992.tb01131.x" ;
+    dcterms:title "Leaf fracture toughness and sclerophylly: their correlations and ecological implications"@en ;
+    skos:prefLabel "Choong 1992" .
+
+<https://doi.org/10.1111/j.1469-8137.2010.03439.x>
+    dcterms:bibliographicCitation "Blackman, C. J., Brodribb, T. J., & Jordan, G. J.  Leaf hydraulic vulnerability is related to conduit dimensions and drought resistance across a diverse range of woody angiosperms. *New Phytologist* 188(4), 1113-1123 (2010)."@en ;
+    dcterms:identifier "doi:10.1111/j.1469-8137.2010.03439.x" ;
+    dcterms:title "Leaf hydraulic vulnerability is related to conduit dimensions and drought resistance across a diverse range of woody angiosperms"@en ;
+    skos:prefLabel "Blackman 2010" .
+
+<https://doi.org/10.1111/j.1654-1103.2003.tb02160.x>
+    dcterms:bibliographicCitation "Bradstock, R.A. and Kenny, B.J. An application of plant functional types to fire management in a conservation reserve in southeastern Australia. *Journal of Vegetation Science* 14, 345-354 (2003)."@en ;
+    dcterms:identifier "doi:10.1111/j.1654-1103.2003.tb02160.x" ;
+    dcterms:title "An application of plant functional types to fire management in a conservation reserve in southeastern Australia"@en ;
+    skos:prefLabel "Bradstock & Kenny 2003" .
+
+<https://doi.org/10.1111/j.1654-1103.2012.01434.x>
+    dcterms:bibliographicCitation "Gosper, Carl R., Colin J. Yates, and Suzanne M. Prober. Changes in plant species and functional composition with time since fire in two mediterranean climate plant communities. *Journal of Vegetation Science* 23(6), 1071-1081 (2012)."@en ;
+    dcterms:identifier "doi:10.1111/j.1654-1103.2012.01434.x" ;
+    dcterms:title "Changes in plant species and functional composition with time since fire in two Mediterranean climate plant communities"@en ;
+    skos:prefLabel "Gosper 2012" .
+
+<https://doi.org/10.1111/jbi.14375>
+    dcterms:bibliographicCitation "Stephens, Ruby E., et al. Climate shapes community flowering periods across biomes. *Journal of Biogeography* (2022)."@en ;
+    dcterms:identifier "doi:10.1111/jbi.14375" ;
+    dcterms:title "Climate shapes community flowering periods across biomes"@en ;
+    skos:prefLabel "Stephens 2022" .
+
+<https://doi.org/10.1111/jipb.12534>
+    dcterms:bibliographicCitation "Venturas, Martin D., John S. Sperry, and Uwe G. Hacke. Plant xylem hydraulics: what we understand, current research, and future challenges. *Journal of Integrative Plant Biology* 59(6), 356-389  (2017)."@en ;
+    dcterms:identifier "doi:10.1111/jipb.12534" ;
+    dcterms:title "Plant xylem hydraulics: What we understand, current research, and future challenges"@en ;
+    skos:prefLabel "Venturas 2017" .
+
+<https://doi.org/10.1111/jvs.12375>
+    dcterms:bibliographicCitation "Jim<U+00E9>nez-Alfaro, Borja, et al. Seed germination traits can contribute better to plant community ecology. *Journal of Vegetation Science* 27(3), 637-645 (2016)."@en ;
+    dcterms:identifier "doi:10.1111/jvs.12375" ;
+    dcterms:title "Seed germination traits can contribute better to plant community ecology"@en ;
+    skos:prefLabel "Jim<U+00E9>nez-Alfaro 2016" .
+
+<https://doi.org/10.1111/nph.12001>
+    dcterms:bibliographicCitation "Clarke, P. J., Lawes, M. J., Midgley, J. J., Lamont, B. B., Ojeda, F., Burrows, G. E., ... & Knox, K. J. E. Resprouting as a key functional trait: how buds, protection and resources drive persistence after fire. *New Phytologist*, 197(1), 19-35 (2013)."@en ;
+    dcterms:identifier "doi:10.1111/nph.12001" ;
+    dcterms:title "Resprouting as a key functional trait: how buds, protection and resources drive persistence after fire"@en ;
+    skos:prefLabel "Clarke 2013" .
+
+<https://doi.org/10.1111/nph.12253>
+    dcterms:bibliographicCitation "Sack, Lawren, and Christine Scoffoni. Leaf venation: structure, function, development, evolution, ecology and applications in the past, present and future. *New Phytologist* 198(4), 983-1000 (2013)."@en ;
+    dcterms:identifier "doi:10.1111/nph.12253" ;
+    dcterms:title "Leaf venation: structure, function, development, evolution, ecology and applications in the past, present and future"@en ;
+    skos:prefLabel "Sack 2013" .
+
+<https://doi.org/10.1111/nph.14982>
+    dcterms:bibliographicCitation "Pausas, Juli G., et al. Unearthing belowground bud banks in fire-prone ecosystems. *New Phytologist* 217(4), 1435-1448 (2018)."@en ;
+    dcterms:identifier "doi:10.1111/nph.14982" ;
+    dcterms:title "Unearthing belowground bud banks in fire-prone ecosystems"@en ;
+    skos:prefLabel "Pausus, Lamont et al. 2018" .
+
+<https://doi.org/10.1111/nph.15480>
+    dcterms:bibliographicCitation "Moore, Nicholas A., James S. Camac, and John W. Morgan. Effects of drought and fire on resprouting capacity of 52 temperate Australian perennial native grasses. *New Phytologist* 221(3): 1424-1433 (2019)."@en ;
+    dcterms:identifier "doi:10.1111/nph.15480" ;
+    dcterms:title "Effects of drought and fire on resprouting capacity of 52 temperate Australian perennial native grasses"@en ;
+    skos:prefLabel "Moore 2019" .
+
+<https://doi.org/10.1111/nph.15502>
+    dcterms:bibliographicCitation "Saatkamp, Arne, et al.  A research agenda for seed-trait functional ecology. *New Phytologist* 221(4), 1764-1775 (2019)."@en ;
+    dcterms:identifier "doi:10.1111/nph.15502" ;
+    dcterms:title "A research agenda for seed-trait functional ecology"@en ;
+    skos:prefLabel "Saatkamp 2018" .
+
+<https://doi.org/10.1111/nph.16793>
+    dcterms:bibliographicCitation "Dellinger, A. S. Pollination syndromes in the 21st century: Where do we stand and where may we go? *New Phytologist*, nph.16793  (2020)."@en ;
+    dcterms:identifier "doi:10.1111/nph.16793" ;
+    dcterms:title "Pollination syndromes in the 21st century: Where do we stand and where may we go?"@en ;
+    skos:prefLabel "Dellinger 2020" .
+
+<https://doi.org/10.1111/oik.03886>
+    dcterms:bibliographicCitation "Grootemaat, Saskia, et al. Scaling up flammability from individual leaves to fuel beds. *Oikos* 126(10), 1428-1438 (2017)."@en ;
+    dcterms:identifier "doi:10.1111/oik.03886" ;
+    dcterms:title "Scaling up flammability from individual leaves to fuel beds"@en ;
+    skos:prefLabel "Grootemaat 2017" .
+
+<https://doi.org/10.1139/x87-131>
+    dcterms:bibliographicCitation "Gale, M. R., and D. F. Grigal. Vertical root distributions of northern tree species in relation to successional status. *Canadian Journal of Forest Research* 17(8), 829-834 (1987)."@en ;
+    dcterms:identifier "doi:10.1139/x87-131" ;
+    dcterms:title "Vertical root distributions of northern tree species in relation to successional status"@en ;
+    skos:prefLabel "Gale and Grigal 1987" .
+
+<https://doi.org/10.1201/b10812>
+    dcterms:bibliographicCitation "Kirkham, Mary Beth. Elevated Carbon Dioxide: Impacts on Soil and Plant Water Relations (CRC Press, 2016)."@en ;
+    dcterms:identifier "doi:10.1201/b10812" ;
+    dcterms:title "Elevated Carbon Dioxide: Impacts on Soil and Plant Water Relations"@en ;
+    skos:prefLabel "Kirkham 2016" .
+
+<https://doi.org/10.13140/2.1.2761.5367>
+    dcterms:bibliographicCitation "Brock, M. A., and M. T. Casanova. Plant life at the edge of wetlands: ecological responses to wetting and drying. *Frontiers in Ecology: Building the Links* 181 (1997)."@en ;
+    dcterms:identifier "doi:10.13140/2.1.2761.5367" ;
+    dcterms:title "Plant life at the edge of wetlands: ecological responses to wetting and drying patterns"@en ;
+    skos:prefLabel "Brock & Casanova 1997" .
+
+<https://doi.org/10.1890/0012-9658%281997%29078%5B2542%3ALPOWSI%5D2.0.CO%3B2>
+    dcterms:bibliographicCitation "Williams, Rikkaine J., et al. Leaf phenology of woody species in a north Australian tropical savanna. *Ecology* 78(8), 2542-2558 (1997)."@en ;
+    dcterms:identifier "doi:10.1890/0012-9658%281997%29078%5B2542%3ALPOWSI%5D2.0.CO%3B2" ;
+    dcterms:title "Leaf phenology of woody species in a north Australian tropical savanna"@en ;
+    skos:prefLabel "Williams 1997" .
+
+<https://doi.org/10.1890/12-0621.1>
+    dcterms:bibliographicCitation "Gosper, C.R., Prober, S.M. and Yates, C.J. Estimating fire interval bounds using vital attributes: implications of uncertainty and among-population variability. *Ecological Applications* 23, 924-935 (2013)."@en ;
+    dcterms:identifier "doi:10.1890/12-0621.1" ;
+    dcterms:title "Estimating fire interval bounds using vital attributes: implications of uncertainty and among-population variability"@en ;
+    skos:prefLabel "Gosper 2013" .
+
+<https://doi.org/10.2307/1217034>
+    dcterms:bibliographicCitation "Systematics Association Committee for Descriptive Biological Terminology. Terminology of simple symmetrical plane shapes. *International Bureau for Plant Taxonomy and Nomenclature* (1962)."@en ;
+    dcterms:identifier "doi:10.2307/1217034" ;
+    dcterms:title "Terminology of Simple Symmetrical Plane Shapes"@en ;
+    skos:prefLabel "Systematics Association Committee for Descriptive Terminology 1962" .
+
+<https://doi.org/10.2307/1932458>
+    dcterms:bibliographicCitation "Cannon, William Austin. A tentative classification of root systems. *Ecology* 30(4), 542-548 (1949)."@en ;
+    dcterms:identifier "doi:10.2307/1932458" ;
+    dcterms:title "A Tentative Classification of Root Systems"@en ;
+    skos:prefLabel "Cannon 1949" .
+
+<https://doi.org/10.2307/1938268>
+    dcterms:bibliographicCitation "Westoby, Mark, Barbara Rice, and Jocelyn Howell. Seed Size and Plant Growth Form as Factors in Dispersal Spectra: Ecological Archives E071-002. *Ecology* 71(4): 1307-1315 (1990)."@en ;
+    dcterms:identifier "doi:10.2307/1938268" ;
+    dcterms:title "Seed Size and Plant Growth Form as Factors in Dispersal Spectra"@en ;
+    skos:prefLabel "Westoby 1990" .
+
+<https://doi.org/10.2307/2441319>
+    dcterms:bibliographicCitation "Hickey, Leo J.  Classification of the architecture of dicotyledonous leaves. *American Journal of Botany* 60(1): 17-33 (1973)."@en ;
+    dcterms:identifier "doi:10.2307/2441319" ;
+    dcterms:title "Classification of the Architecture of Dicotyledonous Leaves"@en ;
+    skos:prefLabel "Hickey 1973" .
+
+<https://doi.org/10.2307/3236276>
+    dcterms:bibliographicCitation "Noble, I.R. and Gitay, H. A functional classification for predicting the dynamics of landscapes. *Journal of Vegetation Science* 7(3), 329-336 (1996)."@en ;
+    dcterms:identifier "doi:10.2307/3236276" ;
+    dcterms:title "A functional classification for predicting the dynamics of landscapes"@en ;
+    skos:prefLabel "Noble & Gitay 1996" .
+
+<https://doi.org/10.3389/fpls.2013.00056>
+    dcterms:bibliographicCitation "Scholz, Alexander, et al. How to quantify conduits in wood? *Frontiers in Plant Science* 4, 56 (2013)."@en ;
+    dcterms:identifier "doi:10.3389/fpls.2013.00056" ;
+    dcterms:title "How to quantify conduits in wood?"@en ;
+    skos:prefLabel "Scholz 2013" .
+
+<https://doi.org/10.3732/ajb.0900178>
+    dcterms:bibliographicCitation "Zanne, Amy E., et al. Angiosperm wood structure: global patterns in vessel anatomy and their relation to wood density and potential conductivity. *American Journal of Botany* 97(2), 207-215  (2010)."@en ;
+    dcterms:identifier "doi:10.3732/ajb.0900178" ;
+    dcterms:title "Angiosperm wood structure: Global patterns in vessel anatomy and their relation to wood density and potential conductivity"@en ;
+    skos:prefLabel "Zanne 2010" .
+
+<https://doi.org/10.4236/ajps.2013.45A005>
+    dcterms:bibliographicCitation "Lamont, Byron, and Philip Groom. Seeds as a source of carbon, nitrogen, and phosphorus for seedling establishment in temperate regions: a synthesis. *American Journal of Plant Sciences* 4(5A), 30-40 (2013)."@en ;
+    dcterms:identifier "doi:10.4236/ajps.2013.45A005" ;
+    dcterms:title "Seeds as a Source of Carbon, Nitrogen, and Phosphorus for Seedling Establishment in Temperate Regions: A Synthesis"@en ;
+    skos:prefLabel "Lamont & Groom 2013" .
+
+<https://doi.org/10.5091/plecevo.2016.1097>
+    dcterms:bibliographicCitation "T<U+011B><U+0161>itel, J.  Functional biology of parasitic plants: A review. *Plant Ecology and Evolution* 149(1), 5-20 (2016)."@en ;
+    dcterms:identifier "doi:10.5091/plecevo.2016.1097" ;
+    dcterms:title "Functional biology of parasitic plants: a review"@en ;
+    skos:prefLabel "T<U+011B><U+0161>itel 2016" .
+
+<https://doi.org/www.rbgsyd.nsw.gov.au/science/rainforest-conservation-research/rainforest-seed-conservation-project/what-are-we-testing/seed-viability-germination>
+    dcterms:bibliographicCitation "Royal Botanic Garden Sydney. Seed viability and germination.  https://www.rbgsyd.nsw.gov.au/science/rainforest-conservation-research/rainforest-seed-conservation-project/what-are-we-testing/seed-viability-germination (2021)."@en ;
+    dcterms:identifier "url:www.rbgsyd.nsw.gov.au/science/rainforest-conservation-research/rainforest-seed-conservation-project/what-are-we-testing/seed-viability-germination" ;
+    dcterms:title "Seed viability and germination"@en ;
+    skos:prefLabel "Royal Botanic Garden Sydney 2021" .
+
+<https://en.wikipedia.org/wiki/Glossary_of_leaf_morphology>
+    dcterms:bibliographicCitation "Wikimedia Foundation. Glossary of leaf morphology. *Wikipedia*  https://en.wikipedia.org/wiki/Glossary_of_leaf_morphology (2022)."@en ;
+    dcterms:identifier "url:en.wikipedia.org/wiki/Glossary_of_leaf_morphology" ;
+    dcterms:title "Glossary of leaf morphology"@en ;
+    skos:prefLabel "Wikipedia 2022 Glossary of leaf morphology" .
+
+<https://en.wikipedia.org/wiki/Leaf#Arrangement_on_the_stem>
+    dcterms:bibliographicCitation "Wikimedia Foundation. Leaf arrangement on the stem. *Wikipedia*  https://en.wikipedia.org/wiki/Phyllotaxis (2022)."@en ;
+    dcterms:identifier "url:en.wikipedia.org/wiki/Leaf#Arrangement_on_the_stem" ;
+    dcterms:title "Leaf arrangement on the stem"@en ;
+    skos:prefLabel "Wikipedia 2022 Leaf arrangement on the stem" .
+
+<https://hdl.handle.net/102.100.100/248872?index=1>
+    dcterms:bibliographicCitation "Gill, A.M.; Bradstock, R.A. A national register for the fire responses of plant species. *Cunninghamia* 2(4), 653-660 (1992)."@en ;
+    dcterms:identifier "procite:0d693cc0-5963-4818-a4ce-651aa6dbebc1" ;
+    dcterms:title "A national register for the fire responses of plant species"@en ;
+    skos:prefLabel "Gill & Bradstock 1992" .
+
+<https://jeffollerton.co.uk/2019/09/05/what-exactly-is-a-pollination-system/>
+    dcterms:bibliographicCitation "Ollerton, Jeff. What exactly is a pollination system? https://jeffollerton.co.uk/2019/09/05/what-exactly-is-a-pollination-system/ (2019)."@en ;
+    dcterms:identifier "url:jeffollerton.co.uk/2019/09/05/what-exactly-is-a-pollination-system/" ;
+    dcterms:title "What exactly is a pollination system?"@en ;
+    skos:prefLabel "Ollerton 2019" .
+
+<https://openlibrary.org/books/OL16122328M>
+    dcterms:bibliographicCitation "Raunkiaer, Christen. The life forms of plants and statistical plant geography; being the collected papers of C. Raunkiaer (1934)."@en ;
+    dcterms:identifier "url:openlibrary.org/books/OL16122328M/Life_forms_of_plants_and_statistical_plant_geography" ;
+    dcterms:title "Life forms of plants and statistical plant geography"@en ;
+    skos:prefLabel "Raunkiaer 1934" .
+
+<https://orcid.org/0000-0001-5640-5910>
+    obo:IAO_0000708 "0000-0001-5640-5910" ;
+    skos:prefLabel "Elizabeth Wenk"@en .
+
+<https://orcid.org/0000-0001-5728-9827>
+    obo:IAO_0000708 "0000-0001-5728-9827" ;
+    skos:prefLabel "Belinda Medlyn"@en .
+
+<https://orcid.org/0000-0001-5945-438X>
+    obo:IAO_0000708 "0000-0001-5945-438X" ;
+    skos:prefLabel "Lydia Guja"@en .
+
+<https://orcid.org/0000-0001-7328-345X>
+    obo:IAO_0000708 "0000-0001-7328-345X" ;
+    skos:prefLabel "Sophie Yang"@en .
+
+<https://orcid.org/0000-0001-8305-3236>
+    obo:IAO_0000708 "0000-0001-8305-3236" ;
+    skos:prefLabel "Herv<U+00E9> Sauquet"@en .
+
+<https://orcid.org/0000-0001-8338-9143>
+    obo:IAO_0000708 "0000-0001-8338-9143" ;
+    skos:prefLabel "Ian J. Wright"@en .
+
+<https://orcid.org/0000-0001-9277-5142>
+    obo:IAO_0000708 "0000-0001-9277-5142" ;
+    skos:prefLabel "Rachael Nolan"@en .
+
+<https://orcid.org/0000-0001-9353-0067>
+    obo:IAO_0000708 "0000-0001-9353-0067" ;
+    skos:prefLabel "Tom Le Breton"@en .
+
+<https://orcid.org/0000-0002-0712-5143>
+    obo:IAO_0000708 "0000-0002-0712-5143" ;
+    skos:prefLabel "Lily Dun"@en .
+
+<https://orcid.org/0000-0002-0962-5117>
+    obo:IAO_0000708 "0000-0002-0962-5117" ;
+    skos:prefLabel "Carl Gosper"@en .
+
+<https://orcid.org/0000-0002-1773-6597>
+    obo:IAO_0000708 "0000-0002-1773-6597" ;
+    skos:prefLabel "David Coleman"@en .
+
+<https://orcid.org/0000-0002-3046-0417>
+    obo:IAO_0000708 "0000-0002-3046-0417" ;
+    skos:prefLabel "Mark Ooi"@en .
+
+<https://orcid.org/0000-0002-3767-2690>
+    obo:IAO_0000708 "0000-0002-3767-2690" ;
+    skos:prefLabel "Ruby Stephens"@en .
+
+<https://orcid.org/0000-0002-4680-8115>
+    obo:IAO_0000708 "0000-0002-4680-8115" ;
+    skos:prefLabel "Rachael Gallagher"@en .
+
+<https://orcid.org/0000-0002-4964-6107>
+    obo:IAO_0000708 "0000-0002-4964-6107" ;
+    skos:prefLabel "Timothy Brodribb"@en .
+
+<https://orcid.org/0000-0002-6012-8458>
+    obo:IAO_0000708 "0000-0002-6012-8458" ;
+    skos:prefLabel "F<U+00E9>lix de Tombeur"@en .
+
+<https://orcid.org/0000-0002-6033-2766>
+    obo:IAO_0000708 "0000-0002-6033-2766" ;
+    skos:prefLabel "Gregory J. Jordan"@en .
+
+<https://orcid.org/0000-0002-8766-2829>
+    obo:IAO_0000708 "0000-0002-8766-2829" ;
+    skos:prefLabel "Tony Auld"@en .
+
+<https://orcid.org/0000-0002-9105-640X>
+    obo:IAO_0000708 "0000-0002-9105-640X" ;
+    skos:prefLabel "Brendan Choat"@en .
+
+<https://orcid.org/0000-0002-9699-2272>
+    obo:IAO_0000708 "0000-0002-9699-2272" ;
+    skos:prefLabel "David Ellsworth"@en .
+
+<https://orcid.org/0000-0002-9814-092X>
+    obo:IAO_0000708 "0000-0002-9814-092X" ;
+    skos:prefLabel "Daniel Falster"@en .
+
+<https://orcid.org/0000-0002-9843-6616>
+    obo:IAO_0000708 "0000-0002-9843-6616" ;
+    skos:prefLabel "Karen D. Sommerville"@en .
+
+<https://orcid.org/0000-0003-0360-8321>
+    obo:IAO_0000708 "0000-0003-0360-8321" ;
+    skos:prefLabel "Russell Barrett"@en .
+
+<https://orcid.org/0000-0003-1116-9402>
+    obo:IAO_0000708 "0000-0003-1116-9402" ;
+    skos:prefLabel "Patricia Lu-Irving"@en .
+
+<https://orcid.org/0000-0003-2008-7062>
+    obo:IAO_0000708 "0000-0003-2008-7062" ;
+    skos:prefLabel "Peter Vesk"@en .
+
+<https://orcid.org/0000-0003-2120-0071>
+    obo:IAO_0000708 "0000-0003-2120-0071" ;
+    skos:prefLabel "Matthew White"@en .
+
+<https://orcid.org/0000-0003-3568-2606>
+    obo:IAO_0000708 "0000-0003-3568-2606" ;
+    skos:prefLabel "Andy Leigh"@en .
+
+<https://prometheusprotocols.net/function/gas-exchange-and-chlorophyll-fluorescence/gas-exchange-measurements-of-photosynthetic-response-curves/>
+    dcterms:bibliographicCitation "Evans, John. Gas Exchange Measurements of Photosynthetic Response Curves. *Prometheus* https://prometheusprotocols.net/function/gas-exchange-and-chlorophyll-fluorescence/gas-exchange-measurements-of-photosynthetic-response-curves/ (2010)."@en ;
+    dcterms:identifier "url:https://prometheusprotocols.net/function/gas-exchange-and-chlorophyll-fluorescence/gas-exchange-measurements-of-photosynthetic-response-curves/" ;
+    dcterms:title "Gas Exchange Measurements of Photosynthetic Response Curves"@en ;
+    skos:prefLabel "Evans 2010" .
+
+<https://prometheusprotocols.net/function/water-relations/hydraulic-conductance-and-conductivity/>
+    dcterms:bibliographicCitation "Choat, Brendan. Hydraulic Conductance and Conductivity. *Prometheus* https://prometheusprotocols.net/function/water-relations/hydraulic-conductance-and-conductivity/ (2010)."@en ;
+    dcterms:identifier "url:https://prometheusprotocols.net/function/water-relations/hydraulic-conductance-and-conductivity/" ;
+    dcterms:title "Hydraulic Conductance and Conductivity"@en ;
+    skos:prefLabel "Choat 2010" .
+
+<https://prometheusprotocols.net/function/water-relations/pressure-volume-curves/leaf-pressure-volume-curve-parameters/>
+    dcterms:bibliographicCitation "Sack, Lawren, Jessica Pasquet-Kok, and Megan Bartlett. Leaf pressure-volume curve parameters: protocol. *Prometheus* https://prometheusprotocols.net/function/water-relations/pressure-volume-curves/leaf-pressure-volume-curve-parameters/ (2010)."@en ;
+    dcterms:identifier "url:prometheusprotocols.net/function/water-relations/pressure-volume-curves/leaf-pressure-volume-curve-parameters/" ;
+    dcterms:title "Leaf pressure-volume curve parameters: protocol"@en ;
+    skos:prefLabel "Sack 2022" .
+
+<https://prometheusprotocols.net/function/water-relations/sap-flow/>
+    dcterms:bibliographicCitation "McElrone, Andrew J.  and Bleby, Timothy M.. Sap flow measurements. *Prometheus* https://prometheusprotocols.net/function/water-relations/sap-flow/ (2010)."@en ;
+    dcterms:identifier "url:https://prometheusprotocols.net/function/water-relations/sap-flow/" ;
+    dcterms:title "Sap flow"@en ;
+    skos:prefLabel "McElrone & Bleby 2010" .
+
+<https://prometheusprotocols.net/function/water-relations/sap-flow/standardised-protocol-for-sap-flow-measurements/>
+    dcterms:bibliographicCitation "O<U+2019>Grady, Anthony. Standardised protocol for sap flow measurements. *Prometheus* https://prometheusprotocols.net/function/water-relations/sap-flow/standardised-protocol-for-sap-flow-measurements/ (2010)."@en ;
+    dcterms:identifier "url:https://prometheusprotocols.net/function/water-relations/sap-flow/standardised-protocol-for-sap-flow-measurements/" ;
+    dcterms:title "Standardised protocol for sap flow measurements"@en ;
+    skos:prefLabel "O'Grady 2010" .
+
+<https://prometheusprotocols.net/function/water-relations/xylem-vulnerability-curves/>
+    dcterms:bibliographicCitation "Cochard, Herv<U+00E9>. Xylem Vulnerability Curves. *Prometheus* https://prometheusprotocols.net/function/water-relations/xylem-vulnerability-curves/ (2010)."@en ;
+    dcterms:identifier "url:https://prometheusprotocols.net/function/water-relations/xylem-vulnerability-curves/" ;
+    dcterms:title "Xylem Vulnerability Curves"@en ;
+    skos:prefLabel "Cochard 2010" .
+
+<https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Z8v6xPMAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=Z8v6xPMAAAAJ:YOwf2qJgpHMC>
+    dcterms:bibliographicCitation "Wells, Jessie Anne. Phylogeny and inter-relations of ecological traits and seed dispersal in rainforest plants: exploring aspects of functional diversity in primary and secondary rainforests in Australias Wet Tropics. Ph.D. Thesis, University of Queensland (2012)."@en ;
+    dcterms:identifier "url:scholar.google.com/citations?view_op=view_citation&hl=en&user=Z8v6xPMAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=Z8v6xPMAAAAJ:YOwf2qJgpHMC" ;
+    dcterms:title "Phylogeny and inter-relations of ecological traits and seed dispersal in rainforest plants: Exploring aspects of functional diversity in primary and secondary rainforests in Australias Wet Tropics."@en ;
+    skos:prefLabel "Wells 2012" .
+
+<https://uol.de/en/landeco/research/leda/standards>
+    dcterms:bibliographicCitation "LEDA Data Standards. *UNI-INFO - University Newspaper*  uol.de/en/landeco/research/leda/standards (2021)."@en ;
+    dcterms:identifier "url:uol.de/en/landeco/research/leda/standards" ;
+    dcterms:title "LEDA Data Standards"@en ;
+    skos:prefLabel "LEDA Data Standards 2005" .
+
+
+
+ont:hasContextObject
+    dcterms:description "A Variable has an Entity that provides additional background information regarding the ObjectOfInterest."@en ;
+    skos:prefLabel "has context object"@en .
+
+<https://w3id.org/uom/%5Bppm%5D>
+    skos:prefLabel "parts per million"@en ;
+    uom:UCUM_code "[ppm]" .
+
+<https://w3id.org/uom/%5Bppth%5D>
+    skos:prefLabel "parts per thousand"@en ;
+    uom:UCUM_code "[ppth]" .
+
+uom:Cel
+    dcterms:description "A special named SI unit which 1) is a unit of temperature and 2) is equal to a one kelvin."@en ;
+    skos:prefLabel "degree Celsius"@en ;
+    uom:SI_code "<U+00B0>C" ;
+    uom:UCUM_code "Cel" .
+
+uom:MPa
+    dcterms:description "A unit which is equal to 10 mega pascal."@en ;
+    skos:prefLabel "megapascal"@en ;
+    uom:SI_code "MPa" ;
+    uom:UCUM_code "MPa" .
+
+uom:N
+    dcterms:description "A special named SI unit which 1) is a unit of force and 2) is equal to a kilogram metre per square second."@en ;
+    skos:prefLabel "newton"@en ;
+    uom:SI_code "N" ;
+    uom:UCUM_code "N" .
+
+<https://w3id.org/uom/N.m-1>
+    dcterms:description "A unit which is equal to 1 newton per 1 metre."@en ;
+    skos:prefLabel "newton per metre"@en ;
+    uom:SI_code "N m-1" ;
+    uom:UCUM_code "N/m" .
+
+<https://w3id.org/uom/N.m-2>
+    dcterms:description "A unit which is equal to 1 newton per 1 square metre."@en ;
+    skos:prefLabel "newton per square metre"@en ;
+    uom:SI_code "N m-2" ;
+    uom:UCUM_code "N/m2" .
+
+uom:Pa
+    dcterms:description "A special named SI unit which 1) is a unit of pressure or stress and 2) is equal to a kilogram per metre square second."@en ;
+    skos:prefLabel "pascal"@en ;
+    uom:SI_code "Pa" ;
+    uom:UCUM_code "Pa" .
+
+uom:S
+    dcterms:description "A special named SI unit which 1) is a unit of electric conductance and 2) is equal to a square ampere cubic second per kilogram square metre."@en ;
+    skos:prefLabel "siemens"@en ;
+    uom:SI_code "S" ;
+    uom:UCUM_code "S" .
+
+uom:SI_code
+    skos:prefLabel "SI code"@en .
+
+uom:UCUM_code
+    skos:prefLabel "UCUM code"@en .
+
+uom:a
+    skos:prefLabel "year"@en ;
+    uom:UCUM_code "a" .
+
+<https://w3id.org/uom/cm.s-1>
+    dcterms:description "A unit which is equal to 10<U+00B2> metre per 1 second."@en ;
+    skos:prefLabel "centimetre per second"@en ;
+    uom:SI_code "cm s-1" ;
+    uom:UCUM_code "cm/s" .
+
+uom:d
+    dcterms:description "A unit which 1) is a unit of time"@en ;
+    skos:prefLabel "day"@en ;
+    uom:SI_code "2) is a non-SI but is accepted accepted for use with the SI Units and 2) is equal to 24 hour or 86400 second." ;
+    uom:UCUM_code "d" .
+
+<https://w3id.org/uom/dS.m-1>
+    dcterms:description "A unit which is equal to 10<U+00B9> siemens per 1 metre."@en ;
+    skos:prefLabel "decisiemens per metre"@en ;
+    uom:SI_code "dS m-1" ;
+    uom:UCUM_code "dS/m" .
+
+uom:deg
+    dcterms:description "A unit which 1) is a unit of plane and phase angle"@en ;
+    skos:prefLabel "plane angle degree"@en ;
+    uom:SI_code "2) is a non-SI but is accepted accepted for use with the SI Units and 2) is equal to <U+00CF><U+20AC>/180 radian." ;
+    uom:UCUM_code "deg" .
+
+uom:g
+    dcterms:description "An SI unit which is equal to 10<U+00B3> kilogram."@en ;
+    skos:prefLabel "gram"@en ;
+    uom:SI_code "g" ;
+    uom:UCUM_code "g" .
+
+<https://w3id.org/uom/g.cm-2>
+    dcterms:description "A unit which is equal to 1 gram per 10<U+00B2> square metre."@en ;
+    skos:prefLabel "gram per square centimetre"@en ;
+    uom:SI_code "g cm-2" ;
+    uom:UCUM_code "g/cm2" .
+
+<https://w3id.org/uom/g.cm-2.d-1>
+    dcterms:description "A unit which is equal to 1 gram per 10<U+00B2> square metre by 1 day."@en ;
+    skos:prefLabel "gram per square centimetre day"@en ;
+    uom:SI_code "g cm-2 d-1" ;
+    uom:UCUM_code "g/cm2/d" .
+
+<https://w3id.org/uom/g.cm-3>
+    dcterms:description "A unit which is equal to 1 gram per 10<U+00B2> cubic metre."@en ;
+    skos:prefLabel "gram per cubic centimetre"@en ;
+    uom:SI_code "g cm-3" ;
+    uom:UCUM_code "g/cm3" .
+
+<https://w3id.org/uom/g.g-1>
+    dcterms:description "A unit which is equal to 1 gram per 1 gram."@en ;
+    skos:prefLabel "gram per gram"@en ;
+    uom:SI_code "g g-1" ;
+    uom:UCUM_code "g/g" .
+
+<https://w3id.org/uom/g.kg-1>
+    dcterms:description "A unit which is equal to 1 gram per 10<U+00B3> gram."@en ;
+    skos:prefLabel "gram per kilogram"@en ;
+    uom:SI_code "g kg-1" ;
+    uom:UCUM_code "g/kg" .
+
+<https://w3id.org/uom/g.m-1>
+    dcterms:description "A unit which is equal to 1 gram per 1 metre."@en ;
+    skos:prefLabel "gram per metre"@en ;
+    uom:SI_code "g m-1" ;
+    uom:UCUM_code "g/m" .
+
+<https://w3id.org/uom/g.m-2>
+    dcterms:description "A unit which is equal to 1 gram per 1 square metre."@en ;
+    skos:prefLabel "gram per square metre"@en ;
+    uom:SI_code "g m-2" ;
+    uom:UCUM_code "g/m2" .
+
+uom:h
+    dcterms:description "A unit which 1) is a unit of time"@en ;
+    skos:prefLabel "hour"@en ;
+    uom:SI_code "2) is a non-SI but is accepted accepted for use with the SI Units and 2) is equal to 60 minute or 3600 second." ;
+    uom:UCUM_code "h" .
+
+uom:kPa
+    dcterms:description "A unit which is equal to 10<U+00B3> pascal."@en ;
+    skos:prefLabel "kilopascal"@en ;
+    uom:SI_code "kPa" ;
+    uom:UCUM_code "kPa" .
+
+<https://w3id.org/uom/kg.m-1.MPa-1.s-1>
+    dcterms:description "A unit which is equal to 10<U+00B3> gram per 1 metre by 10 mega pascal by 1 second."@en ;
+    skos:prefLabel "kilogram per metre megapascal second"@en ;
+    uom:SI_code "kg m-1 MPa-1 s-1" ;
+    uom:UCUM_code "kg/m/MPa/s" .
+
+<https://w3id.org/uom/kg.m-3.MPa-1>
+    dcterms:description "A unit which is equal to 10<U+00B3> gram per 1 cubic metre by 10<U+2076> pascal."@en ;
+    skos:prefLabel "kilogram per cubic metre megapascal"@en ;
+    uom:SI_code "kg m-3 MPa-1" ;
+    uom:UCUM_code "kg/m3/MPa" .
+
+<https://w3id.org/uom/kg.m.MPa-1.s-1>
+    dcterms:description "A unit which is equal to 10<U+00B3> gram by 1 metre per 10 mega pascal by 1 second."@en ;
+    skos:prefLabel "kilogram metre per megapascal second"@en ;
+    uom:SI_code "kg m MPa-1 s-1" ;
+    uom:UCUM_code "kg.m/MPa/s" .
+
+uom:m
+    dcterms:description "An SI base unit which 1) is the SI unit of length and 2) is defined by taking the fixed numerical value of the speed of light in vacuum c  to be 299 792 458 when expressed in the unit metre per second  where the second is defined in terms of the caesium frequency <U+00E2><U+02C6><U+2020><U+00CE><U+00BD>Cs."@en ;
+    skos:prefLabel "metre"@en ;
+    uom:SI_code "m" ;
+    uom:UCUM_code "m" .
+
+<https://w3id.org/uom/m.g-1>
+    dcterms:description "A unit which is equal to 1 metre per 1 gram."@en ;
+    skos:prefLabel "metre per gram"@en ;
+    uom:SI_code "m g-1" ;
+    uom:UCUM_code "m/g" .
+
+<https://w3id.org/uom/m3.h-1.m-2>
+    dcterms:description "A unit which is equal to 1 cubic metre per 1 hour by 1 square metre."@en ;
+    skos:prefLabel "cubic metre per hour square metre"@en ;
+    uom:SI_code "m3 h-1 m-2" ;
+    uom:UCUM_code "m3/h/m2" .
+
+uom:mg
+    dcterms:description "A unit which is equal to 10<U+00B3> gram."@en ;
+    skos:prefLabel "milligram"@en ;
+    uom:SI_code "mg" ;
+    uom:UCUM_code "mg" .
+
+<https://w3id.org/uom/mg.g-1>
+    dcterms:description "A unit which is equal to 10-3 gram per 1 gram."@en ;
+    skos:prefLabel "milligram per gram"@en ;
+    uom:SI_code "mg g-1" ;
+    uom:UCUM_code "mg/g" .
+
+<https://w3id.org/uom/mg.kg-1>
+    dcterms:description "A unit which is equal to 10-<U+00B3> gram per 106<U+00B3> gram."@en ;
+    skos:prefLabel "milligram per kilogram"@en ;
+    uom:SI_code "mg kg-1" ;
+    uom:UCUM_code "mg/kg" .
+
+<https://w3id.org/uom/mg.mg-1>
+    dcterms:description "A unit which is equal to 10-<U+00B3> gram per 10-<U+00B3> gram."@en ;
+    skos:prefLabel "milligram per milligram"@en ;
+    uom:SI_code "mg mg-1" ;
+    uom:UCUM_code "mg/mg" .
+
+<https://w3id.org/uom/mg.mm-3>
+    dcterms:description "A unit which is equal to 10-<U+00B3> gram per 10-<U+00B3> cubic metre."@en ;
+    skos:prefLabel "milligram per cubic millimetre"@en ;
+    uom:SI_code "mg mm-3" ;
+    uom:UCUM_code "mg/mm3" .
+
+uom:mm
+    dcterms:description "A unit which is equal to 10-<U+00B3> metre."@en ;
+    skos:prefLabel "millimetre"@en ;
+    uom:SI_code "mm" ;
+    uom:UCUM_code "mm" .
+
+uom:mm-1
+    dcterms:description "A unit which is equal to the reciprocal of 10-<U+00B3> metre."@en ;
+    skos:prefLabel "reciprocal millimetre"@en ;
+    uom:SI_code "mm-1" ;
+    uom:UCUM_code "/mm" .
+
+uom:mm-2
+    dcterms:description "A unit which is equal to the reciprocal of 10-<U+00B3> square metre."@en ;
+    skos:prefLabel "reciprocal square millimetre"@en ;
+    uom:SI_code "mm-2" ;
+    uom:UCUM_code "/mm2" .
+
+<https://w3id.org/uom/mm.mm-1>
+    dcterms:description "A unit which is equal to 10-<U+00B3> metre per 10-<U+00B3> metre."@en ;
+    skos:prefLabel "millimetre per millimetre"@en ;
+    uom:SI_code "mm mm-1" ;
+    uom:UCUM_code "mm/mm" .
+
+<https://w3id.org/uom/mm.mm-2>
+    dcterms:description "A unit which is equal to 10-<U+00B3> metre per 10-<U+00B3> square metre."@en ;
+    skos:prefLabel "millimetre per square millimetre"@en ;
+    uom:SI_code "mm mm-2" ;
+    uom:UCUM_code "mm/mm2" .
+
+uom:mm2
+    dcterms:description "A unit which is equal to 10-<U+00B3> square metre."@en ;
+    skos:prefLabel "square millimetre"@en ;
+    uom:SI_code "mm2" ;
+    uom:UCUM_code "mm2" .
+
+<https://w3id.org/uom/mm2.mg-1>
+    dcterms:description "A unit which is equal to 10-<U+00B3> square metre per 10-<U+00B3> gram."@en ;
+    skos:prefLabel "square millimetre per milligram"@en ;
+    uom:SI_code "mm2 mg-1" ;
+    uom:UCUM_code "mm2/mg" .
+
+<https://w3id.org/uom/mm2.mm-2>
+    dcterms:description "A unit which is equal to 10-<U+00B3> square metre per 10-<U+00B3> square metre."@en ;
+    skos:prefLabel "square millimetre per square millimetre"@en ;
+    uom:SI_code "mm2 mm-2" ;
+    uom:UCUM_code "mm2/mm2" .
+
+<https://w3id.org/uom/mm2.um>
+    dcterms:description "A unit which is equal to 10<U+207B><U+00B3> square metre by 10<U+207B><U+2076> metre."@en ;
+    skos:prefLabel "square millimetre micrometre"@en ;
+    uom:SI_code "mm2 um" ;
+    uom:UCUM_code "mm2.um" .
+
+uom:mm3
+    dcterms:description "A unit which is equal to 10-<U+00B3> cubic metre."@en ;
+    skos:prefLabel "cubic millimetre"@en ;
+    uom:SI_code "mm3" ;
+    uom:UCUM_code "mm3" .
+
+<https://w3id.org/uom/mm3.mm-3>
+    dcterms:description "A unit which is equal to 10-<U+00B3> cubic metre per 10-<U+00B3> cubic metre."@en ;
+    skos:prefLabel "cubic millimetre per cubic millimetre"@en ;
+    uom:SI_code "mm3 mm-3" ;
+    uom:UCUM_code "mm3/mm3" .
+
+<https://w3id.org/uom/mmol.g-1>
+    dcterms:description "A unit which is equal to 10-<U+00B3> mole per 1 gram."@en ;
+    skos:prefLabel "millimole per gram"@en ;
+    uom:SI_code "mmol g-1" ;
+    uom:UCUM_code "mmol/g" .
+
+<https://w3id.org/uom/mmol.g-1.s-1>
+    dcterms:description "A unit which is equal to 10-<U+00B3> mole per 1 gram by 1 second."@en ;
+    skos:prefLabel "millimole per gram second"@en ;
+    uom:SI_code "mmol g-1 s-1" ;
+    uom:UCUM_code "mmol/g/s" .
+
+<https://w3id.org/uom/mmol.kg-1>
+    dcterms:description "A unit which is equal to 10-<U+00B3> mole per 106 gram."@en ;
+    skos:prefLabel "millimole per kilogram"@en ;
+    uom:SI_code "mmol kg-1" ;
+    uom:UCUM_code "mmol/kg" .
+
+<https://w3id.org/uom/mmol.m-2.MPa-1.s-1>
+    dcterms:description "A unit which is equal to 10-<U+00B3> mole per 1 square metre by 10 mega pascal by 1 second."@en ;
+    skos:prefLabel "millimole per square metre megapascal second"@en ;
+    uom:SI_code "mmol m-2 MPa-1 s-1" ;
+    uom:UCUM_code "mmol/m2/MPa/s" .
+
+<https://w3id.org/uom/mmol.m-2.s-1>
+    dcterms:description "A unit which is equal to 10-<U+00B3> mole per 1 square metre by 1 second.A unit which is equal to 10-<U+00B3> mole water per 1 square metre by 1 second."@en ;
+    skos:prefLabel "millimole water per square metre secondmillimole per square metre second"@en ;
+    uom:SI_code "mmol m-2 s-1" ;
+    uom:UCUM_code "mmol/m2/s" .
+
+uom:mo
+    skos:prefLabel "month"@en ;
+    uom:UCUM_code "mo" .
+
+<https://w3id.org/uom/mol.m-2.s-1>
+    dcterms:description "A unit which is equal to 1 mole per 1 square metre by 1 second."@en ;
+    skos:prefLabel "mole per square metre second"@en ;
+    uom:SI_code "mol m-2 s-1" ;
+    uom:UCUM_code "mol/m2/s" .
+
+uom:pg
+    dcterms:description "A unit which is equal to 10<U+00B9><U+00B2> gram."@en ;
+    skos:prefLabel "picogram"@en ;
+    uom:SI_code "pg" ;
+    uom:UCUM_code "pg" .
+
+uom:s
+    dcterms:description "An SI base unit which 1) is the SI unit of time and 2) is defined by taking the fixed numerical value of the caesium frequency  the unperturbed ground-state hyperfine transition frequency of the caesium 133 atom  to be 9 192 631 770 when expressed in the unit hertz  which is equal to a reciprocal second."@en ;
+    skos:prefLabel "second"@en ;
+    uom:SI_code "s" ;
+    uom:UCUM_code "s" .
+
+uom:um
+    dcterms:description "A unit which is equal to 10-6 metre."@en ;
+    skos:prefLabel "micrometre"@en ;
+    uom:SI_code "um" ;
+    uom:UCUM_code "um" .
+
+uom:um2
+    dcterms:description "A unit which is equal to 10-6 square metre."@en ;
+    skos:prefLabel "square micrometre"@en ;
+    uom:SI_code "um2" ;
+    uom:UCUM_code "um2" .
+
+<https://w3id.org/uom/umol.g-1>
+    dcterms:description "A unit which is equal to 10-6 mole per 1 gram."@en ;
+    skos:prefLabel "micromole per gram"@en ;
+    uom:SI_code "umol g-1" ;
+    uom:UCUM_code "umol/g" .
+
+<https://w3id.org/uom/umol.g-1.s-1>
+    dcterms:description "A unit which is equal to 10-6 mole per 1 gram by 1 second."@en ;
+    skos:prefLabel "micromole per gram second"@en ;
+    uom:SI_code "umol g-1 s-1" ;
+    uom:UCUM_code "umol/g/s" .
+
+<https://w3id.org/uom/umol.m-2>
+    dcterms:description "A unit which is equal to 10-6 mole per 1 square metre."@en ;
+    skos:prefLabel "micromole per square metre"@en ;
+    uom:SI_code "umol m-2" ;
+    uom:UCUM_code "umol/m2" .
+
+<https://w3id.org/uom/umol.m-2.s-1>
+    dcterms:description "A unit which is equal to 10-6 mole per 1 square metre by 1 second."@en ;
+    skos:prefLabel "micromole per square metre second"@en ;
+    uom:SI_code "umol m-2 s-1" ;
+    uom:UCUM_code "umol/m2/s" .
+
+<https://w3id.org/uom/umol.mmol-1>
+    dcterms:description "A unit which is equal to 10-6 mole per 10<U+00B3> mole."@en ;
+    skos:prefLabel "micromole per millimole"@en ;
+    uom:SI_code "umol mmol-1" ;
+    uom:UCUM_code "umol/mmol" .
+
+<https://w3id.org/uom/umol.mol-1>
+    dcterms:description "A unit which is equal to 10-6 mole per 1 mole."@en ;
+    skos:prefLabel "micromole per mole"@en ;
+    uom:SI_code "umol mol-1" ;
+    uom:UCUM_code "umol/mol" .
+
+<https://w3id.org/uom/umol.mol-1.s-1>
+    dcterms:description "A unit which is equal to 10-6 mole per 1 mole by 1 second."@en ;
+    skos:prefLabel "micromole per mole second"@en ;
+    uom:SI_code "umol mol-1 s-1" ;
+    uom:UCUM_code "umol/mol/s" .
+
+<https://w3id.org/uom/umol.umol-1>
+    dcterms:description "A unit which is equal to 10-6 mole per 10-6 mole."@en ;
+    skos:prefLabel "micromole per micromole"@en ;
+    uom:SI_code "umol umol-1" ;
+    uom:UCUM_code "umol/umol" .
+
+<https://www.indexdatabase.de/>
+    dcterms:bibliographicCitation "Henrich, Verena and Br<U+00FC>ser, Katharina. Index database: A database for remote sensing indices. *IDB - Index DataBase* http://www.indexdatabase.de/ (2023)."@en ;
+    dcterms:identifier "url:www.indexdatabase.de/" ;
+    dcterms:title "Index Database: A database for remote sensing indices"@en ;
+    skos:prefLabel "Henrich & Br<U+00FC>ser 2022" .
+
+<https://www.mycorrhizas.info>
+    dcterms:bibliographicCitation "Brundrett, Mark. Mycorrhizal associations: the web resource.  http://www.mycorrhizas.info/ (2008)."@en ;
+    dcterms:identifier "url:www.mycorrhizas.info+D75B2C2:C75C2:D77B2C2:C75C2:D64C2:D60C2:D59C2:D60C2:E63C2:D64B2C2:C75C2:I57C2:E56C2:E52C2:D51C2:D50" ;
+    dcterms:title "Mycorrhizal Associations: The Web Resource"@en ;
+    skos:prefLabel "Brundrett 2008" .
+
+<https://www.worldbotanical.com/fruit_types.htm>
+    dcterms:bibliographicCitation "Spjut, Richard W. A Systematic Treatment of Fruit Types. *The World Botanical Associates* www.worldbotanical.com/fruit_types.htm (2021)."@en ;
+    dcterms:identifier "url:www.worldbotanical.com/fruit_types.htm" ;
+    dcterms:title "A Systematic Treatment of Fruit Types"@en ;
+    skos:prefLabel "Spjut 2003" .
+

@@ -1,0 +1,45 @@
+PREFIX schema: <https://schema.org/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+<https://w3id.org/APD/traitsapt-authors>
+    a schema:Organization ;
+    schema:name "AusTraits Authors" ;
+    schema:description "Falster, D., Gallagher, R., Wenk, E.H. et al." ;
+    schema:url "https://doi.org/10.1038/s41597-021-01006-6"^^xsd:anyURI ;
+.
+
+<https://austraits.org>
+    a schema:Organization ;
+    schema:name "AusTraits" ;
+    schema:description "AusTraits is an open-source, harmonized database of Australian plant trait data." ;
+    schema:url "https://austraits.org/"^^xsd:anyURI ;
+.
+
+
+<https://linked.data.gov.au/org/daff>
+    a schema:Organization ;
+    schema:name "Department of Agriculture, Forestry & Fisheries" ;
+    schema:url "https://www.agriculture.gov.au/"^^xsd:anyURI ;
+.
+
+
+<https://linked.data.gov.au/org/csiro>
+    a schema:Organization ;
+    schema:name "Commonwealth Scientific and Industrial Research Organisation" ;
+    schema:url "https://csiro.au/"^^xsd:anyURI ;
+.
+
+
+<https://linked.data.gov.au/org/dcceew>
+    a schema:Organization ;
+    schema:name "Department of Climate Change, energy, the Environment and Water" ;
+    schema:url "https://www.dcceew.gov.au/"^^xsd:anyURI ;
+.
+
+
+<https://linked.data.gov.au/org/canbr>
+    a schema:Organization ;
+    schema:name "Centre for Australian National Biodiversity Research" ;
+    schema:url "https://www.anbg.gov.au/cpbr/index.html"^^xsd:anyURI ;
+.

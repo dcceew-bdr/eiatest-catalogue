@@ -20,10 +20,17 @@ PREFIX schema: <https://schema.org/>
             schema:name "Spatial Datasets" ;
         ] ,
         [
-            dcterms:conformsTo "validators/bcp.ttl" ;
-            prof:hasArtifact "resources/datasets/non-spatial/*.ttl" ;
+            dcterms:conformsTo <https://w3id.org/profile/vocpub> ;
+            prof:hasArtifact "resources/datasets/non-spatial/apd-traits.ttl" ;
             prof:hasRole <https://prez.dev/ManifestResourceRoles/ResourceData> ;
-            schema:description "Non-spatial EIA Datasets" ;
+            schema:description "Non-spatial EIA Datasets - AusTraits" ;
+            schema:name "Non-Spatial Datasets" ;
+        ] ,
+        [
+            dcterms:conformsTo "validators/bcp.ttl" ;
+            prof:hasArtifact "resources/datasets/non-spatial/nsl.ttl" ;
+            prof:hasRole <https://prez.dev/ManifestResourceRoles/ResourceData> ;
+            schema:description "Non-spatial EIA Datasets - NSL" ;
             schema:name "Non-Spatial Datasets" ;
         ] ,
         [
