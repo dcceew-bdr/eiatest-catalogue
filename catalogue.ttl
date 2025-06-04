@@ -11,7 +11,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:dateModified "2025-05-08"^^xsd:date ;
     schema:description "Environmental Information Australia datasets and reference data collected in a catalogue to test out and demonstrate 'deep' dataset interoperability by using Semantic Web and Knowledge Graph technologies" ;
     schema:hasPart
-        <https://linked.data.gov.au/dataset/eiatest/bdr> ,
+        <https://linked.data.gov.au/dataset/eiatest/bdr-act> ,
         <https://linked.data.gov.au/dataset/eiatest/ansis> ,
         <https://w3id.org/APD/traits> ,
         <https://linked.data.gov.au/dataset/eiatest/hcas> ,
