@@ -112,20 +112,18 @@ if __name__ == "__main__":
             if site_visits:
                 for site_visit in site_visits:
                     # land surfaces
-                    land_surface = site_visit.get("land_surface", None)
+                    land_surface = site_visit.get("landSurface", None)
                     if land_surface is not None:
-                        outcrop =  site_visit.get("outcrop", None)
+                        outcrop =  land_surface.get("outcrop", None)
                         if outcrop is not None:
-                            outcrop_types.append(outcrop["abundance"]["result"])
-                        runoff = site_visit.get("runoff", None)
+                            outcrop_types.append(outcrop[0]["abundance"]["result"])
+                        runoff = land_surface.get("runoff", None)
                         if runoff is not None:
                             runoff_type = runoff["result"]
 
                     # soil profiles
-                    soil_profiles = site_visit.get("soil_profile", None)
+                    soil_profiles = site_visit.get("soilProfile", None)
                     if soil_profiles is not None:
-                        soil_profiles = []
-
                         for soil_profile in soil_profiles:
                             classifications_values = []
                             depth_value = None
@@ -134,33 +132,33 @@ if __name__ == "__main__":
                             substrate_value = None
 
                             # classification
-                            classifications = site_visit.get("classifications", None)
+                            classifications = soil_profile.get("classifications", None)
                             if classifications is not None:
                                 for classification in classifications:
                                     classifications_values.append(classification["result"]["value"])
 
                             # depth
-                            depth = site_visit.get("depth", None)
+                            depth = soil_profile.get("depth", None)
                             if depth is not None:
                                 depth_value = depth["result"]["value"]
                                                             
                             # drainage
-                            drainage = site_visit.get("drainage", None)
+                            drainage = soil_profile.get("drainage", None)
                             if drainage is not None:
-                                drainage_value = depth["result"]
+                                drainage_value = drainage["result"]
                                 
                             # permeability
-                            permeability = site_visit.get("permeability", None)
+                            permeability = soil_profile.get("permeability", None)
                             if permeability is not None:
-                                permeability_value = depth["result"]
+                                permeability_value = permeability["result"]
 
                             # soil layers
                             # not done
 
                             # substrate
-                            substrate = site_visit.get("substrate", None)
+                            substrate = soil_profile.get("substrate", None)
                             if substrate is not None:
-                                substrate_value = depth["lithology"]["result"]
+                                substrate_value = substrate["lithology"]["result"]
 
                             soil_profile_types.append((classifications_values, depth_value, drainage_value, permeability_value, substrate_value))
 
@@ -218,7 +216,7 @@ if __name__ == "__main__":
                         g.add((sp, ANSIS.classification, make_iri(classification_value)))
                     # depth
                     if soil_profile_type[1] is not None:
-                        g.add((sp, ANSIS.depth, make_quantity_value(sp, soil_profile_type[1], "unit:CentiM")))
+                        g.add((sp, ANSIS.depth, make_quantity_value(g, soil_profile_type[1], "unit:CentiM")))
                     # drainage
                     if soil_profile_type[2] is not None:
                         g.add((sp, ANSIS.drainage, make_iri(soil_profile_type[2])))
