@@ -2,7 +2,12 @@
 
 This `tests/` part of this repo contains Docker and Python scripts to run a Fuseki instance to test scenario queries against the catalogue data.
 
-Fuseki can be run from the Taskfile within `fuseki/` by runnign `task fup`.
+Fuseki can be run from the Taskfile within `tests/fuseki/` by running
+
+```
+cd tests/fuseki/
+task fup
+```
 
 Once the server is up, datasets can be created, such as the test dataset in `fuseki/data/dataset-config.ttl`.
 
@@ -43,6 +48,18 @@ WHERE {
 }
 # returns
 # 1<https://linked.data.gov.au/dataset/eiatest/nvis>
+```
+
+Alternatively, for a fully working setup, use prez-manifest to run the following command:
+
+```
+pm load sparql ../../manifest.ttl http://localhost:3030/eiatest-catalogue/
+```
+
+After the data is loaded, restart the fuseki server and give it time to create the spatial index:
+
+```
+task frs
 ```
 
 Each scenario is described within subfolder of the `scenario/` folder.
