@@ -1,0 +1,48 @@
+PREFIX dwc: <http://rs.tdwg.org/dwc/terms/>
+PREFIX sosa: <http://www.w3.org/ns/sosa/>
+PREFIX time: <http://www.w3.org/2006/time#>
+PREFIX geo: <http://www.opengis.net/ont/geosparql#>
+PREFIX schema: <https://schema.org/>
+PREFIX tern: <https://w3id.org/tern/ontologies/tern/>
+PREFIX time: <http://www.w3.org/2006/time#>
+PREFIX occ: <https://linked.data.gov.au/dataset/bdr/e5f57231-972f-41be-9215-93c216e92a63/occurrence/>
+
+CONSTRUCT {
+  ?occ
+    a geo:Feature ;
+    geo:hasGeometry [
+        a geo:Geometry ;
+        geo:asWKT ?nwkt
+    ] ;
+    time:hasTime [
+        a time:TemporalEntity ;
+        time:inXSDDateTime ?nt ;
+    ] ;
+    tern:featureType ?ft ;
+    schema:name ?sp ;
+    .
+
+}
+WHERE {
+
+  ?occ
+    a dwc:Occurrence ;
+    schema:spatial/geo:asWKT ?wkt ;
+    schema:temporal/time:hasBeginning/time:inXSDDateTime ?t ;
+    tern:featureType ?ft ;
+    sosa:usedProcedure ?proc ;
+    ^sosa:hasFeatureOfInterest ?obs ;
+   .
+
+  ?obs
+    # sosa:usedProcedure <http://linked.data.gov.au/def/tern-cv/2eef4e87-beb3-449a-9251-f59f5c07d653> ;
+    sosa:observedProperty <http://linked.data.gov.au/def/tern-cv/70646576-6dc7-4bc5-a9d8-c4c366850df0> ;
+    sosa:hasResult ?r ;
+    sosa:hasSimpleResult ?sp ;
+  .
+
+  BIND (SUBSTR(STR(?wkt), 46) AS ?nwkt)
+  BIND (STRBEFORE(STR(?t), "T") AS ?nt)
+
+  FILTER (CONTAINS(STR(?obs), "scientificName"))
+}
