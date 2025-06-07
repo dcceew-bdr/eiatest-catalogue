@@ -59883,7 +59883,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         "fosfor"@sv ;
     skos:broader :20748 ;
     skos:definition "[GEMET] A nonmetallic element used to manufacture phosphoric acid, in phosphor bronzes, incendiaries, pyrotechnics, matches, and rat poisons; the white or yellow allotrope is a soft waxy solid, soluble in carbon disulfide, insoluble in water and alcohol, and is poisonous and self-igniting in air; the red allotrope is an amorphous powder, insoluble in all solvents and is nonpoisonous; the black allotrope comprises lustrous crystals similar to graphite, and is insoluble in most solvents."@en ;
-    skos:exactMatch <http://aims.fao.org/aos/agrovoc/c_5804.html>,
+    skos:exactMatch <http://aims.fao.org/aos/agrovoc/c_5804>,
         <http://en.wikipedia.org/wiki/phosphorus>,
         <http://eurovoc.europa.eu/2372>,
         <http://linkeddata.ge.imati.cnr.it:2020/resource/EARTh/47170>,
@@ -60303,7 +60303,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:broader :21656,
         :21767 ;
     skos:definition "[GEMET] The study of the inorganic and organic components of the soil and its life cycles."@en ;
-    skos:exactMatch <http://aims.fao.org/aos/agrovoc/c_7161http://linkeddata.ge.imati.cnr.it:2020/resource/EARTh/74670>,
+    skos:exactMatch <http://aims.fao.org/aos/agrovoc/c_7161> , <http://linkeddata.ge.imati.cnr.it:2020/resource/EARTh/74670>,
         <http://en.wikipedia.org/wiki/soil_chemistry>,
         <http://eurovoc.europa.eu/6386>,
         <http://www.eionet.europa.eu/gemet/concept/7849>,

@@ -1,0 +1,2809 @@
+PREFIX schema: <https://schema.org/>
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=1>
+    schema:name "tree" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=10>
+    schema:name "acid rain" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=100>
+    schema:name "chloride" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=1001>
+    schema:name "nutrient budget" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=1003>
+    schema:name "seagrass" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=1004>
+    schema:name "plant height" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=101>
+    schema:name "chlorine" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=102>
+    schema:name "chlorophyll" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=103>
+    schema:name "chlorophyll a" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=104>
+    schema:name "chromium" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=105>
+    schema:name "chronosequence" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=107>
+    schema:name "clearcut" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=108>
+    schema:name "clearcutting" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=109>
+    schema:name "climate" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=11>
+    schema:name "acidic" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=110>
+    schema:name "climate change" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=111>
+    schema:name "climatology" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=112>
+    schema:name "coarse woody debris" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=113>
+    schema:name "colonization" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=114>
+    schema:name "community" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=115>
+    schema:name "community composition" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=116>
+    schema:name "community dynamics" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=117>
+    schema:name "community patterns" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=119>
+    schema:name "community structure" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=120>
+    schema:name "competition" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=122>
+    schema:name "conductivity" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=124>
+    schema:name "conservation" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=125>
+    schema:name "consumers" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=126>
+    schema:name "copper" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=127>
+    schema:name "coral reef" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=128>
+    schema:name "coral" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=129>
+    schema:name "core" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=130>
+    schema:name "crabs" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=131>
+    schema:name "crayfish" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=133>
+    schema:name "crops" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=134>
+    schema:name "crustaceans" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=135>
+    schema:name "datalogger" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=136>
+    schema:name "decay rates" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=137>
+    schema:name "decomposition" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=138>
+    schema:name "defoliation" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=14>
+    schema:name "adaptation" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=140>
+    schema:name "dendrochronology" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=141>
+    schema:name "dendrometer" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=142>
+    schema:name "denitrification" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=144>
+    schema:name "deposition" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=145>
+    schema:name "depth" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=146>
+    schema:name "desertification" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=147>
+    schema:name "desert" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=148>
+    schema:name "detritus" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=149>
+    schema:name "deuterium" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=15>
+    schema:name "advection" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=150>
+    schema:name "dew point" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=151>
+    schema:name "diatoms" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=152>
+    schema:name "digital elevation model" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=153>
+    schema:name "dimensions" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=154>
+    schema:name "discharge" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=155>
+    schema:name "disease" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=156>
+    schema:name "dispersal" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=157>
+    schema:name "dispersion" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=158>
+    schema:name "dissolved inorganic carbon" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=159>
+    schema:name "dissolved nutrients" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=160>
+    schema:name "dissolved organic carbon" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=161>
+    schema:name "dissolved oxygen" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=162>
+    schema:name "distance" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=163>
+    schema:name "distribution" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=165>
+    schema:name "disturbance patterns" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=166>
+    schema:name "diversity" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=167>
+    schema:name "drainage" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=168>
+    schema:name "drought" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=169>
+    schema:name "dry deposition" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=17>
+    schema:name "agriculture" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=171>
+    schema:name "dunes" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=172>
+    schema:name "ecology" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=173>
+    schema:name "ecosystem" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=174>
+    schema:name "eddy covariance" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=175>
+    schema:name "electric exclusion" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=176>
+    schema:name "electrical conductivity" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=177>
+    schema:name "elevation" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=178>
+    schema:name "emissions" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=179>
+    schema:name "endangered species" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=18>
+    schema:name "air" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=181>
+    schema:name "erosion" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=182>
+    schema:name "estuary" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=184>
+    schema:name "evaporation" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=185>
+    schema:name "evapotranspiration" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=186>
+    schema:name "evolution" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=188>
+    schema:name "extinction" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=189>
+    schema:name "fauna" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=19>
+    schema:name "air pollution" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=190>
+    schema:name "fern" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=191>
+    schema:name "fertilization" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=192>
+    schema:name "fertilizer" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=193>
+    schema:name "fine root" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=194>
+    schema:name "burn severity" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=195>
+    schema:name "fire" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=196>
+    schema:name "fish" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=197>
+    schema:name "floodplain" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=198>
+    schema:name "floods" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=199>
+    schema:name "flowering" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=2>
+    schema:name "forest" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=200>
+    schema:name "flowers" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=202>
+    schema:name "fluorescence" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=203>
+    schema:name "fluoride" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=204>
+    schema:name "fluorine" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=205>
+    schema:name "flux" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=206>
+    schema:name "foliage" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=208>
+    schema:name "food web" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=209>
+    schema:name "forbs" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=21>
+    schema:name "air quality" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=210>
+    schema:name "forest disturbance" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=211>
+    schema:name "forest ecology" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=212>
+    schema:name "forest ecosystems" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=213>
+    schema:name "forest floor" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=216>
+    schema:name "freshwater" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=217>
+    schema:name "frost" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=218>
+    schema:name "fungi" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=22>
+    schema:name "air temperature" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=220>
+    schema:name "gas flux" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=221>
+    schema:name "gas" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=222>
+    schema:name "gastropod" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=223>
+    schema:name "genetics" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=224>
+    schema:name "GIS" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=225>
+    schema:name "geomorphology" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=226>
+    schema:name "germination" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=228>
+    schema:name "GPS" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=23>
+    schema:name "algae" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=230>
+    schema:name "grasses" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=231>
+    schema:name "grasshopper" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=232>
+    schema:name "grassland" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=233>
+    schema:name "grazing" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=235>
+    schema:name "groundwater" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=236>
+    schema:name "growth" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=237>
+    schema:name "habitat selection" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=238>
+    schema:name "habitat" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=239>
+    schema:name "harvesting" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=24>
+    schema:name "alkalinity" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=241>
+    schema:name "heat flux" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=243>
+    schema:name "herbivore" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=244>
+    schema:name "herbivory" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=245>
+    schema:name "herbs" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=246>
+    schema:name "hillslope" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=247>
+    schema:name "historical value" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=248>
+    schema:name "history" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=249>
+    schema:name "holocene" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=25>
+    schema:name "allometry" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=250>
+    schema:name "human disturbance" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=251>
+    schema:name "human" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=252>
+    schema:name "humic soils" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=253>
+    schema:name "humidity" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=254>
+    schema:name "hurricane" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=255>
+    schema:name "hurricane damage" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=256>
+    schema:name "hydraulic conductance" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=257>
+    schema:name "hydrogen ion" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=258>
+    schema:name "hydrography" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=259>
+    schema:name "hydrology" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=26>
+    schema:name "alpine" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=260>
+    schema:name "hyporheic" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=261>
+    schema:name "hyporheic zone" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=262>
+    schema:name "ice" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=263>
+    schema:name "imagery" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=264>
+    schema:name "incubation" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=265>
+    schema:name "infiltration" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=266>
+    schema:name "inorganic nutrients" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=267>
+    schema:name "insect" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=268>
+    schema:name "interception" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=269>
+    schema:name "invasive species" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=27>
+    schema:name "altitude" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=270>
+    schema:name "inventory" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=271>
+    schema:name "invertebrate" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=272>
+    schema:name "ions" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=273>
+    schema:name "iron" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=274>
+    schema:name "irradiance" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=275>
+    schema:name "irrigation" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=276>
+    schema:name "isotope" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=277>
+    schema:name "lake level" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=278>
+    schema:name "lake" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=279>
+    schema:name "land cover" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=28>
+    schema:name "aluminum" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=280>
+    schema:name "land use" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=281>
+    schema:name "land use history" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=282>
+    schema:name "landsat" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=283>
+    schema:name "landscape" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=284>
+    schema:name "landscape change" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=285>
+    schema:name "larvae" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=287>
+    schema:name "lead" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=288>
+    schema:name "leaf area" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=289>
+    schema:name "leaf area index" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=29>
+    schema:name "amino acids" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=290>
+    schema:name "leaf decomposition" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=291>
+    schema:name "leaf litter" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=292>
+    schema:name "leaf nutrients" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=293>
+    schema:name "leaf" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=296>
+    schema:name "leucine" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=297>
+    schema:name "lichens" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=298>
+    schema:name "life history" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=299>
+    schema:name "light" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=30>
+    schema:name "ammonia" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=300>
+    schema:name "lightning" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=301>
+    schema:name "limnology" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=302>
+    schema:name "litter" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=303>
+    schema:name "litter decomposition" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=304>
+    schema:name "litter bags" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=305>
+    schema:name "litter fall" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=306>
+    schema:name "liverworts" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=307>
+    schema:name "lizards" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=308>
+    schema:name "locations" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=31>
+    schema:name "ammonium" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=310>
+    schema:name "logs" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=311>
+    schema:name "long-term" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=313>
+    schema:name "long-term monitoring" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=315>
+    schema:name "lysimeter" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=316>
+    schema:name "macroalgae" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=317>
+    schema:name "macrofauna" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=318>
+    schema:name "macroinvertebrates" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=319>
+    schema:name "magnesium" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=32>
+    schema:name "amphibian" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=320>
+    schema:name "mammal" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=321>
+    schema:name "manganese" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=322>
+    schema:name "mangrove" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=323>
+    schema:name "mapping" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=324>
+    schema:name "map" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=325>
+    schema:name "marine" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=326>
+    schema:name "marsh" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=328>
+    schema:name "mass balance" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=329>
+    schema:name "maximum temperature" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=33>
+    schema:name "animals" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=330>
+    schema:name "meadows" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=331>
+    schema:name "mesic soils" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=332>
+    schema:name "metabolism" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=333>
+    schema:name "meteorology" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=334>
+    schema:name "methane" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=335>
+    schema:name "microarthropods" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=336>
+    schema:name "microbe" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=338>
+    schema:name "microbial activity" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=339>
+    schema:name "microbial biomass" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=34>
+    schema:name "anions" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=340>
+    schema:name "microclimate" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=341>
+    schema:name "mineralization" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=342>
+    schema:name "minimum temperature" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=343>
+    schema:name "mites" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=344>
+    schema:name "modeling" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=345>
+    schema:name "models" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=348>
+    schema:name "mollusks" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=349>
+    schema:name "monitoring" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=350>
+    schema:name "montane" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=351>
+    schema:name "moorings" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=352>
+    schema:name "morphology" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=353>
+    schema:name "mortality" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=354>
+    schema:name "mosses" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=355>
+    schema:name "mowing" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=356>
+    schema:name "mud" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=357>
+    schema:name "mutation" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=358>
+    schema:name "mycorrhizae" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=36>
+    schema:name "annual net primary production" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=360>
+    schema:name "natural selection" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=361>
+    schema:name "nekton" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=362>
+    schema:name "nematodes" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=363>
+    schema:name "net primary production" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=364>
+    schema:name "net primary productivity" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=365>
+    schema:name "net radiation" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=366>
+    schema:name "neutron probe" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=367>
+    schema:name "nickel" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=368>
+    schema:name "nitrate" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=369>
+    schema:name "nitric acid" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=370>
+    schema:name "nitrification" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=371>
+    schema:name "nitrite" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=372>
+    schema:name "nitrogen" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=373>
+    schema:name "nitrogen compounds" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=374>
+    schema:name "nitrogen content" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=375>
+    schema:name "nitrogen cycling" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=376>
+    schema:name "nitrogen deposition" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=377>
+    schema:name "nitrogen fixation" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=378>
+    schema:name "nitrogen mineralization" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=379>
+    schema:name "nitrogen-15" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=38>
+    schema:name "antimony" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=380>
+    schema:name  "nitrous oxide" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=381>
+    schema:name "normalized vegetation index" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=382>
+    schema:name "nutrient cycles" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=383>
+    schema:name "nutrient cycling" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=384>
+    schema:name "nutrient" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=385>
+    schema:name "ocean biogeochemistry" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=386>
+    schema:name "ocean currents" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=388>
+    schema:name "old-growth forests" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=39>
+    schema:name "ant" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=390>
+    schema:name "organic carbon" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=392>
+    schema:name "organic layer" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=393>
+    schema:name "organic matter" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=394>
+    schema:name "organic nitrogen" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=395>
+    schema:name "organisms" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=397>
+    schema:name "oxygen" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=398>
+    schema:name "ozone" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=399>
+    schema:name "paleoecology" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=4>
+    schema:name "aboveground biomass" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=400>
+    schema:name "paleolimnology" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=401>
+    schema:name "parasitism" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=402>
+    schema:name "peatland" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=403>
+    schema:name "percent carbon" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=405>
+    schema:name "percent nitrogen" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=406>
+    schema:name "percent organic carbon" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=407>
+    schema:name "periphyton" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=408>
+    schema:name "permafrost" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=409>
+    schema:name "permanent plots" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=41>
+    schema:name "aquatic" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=410>
+    schema:name "ph" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=411>
+    schema:name "phaeophytin" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=412>
+    schema:name "phaeopigments" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=413>
+    schema:name "phenology" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=414>
+    schema:name "pheromone" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=415>
+    schema:name "phosphate" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=416>
+    schema:name "phosphorus" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=417>
+    schema:name "photosynthesis" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=418>
+    schema:name "photosynthetically active radiation" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=42>
+    schema:name "aquatic invertebrates" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=420>
+    schema:name "physiology" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=421>
+    schema:name "phytoplankton" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=422>
+    schema:name "pitfall traps" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=423>
+    schema:name "plant biomass" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=424>
+    schema:name "plant community" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=426>
+    schema:name "plant cover" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=427>
+    schema:name "plant ecology" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=428>
+    schema:name "plant growth" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=429>
+    schema:name "plant phenology" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=430>
+    schema:name "plant physiology" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=431>
+    schema:name "plant species" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=432>
+    schema:name "plant species composition" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=433>
+    schema:name "plant" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=434>
+    schema:name "playa" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=435>
+    schema:name "pollen" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=436>
+    schema:name "pollution" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=438>
+    schema:name "population dynamics" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=439>
+    schema:name "population" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=440>
+    schema:name "porewater" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=441>
+    schema:name "porosity" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=442>
+    schema:name "potassium" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=443>
+    schema:name "precipitation" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=444>
+    schema:name "predation" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=445>
+    schema:name "predators" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=446>
+    schema:name "pressure" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=447>
+    schema:name "primary production" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=448>
+    schema:name "primary productivity" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=449>
+    schema:name "production" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=45>
+    schema:name "arthropods" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=450>
+    schema:name "productivity" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=452>
+    schema:name "protozoa" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=453>
+    schema:name "rabbits" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=454>
+    schema:name "radiation" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=455>
+    schema:name "rainfall" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=457>
+    schema:name "recovery" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=458>
+    schema:name "recruitment" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=459>
+    schema:name "redox" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=46>
+    schema:name "ascomycetes" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=460>
+    schema:name "reflectance" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=461>
+    schema:name "regeneration" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=462>
+    schema:name "relative abundance" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=463>
+    schema:name "relative humidity" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=464>
+    schema:name "remote sensing" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=465>
+    schema:name "reproduction" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=466>
+    schema:name "reptile" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=467>
+    schema:name "respiration" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=468>
+    schema:name "respiration rates" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=469>
+    schema:name "restoration" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=471>
+    schema:name "revegetation" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=472>
+    schema:name "rhizosphere" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=473>
+    schema:name "riparian" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=474>
+    schema:name "river" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=475>
+    schema:name "roads" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=476>
+    schema:name "root decomposition" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=477>
+    schema:name "root" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=478>
+    schema:name "rotifers" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=479>
+    schema:name "runoff" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=48>
+    schema:name "atmosphere" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=480>
+    schema:name "salamanders" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=481>
+    schema:name "salinity" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=482>
+    schema:name "salt marsh" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=484>
+    schema:name "sand" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=485>
+    schema:name "sapwood area" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=487>
+    schema:name "scattering" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=489>
+    schema:name "seasonality" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=49>
+    schema:name "atmospheric deposition" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=490>
+    schema:name "secchi depth" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=492>
+    schema:name "sedimentation" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=493>
+    schema:name "sediment" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=494>
+    schema:name "seed banks" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=495>
+    schema:name "seed dispersal" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=497>
+    schema:name "seedling establishment" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=498>
+    schema:name "seedling" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=499>
+    schema:name "seeds" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=5>
+    schema:name "aboveground production" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=50>
+    schema:name "atmospheric pressure" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=500>
+    schema:name "seston" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=501>
+    schema:name "shapefiles" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=502>
+    schema:name "shrew" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=503>
+    schema:name "shrub" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=504>
+    schema:name "silica" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=505>
+    schema:name "silicon" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=506>
+    schema:name "silviculture" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=507>
+    schema:name "simulation" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=509>
+    schema:name "size distribution" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=51>
+    schema:name "bacteria" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=510>
+    schema:name "slug" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=511>
+    schema:name "small mammal" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=512>
+    schema:name "snail" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=513>
+    schema:name "snow" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=514>
+    schema:name "snow accumulation" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=515>
+    schema:name "snow depth" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=516>
+    schema:name "snow temperature" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=517>
+    schema:name "snowfence" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=518>
+    schema:name "sodium" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=519>
+    schema:name "soil bulk density" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=52>
+    schema:name "bacterial abundance" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=520>
+    schema:name "soil carbon" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=521>
+    schema:name "soil chemistry" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=522>
+    schema:name "soil disturbance" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=523>
+    schema:name "soil horizons" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=524>
+    schema:name "soil microarthropods" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=525>
+    schema:name "soil moisture" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=526>
+    schema:name "soil nutrients" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=527>
+    schema:name "soil organic matter" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=528>
+    schema:name "soil respiration" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=529>
+    schema:name "soil solution chemistry" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=53>
+    schema:name "bacterial production" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=530>
+    schema:name "soil temperature" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=531>
+    schema:name "soil texture" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=532>
+    schema:name "soil warming" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=533>
+    schema:name "soil water" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=534>
+    schema:name "soil water content" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=535>
+    schema:name "soil" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=536>
+    schema:name "solar radiation" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=537>
+    schema:name "SRP" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=539>
+    schema:name "spatial variability" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=54>
+    schema:name "bark" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=540>
+    schema:name "speciation" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=541>
+    schema:name "species" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=542>
+    schema:name "species composition" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=543>
+    schema:name "species diversity" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=544>
+    schema:name "species interactions" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=545>
+    schema:name "species list" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=546>
+    schema:name "species richness" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=548>
+    schema:name "specific conductivity" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=549>
+    schema:name "specific leaf area" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=550>
+    schema:name "spores" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=551>
+    schema:name "stable isotope" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=553>
+    schema:name "stage height" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=554>
+    schema:name "standing crop" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=555>
+    schema:name "stems" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=556>
+    schema:name "storms" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=558>
+    schema:name "stream discharge" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=559>
+    schema:name "stream ecology" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=56>
+    schema:name "basal area" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=560>
+    schema:name "stream order" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=561>
+    schema:name "streamflow" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=562>
+    schema:name "stream" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=563>
+    schema:name "strontium" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=564>
+    schema:name "subsidence" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=566>
+    schema:name "successional dynamics" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=567>
+    schema:name "sulfate" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=568>
+    schema:name "sulfide" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=569>
+    schema:name "sulfur" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=57>
+    schema:name "basidiomycetes" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=570>
+    schema:name "sulfur hexafluoride" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=571>
+    schema:name "survey" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=572>
+    schema:name "survival" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=573>
+    schema:name "survivorship" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=574>
+    schema:name "suspended solids" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=575>
+    schema:name "symbiosis" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=578>
+    schema:name "taxonomy" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=579>
+    schema:name "temperature" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=58>
+    schema:name "basin" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=580>
+    schema:name "termites" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=582>
+    schema:name "thaw depth" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=583>
+    schema:name "thickness" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=584>
+    schema:name "thinning" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=585>
+    schema:name "throughfall precipitation" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=586>
+    schema:name "tide" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=587>
+    schema:name "timber harvest" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=588>
+    schema:name "time domain reflectometry" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=589>
+    schema:name "topography" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=59>
+    schema:name "bathymetry" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=590>
+    schema:name "total nitrogen" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=591>
+    schema:name "total organic carbon" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=592>
+    schema:name "total phosphorus" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=593>
+    schema:name "tracer" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=594>
+    schema:name "transect" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=595>
+    schema:name "transpiration" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=596>
+    schema:name "trapping" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=597>
+    schema:name "tree growth" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=598>
+    schema:name "tree mortality" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=599>
+    schema:name "tree ring" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=6>
+    schema:name "abundance" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=60>
+    schema:name "beetles" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=600>
+    schema:name "treeline" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=602>
+    schema:name "trophic dynamics" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=603>
+    schema:name "trophic structure" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=604>
+    schema:name "trout" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=605>
+    schema:name "tundra" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=606>
+    schema:name "turbidity" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=607>
+    schema:name "understory vegetation" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=609>
+    schema:name "urban" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=61>
+    schema:name "belowground biomass" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=611>
+    schema:name "vapor pressure" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=612>
+    schema:name "vegetation" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=613>
+    schema:name "vegetation dynamics" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=614>
+    schema:name "vertebrates" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=615>
+    schema:name "virus" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=617>
+    schema:name "water" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=618>
+    schema:name "water balance" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=619>
+    schema:name "water chemistry" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=620>
+    schema:name "water column" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=621>
+    schema:name "water content" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=622>
+    schema:name "water level" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=623>
+    schema:name "water quality" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=624>
+    schema:name "water table" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=625>
+    schema:name "water temperature" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=626>
+    schema:name "watershed" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=627>
+    schema:name "weather" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=629>
+    schema:name "wet deposition" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=63>
+    schema:name "bicarbonate" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=630>
+    schema:name "wetland" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=632>
+    schema:name "wildfire" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=633>
+    schema:name "wind" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=634>
+    schema:name "wind direction" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=635>
+    schema:name "wind speed" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=636>
+    schema:name "winter" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=637>
+    schema:name "wood" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=638>
+    schema:name "woody debris" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=64>
+    schema:name "biodiversity" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=640>
+    schema:name "zinc" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=641>
+    schema:name "zooplankton" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=643>
+    schema:name "substances" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=65>
+    schema:name "biogeochemistry" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=650>
+    schema:name "inorganic matter" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=651>
+    schema:name "disciplines" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=652>
+    schema:name "geology" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=653>
+    schema:name "geography" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=655>
+    schema:name "processes" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=656>
+    schema:name "biological processes" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=657>
+    schema:name "physical processes" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=658>
+    schema:name "biogeochemical processes" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=659>
+    schema:name "atmospheric processes" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=66>
+    schema:name "biogeography" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=660>
+    schema:name "geological processes" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=661>
+    schema:name "hydrologic processes" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=662>
+    schema:name "disturbance" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=664>
+    schema:name "scientific activities" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=665>
+    schema:name "biological substances" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=666>
+    schema:name "elements and compounds" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=667>
+    schema:name "measurements" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=668>
+    schema:name "physical properties" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=67>
+    schema:name "biology" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=670>
+    schema:name "temporal properties" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=671>
+    schema:name "chemical properties" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=672>
+    schema:name "hydrological properties" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=673>
+    schema:name "spatial properties" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=674>
+    schema:name "population and community properties" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=675>
+    schema:name "ecosystem ecology" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=68>
+    schema:name "biomass" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=682>
+    schema:name "demography" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=685>
+    schema:name "community respiration" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=686>
+    schema:name "succession" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=689>
+    schema:name "translocation" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=69>
+    schema:name "bird" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=691>
+    schema:name "water properties" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=692>
+    schema:name "atmospheric properties" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=693>
+    schema:name "methods" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=694>
+    schema:name "substrate" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=695>
+    schema:name "ocean" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=698>
+    schema:name "events" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=7>
+    schema:name "accretion" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=70>
+    schema:name "bog" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=700>
+    schema:name "oceanography" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=701>
+    schema:name "seawater" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=702>
+    schema:name "brackish water" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=705>
+    schema:name "spatial methods" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=706>
+    schema:name "surface elevation table" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=71>
+    schema:name "boron" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=710>
+    schema:name "biological events" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=712>
+    schema:name "disturbance properties" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=714>
+    schema:name "soil properties" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=716>
+    schema:name "ecosystem properties" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=72>
+    schema:name "boreal forests" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=733>
+    schema:name "conductivity temperature depth" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=74>
+    schema:name "browsing" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=75>
+    schema:name "bryophytes" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=76>
+    schema:name "buildings" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=77>
+    schema:name "bulk density" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=78>
+    schema:name "bulk deposition" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=79>
+    schema:name "burning" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=790>
+    schema:name "actinorhizal" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=798>
+    schema:name "terrestrial" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=799>
+    schema:name "organizational units" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=8>
+    schema:name "accumulation" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=80>
+    schema:name "cadmium" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=800>
+    schema:name "physiological processes" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=801>
+    schema:name "field methods" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=802>
+    schema:name "plankton" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=803>
+    schema:name "snow water equivalence" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=805>
+    schema:name "disturbances" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=806>
+    schema:name "satellite imagery" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=807>
+    schema:name "aerial imagery" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=808>
+    schema:name "analytical tools" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=81>
+    schema:name "calcium" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=82>
+    schema:name "canopy" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=83>
+    schema:name "canopy cover" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=84>
+    schema:name "canopy gap" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=85>
+    schema:name "carbohydrates" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=86>
+    schema:name "carbon" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=87>
+    schema:name "carbon assimilation" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=878>
+    schema:name "aspect" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=879>
+    schema:name "land surface properties" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=88>
+    schema:name "carbon cycling" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=882>
+    schema:name "benthic" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=883>
+    schema:name "net ecosystem exchange" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=884>
+    schema:name "coordinates" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=885>
+    schema:name "latitude" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=886>
+    schema:name "longitude" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=888>
+    schema:name "dissolved organic nitrogen" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=89>
+    schema:name "carbon dioxide" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=890>
+    schema:name "ocean color" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=891>
+    schema:name "particulates" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=892>
+    schema:name "particulate organic carbon" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=894>
+    schema:name "polychaete" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=896>
+    schema:name "soil nitrogen" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=897>
+    schema:name "albedo" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=898>
+    schema:name "barrier island" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=899>
+    schema:name "boundary" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=9>
+    schema:name  "acid neutralizing capacity" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=90>
+    schema:name "carbon flux" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=901>
+    schema:name "budburst" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=903>
+    schema:name "belowground production" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=904>
+    schema:name "fine root production" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=905>
+    schema:name "gross primary production" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=906>
+    schema:name "burns" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=907>
+    schema:name "genomics" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=909>
+    schema:name "canker" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=91>
+    schema:name "carbon monoxide" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=911>
+    schema:name "nitrogen flux" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=913>
+    schema:name "concentration" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=914>
+    schema:name "cones" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=916>
+    schema:name "density" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=917>
+    schema:name "plant properties" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=918>
+    schema:name "diameter at breast height" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=92>
+    schema:name "carbon:nitrogen ratio" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=922>
+    schema:name "inorganic nitrogen" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=923>
+    schema:name "dissolved inorganic nitrogen" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=924>
+    schema:name "ecosystem respiration" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=925>
+    schema:name "warming" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=926>
+    schema:name "fen" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=928>
+    schema:name "resource management" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=929>
+    schema:name "fire management" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=93>
+    schema:name "cations" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=930>
+    schema:name "foliar nitrogen" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=931>
+    schema:name "forest dynamics" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=933>
+    schema:name "hydrogen" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=934>
+    schema:name "pleistocene" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=936>
+    schema:name "creek bank" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=938>
+    schema:name "hammocks" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=941>
+    schema:name "intertidal" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=942>
+    schema:name "epifauna" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=943>
+    schema:name "infauna" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=944>
+    schema:name "sea level" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=945>
+    schema:name "mass movement" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=946>
+    schema:name "landslide" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=948>
+    schema:name "debris flow" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=95>
+    schema:name "cellulose" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=950>
+    schema:name "photo point imagery" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=951>
+    schema:name "vascular plant" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=953>
+    schema:name "light detection and ranging" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=955>
+    schema:name "beach" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=957>
+    schema:name "genomics" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=958>
+    schema:name "kelp" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=959>
+    schema:name "wave height" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=96>
+    schema:name "census" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=960>
+    schema:name "reef" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=962>
+    schema:name "ocean acidification" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=963>
+    schema:name "log decomposition" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=964>
+    schema:name "microbial nitrogen" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=965>
+    schema:name "microtopography" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=966>
+    schema:name "minirhizotron" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=968>
+    schema:name "morphometry" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=97>
+    schema:name "cesium" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=970>
+    schema:name "eddy covariance" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=971>
+    schema:name "nitrogen limitation" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=972>
+    schema:name "phenolic compounds" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=973>
+    schema:name "plant functional type" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=975>
+    schema:name "pond" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=977>
+    schema:name "pyranometer" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=98>
+    schema:name "charcoal" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=980>
+    schema:name "mark and recapture" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=984>
+    schema:name "reference stand" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=986>
+    schema:name "seed production" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=987>
+    schema:name "soil phosphorus" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=988>
+    schema:name "soil ph" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=989>
+    schema:name "soil samples" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=99>
+    schema:name "chemistry" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=990>
+    schema:name "species abundance" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=991>
+    schema:name "stand structure" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=992>
+    schema:name "stand density" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=994>
+    schema:name "thermokarst" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=996>
+    schema:name "tree age" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=997>
+    schema:name "tree seedlings" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=998>
+    schema:name "water solubility" ;
+.
+
+<https://vocab.lternet.edu/vocab/vocab/?tema=999>
+    schema:name "total dissolved nitrogen" ;
+.
