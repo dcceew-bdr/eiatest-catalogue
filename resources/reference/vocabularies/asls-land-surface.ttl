@@ -1,0 +1,3507 @@
+# baseURI: http://anzsoil.org/def/au/asls/land-surface
+# imports: http://anzsoil.org/def/au/asls/substrate
+# imports: http://purl.org/dc/elements/1.1/
+
+@prefix asls: <http://anzsoil.org/def/au/asls/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ls: <http://anzsoil.org/def/au/asls/land-surface/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sosa: <http://www.w3.org/ns/sosa/> .
+@prefix subst: <http://anzsoil.org/def/au/asls/substrate/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+asls:land-surface
+  a owl:Ontology ;
+  a skos:ConceptScheme ;
+  dcterms:contributor <https://orcid.org/0000-0002-0693-1899> ;
+  dcterms:contributor <https://orcid.org/0000-0002-3884-3420> ;
+  dcterms:created "2020-10-13"^^xsd:date ;
+  dcterms:creator [
+      a schema:Person ;
+      schema:name "R.F. Isbell" ;
+      schema:email ""^^xsd:anyURI ;
+    ] ;
+  skos:definition """This vocabulary is a machine-readable representation of the classifiers described in chapter 7 Land Surface, by R.C. McDonald, R.F. Isbell and J.G. Speight, in Australian soil and land survey field handbook (3rd edn).
+Land surface is concerned mainly with surface phenomena affecting land use and soil development that have traditionally been noted at the point of soil observation.""" ;
+  dcterms:isFormatOf <https://catalogue.nla.gov.au/Record/4273240> ;
+  schema:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
+  dcterms:modified "2025-06-07"^^xsd:date ;
+  dcterms:publisher <https://linked.data.gov.au/org/csiro> ;
+  dcterms:rights "(c) CSIRO 2009, 2021. All rights reserved."@en ;
+  dcterms:source "National Committee on Soil and Terrain (2009), 'Australian soil and land survey field handbook (3rd edn).' (CSIRO Publishing: Melbourne)"@en ;
+  rdfs:seeAlso <http://www.publish.csiro.au/nid/22/pid/5230.htm> ;
+  owl:imports asls:substrate ;
+  skos:changeNote "2025-06-07 - made VocPub conformant; used prefLabels for missing definitions" ;
+  skos:changeNote "2021-04-07 - replace local lithology concepts with common lithology concepts from Substrate" ;
+  skos:changeNote "2021-04-08 - replace local material strength concepts with common material strength concepts from Substrate" ;
+  skos:changeNote "2022-07-26 - add observable-properties collection" ;
+  skos:changeNote "2022-07-26 - removed dcterms:description and rdfs:label - duplicates skos:definition andskos:prefLabel" ;
+  skos:changeNote "2022-07-29 - replace `sosa:ObservableProperty` type on enumerations with `skos:related` link to the OP in the domain model" ;
+  skos:changeNote "2022-11-23 - Rename collections for consistency with ANSIS" ;
+  skos:changeNote "2022-12-07 - remove observable-properties collection" ;
+  skos:historyNote "The data was converted from the print representation to this linked-data form by Linda Gregory assisted by Simon J D Cox" ;
+  skos:prefLabel "Land Surface classifiers"@en ;
+  skos:hasTopConcept
+  asls:aggradation-0 ,
+  asls:aggradation-1 ,
+  asls:aggradation-X ,
+  asls:aspect ,
+  asls:biotic-microrelief-agent-A ,
+  asls:biotic-microrelief-agent-B ,
+  asls:biotic-microrelief-agent-M ,
+  asls:biotic-microrelief-agent-N ,
+  asls:biotic-microrelief-agent-O ,
+  asls:biotic-microrelief-agent-T ,
+  asls:biotic-microrelief-agent-V ,
+  asls:biotic-microrelief-component-D ,
+  asls:biotic-microrelief-component-E ,
+  asls:biotic-microrelief-component-H ,
+  asls:biotic-microrelief-component-L ,
+  asls:biotic-microrelief-component-M ,
+  asls:biotic-microrelief-component-O ,
+  asls:biotic-microrelief-component-T ,
+  asls:coarse-fragments-abundance-0 ,
+  asls:coarse-fragments-abundance-1 ,
+  asls:coarse-fragments-abundance-2 ,
+  asls:coarse-fragments-abundance-3 ,
+  asls:coarse-fragments-abundance-4 ,
+  asls:coarse-fragments-abundance-5 ,
+  asls:coarse-fragments-abundance-6 ,
+  asls:coarse-fragments-shape-A ,
+  asls:coarse-fragments-shape-AP ,
+  asls:coarse-fragments-shape-AT ,
+  asls:coarse-fragments-shape-R ,
+  asls:coarse-fragments-shape-RP ,
+  asls:coarse-fragments-shape-RT ,
+  asls:coarse-fragments-shape-S ,
+  asls:coarse-fragments-shape-SP ,
+  asls:coarse-fragments-shape-ST ,
+  asls:coarse-fragments-shape-U ,
+  asls:coarse-fragments-shape-UP ,
+  asls:coarse-fragments-shape-UT ,
+  asls:coarse-fragments-size-1 ,
+  asls:coarse-fragments-size-2 ,
+  asls:coarse-fragments-size-3 ,
+  asls:coarse-fragments-size-4 ,
+  asls:coarse-fragments-size-5 ,
+  asls:coarse-fragments-size-6 ,
+  asls:coarse-fragments-size-7 ,
+  asls:depth-free-water-0 ,
+  asls:depth-free-water-above ,
+  asls:depth-free-water-below ,
+  asls:disturbance-of-site-0 ,
+  asls:disturbance-of-site-1 ,
+  asls:disturbance-of-site-2 ,
+  asls:disturbance-of-site-3 ,
+  asls:disturbance-of-site-4 ,
+  asls:disturbance-of-site-5 ,
+  asls:disturbance-of-site-6 ,
+  asls:disturbance-of-site-7 ,
+  asls:disturbance-of-site-8 ,
+  asls:elevation-evaluation-means-A ,
+  asls:elevation-evaluation-means-E ,
+  asls:elevation-evaluation-means-L ,
+  asls:elevation-evaluation-means-M ,
+  asls:erosion-B-0 ,
+  asls:erosion-B-1 ,
+  asls:erosion-B-X ,
+  asls:erosion-C-0 ,
+  asls:erosion-C-1 ,
+  asls:erosion-C-2 ,
+  asls:erosion-C-3 ,
+  asls:erosion-G-0 ,
+  asls:erosion-G-1 ,
+  asls:erosion-G-2 ,
+  asls:erosion-G-3 ,
+  asls:erosion-G-depth-1 ,
+  asls:erosion-G-depth-2 ,
+  asls:erosion-G-depth-3 ,
+  asls:erosion-M-0 ,
+  asls:erosion-M-1 ,
+  asls:erosion-R-0 ,
+  asls:erosion-R-1 ,
+  asls:erosion-R-2 ,
+  asls:erosion-R-3 ,
+  asls:erosion-S-0 ,
+  asls:erosion-S-1 ,
+  asls:erosion-S-2 ,
+  asls:erosion-S-3 ,
+  asls:erosion-S-X ,
+  asls:erosion-T-0 ,
+  asls:erosion-T-1 ,
+  asls:erosion-T-X ,
+  asls:erosion-V-0 ,
+  asls:erosion-V-1 ,
+  asls:erosion-V-X ,
+  asls:erosion-W-0 ,
+  asls:erosion-W-1 ,
+  asls:erosion-W-2 ,
+  asls:erosion-W-3 ,
+  asls:erosion-W-4 ,
+  asls:erosion-W-X ,
+  asls:erosion-state-A ,
+  asls:erosion-state-P ,
+  asls:erosion-state-S ,
+  asls:erosion-type-B ,
+  asls:erosion-type-C ,
+  asls:erosion-type-G ,
+  asls:erosion-type-M ,
+  asls:erosion-type-R ,
+  asls:erosion-type-S ,
+  asls:erosion-type-T ,
+  asls:erosion-type-V ,
+  asls:erosion-type-W ,
+  asls:gilgai-microrelief-proportions-A ,
+  asls:gilgai-microrelief-proportions-B ,
+  asls:gilgai-microrelief-proportions-C ,
+  asls:gilgai-microrelief-proportions-D ,
+  asls:inundation-depth-1 ,
+  asls:inundation-depth-2 ,
+  asls:inundation-depth-3 ,
+  asls:inundation-depth-4 ,
+  asls:inundation-depth-5 ,
+  asls:inundation-duration-1 ,
+  asls:inundation-duration-2 ,
+  asls:inundation-duration-3 ,
+  asls:inundation-duration-4 ,
+  asls:inundation-frequency-0 ,
+  asls:inundation-frequency-1 ,
+  asls:inundation-frequency-2 ,
+  asls:inundation-frequency-3 ,
+  asls:inundation-frequency-4 ,
+  asls:inundation-frequency-5 ,
+  asls:inundation-runon-velocity-H ,
+  asls:inundation-runon-velocity-L ,
+  asls:lithology-CC ,
+  asls:lithology-IS ,
+  asls:lithology-M ,
+  asls:lithology-OT ,
+  asls:lithology-OW ,
+  asls:lithology-PU ,
+  asls:lithology-R ,
+  asls:lithology-SS ,
+  asls:microrelief-A ,
+  asls:microrelief-C ,
+  asls:microrelief-D ,
+  asls:microrelief-G ,
+  asls:microrelief-H ,
+  asls:microrelief-I ,
+  asls:microrelief-K ,
+  asls:microrelief-L ,
+  asls:microrelief-M ,
+  asls:microrelief-N ,
+  asls:microrelief-P ,
+  asls:microrelief-R ,
+  asls:microrelief-S ,
+  asls:microrelief-T ,
+  asls:microrelief-U ,
+  asls:microrelief-W ,
+  asls:microrelief-Z ,
+  asls:microrelief-component-D ,
+  asls:microrelief-component-E ,
+  asls:microrelief-component-F ,
+  asls:microrelief-component-K ,
+  asls:microrelief-component-L ,
+  asls:microrelief-component-M ,
+  asls:microrelief-component-S ,
+  asls:microrelief-horizontal-interval ,
+  asls:microrelief-vertical-interval ,
+  asls:rock-outcrop-abundance-0 ,
+  asls:rock-outcrop-abundance-1 ,
+  asls:rock-outcrop-abundance-2 ,
+  asls:rock-outcrop-abundance-3 ,
+  asls:rock-outcrop-abundance-4 ,
+  asls:rock-outcrop-abundance-5 ,
+  asls:runoff-0 ,
+  asls:runoff-1 ,
+  asls:runoff-2 ,
+  asls:runoff-3 ,
+  asls:runoff-4 ,
+  asls:runoff-5 ;
+.
+ls:Aggradation
+  a owl:Class ;
+  a skos:Collection ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  rdfs:subClassOf skos:Concept ;
+  skos:definition "This refers to the presence of material deposited on a pre-existing surface as a result of wind and/or water erosion."@en ;
+  skos:member ls:aggradation-0 ;
+  skos:member ls:aggradation-1 ;
+  skos:member ls:aggradation-X ;
+  skos:prefLabel "Aggradation - enumeration"@en ;
+.
+ls:Coarse-fragments-abundance
+  a owl:Class ;
+  a skos:Collection ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  rdfs:subClassOf skos:Concept ;
+  skos:definition "The percentage of coarse fragments."@en ;
+  skos:member ls:coarse-fragments-abundance-0 ;
+  skos:member ls:coarse-fragments-abundance-1 ;
+  skos:member ls:coarse-fragments-abundance-2 ;
+  skos:member ls:coarse-fragments-abundance-3 ;
+  skos:member ls:coarse-fragments-abundance-4 ;
+  skos:member ls:coarse-fragments-abundance-5 ;
+  skos:member ls:coarse-fragments-abundance-6 ;
+  skos:note "The percentage is estimated by eye using the charts in the yellow book for comparison. N_CF_ABUN"@en ;
+  skos:prefLabel "Abundance of coarse fragments - enumeration"@en ;
+.
+ls:Coarse-fragments-shape
+  a owl:Class ;
+  a skos:Collection ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  rdfs:comment "C_CF_SHAPE" ;
+  rdfs:subClassOf skos:Concept ;
+  skos:definition "The shape of coarse fragments is determined by referencing the chart that captures the roundness and sphericity. (Figure 12)"@en ;
+  skos:member ls:coarse-fragments-shape-A ;
+  skos:member ls:coarse-fragments-shape-AP ;
+  skos:member ls:coarse-fragments-shape-AT ;
+  skos:member ls:coarse-fragments-shape-R ;
+  skos:member ls:coarse-fragments-shape-RP ;
+  skos:member ls:coarse-fragments-shape-RT ;
+  skos:member ls:coarse-fragments-shape-S ;
+  skos:member ls:coarse-fragments-shape-SP ;
+  skos:member ls:coarse-fragments-shape-ST ;
+  skos:member ls:coarse-fragments-shape-U ;
+  skos:member ls:coarse-fragments-shape-UP ;
+  skos:member ls:coarse-fragments-shape-UT ;
+  skos:prefLabel "Shape of coarse fragments - enumeration"@en ;
+.
+ls:Coarse-fragments-size
+  a owl:Class ;
+  a skos:Collection ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  rdfs:subClassOf skos:Concept ;
+  skos:definition "The scale adopted employs class boundaries at (2 × 10n/2) mm, where n is an integer. This system is an extension of that used for particles smaller than 2 mm both in the scheme of the British Standards Institution and the Massachusetts Institute of Technology and the original Atterberg (1905) scheme on which the International Scheme was based. It is thus compatible with both the International Scheme referred to in the field texture section and the grain size criteria for substrate materials."@en ;
+  skos:member ls:coarse-fragments-size-1 ;
+  skos:member ls:coarse-fragments-size-2 ;
+  skos:member ls:coarse-fragments-size-3 ;
+  skos:member ls:coarse-fragments-size-4 ;
+  skos:member ls:coarse-fragments-size-5 ;
+  skos:member ls:coarse-fragments-size-6 ;
+  skos:member ls:coarse-fragments-size-7 ;
+  skos:note "Note that in preparing soils for laboratory analysis, the greater than 2mm size fraction is commonly recorded as 'gravel'."@en ;
+  skos:note "The terms used to describe size apply to fragments of any shape: The average maximum dimension of fragments is used to determine the class interval. N_CF_SIZE"@en ;
+  skos:prefLabel "Size of coarse fragments -enumeration"@en ;
+.
+ls:Coarse-fragments-strength
+  a owl:Class ;
+  a skos:Collection ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  rdfs:comment "C_CF_STRENGTH"@en ;
+  rdfs:subClassOf skos:Concept ;
+  owl:equivalentClass subst:Material-strength ;
+  skos:altLabel "Strength of material"@en ;
+  skos:definition "Strength of coarse fragments is the same as for 'Strength of material'. The strength of a specimen of soil substrate material may be crudely estimated in the field by striking it with the head-end or the pick-end of a geological hammer or by trying to cut it with a knife, and then referring to Table 32 (ASLS Field Handbook). These estimates refer to the unconfined (or uniaxial) compressive strength. The strength is that of the intact material rather than that of the mass, the strength of which has generally been reduced by the development of fractures and other phenomena."@en ;
+  skos:member subst:material-strength-M ;
+  skos:member subst:material-strength-S ;
+  skos:member subst:material-strength-VS ;
+  skos:member subst:material-strength-VW ;
+  skos:member subst:material-strength-W ;
+  skos:prefLabel "Strength of coarse fragments - enumeration"@en ;
+.
+ls:Disturbance-of-site
+  a owl:Class ;
+  a skos:Collection ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  rdfs:subClassOf skos:Concept ;
+  skos:definition "These are broad categories of disturbance. Users may subdivide where considered necessary."@en ;
+  skos:member ls:disturbance-of-site-0 ;
+  skos:member ls:disturbance-of-site-1 ;
+  skos:member ls:disturbance-of-site-2 ;
+  skos:member ls:disturbance-of-site-3 ;
+  skos:member ls:disturbance-of-site-4 ;
+  skos:member ls:disturbance-of-site-5 ;
+  skos:member ls:disturbance-of-site-6 ;
+  skos:member ls:disturbance-of-site-7 ;
+  skos:member ls:disturbance-of-site-8 ;
+  skos:prefLabel "Disturbance of site - enumeration"@en ;
+.
+ls:Elevation-evaluation-means
+  a owl:Class ;
+  a skos:Collection ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  rdfs:subClassOf skos:Concept ;
+  skos:definition "Means of evaluation of elevation"@en ;
+  skos:member ls:elevation-evaluation-means-A ;
+  skos:member ls:elevation-evaluation-means-E ;
+  skos:member ls:elevation-evaluation-means-L ;
+  skos:member ls:elevation-evaluation-means-M ;
+  skos:prefLabel "Means of evaluation of elevation - enumeration"@en ;
+.
+ls:Erosion-depth-gully
+  a owl:Class ;
+  a skos:Collection ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  rdfs:subClassOf skos:Concept ;
+  skos:definition "This gives the maximum depth within the site."@en ;
+  skos:member ls:erosion-G-depth-1 ;
+  skos:member ls:erosion-G-depth-2 ;
+  skos:member ls:erosion-G-depth-3 ;
+  skos:prefLabel "Gully depth - enumeration"@en ;
+.
+ls:Erosion-gully
+  a skos:Collection ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:member ls:Erosion-depth-gully ;
+  skos:member ls:Erosion-severity-gully ;
+  skos:prefLabel "Gully erosion details"@en ;
+  skos:definition "Gully erosion details"@en ;
+.
+ls:Erosion-severity
+  a skos:Collection ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:member ls:Erosion-severity-gully ;
+  skos:member ls:Erosion-severity-mass-movement ;
+  skos:member ls:Erosion-severity-rill ;
+  skos:member ls:Erosion-severity-scald ;
+  skos:member ls:Erosion-severity-sheet ;
+  skos:member ls:Erosion-severity-stream-bank ;
+  skos:member ls:Erosion-severity-tunnel ;
+  skos:member ls:Erosion-severity-wave ;
+  skos:member ls:Erosion-severity-wind ;
+  skos:prefLabel "Erosion severity"@en ;
+  skos:definition "Erosion severity"@en ;
+.
+ls:Erosion-severity-gully
+  a owl:Class ;
+  a skos:Collection ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  rdfs:subClassOf skos:Concept ;
+  skos:definition "A gully is a channel more than 0.3 m deep."@en ;
+  skos:member ls:erosion-G-0 ;
+  skos:member ls:erosion-G-1 ;
+  skos:member ls:erosion-G-2 ;
+  skos:member ls:erosion-G-3 ;
+  skos:notation "G" ;
+  skos:prefLabel "Gully erosion - enumeration"@en ;
+.
+ls:Erosion-severity-mass-movement
+  a owl:Class ;
+  a skos:Collection ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  rdfs:subClassOf skos:Concept ;
+  skos:definition "This includes all relatively large downslope movement of soil, rock or mixture of both, for example landslides, slumps, earth flows, debris avalanches and solifluxion."@en ;
+  skos:member ls:erosion-M-0 ;
+  skos:member ls:erosion-M-1 ;
+  skos:notation "M" ;
+  skos:prefLabel "Mass movement - enumeration"@en ;
+.
+ls:Erosion-severity-rill
+  a owl:Class ;
+  a skos:Collection ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  rdfs:subClassOf skos:Concept ;
+  skos:definition "A rill is a small channel up to 0.3 m deep, which can be largely obliterated by tillage operations (Houghton and Charman 1986)."@en ;
+  skos:member ls:erosion-R-0 ;
+  skos:member ls:erosion-R-1 ;
+  skos:member ls:erosion-R-2 ;
+  skos:member ls:erosion-R-3 ;
+  skos:notation "R" ;
+  skos:prefLabel "Rill erosion - enumeration"@en ;
+.
+ls:Erosion-severity-scald
+  a owl:Class ;
+  a skos:Collection ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  rdfs:subClassOf skos:Concept ;
+  skos:definition "This is the removal of surface soil by water and/or wind, often exposing a more clayey subsoil which is devoid of vegetation and relatively impermeable to water. Scalds are most common in arid or semi-arid lands."@en ;
+  skos:member ls:erosion-C-0 ;
+  skos:member ls:erosion-C-1 ;
+  skos:member ls:erosion-C-2 ;
+  skos:member ls:erosion-C-3 ;
+  skos:notation "C" ;
+  skos:prefLabel "Scald erosion - enumeration"@en ;
+.
+ls:Erosion-severity-sheet
+  a owl:Class ;
+  a skos:Collection ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  rdfs:subClassOf skos:Concept ;
+  skos:definition "This is the relatively uniform removal of soil from an area without the development of conspicuous channels. Indicators of sheet erosion include soil deposits in downslope sediment traps, such as fencelines or farm dams, and pedestalling, root exposure or exposure of subsoils."@en ;
+  skos:member ls:erosion-S-0 ;
+  skos:member ls:erosion-S-1 ;
+  skos:member ls:erosion-S-2 ;
+  skos:member ls:erosion-S-3 ;
+  skos:member ls:erosion-S-X ;
+  skos:notation "S" ;
+  skos:prefLabel "Sheet erosion - enumeration"@en ;
+.
+ls:Erosion-severity-stream-bank
+  a owl:Class ;
+  a skos:Collection ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  rdfs:subClassOf skos:Concept ;
+  skos:definition "This is the removal of soil from a stream bank, typically during periods of high stream flow."@en ;
+  skos:member ls:erosion-B-0 ;
+  skos:member ls:erosion-B-1 ;
+  skos:member ls:erosion-B-X ;
+  skos:notation "B" ;
+  skos:prefLabel "Stream bank erosion - enumeration"@en ;
+.
+ls:Erosion-severity-tunnel
+  a owl:Class ;
+  a skos:Collection ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  rdfs:subClassOf skos:Concept ;
+  skos:definition "This is the removal of subsoil by water while the surface soil remains relatively intact (Crouch 1976)."@en ;
+  skos:member ls:erosion-T-0 ;
+  skos:member ls:erosion-T-1 ;
+  skos:member ls:erosion-T-X ;
+  skos:notation "T" ;
+  skos:prefLabel "Tunnel erosion - enumeration"@en ;
+.
+ls:Erosion-severity-wave
+  a owl:Class ;
+  a skos:Collection ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  rdfs:subClassOf skos:Concept ;
+  skos:definition "Erosion of beaches, beach ridges and/or dunes. This is the removal of sand or soil from the margins of beaches, beach ridges, dunes, lakes or dams by wave action."@en ;
+  skos:member ls:erosion-V-0 ;
+  skos:member ls:erosion-V-1 ;
+  skos:member ls:erosion-V-X ;
+  skos:notation "V" ;
+  skos:prefLabel "Wave erosion - enumeration"@en ;
+.
+ls:Erosion-severity-wind
+  a owl:Class ;
+  a skos:Collection ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  rdfs:subClassOf skos:Concept ;
+  skos:definition "Give presence/absence or extent of accelerated erosion."@en ;
+  skos:member ls:erosion-W-0 ;
+  skos:member ls:erosion-W-1 ;
+  skos:member ls:erosion-W-2 ;
+  skos:member ls:erosion-W-3 ;
+  skos:member ls:erosion-W-4 ;
+  skos:member ls:erosion-W-X ;
+  skos:notation "W" ;
+  skos:prefLabel "Wind erosion - enumeration"@en ;
+.
+ls:Erosion-state
+  a owl:Class ;
+  a skos:Collection ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  rdfs:subClassOf skos:Concept ;
+  skos:definition "State of erosion"@en ;
+  skos:member ls:erosion-state-A ;
+  skos:member ls:erosion-state-P ;
+  skos:member ls:erosion-state-S ;
+  skos:prefLabel "State of erosion - enumeration"@en ;
+.
+ls:Erosion-type
+  a owl:Class ;
+  a skos:Collection ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  rdfs:subClassOf skos:Concept ;
+  skos:definition "Type of erosion"@en ;
+  skos:member ls:erosion-type-B ;
+  skos:member ls:erosion-type-C ;
+  skos:member ls:erosion-type-G ;
+  skos:member ls:erosion-type-M ;
+  skos:member ls:erosion-type-R ;
+  skos:member ls:erosion-type-S ;
+  skos:member ls:erosion-type-T ;
+  skos:member ls:erosion-type-V ;
+  skos:member ls:erosion-type-W ;
+  skos:prefLabel "Type of erosion - enumeration"@en ;
+.
+ls:Inundation-depth
+  a owl:Class ;
+  a skos:Collection ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  rdfs:subClassOf skos:Concept ;
+  skos:definition "Give likely maximum depth of water in an inundation event (mm). "@en ;
+  skos:member ls:inundation-depth-1 ;
+  skos:member ls:inundation-depth-2 ;
+  skos:member ls:inundation-depth-3 ;
+  skos:member ls:inundation-depth-4 ;
+  skos:member ls:inundation-depth-5 ;
+  skos:prefLabel "Depth of inundation (annual) - enumeration"@en ;
+.
+ls:Inundation-duration
+  a owl:Class ;
+  a skos:Collection ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  rdfs:subClassOf skos:Concept ;
+  skos:definition "Give likely duration of an inundation event."@en ;
+  skos:member ls:inundation-duration-1 ;
+  skos:member ls:inundation-duration-2 ;
+  skos:member ls:inundation-duration-3 ;
+  skos:member ls:inundation-duration-4 ;
+  skos:prefLabel "Duration (annual) of inundation - enumeration"@en ;
+.
+ls:Inundation-frequency
+  a owl:Class ;
+  a skos:Collection ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  rdfs:subClassOf skos:Concept ;
+  skos:definition "Give long-term average of inundation. Among alluvial plains, flood plains typically fall in categories 4 and 3."@en ;
+  skos:member ls:inundation-frequency-0 ;
+  skos:member ls:inundation-frequency-1 ;
+  skos:member ls:inundation-frequency-2 ;
+  skos:member ls:inundation-frequency-3 ;
+  skos:member ls:inundation-frequency-4 ;
+  skos:member ls:inundation-frequency-5 ;
+  skos:prefLabel "Frequency of inundation - enumeration"@en ;
+.
+ls:Inundation-runon-velocity
+  a owl:Class ;
+  a skos:Collection ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  rdfs:subClassOf skos:Concept ;
+  skos:definition "As a guide, the surface velocity in a river is typically 1–2 m/s. "@en ;
+  skos:member ls:inundation-runon-velocity-H ;
+  skos:member ls:inundation-runon-velocity-L ;
+  skos:prefLabel "Runon velocity of inundation - enumeration"@en ;
+.
+ls:Lithology-coarse-fragments
+  a owl:Class ;
+  a skos:Collection ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  rdfs:subClassOf skos:Concept ;
+  skos:definition "The lithology of the coarse fragments is usually identified as coming from the substrate or from rock outcrop. Where the lithology of the coarse fragments is different from that of the substrate material and/or rock outcrop, describe it as for lithology of substrate material only where the rock type is definitely known or is confidently presumed. Some coarse fragments are commonly encountered that are not directly related to the substrate material.    "@en ;
+  skos:member ls:lithology-CC ;
+  skos:member ls:lithology-IS ;
+  skos:member ls:lithology-M ;
+  skos:member ls:lithology-OT ;
+  skos:member ls:lithology-OW ;
+  skos:member ls:lithology-PU ;
+  skos:member ls:lithology-R ;
+  skos:member ls:lithology-SS ;
+  skos:member subst:lithology-AC ;
+  skos:member subst:lithology-AD ;
+  skos:member subst:lithology-AF ;
+  skos:member subst:lithology-AG ;
+  skos:member subst:lithology-AH ;
+  skos:member subst:lithology-AM ;
+  skos:member subst:lithology-AN ;
+  skos:member subst:lithology-AP ;
+  skos:member subst:lithology-AR ;
+  skos:member subst:lithology-AS ;
+  skos:member subst:lithology-BA ;
+  skos:member subst:lithology-BB ;
+  skos:member subst:lithology-BO ;
+  skos:member subst:lithology-BR ;
+  skos:member subst:lithology-C ;
+  skos:member subst:lithology-CB ;
+  skos:member subst:lithology-CG ;
+  skos:member subst:lithology-CH ;
+  skos:member subst:lithology-CO ;
+  skos:member subst:lithology-CU ;
+  skos:member subst:lithology-DI ;
+  skos:member subst:lithology-DM ;
+  skos:member subst:lithology-DR ;
+  skos:member subst:lithology-FC ;
+  skos:member subst:lithology-GA ;
+  skos:member subst:lithology-GD ;
+  skos:member subst:lithology-GE ;
+  skos:member subst:lithology-GN ;
+  skos:member subst:lithology-GR ;
+  skos:member subst:lithology-GS ;
+  skos:member subst:lithology-GV ;
+  skos:member subst:lithology-GW ;
+  skos:member subst:lithology-GY ;
+  skos:member subst:lithology-HA ;
+  skos:member subst:lithology-HO ;
+  skos:member subst:lithology-IG ;
+  skos:member subst:lithology-JA ;
+  skos:member subst:lithology-KA ;
+  skos:member subst:lithology-KC ;
+  skos:member subst:lithology-KL ;
+  skos:member subst:lithology-KM ;
+  skos:member subst:lithology-KR ;
+  skos:member subst:lithology-KS ;
+  skos:member subst:lithology-LC ;
+  skos:member subst:lithology-LI ;
+  skos:member subst:lithology-M ;
+  skos:member subst:lithology-MB ;
+  skos:member subst:lithology-MD ;
+  skos:member subst:lithology-ME ;
+  skos:member subst:lithology-MG ;
+  skos:member subst:lithology-MI ;
+  skos:member subst:lithology-ML ;
+  skos:member subst:lithology-MS ;
+  skos:member subst:lithology-MU ;
+  skos:member subst:lithology-MY ;
+  skos:member subst:lithology-PC ;
+  skos:member subst:lithology-PE ;
+  skos:member subst:lithology-PG ;
+  skos:member subst:lithology-PH ;
+  skos:member subst:lithology-PL ;
+  skos:member subst:lithology-PO ;
+  skos:member subst:lithology-PY ;
+  skos:member subst:lithology-QP ;
+  skos:member subst:lithology-QS ;
+  skos:member subst:lithology-QU ;
+  skos:member subst:lithology-QZ ;
+  skos:member subst:lithology-R ;
+  skos:member subst:lithology-RB ;
+  skos:member subst:lithology-RH ;
+  skos:member subst:lithology-S ;
+  skos:member subst:lithology-SA ;
+  skos:member subst:lithology-SD ;
+  skos:member subst:lithology-SH ;
+  skos:member subst:lithology-SK ;
+  skos:member subst:lithology-SL ;
+  skos:member subst:lithology-SN ;
+  skos:member subst:lithology-SR ;
+  skos:member subst:lithology-ST ;
+  skos:member subst:lithology-SY ;
+  skos:member subst:lithology-TR ;
+  skos:member subst:lithology-TU ;
+  skos:member subst:lithology-UC ;
+  skos:member subst:lithology-VB ;
+  skos:member subst:lithology-VG ;
+  skos:member subst:lithology-Z ;
+  skos:member subst:lithology-ZS ;
+  skos:note "C_LITHOLOGY" ;
+  skos:prefLabel "Lithology of coarse fragments - enumeration"@en ;
+.
+ls:Lithology-rock-outcrop
+  a owl:Class ;
+  a skos:Collection ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  rdfs:subClassOf skos:Concept ;
+  skos:definition "Where the lithology of the rock outcrop is different from that of the substrate material, record it as for lithology of substrate material. "@en ;
+  skos:member subst:lithology-AC ;
+  skos:member subst:lithology-AD ;
+  skos:member subst:lithology-AF ;
+  skos:member subst:lithology-AG ;
+  skos:member subst:lithology-AH ;
+  skos:member subst:lithology-AM ;
+  skos:member subst:lithology-AN ;
+  skos:member subst:lithology-AP ;
+  skos:member subst:lithology-AR ;
+  skos:member subst:lithology-AS ;
+  skos:member subst:lithology-BA ;
+  skos:member subst:lithology-BB ;
+  skos:member subst:lithology-BR ;
+  skos:member subst:lithology-C ;
+  skos:member subst:lithology-CG ;
+  skos:member subst:lithology-CH ;
+  skos:member subst:lithology-CO ;
+  skos:member subst:lithology-CU ;
+  skos:member subst:lithology-DI ;
+  skos:member subst:lithology-DM ;
+  skos:member subst:lithology-DR ;
+  skos:member subst:lithology-FC ;
+  skos:member subst:lithology-GA ;
+  skos:member subst:lithology-GD ;
+  skos:member subst:lithology-GE ;
+  skos:member subst:lithology-GN ;
+  skos:member subst:lithology-GR ;
+  skos:member subst:lithology-GS ;
+  skos:member subst:lithology-GV ;
+  skos:member subst:lithology-GW ;
+  skos:member subst:lithology-GY ;
+  skos:member subst:lithology-HA ;
+  skos:member subst:lithology-HO ;
+  skos:member subst:lithology-IG ;
+  skos:member subst:lithology-JA ;
+  skos:member subst:lithology-KA ;
+  skos:member subst:lithology-KC ;
+  skos:member subst:lithology-KL ;
+  skos:member subst:lithology-KM ;
+  skos:member subst:lithology-KR ;
+  skos:member subst:lithology-KS ;
+  skos:member subst:lithology-LC ;
+  skos:member subst:lithology-LI ;
+  skos:member subst:lithology-M ;
+  skos:member subst:lithology-MB ;
+  skos:member subst:lithology-MD ;
+  skos:member subst:lithology-ME ;
+  skos:member subst:lithology-MG ;
+  skos:member subst:lithology-MI ;
+  skos:member subst:lithology-ML ;
+  skos:member subst:lithology-MS ;
+  skos:member subst:lithology-MU ;
+  skos:member subst:lithology-MY ;
+  skos:member subst:lithology-PC ;
+  skos:member subst:lithology-PE ;
+  skos:member subst:lithology-PG ;
+  skos:member subst:lithology-PH ;
+  skos:member subst:lithology-PL ;
+  skos:member subst:lithology-PO ;
+  skos:member subst:lithology-PY ;
+  skos:member subst:lithology-QP ;
+  skos:member subst:lithology-QS ;
+  skos:member subst:lithology-QU ;
+  skos:member subst:lithology-QZ ;
+  skos:member subst:lithology-R ;
+  skos:member subst:lithology-RB ;
+  skos:member subst:lithology-RH ;
+  skos:member subst:lithology-S ;
+  skos:member subst:lithology-SA ;
+  skos:member subst:lithology-SD ;
+  skos:member subst:lithology-SH ;
+  skos:member subst:lithology-SK ;
+  skos:member subst:lithology-SL ;
+  skos:member subst:lithology-SR ;
+  skos:member subst:lithology-ST ;
+  skos:member subst:lithology-SY ;
+  skos:member subst:lithology-TR ;
+  skos:member subst:lithology-TU ;
+  skos:member subst:lithology-UC ;
+  skos:member subst:lithology-VB ;
+  skos:member subst:lithology-VG ;
+  skos:member subst:lithology-Z ;
+  skos:member subst:lithology-ZS ;
+  skos:prefLabel "Lithology of rock outcrop - enumeration"@en ;
+.
+ls:Microrelief-agent-biotic
+  a owl:Class ;
+  a skos:Collection ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  rdfs:subClassOf skos:Concept ;
+  skos:definition "The biotic agents causing the relief."@en ;
+  skos:member ls:biotic-microrelief-agent-A ;
+  skos:member ls:biotic-microrelief-agent-B ;
+  skos:member ls:biotic-microrelief-agent-M ;
+  skos:member ls:biotic-microrelief-agent-N ;
+  skos:member ls:biotic-microrelief-agent-O ;
+  skos:member ls:biotic-microrelief-agent-T ;
+  skos:member ls:biotic-microrelief-agent-V ;
+  skos:prefLabel "Biotic microrelief agents - enumeration"@en ;
+.
+ls:Microrelief-component-biotic
+  a owl:Class ;
+  a skos:Collection ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  rdfs:subClassOf skos:Concept ;
+  skos:definition "The component of the biotic relief."@en ;
+  skos:member ls:biotic-microrelief-component-D ;
+  skos:member ls:biotic-microrelief-component-E ;
+  skos:member ls:biotic-microrelief-component-H ;
+  skos:member ls:biotic-microrelief-component-L ;
+  skos:member ls:biotic-microrelief-component-M ;
+  skos:member ls:biotic-microrelief-component-O ;
+  skos:member ls:biotic-microrelief-component-T ;
+  skos:prefLabel "Component of biotic relief - enumeration"@en ;
+.
+ls:Microrelief-component-sampled
+  a owl:Class ;
+  a skos:Collection ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  rdfs:subClassOf skos:Concept ;
+  skos:definition "Give the component of the microrelief in which the described soil profile is located."@en ;
+  skos:member ls:microrelief-component-D ;
+  skos:member ls:microrelief-component-E ;
+  skos:member ls:microrelief-component-F ;
+  skos:member ls:microrelief-component-K ;
+  skos:member ls:microrelief-component-L ;
+  skos:member ls:microrelief-component-M ;
+  skos:member ls:microrelief-component-S ;
+  skos:prefLabel "Component of microrelief sampled - enumeration"@en ;
+.
+ls:Microrelief-proportions-gilgai
+  a owl:Class ;
+  a skos:Collection ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  rdfs:subClassOf skos:Concept ;
+  skos:definition "Give the proportions of gilgai components within the site, thus:"@en ;
+  skos:member ls:gilgai-microrelief-proportions-A ;
+  skos:member ls:gilgai-microrelief-proportions-B ;
+  skos:member ls:gilgai-microrelief-proportions-C ;
+  skos:member ls:gilgai-microrelief-proportions-D ;
+  skos:prefLabel "Proportions of gilgai components - enumeration"@en ;
+.
+ls:Microrelief-type-gilgai
+  a owl:Class ;
+  a skos:Collection ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  rdfs:subClassOf skos:Concept ;
+  skos:definition "Gilgai is surface microrelief associated with soils containing shrink–swell clays. It does not include microrelief that apparently results from repeated freezing and thawing, solifluxion or faunal activity. Gilgai consist of mounds and depressions showing varying degrees of order, sometimes separated by a subplanar or slightly undulating surface."@en ;
+  skos:member ls:microrelief-A ;
+  skos:member ls:microrelief-C ;
+  skos:member ls:microrelief-G ;
+  skos:member ls:microrelief-L ;
+  skos:member ls:microrelief-M ;
+  skos:member ls:microrelief-N ;
+  skos:prefLabel "Type of gilgai microrelief - enumeration"@en ;
+.
+ls:Microrelief-type-hummocky
+  a owl:Class ;
+  a skos:Collection ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  rdfs:subClassOf skos:Concept ;
+  skos:definition "Hummocky microrelief is not thought to be associated with the shrink–swell process involved in gilgai microrelief."@en ;
+  skos:member ls:microrelief-D ;
+  skos:member ls:microrelief-W ;
+  skos:prefLabel "Type of hummocky microrelief - enumeration"@en ;
+.
+ls:Microrelief-type-other
+  a owl:Class ;
+  a skos:Collection ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  rdfs:subClassOf skos:Concept ;
+  skos:definition "Type of other microrelief - enumeration"@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:member ls:microrelief-H ;
+  skos:member ls:microrelief-I ;
+  skos:member ls:microrelief-K ;
+  skos:member ls:microrelief-O ;
+  skos:member ls:microrelief-P ;
+  skos:member ls:microrelief-R ;
+  skos:member ls:microrelief-S ;
+  skos:member ls:microrelief-T ;
+  skos:member ls:microrelief-U ;
+  skos:prefLabel "Type of other microrelief - enumeration"@en ;
+.
+ls:Rock-outcrop-abundance
+  a owl:Class ;
+  a skos:Collection ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  rdfs:subClassOf skos:Concept ;
+  skos:definition "Abundance of rock outcrop."@en ;
+  skos:member ls:rock-outcrop-abundance-0 ;
+  skos:member ls:rock-outcrop-abundance-1 ;
+  skos:member ls:rock-outcrop-abundance-2 ;
+  skos:member ls:rock-outcrop-abundance-3 ;
+  skos:member ls:rock-outcrop-abundance-4 ;
+  skos:member ls:rock-outcrop-abundance-5 ;
+  skos:prefLabel "Abundance of rock outcrop - enumeration"@en ;
+.
+ls:Runoff
+  a owl:Class ;
+  a skos:Collection ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  rdfs:subClassOf skos:Concept ;
+  skos:definition "Runoff is the relative rate at which water runs off the soil surface. It is largely determined by slope, surface cover and soil infiltration rate. "@en ;
+  skos:member ls:runoff-0 ;
+  skos:member ls:runoff-1 ;
+  skos:member ls:runoff-2 ;
+  skos:member ls:runoff-3 ;
+  skos:member ls:runoff-4 ;
+  skos:member ls:runoff-5 ;
+  skos:prefLabel "Runoff - enumeration"@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+.
+ls:aggradation-0
+  a ls:Aggradation ;
+  a skos:Concept ;
+  skos:definition "No aggradation."@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "0" ;
+  skos:prefLabel "No aggradation"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:aggradation-1
+  a ls:Aggradation ;
+  a skos:Concept ;
+  skos:definition "Aggradation present."@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "1" ;
+  skos:prefLabel "Present"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:aggradation-X
+  a ls:Aggradation ;
+  a skos:Concept ;
+  skos:definition "Aggradation not apparent."@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "X" ;
+  skos:prefLabel "Not apparent"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:aspect
+  a skos:Concept ;
+  skos:definition "Give as compass bearing to nearest 10 degrees. On level lands (less than 1% slope), aspect need not be recorded."@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:prefLabel "Aspect"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:biotic-microrelief
+  a skos:Collection ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:definition "This relief is caused by biotic agents, for example termite mounds, rabbit warrens, wombat burrows, pig wallows, man-made terraces, stump holes, vegetation mounds. No subdivision of any of the types of biotic microrelief according to the specific agent or component of relief is given here. For example, vegetation mounds are mounds of soil material found at the base of plants such as Dillon bush (Nitraria billardieri) or spinifex (Triodia species). Users may subdivide types of biotic microrelief where considered necessary, such as specifying the particular species of vegetation involved in the case of vegetation mounds. For example, termite mounds would be coded TM."@en ;
+  skos:member ls:Microrelief-agent-biotic ;
+  skos:member ls:Microrelief-component-biotic ;
+  skos:prefLabel "Biotic microrelief"@en ;
+.
+ls:biotic-microrelief-agent-A
+  a ls:Microrelief-agent-biotic ;
+  a skos:Concept ;
+  skos:definition "Ant."@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "A" ;
+  skos:prefLabel "Ant"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:biotic-microrelief-agent-B
+  a ls:Microrelief-agent-biotic ;
+  a skos:Concept ;
+  skos:definition "Bird."@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "B" ;
+  skos:prefLabel "Bird"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:biotic-microrelief-agent-M
+  a ls:Microrelief-agent-biotic ;
+  a skos:Concept ;
+  skos:definition "Human."@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "M" ;
+  skos:prefLabel "Human"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:biotic-microrelief-agent-N
+  a ls:Microrelief-agent-biotic ;
+  a skos:Concept ;
+  skos:definition "Animal."@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "N" ;
+  skos:prefLabel "Animal"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:biotic-microrelief-agent-O
+  a ls:Microrelief-agent-biotic ;
+  a skos:Concept ;
+  skos:definition "Other."@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "O" ;
+  skos:prefLabel "Other"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:biotic-microrelief-agent-T
+  a ls:Microrelief-agent-biotic ;
+  a skos:Concept ;
+  skos:definition "Termite."@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "T" ;
+  skos:prefLabel "Termite"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:biotic-microrelief-agent-V
+  a ls:Microrelief-agent-biotic ;
+  a skos:Concept ;
+  skos:definition "Vegetation."@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "V" ;
+  skos:prefLabel "Vegetation"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:biotic-microrelief-component-D
+  a ls:Microrelief-component-biotic ;
+  a skos:Concept ;
+  skos:definition "Depression."@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "D" ;
+  skos:prefLabel "Depression"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:biotic-microrelief-component-E
+  a ls:Microrelief-component-biotic ;
+  a skos:Concept ;
+  skos:definition "Elongate mound."@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "E" ;
+  skos:prefLabel "Elongate mound"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:biotic-microrelief-component-H
+  a ls:Microrelief-component-biotic ;
+  a skos:Concept ;
+  skos:definition "Hole."@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "H" ;
+  skos:prefLabel "Hole"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:biotic-microrelief-component-L
+  a ls:Microrelief-component-biotic ;
+  a skos:Concept ;
+  skos:definition "Elongate depression."@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "L" ;
+  skos:prefLabel "Elongate depression"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:biotic-microrelief-component-M
+  a ls:Microrelief-component-biotic ;
+  a skos:Concept ;
+  skos:definition "Mound."@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "M" ;
+  skos:prefLabel "Mound"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:biotic-microrelief-component-O
+  a ls:Microrelief-component-biotic ;
+  a skos:Concept ;
+  skos:definition "Other.."@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "O" ;
+  skos:prefLabel "Other."@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:biotic-microrelief-component-T
+  a ls:Microrelief-component-biotic ;
+  a skos:Concept ;
+  skos:definition "Terrace."@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "T" ;
+  skos:prefLabel "Terrace"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:coarse-fragments
+  a skos:Collection ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:definition """Coarse fragments are particles coarser than 2 mm. They include unattached rock fragments and other fragments such as charcoal and shells. Coarse fragments are distinguished from segregations of pedogenic origin in that they are not, or not considered to be, of pedogenic origin.  
+Both coarse fragments and segregations of pedogenic origin can occur on the surface. Where segregations of pedogenic origin occur on the surface, they should be described as per soil-profile."""@en ;
+  skos:member ls:Coarse-fragments-abundance ;
+  skos:member ls:Coarse-fragments-shape ;
+  skos:member ls:Coarse-fragments-size ;
+  skos:member ls:Coarse-fragments-strength ;
+  skos:member ls:Lithology-coarse-fragments ;
+  skos:prefLabel "Coarse fragments"@en ;
+.
+ls:coarse-fragments-abundance-0
+  a ls:Coarse-fragments-abundance ;
+  a skos:Concept ;
+  skos:definition "0%" ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "0" ;
+  skos:prefLabel "No coarse fragments"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:coarse-fragments-abundance-1
+  a ls:Coarse-fragments-abundance ;
+  a skos:Concept ;
+  skos:definition "<2%" ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "1" ;
+  skos:note "For example very slightly fine gravelly; very few small pebbles" ;
+  skos:prefLabel "Very slightly or very few"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:coarse-fragments-abundance-2
+  a ls:Coarse-fragments-abundance ;
+  a skos:Concept ;
+  skos:definition "2-10%" ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "2" ;
+  skos:note "For example slightly stony; few stones" ;
+  skos:prefLabel "Slightly or few"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:coarse-fragments-abundance-3
+  a ls:Coarse-fragments-abundance ;
+  a skos:Concept ;
+  skos:definition "10-20%" ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "3" ;
+  skos:note "For example medium gravelly; stony, common medium pebbles; common stones" ;
+  skos:prefLabel "No qualifier or common"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:coarse-fragments-abundance-4
+  a ls:Coarse-fragments-abundance ;
+  a skos:Concept ;
+  skos:definition "20-50%" ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "4" ;
+  skos:prefLabel "Moderately or many"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:coarse-fragments-abundance-5
+  a ls:Coarse-fragments-abundance ;
+  a skos:Concept ;
+  skos:definition "50-90%" ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "5" ;
+  skos:prefLabel "Very or abundant"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:coarse-fragments-abundance-6
+  a ls:Coarse-fragments-abundance ;
+  a skos:Concept ;
+  skos:definition ">90%" ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "6" ;
+  skos:prefLabel "Extremely or very abundant"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:coarse-fragments-shape-A
+  a ls:Coarse-fragments-shape ;
+  a skos:Concept ;
+  rdfs:comment "C_CF_SHAPE" ;
+  skos:definition "Angular shape as determined from visual guide"@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "A" ;
+  skos:prefLabel "Angular"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:coarse-fragments-shape-AP
+  a ls:Coarse-fragments-shape ;
+  a skos:Concept ;
+  rdfs:comment "C_CF_SHAPE" ;
+  skos:definition "Angular platy shape as determined from visual guide"@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "AP" ;
+  skos:prefLabel "Angular platy"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:coarse-fragments-shape-AT
+  a ls:Coarse-fragments-shape ;
+  a skos:Concept ;
+  rdfs:comment "C_CF_SHAPE" ;
+  skos:definition "Angular tabular shape as determined from visual guide"@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "AT" ;
+  skos:prefLabel "Angular tabular"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:coarse-fragments-shape-R
+  a ls:Coarse-fragments-shape ;
+  a skos:Concept ;
+  rdfs:comment "C_CF_SHAPE" ;
+  skos:definition "Rounded shape as determined from visual guide"@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "R" ;
+  skos:prefLabel "Rounded"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:coarse-fragments-shape-RP
+  a ls:Coarse-fragments-shape ;
+  a skos:Concept ;
+  rdfs:comment "C_CF_SHAPE" ;
+  skos:definition "Rounded platy shape as determined from visual guide"@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "RP" ;
+  skos:prefLabel "Rounded platy"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:coarse-fragments-shape-RT
+  a ls:Coarse-fragments-shape ;
+  a skos:Concept ;
+  rdfs:comment "C_CF_SHAPE" ;
+  skos:definition "Rounded tabular shape as determined from visual guide"@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "RT" ;
+  skos:prefLabel "Rounded tabular"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:coarse-fragments-shape-S
+  a ls:Coarse-fragments-shape ;
+  a skos:Concept ;
+  rdfs:comment "C_CF_SHAPE" ;
+  skos:definition "Subangular shape as determined from visual guide"@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "S" ;
+  skos:prefLabel "Subangular"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:coarse-fragments-shape-SP
+  a ls:Coarse-fragments-shape ;
+  a skos:Concept ;
+  rdfs:comment "C_CF_SHAPE" ;
+  skos:definition "Subangular platy shape as determined from visual guide"@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "SP" ;
+  skos:prefLabel "Subangular platy"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:coarse-fragments-shape-ST
+  a ls:Coarse-fragments-shape ;
+  a skos:Concept ;
+  rdfs:comment "C_CF_SHAPE" ;
+  skos:definition "Subangular tabular shape as determined from visual guide"@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "ST" ;
+  skos:prefLabel "Subangular tabular"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:coarse-fragments-shape-U
+  a ls:Coarse-fragments-shape ;
+  a skos:Concept ;
+  rdfs:comment "C_CF_SHAPE" ;
+  skos:definition "Subrounded shape as determined from visual guide"@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "U" ;
+  skos:prefLabel "Subrounded"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:coarse-fragments-shape-UP
+  a ls:Coarse-fragments-shape ;
+  a skos:Concept ;
+  rdfs:comment "C_CF_SHAPE" ;
+  skos:definition "Subrounded platy shape as determined from visual guide"@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "UP" ;
+  skos:prefLabel "Subrounded platy"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:coarse-fragments-shape-UT
+  a ls:Coarse-fragments-shape ;
+  a skos:Concept ;
+  rdfs:comment "C_CF_SHAPE" ;
+  skos:definition "Subrounded tabular shape as determined from visual guide"@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "UT" ;
+  skos:prefLabel "Subrounded tabular"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:coarse-fragments-size-1
+  a ls:Coarse-fragments-size ;
+  a skos:Concept ;
+  skos:definition "2-6 mm"@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "1" ;
+  skos:note "The terms used to describe size apply to fragments of any shape: The average maximum dimension of fragments is used to determine the class interval. N_CF_SIZE"@en ;
+  skos:prefLabel "Fine gravelly or small pebbles"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:coarse-fragments-size-2
+  a ls:Coarse-fragments-size ;
+  a skos:Concept ;
+  skos:definition "6-20 mm"@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "2" ;
+  skos:note "The terms used to describe size apply to fragments of any shape: The average maximum dimension of fragments is used to determine the class interval. N_CF_SIZE"@en ;
+  skos:prefLabel "Medium gravelly or medium pebbles"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:coarse-fragments-size-3
+  a ls:Coarse-fragments-size ;
+  a skos:Concept ;
+  skos:definition "20-60 mm"@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "3" ;
+  skos:note "The terms used to describe size apply to fragments of any shape: The average maximum dimension of fragments is used to determine the class interval.  N_CF_SIZE"@en ;
+  skos:prefLabel "Coarse gravelly or large pebbles"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:coarse-fragments-size-4
+  a ls:Coarse-fragments-size ;
+  a skos:Concept ;
+  skos:definition "60-200 mm"@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "4" ;
+  skos:note "The terms used to describe size apply to fragments of any shape: The average maximum dimension of fragments is used to determine the class interval. N_CF_SIZE"@en ;
+  skos:prefLabel "Cobbly or cobbles"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:coarse-fragments-size-5
+  a ls:Coarse-fragments-size ;
+  a skos:Concept ;
+  skos:definition "200-600 mm"@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "5" ;
+  skos:note "The terms used to describe size apply to fragments of any shape: The average maximum dimension of fragments is used to determine the class interval. N_CF_SIZE"@en ;
+  skos:prefLabel "Stony or stones"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:coarse-fragments-size-6
+  a ls:Coarse-fragments-size ;
+  a skos:Concept ;
+  skos:definition "600-2000 mm"@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "6" ;
+  skos:note "The terms used to describe size apply to fragments of any shape: The average maximum dimension of fragments is used to determine the class interval. N_CF_SIZE"@en ;
+  skos:prefLabel "Bouldery or boulders"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:coarse-fragments-size-7
+  a ls:Coarse-fragments-size ;
+  a skos:Concept ;
+  skos:definition ">2000 mm"@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "7" ;
+  skos:note "The terms used to describe size apply to fragments of any shape: The average maximum dimension of fragments is used to determine the class interval. N_CF_SIZE"@en ;
+  skos:prefLabel "Large boulders"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:depth-free-water
+  a skos:Collection ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:definition "Give depth to free water at the site of soil observation, in metres, either above or below the soil surface, excluding litter and living vegetation. "@en ;
+  skos:member ls:depth-free-water-0 ;
+  skos:member ls:depth-free-water-above ;
+  skos:member ls:depth-free-water-below ;
+  skos:prefLabel "Depth to free water - enumeration"@en ;
+.
+ls:depth-free-water-0
+  a skos:Concept ;
+  skos:definition "If there is no free water, record:"@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "0" ;
+  skos:prefLabel "No free water"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:depth-free-water-above
+  a skos:Concept ;
+  skos:definition "Above soil surface."@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "+" ;
+  skos:prefLabel "Above soil surface"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:depth-free-water-below
+  a skos:Concept ;
+  skos:definition "Below soil surface."@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "-" ;
+  skos:prefLabel "Below soil surface"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:disturbance-of-site-0
+  a ls:Disturbance-of-site ;
+  a skos:Concept ;
+  skos:definition "No effective disturbance; natural."@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "0" ;
+  skos:prefLabel "No effective disturbance; natural"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:disturbance-of-site-1
+  a ls:Disturbance-of-site ;
+  a skos:Concept ;
+  skos:definition "No effective disturbance other than grazing by hoofed animals."@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "1" ;
+  skos:prefLabel "No effective disturbance other than grazing by hoofed animals"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:disturbance-of-site-2
+  a ls:Disturbance-of-site ;
+  a skos:Concept ;
+  skos:definition "Limited clearing, for example selective logging."@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "2" ;
+  skos:prefLabel "Limited clearing"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:disturbance-of-site-3
+  a ls:Disturbance-of-site ;
+  a skos:Concept ;
+  skos:definition "Extensive clearing, for example poisoning, ringbarking."@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "3" ;
+  skos:prefLabel "Extensive clearing"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:disturbance-of-site-4
+  a ls:Disturbance-of-site ;
+  a skos:Concept ;
+  skos:definition "Complete clearing; pasture, native or improved, but never cultivated."@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "4" ;
+  skos:prefLabel "Complete clearing; pasture, native or improved, but never cultivated"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:disturbance-of-site-5
+  a ls:Disturbance-of-site ;
+  a skos:Concept ;
+  skos:definition "Complete clearing; pasture, native or improved, cultivated at some stage."@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "5" ;
+  skos:prefLabel "Complete clearing; pasture, native or improved, cultivated at some stage"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:disturbance-of-site-6
+  a ls:Disturbance-of-site ;
+  a skos:Concept ;
+  skos:definition "Cultivation; rainfed."@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "6" ;
+  skos:prefLabel "Cultivation; rainfed"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:disturbance-of-site-7
+  a ls:Disturbance-of-site ;
+  a skos:Concept ;
+  skos:definition "Cultivation; irrigated, past or present."@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "7" ;
+  skos:prefLabel "Cultivation; irrigated, past or present"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:disturbance-of-site-8
+  a ls:Disturbance-of-site ;
+  a skos:Concept ;
+  skos:definition "Highly disturbed, for example quarrying, road works, mining, landfill, urban."@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "8" ;
+  skos:prefLabel "Highly disturbed"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:drainage-height
+  a skos:Collection ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:definition "This is the height of the point of soil observation above the flat, depression or stream channel that forms the effective bottom of the toposequence. Give drainage height in metres."@en ;
+  skos:member ls:drainage-height-evaluation-means ;
+  skos:member ls:drainage-height-value ;
+  skos:prefLabel "Drainage height"@en ;
+.
+ls:drainage-height-evaluation-means
+  a owl:Class ;
+  a skos:Collection ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  rdfs:subClassOf skos:Concept ;
+  skos:definition "Means of evaluation of drainage height."@en ;
+  skos:member ls:elevation-evaluation-means-A ;
+  skos:member ls:elevation-evaluation-means-E ;
+  skos:member ls:elevation-evaluation-means-L ;
+  skos:member ls:elevation-evaluation-means-M ;
+  skos:prefLabel "Means of evaluation of drainage height - enumeration"@en ;
+.
+ls:drainage-height-value
+  a ls:drainage-height ;
+  a skos:Concept ;
+  skos:prefLabel "Drainage height value in metres" ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:definition "Drainage height value in metres" ;
+.
+ls:elevation
+  a skos:Collection ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:definition "Give in metres above sea-level."@en ;
+  skos:member ls:Elevation-evaluation-means ;
+  skos:member ls:elevation-value ;
+  skos:prefLabel "Elevation in metres above sea-level"@en ;
+.
+ls:elevation-evaluation-means-A
+  a ls:Elevation-evaluation-means ;
+  a ls:drainage-height-evaluation-means ;
+  a skos:Concept ;
+  a sosa:Procedure ;
+  skos:definition "Determined by altimeter"@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "A" ;
+  skos:prefLabel "Determined by altimeter"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:elevation-evaluation-means-E
+  a ls:Elevation-evaluation-means ;
+  a ls:drainage-height-evaluation-means ;
+  a skos:Concept ;
+  a sosa:Procedure ;
+  skos:definition "Estimate"@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "E" ;
+  skos:prefLabel "Estimate"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:elevation-evaluation-means-L
+  a ls:Elevation-evaluation-means ;
+  a ls:drainage-height-evaluation-means ;
+  a skos:Concept ;
+  a sosa:Procedure ;
+  skos:definition "Levelled from survey datum or estimated from contour plan (1:10 000 or larger scale)"@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "L" ;
+  skos:prefLabel "Levelled from survey datum or estimated from contour plan"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:elevation-evaluation-means-M
+  a ls:Elevation-evaluation-means ;
+  a ls:drainage-height-evaluation-means ;
+  a skos:Concept ;
+  a sosa:Procedure ;
+  skos:definition "Interpolated from contour map with contour interval of 20 m or less"@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "M" ;
+  skos:prefLabel "Interpolated from contour map"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:elevation-value
+  a skos:Concept ;
+  skos:prefLabel "Elevation value in metres" ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:definition "Elevation value in metres" ;
+.
+ls:erosion
+  a skos:Collection ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:definition """This section is concerned with accelerated erosion rather than natural erosion. Natural or geologic erosion is the type and rate of movement of land surface material in its undisturbed natural environment. Accelerated erosion is the more rapid erosion that follows the destruction or loss of protective cover often resulting from people’s influence on the soil, vegetation or landform. It is not always easy to distinguish between accelerated and natural erosion in some landscapes where both are closely interrelated, nor is it always clear whether wind or water is the dominant agent. This is particularly so in the case of scald formation (Warren 1965).
+The complexity of erosion forms creates difficulties in both defining and quantitatively estimating the extent of erosion within the dimensions of the site. Hence, the observer is advised to record the following simple parameters. Assess the erosion observed at the time of the description, not the likelihood of erosion."""@en ;
+  skos:member ls:Erosion-gully ;
+  skos:member ls:Erosion-severity ;
+  skos:member ls:Erosion-state ;
+  skos:member ls:Erosion-type ;
+  skos:member ls:erosion-water ;
+  skos:note "For erosion, aggradation and inundation assessment, the extent of the site is 20 m radius."@en ;
+  skos:prefLabel "Erosion"@en ;
+.
+ls:erosion-B-0
+  a ls:Erosion-severity-stream-bank ;
+  a skos:Concept ;
+  skos:definition "No stream bank erosion."@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "0" ;
+  skos:prefLabel "No stream bank erosion"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:erosion-B-1
+  a ls:Erosion-severity-stream-bank ;
+  a skos:Concept ;
+  skos:definition "Present."@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "1" ;
+  skos:prefLabel "Present"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:erosion-B-X
+  a ls:Erosion-severity-stream-bank ;
+  a skos:Concept ;
+  skos:definition "Not apparent."@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "X" ;
+  skos:prefLabel "Not apparent"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:erosion-C-0
+  a ls:Erosion-severity-scald ;
+  a skos:Concept ;
+  skos:definition "No scalding."@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "0" ;
+  skos:prefLabel "No scalding"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:erosion-C-1
+  a ls:Erosion-severity-scald ;
+  a skos:Concept ;
+  skos:definition "<5% of site scalded."@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "1" ;
+  skos:prefLabel "Minor scalding"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:erosion-C-2
+  a ls:Erosion-severity-scald ;
+  a skos:Concept ;
+  skos:definition "5-50% of site scalded."@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "2" ;
+  skos:prefLabel "Moderate scalding"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:erosion-C-3
+  a ls:Erosion-severity-scald ;
+  a skos:Concept ;
+  skos:definition ">50% of site scalded."@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "3" ;
+  skos:prefLabel "Severe scalding"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:erosion-G-0
+  a ls:Erosion-severity-gully ;
+  a skos:Concept ;
+  skos:definition "No gully erosion."@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "0" ;
+  skos:prefLabel "No gully erosion"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:erosion-G-1
+  a ls:Erosion-severity-gully ;
+  a skos:Concept ;
+  skos:definition "gullies are isolated, linear, discontinuous and restricted to primary or minor drainage lines."@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "1" ;
+  skos:prefLabel "Minor gully erosion"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:erosion-G-2
+  a ls:Erosion-severity-gully ;
+  a skos:Concept ;
+  skos:definition "gullies are linear, continuous and restricted to primary and minor drainage lines."@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "2" ;
+  skos:prefLabel "Moderate gully erosion"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:erosion-G-3
+  a ls:Erosion-severity-gully ;
+  a skos:Concept ;
+  skos:definition "gullies are continuous or discontinuous and either tend to branch away from primary drainage lines and on to footslopes, or have multiple branches within primary drainage lines."@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "3" ;
+  skos:prefLabel "Severe gully erosion"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:erosion-G-depth-1
+  a ls:Erosion-depth-gully ;
+  a skos:Concept ;
+  skos:definition "<1.5 m"@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "1" ;
+  skos:prefLabel "Gully depth <1.5 m"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:erosion-G-depth-2
+  a ls:Erosion-depth-gully ;
+  a skos:Concept ;
+  skos:definition "1.5-3.0 m"@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "2" ;
+  skos:prefLabel "Gully depth 1.5-3.0 m"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:erosion-G-depth-3
+  a ls:Erosion-depth-gully ;
+  a skos:Concept ;
+  skos:definition ">3 m"@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "3" ;
+  skos:prefLabel "Gully depth >3 m"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:erosion-M-0
+  a ls:Erosion-severity-mass-movement ;
+  a skos:Concept ;
+  skos:definition "No mass movement."@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "0" ;
+  skos:prefLabel "No mass movement"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:erosion-M-1
+  a ls:Erosion-severity-mass-movement ;
+  a skos:Concept ;
+  skos:definition "Present."@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "1" ;
+  skos:prefLabel "Present"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:erosion-R-0
+  a ls:Erosion-severity-rill ;
+  a skos:Concept ;
+  skos:definition "no rill erosion."@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "0" ;
+  skos:prefLabel "No rill erosion"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:erosion-R-1
+  a ls:Erosion-severity-rill ;
+  a skos:Concept ;
+  skos:definition "occasional rills."@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "1" ;
+  skos:prefLabel "Minor"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:erosion-R-2
+  a ls:Erosion-severity-rill ;
+  a skos:Concept ;
+  skos:definition "common rills."@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "2" ;
+  skos:prefLabel "Moderate"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:erosion-R-3
+  a ls:Erosion-severity-rill ;
+  a skos:Concept ;
+  skos:definition "numerous rills forming corrugated ground surface."@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "3" ;
+  skos:prefLabel "Severe"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:erosion-S-0
+  a ls:Erosion-severity-sheet ;
+  a skos:Concept ;
+  skos:definition "no sheet erosion."@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "0" ;
+  skos:prefLabel "No sheet erosion"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:erosion-S-1
+  a ls:Erosion-severity-sheet ;
+  a skos:Concept ;
+  skos:definition "indicators may include shallow soil deposits in downslope sediment traps (fencelines, farm dams). Often very difficult to assess as evidence may be lost with cultivation, pedo-turbation or revegetation."@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "1" ;
+  skos:prefLabel "Minor"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:erosion-S-2
+  a ls:Erosion-severity-sheet ;
+  a skos:Concept ;
+  skos:definition "indicators may include partial exposure of roots, moderate soil deposits in downslope sediment traps (fencelines, farm dams)."@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "2" ;
+  skos:prefLabel "Moderate"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:erosion-S-3
+  a ls:Erosion-severity-sheet ;
+  a skos:Concept ;
+  skos:definition "indicators may include loss of surface horizons, exposure of subsoil horizons, pedestalling, root exposure, substantial soil deposits in downslope sediment traps (fencelines, farm dams)."@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "3" ;
+  skos:prefLabel "Severe"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:erosion-S-X
+  a ls:Erosion-severity-sheet ;
+  a skos:Concept ;
+  skos:definition "not apparent."@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "X" ;
+  skos:prefLabel "Not apparent"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:erosion-T-0
+  a ls:Erosion-severity-tunnel ;
+  a skos:Concept ;
+  skos:definition "no tunnel erosion."@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "0" ;
+  skos:prefLabel "No tunnel erosion"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:erosion-T-1
+  a ls:Erosion-severity-tunnel ;
+  a skos:Concept ;
+  skos:definition "present."@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "1" ;
+  skos:prefLabel "Present"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:erosion-T-X
+  a ls:Erosion-severity-tunnel ;
+  a skos:Concept ;
+  skos:definition "Not apparent."@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "X" ;
+  skos:prefLabel "Not apparent"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:erosion-V-0
+  a ls:Erosion-severity-wave ;
+  a skos:Concept ;
+  skos:definition "no wave erosion."@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "0" ;
+  skos:prefLabel "No wave erosion"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:erosion-V-1
+  a ls:Erosion-severity-wave ;
+  a skos:Concept ;
+  skos:definition "present."@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "1" ;
+  skos:prefLabel "Present"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:erosion-V-X
+  a ls:Erosion-severity-wave ;
+  a skos:Concept ;
+  skos:definition "Not apparent."@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "X" ;
+  skos:prefLabel "Not apparent"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:erosion-W-0
+  a ls:Erosion-severity-wind ;
+  a skos:Concept ;
+  skos:definition "no wind erosion."@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "0" ;
+  skos:prefLabel "No wind erosion"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:erosion-W-1
+  a ls:Erosion-severity-wind ;
+  a skos:Concept ;
+  skos:definition "some loss of surface."@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "1" ;
+  skos:prefLabel "Minor or present"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:erosion-W-2
+  a ls:Erosion-severity-wind ;
+  a skos:Concept ;
+  skos:definition "most or all or surface removed leaving soft or loose material."@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "2" ;
+  skos:prefLabel "Moderate"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:erosion-W-3
+  a ls:Erosion-severity-wind ;
+  a skos:Concept ;
+  skos:definition "most or all of surface removed, leaving hard material."@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "3" ;
+  skos:prefLabel "Severe"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:erosion-W-4
+  a ls:Erosion-severity-wind ;
+  a skos:Concept ;
+  skos:definition "deeper layers exposed, leaving hard material, for example subsoil, weathered country rock or pans."@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "4" ;
+  skos:prefLabel "Very severe"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:erosion-W-X
+  a ls:Erosion-severity-wind ;
+  a skos:Concept ;
+  skos:definition "Not apparent."@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "X" ;
+  skos:prefLabel "Not apparent"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:erosion-state-A
+  a ls:Erosion-state ;
+  a skos:Concept ;
+  skos:definition "one or both of the following conditions apply: evidence of sediment movement; sides and/or floors of erosion form are relatively bare of vegetation."@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "A" ;
+  skos:prefLabel "Active"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:erosion-state-P
+  a ls:Erosion-state ;
+  a skos:Concept ;
+  skos:definition "evidence of some active erosion and some evidence of stabilisation."@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "P" ;
+  skos:prefLabel "Partly stabilised"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:erosion-state-S
+  a ls:Erosion-state ;
+  a skos:Concept ;
+  skos:definition "one or both of the following conditions apply: no evidence of sediment movement; sides and/or floors of erosion form are revegetated."@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "S" ;
+  skos:prefLabel "Stabilised"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:erosion-type-B
+  a ls:Erosion-type ;
+  a skos:Concept ;
+  skos:definition "This is the removal of soil from a stream bank, typically during periods of high stream flow."@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "B" ;
+  skos:prefLabel "Stream bank"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:erosion-type-C
+  a ls:Erosion-type ;
+  a skos:Concept ;
+  skos:definition "This is the removal of surface soil by water and/or wind, often exposing a more clayey subsoil which is devoid of vegetation and relatively impermeable to water. Scalds are most common in arid or semi-arid lands."@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "C" ;
+  skos:prefLabel "Scald"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:erosion-type-G
+  a ls:Erosion-type ;
+  a skos:Concept ;
+  skos:definition "A gully (see page 31) is a channel more than 0.3 m deep."@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "G" ;
+  skos:prefLabel "Gully"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:erosion-type-M
+  a ls:Erosion-type ;
+  a skos:Concept ;
+  skos:definition "This includes all relatively large downslope movement of soil, rock or mixture of both, for example landslides, slumps, earth flows, debris avalanches and solifluxion."@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "M" ;
+  skos:prefLabel "Mass movement"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:erosion-type-R
+  a ls:Erosion-type ;
+  a skos:Concept ;
+  skos:definition "A rill is a small channel up to 0.3 m deep, which can be largely obliterated by tillage operations (Houghton and Charman 1986)."@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "R" ;
+  skos:prefLabel "Rill"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:erosion-type-S
+  a ls:Erosion-type ;
+  a skos:Concept ;
+  skos:definition """This is the relatively uniform removal of soil from an area without the development of conspicuous channels.
+Indicators of sheet erosion include soil deposits in downslope sediment traps, such as fencelines or farm dams, and pedestalling, root exposure or exposure of subsoils."""@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "S" ;
+  skos:prefLabel "Sheet"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:erosion-type-T
+  a ls:Erosion-type ;
+  a skos:Concept ;
+  skos:definition "This is the removal of subsoil by water while the surface soil remains relatively intact (Crouch 1976)."@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "T" ;
+  skos:prefLabel "Tunnel"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:erosion-type-V
+  a ls:Erosion-type ;
+  a skos:Concept ;
+  skos:definition "Erosion of beaches, beach ridges and/or dunes. This is the removal of sand or soil from the margins of beaches, beach ridges, dunes, lakes or dams by wave action."@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "V" ;
+  skos:prefLabel "Wave"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:erosion-type-W
+  a ls:Erosion-type ;
+  a skos:Concept ;
+  skos:definition "wind erosion."@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "W" ;
+  skos:prefLabel "Wind"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:erosion-water
+  a skos:Collection ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:definition """Give type and presence/absence or extent of accelerated erosion.
+For sheet, rill and gully erosion there is no consensus in Australia on a quantitative or precise definition of what constitutes minor, moderate and severe erosion. This derives partly from the difficulty of measuring actual soil loss at a site. It also derives partly from the wide range of soils, climates and land uses, variations in any or all of which may alter the concept of minor, moderate or severe erosion.
+The observer wishing to record the severity of erosion may record it as minor, moderate or severe, basing the assessment on local knowledge and guided by indicators that may be present as described below (after Morse et al. 1987). Note the actual depth of soil loss where this can be reliably assessed."""@en ;
+  skos:member ls:Erosion-depth-gully ;
+  skos:member ls:Erosion-severity-gully ;
+  skos:member ls:Erosion-severity-rill ;
+  skos:member ls:Erosion-severity-sheet ;
+  skos:member ls:Erosion-severity-stream-bank ;
+  skos:member ls:Erosion-severity-tunnel ;
+  skos:member ls:Erosion-severity-wave ;
+  skos:prefLabel "Water erosion"@en ;
+.
+ls:gilgai-microrelief-proportions-A
+  a ls:Microrelief-proportions-gilgai ;
+  a skos:Concept ;
+  skos:definition "Equal mounds and depressions; no shelf present."@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "A" ;
+  skos:prefLabel "Equal mounds and depressions; no shelf present"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:gilgai-microrelief-proportions-B
+  a ls:Microrelief-proportions-gilgai ;
+  a skos:Concept ;
+  skos:definition "More mounds than depressions; no shelf present."@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "B" ;
+  skos:prefLabel "More mounds than depressions; no shelf present"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:gilgai-microrelief-proportions-C
+  a ls:Microrelief-proportions-gilgai ;
+  a skos:Concept ;
+  skos:definition "Fewer mounds than depressions; no shelf present."@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "C" ;
+  skos:prefLabel "Fewer mounds than depressions; no shelf present"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:gilgai-microrelief-proportions-D
+  a ls:Microrelief-proportions-gilgai ;
+  a skos:Concept ;
+  skos:definition "Mound, shelf and depressions; shelf forms prominent part of gilgai."@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "D" ;
+  skos:prefLabel "Mound, shelf and depressions; shelf forms prominent part of gilgai"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:inundation
+  a skos:Collection ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:definition "Inundation includes flooding from over-bank flow, inundation from local runon and overland flow. Although the importance of this information is considerable, in most instances it cannot be assessed at each site. Some evidence may be available from past events, for example accumulation of debris in trees or on fences. Otherwise information is usually obtained from local enquiry."@en ;
+  skos:member ls:Inundation-depth ;
+  skos:member ls:Inundation-duration ;
+  skos:member ls:Inundation-frequency ;
+  skos:member ls:Inundation-runon-velocity ;
+  skos:prefLabel "Inundation"@en ;
+.
+ls:inundation-depth-1
+  a ls:Inundation-depth ;
+  a skos:Concept ;
+  skos:definition "<50 mm"@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "1" ;
+  skos:prefLabel "Inundation depth <50 mm"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:inundation-depth-2
+  a ls:Inundation-depth ;
+  a skos:Concept ;
+  skos:definition "depth 50-100 mm"@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "2" ;
+  skos:prefLabel "Inundation depth 50-100 mm"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:inundation-depth-3
+  a ls:Inundation-depth ;
+  a skos:Concept ;
+  skos:definition "100-300 mm"@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "3" ;
+  skos:prefLabel "Inundation depth 100-300 mm"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:inundation-depth-4
+  a ls:Inundation-depth ;
+  a skos:Concept ;
+  skos:definition "300-1000 mm"@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "4" ;
+  skos:prefLabel "Inundation depth 300-1000 mm"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:inundation-depth-5
+  a ls:Inundation-depth ;
+  a skos:Concept ;
+  skos:definition ">1000 mm"@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "5" ;
+  skos:prefLabel "Inundation depth >1000 mm"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:inundation-duration-1
+  a ls:Inundation-duration ;
+  a skos:Concept ;
+  skos:definition "Less than 1 day"@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "1" ;
+  skos:prefLabel "Less than 1 day"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:inundation-duration-2
+  a ls:Inundation-duration ;
+  a skos:Concept ;
+  skos:definition "Between 1 and 20 days"@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "2" ;
+  skos:prefLabel "Between 1 and 20 days"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:inundation-duration-3
+  a ls:Inundation-duration ;
+  a skos:Concept ;
+  skos:definition "Between 20 and 120 days"@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "3" ;
+  skos:prefLabel "Between 20 and 120 days"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:inundation-duration-4
+  a ls:Inundation-duration ;
+  a skos:Concept ;
+  skos:definition "More than 120 days"@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "4" ;
+  skos:prefLabel "More than 120 days"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:inundation-frequency-0
+  a ls:Inundation-frequency ;
+  a skos:Concept ;
+  skos:definition "No inundation."@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "0" ;
+  skos:prefLabel "No inundation"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:inundation-frequency-1
+  a ls:Inundation-frequency ;
+  a skos:Concept ;
+  skos:definition "Less than one occurrence per 100 years. "@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "1" ;
+  skos:prefLabel "Less than one occurrence per 100 years"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:inundation-frequency-2
+  a ls:Inundation-frequency ;
+  a skos:Concept ;
+  skos:definition "One occurrence in between 50 and 100 years. "@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "2" ;
+  skos:prefLabel "One occurrence in between 50 and 100 years"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:inundation-frequency-3
+  a ls:Inundation-frequency ;
+  a skos:Concept ;
+  skos:definition "One occurrence in between 10 and 50 years. "@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "3" ;
+  skos:prefLabel "One occurrence in between 10 and 50 years"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:inundation-frequency-4
+  a ls:Inundation-frequency ;
+  a skos:Concept ;
+  skos:definition "One occurrence in between 1 and 10 years. "@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "4" ;
+  skos:prefLabel "One occurrence in between 1 and 10 years"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:inundation-frequency-5
+  a ls:Inundation-frequency ;
+  a skos:Concept ;
+  skos:definition "More than one occurrence per year. "@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "5" ;
+  skos:prefLabel "More than one occurrence per year"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:inundation-runon-velocity-H
+  a ls:Inundation-runon-velocity ;
+  a skos:Concept ;
+  skos:definition "High velocity >300 mm/s"@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "H" ;
+  skos:prefLabel "High velocity >300 mm/s"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:inundation-runon-velocity-L
+  a ls:Inundation-runon-velocity ;
+  a skos:Concept ;
+  skos:definition "Low velocity <300 mm/s"@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "L" ;
+  skos:prefLabel "Low velocity <300 mm/s"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:lithology-CC
+  a ls:Lithology-coarse-fragments ;
+  a skos:Concept ;
+  rdfs:comment "C_LITHOLOGY" ;
+  skos:definition "Charcoal"@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "CC" ;
+  skos:prefLabel "Charcoal"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:lithology-IS
+  a ls:Lithology-coarse-fragments ;
+  a skos:Concept ;
+  rdfs:comment "C_LITHOLOGY" ;
+  skos:definition "Ironstone (where not considered of pedogenic origin)"@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "IS" ;
+  skos:prefLabel "Ironstone"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:lithology-M
+  a skos:Concept ;
+  rdfs:comment "C_LITHOLOGY" ;
+  skos:definition "Same as substrate material"@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "M" ;
+  skos:prefLabel "Same as substrate material"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:lithology-OT
+  a ls:Lithology-coarse-fragments ;
+  a skos:Concept ;
+  rdfs:comment "C_LITHOLOGY" ;
+  skos:definition "Other"@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "OT" ;
+  skos:prefLabel "Other"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:lithology-OW
+  a ls:Lithology-coarse-fragments ;
+  a skos:Concept ;
+  rdfs:comment "C_LITHOLOGY" ;
+  skos:definition "Opalised wood"@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "OW" ;
+  skos:prefLabel "Opalised wood"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:lithology-PU
+  a ls:Lithology-coarse-fragments ;
+  a skos:Concept ;
+  rdfs:comment "C_LITHOLOGY" ;
+  skos:definition "Pumice"@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "PU" ;
+  skos:prefLabel "Pumice"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:lithology-R
+  a skos:Concept ;
+  rdfs:comment "C_LITHOLOGY" ;
+  skos:definition "Same as rock outcrop"@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "R" ;
+  skos:prefLabel "Same as rock outcrop"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:lithology-SS
+  a ls:Lithology-coarse-fragments ;
+  a skos:Concept ;
+  rdfs:comment "C_LITHOLOGY" ;
+  skos:definition "Shells"@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "SS" ;
+  skos:prefLabel "Shells"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:microrelief
+  a skos:Collection ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  rdfs:subClassOf skos:Concept ;
+  skos:definition "Microrelief refers to relief up to a few metres about the plane of the land surface. It includes gilgai, hummocky, biotic and other microrelief."@en ;
+  skos:member ls:Microrelief-component-sampled ;
+  skos:member ls:Microrelief-proportions-gilgai ;
+  skos:member ls:Microrelief-type-gilgai ;
+  skos:member ls:Microrelief-type-hummocky ;
+  skos:member ls:Microrelief-type-other ;
+  skos:member ls:biotic-microrelief ;
+  skos:member ls:microrelief-Z ;
+  skos:member ls:microrelief-horizontal-interval ;
+  skos:member ls:microrelief-vertical-interval ;
+  skos:prefLabel "Microrelief classifiers"@en ;
+.
+ls:microrelief-A
+  a ls:Microrelief-type-gilgai ;
+  a skos:Concept ;
+  skos:definition "discontinuous, elongate mounds and/or elongate depressions more or less at right angles to the contour. Usually in sloping lands, commonly between linear gilgai on lower slopes and plains."@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "A" ;
+  skos:prefLabel "Lattice gilgai"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:microrelief-C
+  a ls:Microrelief-type-gilgai ;
+  a skos:Concept ;
+  skos:definition "irregularly distributed, small depressions and mounds separated by a more or less continuous shelf. Vertical interval usually less than 0.3 m. Horizontal interval usually 3–20 m, surface almost level."@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "C" ;
+  skos:note "Vertical interval usually < 0.3 m and horizontal interval 3 - 20m"@en ;
+  skos:prefLabel "Crabhole gilgai"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:microrelief-D
+  a ls:Microrelief-type-hummocky ;
+  a skos:Concept ;
+  skos:definition "small hummocks rising above a planar surface. They vary from rounded, both planar and vertically, to flat-topped, relatively steep-sided and elongate. They are usually closely and regularly spaced, ranging from 0.06 to 0.6 m in both vertical and horizontal dimensions. They are common in northern Australia on soils with impeded internal drainage and in areas of short seasonal ponding. Many observers consider them to be formed by biological activity."@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "D" ;
+  skos:prefLabel "Debil-debil"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:microrelief-G
+  a ls:Microrelief-type-gilgai ;
+  a skos:Concept ;
+  skos:definition "irregularly distributed, large depressions, usually greater than 3 m in diameter or greatest dimension, subcircular or irregular and varying from closely spaced in a network of elongate mounds to isolated depressions set in an undulating shelf with occasional small mounds. Some depressions may also contain sinkholes of gilgai usually greater than 0.3 m; horizontal interval usually 5–6 m; surface almost level."@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "G" ;
+  skos:prefLabel "Contour gilgai"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:microrelief-H
+  a ls:Microrelief-type-other ;
+  a skos:Concept ;
+  skos:definition "Depression associated with water flowing from rock or soil without the agency of man."@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "H" ;
+  skos:prefLabel "Spring hollow"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:microrelief-I
+  a ls:Microrelief-type-other ;
+  a skos:Concept ;
+  skos:definition "closed depression with vertical or funnel-shaped sides."@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "I" ;
+  skos:prefLabel "Sinkhole"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:microrelief-K
+  a ls:Microrelief-type-other ;
+  a skos:Concept ;
+  skos:definition "depressions in limestone country."@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "K" ;
+  skos:prefLabel "Karst microrelief"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:microrelief-L
+  a ls:Microrelief-type-gilgai ;
+  a skos:Concept ;
+  skos:definition "long, narrow, parallel, elongate mounds and broader elongate depressions more or less at right angles to the contour. Usually in sloping lands. Vertical interval usually less than 0.3 m, horizontal interval usually 5–8 m."@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "L" ;
+  skos:note "Vertical interval usually < 0.3 m and horizontal interval 5 - 8 m"@en ;
+  skos:prefLabel "Linear gilgai"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:microrelief-M
+  a ls:Microrelief-type-gilgai ;
+  a skos:Concept ;
+  skos:definition "irregularly distributed, large depressions, usually greater than 3 m in diameter or greatest dimension, subcircular or irregular and varying from closely spaced in a network of elongate mounds to isolated depressions set in an undulating shelf with occasional small mounds. Some depressions may also contain sinkholes of gilgai usually greater than 0.3 m; horizontal interval usually 5–6 m; surface almost level."@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "M" ;
+  skos:prefLabel "Melonhole gilgai"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:microrelief-N
+  a ls:Microrelief-type-gilgai ;
+  a skos:Concept ;
+  skos:definition "irregularly distributed, small mounds and subcircular depressions varying in size and spacing. Vertical interval usually less than 0.3 m, horizontal interval usually 3–10 m, surface almost level."@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "N" ;
+  skos:note "Vertical interval usually < 0.3 m and horizontal interval 3 - 10m"@en ;
+  skos:prefLabel "Normal gilgai"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:microrelief-O
+  a ls:Microrelief-type-other ;
+  a skos:Concept ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "O" ;
+  skos:prefLabel "Other microrelief"@en ;
+  skos:definition "Other microrelief"@en ;
+.
+ls:microrelief-P
+  a ls:Microrelief-type-other ;
+  a skos:Concept ;
+  skos:definition "Mound associated with water flowing from rock or soil without the agency of man."@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "P" ;
+  skos:prefLabel "Spring mound"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:microrelief-R
+  a ls:Microrelief-type-other ;
+  a skos:Concept ;
+  skos:definition "small terraces on slopes resulting either from soil creep or trampling by hoofed animals."@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "R" ;
+  skos:prefLabel "Terracettes"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:microrelief-S
+  a ls:Microrelief-type-other ;
+  a skos:Concept ;
+  skos:definition "hummocky microrelief on the surface of landslides, slumps, earth flows, debris avalanches."@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "S" ;
+  skos:prefLabel "Mass movement microrelief"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:microrelief-T
+  a ls:Microrelief-type-other ;
+  a skos:Concept ;
+  skos:definition "trenches typically 0.2 m deep and 0.6 m wide, with near vertical walls, alternating with flat-crested ridges about 1.3 m wide, which extend along the contour for several metres or tens of metres. Contour trenches are known in areas in south-eastern Australia above 350 m altitude with a high effective rainfall, where they are associated with a grassland or heathland vegetation on undulating rises (compare with McElroy 1952)."@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "T" ;
+  skos:prefLabel "Contour trench"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:microrelief-U
+  a ls:Microrelief-type-other ;
+  a skos:Concept ;
+  skos:definition "undifferentiated, irregularly distributed or isolated mounds and/or depressions set in a planar surface."@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "U" ;
+  skos:prefLabel "Mound/depression microrelief"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:microrelief-W
+  a ls:Microrelief-type-hummocky ;
+  a skos:Concept ;
+  skos:definition "steep-sided hummocks rising above a flat surface. Hummocks are frequently occupied by trees or shrubs while the lower surface may be vegetation free or occupied by sedges or reeds. They are subject to prolonged seasonal flooding. "@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "W" ;
+  skos:prefLabel "Swamp hummock"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:microrelief-Z
+  a ls:microrelief ;
+  a skos:Concept ;
+  skos:definition "Zero or no microrelief"@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "Z" ;
+  skos:prefLabel "Zero or no microrelief"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:microrelief-component-D
+  a ls:Microrelief-component-sampled ;
+  a skos:Concept ;
+  skos:definition "concave; occurs as closed form."@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "D" ;
+  skos:prefLabel "Depression"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:microrelief-component-E
+  a ls:Microrelief-component-sampled ;
+  a skos:Concept ;
+  skos:definition "convex; long axis* more than 3 times the shorter axis."@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "E" ;
+  skos:prefLabel "Elongate mound"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:microrelief-component-F
+  a ls:Microrelief-component-sampled ;
+  a skos:Concept ;
+  skos:definition "surface in which hummocks, mounds, depressions or sinkholes are set."@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "F" ;
+  skos:prefLabel "Flat"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:microrelief-component-K
+  a ls:Microrelief-component-sampled ;
+  a skos:Concept ;
+  skos:definition "rises above a flat or planar surface. Sides vary from rounded to near vertical and tops from rounded to flat."@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "K" ;
+  skos:prefLabel "Hummock"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:microrelief-component-L
+  a ls:Microrelief-component-sampled ;
+  a skos:Concept ;
+  skos:definition "concave; occurs as open-ended form."@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "L" ;
+  skos:prefLabel "Elongate depression"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:microrelief-component-M
+  a ls:Microrelief-component-sampled ;
+  a skos:Concept ;
+  skos:definition "convex; long axis* not more than 3 times the shorter axis."@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "M" ;
+  skos:prefLabel "Mound"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:microrelief-component-S
+  a ls:Microrelief-component-sampled ;
+  a skos:Concept ;
+  skos:definition "more or less planar; occurs between mounds and depressions."@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "S" ;
+  skos:prefLabel "Shelf"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:microrelief-horizontal-interval
+  a ls:microrelief ;
+  a skos:Concept ;
+  skos:definition "Give horizontal distance, in metres, between crests of mounds or tops of hummocks."@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:prefLabel "Horizontal interval"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:microrelief-vertical-interval
+  a ls:microrelief ;
+  a skos:Concept ;
+  skos:definition "Give vertical distance, in metres, between base of depression or flat and horizontal line joining crests of mounds or hummocks."@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:prefLabel "Vertical interval"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:rock-outcrop
+  a skos:Collection ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:definition "This refers to any exposed area of rock that is inferred to be continuous with underlying bedrock."@en ;
+  skos:member ls:Lithology-rock-outcrop ;
+  skos:member ls:Rock-outcrop-abundance ;
+  skos:prefLabel "Rock outcrop"@en ;
+.
+ls:rock-outcrop-abundance-0
+  a ls:Rock-outcrop-abundance ;
+  a skos:Concept ;
+  skos:definition "no bedrock exposed."@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "0" ;
+  skos:prefLabel "No rock outcrop"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:rock-outcrop-abundance-1
+  a ls:Rock-outcrop-abundance ;
+  a skos:Concept ;
+  skos:definition "<2% bedrock exposed."@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "1" ;
+  skos:prefLabel "Very slightly rocky"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:rock-outcrop-abundance-2
+  a ls:Rock-outcrop-abundance ;
+  a skos:Concept ;
+  skos:definition "2–10% bedrock exposed."@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "2" ;
+  skos:prefLabel "Slightly rocky"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:rock-outcrop-abundance-3
+  a ls:Rock-outcrop-abundance ;
+  a skos:Concept ;
+  skos:definition "10–20% bedrock exposed."@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "3" ;
+  skos:prefLabel "Rocky"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:rock-outcrop-abundance-4
+  a ls:Rock-outcrop-abundance ;
+  a skos:Concept ;
+  skos:definition "20–50% bedrock exposed."@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "4" ;
+  skos:prefLabel "Very rocky"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:rock-outcrop-abundance-5
+  a ls:Rock-outcrop-abundance ;
+  a skos:Concept ;
+  skos:definition ">50% bedrock exposed."@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "5" ;
+  skos:prefLabel "Rockland"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:runoff-0
+  a ls:Runoff ;
+  a skos:Concept ;
+  skos:definition "No runoff."@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "0" ;
+  skos:prefLabel "No runoff"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:runoff-1
+  a ls:Runoff ;
+  a skos:Concept ;
+  skos:definition "free water on surface for long periods, or water enters soil immediately. Soils usually either level to nearly level or loose and porous."@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "1" ;
+  skos:prefLabel "Very slow"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:runoff-2
+  a ls:Runoff ;
+  a skos:Concept ;
+  skos:definition "free water on surface for significant periods, or water enters soil relatively rapidly. Soils usually either nearly level to gently sloping or relatively porous."@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "2" ;
+  skos:prefLabel "Slow"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:runoff-3
+  a ls:Runoff ;
+  a skos:Concept ;
+  skos:definition "free water on surface for short periods only; moderate proportion of water enters soil."@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "3" ;
+  skos:prefLabel "Moderately rapid"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:runoff-4
+  a ls:Runoff ;
+  a skos:Concept ;
+  skos:definition "large proportion of water runs off; small proportion enters soil. Water runs off nearly as fast as it is added. Soils usually have moderate to steep slopes and low infiltration rates."@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "4" ;
+  skos:prefLabel "Rapid"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:runoff-5
+  a ls:Runoff ;
+  a skos:Concept ;
+  skos:definition "very large proportion of water runs off; very small proportion enters soil. Water runs off as fast as it is added. Soils usually have steep to very steep slopes and low infiltration rates."@en ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:notation "5" ;
+  skos:prefLabel "Very rapid"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+subst:lithology-AC
+  a skos:Concept ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:prefLabel "Alcrete"@en ;
+  skos:definition "Alcrete"@en ;
+.
+subst:lithology-AD
+  a skos:Concept ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:prefLabel "Adamellite"@en ;
+  skos:definition "Adamellite"@en ;
+.
+subst:lithology-AF
+  a skos:Concept ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:prefLabel "Volcanic ash (fine)"@en ;
+  skos:definition "Volcanic ash (fine)"@en ;
+.
+subst:lithology-AG
+  a skos:Concept ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:prefLabel "Agglomerate"@en ;
+  skos:definition "Agglomerate"@en ;
+.
+subst:lithology-AH
+  a skos:Concept ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:prefLabel "Anhydrite"@en ;
+  skos:definition "Anhydrite"@en ;
+.
+subst:lithology-AM
+  a skos:Concept ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:prefLabel "Amphibolite"@en ;
+  skos:definition "Amphibolite"@en ;
+.
+subst:lithology-AN
+  a skos:Concept ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:prefLabel "Andesite"@en ;
+  skos:definition "Andesite"@en ;
+.
+subst:lithology-AP
+  a skos:Concept ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:prefLabel "Aplite"@en ;
+  skos:definition "Aplite"@en ;
+.
+subst:lithology-AR
+  a skos:Concept ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:prefLabel "Arkose"@en ;
+  skos:definition "Arkose"@en ;
+.
+subst:lithology-AS
+  a skos:Concept ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:prefLabel "Volcanic ash (sandy)"@en ;
+  skos:definition "Volcanic ash (sandy)"@en ;
+.
+subst:lithology-BA
+  a skos:Concept ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:prefLabel "Basalt"@en ;
+  skos:definition "Basalt"@en ;
+.
+subst:lithology-BB
+  a skos:Concept ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:prefLabel "Bombs (or blocks)"@en ;
+  skos:definition "Bombs (or blocks)"@en ;
+.
+subst:lithology-BO
+  a skos:Concept ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:prefLabel "Boulders" ;
+  skos:definition "Boulders" ;
+.
+subst:lithology-BR
+  a skos:Concept ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:prefLabel "Breccia"@en ;
+  skos:definition "Breccia"@en ;
+.
+subst:lithology-C
+  a skos:Concept ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:prefLabel "Clay"@en ;
+  skos:definition "Clay"@en ;
+.
+subst:lithology-CB
+  a skos:Concept ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:prefLabel "Cobbles" ;
+  skos:definition "Cobbles" ;
+.
+subst:lithology-CG
+  a skos:Concept ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:prefLabel "Conglomerate"@en ;
+  skos:definition "Conglomerate"@en ;
+.
+subst:lithology-CH
+  a skos:Concept ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:prefLabel "Chert"@en ;
+  skos:definition "Chert"@en ;
+.
+subst:lithology-CO
+  a skos:Concept ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:prefLabel "Coal"@en ;
+  skos:definition "Coal"@en ;
+.
+subst:lithology-CU
+  a skos:Concept ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:prefLabel "Consolidated rock"@en ;
+  skos:definition "Consolidated rock"@en ;
+.
+subst:lithology-DI
+  a skos:Concept ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:prefLabel "Diorite"@en ;
+  skos:definition "Diorite"@en ;
+.
+subst:lithology-DM
+  a skos:Concept ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:prefLabel "Dolomite"@en ;
+  skos:definition "Dolomite"@en ;
+.
+subst:lithology-DR
+  a skos:Concept ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:prefLabel "Dolerite"@en ;
+  skos:definition "Dolerite"@en ;
+.
+subst:lithology-FC
+  a skos:Concept ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:prefLabel "Ferricrete"@en ;
+  skos:definition "Ferricrete"@en ;
+.
+subst:lithology-GA
+  a skos:Concept ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:prefLabel "Gabbro"@en ;
+  skos:definition "Gabbro"@en ;
+.
+subst:lithology-GD
+  a skos:Concept ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:prefLabel "Granodiorite"@en ;
+  skos:definition "Granodiorite"@en ;
+.
+subst:lithology-GE
+  a skos:Concept ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:prefLabel "Greenstone"@en ;
+  skos:definition "Greenstone"@en ;
+.
+subst:lithology-GN
+  a skos:Concept ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:prefLabel "Granite"@en ;
+  skos:definition "Granite"@en ;
+.
+subst:lithology-GR
+  a skos:Concept ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:prefLabel "Granulite"@en ;
+  skos:definition "Granulite"@en ;
+.
+subst:lithology-GS
+  a skos:Concept ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:prefLabel "Gneiss"@en ;
+  skos:definition "Gneiss"@en ;
+.
+subst:lithology-GV
+  a skos:Concept ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:prefLabel "Gravel"@en ;
+  skos:definition "Gravel"@en ;
+.
+subst:lithology-GW
+  a skos:Concept ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:prefLabel "Graywacke"@en ;
+  skos:definition "Graywacke"@en ;
+.
+subst:lithology-GY
+  a skos:Concept ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:prefLabel "Gypsum"@en ;
+  skos:definition "Gypsum"@en ;
+.
+subst:lithology-HA
+  a skos:Concept ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:prefLabel "Halite"@en ;
+  skos:definition "Halite"@en ;
+.
+subst:lithology-HO
+  a skos:Concept ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:prefLabel "Hornfels"@en ;
+  skos:definition "Hornfels"@en ;
+.
+subst:lithology-IG
+  a skos:Concept ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:prefLabel "Igneous rock"@en ;
+  skos:definition "Igneous rock"@en ;
+.
+subst:lithology-JA
+  a skos:Concept ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:prefLabel "Jasper"@en ;
+  skos:definition "Jasper"@en ;
+.
+subst:lithology-KA
+  a skos:Concept ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:prefLabel "Calcarenite"@en ;
+  skos:definition "Calcarenite"@en ;
+.
+subst:lithology-KC
+  a skos:Concept ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:prefLabel "Calcrete"@en ;
+  skos:definition "Calcrete"@en ;
+.
+subst:lithology-KL
+  a skos:Concept ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:prefLabel "Calcilutite"@en ;
+  skos:definition "Calcilutite"@en ;
+.
+subst:lithology-KM
+  a skos:Concept ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:prefLabel "Calcareous mudstone"@en ;
+  skos:definition "Calcareous mudstone"@en ;
+.
+subst:lithology-KR
+  a skos:Concept ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:prefLabel "Calcirudite"@en ;
+  skos:definition "Calcirudite"@en ;
+.
+subst:lithology-KS
+  a skos:Concept ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:prefLabel "Calcareous sand"@en ;
+  skos:definition "Calcareous sand"@en ;
+.
+subst:lithology-LC
+  a skos:Concept ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:prefLabel "Silcrete"@en ;
+  skos:definition "Silcrete"@en ;
+.
+subst:lithology-LI
+  a skos:Concept ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:prefLabel "Limestone"@en ;
+  skos:definition "Limestone"@en ;
+.
+subst:lithology-M
+  a skos:Concept ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:prefLabel "Same as substrate material"@en ;
+  skos:definition "Same as substrate material"@en ;
+.
+subst:lithology-MB
+  a skos:Concept ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:prefLabel "Marble"@en ;
+  skos:definition "Marble"@en ;
+.
+subst:lithology-MD
+  a skos:Concept ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:prefLabel "Microdiorite"@en ;
+  skos:definition "Microdiorite"@en ;
+.
+subst:lithology-ME
+  a skos:Concept ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:prefLabel "Metamorphic rock"@en ;
+  skos:definition "Metamorphic rock"@en ;
+.
+subst:lithology-MG
+  a skos:Concept ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:prefLabel "Microgranite"@en ;
+  skos:definition "Microgranite"@en ;
+.
+subst:lithology-MI
+  a skos:Concept ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:prefLabel "Migmatite"@en ;
+  skos:definition "Migmatite"@en ;
+.
+subst:lithology-ML
+  a skos:Concept ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:prefLabel "Marl"@en ;
+  skos:definition "Marl"@en ;
+.
+subst:lithology-MS
+  a skos:Concept ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:prefLabel "Microsyenite"@en ;
+  skos:definition "Microsyenite"@en ;
+.
+subst:lithology-MU
+  a skos:Concept ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:prefLabel "Mudstone"@en ;
+  skos:definition "Mudstone"@en ;
+.
+subst:lithology-MY
+  a skos:Concept ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:prefLabel "Mylonite"@en ;
+  skos:definition "Mylonite"@en ;
+.
+subst:lithology-PC
+  a skos:Concept ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:prefLabel "Porcellanite"@en ;
+  skos:definition "Porcellanite"@en ;
+.
+subst:lithology-PE
+  a skos:Concept ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:prefLabel "Peridotite"@en ;
+  skos:definition "Peridotite"@en ;
+.
+subst:lithology-PG
+  a skos:Concept ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:prefLabel "Pegmatite"@en ;
+  skos:definition "Pegmatite"@en ;
+.
+subst:lithology-PH
+  a skos:Concept ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:prefLabel "Phyllite"@en ;
+  skos:definition "Phyllite"@en ;
+.
+subst:lithology-PL
+  a skos:Concept ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:prefLabel "Phonolite"@en ;
+  skos:definition "Phonolite"@en ;
+.
+subst:lithology-PO
+  a skos:Concept ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:prefLabel "Porphyry"@en ;
+  skos:definition "Porphyry"@en ;
+.
+subst:lithology-PY
+  a skos:Concept ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:prefLabel "Pyroxenite"@en ;
+  skos:definition "Pyroxenite"@en ;
+.
+subst:lithology-QP
+  a skos:Concept ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:prefLabel "Quartz porphyry"@en ;
+  skos:definition "Quartz porphyry"@en ;
+.
+subst:lithology-QS
+  a skos:Concept ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:prefLabel "Quartz sandstone"@en ;
+  skos:definition "Quartz sandstone"@en ;
+.
+subst:lithology-QU
+  a skos:Concept ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:prefLabel "Quartzite"@en ;
+  skos:definition "Quartzite"@en ;
+.
+subst:lithology-QZ
+  a skos:Concept ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:prefLabel "Quartz"@en ;
+  skos:definition "Quartz"@en ;
+.
+subst:lithology-R
+  a skos:Concept ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:prefLabel "Same as rock outcrop"@en ;
+  skos:definition "Same as rock outcrop"@en ;
+.
+subst:lithology-RB
+  a skos:Concept ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:prefLabel "Red-brown hardpan"@en ;
+  skos:definition "Red-brown hardpan"@en ;
+.
+subst:lithology-RH
+  a skos:Concept ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:prefLabel "Rhyolite"@en ;
+  skos:definition "Rhyolite"@en ;
+.
+subst:lithology-S
+  a skos:Concept ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:prefLabel "Sand"@en ;
+  skos:definition "Sand"@en ;
+.
+subst:lithology-SA
+  a skos:Concept ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:prefLabel "Sandstone"@en ;
+  skos:definition "Sandstone"@en ;
+.
+subst:lithology-SD
+  a skos:Concept ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:prefLabel "Detrital sedimentary rock"@en ;
+  skos:definition "Detrital sedimentary rock"@en ;
+.
+subst:lithology-SH
+  a skos:Concept ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:prefLabel "Shale"@en ;
+  skos:definition "Shale"@en ;
+.
+subst:lithology-SK
+  a skos:Concept ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:prefLabel "Scoria"@en ;
+  skos:definition "Scoria"@en ;
+.
+subst:lithology-SL
+  a skos:Concept ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:prefLabel "Slate"@en ;
+  skos:definition "Slate"@en ;
+.
+subst:lithology-SN
+  a skos:Concept ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:prefLabel "Stones" ;
+  skos:definition "Stones" ;
+.
+subst:lithology-SR
+  a skos:Concept ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:prefLabel "Serpentinite"@en ;
+  skos:definition "Serpentinite"@en ;
+.
+subst:lithology-ST
+  a skos:Concept ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:prefLabel "Schist"@en ;
+  skos:definition "Schist"@en ;
+.
+subst:lithology-SY
+  a skos:Concept ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:prefLabel "Syenite"@en ;
+  skos:definition "Syenite"@en ;
+.
+subst:lithology-TR
+  a skos:Concept ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:prefLabel "Trachyte"@en ;
+  skos:definition "Trachyte"@en ;
+.
+subst:lithology-TU
+  a skos:Concept ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:prefLabel "Tuff"@en ;
+  skos:definition "Tuff"@en ;
+.
+subst:lithology-UC
+  a skos:Concept ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:prefLabel "Unconsolidated material"@en ;
+  skos:definition "Unconsolidated material"@en ;
+.
+subst:lithology-VB
+  a skos:Concept ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:prefLabel "Volcanic breccia"@en ;
+  skos:definition "Volcanic breccia"@en ;
+.
+subst:lithology-VG
+  a skos:Concept ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:prefLabel "Volcanic glass"@en ;
+  skos:definition "Volcanic glass"@en ;
+.
+subst:lithology-Z
+  a skos:Concept ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:prefLabel "Silt"@en ;
+  skos:definition "Silt"@en ;
+.
+subst:lithology-ZS
+  a skos:Concept ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:prefLabel "Siltstone"@en ;
+  skos:definition "Siltstone"@en ;
+.
+subst:material-strength-M
+  a skos:Concept ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:prefLabel "Moderately strong rock"@en ;
+  skos:definition "Moderately strong rock"@en ;
+.
+subst:material-strength-S
+  a skos:Concept ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:prefLabel "Strong rock"@en ;
+  skos:definition "Strong rock"@en ;
+.
+subst:material-strength-VS
+  a skos:Concept ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:prefLabel "Very strong rock"@en ;
+  skos:definition "Very strong rock"@en ;
+.
+subst:material-strength-VW
+  a skos:Concept ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:prefLabel "Very weak rock"@en ;
+  skos:definition "Very weak rock"@en ;
+.
+subst:material-strength-W
+  a skos:Concept ;
+  skos:inScheme asls:land-surface ;
+  rdfs:isDefinedBy asls:land-surface ;
+  skos:prefLabel "Weak rock"@en ;
+  skos:definition "Weak rock"@en ;
+.

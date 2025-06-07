@@ -10742,7 +10742,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "dimensionless"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/quantity/Instances.html#Dimensionless> ;
+    skos:exactMatch <http://qudt.org/vocab/quantitykind/Dimensionless> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "dimensionless"@en .
@@ -10752,7 +10752,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "length"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/quantity/Instances.html#Length> ;
+    skos:exactMatch <http://qudt.org/vocab/quantitykind/Length> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "length"@en .
@@ -10762,7 +10762,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "mass"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/quantity/Instances.html#Mass> ;
+    skos:exactMatch <http://qudt.org/vocab/quantitykind/Mass> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "mass"@en .
@@ -10771,7 +10771,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "time"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/quantity/Instances.html#Time> ;
+    skos:exactMatch <http://qudt.org/vocab/quantitykind/Time> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "time"@en .
@@ -10780,7 +10780,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "electric current"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/quantity/Instances.html#ElectricCurrent> ;
+    skos:exactMatch <http://qudt.org/vocab/quantitykind/ElectricCurrent> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "electric current"@en .
@@ -10792,7 +10792,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:exactMatch <http://aims.fao.org/aos/agrovoc/c_7657>,
         <http://vocab.lternet.edu/vocab/vocab/index.php?_search_expresion=temperature>,
         <http://www.eionet.europa.eu/gemet/concept/8366>,
-        <http://www.qudt.org/qudt/owl/1.0.0/quantity/Instances.html#ThermodynamicTemperature> ;
+        <http://qudt.org/vocab/quantitykind/ThermodynamicTemperature> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "temperature"@en .
@@ -10803,7 +10803,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:altLabel "N"@en ;
     skos:broader :1 ;
     skos:definition "amount of substance"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/quantity/Instances.html#AmountOfSubstance> ;
+    skos:exactMatch <http://qudt.org/vocab/quantitykind/AmountOfSubstance> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "amount of substance"@en .
@@ -10813,7 +10813,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "luminous intensity"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/quantity/Instances.html#LuminousIntensity> ;
+    skos:exactMatch <http://qudt.org/vocab/quantitykind/LuminousIntensity> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "luminous intensity"@en .
@@ -10824,7 +10824,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:altLabel "L2T-2"@en ;
     skos:broader :1 ;
     skos:definition "absorbed dose"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/quantity/Instances.html#AbsorbedDose> ;
+    skos:exactMatch <http://qudt.org/vocab/quantitykind/AbsorbedDose> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "absorbed dose"@en .
@@ -10835,7 +10835,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:altLabel "L2T-3"@en ;
     skos:broader :1 ;
     skos:definition "absorbed dose rate"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/quantity/Instances.html#AbsorbedDoseRate> ;
+    skos:exactMatch <http://qudt.org/vocab/quantitykind/AbsorbedDoseRate> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "absorbed dose rate"@en .
@@ -10845,7 +10845,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:altLabel "T-1"@en ;
     skos:broader :1 ;
     skos:definition "Activity"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/quantity/Instances.html#Activity> ;
+    skos:exactMatch <http://qudt.org/vocab/quantitykind/Activity> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Activity"@en .
@@ -10855,7 +10855,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:altLabel "L-3N1"@en ;
     skos:broader :1 ;
     skos:definition "Amount of Substance Per Unit Volume"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/quantity/Instances.html#AmountOfSubstancePerUnitVolume> ;
+    skos:exactMatch <http://qudt.org/vocab/quantitykind/AmountOfSubstancePerUnitVolume> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Amount of Substance Per Unit Volume"@en .
@@ -10865,7 +10865,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:altLabel "M-3N1"@en ;
     skos:broader :1 ;
     skos:definition "Amount of Substance per Unit Mass"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/quantity/Instances.html#AmountOfSubstancePerUnitMass> ;
+    skos:exactMatch <http://qudt.org/vocab/quantitykind/AmountOfSubstancePerUnitMass> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Amount of Substance per Unit Mass"@en .
@@ -10875,7 +10875,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:altLabel "U1T-2"@en ;
     skos:broader :1 ;
     skos:definition "Angular Acceleration"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/quantity/Instances.html#AngularAcceleration> ;
+    skos:exactMatch <http://qudt.org/vocab/quantitykind/AngularAcceleration> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Angular Acceleration"@en .
@@ -10885,7 +10885,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:altLabel "L2M1"@en ;
     skos:broader :1 ;
     skos:definition "Angular Mass"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/quantity/Instances.html#AngularMass> ;
+    skos:exactMatch <http://qudt.org/vocab/quantitykind/AngularMass> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Angular Mass"@en .
@@ -10895,7 +10895,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:altLabel "L2M1T-1"@en ;
     skos:broader :1 ;
     skos:definition "Angular Momentum"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/quantity/Instances.html#AngularMomentum> ;
+    skos:exactMatch <http://qudt.org/vocab/quantitykind/AngularMomentum> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Angular Momentum"@en .
@@ -10905,7 +10905,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:altLabel "U1T-1"@en ;
     skos:broader :1 ;
     skos:definition "Angular Velocity"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/quantity/Instances.html#AngularVelocity> ;
+    skos:exactMatch <http://qudt.org/vocab/quantitykind/AngularVelocity> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Angular Velocity"@en .
@@ -10916,7 +10916,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:altLabel "L2"@en ;
     skos:broader :1 ;
     skos:definition "Area"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/quantity/Instances.html#Area> ;
+    skos:exactMatch <http://qudt.org/vocab/quantitykind/Area> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Area"@en .
@@ -10926,7 +10926,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:altLabel "U1L2"@en ;
     skos:broader :1 ;
     skos:definition "Area Angle"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/quantity/Instances.html#AreaAngle> ;
+    skos:exactMatch <http://qudt.org/vocab/quantitykind/AreaAngle> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Area Angle"@en .
@@ -10935,7 +10935,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Area Temperature"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/quantity/Instances.html#AreaTemperature> ;
+    skos:exactMatch <http://qudt.org/vocab/quantitykind/AreaTemperature> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Area Temperature"@en .
@@ -10944,7 +10944,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Area Thermal Expansion"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/quantity/Instances.html#AreaThermalExpansion> ;
+    skos:exactMatch <http://qudt.org/vocab/quantitykind/AreaThermalExpansion> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Area Thermal Expansion"@en .
@@ -10953,7 +10953,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Capacitance"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/quantity/Instances.html#Capacitance> ;
+    skos:exactMatch <http://qudt.org/vocab/quantitykind/Capacitance> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Capacitance"@en .
@@ -10962,7 +10962,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Catalytic Activity"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/quantity/Instances.html#CatalyticActivity> ;
+    skos:exactMatch <http://qudt.org/vocab/quantitykind/CatalyticActivity> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Catalytic Activity"@en .
@@ -10971,7 +10971,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Coefficient of Heat Transfer"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/quantity/Instances.html#CoefficientOfHeatTransfer> ;
+    skos:exactMatch <http://qudt.org/vocab/quantitykind/CoefficientOfHeatTransfer> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Coefficient of Heat Transfer"@en .
@@ -10981,7 +10981,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "density"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/quantity/Instances.html#Density> ;
+    skos:exactMatch <http://qudt.org/vocab/quantitykind/Density> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "density"@en .
@@ -10990,7 +10990,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Dose Equivalent"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/quantity/Instances.html#DoseEquivalent> ;
+    skos:exactMatch <http://qudt.org/vocab/quantitykind/DoseEquivalent> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Dose Equivalent"@en .
@@ -10999,7 +10999,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Dynamic Viscosity"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/quantity/Instances.html#DynamicViscosity> ;
+    skos:exactMatch <http://qudt.org/vocab/quantitykind/DynamicViscosity> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Dynamic Viscosity"@en .
@@ -11008,7 +11008,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Electric Charge"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/quantity/Instances.html#ElectricCharge> ;
+    skos:exactMatch <http://qudt.org/vocab/quantitykind/ElectricCharge> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Electric Charge"@en .
@@ -11017,7 +11017,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Electric Charge Line Density"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/quantity/Instances.html#ElectricChargeLineDensity> ;
+    skos:exactMatch <http://qudt.org/vocab/quantitykind/ElectricChargeLineDensity> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Electric Charge Line Density"@en .
@@ -11026,7 +11026,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Electric Charge Volume Density"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/quantity/Instances.html#ElectricChargeVolumeDensity> ;
+    skos:exactMatch <http://qudt.org/vocab/quantitykind/ElectricChargeVolumeDensity> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Electric Charge Volume Density"@en .
@@ -11035,7 +11035,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Electric Charge per Amount of Substance"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/quantity/Instances.html#ElectricChargePerAmountOfSubstance> ;
+    skos:exactMatch <http://qudt.org/vocab/quantitykind/ElectricChargePerAmountOfSubstance> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Electric Charge per Amount of Substance"@en .
@@ -11044,7 +11044,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Electric Current Density"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/quantity/Instances.html#ElectricCurrentDensity> ;
+    skos:exactMatch <http://qudt.org/vocab/quantitykind/ElectricCurrentDensity> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Electric Current Density"@en .
@@ -11053,7 +11053,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Electric Current per Angle"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/quantity/Instances.html#CurrentPerAngle> ;
+    skos:exactMatch <http://qudt.org/vocab/quantitykind/CurrentPerAngle> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Electric Current per Angle"@en .
@@ -11062,7 +11062,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Electric Dipole Moment"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/quantity/Instances.html#ElectricDipoleMoment> ;
+    skos:exactMatch <http://qudt.org/vocab/quantitykind/ElectricDipoleMoment> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Electric Dipole Moment"@en .
@@ -11071,7 +11071,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Electric Field Strength"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/quantity/Instances.html#ElectricFieldStrength> ;
+    skos:exactMatch <http://qudt.org/vocab/quantitykind/ElectricFieldStrength> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Electric Field Strength"@en .
@@ -11080,7 +11080,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Electric Flux Density"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/quantity/Instances.html#ElectricFluxDensity> ;
+    skos:exactMatch <http://qudt.org/vocab/quantitykind/ElectricFluxDensity> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Electric Flux Density"@en .
@@ -11089,7 +11089,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Electrical Conductivity"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/quantity/Instances.html#ElectricalConductivity> ;
+    skos:exactMatch <http://qudt.org/vocab/quantitykind/ElectricalConductivity> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Electrical Conductivity"@en .
@@ -11098,7 +11098,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Electromotive Force"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/quantity/Instances.html#ElectromotiveForce> ;
+    skos:exactMatch <http://qudt.org/vocab/quantitykind/ElectromotiveForce> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Electromotive Force"@en .
@@ -11107,7 +11107,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Energy Density"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/quantity/Instances.html#EnergyDensity> ;
+    skos:exactMatch <http://qudt.org/vocab/quantitykind/EnergyDensity> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Energy Density"@en .
@@ -11116,7 +11116,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Energy and Work"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/quantity/Instances.html#EnergyAndWork> ;
+    skos:exactMatch <http://qudt.org/vocab/quantitykind/EnergyAndWork> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Energy and Work"@en .
@@ -11126,7 +11126,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Energy per Unit Area"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/quantity/Instances.html#EnergyPerUnitArea> ;
+    skos:exactMatch <http://qudt.org/vocab/quantitykind/EnergyPerUnitArea> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Energy per Unit Area"@en .
@@ -11135,7 +11135,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Exposure"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/quantity/Instances.html#Exposure> ;
+    skos:exactMatch <http://qudt.org/vocab/quantitykind/Exposure> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Exposure"@en .
@@ -11144,7 +11144,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Force"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/quantity/Instances.html#Force> ;
+    skos:exactMatch <http://qudt.org/vocab/quantitykind/Force> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Force"@en .
@@ -11153,7 +11153,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Force per Electric Charge"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/quantity/Instances.html#ForcePerElectricCharge> ;
+    skos:exactMatch <http://qudt.org/vocab/quantitykind/ForcePerElectricCharge> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Force per Electric Charge"@en .
@@ -11162,7 +11162,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Force per Unit Length"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/quantity/Instances.html#ForcePerUnitLength> ;
+    skos:exactMatch <http://qudt.org/vocab/quantitykind/ForcePerUnitLength> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Force per Unit Length"@en .
@@ -11172,7 +11172,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "frequency"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/quantity/Instances.html#Frequency> ;
+    skos:exactMatch <http://qudt.org/vocab/quantitykind/Frequency> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "frequency"@en .
@@ -11181,7 +11181,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Gravitational Attraction"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/quantity/Instances.html#GravitationalAttraction> ;
+    skos:exactMatch <http://qudt.org/vocab/quantitykind/GravitationalAttraction> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Gravitational Attraction"@en .
@@ -11190,7 +11190,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Heat Capacity and Entropy"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/quantity/Instances.html#HeatCapacityAndEntropy> ;
+    skos:exactMatch <http://qudt.org/vocab/quantitykind/HeatCapacityAndEntropy> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Heat Capacity and Entropy"@en .
@@ -11199,7 +11199,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Heat Flow Rate"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/quantity/Instances.html#HeatFlowRate> ;
+    skos:exactMatch <http://qudt.org/vocab/quantitykind/HeatFlowRate> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Heat Flow Rate"@en .
@@ -11208,7 +11208,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Heat Flow Rate per Unit Area"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/quantity/Instances.html#HeatFlowRatePerUnitArea> ;
+    skos:exactMatch <http://qudt.org/vocab/quantitykind/HeatFlowRatePerUnitArea> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Heat Flow Rate per Unit Area"@en .
@@ -11217,7 +11217,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Illuminance"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/quantity/Instances.html#Illuminance> ;
+    skos:exactMatch <http://qudt.org/vocab/quantitykind/Illuminance> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Illuminance"@en .
@@ -11226,7 +11226,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Inductance"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/quantity/Instances.html#Inductance> ;
+    skos:exactMatch <http://qudt.org/vocab/quantitykind/Inductance> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Inductance"@en .
@@ -11235,7 +11235,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Inverse Amount of Substance"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/quantity/Instances.html#InverseAmountOfSubstance> ;
+    skos:exactMatch <http://qudt.org/vocab/quantitykind/InverseAmountOfSubstance> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Inverse Amount of Substance"@en .
@@ -11244,7 +11244,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Inverse Permittivity"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/quantity/Instances.html#InversePermittivity> ;
+    skos:exactMatch <http://qudt.org/vocab/quantitykind/InversePermittivity> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Inverse Permittivity"@en .
@@ -11253,7 +11253,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Kinematic Viscosity"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/quantity/Instances.html#KinematicViscosity> ;
+    skos:exactMatch <http://qudt.org/vocab/quantitykind/KinematicViscosity> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Kinematic Viscosity"@en .
@@ -11262,7 +11262,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Length Mass"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/quantity/Instances.html#LengthMass> ;
+    skos:exactMatch <http://qudt.org/vocab/quantitykind/LengthMass> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Length Mass"@en .
@@ -11271,7 +11271,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Length Temperature"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/quantity/Instances.html#LengthTemperature> ;
+    skos:exactMatch <http://qudt.org/vocab/quantitykind/LengthTemperature> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Length Temperature"@en .
@@ -11280,7 +11280,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Linear Acceleration"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/quantity/Instances.html#LinearAcceleration> ;
+    skos:exactMatch <http://qudt.org/vocab/quantitykind/LinearAcceleration> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Linear Acceleration"@en .
@@ -11289,7 +11289,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Linear Momentum"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/quantity/Instances.html#LinearMomentum> ;
+    skos:exactMatch <http://qudt.org/vocab/quantitykind/LinearMomentum> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Linear Momentum"@en .
@@ -11298,7 +11298,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Linear Thermal Expansion"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/quantity/Instances.html#LinearThermalExpansion> ;
+    skos:exactMatch <http://qudt.org/vocab/quantitykind/LinearThermalExpansion> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Linear Thermal Expansion"@en .
@@ -11307,7 +11307,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Linear Velocity"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/quantity/Instances.html#LinearVelocity> ;
+    skos:exactMatch <http://qudt.org/vocab/quantitykind/LinearVelocity> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Linear Velocity"@en .
@@ -11316,7 +11316,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Luminance"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/quantity/Instances.html#Luminance> ;
+    skos:exactMatch <http://qudt.org/vocab/quantitykind/Luminance> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Luminance"@en .
@@ -11325,7 +11325,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Luminous Flux"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/quantity/Instances.html#LuminousFlux> ;
+    skos:exactMatch <http://qudt.org/vocab/quantitykind/LuminousFlux> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Luminous Flux"@en .
@@ -11334,7 +11334,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Magnetic Dipole Moment"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/quantity/Instances.html#MagneticDipoleMoment> ;
+    skos:exactMatch <http://qudt.org/vocab/quantitykind/MagneticDipoleMoment> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Magnetic Dipole Moment"@en .
@@ -11343,7 +11343,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Magnetic Field Strength"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/quantity/Instances.html#MagneticFieldStrength> ;
+    skos:exactMatch <http://qudt.org/vocab/quantitykind/MagneticFieldStrength> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Magnetic Field Strength"@en .
@@ -11352,7 +11352,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Magnetic Flux"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/quantity/Instances.html#MagneticFlux> ;
+    skos:exactMatch <http://qudt.org/vocab/quantitykind/MagneticFlux> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Magnetic Flux"@en .
@@ -11361,7 +11361,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Magnetic Flux Density"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/quantity/Instances.html#MagneticFluxDensity> ;
+    skos:exactMatch <http://qudt.org/vocab/quantitykind/MagneticFluxDensity> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Magnetic Flux Density"@en .
@@ -11370,7 +11370,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Magnetomotive Force"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/quantity/Instances.html#MagnetomotiveForce> ;
+    skos:exactMatch <http://qudt.org/vocab/quantitykind/MagnetomotiveForce> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Magnetomotive Force"@en .
@@ -11379,7 +11379,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Mass Temperature"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/quantity/Instances.html#MassTemperature> ;
+    skos:exactMatch <http://qudt.org/vocab/quantitykind/MassTemperature> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Mass Temperature"@en .
@@ -11388,7 +11388,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Mass per Time"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/quantity/Instances.html#MassPerUnitTime> ;
+    skos:exactMatch <http://qudt.org/vocab/quantitykind/MassPerUnitTime> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Mass per Time"@en .
@@ -11397,7 +11397,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Mass per Unit Area"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/quantity/Instances.html#MassPerUnitArea> ;
+    skos:exactMatch <http://qudt.org/vocab/quantitykind/MassPerUnitArea> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Mass per Unit Area"@en .
@@ -11406,7 +11406,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Mass per Unit Length"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/quantity/Instances.html#MassPerUnitLength> ;
+    skos:exactMatch <http://qudt.org/vocab/quantitykind/MassPerUnitLength> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Mass per Unit Length"@en .
@@ -11415,7 +11415,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Molar Energy"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/quantity/Instances.html#MolarEnergy> ;
+    skos:exactMatch <http://qudt.org/vocab/quantitykind/MolarEnergy> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Molar Energy"@en .
@@ -11424,7 +11424,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Molar Heat Capacity"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/quantity/Instances.html#MolarHeatCapacity> ;
+    skos:exactMatch <http://qudt.org/vocab/quantitykind/MolarHeatCapacity> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Molar Heat Capacity"@en .
@@ -11433,7 +11433,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Permeability"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/quantity/Instances.html#Permeability> ;
+    skos:exactMatch <http://qudt.org/vocab/quantitykind/Permeability> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Permeability"@en .
@@ -11443,7 +11443,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Permittivity"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/quantity/Instances.html#Permittivity> ;
+    skos:exactMatch <http://qudt.org/vocab/quantitykind/Permittivity> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Permittivity"@en .
@@ -11452,7 +11452,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Plane Angle"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/quantity/Instances.html#PlaneAngle> ;
+    skos:exactMatch <http://qudt.org/vocab/quantitykind/PlaneAngle> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Plane Angle"@en .
@@ -11461,7 +11461,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Power"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/quantity/Instances.html#Power> ;
+    skos:exactMatch <http://qudt.org/vocab/quantitykind/Power> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Power"@en .
@@ -11470,7 +11470,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Power per Angle"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/quantity/Instances.html#PowerPerAngle> ;
+    skos:exactMatch <http://qudt.org/vocab/quantitykind/PowerPerAngle> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Power per Angle"@en .
@@ -11479,7 +11479,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Power per Area Angle"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/quantity/Instances.html#PowerPerAreaAngle> ;
+    skos:exactMatch <http://qudt.org/vocab/quantitykind/PowerPerAreaAngle> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Power per Area Angle"@en .
@@ -11488,7 +11488,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Power per Unit Area"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/quantity/Instances.html#PowerPerUnitArea> ;
+    skos:exactMatch <http://qudt.org/vocab/quantitykind/PowerPerUnitArea> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Power per Unit Area"@en .
@@ -11497,7 +11497,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Pressure or Stress"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/quantity/Instances.html#PressureOrStress> ;
+    skos:exactMatch <http://qudt.org/vocab/quantitykind/PressureOrStress> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Pressure or Stress"@en .
@@ -11507,7 +11507,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "resistance"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/quantity/Instances.html#Resistance> ;
+    skos:exactMatch <http://qudt.org/vocab/quantitykind/Resistance> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "resistance"@en .
@@ -11517,7 +11517,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:altLabel "U1"@en ;
     skos:broader :1 ;
     skos:definition "Solid Angle"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/quantity/Instances.html#SolidAngle> ;
+    skos:exactMatch <http://qudt.org/vocab/quantitykind/SolidAngle> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Solid Angle"@en .
@@ -11526,7 +11526,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Specific Energy"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/quantity/Instances.html#SpecificEnergy> ;
+    skos:exactMatch <http://qudt.org/vocab/quantitykind/SpecificEnergy> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Specific Energy"@en .
@@ -11535,7 +11535,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Specific Heat Capacity"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/quantity/Instances.html#SpecificHeatCapacity> ;
+    skos:exactMatch <http://qudt.org/vocab/quantitykind/SpecificHeatCapacity> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Specific Heat Capacity"@en .
@@ -11544,7 +11544,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Specific Heat Pressure"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/quantity/Instances.html#SpecificHeatPressure> ;
+    skos:exactMatch <http://qudt.org/vocab/quantitykind/SpecificHeatPressure> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Specific Heat Pressure"@en .
@@ -11553,7 +11553,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Specific Heat Volume"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/quantity/Instances.html#SpecificHeatVolume> ;
+    skos:exactMatch <http://qudt.org/vocab/quantitykind/SpecificHeatVolume> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Specific Heat Volume"@en .
@@ -11562,7 +11562,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Temperature Amount of Substance"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/quantity/Instances.html#TemperatureAmountOfSubstance> ;
+    skos:exactMatch <http://qudt.org/vocab/quantitykind/TemperatureAmountOfSubstance> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Temperature Amount of Substance"@en .
@@ -11571,7 +11571,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Thermal Conductivity"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/quantity/Instances.html#ThermalConductivity> ;
+    skos:exactMatch <http://qudt.org/vocab/quantitykind/ThermalConductivity> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Thermal Conductivity"@en .
@@ -11580,7 +11580,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Thermal Diffusivity"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/quantity/Instances.html#ThermalDiffusivity> ;
+    skos:exactMatch <http://qudt.org/vocab/quantitykind/ThermalDiffusivity> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Thermal Diffusivity"@en .
@@ -11589,7 +11589,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Thermal Insulance"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/quantity/Instances.html#ThermalInsulance> ;
+    skos:exactMatch <http://qudt.org/vocab/quantitykind/ThermalInsulance> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Thermal Insulance"@en .
@@ -11598,7 +11598,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Thermal Resistance"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/quantity/Instances.html#ThermalResistance> ;
+    skos:exactMatch <http://qudt.org/vocab/quantitykind/ThermalResistance> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Thermal Resistance"@en .
@@ -11607,7 +11607,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Thermal Resistivity"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/quantity/Instances.html#ThermalResistivity> ;
+    skos:exactMatch <http://qudt.org/vocab/quantitykind/ThermalResistivity> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Thermal Resistivity"@en .
@@ -11616,7 +11616,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Thrust to Mass Ratio"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/quantity/Instances.html#ThrustToMassRatio> ;
+    skos:exactMatch <http://qudt.org/vocab/quantitykind/ThrustToMassRatio> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Thrust to Mass Ratio"@en .
@@ -11625,7 +11625,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Time Squared"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/quantity/Instances.html#TimeSquared> ;
+    skos:exactMatch <http://qudt.org/vocab/quantitykind/TimeSquared> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Time Squared"@en .
@@ -11634,7 +11634,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Torque"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/quantity/Instances.html#BendingMomentOrTorque> ;
+    skos:exactMatch <http://qudt.org/vocab/quantitykind/BendingMomentOrTorque> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Torque"@en .
@@ -11643,7 +11643,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Volume"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/quantity/Instances.html#Volume> ;
+    skos:exactMatch <http://qudt.org/vocab/quantitykind/Volume> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Volume"@en .
@@ -11652,7 +11652,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Volume Thermal Expansion"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/quantity/Instances.html#VolumeThermalExpansion> ;
+    skos:exactMatch <http://qudt.org/vocab/quantitykind/VolumeThermalExpansion> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Volume Thermal Expansion"@en .
@@ -11661,7 +11661,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Volume per Unit Time"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/quantity/Instances.html#VolumePerUnitTime> ;
+    skos:exactMatch <http://qudt.org/vocab/quantitykind/VolumePerUnitTime> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Volume per Unit Time"@en .
@@ -11670,7 +11670,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Volumetric heat capacity"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/quantity/Instances.html#VolumetricHeatCapacity> ;
+    skos:exactMatch <http://qudt.org/vocab/quantitykind/VolumetricHeatCapacity> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Volumetric heat capacity"@en .
@@ -11751,7 +11751,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "kg/m³"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#KilogramPerCubicMeter> ;
+    skos:exactMatch <http//qudt.org/vocab/unit/KiloGMPerCubicMeter> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "kg/m³"@en ;
@@ -11781,7 +11781,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "kg·m/s"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#KilogramMeterPerSecond> ;
+    skos:exactMatch <http//qudt.org/vocab/unit/KiloGMMeterPerSecond> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "kg·m/s"@en ;
@@ -11832,7 +11832,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "lm"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#Lumen> ;
+    skos:exactMatch <http//qudt.org/vocab/unit/LM> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "lm"@en ;
@@ -11843,7 +11843,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:broader :1 ;
     skos:definition "lx"@en ;
     skos:exactMatch <http://en.wikipedia.org/wiki/lux>,
-        <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#Lux> ;
+        <http//qudt.org/vocab/unit/LUX> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "lx"@en ;
@@ -11864,7 +11864,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:broader :1 ;
     skos:definition "m"@en ;
     skos:exactMatch <http://en.wikipedia.org/wiki/meter>,
-        <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#Meter> ;
+        <http://qudt.org/vocab/unit/M> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "m"@en ;
@@ -11885,7 +11885,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "m/K"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#MeterPerKelvin> ;
+    skos:exactMatch <http://qudt.org/vocab/unit/CentiM-PER-K> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "m/K"@en ;
@@ -11895,7 +11895,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "m/s"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#MeterPerSecond> ;
+    skos:exactMatch <http://qudt.org/vocab/unit/CentiM-PER-SEC> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "m/s"@en ;
@@ -11905,7 +11905,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "m/s²"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#MeterPerSecondSquared> ;
+    skos:exactMatch <http://qudt.org/vocab/unit/CentiM-PER-SEC2> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "m/s²"@en ;
@@ -11925,7 +11925,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "m²"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#SquareMeter> ;
+    skos:exactMatch <http://qudt.org/vocab/unit/M2> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "m²"@en ;
@@ -11935,7 +11935,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "m²/s"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#SquareMeterPerSecond> ;
+    skos:exactMatch <http://qudt.org/vocab/unit/KiloGM-M2-PER-SEC> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "m²/s"@en ;
@@ -11955,7 +11955,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "m³"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#CubicMeter> ;
+    skos:exactMatch <http://qudt.org/vocab/unit/M3> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "m³"@en ;
@@ -11975,7 +11975,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "m³/K"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#CubicMeterPerKelvin> ;
+    skos:exactMatch <http://qudt.org/vocab/unit/M3-PER-K> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "m³/K"@en ;
@@ -12005,7 +12005,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "m³/s"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#CubicMeterPerSecond> ;
+    skos:exactMatch <http://qudt.org/vocab/unit/M3-PER-SEC> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "m³/s"@en ;
@@ -12209,7 +12209,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "mol"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#Mole> ;
+    skos:exactMatch <http//qudt.org/vocab/unit/MOL> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "mol"@en ;
@@ -12219,7 +12219,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "mol/kg"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#MolePerKilogram> ;
+    skos:exactMatch <http//qudt.org/vocab/unit/MOLPerKilogram> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "mol/kg"@en ;
@@ -12229,7 +12229,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "mol/m³"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#MolePerCubicMeter> ;
+    skos:exactMatch <http//qudt.org/vocab/unit/MOLPerCubicMeter> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "mol/m³"@en ;
@@ -12305,7 +12305,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "N"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#Newton> ;
+    skos:exactMatch <http//qudt.org/vocab/unit/N> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "N"@en ;
@@ -12315,7 +12315,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "N/m"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#NewtonPerMeter> ;
+    skos:exactMatch <http//qudt.org/vocab/unit/NPerMeter> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "N/m"@en ;
@@ -12325,7 +12325,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "N·m"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#NewtonMeter> ;
+    skos:exactMatch <http//qudt.org/vocab/unit/NMeter> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "N·m"@en ;
@@ -12369,7 +12369,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Pa"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#Pascal> ;
+    skos:exactMatch <http//qudt.org/vocab/unit/PA> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Pa"@en ;
@@ -12389,7 +12389,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Pa·s"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#PascalSecond> ;
+    skos:exactMatch <http//qudt.org/vocab/unit/PASecond> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Pa·s"@en ;
@@ -12465,7 +12465,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:broader :1 ;
     skos:definition "rad"@en ;
     skos:exactMatch <http://en.wikipedia.org/wiki/radian>,
-        <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#Radian> ;
+        <http//qudt.org/vocab/unit/RAD> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "rad"@en ;
@@ -12475,7 +12475,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "rad/s"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#RadianPerSecond> ;
+    skos:exactMatch <http//qudt.org/vocab/unit/RADPerSecond> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "rad/s"@en ;
@@ -12485,7 +12485,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "rad/s2"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#RadianPerSecondSquared> ;
+    skos:exactMatch <http//qudt.org/vocab/unit/RADPerSecondSquared> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "rad/s2"@en ;
@@ -12496,8 +12496,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:broader :1 ;
     skos:definition "s"@en ;
     skos:exactMatch <http://en.wikipedia.org/wiki/second>,
-        <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#Second>,
-        <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#SecondTime> ;
+        <http//qudt.org/vocab/unit/SEC> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "s"@en ;
@@ -12507,7 +12506,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "S"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#Siemens> ;
+    skos:exactMatch <http//qudt.org/vocab/unit/S> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "S"@en ;
@@ -12547,7 +12546,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "s²"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#SecondTimeSquared> ;
+    skos:exactMatch <http//qudt.org/vocab/unit/SEC2> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "s²"@en ;
@@ -12581,9 +12580,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:altLabel "steradian"@en ;
     skos:broader :1 ;
     skos:definition "sr"@en ;
-    skos:exactMatch <http://en.wikipedia.org/wiki/steradian>,
+    skos:exactMatch <https://en.wikipedia.org/wiki/Steradian>,
         <http://linkeddata.ge.imati.cnr.it:2020/resource/EARTh/27360>,
-        <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#Steradian> ;
+        <http//qudt.org/vocab/unit/SR> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "sr"@en ;
@@ -12596,7 +12595,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:broader :1 ;
     skos:definition "Sv"@en ;
     skos:exactMatch <http://en.wikipedia.org/wiki/sievert>,
-        <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#Sievert> ;
+        <http//qudt.org/vocab/unit/SV> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Sv"@en ;
@@ -12617,7 +12616,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "T"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#Tesla> ;
+    skos:exactMatch <http//qudt.org/vocab/unit/T> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "T"@en ;
@@ -12704,7 +12703,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:broader :1 ;
     skos:definition "V"@en ;
     skos:exactMatch <http://en.wikipedia.org/wiki/volt>,
-        <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#Volt> ;
+        <http//qudt.org/vocab/unit/V> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "V"@en ;
@@ -12714,7 +12713,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "V/m"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#VoltPerMeter> ;
+    skos:exactMatch <http//qudt.org/vocab/unit/VPerMeter> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "V/m"@en ;
@@ -12725,7 +12724,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:broader :1 ;
     skos:definition "W"@en ;
     skos:exactMatch <http://en.wikipedia.org/wiki/watt>,
-        <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#Watt> ;
+        <http//qudt.org/vocab/unit/W> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "W"@en ;
@@ -12747,7 +12746,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "W/(m·K)"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#WattPerMeterKelvin> ;
+    skos:exactMatch <http://qudt.org/vocab/unit/W-PER-M-K> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "W/(m·K)"@en ;
@@ -12757,7 +12756,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "W/(m2·sr)"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#WattPerSquareMeterSteradian> ;
+    skos:exactMatch <http://qudt.org/vocab/unit/W-PER-M2-SR> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "W/(m2·sr)"@en ;
@@ -12767,7 +12766,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "W/m2"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#WattPerSquareMeter> ;
+    skos:exactMatch <http://qudt.org/vocab/unit/W-PER-M2> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "W/m2"@en ;
@@ -12777,7 +12776,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "W/m²K"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#WattPerSquareMeterKelvin> ;
+    skos:exactMatch <http://qudt.org/vocab/unit/W-PER-M2-K> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "W/m²K"@en ;
@@ -12787,7 +12786,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "W/sr"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#WattPerSteradian> ;
+    skos:exactMatch <http://qudt.org/vocab/unit/W-PER-SR> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "W/sr"@en ;
@@ -12797,7 +12796,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Wb"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#Weber> ;
+    skos:exactMatch <http//qudt.org/vocab/unit/WB> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Wb"@en ;
@@ -12832,7 +12831,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:broader :1 ;
     skos:definition "O"@en ;
     skos:exactMatch <http://en.wikipedia.org/wiki/ohm>,
-        <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#Ohm> ;
+        <http//qudt.org/vocab/unit/OHM> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "O"@en ;
@@ -12974,7 +12973,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Kilogram Meter Squared"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#KilogramMeterSquared> ;
+    skos:exactMatch <http//qudt.org/vocab/unit/KiloGMMeterSquared> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Kilogram Meter Squared"@en ;
@@ -12984,7 +12983,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Square meter steradian"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#SquareMeterSteradian> ;
+    skos:exactMatch <http://qudt.org/vocab/unit/M2-SR> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Square meter steradian"@en ;
@@ -12994,7 +12993,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Square meter kelvin"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#SquareMeterKelvin> ;
+    skos:exactMatch <http://qudt.org/vocab/unit/M2-K> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Square meter kelvin"@en ;
@@ -13004,7 +13003,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Square meter per kelvin"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#SquareMeterPerKelvin> ;
+    skos:exactMatch <http://qudt.org/vocab/unit/M2-PER-K> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Square meter per kelvin"@en ;
@@ -13014,7 +13013,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Coulomb per meter"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#CoulombPerMeter> ;
+    skos:exactMatch <http//qudt.org/vocab/unit/CPerMeter> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Coulomb per meter"@en ;
@@ -13024,7 +13023,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Coulomb per mole"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#CoulombPerMole> ;
+    skos:exactMatch <http//qudt.org/vocab/unit/CPerMole> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Coulomb per mole"@en ;
@@ -13034,7 +13033,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Ampere per radian"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#AmperePerRadian> ;
+    skos:exactMatch <http//qudt.org/vocab/unit/APerRadian> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Ampere per radian"@en ;
@@ -13044,7 +13043,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Newton per coulomb"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#NewtonPerCoulomb> ;
+    skos:exactMatch <http//qudt.org/vocab/unit/NPerCoulomb> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Newton per coulomb"@en ;
@@ -13054,7 +13053,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Cubic meter per kilogram second squared"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#CubicMeterPerKilogramSecondSquared> ;
+    skos:exactMatch <http://qudt.org/vocab/unit/M3-PER-KiloGM-SEC2> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Cubic meter per kilogram second squared"@en ;
@@ -13074,7 +13073,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Meter per farad"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#MeterPerFarad> ;
+    skos:exactMatch <http://qudt.org/vocab/unit/M-PER-FARAD> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Meter per farad"@en ;
@@ -13084,7 +13083,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Meter kilogram"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#MeterKilogram> ;
+    skos:exactMatch <http://qudt.org/vocab/unit/M-KiloGM> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Meter kilogram"@en ;
@@ -13094,7 +13093,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Meter kelvin"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#MeterKelvin> ;
+    skos:exactMatch <http://qudt.org/vocab/unit/M2-K> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Meter kelvin"@en ;
@@ -13104,7 +13103,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Ampere Turn per Meter"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#AmpereTurnPerMeter> ;
+    skos:exactMatch <http://qudt.org/vocab/unit/ATPerMeter> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Ampere Turn per Meter"@en ;
@@ -13114,7 +13113,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Ampere Turn"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#AmpereTurn> ;
+    skos:exactMatch <http://qudt.org/vocab/unit/AT> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Ampere Turn"@en ;
@@ -13124,7 +13123,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Kilogram kelvin"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#KilogramKelvin> ;
+    skos:exactMatch <http://qudt.org/vocab/unit/KiloGM-K> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Kilogram kelvin"@en ;
@@ -13134,7 +13133,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Kilogram per second"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#KilogramPerSecond> ;
+    skos:exactMatch <http//qudt.org/vocab/unit/KiloGMPerSecond> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Kilogram per second"@en ;
@@ -13144,7 +13143,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Kilogram per meter"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#KilogramPerMeter> ;
+    skos:exactMatch <http//qudt.org/vocab/unit/KiloGMPerMeter> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Kilogram per meter"@en ;
@@ -13154,7 +13153,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Joule per kilogram kelvin per pascal"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#JoulePerKilogramKelvinPerPascal> ;
+    skos:exactMatch <http//qudt.org/vocab/unit/JPerKilogramKelvinPerPascal> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Joule per kilogram kelvin per pascal"@en ;
@@ -13164,7 +13163,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Joule per kilogram kelvin per cubic meter"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#JoulePerKilogramKelvinPerCubicMeter> ;
+    skos:exactMatch <http//qudt.org/vocab/unit/JPerKilogramKelvinPerCubicMeter> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Joule per kilogram kelvin per cubic meter"@en ;
@@ -13184,7 +13183,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Mole kelvin"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#MoleKelvin> ;
+    skos:exactMatch <http://qudt.org/vocab/unit/MOL-K> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Mole kelvin"@en ;
@@ -13194,7 +13193,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Square meter Kelvin per watt"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#SquareMeterKelvinPerWatt> ;
+    skos:exactMatch <http://qudt.org/vocab/unit/M2-K-PER-W> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Square meter Kelvin per watt"@en ;
@@ -13204,7 +13203,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Kelvin per watt"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#KelvinPerWatt> ;
+    skos:exactMatch <http//qudt.org/vocab/unit/KPerWatt> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Kelvin per watt"@en ;
@@ -13214,7 +13213,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Meter Kelvin per watt"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#MeterKelvinPerWatt> ;
+    skos:exactMatch <http://qudt.org/vocab/unit/M2-K-PER-W> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Meter Kelvin per watt"@en ;
@@ -13224,7 +13223,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Newton per kilogram"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#NewtonPerKilogram> ;
+    skos:exactMatch <http//qudt.org/vocab/unit/NPerKilogram> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Newton per kilogram"@en ;
@@ -13244,7 +13243,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Gram"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#Gram> ;
+    skos:exactMatch <http://qudt.org/vocab/unit/GM> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Gram"@en ;
@@ -13254,7 +13253,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Erg second"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#Ergsecond> ;
+    skos:exactMatch <http://qudt.org/vocab/unit/ERGsecond> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Erg second"@en ;
@@ -13264,7 +13263,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Square centimeter"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#Squarecentimeter> ;
+    skos:exactMatch <http://qudt.org/vocab/unit/CentiM2> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Square centimeter"@en ;
@@ -13274,7 +13273,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Poise"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#Poise> ;
+    skos:exactMatch <http://qudt.org/vocab/unit/POISE> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Poise"@en ;
@@ -13294,7 +13293,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Erg per cubic centimeter"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#Ergpercubiccentimeter> ;
+    skos:exactMatch <http://qudt.org/vocab/unit/ERGpercubiccentimeter> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Erg per cubic centimeter"@en ;
@@ -13304,7 +13303,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Erg"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#Erg> ;
+    skos:exactMatch <http://qudt.org/vocab/unit/ERG> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Erg"@en ;
@@ -13314,7 +13313,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Dyne"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#Dyne> ;
+    skos:exactMatch <http://qudt.org/vocab/unit/DYN> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Dyne"@en ;
@@ -13324,7 +13323,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Centimeter per second squared"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#Centimeterpersecondsquared> ;
+    skos:exactMatch <http://qudt.org/vocab/unit/CentiM-PER-SEC2> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Centimeter per second squared"@en ;
@@ -13334,7 +13333,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Centimeter per second"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#Centimeterpersecond> ;
+    skos:exactMatch <http://qudt.org/vocab/unit/CentiM-PER-SEC> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Centimeter per second"@en ;
@@ -13344,7 +13343,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Erg per second"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#Ergpersecond> ;
+    skos:exactMatch <http://qudt.org/vocab/unit/ERGpersecond> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Erg per second"@en ;
@@ -13354,7 +13353,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Erg per square centimeter second"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#Ergpersquarecentimetersecond> ;
+    skos:exactMatch <http://qudt.org/vocab/unit/ERGpersquarecentimetersecond> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Erg per square centimeter second"@en ;
@@ -13364,7 +13363,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Dyne per square centimeter"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#Dynepersquarecentimeter> ;
+    skos:exactMatch <http://qudt.org/vocab/unit/DYNpersquarecentimeter> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Dyne per square centimeter"@en ;
@@ -13374,7 +13373,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Square centimeter second"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#Squarecentimetersecond> ;
+    skos:exactMatch <http://qudt.org/vocab/unit/CentiM2-SEC> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Square centimeter second"@en ;
@@ -13384,7 +13383,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Dyne centimeter"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#Dynecentimeter> ;
+    skos:exactMatch <http://qudt.org/vocab/unit/DYNcentimeter> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Dyne centimeter"@en ;
@@ -13404,7 +13403,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Cubic Centimeter"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#CubicCentimeter> ;
+    skos:exactMatch <http://qudt.org/vocab/unit/CentiM3> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Cubic Centimeter"@en ;
@@ -13414,7 +13413,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Abfarad"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#Abfarad> ;
+    skos:exactMatch <http://qudt.org/vocab/unit/FARAD_Ab> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Abfarad"@en ;
@@ -13424,7 +13423,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Abcoulomb"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#Abcoulomb> ;
+    skos:exactMatch <http://qudt.org/vocab/unit/C_Ab> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Abcoulomb"@en ;
@@ -13434,7 +13433,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Abampere"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#Abampere> ;
+    skos:exactMatch <http://qudt.org/vocab/unit/A_Ab> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Abampere"@en ;
@@ -13444,7 +13443,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Abvolt per Centimeter"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#AbvoltperCentimeter> ;
+    skos:exactMatch <http://qudt.org/vocab/unit/V_AbperCentimeter> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Abvolt per Centimeter"@en ;
@@ -13454,7 +13453,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Abcoulomb per square centimeter"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#Abcoulombpersquarecentimeter> ;
+    skos:exactMatch <http://qudt.org/vocab/unit/C_Abpersquarecentimeter> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Abcoulomb per square centimeter"@en ;
@@ -13464,7 +13463,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Absiemen"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#Absiemen> ;
+    skos:exactMatch <http://qudt.org/vocab/unit/S_Ab> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Absiemen"@en ;
@@ -13474,7 +13473,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Abvolt"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#Abvolt> ;
+    skos:exactMatch <http://qudt.org/vocab/unit/V_Ab> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Abvolt"@en ;
@@ -13484,7 +13483,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Abhenry"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#Abhenry> ;
+    skos:exactMatch <http://qudt.org/vocab/unit/H_Ab> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Abhenry"@en ;
@@ -13494,7 +13493,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Abtesla"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#Abtesla> ;
+    skos:exactMatch <http://qudt.org/vocab/unit/T_Ab> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Abtesla"@en ;
@@ -13504,8 +13503,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "1/s"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#Inversesecondtime>,
-        <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#ity:InverseSecondTime> ;
+    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#InverseSecondTime> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "1/s"@en ;
@@ -13515,7 +13513,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Abvolt Second"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#AbvoltSecond> ;
+    skos:exactMatch <http://qudt.org/vocab/unit/V_AbSecond> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Abvolt Second"@en ;
@@ -13525,7 +13523,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Abtesla"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#Abtesla> ;
+    skos:exactMatch <http://qudt.org/vocab/unit/T_Ab> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Abtesla"@en ;
@@ -13535,7 +13533,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Gilbert"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#Gilbert> ;
+    skos:exactMatch <http://qudt.org/vocab/unit/GI> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Gilbert"@en ;
@@ -13545,7 +13543,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Relative permeability"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#Relativepermeability> ;
+    skos:exactMatch <http://qudt.org/vocab/unit/PERMEABILITY_REL> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Relative permeability"@en ;
@@ -13555,7 +13553,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Abfarad per centimeter"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#Abfaradpercentimeter> ;
+    skos:exactMatch <http://qudt.org/vocab/unit/FARAD_Abpercentimeter> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Abfarad per centimeter"@en ;
@@ -13565,7 +13563,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Abohm"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#Abohm> ;
+    skos:exactMatch <http://qudt.org/vocab/unit/OHM_Ab> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Abohm"@en ;
@@ -13575,7 +13573,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Statfarad"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#Statfarad> ;
+    skos:exactMatch <http://qudt.org/vocab/unit/FARAD_Stat> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Statfarad"@en ;
@@ -13585,7 +13583,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Statcoulomb"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#Statcoulomb> ;
+    skos:exactMatch <http://qudt.org/vocab/unit/C_Stat> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Statcoulomb"@en ;
@@ -13595,7 +13593,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Statampere"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#Statampere> ;
+    skos:exactMatch <http://qudt.org/vocab/unit/A_Stat> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Statampere"@en ;
@@ -13605,7 +13603,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Statvolt per centimeter"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#Statvoltpercentimeter> ;
+    skos:exactMatch <http://qudt.org/vocab/unit/V_Stat-PER-CentiM> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Statvolt per centimeter"@en ;
@@ -13625,7 +13623,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Statcoulomb per square centimeter"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#Statcoulombpersquarecentimeter> ;
+    skos:exactMatch <http://qudt.org/vocab/unit/C_Statpersquarecentimeter> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Statcoulomb per square centimeter"@en ;
@@ -13635,7 +13633,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Statvolt"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#Statvolt> ;
+    skos:exactMatch <http://qudt.org/vocab/unit/V_Stat> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Statvolt"@en ;
@@ -13645,7 +13643,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Stathenry"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#Stathenry> ;
+    skos:exactMatch <http://qudt.org/vocab/unit/H_Stat> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Stathenry"@en ;
@@ -13655,7 +13653,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Oersted"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#Oersted> ;
+    skos:exactMatch <http://qudt.org/vocab/unit/OERSTED> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Oersted"@en ;
@@ -13665,7 +13663,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Maxwell"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#Maxwell> ;
+    skos:exactMatch <http://qudt.org/vocab/unit/MX> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Maxwell"@en ;
@@ -13675,7 +13673,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Gauss"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#Gauss> ;
+    skos:exactMatch <http://qudt.org/vocab/unit/GAUSS> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Gauss"@en ;
@@ -13685,7 +13683,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Oersted centimeter"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#Oerstedcentimeter> ;
+    skos:exactMatch <http://qudt.org/vocab/unit/OERSTEDcentimeter> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Oersted centimeter"@en ;
@@ -13695,7 +13693,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Stathenry per centimeter"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#Stathenrypercentimeter> ;
+    skos:exactMatch <http://qudt.org/vocab/unit/H_Statpercentimeter> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Stathenry per centimeter"@en ;
@@ -13705,7 +13703,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Relative permittivity"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#Relativepermittivity> ;
+    skos:exactMatch <http://qudt.org/vocab/unit/PERMITTIVITY_REL> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Relative permittivity"@en ;
@@ -13715,7 +13713,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Statohm"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#Statohm> ;
+    skos:exactMatch <http://qudt.org/vocab/unit/OHM_Stat> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Statohm"@en ;
@@ -13797,7 +13795,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:broader :1 ;
     skos:definition "A"@en ;
     skos:exactMatch <http://en.wikipedia.org/wiki/ampere>,
-        <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#Ampere> ;
+        <http//qudt.org/vocab/unit/A> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "A"@en ;
@@ -13807,7 +13805,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "A/m"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#ity:AmperePerMeter> ;
+    skos:exactMatch <http://qudt.org/vocab/unit/A-PER-M> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "A/m"@en ;
@@ -13817,7 +13815,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "A/m2"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#AmperePerSquareMeter> ;
+    skos:exactMatch <http//qudt.org/vocab/unit/APerSquareMeter> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "A/m2"@en ;
@@ -13880,7 +13878,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:broader :1 ;
     skos:definition "Bq"@en ;
     skos:exactMatch <http://en.wikipedia.org/wiki/becquerel>,
-        <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#Becquerel> ;
+        <http//qudt.org/vocab/unit/BQ> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Bq"@en ;
@@ -13892,7 +13890,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:broader :1 ;
     skos:definition "C"@en ;
     skos:exactMatch <http://en.wikipedia.org/wiki/coulomb>,
-        <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#Coulomb> ;
+        <http//qudt.org/vocab/unit/C> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "C"@en ;
@@ -13902,7 +13900,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "C/kg"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#CoulombPerKilogram> ;
+    skos:exactMatch <http//qudt.org/vocab/unit/CPerKilogram> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "C/kg"@en ;
@@ -13912,7 +13910,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "C/m²"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#CoulombPerSquareMeter> ;
+    skos:exactMatch <http//qudt.org/vocab/unit/CPerSquareMeter> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "C/m²"@en ;
@@ -13922,7 +13920,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "C/m³"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#CoulombPerCubicMeter> ;
+    skos:exactMatch <http//qudt.org/vocab/unit/CPerCubicMeter> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "C/m³"@en ;
@@ -13933,7 +13931,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:broader :1 ;
     skos:definition "cd"@en ;
     skos:exactMatch <http://en.wikipedia.org/wiki/candela>,
-        <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#Candela> ;
+        <http//qudt.org/vocab/unit/CD> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "cd"@en ;
@@ -13943,7 +13941,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "cd/m2"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#CandelaPerSquareMeter> ;
+    skos:exactMatch <http//qudt.org/vocab/unit/CDPerSquareMeter> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "cd/m2"@en ;
@@ -13964,7 +13962,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:broader :1 ;
     skos:definition "cm"@en ;
     skos:exactMatch <http://en.wikipedia.org/wiki/centimeter>,
-        <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#Centimeter> ;
+        <http://qudt.org/vocab/unit/CentiM> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "cm"@en ;
@@ -13974,7 +13972,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Cm"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#CoulombMeter> ;
+    skos:exactMatch <http//qudt.org/vocab/unit/CMeter> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Cm"@en ;
@@ -14037,7 +14035,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:broader :1 ;
     skos:definition "F"@en ;
     skos:exactMatch <http://en.wikipedia.org/wiki/farad>,
-        <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#Farad> ;
+        <http//qudt.org/vocab/unit/FARAD> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "F"@en ;
@@ -14047,7 +14045,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "F/m"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#FaradPerMeter> ;
+    skos:exactMatch <http//qudt.org/vocab/unit/FARADPerMeter> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "F/m"@en ;
@@ -14138,7 +14136,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Gy"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#Gray> ;
+    skos:exactMatch <http//qudt.org/vocab/unit/GRAY> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Gy"@en ;
@@ -14148,7 +14146,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Gy/s"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#GrayPerSecond> ;
+    skos:exactMatch <http//qudt.org/vocab/unit/GRAYPerSecond> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Gy/s"@en ;
@@ -14158,7 +14156,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "H"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#Henry> ;
+    skos:exactMatch <http//qudt.org/vocab/unit/H> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "H"@en ;
@@ -14178,7 +14176,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "H/m"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#HenryPerMeter> ;
+    skos:exactMatch <http//qudt.org/vocab/unit/HPerMeter> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "H/m"@en ;
@@ -14200,7 +14198,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:broader :1 ;
     skos:definition "Hz"@en ;
     skos:exactMatch <http://en.wikipedia.org/wiki/hertz>,
-        <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#Hertz> ;
+        <http//qudt.org/vocab/unit/HZ> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Hz"@en ;
@@ -14222,7 +14220,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:broader :1 ;
     skos:definition "N·m"@en ;
     skos:exactMatch <http://en.wikipedia.org/wiki/joule>,
-        <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#Joule> ;
+        <http//qudt.org/vocab/unit/J> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "J"@en ;
@@ -14232,7 +14230,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "J/(kg·K)"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#JoulePerKilogramKelvin> ;
+    skos:exactMatch <http//qudt.org/vocab/unit/JPerKilogramKelvin> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "J/(kg·K)"@en ;
@@ -14242,7 +14240,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "J/(mol·K)"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#JoulePerMoleKelvin> ;
+    skos:exactMatch <http//qudt.org/vocab/unit/JPerMoleKelvin> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "J/(mol·K)"@en ;
@@ -14252,7 +14250,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "J/K"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#JoulePerKelvin> ;
+    skos:exactMatch <http//qudt.org/vocab/unit/JPerKelvin> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "J/K"@en ;
@@ -14262,7 +14260,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "J/kg"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#JoulePerKilogram> ;
+    skos:exactMatch <http//qudt.org/vocab/unit/JPerKilogram> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "J/kg"@en ;
@@ -14272,7 +14270,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "J/m²"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#JoulePerSquareMeter> ;
+    skos:exactMatch <http//qudt.org/vocab/unit/JPerSquareMeter> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "J/m²"@en ;
@@ -14282,8 +14280,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "J/m³"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#JoulePerCubicMeter>,
-        <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#JoulePerCubicMeterKelvin> ;
+    skos:exactMatch <http//qudt.org/vocab/unit/JPerCubicMeter>,
+        <http//qudt.org/vocab/unit/JPerCubicMeterKelvin> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "J/m³"@en ;
@@ -14303,7 +14301,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "J/mol"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#JoulePerMole> ;
+    skos:exactMatch <http//qudt.org/vocab/unit/JPerMole> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "J/mol"@en ;
@@ -14333,7 +14331,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "J/T"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#JoulePerTesla> ;
+    skos:exactMatch <http//qudt.org/vocab/unit/JPerTesla> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "J/T"@en ;
@@ -14343,7 +14341,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "J·s"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#JouleSecond> ;
+    skos:exactMatch <http//qudt.org/vocab/unit/JSecond> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "J·s"@en ;
@@ -14354,7 +14352,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:broader :1 ;
     skos:definition "K"@en ;
     skos:exactMatch <http://en.wikipedia.org/wiki/kelvin>,
-        <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#Kelvin> ;
+        <http//qudt.org/vocab/unit/K> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "K"@en ;
@@ -14375,7 +14373,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:broader :1 ;
     skos:definition "kat"@en ;
     skos:exactMatch <http://en.wikipedia.org/wiki/katal>,
-        <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#Katal> ;
+        <http//qudt.org/vocab/unit/KAT> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "kat"@en ;
@@ -14397,7 +14395,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:broader :1 ;
     skos:definition "kg"@en ;
     skos:exactMatch <http://en.wikipedia.org/wiki/kilogram>,
-        <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#Kilogram> ;
+        <http//qudt.org/vocab/unit/KiloGM> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "kg"@en ;
@@ -14430,7 +14428,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "kg/m²"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#KilogramPerSquareMeter> ;
+    skos:exactMatch <http//qudt.org/vocab/unit/KiloGMPerSquareMeter> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "kg/m²"@en ;
@@ -52412,7 +52410,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:broader :10351 ;
     skos:definition "[ECSO]* The linear extent in space from one end to the other; the longest dimension of something that is fixed in place"@en ;
     skos:exactMatch <http://ecoinformatics.org/oboe/oboe.1.2/oboe-characteristics.owl#Length>,
-        <http://www.qudt.org/qudt/owl/1.0.0/quantity/Instances.html#Length> ;
+        <http://qudt.org/vocab/quantitykind/Length> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "length"@en .
@@ -52421,7 +52419,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:altLabel "J"@en ;
     skos:broader :21463 ;
     skos:definition "luminous intensity"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/quantity/Instances.html#LuminousIntensity> ;
+    skos:exactMatch <http://qudt.org/vocab/quantitykind/LuminousIntensity> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "luminous intensity"@en .
@@ -52433,7 +52431,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:broader :10351 ;
     skos:definition "[NPO] A quality that inheres in a bearer in proportion to the amount of matter it contains. It is the property of a substance that causes it to have weight in a gravitational field."@en ;
     skos:exactMatch <http://purl.org/obo/owl/PATO#PATO_0000125>,
-        <http://www.qudt.org/qudt/owl/1.0.0/quantity/Instances.html#Mass> ;
+        <http://qudt.org/vocab/quantitykind/Mass> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "mass"@en .
@@ -52516,7 +52514,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:altLabel "L-3M-1T4I2"@en ;
     skos:broader :21463 ;
     skos:definition "permittivtiy"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/quantity/Instances.html#Permittivity> ;
+    skos:exactMatch <http://qudt.org/vocab/quantitykind/Permittivity> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "permittivtiy"@en .
@@ -52525,7 +52523,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:broader :21463 ;
     skos:definition "[NCIT] A Resistance Process consists of activities of biologic molecules or complexes involved in processes that maintain immunity to, or counteract, defeat, or withstand the effects of, an antagonistic agent."@en ;
     skos:exactMatch <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C41546>,
-        <http://www.qudt.org/qudt/owl/1.0.0/quantity/Instances.html#Resistance> ;
+        <http://qudt.org/vocab/quantitykind/Resistance> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "resistance"@en .
@@ -52534,7 +52532,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:altLabel "L2T-2"@en ;
     skos:broader :21463 ;
     skos:definition "[STUFF] Absorbed dose is the energy deposited in a medium by ionizing radiation. It is a derived quantity in the International System of Units. Absorbed dose is energy divided by mass."@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/quantity/Instances.html#AbsorbedDose>,
+    skos:exactMatch <http://qudt.org/vocab/quantitykind/AbsorbedDose>,
         <http://www.wurvoc.org/vocabularies/om-1.8/Absorbed_dose> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
@@ -52544,7 +52542,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:altLabel "L2T-3"@en ;
     skos:broader :20935 ;
     skos:definition "absorbed dose rate"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/quantity/Instances.html#AbsorbedDoseRate> ;
+    skos:exactMatch <http://qudt.org/vocab/quantitykind/AbsorbedDoseRate> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "absorbed dose rate"@en .
@@ -52556,7 +52554,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:broader :21463 ;
     skos:definition "[SWEET] 1. The ratio of the mass of any substance to the volume occupied by it (usually expressed in kilograms per cubic meter, but any other unit system may be used); the reciprocal of specific volume."@en ;
     skos:exactMatch <http://sweet.jpl.nasa.gov/2.3/propMass.owl#Density>,
-        <http://www.qudt.org/qudt/owl/1.0.0/quantity/Instances.html#Density>,
+        <http://qudt.org/vocab/quantitykind/Density>,
         <https://vocab.lternet.edu/vocab/vocab/?tema=916> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
@@ -52567,7 +52565,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:broader :21463 ;
     skos:definition "[SWEET] The rate of recurrence of any periodic phenomenon, often associated with waves of all kinds. Without qualification frequency often means temporal frequency, the rate of recurrence of a time-varying function, but could mean spatial frequency, the rate of recurrence of a space-varying function. Spatial frequency is the reciprocal of the repeat distance (sometimes the wavelength). The dimensions of (temporal) frequency are inverse time. A common unit for frequency is cycle per second, formerly abbreviated cps, but superseded by hertz, abbreviated as Hz."@en ;
     skos:exactMatch <http://sweet.jpl.nasa.gov/2.3/propTimeFrequency.owl#Frequency>,
-        <http://www.qudt.org/qudt/owl/1.0.0/quantity/Instances.html#Frequency> ;
+        <http://qudt.org/vocab/quantitykind/Frequency> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "frequency"@en .
@@ -61172,7 +61170,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:altLabel "N"@en ;
     skos:broader :10351 ;
     skos:definition "amount of substance"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/quantity/Instances.html#AmountOfSubstance> ;
+    skos:exactMatch <http://qudt.org/vocab/quantitykind/AmountOfSubstance> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "amount of substance"@en .
@@ -61181,7 +61179,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:altLabel "M1T-2"@en ;
     skos:broader :10351 ;
     skos:definition "energy"@en ;
-    skos:exactMatch <http://www.qudt.org/qudt/owl/1.0.0/quantity/Instances.html#EnergyPerUnitArea> ;
+    skos:exactMatch <http://qudt.org/vocab/quantitykind/EnergyPerUnitArea> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:narrower :30267,
@@ -63887,7 +63885,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:definition "[NCIT]*[ECSO]* The extent of a 2-dimensional surface enclosed within a boundary."@en ;
     skos:exactMatch <http://ecoinformatics.org/oboe/oboe.1.2/oboe-characteristics.owl#Area>,
         <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25244>,
-        <http://www.qudt.org/qudt/owl/1.0.0/quantity/Instances.html#Area> ;
+        <http://qudt.org/vocab/quantitykind/Area> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "area"@en .
