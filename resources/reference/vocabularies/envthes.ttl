@@ -11778,7 +11778,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "kg·m/s"@en ;
-    skos:exactMatch <http://qudt.org/vocab/unit/KiloGMMeter-PER-SEC> ;
+    skos:exactMatch <http://qudt.org/vocab/unit/KiloGM-M-PER-SEC> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "kg·m/s"@en ;
@@ -13440,7 +13440,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "Abvolt per Centimeter"@en ;
-    skos:exactMatch <http://qudt.org/vocab/unit/V_AbperCentimeter> ;
+    skos:exactMatch <http://qudt.org/vocab/unit/V_Ab-PER-CentiM> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Abvolt per Centimeter"@en ;
@@ -14237,7 +14237,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "J/(mol·K)"@en ;
-    skos:exactMatch <http://qudt.org/vocab/unit/J-PER--MOL-Kelvin> ;
+    skos:exactMatch <http://qudt.org/vocab/unit/J-PER-MOL-Kelvin> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "J/(mol·K)"@en ;
@@ -14328,7 +14328,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     owl:deprecated true ;
     skos:broader :1 ;
     skos:definition "J/T"@en ;
-    skos:exactMatch <http://qudt.org/vocab/unit/J-PER-Tesla> ;
+    skos:exactMatch <http://qudt.org/vocab/unit/J-PER-T> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "J/T"@en ;
@@ -40945,7 +40945,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 :20328 a skos:Concept ;
     skos:broader :10157 ;
     skos:definition "[SWEET] A devise used to measure groundwater pressure head at a point in the subsurface."@en ;
-    skos:exactMatch <http://sweet.jpl.nasa.gov/2.3/matrInstrument.owl#Piezometer> ;
+    skos:exactMatch <http://sweetontology.net/realmBiolBiome/Savanna> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "piezometer"@en .
@@ -52545,7 +52545,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         "密度"@zh ;
     skos:broader :21463 ;
     skos:definition "[SWEET] 1. The ratio of the mass of any substance to the volume occupied by it (usually expressed in kilograms per cubic meter, but any other unit system may be used); the reciprocal of specific volume."@en ;
-    skos:exactMatch <http://sweet.jpl.nasa.gov/2.3/propMass.owl#Density>,
+    skos:exactMatch <http://sweetontology.net/propMass/Density>,
         <http://qudt.org/vocab/quantitykind/Density>,
         <https://vocab.lternet.edu/vocab/vocab/?tema=916> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
@@ -52556,7 +52556,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:altLabel "T-1"@en ;
     skos:broader :21463 ;
     skos:definition "[SWEET] The rate of recurrence of any periodic phenomenon, often associated with waves of all kinds. Without qualification frequency often means temporal frequency, the rate of recurrence of a time-varying function, but could mean spatial frequency, the rate of recurrence of a space-varying function. Spatial frequency is the reciprocal of the repeat distance (sometimes the wavelength). The dimensions of (temporal) frequency are inverse time. A common unit for frequency is cycle per second, formerly abbreviated cps, but superseded by hertz, abbreviated as Hz."@en ;
-    skos:exactMatch <http://sweet.jpl.nasa.gov/2.3/propTimeFrequency.owl#Frequency>,
+    skos:exactMatch <http://sweetontology.net/propTimeFrequency/Frequency>,
         <http://qudt.org/vocab/quantitykind/Frequency> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
@@ -54588,7 +54588,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:exactMatch <http://en.wikipedia.org/wiki/streams>,
         <https://vocabularyserver.com/cnr/ml/earth/en/index.php?tema=26510>,
         <http://purl.obolibrary.org/obo/ENVO_00000023>,
-        <http://sweet.jpl.nasa.gov/2.3/realmHydroBody.owl#Stream>,
+        <http://sweetontology.net/realmHydroBody/Stream>,
         <https://vocab.lternet.edu/vocab/vocab/?tema=562> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
@@ -54648,7 +54648,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:exactMatch <http://aims.fao.org/aos/agrovoc/c_4631>,
         <http://en.wikipedia.org/wiki/marshes>,
         <http://purl.obolibrary.org/obo/ENVO_00000035>,
-        <http://sweet.jpl.nasa.gov/2.3/realmHydroBody.owl#Marsh>,
+        <http://sweetontology.net/realmHydroBody/Marsh>,
         <https://vocab.lternet.edu/vocab/vocab/?tema=326> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
@@ -55132,7 +55132,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 :21856 a skos:Concept ;
     skos:broader :21855 ;
     skos:definition "[SWEET] A savanna or savannah is a tropical or subtropical woodland ecosystem. Savannas are characterised by the trees being sufficiently small or widely spaced so that the canopy does not close. It is often believed that savannas are characterized by widely spaced, scattered trees, however in many savanna communities tree densities are higher and trees are more regularly spaced than in forest communities. The open canopy allows sufficient light to reach the ground to support an unbroken herbaceous layer consisting primarily of C4 grasses. Savannas are also characterised by seasonal water availability, with the majority of rainfall being confined to one season of the year. Savannas can be associated with several types of biomes. Savannas are frequently seen as a transitional zone, occurring between forest regions and desert regions."@en ;
-    skos:exactMatch <http://sweet.jpl.nasa.gov/2.3/realmBiolBiome.owl#Savanna> ;
+    skos:exactMatch <http://sweetontology.net/realmBiolBiome/Savanna> ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
     skos:inScheme cs: ;
     skos:prefLabel "Savanna"@en ;

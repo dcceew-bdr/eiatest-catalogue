@@ -56,7 +56,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 <https://w3id.org/env/puv#uom> schema:name "unit of measure" .
 
 
-
 dcterms:description
     schema:description "An account of the resource."@en ;
     schema:name "Description"@en ;

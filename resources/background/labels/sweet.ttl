@@ -15,3 +15,11 @@ PREFIX schema: <https://schema.org/>
 <http://sweetontology.net/realmSoil/Ground> schema:name "Ground" .
 <http://sweetontology.net/realmSoil/Topsoil> schema:name "Topsoil" .
 <http://sweetontology.net/reprTimeDay/Dawn> schema:name "Dawn" .
+
+
+<http://sweetontology.net/matrInstrument/Piezometer> schema:name "Piezometer" .
+<http://sweetontology.net/propMass/Density> schema:name "Density" .
+<http://sweetontology.net/propTimeFrequency/Frequency> schema:name "Frequency" .
+<http://sweetontology.net/realmBiolBiome/Savanna> schema:name "Savanna" .
+<http://sweetontology.net/realmHydroBody/Marsh> schema:name "Marsh" .
+<http://sweetontology.net/realmHydroBody/Stream> schema:name "Stream" .
