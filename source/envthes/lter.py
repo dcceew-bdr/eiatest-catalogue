@@ -1,3 +1,4 @@
+# extracts labels for all LTER terms in the LTER vocab TSV dump archived at https://github.com/lter/vocab/blob/master/sssom/lter-envo.sssom.tsv
 import csv
 from rdflib import Graph, URIRef, Literal
 from rdflib.namespace import RDF, RDFS, SDO

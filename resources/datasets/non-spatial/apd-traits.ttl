@@ -15246,7 +15246,8 @@ cs:
     datacite:IsReviewedBy <https://orcid.org/0000-0001-5640-5910>, <https://orcid.org/0000-0001-5945-438X>, <https://orcid.org/0000-0001-8305-3236>, <https://orcid.org/0000-0002-0712-5143>, <https://orcid.org/0000-0002-0962-5117>, <https://orcid.org/0000-0002-3046-0417>, <https://orcid.org/0000-0002-6033-2766>, <https://orcid.org/0000-0002-9843-6616>, <https://orcid.org/0000-0003-0360-8321> ;
     dcterms:created "2021-07-14"^^xsd:date ;
     dcterms:modified "2024-02-05"^^xsd:date ;
-    dcterms:references <https://doi.org/10.1007/978-1-4684-7747-4_8>, <https://doi.org/www.rbgsyd.nsw.gov.au/science/rainforest-conservation-research/rainforest-seed-conservation-project/what-are-we-testing/seed-viability-germination>, <https://uol.de/en/landeco/research/leda/standards> ;
+    dcterms:references <https://doi.org/10.1007/978-1-4684-7747-4_8>, <https://uol.de/en/landeco/research/leda/standards> ;
+    schema:citation "https://www.rbgsyd.nsw.gov.au/science/rainforest-conservation-research/rainforest-seed-conservation-project/what-are-we-testing/seed-viability-germination"^^xsd:anyURI ;
     dcterms:reviewed "2021-11-30"^^xsd:date ;
     SIO:SIO_000147 <http://cerrado.linkeddata.es/ecology/ccon/#Recruitment>, obo:ENVO_01000203, obo:GO_0000003, obo:GO_0009845, obo:GO_0010162, obo:XCO_0000000 ;
     ets:expectedUnit "{count}/{count}" ;
@@ -15269,7 +15270,7 @@ cs:
     datacite:IsReviewedBy <https://orcid.org/0000-0001-5640-5910>, <https://orcid.org/0000-0001-5945-438X>, <https://orcid.org/0000-0001-8305-3236>, <https://orcid.org/0000-0002-0712-5143>, <https://orcid.org/0000-0002-0962-5117>, <https://orcid.org/0000-0002-3046-0417>, <https://orcid.org/0000-0002-6033-2766>, <https://orcid.org/0000-0002-9843-6616>, <https://orcid.org/0000-0003-0360-8321> ;
     dcterms:created "2021-07-14"^^xsd:date ;
     dcterms:modified "2024-02-05"^^xsd:date ;
-    dcterms:references <https://doi.org/10.1007/978-1-4684-7747-4_8>, <https://doi.org/www.rbgsyd.nsw.gov.au/science/rainforest-conservation-research/rainforest-seed-conservation-project/what-are-we-testing/seed-viability-germination>, <https://uol.de/en/landeco/research/leda/standards> ;
+    dcterms:references <https://doi.org/10.1007/978-1-4684-7747-4_8>, <https://www.rbgsyd.nsw.gov.au/science/rainforest-conservation-research/rainforest-seed-conservation-project/what-are-we-testing/seed-viability-germination>, <https://uol.de/en/landeco/research/leda/standards> ;
     dcterms:reviewed "2021-11-30"^^xsd:date ;
     SIO:SIO_000147 <http://cerrado.linkeddata.es/ecology/ccon/#Recruitment>, MESH:D000068098, obo:ENVO_01000203, obo:GO_0000003, obo:GO_0009845, obo:TO_0000345, obo:XCO_0000000 ;
     ets:expectedUnit "{count}/{count}" ;

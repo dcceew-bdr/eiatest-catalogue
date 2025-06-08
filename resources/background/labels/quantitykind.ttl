@@ -1939,4 +1939,3 @@ PREFIX schema: <https://schema.org/>
 <http://qudt.org/vocab/quantitykind/Work> schema:name "work" .
 
 <http://qudt.org/vocab/quantitykind/WorkFunction> schema:name "Work Function" .
-

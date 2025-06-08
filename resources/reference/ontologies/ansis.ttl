@@ -20,8 +20,7 @@
 @prefix qudt: <http://qudt.org/schema/qudt/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix schema: <http://schema.org/> .
-@prefix sdo: <https://schema.org/> .
+@prefix schema: <https://schema.org/> .
 @prefix sf: <http://www.opengis.net/ont/sf#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix sosa: <http://www.w3.org/ns/sosa/> .
@@ -4429,55 +4428,55 @@ prov:startedAtTime \"2015-10-01T00:00:00\"^^xsd:dateTime ;
   skos:prefLabel "Project" ;
 .
 <https://orcid.org/0000-0002-0693-1899>
-  a sdo:Person ;
-  sdo:affiliation <https://ror.org/03qn8fb07> ;
-  sdo:email "linda.gregory@csiro.au" ;
-  sdo:identifier "https://orcid.org/0000-0002-0693-1899"^^xsd:anyURI ;
-  sdo:name "Linda Gregory" ;
+  a schema:Person ;
+  schema:affiliation <https://ror.org/03qn8fb07> ;
+  schema:email "linda.gregory@csiro.au" ;
+  schema:identifier "https://orcid.org/0000-0002-0693-1899"^^xsd:anyURI ;
+  schema:name "Linda Gregory" ;
 .
 <https://orcid.org/0000-0002-2991-2308>
-  a sdo:Person ;
-  sdo:affiliation <https://ror.org/05qbzwv83> ;
-  sdo:email "mr.wong@federation.edu.au" ;
-  sdo:identifier "https://orcid.org/0000-0002-2991-2308"^^xsd:anyURI ;
-  sdo:name "Megan Wong" ;
+  a schema:Person ;
+  schema:affiliation <https://ror.org/05qbzwv83> ;
+  schema:email "mr.wong@federation.edu.au" ;
+  schema:identifier "https://orcid.org/0000-0002-2991-2308"^^xsd:anyURI ;
+  schema:name "Megan Wong" ;
 .
 <https://orcid.org/0000-0002-3884-3420>
-  a sdo:Person ;
-  sdo:affiliation <https://ror.org/03qn8fb07> ;
-  sdo:email "simon.cox@csiro.au" ;
-  sdo:identifier "https://orcid.org/0000-0002-3884-3420"^^xsd:anyURI ;
-  sdo:name "Simon J D Cox" ;
-  sdo:subjectOf <https://people.csiro.au/C/S/simon-cox> ;
+  a schema:Person ;
+  schema:affiliation <https://ror.org/03qn8fb07> ;
+  schema:email "simon.cox@csiro.au" ;
+  schema:identifier "https://orcid.org/0000-0002-3884-3420"^^xsd:anyURI ;
+  schema:name "Simon J D Cox" ;
+  schema:subjectOf <https://people.csiro.au/C/S/simon-cox> ;
 .
 <https://orcid.org/0000-0003-1625-1253>
-  a sdo:Person ;
-  sdo:affiliation <https://ror.org/03qn8fb07> ;
-  sdo:email "gerard.grealish@csiro.au" ;
-  sdo:identifier "https://orcid.org/0000-0003-1625-1253"^^xsd:anyURI ;
-  sdo:name "Gerard Grealish" ;
+  a schema:Person ;
+  schema:affiliation <https://ror.org/03qn8fb07> ;
+  schema:email "gerard.grealish@csiro.au" ;
+  schema:identifier "https://orcid.org/0000-0003-1625-1253"^^xsd:anyURI ;
+  schema:name "Gerard Grealish" ;
 .
 <https://people-my.csiro.au/w/p/peter-wilson>
-  a sdo:AboutPage ;
+  a schema:AboutPage ;
 .
 <https://people.csiro.au/C/S/simon-cox>
-  a sdo:AboutPage ;
+  a schema:AboutPage ;
 .
 <https://ror.org/03qn8fb07>
-  a sdo:Organization ;
-  sdo:name "Commonwealth Scientific and Industrial Research Organisation" ;
-  sdo:url <https://csiro.au> ;
+  a schema:Organization ;
+  schema:name "Commonwealth Scientific and Industrial Research Organisation" ;
+  schema:url <https://csiro.au> ;
 .
 <https://ror.org/05qbzwv83>
-  a sdo:Organization ;
-  sdo:name "Federation University" ;
-  sdo:url <https://federation.edu.au/> ;
+  a schema:Organization ;
+  schema:name "Federation University" ;
+  schema:url <https://federation.edu.au/> ;
 .
 <mailto:peter.wilson@csiro.au>
-  a sdo:Person ;
-  sdo:affiliation <https://ror.org/03qn8fb07> ;
-  sdo:email "peter.wilson@csiro.au" ;
-  sdo:identifier "mailto:peter.wilson@csiro.au"^^xsd:anyURI ;
-  sdo:name "Peter Wilson" ;
-  sdo:subjectOf <https://people-my.csiro.au/w/p/peter-wilson> ;
+  a schema:Person ;
+  schema:affiliation <https://ror.org/03qn8fb07> ;
+  schema:email "peter.wilson@csiro.au" ;
+  schema:identifier "mailto:peter.wilson@csiro.au"^^xsd:anyURI ;
+  schema:name "Peter Wilson" ;
+  schema:subjectOf <https://people-my.csiro.au/w/p/peter-wilson> ;
 .

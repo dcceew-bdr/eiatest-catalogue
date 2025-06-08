@@ -1625,7 +1625,7 @@ Australian Collaborative Land Use and Management Program (ACLUMP) partners have 
 <https://linked.data.gov.au/def/abares>
     a schema:Organization ;
     schema:name "Australian Bureau of Agricultural and Resource Economics and Sciences" ;
-    schema:parentOrganization <https://linked.data.gov.au/def/daff> ;
+    schema:parentOrganization <https://linked.data.gov.au/org/daff> ;
     schema:url "https://www.agriculture.gov.au/abares"^^xsd:anyURI ;
 .
 

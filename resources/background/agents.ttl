@@ -43,3 +43,191 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:name "Centre for Australian National Biodiversity Research" ;
     schema:url "https://www.anbg.gov.au/cpbr/index.html"^^xsd:anyURI ;
 .
+
+<https://orcid.org/0000-0001-5640-5910>
+    a schema:Person ;
+    schema:name "Elizabeth Wenk" ;
+    schema:email ""^^xsd:anyURI ;
+.
+
+
+<https://orcid.org/0000-0001-5728-9827>
+    a schema:Person ;
+    schema:name "Belinda Medlyn" ;
+    schema:email ""^^xsd:anyURI ;
+.
+
+
+<https://orcid.org/0000-0001-5945-438X>
+    a schema:Person ;
+    schema:name "Lydia Guja" ;
+    schema:email ""^^xsd:anyURI ;
+.
+
+
+<https://orcid.org/0000-0001-7328-345X>
+    a schema:Person ;
+    schema:name "Sophie Yang" ;
+    schema:email ""^^xsd:anyURI ;
+.
+
+
+<https://orcid.org/0000-0001-8305-3236>
+    a schema:Person ;
+    schema:name "Hervé Sauquet" ;
+    schema:email ""^^xsd:anyURI ;
+.
+
+
+<https://orcid.org/0000-0001-8338-9143>
+    a schema:Person ;
+    schema:name "Ian Wright" ;
+    schema:email ""^^xsd:anyURI ;
+.
+
+
+<https://orcid.org/0000-0001-9277-5142>
+    a schema:Person ;
+    schema:name "Rachael Nolan" ;
+    schema:email ""^^xsd:anyURI ;
+.
+
+
+<https://orcid.org/0000-0001-9353-0067>
+    a schema:Person ;
+    schema:name "Tom Le Breton" ;
+    schema:email ""^^xsd:anyURI ;
+.
+
+
+<https://orcid.org/0000-0002-0693-1899>
+    a schema:Person ;
+    schema:name "Linda Gregory" ;
+    schema:email ""^^xsd:anyURI ;
+.
+
+
+<https://orcid.org/0000-0002-0712-5143>
+    a schema:Person ;
+    schema:name "Lily Dun" ;
+    schema:email ""^^xsd:anyURI ;
+.
+
+
+<https://orcid.org/0000-0002-0962-5117>
+    a schema:Person ;
+    schema:name "Carl Gosper" ;
+    schema:email ""^^xsd:anyURI ;
+.
+
+
+<https://orcid.org/0000-0002-1773-6597>
+    a schema:Person ;
+    schema:name "David Coleman" ;
+    schema:email ""^^xsd:anyURI ;
+.
+
+
+<https://orcid.org/0000-0002-3046-0417>
+    a schema:Person ;
+    schema:name "Mark Ooi" ;
+    schema:email ""^^xsd:anyURI ;
+.
+
+
+<https://orcid.org/0000-0002-3767-2690>
+    a schema:Person ;
+    schema:name "Ruby E Stephens" ;
+    schema:email ""^^xsd:anyURI ;
+.
+
+
+<https://orcid.org/0000-0002-4680-8115>
+    a schema:Person ;
+    schema:name "Rachael Gallagher" ;
+    schema:email ""^^xsd:anyURI ;
+.
+
+
+<https://orcid.org/0000-0002-4964-6107>
+    a schema:Person ;
+    schema:name "Timothy Brodribb" ;
+    schema:email ""^^xsd:anyURI ;
+.
+
+
+<https://orcid.org/0000-0002-6012-8458>
+    a schema:Person ;
+    schema:name "Félix de Tombeur" ;
+    schema:email ""^^xsd:anyURI ;
+.
+
+
+<https://orcid.org/0000-0002-6033-2766>
+    a schema:Person ;
+    schema:name "Greg Jordan" ;
+    schema:email ""^^xsd:anyURI ;
+.
+
+
+<https://orcid.org/0000-0002-8766-2829>
+    a schema:Person ;
+    schema:name "Tony Auld" ;
+    schema:email ""^^xsd:anyURI ;
+.
+
+
+<https://orcid.org/0000-0002-9105-640X>
+    a schema:Person ;
+    schema:name "Brendan Choat" ;
+    schema:email ""^^xsd:anyURI ;
+.
+
+
+<https://orcid.org/0000-0002-9699-2272>
+    a schema:Person ;
+    schema:name "David Ellsworth" ;
+    schema:email ""^^xsd:anyURI ;
+.
+
+
+<https://orcid.org/0000-0002-9843-6616>
+    a schema:Person ;
+    schema:name "Karen D. Sommerville" ;
+    schema:email ""^^xsd:anyURI ;
+.
+
+
+<https://orcid.org/0000-0003-0360-8321>
+    a schema:Person ;
+    schema:name "Russell Barrett" ;
+    schema:email ""^^xsd:anyURI ;
+.
+
+
+<https://orcid.org/0000-0003-1116-9402>
+    a schema:Person ;
+    schema:name "Patricia Lu-Irving" ;
+    schema:email ""^^xsd:anyURI ;
+.
+
+
+<https://orcid.org/0000-0003-2008-7062>
+    a schema:Person ;
+    schema:name "Peter Vesk" ;
+    schema:email ""^^xsd:anyURI ;
+.
+
+
+<https://orcid.org/0000-0003-2120-0071>
+    a schema:Person ;
+    schema:name "Matt White" ;
+    schema:email ""^^xsd:anyURI ;
+.
+
+
+<https://orcid.org/0000-0003-3568-2606>
+    a schema:Person ;
+    schema:name "Andy Leigh" ;
+    schema:email ""^^xsd:anyURI ;
+.

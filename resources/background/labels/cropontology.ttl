@@ -42,3 +42,15 @@ PREFIX schema: <https://schema.org/>
 <https://cropontology.org/rdf/CO_357:0000535> schema:name "Crop Ontology: ETR" .
 <https://cropontology.org/rdf/CO_357:0000536> schema:name "Crop Ontology: Gs" .
 <https://cropontology.org/rdf/CO_357:0000539> schema:name "Crop Ontology: PhiPS2" .
+
+<http://www.cropontology.org/rdf/CO_320:0001061> schema:name "Crop Ontology: Canopy height" .
+<http://www.cropontology.org/rdf/CO_320:0001073> schema:name "Crop Ontology: Dry matter yield" .
+<http://www.cropontology.org/rdf/CO_320:0001115> schema:name "Crop Ontology: Transpiration rate" .
+<http://www.cropontology.org/rdf/CO_321:0000407> schema:name "Crop Ontology: Crop growth rate" .
+<http://www.cropontology.org/rdf/CO_325:0000361> schema:name "Crop Ontology: Plant density" .
+<http://www.cropontology.org/rdf/CO_327:0000141> schema:name "Crop Ontology: Grain weight" .
+<http://www.cropontology.org/rdf/CO_336:0000096> schema:name "Crop Ontology: Seed quality" .
+<http://www.cropontology.org/rdf/CO_338:0000023> schema:name "Crop Ontology: Plant height" .
+<http://www.cropontology.org/rdf/CO_338:0000088> schema:name "Crop Ontology: Root length density" .
+<http://www.cropontology.org/rdf/CO_339:0000147> schema:name "Crop Ontology: Root length density" .
+

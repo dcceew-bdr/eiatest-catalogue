@@ -1,4 +1,4 @@
-@prefix schema: <https://schema.org/> .
+PREFIX schema: <https://schema.org/>
 
 <http://qudt.org/vocab/unit/A> schema:name "ampere" .
 

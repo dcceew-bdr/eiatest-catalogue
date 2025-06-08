@@ -42,6 +42,19 @@ iris = [
     "https://cropontology.org/rdf/CO_357:0000536" ,
     "https://cropontology.org/rdf/CO_357:0000539" ,
 ]
+
+iris = [
+    "http://www.cropontology.org/rdf/CO_320:0001061" ,
+    "http://www.cropontology.org/rdf/CO_320:0001073" ,
+    "http://www.cropontology.org/rdf/CO_320:0001115" ,
+    "http://www.cropontology.org/rdf/CO_321:0000407" ,
+    "http://www.cropontology.org/rdf/CO_325:0000361" ,
+    "http://www.cropontology.org/rdf/CO_327:0000141" ,
+    "http://www.cropontology.org/rdf/CO_336:0000096" ,
+    "http://www.cropontology.org/rdf/CO_338:0000023" ,
+    "http://www.cropontology.org/rdf/CO_338:0000088" ,
+    "http://www.cropontology.org/rdf/CO_339:0000147" ,
+]
 from rdflib import Graph, Literal
 
 g = Graph()
@@ -70,4 +83,4 @@ q = """
     }
     """
 
-g.query(q).serialize(destination="co-labels.ttl", format="turtle")
+g.query(q).serialize(destination="coropontology.2.ttl", format="turtle")
