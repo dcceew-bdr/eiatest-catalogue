@@ -14,11 +14,11 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a owl:Ontology ;
     schema:dateCreated "2021-04-01"^^xsd:date ;
     schema:creator <http://orcid.org/0000-0002-8742-7730> ;
-    schema:dateModified "2025-06-04"^^xsd:date ;
+    schema:dateModified "2025-06-11"^^xsd:date ;
     schema:publisher <https://linked.data.gov.au/org/ga> ;
     schema:description "The Loc-I Data Profile SHACL validator." ;
     schema:name "Loc-I Data Profile Validator" ;
-    schema:version "2.1" ;
+    schema:version "2.2" ;
     schema:hasPart
         :Requirement-D-exists ,
         :Requirement-D-name ,
@@ -37,6 +37,13 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         :Requirement-F-part-of ,
         :Requirement-F-spatial ,
         :Requirement-G-representation ;
+    skos:historyNote """2025-06 2.2: fixed Dataset class targeting & allowed more temporal object types
+
+2025-06: Added a requirement for geometry representation as WKT; removed ID requirements
+
+2025-05: Update for maintenance by DCCEEW
+
+2022: Initial release for the Loc-I project""" ;
 .
 
 <https://linked.data.gov.au/org/ga>
@@ -195,11 +202,15 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :Requirement-D-temporal
 	a sh:NodeShape ;
-	sh:targetClass geo:Dataset ;
+	sh:targetClass schema:Dataset ;
     sh:property [
         sh:maxCount 1 ;
         sh:path time:hasTime ;
-        sh:class time:TemporalEntity ;
+        sh:or (
+            [ sh:class time:TemporalEntity ]
+            [ sh:class time:ProperInterval ]
+            [ sh:class time:Instant ]
+        ) ;
         sh:message "Requirement-D-temporal: A Dataset MAY indicate the total temporal range that the features within it occupy by using the time:hasTime predicate" ;
     ] ;
 .
@@ -260,7 +271,11 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     sh:property [
         sh:maxCount 1 ;
         sh:path time:hasTime ;
-        sh:class time:TemporalEntity ;
+        sh:or (
+            [ sh:class time:TemporalEntity ]
+            [ sh:class time:ProperInterval ]
+            [ sh:class time:Instant ]
+        ) ;
         sh:message "Requirement-FC-temporal: A Feature Collection MAY indicate the total temporal range that the features within it occupy by using the time:hasTime predicate" ;
     ] ;
 .
