@@ -252,6 +252,6 @@ if __name__ == "__main__":
         g.bind("tern", TERN)
         g.bind("alum", "https://linked.data.gov.au/def/alum/")
         g.bind("ss", "https://linked.data.gov.au/dataset/eiatest/ansis/SoilSites")
-        g.bind("ansisdata", "https://linked.data.gov.au/dataset/eiatest/ansis/")
+        g.bind("", "https://linked.data.gov.au/dataset/eiatest/ansis/")
 
     g.serialize(destination="ansis-data.2.ttl", format="longturtle")
