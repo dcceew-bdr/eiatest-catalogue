@@ -1,8 +1,10 @@
 import json
-from rdflib import Graph, URIRef, BNode, Literal, Namespace
-from rdflib.namespace import GEO, PROV, RDF, RDFS, SDO
-from _ANSIS import ANSIS
 from pathlib import Path
+
+from rdflib import Graph, URIRef, BNode, Literal, Namespace, XSD
+from rdflib.namespace import GEO, RDF, SDO, TIME
+
+from _ANSIS import ANSIS
 
 D = Namespace("https://linked.data.gov.au/dataset/eiatest/ansis/")
 TERN = Namespace("https://w3id.org/tern/ontologies/tern/")
@@ -33,10 +35,12 @@ ansis_namespaces = {
     "unit":     "https://qudt.org/2.1/vocab/unit/",
 }
 
+
 def make_iri(value):
     prefix, val = value.split(":")
     namespace = ansis_namespaces.get(prefix)
     return URIRef(f"{namespace}{val}")
+
 
 def make_quantity_value(g, value, unit) -> BNode:
     qv = BNode()
@@ -44,6 +48,7 @@ def make_quantity_value(g, value, unit) -> BNode:
     g.add((qv, SDO.value, Literal(value)))
     g.add((qv, SDO.unitCode, make_iri(unit)))
     return qv
+
 
 lu_land_uses = {
     "National/State Parks": URIRef("https://linked.data.gov.au/def/alum/1.1.3"),
@@ -59,6 +64,16 @@ lu_land_uses = {
     "vegetables/flowers": URIRef("https://linked.data.gov.au/def/alum/3.4"),
     "quarry/mining": URIRef("https://linked.data.gov.au/def/alum/5.8"),
 }
+
+
+def get_time():
+    for f in Path(__file__).parent.glob("3c*.json"):
+        data = json.load(open(f))
+
+        for d in data["data"]:
+            for sv in d["siteVisit"]:
+                return Literal(sv["startedAtTime"][:10], datatype=XSD.dateTime)
+
 
 if __name__ == "__main__":
     g = Graph()
@@ -141,12 +156,12 @@ if __name__ == "__main__":
                             depth = soil_profile.get("depth", None)
                             if depth is not None:
                                 depth_value = depth["result"]["value"]
-                                                            
+
                             # drainage
                             drainage = soil_profile.get("drainage", None)
                             if drainage is not None:
                                 drainage_value = drainage["result"]
-                                
+
                             # permeability
                             permeability = soil_profile.get("permeability", None)
                             if permeability is not None:
@@ -200,6 +215,10 @@ if __name__ == "__main__":
             # site visit
             # land surfaces
             for site_visit_value in site_visits:
+                t = BNode()
+                g.add((t, RDF.type, TIME.Instant))
+                g.add((t, TIME.inXSDDate, Literal(site_visit_value["startedAtTime"][:10], datatype=XSD.date)))
+                g.add((iri, TIME.hasTime, t))
                 for outcrop_type in outcrop_types:
                     g.add((iri, ANSIS.hasOutcrop, make_iri(outcrop_type)))
 
@@ -209,6 +228,7 @@ if __name__ == "__main__":
                 # soil profiles
                 for soil_profile_type in soil_profile_types:
                     sp = BNode()
+                    g.add((sp, RDF.type, ANSIS.SoilProfile))
                     g.add((iri, ANSIS.relatedProfile, sp))
 
                     # classification
@@ -234,5 +254,4 @@ if __name__ == "__main__":
         g.bind("ss", "https://linked.data.gov.au/dataset/eiatest/ansis/SoilSites")
         g.bind("ansisdata", "https://linked.data.gov.au/dataset/eiatest/ansis/")
 
-
-g.serialize(destination="ansis-data.ttl", format="turtle")
+    g.serialize(destination="ansis-data.2.ttl", format="longturtle")
