@@ -1,4 +1,4 @@
-data = open("../../resources/reference/vocabularies/envthes.ttl").read()
+data = open("../../resources/vocabularies/envthes.ttl").read()
 
 replacements = {
     "http://www.qudt.org/qudt/owl/1.0.0/unit/Instances.html#Abampere": "http://qudt.org/vocab/unit/A_Ab" ,
@@ -67,4 +67,4 @@ replacements = {
 for k, v in replacements.items():
     data = data.replace(k, v)
 
-open("../../resources/reference/vocabularies/envthes.2.ttl", "w").write(data)
+open("../../resources/vocabularies/envthes.2.ttl", "w").write(data)

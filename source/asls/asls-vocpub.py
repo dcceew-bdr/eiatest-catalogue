@@ -1,6 +1,6 @@
 from rdflib import Graph, Literal, RDF, SKOS
 
-g = Graph().parse("asls-soil-profile.ttl")
+g = Graph().parse("../../resources/vocabularies/asls-soil-profile.ttl")
 
 # for s in g.subjects(RDF.type, SKOS.Concept):
 #     if not g.value(subject=s, predicate=SKOS.definition):

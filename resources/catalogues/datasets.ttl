@@ -1,0 +1,30 @@
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<https://linked.data.gov.au/catalogue/eiatest-datasets>
+    a dcat:Catalog ;
+    skos:historyNote "This catalogue was created in May/June 2025 to test a proposed EIA Supermodel"@en ;
+    schema:codeRepository "https://github.com/dcceew-bdr/eiatest-catalogue" ;
+    schema:creator <https://kurrawong.ai> ;
+    schema:dateCreated "2025-05-11"^^xsd:date ;
+    schema:dateModified "2025-05-12"^^xsd:date ;
+    schema:description """Environmental Information Australia datasets.
+
+Part of the EIA Test Catalogue.""" ;
+    dcterms:hasPart
+        <https://w3id.org/APD/traits> ,
+        <https://linked.data.gov.au/dataset/eiatest/nsl> ,
+        <https://linked.data.gov.au/dataset/eiatest/ansis> ,
+        <https://linked.data.gov.au/dataset/eiatest/bdr-act> ,
+        <https://linked.data.gov.au/dataset/eiatest/hcas> ,
+        <https://linked.data.gov.au/dataset/eiatest/nvis> ,
+        <https://linked.data.gov.au/dataset/eiatest/ref-areas> ,
+        <https://linked.data.gov.au/dataset/eiatest/sprat> ;
+    schema:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
+    schema:name "EIA Test Dataset Catalogue" ;
+    schema:publisher <https://linked.data.gov.au/org/dcceew> ;
+    schema:version "2" ;
+.

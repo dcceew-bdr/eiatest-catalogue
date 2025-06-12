@@ -1,0 +1,29 @@
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<https://linked.data.gov.au/catalogue/eiatest-vocabs>
+    a dcat:Catalog ;
+    skos:historyNote "This catalogue was created in May/June 2025 to test a proposed EIA Supermodel"@en ;
+    schema:codeRepository "https://github.com/dcceew-bdr/eiatest-catalogue" ;
+    schema:creator <https://kurrawong.ai> ;
+    schema:dateCreated "2025-05-11"^^xsd:date ;
+    schema:dateModified "2025-05-12"^^xsd:date ;
+    schema:description """Environmental Information Australia vocabularies.
+
+Part of the EIA Test Catalogue.""" ;
+    dcterms:hasPart
+        <http://vocabs.lter-europe.net/EnvThes> ,
+        <https://linked.data.gov.au/def/alum> ,
+        <https://linked.data.gov.au/eia-dk> ,
+        <https://w3id.org/APD/glossary> ,
+        <http://anzsoil.org/def/au/asls/land-surface> ,
+        <http://anzsoil.org/def/au/asls/soil-profile> ,
+        <http://anzsoil.org/def/au/asls/substrate> ;
+    schema:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
+    schema:name "EIA Test Vocabularies Catalogue" ;
+    schema:publisher <https://linked.data.gov.au/org/dcceew> ;
+    schema:version "2" ;
+.

@@ -16,6 +16,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:publisher <https://linked.data.gov.au/org/dcceew> ;
     geo:hasBoundingBox [
         a geo:Geometry ;
-        geo:asWKT "POLYGON ((148.75 -35.12, 148.75 -35.95, 149.425 -35.95, 149.425 -35.12, 148.75 -35.12))"^^geo:wktLiteral ;  # all of Australia
+        geo:asWKT "POLYGON ((148.75 -35.12, 148.75 -35.95, 149.425 -35.95, 149.425 -35.12, 148.75 -35.12))"^^geo:wktLiteral ;  # ACT BB
     ] ;
 .

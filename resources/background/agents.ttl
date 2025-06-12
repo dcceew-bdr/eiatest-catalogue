@@ -12,7 +12,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 <https://austraits.org>
     a schema:Organization ;
     schema:name "AusTraits" ;
-    schema:description "AusTraits is an open-source, harmonized database of Australian plant trait data." ;
+    schema:description "AusTraits is an open-source, harmonized database of Australian plant trait data" ;
     schema:url "https://austraits.org/"^^xsd:anyURI ;
 .
 
@@ -44,6 +44,14 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:url "https://www.anbg.gov.au/cpbr/index.html"^^xsd:anyURI ;
 .
 
+
+<https://kurrawong.ai>
+    a schema:Organization ;
+    schema:name "KurrawongAI" ;
+    schema:url "https://kurrawong.ai"^^xsd:anyURI ;
+.
+
+
 <https://orcid.org/0000-0001-5640-5910>
     a schema:Person ;
     schema:name "Elizabeth Wenk" ;
@@ -63,7 +71,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:name "Lydia Guja" ;
     schema:email ""^^xsd:anyURI ;
 .
-
 
 <https://orcid.org/0000-0001-7328-345X>
     a schema:Person ;

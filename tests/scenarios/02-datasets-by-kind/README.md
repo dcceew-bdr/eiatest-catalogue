@@ -4,9 +4,15 @@
 
 ### Description
 
+This scenario indicates what datasets are available by kind - a single vocabulary environmental domain classification of all EIA datasets.
+
 ### Purpose
 
+Shows integration of all EIA data on an environmental classification dimension, albeit a simple one.
+
 ### Logic
+
+
 
 ### Steps
 

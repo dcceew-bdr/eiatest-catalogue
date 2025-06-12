@@ -1,8 +1,9 @@
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
 PREFIX schema: <https://schema.org/>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://linked.data.gov.au/dataset/eiatest/nsl>
-    a schema:CreativeWork ;
+    a dcat:Dataset ;
     schema:name "National Species List" ;
     schema:description """The National Species List (NSL) is an aggregate datasets comprising 12 datasets:
 
@@ -16,24 +17,24 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 * Australian Lichen Checklist (ALC)
 * Australian Plant Census (APC)
 * Australian Plant Name Index (APNI)
-* Catalogue of Australian Bryophytes (CAB)
-""" ;
+* Catalogue of Australian Bryophytes (CAB)""" ;
     schema:creator <https://linked.data.gov.au/org/canbr> ;
     schema:publisher <https://linked.data.gov.au/org/dcceew> ;
     schema:dateCreated "2025-01-15"^^xsd:date ;
-    schema:dateModified "2025-05-30"^^xsd:date ;
-    schema:hasPart
-        <https://linked.data.gov.au/dataset/aal> ,
-        <https://linked.data.gov.au/dataset/aani> ,
-        <https://linked.data.gov.au/dataset/abni> ,
-        <https://linked.data.gov.au/dataset/afd> ,
-        <https://linked.data.gov.au/dataset/afl> ,
-        <https://linked.data.gov.au/dataset/afni> ,
-        <https://linked.data.gov.au/dataset/alni> ,
-        <https://linked.data.gov.au/dataset/alc> ,
-        <https://linked.data.gov.au/dataset/apc> ,
-        <https://linked.data.gov.au/dataset/apni> ,
-        <https://linked.data.gov.au/dataset/cab> ;
+    schema:dateModified "2025-06-13"^^xsd:date ;
+#    schema:hasPart
+#        <https://linked.data.gov.au/dataset/aal> ,
+#        <https://linked.data.gov.au/dataset/aani> ,
+#        <https://linked.data.gov.au/dataset/abni> ,
+#        <https://linked.data.gov.au/dataset/afd> ,
+#        <https://linked.data.gov.au/dataset/afl> ,
+#        <https://linked.data.gov.au/dataset/afni> ,
+#        <https://linked.data.gov.au/dataset/alni> ,
+#        <https://linked.data.gov.au/dataset/alc> ,
+#        <https://linked.data.gov.au/dataset/apc> ,
+#        <https://linked.data.gov.au/dataset/apni> ,
+#        <https://linked.data.gov.au/dataset/cab> ;
     schema:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
     schema:citation "This dataset was created for the EIA Test Catalogue in 2025" ;
+    schema:version "1" ;
 .
