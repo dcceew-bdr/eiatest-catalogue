@@ -18,5 +18,5 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
     schema:name "EIA Test Catalogue" ;
     schema:publisher <https://linked.data.gov.au/org/dcceew> ;
-    schema:version "4" ;
+    schema:version "5" ;
 .

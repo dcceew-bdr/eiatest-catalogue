@@ -24,5 +24,5 @@ Part of the EIA Test Catalogue.""" ;
     schema:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
     schema:name "EIA Test Dataset Catalogue" ;
     schema:publisher <https://linked.data.gov.au/org/dcceew> ;
-    schema:version "4" ;
+    schema:version "5" ;
 .
