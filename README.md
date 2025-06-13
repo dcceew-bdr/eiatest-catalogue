@@ -50,8 +50,11 @@ Environment Information Australia
 
 To establish a Prez system loaded with all this data:
 
-1. post the custom Prez endpoints definition to the Prez system
+1. ensure Prez has the `CUSTOM_ENDPOINT=true` environment variable set
+2. clear the DB
+    * `kurra db sparql "DROP ALL" SPARQL_ENDPOINT -u xxx -p yyy`
+3. post the custom Prez endpoints definition to the Prez system
     * `kurra db upload config/prez-endpoints.ttl SPARQL_ENDPOINT -u xxx -p yyy`
-2. sync the data up
+4. sync the data up
     * `pm sync manifest.ttl SPARQL_ENDPOINT -u xxx -p yyy`
-3. Restart Prez
+5. Restart Prez

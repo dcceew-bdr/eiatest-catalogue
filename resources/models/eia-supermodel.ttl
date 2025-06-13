@@ -7,6 +7,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:description """This multi-part enterprise data model...""" ;
     schema:creator <https://kurrawong.ai> ;
     schema:publisher <https://linked.data.gov.au/org/agldwg> ;
-    schema:dateCreated ""^^xsd:date ;
-    schema:dateModified ""^^xsd:date ;
+    schema:dateCreated "2025-06-01"^^xsd:date ;
+    schema:dateModified "2025-06-13"^^xsd:date ;
+    schema:version "1" ;
 .

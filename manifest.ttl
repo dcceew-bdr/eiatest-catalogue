@@ -35,7 +35,7 @@ PREFIX schema: <https://schema.org/>
         ] ,
         [
             # dcterms:conformsTo <https://w3id.org/profile/vocpub> ;
-            prof:hasArtifact "resources/models/*.tll" ;
+            prof:hasArtifact "resources/models/*.ttl" ;
             prof:hasRole <https://prez.dev/ManifestResourceRoles/ResourceData> ;
             schema:description "EIA Models" ;
             schema:name "Models" ;

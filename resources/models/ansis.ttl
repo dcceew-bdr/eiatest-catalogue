@@ -715,6 +715,7 @@ Uses: Australian soil classification / R.F. Isbell (Raymond Frederick Isbell) an
   skos:scopeNote """1. usage of properties is encoded using schema:domainIncludes and schema:rangeIncludes annotations, generally in preference to rdfs:domain and rdfs:range
 
 2. Most classes are also tagged type=skos:Collection, and properties are tagged type=skos:Concept, with skos:member-ship arranged to support presentation of the Ontology in a simplified view in Research Vocabularies Australia - https://demo.vocabs.ardc.edu.au/viewById/966""" ;
+  schema:version "1" ;
 .
 ansis:ASC-SoilClassification
   a owl:Class ;
