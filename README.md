@@ -43,5 +43,15 @@ Environment Information Australia
 | Reference Vocabularies:<br />[`resources/reference/*.ttl`](resources/reference/*.ttl)                                                                                                                     | [Resource Data](https://prez.dev/ManifestResourceRoles/ResourceData)                                                | EIA Reference Vocabularies                                                               |
 | Spatial Datasets:<br />[`https--linked.data.gov.au-def-eia-supermodel.ttl`](https--linked.data.gov.au-def-eia-supermodel.ttl)<br />[`resources/datasets/spatial/*.ttl`](resources/datasets/spatial/*.ttl) | [Resource Data](https://prez.dev/ManifestResourceRoles/ResourceData)                                                | Spatial EIA Datasets                                                                     |
 | Non-Spatial Datasets:<br />[`resources/datasets/non-spatial/*.ttl`](resources/datasets/non-spatial/*.ttl)                                                                                                 | [Resource Data](https://prez.dev/ManifestResourceRoles/ResourceData)                                                | Non-spatial EIA Datasets                                                                 |
-| Catalogue Definition:<br />[`catalogue.ttl`](resources/catalogues/catalogue.ttl)                                                                                                                                               | [Catalogue Data](https://prez.dev/ManifestResourceRoles/CatalogueData)                                              | The definition of, and medata for, the container which here is a dcat:Catalog object     |
+| Catalogue Definition:<br />[`catalogue.ttl`](resources/catalogues/catalogue.ttl)                                                                                                                          | [Catalogue Data](https://prez.dev/ManifestResourceRoles/CatalogueData)                                              | The definition of, and medata for, the container which here is a dcat:Catalog object     |
 | Background Details:<br />[`resources/background/*.ttl`](resources/background/*.ttl)                                                                                                                       | [Complete Catalogue and Resource Labels](https://prez.dev/ManifestResourceRoles/CompleteCatalogueAndResourceLabels) | Files containing all the labels and vocab inScheme predicates for the resources' content |
+
+### Installation
+
+To establish a Prez system loaded with all this data:
+
+1. post the custom Prez endpoints definition to the Prez system
+    * `kurra db upload config/prez-endpoints.ttl SPARQL_ENDPOINT -u xxx -p yyy`
+2. sync the data up
+    * `pm sync manifest.ttl SPARQL_ENDPOINT -u xxx -p yyy`
+3. Restart Prez
