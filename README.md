@@ -50,11 +50,20 @@ Environment Information Australia
 
 To establish a Prez system loaded with all this data:
 
-1. ensure Prez has the `CUSTOM_ENDPOINT=true` environment variable set
-2. clear the DB
-    * `kurra db sparql "DROP ALL" SPARQL_ENDPOINT -u xxx -p yyy`
-3. post the custom Prez endpoints definition to the Prez system
-    * `kurra db upload config/prez-endpoints.ttl SPARQL_ENDPOINT -u xxx -p yyy`
+1. Run Prez as per the [prezdemo repository](https://github.com/Kurrawong/prezdemo)
+   * ensure Prez has the `CUSTOM_ENDPOINT=true` environment variable set in the [docker/compose.yml](https://github.com/Kurrawong/prezdemo/blob/main/docker/compose.yml#L20-L22) file
+
+Once running:
+
+2. clear the DB 
+   * via the Fuseki UI or using [kurra](https://pypi.org/project/kurra/)
+       * `kurra db sparql "DROP ALL" SPARQL_ENDPOINT -u xxx -p yyy`
+3. load custom Prez endpoints definition
+   * via the Fuseki UI or using [kurra](https://pypi.org/project/kurra/)
+       * `kurra db upload config/prez-endpoints.ttl SPARQL_ENDPOINT -u xxx -p yyy`
 4. sync the data up
+   * use [PrezManifest](https://github.com/Kurrawong/prezmanifest)
     * `pm sync manifest.ttl SPARQL_ENDPOINT -u xxx -p yyy`
 5. Restart Prez
+
+Go to <http://localhost:3000>
