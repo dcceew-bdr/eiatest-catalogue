@@ -293,7 +293,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 <mailto:peter.wilson@csiro.au>
   a schema:Person ;
   schema:affiliation <https://linked.data.gov.au/org/csiro> ;
-  schema:email "peter.wilson@csiro.au" ;
+  schema:email "peter.wilson@csiro.au"^^xsd:anyURI ;
   schema:identifier "mailto:peter.wilson@csiro.au"^^xsd:anyURI ;
   schema:name "Peter Wilson" ;
   schema:subjectOf <https://people-my.csiro.au/w/p/peter-wilson> ;
@@ -332,5 +332,20 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 <https://ror.org/05qbzwv83>
   a schema:Organization ;
   schema:name "Federation University" ;
-  schema:url <https://federation.edu.au/> ;
+  schema:url "https://federation.edu.au/"^^xsd:anyURI ;
+.
+
+<https://orcid.org/0000-0002-8742-7730>
+    a schema:Person ;
+    schema:email "nick@kurrawong.ai"^^xsd:anyURI ;
+    schema:memberOf <https://linked.data.gov.au/org/agldwg> ;
+    schema:name "Nicholas Car" ;
+    schema:url "https://kurrawong.ai"^^xsd:anyURI ;
+.
+
+<https://linked.data.gov.au/def/abares>
+    a schema:Organization ;
+    schema:name "Australian Bureau of Agricultural and Resource Economics and Sciences" ;
+    schema:parentOrganization <https://linked.data.gov.au/org/daff> ;
+    schema:url "https://www.agriculture.gov.au/abares"^^xsd:anyURI ;
 .

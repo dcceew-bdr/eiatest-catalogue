@@ -32,12 +32,12 @@
 
 <https://anzsoil.org/def/au/domain>
   a owl:Ontology ;
-  dcterms:contributor <https://orcid.org/0000-0002-0693-1899> ;
-  dcterms:contributor <https://orcid.org/0000-0003-1625-1253> ;
-  dcterms:contributor <mailto:peter.wilson@csiro.au> ;
-  dcterms:creator <https://orcid.org/0000-0002-2991-2308> ;
-  dcterms:creator <https://orcid.org/0000-0002-3884-3420> ;
-  dcterms:publisher <https://linked.data.gov.au/org/csiro> ;
+  schema:contributor <https://orcid.org/0000-0002-0693-1899> ;
+  schema:contributor <https://orcid.org/0000-0003-1625-1253> ;
+  schema:contributor <mailto:peter.wilson@csiro.au> ;
+  schema:creator <https://orcid.org/0000-0002-2991-2308> ;
+  schema:creator <https://orcid.org/0000-0002-3884-3420> ;
+  schema:publisher <https://linked.data.gov.au/org/csiro> ;
   skos:definition """A domain-model for Australian soil data, including observations and sampling.
 
 This domain model was developed in 2022 for the Australian National Soil Information System (ANSIS).

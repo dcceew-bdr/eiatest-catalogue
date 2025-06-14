@@ -1614,21 +1614,6 @@ Australian Collaborative Land Use and Management Program (ACLUMP) partners have 
     skos:prefLabel "Estuary or coastal waters intensive use"@en ;
 .
 
-<https://orcid.org/0000-0002-3884-3420>
-    a schema:Person ;
-    schema:email "nick@kurrawong.ai"^^xsd:anyURI ;
-    schema:memberOf <https://linked.data.gov.au/org/agldwg> ;
-    schema:name "Nicholas Car" ;
-    schema:url "https://kurrawong.ai"^^xsd:anyURI ;
-.
-
-<https://linked.data.gov.au/def/abares>
-    a schema:Organization ;
-    schema:name "Australian Bureau of Agricultural and Resource Economics and Sciences" ;
-    schema:parentOrganization <https://linked.data.gov.au/org/daff> ;
-    schema:url "https://www.agriculture.gov.au/abares"^^xsd:anyURI ;
-.
-
 :2
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
@@ -2282,7 +2267,7 @@ cs:
     skos:historyNote "Version 8: This version of the vocabulary is a structurally updated form - no content changes - of the original NEII vocabulary called Australian Land Use and Management Classification online via the Research Vocabularies Australia portal at https://vocabs.ardc.edu.au/viewById/193. That version's IRIs do not resolve. This version should be used. This version still represents ALUM v8" ;
     skos:prefLabel "Australian Land Use and Management Classification"@en ;
     schema:citation "https://www.agriculture.gov.au/abares/aclump/land-use/alum-classification/alum-classes"^^xsd:anyURI ;
-    schema:contributor <https://orcid.org/0000-0002-3884-3420> ;
+    schema:contributor <https://orcid.org/0000-0002-8742-7730> ;
     schema:creator <https://linked.data.gov.au/def/abares> ;
     schema:dateCreated "2017-12-06"^^xsd:date ;
     schema:dateIssued "2016-10-01"^^xsd:date ;

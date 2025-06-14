@@ -1300,19 +1300,19 @@ ets:Traitdata
 
 ets:
     a owl:Ontology ;
-    dcterms:contributor <https://orcid.org/0000-0002-0829-5849> ;
-    dcterms:creator
+    schema:contributor <https://orcid.org/0000-0002-0829-5849> ;
+    schema:creator
         <https://orcid.org/0000-0002-2033-779X> ,
         <https://orcid.org/0000-0002-8170-6659> ,
         <https://orcid.org/0000-0003-3036-6284> ,
         <https://orcid.org/0000-0002-1643-6023> ,
         <https://orcid.org/0000-0002-8728-1145> ,
         <https://orcid.org/0000-0002-2718-7050> ;
-    dcterms:publisher <https://terminologies.gfbio.org> ;
+    schema:publisher <https://terminologies.gfbio.org> ;
     owl:versionIRI <http://terminologies.gfbio.org/terms/ets/2019-03-15/ets.owl> ;
     owl:versionInfo "0.10" ;
     schema:dateCreated "2018-01-01"^^xsd:date ;
-    schema:dateModified "2019-03-25"^^xsd:date ;
+    schema:dateModified "2025-06-14"^^xsd:date ;
     schema:dateIssued "2019-03-25"^^xsd:date ;
     schema:citation "Schneider, F.D., Jochum, M., Le Provost, G., Ostrowski, A., Penone, C. and Simons, N.K. (2019) Ecological Trait-data Standard Vocabulary, v0.10, URL: https://terminologies.gfbio.org/terms/ets/pages/ , DOI: 10.5281/zenodo.2605377" ;
     schema:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
