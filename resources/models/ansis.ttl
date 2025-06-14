@@ -30,665 +30,15 @@
 @prefix time: <http://www.w3.org/2006/time#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-schema:domainIncludes
-  a owl:ObjectProperty ;
-.
-schema:rangeIncludes
-  a owl:ObjectProperty ;
-.
-geo:Feature
-  a skos:Collection ;
-  skos:member geo:hasGeometry ;
-  skos:member ansis:depth ;
-  skos:member ansis:depth-lower ;
-  skos:member ansis:depth-upper ;
-  skos:prefLabel "Feature"@en ;
-.
-geo:Geometry
-  skos:prefLabel "Geometry"@en ;
-.
-geo:hasGeometry
-  a skos:Concept ;
-  a sosa:ObservableProperty ;
-  schema:domainIncludes geo:Feature ;
-  schema:domainIncludes ansis:LandsurveySite ;
-  schema:domainIncludes ansis:SoilBody ;
-  schema:domainIncludes ansis:SoilProfile ;
-  schema:domainIncludes ansis:SoilSite ;
-  schema:rangeIncludes sf:Point ;
-  skos:prefLabel "has geometry"@en ;
-.
-prov:Activity
-  a owl:Class ;
-  dcterms:source <https://www.w3.org/TR/prov-o/> ;
-  rdfs:isDefinedBy <http://www.w3.org/ns/prov-o#> ;
-  rdfs:label "Activity" ;
-  rdfs:seeAlso <https://www.w3.org/TR/prov-o/> ;
-  rdfs:subClassOf owl:Thing ;
-  rdfs:subClassOf [
-      a owl:Restriction ;
-      owl:maxCardinality "1"^^xsd:nonNegativeInteger ;
-      owl:onProperty ansis:relatedProject ;
-    ] ;
-  owl:disjointWith prov:Entity ;
-  prov:category "starting-point" ;
-  prov:component "entities-activities" ;
-  prov:constraints "http://www.w3.org/TR/2013/REC-prov-constraints-20130430/#prov-dm-constraints-fig"^^xsd:anyURI ;
-  prov:definition "An activity is something that occurs over a period of time and acts upon or with entities; it may include consuming, processing, transforming, modifying, relocating, using, or generating entities." ;
-  prov:dm "http://www.w3.org/TR/2013/REC-prov-dm-20130430/#term-Activity"^^xsd:anyURI ;
-  prov:n "http://www.w3.org/TR/2013/REC-prov-n-20130430/#expression-Activity"^^xsd:anyURI ;
-.
-sosa:Actuation
-  a owl:Class ;
-  a skos:Collection ;
-  dcterms:source <https://www.w3.org/TR/vocab-ssn/> ;
-  rdfs:isDefinedBy sosa: ;
-  rdfs:label "Actuation"@en ;
-  rdfs:seeAlso <https://www.w3.org/TR/vocab-ssn/> ;
-  rdfs:subClassOf owl:Thing ;
-  rdfs:subClassOf [
-      a owl:Restriction ;
-      owl:allValuesFrom sosa:ActuatableProperty ;
-      owl:onProperty sosa:actsOnProperty ;
-    ] ;
-  rdfs:subClassOf [
-      a owl:Restriction ;
-      owl:allValuesFrom sosa:Actuator ;
-      owl:onProperty sosa:madeByActuator ;
-    ] ;
-  rdfs:subClassOf [
-      a owl:Restriction ;
-      owl:allValuesFrom sosa:FeatureOfInterest ;
-      owl:onProperty sosa:hasFeatureOfInterest ;
-    ] ;
-  rdfs:subClassOf [
-      a owl:Restriction ;
-      owl:allValuesFrom sosa:Procedure ;
-      owl:onProperty sosa:usedProcedure ;
-    ] ;
-  rdfs:subClassOf [
-      a owl:Restriction ;
-      owl:allValuesFrom sosa:Result ;
-      owl:onProperty sosa:hasResult ;
-    ] ;
-  rdfs:subClassOf [
-      a owl:Restriction ;
-      owl:cardinality "1"^^xsd:nonNegativeInteger ;
-      owl:onProperty sosa:hasFeatureOfInterest ;
-    ] ;
-  rdfs:subClassOf [
-      a owl:Restriction ;
-      owl:cardinality "1"^^xsd:nonNegativeInteger ;
-      owl:onProperty sosa:madeByActuator ;
-    ] ;
-  rdfs:subClassOf [
-      a owl:Restriction ;
-      owl:cardinality "1"^^xsd:nonNegativeInteger ;
-      owl:onProperty sosa:resultTime ;
-    ] ;
-  rdfs:subClassOf [
-      a owl:Restriction ;
-      owl:minCardinality "1"^^xsd:nonNegativeInteger ;
-      owl:onProperty sosa:actsOnProperty ;
-    ] ;
-  rdfs:subClassOf [
-      a owl:Restriction ;
-      owl:minCardinality "1"^^xsd:nonNegativeInteger ;
-      owl:onProperty sosa:hasResult ;
-    ] ;
-  skos:definition """An Actuation carries out an (Actuation) Procedure to change the state of the world using an Actuator.
-
-![Actuation - class diagram](https://raw.githubusercontent.com/ANZSoilData/def-au-domain/main/fig/Actuation.png)"""@en ;
-  skos:example "The activity of automatically closing a window if the temperature in a room drops below 20 degree Celsius. The activity is the Actuation and the device that closes the window is the Actuator. The Procedure is the rule, plan, or specification that defines the conditions that triggers the Actuation, here a drop in temperature. "@en ;
-  skos:member sosa:actsOnProperty ;
-  skos:member sosa:hasFeatureOfInterest ;
-  skos:member sosa:madeByActuator ;
-  skos:member sosa:resultTime ;
-  skos:member sosa:usedProcedure ;
-  skos:prefLabel "Actuation"@en ;
-.
-sosa:FeatureOfInterest
-  a owl:Class ;
-  dcterms:source <https://www.w3.org/TR/vocab-ssn/> ;
-  rdfs:comment "The thing whose property is being estimated or calculated in the course of an Observation to arrive at a Result or whose property is being manipulated by an Actuator, or which is being sampled or transformed in an act of Sampling."@en ;
-  rdfs:isDefinedBy sosa: ;
-  rdfs:label "Feature Of Interest"@en ;
-  rdfs:seeAlso <https://www.w3.org/TR/vocab-ssn/> ;
-  rdfs:subClassOf owl:Thing ;
-  rdfs:subClassOf [
-      a owl:Restriction ;
-      owl:allValuesFrom sosa:Sample ;
-      owl:onProperty sosa:hasSample ;
-    ] ;
-  rdfs:subClassOf [
-      a owl:Restriction ;
-      owl:allValuesFrom ssn:Property ;
-      owl:onProperty ssn:hasProperty ;
-    ] ;
-  rdfs:subClassOf [
-      a owl:Restriction ;
-      owl:minCardinality "1"^^xsd:nonNegativeInteger ;
-      owl:onProperty ssn:hasProperty ;
-    ] ;
-  skos:definition "The thing whose property is being estimated or calculated in the course of an Observation to arrive at a Result or whose property is being manipulated by an Actuator, or which is being sampled or transformed in an act of Sampling."@en ;
-  skos:example "When measuring the height of a tree, the height is the observed ObservableProperty, 20m may be the Result of the Observation, and the tree is the FeatureOfInterest. A window is a FeatureOfInterest for an automatic window control Actuator."@en ;
-.
-sosa:Observation
-  a owl:Class ;
-  a skos:Collection ;
-  dcterms:source <https://www.w3.org/TR/vocab-ssn/> ;
-  rdfs:isDefinedBy sosa: ;
-  rdfs:label "Observation"@en ;
-  rdfs:seeAlso <https://www.w3.org/TR/vocab-ssn/> ;
-  rdfs:subClassOf owl:Thing ;
-  rdfs:subClassOf [
-      a owl:Restriction ;
-      owl:allValuesFrom sosa:FeatureOfInterest ;
-      owl:onProperty sosa:hasFeatureOfInterest ;
-    ] ;
-  rdfs:subClassOf [
-      a owl:Restriction ;
-      owl:allValuesFrom sosa:ObservableProperty ;
-      owl:onProperty sosa:observedProperty ;
-    ] ;
-  rdfs:subClassOf [
-      a owl:Restriction ;
-      owl:allValuesFrom sosa:Procedure ;
-      owl:onProperty sosa:usedProcedure ;
-    ] ;
-  rdfs:subClassOf [
-      a owl:Restriction ;
-      owl:allValuesFrom sosa:Result ;
-      owl:onProperty sosa:hasResult ;
-    ] ;
-  rdfs:subClassOf [
-      a owl:Restriction ;
-      owl:allValuesFrom sosa:Sensor ;
-      owl:onProperty sosa:madeBySensor ;
-    ] ;
-  rdfs:subClassOf [
-      a owl:Restriction ;
-      owl:allValuesFrom ssn:Stimulus ;
-      owl:onProperty ssn:wasOriginatedBy ;
-    ] ;
-  rdfs:subClassOf [
-      a owl:Restriction ;
-      owl:cardinality "1"^^xsd:nonNegativeInteger ;
-      owl:onProperty sosa:hasFeatureOfInterest ;
-    ] ;
-  rdfs:subClassOf [
-      a owl:Restriction ;
-      owl:cardinality "1"^^xsd:nonNegativeInteger ;
-      owl:onProperty sosa:madeBySensor ;
-    ] ;
-  rdfs:subClassOf [
-      a owl:Restriction ;
-      owl:cardinality "1"^^xsd:nonNegativeInteger ;
-      owl:onProperty sosa:observedProperty ;
-    ] ;
-  rdfs:subClassOf [
-      a owl:Restriction ;
-      owl:cardinality "1"^^xsd:nonNegativeInteger ;
-      owl:onProperty sosa:phenomenonTime ;
-    ] ;
-  rdfs:subClassOf [
-      a owl:Restriction ;
-      owl:cardinality "1"^^xsd:nonNegativeInteger ;
-      owl:onProperty sosa:resultTime ;
-    ] ;
-  rdfs:subClassOf [
-      a owl:Restriction ;
-      owl:cardinality "1"^^xsd:nonNegativeInteger ;
-      owl:onProperty ssn:wasOriginatedBy ;
-    ] ;
-  rdfs:subClassOf [
-      a owl:Restriction ;
-      owl:minCardinality "1"^^xsd:nonNegativeInteger ;
-      owl:onProperty sosa:hasResult ;
-    ] ;
-  rdfs:subClassOf [
-      a owl:Restriction ;
-      owl:onProperty ansis:relatedActivity ;
-      owl:someValuesFrom ansis:SiteVisit ;
-    ] ;
-  rdfs:subClassOf [
-      a owl:Restriction ;
-      owl:onProperty ansis:relatedActivity ;
-      owl:someValuesFrom ansis:SiteVisit ;
-    ] ;
-  skos:definition """Act of carrying out an (Observation) Procedure to estimate or calculate a value of a property of a FeatureOfInterest. Links to a Sensor to describe what made the Observation and how; links to an ObservableProperty to describe what the result is an estimate of, and to a FeatureOfInterest to detail what that property was associated with.
-
-![Observation - class diagram](https://raw.githubusercontent.com/ANZSoilData/def-au-domain/main/fig/Observation.png)"""@en ;
-  skos:example "The activity of estimating the intensity of an Earthquake using the Mercalli intensity scale is an Observation as is measuring the moment magnitude, i.e., the energy released by said earthquake."@en ;
-  skos:member sosa:hasFeatureOfInterest ;
-  skos:member sosa:hasResult ;
-  skos:member sosa:hasSimpleResult ;
-  skos:member sosa:madeBySensor ;
-  skos:member sosa:observedProperty ;
-  skos:member sosa:phenomenonTime ;
-  skos:member sosa:resultTime ;
-  skos:member sosa:usedProcedure ;
-  skos:member ansis:relatedProject ;
-  skos:member proj:Project ;
-  skos:prefLabel "Observation"@en ;
-.
-sosa:Sample
-  a owl:Class ;
-  a skos:Collection ;
-  dcterms:source <https://www.w3.org/TR/vocab-ssn/> ;
-  rdfs:comment "A Sample is the result from an act of Sampling."@en ;
-  rdfs:comment "Feature which is intended to be representative of a FeatureOfInterest on which Observations may be made."@en ;
-  rdfs:comment "Physical samples are sometimes known as 'specimens'."@en ;
-  rdfs:comment """Samples are artifacts of an observational strategy, and have no significant function outside of their role in the observation process. The characteristics of the samples themselves are of little interest, except perhaps to the manager of a sampling campaign.
-
-A Sample is intended to sample some FatureOfInterest, so there is an expectation of at least one isSampleOf property. However, in some cases the identity, and even the exact type, of the sampled feature may not be known when observations are made using the sampling features."""@en ;
-  rdfs:isDefinedBy sosa: ;
-  rdfs:label "Sample"@en ;
-  rdfs:seeAlso <https://www.w3.org/TR/vocab-ssn/> ;
-  rdfs:subClassOf sosa:FeatureOfInterest ;
-  rdfs:subClassOf sosa:Result ;
-  rdfs:subClassOf [
-      a owl:Restriction ;
-      owl:allValuesFrom sosa:FeatureOfInterest ;
-      owl:onProperty sosa:isSampleOf ;
-    ] ;
-  rdfs:subClassOf [
-      a owl:Restriction ;
-      owl:allValuesFrom sosa:Sampling ;
-      owl:onProperty sosa:isResultOf ;
-    ] ;
-  rdfs:subClassOf [
-      a owl:Restriction ;
-      owl:minCardinality "1"^^xsd:nonNegativeInteger ;
-      owl:onProperty sosa:isResultOf ;
-    ] ;
-  rdfs:subClassOf [
-      a owl:Restriction ;
-      owl:minCardinality "1"^^xsd:nonNegativeInteger ;
-      owl:onProperty sosa:isSampleOf ;
-    ] ;
-  skos:definition "Feature which is intended to be representative of a FeatureOfInterest on which Observations may be made."@en ;
-  skos:example "A 'station' is essentially an identifiable locality where a sensor system or Procedure may be deployed and an observation made. In the context of the observation model, it connotes the 'world in the vicinity of the station', so the observed properties relate to the physical medium at the station, and not to any physical artifact such as a mooring, buoy, benchmark, monument, well, etc."@en ;
-  skos:example "A statistical sample is often designed to be characteristic of an entire population, so that observations can be made regarding the sample that provide a good estimate of the properties of the population."@en ;
-  skos:member sosa:isFeatureOfInterestOf ;
-  skos:member sosa:isResultOf ;
-  skos:member sosa:isSampleOf ;
-  skos:prefLabel "Sample"@en ;
-  skos:scopeNote "A transient sample, such as a ships-track or flight-line, might be identified and described, but is unlikely to be revisited exactly."@en ;
-.
-sosa:Sampler
-  a owl:Class ;
-  dcterms:source <https://www.w3.org/TR/vocab-ssn/> ;
-  rdfs:comment "A device that is used by, or implements, a Sampling Procedure to create or transform one or more samples."@en ;
-  rdfs:isDefinedBy sosa: ;
-  rdfs:label "Sampler"@en ;
-  rdfs:seeAlso <https://www.w3.org/TR/vocab-ssn/> ;
-  rdfs:subClassOf ssn:System ;
-  rdfs:subClassOf [
-      a owl:Restriction ;
-      owl:allValuesFrom sosa:Sampling ;
-      owl:onProperty sosa:madeSampling ;
-    ] ;
-  rdfs:subClassOf [
-      a owl:Restriction ;
-      owl:minCardinality "1"^^xsd:nonNegativeInteger ;
-      owl:onProperty ssn:implements ;
-    ] ;
-  skos:definition "A device that is used by, or implements, a Sampling Procedure to create or transform one or more samples."@en ;
-  skos:example "A ball mill, diamond drill, hammer, hypodermic syringe and needle, image Sensor or a soil auger can all act as sampling devices (i.e., be Samplers). However, sometimes the distinction between the Sampler and the Sensor is not evident, as they are packaged as a unit. A Sampler need not be a physical device."@en ;
-.
-sosa:Sampling
-  a owl:Class ;
-  a skos:Collection ;
-  dcterms:source <https://www.w3.org/TR/vocab-ssn/> ;
-  rdfs:isDefinedBy sosa: ;
-  rdfs:label "Sampling"@en ;
-  rdfs:seeAlso <https://www.w3.org/TR/vocab-ssn/> ;
-  rdfs:subClassOf owl:Thing ;
-  rdfs:subClassOf [
-      a owl:Restriction ;
-      owl:allValuesFrom owl:Class ;
-      owl:onProperty ansis:component ;
-    ] ;
-  rdfs:subClassOf [
-      a owl:Restriction ;
-      owl:allValuesFrom owl:Class ;
-      owl:onProperty ansis:component ;
-    ] ;
-  rdfs:subClassOf [
-      a owl:Restriction ;
-      owl:allValuesFrom sosa:FeatureOfInterest ;
-      owl:onProperty sosa:hasFeatureOfInterest ;
-    ] ;
-  rdfs:subClassOf [
-      a owl:Restriction ;
-      owl:allValuesFrom sosa:Procedure ;
-      owl:onProperty sosa:usedProcedure ;
-    ] ;
-  rdfs:subClassOf [
-      a owl:Restriction ;
-      owl:allValuesFrom sosa:Sample ;
-      owl:onProperty sosa:hasResult ;
-    ] ;
-  rdfs:subClassOf [
-      a owl:Restriction ;
-      owl:allValuesFrom sosa:Sampler ;
-      owl:onProperty sosa:madeBySampler ;
-    ] ;
-  rdfs:subClassOf [
-      a owl:Restriction ;
-      owl:cardinality "1"^^xsd:nonNegativeInteger ;
-      owl:onProperty sosa:hasFeatureOfInterest ;
-    ] ;
-  rdfs:subClassOf [
-      a owl:Restriction ;
-      owl:cardinality "1"^^xsd:nonNegativeInteger ;
-      owl:onProperty sosa:madeBySampler ;
-    ] ;
-  rdfs:subClassOf [
-      a owl:Restriction ;
-      owl:cardinality "1"^^xsd:nonNegativeInteger ;
-      owl:onProperty sosa:resultTime ;
-    ] ;
-  rdfs:subClassOf [
-      a owl:Restriction ;
-      owl:minCardinality "1"^^xsd:nonNegativeInteger ;
-      owl:onProperty sosa:hasResult ;
-    ] ;
-  rdfs:subClassOf [
-      a owl:Restriction ;
-      owl:onProperty ansis:relatedActivity ;
-      owl:someValuesFrom ansis:SiteVisit ;
-    ] ;
-  rdfs:subClassOf [
-      a owl:Restriction ;
-      owl:onProperty ansis:relatedActivity ;
-      owl:someValuesFrom ansis:SiteVisit ;
-    ] ;
-  skos:definition """An act of Sampling carries out a sampling Procedure to create or transform one or more samples.
-
-![Sampling - class diagram](https://raw.githubusercontent.com/ANZSoilData/def-au-domain/main/fig/Sampling.png)"""@en ;
-  skos:example "Crushing a rock sample in a ball mill."@en ;
-  skos:example "Digging a pit through a soil sequence."@en ;
-  skos:example "Dividing a field site into quadrants."@en ;
-  skos:example "Drawing blood from a patient."@en ;
-  skos:example "Drilling an observation well."@en ;
-  skos:example "Establishing a station for environmental monitoring."@en ;
-  skos:example "Registering an image of the landscape."@en ;
-  skos:example "Selecting a subset of a population."@en ;
-  skos:example "Sieving a powder to separate the subset finer than 100-mesh."@en ;
-  skos:example "Splitting a piece of drill-core to create two new samples."@en ;
-  skos:example "Taking a diamond-drill core from a rock outcrop."@en ;
-  skos:member sosa:hasFeatureOfInterest ;
-  skos:member sosa:hasResult ;
-  skos:member sosa:hasSimpleResult ;
-  skos:member sosa:madeBySampler ;
-  skos:member sosa:phenomenonTime ;
-  skos:member sosa:resultTime ;
-  skos:member sosa:usedProcedure ;
-  skos:member ansis:component ;
-  skos:member ansis:relatedProject ;
-  skos:member proj:Project ;
-  skos:prefLabel "Sampling"@en ;
-.
-sosa:Sensor
-  a owl:Class ;
-  dcterms:source <https://www.w3.org/TR/vocab-ssn/> ;
-  rdfs:comment "Device, agent (including humans), or software (simulation) involved in, or implementing, a Procedure. Sensors respond to a stimulus, e.g., a change in the environment, or input data composed from the results of prior Observations, and generate a Result. Sensors can be hosted by Platforms."@en ;
-  rdfs:isDefinedBy sosa: ;
-  rdfs:label "Sensor"@en ;
-  rdfs:seeAlso <https://www.w3.org/TR/vocab-ssn/> ;
-  rdfs:subClassOf ssn:System ;
-  rdfs:subClassOf [
-      a owl:Restriction ;
-      owl:allValuesFrom sosa:ObservableProperty ;
-      owl:onProperty sosa:observes ;
-    ] ;
-  rdfs:subClassOf [
-      a owl:Restriction ;
-      owl:allValuesFrom sosa:Observation ;
-      owl:onProperty sosa:madeObservation ;
-    ] ;
-  rdfs:subClassOf [
-      a owl:Restriction ;
-      owl:allValuesFrom ssn:Stimulus ;
-      owl:onProperty ssn:detects ;
-    ] ;
-  rdfs:subClassOf [
-      a owl:Restriction ;
-      owl:minCardinality "1"^^xsd:nonNegativeInteger ;
-      owl:onProperty ssn:implements ;
-    ] ;
-  skos:definition "Device, agent (including humans), or software (simulation) involved in, or implementing, a Procedure. Sensors respond to a stimulus, e.g., a change in the environment, or input data composed from the results of prior Observations, and generate a Result. Sensors can be hosted by Platforms."@en ;
-  skos:example "Accelerometers, gyroscopes, barometers, magnetometers, and so forth are Sensors that are typically mounted on a modern smart phone (which acts as Platform). Other examples of sensors include the human eyes."@en ;
-.
-sosa:actsOnProperty
-  a owl:ObjectProperty ;
-  a skos:Concept ;
-  schema:domainIncludes sosa:Actuation ;
-  schema:rangeIncludes sosa:ActuatableProperty ;
-  rdfs:comment "Relation between an Actuation and the property of a FeatureOfInterest it is acting upon."@en ;
-  rdfs:isDefinedBy sosa: ;
-  rdfs:label "acts on property"@en ;
-  owl:inverseOf sosa:isActedOnBy ;
-  skos:definition "Relation between an Actuation and the property of a FeatureOfInterest it is acting upon."@en ;
-  skos:example "In the activity (Actuation) of automatically closing a window if the temperature in a room drops below 20 degrees Celsius, the property on which the Actuator acts upon is the state of the window as it changes from being open to being closed. "@en ;
-  skos:prefLabel "acts on property"@en ;
-.
-sosa:hasFeatureOfInterest
-  a owl:ObjectProperty ;
-  a skos:Concept ;
-  schema:domainIncludes sosa:Actuation ;
-  schema:domainIncludes sosa:Observation ;
-  schema:domainIncludes sosa:Sampling ;
-  schema:rangeIncludes sosa:FeatureOfInterest ;
-  schema:rangeIncludes sosa:Sample ;
-  rdfs:comment "A relation between an Observation and the entity whose quality was observed, or between an Actuation and the entity whose property was modified, or between an act of Sampling and the entity that was sampled."@en ;
-  rdfs:isDefinedBy sosa: ;
-  rdfs:label "has feature of interest"@en ;
-  owl:inverseOf sosa:isFeatureOfInterestOf ;
-  skos:definition "A relation between an Observation and the entity whose quality was observed, or between an Actuation and the entity whose property was modified, or between an act of Sampling and the entity that was sampled."@en ;
-  skos:example "For example, in an Observation of the weight of a person, the FeatureOfInterest is the person and the property is its weight."@en ;
-  skos:prefLabel "has feature of interest"@en ;
-.
-sosa:hasResult
-  a owl:ObjectProperty ;
-  a skos:Concept ;
-  schema:domainIncludes sosa:Actuation ;
-  schema:domainIncludes sosa:Observation ;
-  schema:domainIncludes sosa:Sampling ;
-  schema:rangeIncludes sosa:Result ;
-  schema:rangeIncludes sosa:Sample ;
-  rdfs:comment "Relation linking an Observation or Actuation or act of Sampling and a Result or Sample."@en ;
-  rdfs:isDefinedBy sosa: ;
-  rdfs:label "has result"@en ;
-  owl:inverseOf sosa:isResultOf ;
-  skos:definition "Relation linking an Observation or Actuation or act of Sampling and a Result or Sample."@en ;
-  skos:prefLabel "has result"@en ;
-.
-sosa:hasSample
-  a skos:Concept ;
-  skos:prefLabel "has sample"@en ;
-.
-sosa:hasSimpleResult
-  a owl:DatatypeProperty ;
-  a skos:Concept ;
-  schema:domainIncludes sosa:Actuation ;
-  schema:domainIncludes sosa:Observation ;
-  schema:domainIncludes sosa:Sampling ;
-  rdfs:comment "The simple value of an Observation or Actuation or act of Sampling."@en ;
-  rdfs:isDefinedBy sosa: ;
-  rdfs:label "has simple result"@en ;
-  skos:definition "The simple value of an Observation or Actuation or act of Sampling."@en ;
-  skos:example "For instance, the values 23 or true."@en ;
-  skos:prefLabel "has simple result"@en ;
-.
-sosa:hosts
-  a skos:Concept ;
-  skos:prefLabel "hosts"@en ;
-.
-sosa:isActedOnBy
-  a skos:Concept ;
-  skos:prefLabel "is acted on by"@en ;
-.
-sosa:isFeatureOfInterestOf
-  a skos:Concept ;
-  skos:prefLabel "is feature of interest of"@en ;
-.
-sosa:isHostedBy
-  a skos:Concept ;
-  skos:prefLabel "is hosted by"@en ;
-.
-sosa:isObservedBy
-  a skos:Concept ;
-  skos:prefLabel "is observed by"@en ;
-.
-sosa:isResultOf
-  a skos:Concept ;
-  skos:prefLabel "is result of"@en ;
-.
-sosa:isSampleOf
-  a owl:FunctionalProperty ;
-  a owl:ObjectProperty ;
-  a skos:Concept ;
-  schema:domainIncludes sosa:Sample ;
-  schema:domainIncludes ansis:LandsurveySite ;
-  schema:domainIncludes ansis:SoilProfile ;
-  schema:domainIncludes ansis:SoilSample ;
-  schema:domainIncludes ansis:SoilSite ;
-  schema:rangeIncludes sosa:FeatureOfInterest ;
-  schema:rangeIncludes ansis:SoilBody ;
-  rdfs:comment "Relation from a Sample to the FeatureOfInterest that it is intended to be representative of."@en ;
-  rdfs:isDefinedBy sosa: ;
-  rdfs:label "is sample of"@en ;
-  skos:definition "Relation from a Sample to the FeatureOfInterest that it is intended to be representative of."@en ;
-  skos:prefLabel "is sample of"@en ;
-.
-sosa:madeActuation
-  a skos:Concept ;
-  skos:prefLabel "made actuation"@en ;
-.
-sosa:madeByActuator
-  a owl:ObjectProperty ;
-  a skos:Concept ;
-  schema:domainIncludes sosa:Actuation ;
-  schema:rangeIncludes sosa:Actuator ;
-  rdfs:comment "Relation linking an Actuation to the Actuator that made that Actuation."@en ;
-  rdfs:isDefinedBy sosa: ;
-  rdfs:label "made by actuator"@en ;
-  skos:definition "Relation linking an Actuation to the Actuator that made that Actuation."@en ;
-  skos:prefLabel "made by actuator"@en ;
-.
-sosa:madeBySampler
-  a owl:ObjectProperty ;
-  a skos:Concept ;
-  schema:domainIncludes sosa:Sampling ;
-  schema:rangeIncludes sosa:Sampler ;
-  rdfs:comment "Relation linking an act of Sampling to the Sampler (sampling device or entity) that made it."@en ;
-  rdfs:isDefinedBy sosa: ;
-  rdfs:label "made by sampler"@en ;
-  owl:inverseOf sosa:madeSampling ;
-  skos:definition "Relation linking an act of Sampling to the Sampler (sampling device or entity) that made it."@en ;
-  skos:prefLabel "made by sampler"@en ;
-.
-sosa:madeBySensor
-  a owl:ObjectProperty ;
-  a skos:Concept ;
-  schema:domainIncludes sosa:Observation ;
-  schema:rangeIncludes sosa:Sensor ;
-  rdfs:comment "Relation between an Observation and the Sensor which made the Observation."@en ;
-  rdfs:isDefinedBy sosa: ;
-  rdfs:label "made by sensor"@en ;
-  owl:inverseOf sosa:madeObservation ;
-  skos:definition "Relation between an Observation and the Sensor which made the Observation."@en ;
-  skos:prefLabel "made by sensor"@en ;
-.
-sosa:madeObservation
-  a skos:Concept ;
-  skos:prefLabel "made observation"@en ;
-.
-sosa:madeSampling
-  a skos:Concept ;
-  skos:prefLabel "made sampling"@en ;
-.
-sosa:observedProperty
-  a owl:ObjectProperty ;
-  a skos:Concept ;
-  schema:domainIncludes sosa:Observation ;
-  schema:rangeIncludes sosa:ObservableProperty ;
-  rdfs:comment "Relation linking an Observation to the property that was observed. The ObservableProperty should be a property of the FeatureOfInterest (linked by hasFeatureOfInterest) of this Observation."@en ;
-  rdfs:isDefinedBy sosa: ;
-  rdfs:label "observed property"@en ;
-  skos:definition "Relation linking an Observation to the property that was observed. The ObservableProperty should be a property of the FeatureOfInterest (linked by hasFeatureOfInterest) of this Observation."@en ;
-  skos:prefLabel "observed property"@en ;
-.
-sosa:observes
-  a skos:Concept ;
-  skos:prefLabel "observes"@en ;
-.
-sosa:phenomenonTime
-  a owl:ObjectProperty ;
-  a skos:Concept ;
-  schema:domainIncludes sosa:Actuation ;
-  schema:domainIncludes sosa:Observation ;
-  schema:domainIncludes sosa:Sampling ;
-  schema:rangeIncludes time:TemporalEntity ;
-  rdfs:comment "The time that the Result of an Observation, Actuation or Sampling applies to the FeatureOfInterest. Not necessarily the same as the resultTime. May be an Interval or an Instant, or some other compound TemporalEntity."@en ;
-  rdfs:isDefinedBy sosa: ;
-  rdfs:label "phenomenon time"@en ;
-  skos:definition "The time that the Result of an Observation, Actuation or Sampling applies to the FeatureOfInterest. Not necessarily the same as the resultTime. May be an Interval or an Instant, or some other compound TemporalEntity."@en ;
-  skos:prefLabel "phenomenon time"@en ;
-.
-sosa:resultTime
-  a owl:DatatypeProperty ;
-  a skos:Concept ;
-  schema:domainIncludes sosa:Actuation ;
-  schema:domainIncludes sosa:Observation ;
-  schema:domainIncludes sosa:Sampling ;
-  rdfs:comment "The result time is the instant of time when the Observation, Actuation or Sampling activity was completed."@en ;
-  rdfs:isDefinedBy sosa: ;
-  rdfs:label "result time"@en ;
-  rdfs:range xsd:dateTime ;
-  skos:definition "The result time is the instant of time when the Observation, Actuation or Sampling activity was completed."@en ;
-  skos:prefLabel "result time"@en ;
-.
-sosa:usedProcedure
-  a owl:ObjectProperty ;
-  a skos:Concept ;
-  schema:domainIncludes sosa:Actuation ;
-  schema:domainIncludes sosa:Observation ;
-  schema:domainIncludes sosa:Sampling ;
-  schema:domainIncludes ansis:SoilProfile ;
-  schema:domainIncludes ansis:Substrate ;
-  schema:rangeIncludes sp:Profile-construction ;
-  schema:rangeIncludes sosa:Procedure ;
-  rdfs:comment "A relation to link to a re-usable Procedure used in making an Observation, an Actuation, or a Sample, typically through a Sensor, Actuator or Sampler."@en ;
-  rdfs:isDefinedBy sosa: ;
-  rdfs:label "used procedure"@en ;
-  owl:propertyChainAxiom (
-      sosa:madeByActuator
-      ssn:implements
-    ) ;
-  owl:propertyChainAxiom (
-      sosa:madeBySampler
-      ssn:implements
-    ) ;
-  owl:propertyChainAxiom (
-      sosa:madeBySensor
-      ssn:implements
-    ) ;
-  skos:definition "A relation to link to a re-usable Procedure used in making an Observation, an Actuation, or a Sample, typically through a Sensor, Actuator or Sampler."@en ;
-  skos:prefLabel "used procedure"@en ;
-.
 <https://anzsoil.org/def/au/domain>
   a owl:Ontology ;
   dcterms:contributor <https://orcid.org/0000-0002-0693-1899> ;
   dcterms:contributor <https://orcid.org/0000-0003-1625-1253> ;
   dcterms:contributor <mailto:peter.wilson@csiro.au> ;
-  dcterms:created "2022-07-21"^^xsd:date ;
   dcterms:creator <https://orcid.org/0000-0002-2991-2308> ;
   dcterms:creator <https://orcid.org/0000-0002-3884-3420> ;
-  dcterms:description """A domain-model for Australian soil data, including observations and sampling.
+  dcterms:publisher <https://linked.data.gov.au/org/csiro> ;
+  skos:definition """A domain-model for Australian soil data, including observations and sampling.
 
 This domain model was developed in 2022 for the Australian National Soil Information System (ANSIS).
 It is based primarily on the elements described in the Australian Soil and Land Survey Field Handbook (ASLS).
@@ -696,15 +46,18 @@ The value space of most properties are encoded as controlled vocabularies hosted
 
 The model is formalized as an OWL Ontology. Cardinalities and property value-spaces are encoded as owl:Restrictions.
 
-![Main classes and relationships in the ANSIS domain model](https://raw.githubusercontent.com/ANZSoilData/def-au-domain/main/fig/Overview-noatts.png)""" ;
-  dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
-  dcterms:modified "2022-12-16"^^xsd:date ;
+![Main classes and relationships in the ANSIS domain model](https://raw.githubusercontent.com/ANZSoilData/def-au-domain/main/fig/Overview-noatts.png)"""@en ;
+  schema:license <http://purl.org/NET/rdflicense/cc-zero1.0> ;
+  schema:dateCreated "2022-07-21"^^xsd:date ;
+  schema:dateModified "2025-06-14"^^xsd:date ;
+  schema:dateIssued "2022-07-21"^^xsd:date ;
   dcterms:references <https://catalogue.nla.gov.au/Record/4273240> ;
   dcterms:references <https://catalogue.nla.gov.au/Record/8558027> ;
-  dcterms:source """Adapted from: Australian soil and land survey field handbook / The National Committee on Soil and Terrain
+  schema:citation """Adapted from: Australian soil and land survey field handbook / The National Committee on Soil and Terrain
 Uses: Australian soil classification / R.F. Isbell (Raymond Frederick Isbell) and the National Committee on Soil and Terrain""" ;
-  dcterms:title "ANSIS Ontology" ;
-  schema:codeRepository <https://github.com/ANZSoilData/def-au-domain> ;
+  skos:prefLabel "ANSIS Ontology"@en ;
+  schema:codeRepository "https://github.com/ANZSoilData/def-au-domain"^^xsd:anyURI ;
+  schema:copyrightHolder <https://linked.data.gov.au/org/csiro> ;
   owl:imports <http://anzsoil.org/def/au/asls/substrate> ;
   owl:imports <http://purl.org/dc/elements/1.1/> ;
   owl:imports <http://www.opengis.net/ont/geosparql> ;
@@ -712,13 +65,16 @@ Uses: Australian soil classification / R.F. Isbell (Raymond Frederick Isbell) an
   owl:imports <http://www.w3.org/ns/prov-o#> ;
   owl:imports ssn: ;
   owl:imports <https://linked.data.gov.au/def/project> ;
+  owl:versionIRI <https://anzsoil.org/def/au/domain/1> ;
   skos:scopeNote """1. usage of properties is encoded using schema:domainIncludes and schema:rangeIncludes annotations, generally in preference to rdfs:domain and rdfs:range
 
 2. Most classes are also tagged type=skos:Collection, and properties are tagged type=skos:Concept, with skos:member-ship arranged to support presentation of the Ontology in a simplified view in Research Vocabularies Australia - https://demo.vocabs.ardc.edu.au/viewById/966""" ;
   schema:version "1" ;
+  skos:historyNote "2025-06: NJC: made OntPub conformant" ;
 .
 ansis:ASC-SoilClassification
   a owl:Class ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Collection ;
   rdfs:subClassOf [
       a owl:Restriction ;
@@ -774,7 +130,7 @@ ansis:ASC-SoilClassification
       owl:onProperty ansis:classification-order ;
       owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
     ] ;
-  skos:definition "![Australian soil classification - class diagram](https://raw.githubusercontent.com/ANZSoilData/def-au-domain/main/fig/ASC.png)" ;
+  skos:definition "![Australian soil classification - class diagram](https://raw.githubusercontent.com/ANZSoilData/def-au-domain/main/fig/ASC.png)"@en ;
   skos:example """[
       a ansis:SoilClassification ;
       ansis:classification-order \"CH\" ;
@@ -789,10 +145,11 @@ ansis:ASC-SoilClassification
   skos:member ansis:classification-order ;
   skos:member ansis:classification-subgroup ;
   skos:member ansis:classification-suborder ;
-  skos:prefLabel "Australian soil classification" ;
+  skos:prefLabel "Australian soil classification"@en ;
 .
 ansis:CoarseFragments
   a owl:Class ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Collection ;
   rdfs:subClassOf [
       a owl:Restriction ;
@@ -822,7 +179,6 @@ ansis:CoarseFragments
       a owl:Restriction ;
       owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
       owl:onClass [
-          a owl:Class ;
           owl:unionOf (
               ls:Lithology-coarse-fragments
               ls:Lithology-rock-outcrop
@@ -838,7 +194,7 @@ ansis:CoarseFragments
       owl:onProperty ansis:abundance ;
       owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
     ] ;
-  skos:definition "![Coarse fragments - class diagram](https://raw.githubusercontent.com/ANZSoilData/def-au-domain/main/fig/CoarseFragments.png)" ;
+  skos:definition "![Coarse fragments - class diagram](https://raw.githubusercontent.com/ANZSoilData/def-au-domain/main/fig/CoarseFragments.png)"@en ;
   skos:example """[
       a ansis:CoarseFragments ;
       ansis:abundance <http://anzsoil.org/def/au/asls/land-surface/coarse-fragments-abundance-3> ;
@@ -854,10 +210,11 @@ ansis:CoarseFragments
   skos:member ansis:shape ;
   skos:member ansis:size ;
   skos:member ansis:strength ;
-  skos:prefLabel "Coarse fragments" ;
+  skos:prefLabel "Coarse fragments"@en ;
 .
 ansis:Cracks
   a owl:Class ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Collection ;
   rdfs:subClassOf [
       a owl:Restriction ;
@@ -866,10 +223,12 @@ ansis:Cracks
       owl:onProperty ansis:width ;
     ] ;
   skos:member ansis:width ;
-  skos:prefLabel "Cracks" ;
+  skos:definition "Cracks"@en ;
+  skos:prefLabel "Cracks"@en ;
 .
 ansis:Cutans
   a owl:Class ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Collection ;
   rdfs:subClassOf [
       a owl:Restriction ;
@@ -888,14 +247,15 @@ ansis:Cutans
       owl:onProperty ansis:abundance ;
       owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
     ] ;
-  skos:definition "![Cutans - class diagram](https://raw.githubusercontent.com/ANZSoilData/def-au-domain/main/fig/Cutans.png)" ;
+  skos:definition "![Cutans - class diagram](https://raw.githubusercontent.com/ANZSoilData/def-au-domain/main/fig/Cutans.png)"@en ;
   skos:member ansis:abundance ;
   skos:member ansis:distinctness ;
   skos:member ansis:type ;
-  skos:prefLabel "Cutans" ;
+  skos:prefLabel "Cutans"@en ;
 .
 ansis:Erosion
   a owl:Class ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Collection ;
   rdfs:subClassOf [
       a owl:Restriction ;
@@ -913,7 +273,6 @@ ansis:Erosion
       a owl:Restriction ;
       owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
       owl:onClass [
-          a owl:Class ;
           owl:unionOf (
               ls:Erosion-severity-scald
               ls:Erosion-severity-wave
@@ -934,16 +293,17 @@ ansis:Erosion
       owl:onProperty ansis:type ;
       owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
     ] ;
-  skos:definition "![Erosion - class diagram](https://raw.githubusercontent.com/ANZSoilData/def-au-domain/main/fig/Erosion.png)" ;
+  skos:definition "![Erosion - class diagram](https://raw.githubusercontent.com/ANZSoilData/def-au-domain/main/fig/Erosion.png)"@en ;
   skos:member ansis:degree ;
   skos:member ansis:depth-gully ;
   skos:member ansis:height ;
   skos:member ansis:state ;
   skos:member ansis:type ;
-  skos:prefLabel "Erosion" ;
+  skos:prefLabel "Erosion"@en ;
 .
 ansis:HorizonDesignation
   a owl:Class ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Collection ;
   rdfs:subClassOf [
       a owl:Restriction ;
@@ -977,10 +337,12 @@ ansis:HorizonDesignation
   skos:member ansis:designation-prefix ;
   skos:member ansis:designation-subdivision ;
   skos:member ansis:designation-suffix ;
-  skos:prefLabel "Soil horizon designation" ;
+  skos:definition "Soil horizon designation"@en ;
+  skos:prefLabel "Soil horizon designation"@en ;
 .
 ansis:Inundation
   a owl:Class ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Collection ;
   rdfs:subClassOf [
       a owl:Restriction ;
@@ -1006,24 +368,29 @@ ansis:Inundation
       owl:onProperty ansis:velocity ;
       owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
     ] ;
-  skos:definition "![Inundation - class diagram](https://raw.githubusercontent.com/ANZSoilData/def-au-domain/main/fig/Inundation.png)" ;
+  skos:definition "![Inundation - class diagram](https://raw.githubusercontent.com/ANZSoilData/def-au-domain/main/fig/Inundation.png)"@en ;
   skos:member ansis:depth ;
   skos:member ansis:duration ;
   skos:member ansis:frequency ;
   skos:member ansis:velocity ;
-  skos:prefLabel "Inundation" ;
+  skos:prefLabel "Inundation"@en ;
 .
 ansis:LandCover
   a owl:Class ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   rdfs:subClassOf ansis:LandscapeEntity ;
-  skos:prefLabel "Land cover, including vegetation" ;
+  skos:definition "Land cover, including vegetation"@en ;
+  skos:prefLabel "Land cover, including vegetation"@en ;
 .
 ansis:LandManagement
   a owl:Class ;
-  skos:prefLabel "Land management" ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
+  skos:definition "Land management"@en ;
+  skos:prefLabel "Land management"@en ;
 .
 ansis:LandSurface
   a owl:Class ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Collection ;
   rdfs:subClassOf ansis:LandscapeEntity ;
   rdfs:subClassOf [
@@ -1084,7 +451,7 @@ ansis:LandSurface
     ] ;
   skos:definition """surface landscape features of a site
 
-![Landsurface - class diagram](https://raw.githubusercontent.com/ANZSoilData/def-au-domain/main/fig/LandSurface.png)""" ;
+![Landsurface - class diagram](https://raw.githubusercontent.com/ANZSoilData/def-au-domain/main/fig/LandSurface.png)"""@en ;
   skos:member ansis:CoarseFragments ;
   skos:member ansis:Erosion ;
   skos:member ansis:Inundation ;
@@ -1095,14 +462,17 @@ ansis:LandSurface
   skos:member ansis:hasErosion ;
   skos:member ansis:hasInundation ;
   skos:member ansis:runoff ;
-  skos:prefLabel "Land surface" ;
+  skos:prefLabel "Land surface"@en ;
 .
 ansis:LandUse
   a owl:Class ;
-  skos:prefLabel "Land use" ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
+  skos:definition "Land use"@en ;
+  skos:prefLabel "Land use"@en ;
 .
 ansis:Landform
   a owl:Class ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Collection ;
   rdfs:subClassOf ansis:LandscapeEntity ;
   rdfs:subClassOf [
@@ -1117,16 +487,17 @@ ansis:Landform
     ] ;
   skos:definition """landscape features within which the site is located
 
-![Landform - class diagram](https://raw.githubusercontent.com/ANZSoilData/def-au-domain/main/fig/Landform.png)""" ;
+![Landform - class diagram](https://raw.githubusercontent.com/ANZSoilData/def-au-domain/main/fig/Landform.png)"""@en ;
   skos:member ansis:LandformElement ;
   skos:member ansis:LandformPattern ;
   skos:member ansis:hasLandformElement ;
   skos:member ansis:hasLandformPattern ;
-  skos:prefLabel "Landform" ;
+  skos:prefLabel "Landform"@en ;
   skos:scopeNote "The larger tiles, more than 600 m across, are called landform patterns….. The smaller tiles, which form mosaics within landform patterns, are about 40 m or more across. . These are called landform elements." ;
 .
 ansis:LandformElement
   a owl:Class ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Collection ;
   rdfs:subClassOf [
       a owl:Restriction ;
@@ -1182,7 +553,6 @@ ansis:LandformElement
       a owl:Restriction ;
       owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
       owl:onClass [
-          a owl:Class ;
           owl:unionOf (
               lf:Geomorphology-agent-ice
               lf:Geomorphology-agent-precipitation
@@ -1203,7 +573,7 @@ ansis:LandformElement
       owl:onClass lf:Slope-class ;
       owl:onProperty ansis:slope ;
     ] ;
-  skos:definition "Landform element (~40m)" ;
+  skos:definition "Landform element (~40m)"@en ;
   skos:member ansis:agent ;
   skos:member ansis:geomorphologyMode ;
   skos:member ansis:height ;
@@ -1215,10 +585,11 @@ ansis:LandformElement
   skos:member ansis:type ;
   skos:member ansis:underlyingMaterial ;
   skos:member ansis:width ;
-  skos:prefLabel "Landform element" ;
+  skos:prefLabel "Landform element"@en ;
 .
 ansis:LandformPattern
   a owl:Class ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Collection ;
   rdfs:subClassOf [
       a owl:Restriction ;
@@ -1265,7 +636,6 @@ ansis:LandformPattern
       a owl:Restriction ;
       owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
       owl:onClass [
-          a owl:Class ;
           owl:unionOf (
               lf:Geomorphology-agent-ice
               lf:Geomorphology-agent-precipitation
@@ -1285,7 +655,7 @@ ansis:LandformPattern
       owl:minCardinality "0"^^xsd:nonNegativeInteger ;
       owl:onProperty ansis:hasLandformElement ;
     ] ;
-  skos:definition "Landform pattern (>600m)" ;
+  skos:definition "Landform pattern (>600m)"@en ;
   skos:member ansis:LandformElement ;
   skos:member ansis:StreamChannel ;
   skos:member ansis:agent ;
@@ -1294,16 +664,19 @@ ansis:LandformPattern
   skos:member ansis:hasLandformElement ;
   skos:member ansis:hasStreamChannel ;
   skos:member ansis:relief ;
-  skos:prefLabel "Landform pattern" ;
+  skos:prefLabel "Landform pattern"@en ;
 .
 ansis:LandscapeEntity
   a owl:Class ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   rdfs:subClassOf geo:Feature ;
   rdfs:subClassOf prov:Entity ;
-  skos:prefLabel "Landscape entity" ;
+  skos:definition "Landscape entity"@en ;
+  skos:prefLabel "Landscape entity"@en ;
 .
 ansis:LandsurveySite
   a owl:Class ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Collection ;
   rdfs:subClassOf sosa:Platform ;
   rdfs:subClassOf [
@@ -1366,7 +739,7 @@ ansis:LandsurveySite
     ] ;
   skos:definition """A Site established to make observations of landscape entities
 
-![Site - class diagram](https://raw.githubusercontent.com/ANZSoilData/def-au-domain/main/fig/Site.png)""" ;
+![Site - class diagram](https://raw.githubusercontent.com/ANZSoilData/def-au-domain/main/fig/Site.png)"""@en ;
   skos:member geo:hasGeometry ;
   skos:member sosa:isSampleOf ;
   skos:member ansis:Erosion ;
@@ -1391,7 +764,7 @@ ansis:LandsurveySite
   skos:member ansis:location-in-toposequence ;
   skos:member ansis:relatedLandsurveySite ;
   skos:member ansis:type ;
-  skos:prefLabel "Land survey site" ;
+  skos:prefLabel "Land survey site"@en ;
   skos:scopeNote """'Site' is a geospatial entity (feature) which has a geometry (incl. location)
 
 'Site' may be considered as a kind of Sample, since it is selected to be representative of a landscape entity
@@ -1402,16 +775,18 @@ More specific types of site may include (i) SoilSite (ii) TERN Monitoring Site (
 .
 ansis:Literal
   a owl:Class ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   rdfs:subClassOf [
       a owl:Restriction ;
       owl:minCardinality "1"^^xsd:nonNegativeInteger ;
       owl:onProperty ansis:value ;
     ] ;
-  skos:definition "Generic container class for objects with a 'literal' value (i.e. text-string, number, etc) " ;
-  skos:prefLabel "Literal value" ;
+  skos:definition "Generic container class for objects with a 'literal' value (i.e. text-string, number, etc) "@en ;
+  skos:prefLabel "Literal value"@en ;
 .
 ansis:Microrelief
   a owl:Class ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Collection ;
   rdfs:subClassOf [
       a owl:Restriction ;
@@ -1449,7 +824,7 @@ ansis:Microrelief
       owl:onClass ls:Microrelief-component-sampled ;
       owl:onProperty ansis:component ;
     ] ;
-  skos:definition "![Microrelief - class diagram](https://raw.githubusercontent.com/ANZSoilData/def-au-domain/main/fig/Microrelief.png)" ;
+  skos:definition "![Microrelief - class diagram](https://raw.githubusercontent.com/ANZSoilData/def-au-domain/main/fig/Microrelief.png)"@en ;
   skos:member ansis:Microrelief-biotic ;
   skos:member ansis:Microrelief-gilgai ;
   skos:member ansis:Microrelief-hummocky ;
@@ -1461,12 +836,13 @@ ansis:Microrelief
   skos:member ansis:hasMicrorelief-other ;
   skos:member ansis:height ;
   skos:member ansis:length ;
-  skos:prefLabel "Microrelief" ;
+  skos:prefLabel "Microrelief"@en ;
   skos:scopeNote """'height' is vertical distance between base of depression of flat, and horizontal line joining crests of mounds or hummocks
 'length' is horizontal distance between crests of mounds or tops of hummocks""" ;
 .
 ansis:Microrelief-biotic
   a owl:Class ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Collection ;
   rdfs:subClassOf ansis:Microrelief ;
   rdfs:subClassOf [
@@ -1483,10 +859,12 @@ ansis:Microrelief-biotic
     ] ;
   skos:member ansis:agent ;
   skos:member ansis:component ;
-  skos:prefLabel "Biotic microrelief" ;
+  skos:definition "Biotic microrelief"@en ;
+  skos:prefLabel "Biotic microrelief"@en ;
 .
 ansis:Microrelief-gilgai
   a owl:Class ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Collection ;
   rdfs:subClassOf ansis:Microrelief ;
   rdfs:subClassOf [
@@ -1503,10 +881,12 @@ ansis:Microrelief-gilgai
     ] ;
   skos:member ansis:proportions ;
   skos:member ansis:type ;
-  skos:prefLabel "Gilgai microrelief" ;
+  skos:definition "Gilgai microrelief"@en ;
+  skos:prefLabel "Gilgai microrelief"@en ;
 .
 ansis:Microrelief-hummocky
   a owl:Class ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Collection ;
   rdfs:subClassOf ansis:Microrelief ;
   rdfs:subClassOf [
@@ -1516,10 +896,12 @@ ansis:Microrelief-hummocky
       owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
     ] ;
   skos:member ansis:type ;
-  skos:prefLabel "Hummocky microrelief" ;
+  skos:definition "Hummocky microrelief"@en ;
+  skos:prefLabel "Hummocky microrelief"@en ;
 .
 ansis:Microrelief-other
   a owl:Class ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Collection ;
   rdfs:subClassOf ansis:Microrelief ;
   rdfs:subClassOf [
@@ -1529,10 +911,12 @@ ansis:Microrelief-other
       owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
     ] ;
   skos:member ansis:type ;
-  skos:prefLabel "Other microrelief" ;
+  skos:definition "Other microrelief"@en ;
+  skos:prefLabel "Other microrelief"@en ;
 .
 ansis:Mottles
   a owl:Class ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Collection ;
   rdfs:subClassOf [
       a owl:Restriction ;
@@ -1571,17 +955,18 @@ ansis:Mottles
     ] ;
   skos:definition """Mottles and other colour patterns
 
-![Mottles - class diagram](https://raw.githubusercontent.com/ANZSoilData/def-au-domain/main/fig/Mottles.png)""" ;
+![Mottles - class diagram](https://raw.githubusercontent.com/ANZSoilData/def-au-domain/main/fig/Mottles.png)"""@en ;
   skos:member ansis:abundance ;
   skos:member ansis:colour ;
   skos:member ansis:contrast ;
   skos:member ansis:distinctness ;
   skos:member ansis:size ;
   skos:member ansis:type ;
-  skos:prefLabel "Mottles" ;
+  skos:prefLabel "Mottles"@en ;
 .
 ansis:Outcrop
   a owl:Class ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Collection ;
   rdfs:subClassOf [
       a owl:Restriction ;
@@ -1592,7 +977,6 @@ ansis:Outcrop
   rdfs:subClassOf [
       a owl:Restriction ;
       owl:onClass [
-          a owl:Class ;
           owl:unionOf (
               ls:Lithology-rock-outcrop
               subst:Lithology-rock
@@ -1602,17 +986,18 @@ ansis:Outcrop
       owl:onProperty ansis:lithology ;
       owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
     ] ;
-  skos:definition "![Outcrop - class diagram](https://raw.githubusercontent.com/ANZSoilData/def-au-domain/main/fig/Outcrop.png)" ;
+  skos:definition "![Outcrop - class diagram](https://raw.githubusercontent.com/ANZSoilData/def-au-domain/main/fig/Outcrop.png)"@en ;
   skos:member ansis:abundance ;
   skos:member ansis:grain-size ;
   skos:member ansis:lithology ;
   skos:member ansis:relatedLandsurveySite ;
   skos:member ansis:relatedSample ;
   skos:member ansis:relatedSite ;
-  skos:prefLabel "Rock outcrop" ;
+  skos:prefLabel "Rock outcrop"@en ;
 .
 ansis:Pans
   a owl:Class ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Collection ;
   rdfs:subClassOf [
       a owl:Restriction ;
@@ -1637,15 +1022,16 @@ ansis:Pans
       owl:onClass sp:Pans-structure ;
       owl:onProperty ansis:structure ;
     ] ;
-  skos:definition "![Pans - class diagram](https://raw.githubusercontent.com/ANZSoilData/def-au-domain/main/fig/Pans.png)" ;
+  skos:definition "![Pans - class diagram](https://raw.githubusercontent.com/ANZSoilData/def-au-domain/main/fig/Pans.png)"@en ;
   skos:member ansis:cementation ;
   skos:member ansis:continuity ;
   skos:member ansis:structure ;
   skos:member ansis:type ;
-  skos:prefLabel "Pans" ;
+  skos:prefLabel "Pans"@en ;
 .
 ansis:Pores
   a owl:Class ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Collection ;
   rdfs:subClassOf [
       a owl:Restriction ;
@@ -1656,7 +1042,6 @@ ansis:Pores
   rdfs:subClassOf [
       a owl:Restriction ;
       owl:onClass [
-          a owl:Class ;
           owl:unionOf (
               sp:Pore-abundance-coarse
               sp:Pore-abundance-fine
@@ -1665,13 +1050,14 @@ ansis:Pores
       owl:onProperty ansis:abundance ;
       owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
     ] ;
-  skos:definition "![Pores - class diagram](https://raw.githubusercontent.com/ANZSoilData/def-au-domain/main/fig/Pores.png)" ;
+  skos:definition "![Pores - class diagram](https://raw.githubusercontent.com/ANZSoilData/def-au-domain/main/fig/Pores.png)"@en ;
   skos:member ansis:abundance ;
   skos:member ansis:diameter ;
-  skos:prefLabel "Pores" ;
+  skos:prefLabel "Pores"@en ;
 .
 ansis:Roots
   a owl:Class ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Collection ;
   rdfs:subClassOf [
       a owl:Restriction ;
@@ -1685,14 +1071,14 @@ ansis:Roots
       owl:onClass sp:Root-size ;
       owl:onProperty ansis:diameter ;
     ] ;
-  skos:definition "![Roots - class diagram](https://raw.githubusercontent.com/ANZSoilData/def-au-domain/main/fig/Roots.png)" ;
+  skos:definition "![Roots - class diagram](https://raw.githubusercontent.com/ANZSoilData/def-au-domain/main/fig/Roots.png)"@en ;
   skos:member ansis:abundance ;
   skos:member ansis:diameter ;
-  skos:prefLabel "Roots" ;
+  skos:prefLabel "Roots"@en ;
 .
 ansis:SOSA-properties
   a skos:Collection ;
-  skos:definition "Properties associated with Observations, Samplings and Actuations/Treatments" ;
+  skos:definition "Properties associated with Observations, Samplings and Actuations/Treatments"@en ;
   skos:member sosa:Actuation ;
   skos:member sosa:Observation ;
   skos:member sosa:Sampling ;
@@ -1719,10 +1105,11 @@ ansis:SOSA-properties
   skos:member sosa:phenomenonTime ;
   skos:member sosa:resultTime ;
   skos:member sosa:usedProcedure ;
-  skos:prefLabel "Observations & Sampling " ;
+  skos:prefLabel "Observations & Sampling "@en ;
 .
 ansis:Segregations
   a owl:Class ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Collection ;
   rdfs:subClassOf [
       a owl:Restriction ;
@@ -1760,24 +1147,26 @@ ansis:Segregations
       owl:onProperty ansis:material ;
       owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
     ] ;
-  skos:definition "![Segregations - class diagram](https://raw.githubusercontent.com/ANZSoilData/def-au-domain/main/fig/Segregations.png)" ;
+  skos:definition "![Segregations - class diagram](https://raw.githubusercontent.com/ANZSoilData/def-au-domain/main/fig/Segregations.png)"@en ;
   skos:member ansis:abundance ;
   skos:member ansis:magnetic-attributes ;
   skos:member ansis:material ;
   skos:member ansis:shape ;
   skos:member ansis:size ;
   skos:member ansis:strength ;
-  skos:prefLabel "Segregations" ;
+  skos:prefLabel "Segregations"@en ;
 .
 ansis:SiteType
   a owl:Class ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   rdfs:subClassOf skos:Concept ;
-  skos:definition "Type of land survey site e.g. monitoring, opportunistic, farm, pedology" ;
-  skos:prefLabel "Type of site" ;
+  skos:definition "Type of land survey site e.g. monitoring, opportunistic, farm, pedology"@en ;
+  skos:prefLabel "Type of site"@en ;
   skos:scopeNote "e.g. monitoring, opportunistic, farm, pedology" ;
 .
 ansis:SiteVisit
   a owl:Class ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Collection ;
   rdfs:subClassOf prov:Activity ;
   rdfs:subClassOf [
@@ -1814,7 +1203,6 @@ ansis:SiteVisit
       a owl:Restriction ;
       owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
       owl:onClass [
-          a owl:Class ;
           owl:unionOf (
               sosa:Observation
               sosa:Sampling
@@ -1825,7 +1213,7 @@ ansis:SiteVisit
     ] ;
   skos:definition """A visit to a designated site, for the purpose of taking samples, making observations, and other activities
 
-![Sitevisit - class diagram](https://raw.githubusercontent.com/ANZSoilData/def-au-domain/main/fig/SiteVisit.png)""" ;
+![Sitevisit - class diagram](https://raw.githubusercontent.com/ANZSoilData/def-au-domain/main/fig/SiteVisit.png)"""@en ;
   skos:example """my:visit-S1-2
   a ansis:SiteVisit ;
   prov:endedAtTime \"2022-09-07T13:00:00+10:00\"^^xsd:dateTime ;
@@ -1862,17 +1250,17 @@ my:O1
   skos:member ansis:relatedProject ;
   skos:member ansis:relatedSite ;
   skos:member ansis:visitor ;
-  skos:prefLabel "Site visit" ;
+  skos:prefLabel "Site visit"@en ;
 .
 ansis:SoilBody
   a owl:Class ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Collection ;
   rdfs:subClassOf ansis:LandscapeEntity ;
   rdfs:subClassOf [
       a owl:Restriction ;
       owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger ;
       owl:onClass [
-          a owl:Class ;
           owl:unionOf (
               ansis:SoilClassification
               ansis:ASC-SoilClassification
@@ -1883,7 +1271,7 @@ ansis:SoilBody
   skos:definition """part of the soil cover that is delineated at a scale useful for an application, and is homogeneous with regard to properties and/or spatial patterns.
 
 ![Soilbody - class diagram](https://raw.githubusercontent.com/ANZSoilData/def-au-domain/main/fig/SoilBody.png)
-""" ;
+"""@en ;
   skos:example """my:Body-88
   a ansis:SoilBody ;
   skos:prefLabel \"Monivae gravelly loam\" ;
@@ -1905,11 +1293,12 @@ ansis:SoilBody
   skos:member ansis:relatedSample ;
   skos:member ansis:relatedSite ;
   skos:member ansis:relatedSoilSurface ;
-  skos:prefLabel "Soil body" ;
+  skos:prefLabel "Soil body"@en ;
   skos:scopeNote "A soil body is usually described as a sequence of layers or arrangement of soil horizons. This may be a single layer. " ;
 .
 ansis:SoilClassification
   a owl:Class ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Collection ;
   rdfs:subClassOf [
       a owl:Restriction ;
@@ -1924,12 +1313,14 @@ ansis:SoilClassification
     ] ;
   skos:member ansis:ASC-SoilClassification ;
   skos:member ansis:value ;
-  skos:prefLabel "Soil Classification" ;
+  skos:definition "Soil Classification"@en ;
+  skos:prefLabel "Soil Classification"@en ;
 .
 ansis:SoilColour
   a owl:Class ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Collection ;
-  dcterms:source "ASLS 3ed, Soil Profile: Colour p159" ;
+  schema:citation "ASLS 3ed, Soil Profile: Colour p159" ;
   rdfs:subClassOf [
       a owl:Restriction ;
       owl:cardinality "1"^^xsd:nonNegativeInteger ;
@@ -1943,10 +1334,12 @@ ansis:SoilColour
     ] ;
   skos:member ansis:moisture-status ;
   skos:member ansis:value ;
-  skos:prefLabel "Soil colour" ;
+  skos:definition "Soil colour"@en ;
+  skos:prefLabel "Soil colour"@en ;
 .
 ansis:SoilHorizon
   a owl:Class ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Collection ;
   rdfs:subClassOf ansis:SoilLayer ;
   rdfs:subClassOf [
@@ -1969,7 +1362,7 @@ ansis:SoilHorizon
     ] ;
   skos:definition """soil layer which is compositionally and/or structurally homogeneous, delineated by pedological boundaries
 
-![Soillayer - class diagram](https://raw.githubusercontent.com/ANZSoilData/def-au-domain/main/fig/Soillayer.png)""" ;
+![Soillayer - class diagram](https://raw.githubusercontent.com/ANZSoilData/def-au-domain/main/fig/Soillayer.png)"""@en ;
   skos:example """my:B22s
   a ansis:SoilHorizon ;
   rdfs:comment \"Horizon B22s\" ;
@@ -2022,11 +1415,12 @@ ansis:SoilHorizon
   skos:member ansis:structure ;
   skos:member ansis:texture ;
   skos:member ansis:waterRepellence ;
-  skos:prefLabel "Soil horizon" ;
+  skos:prefLabel "Soil horizon"@en ;
   skos:scopeNote "Soil horizons are designated A1, B2, R etc. " ;
 .
 ansis:SoilHorizonR
   a owl:Class ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   rdfs:subClassOf ansis:SoilHorizon ;
   rdfs:subClassOf [
       a owl:Restriction ;
@@ -2036,10 +1430,12 @@ ansis:SoilHorizonR
         ] ;
       owl:onProperty ansis:designation ;
     ] ;
-  skos:prefLabel "R Horizon" ;
+  skos:definition "R Horizon"@en ;
+  skos:prefLabel "R Horizon"@en ;
 .
 ansis:SoilLayer
   a owl:Class ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Collection ;
   rdfs:subClassOf [
       a owl:Restriction ;
@@ -2147,7 +1543,6 @@ ansis:SoilLayer
       a owl:Restriction ;
       owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
       owl:onClass [
-          a owl:Class ;
           owl:unionOf (
               sp:Field-texture-mineral
               sp:Field-texture-organic
@@ -2157,7 +1552,7 @@ ansis:SoilLayer
     ] ;
   skos:definition """region within a soil body usually observed as a specified depth interval within a profile
 
-![Soillayer - class diagram](https://raw.githubusercontent.com/ANZSoilData/def-au-domain/main/fig/Soillayer.png)""" ;
+![Soillayer - class diagram](https://raw.githubusercontent.com/ANZSoilData/def-au-domain/main/fig/Soillayer.png)"""@en ;
   skos:example """my:Layer_20-80
   a ansis:SoilLayer ;
   skos:prefLabel \"layer 20-80 cm\" ;
@@ -2202,16 +1597,19 @@ ansis:SoilLayer
   skos:member ansis:structure ;
   skos:member ansis:texture ;
   skos:member ansis:waterRepellence ;
-  skos:prefLabel "Soil layer" ;
+  skos:prefLabel "Soil layer"@en ;
   skos:scopeNote "A depth-defined layer could be considered to be a sample of a soil-body. " ;
 .
 ansis:SoilOrder
   a owl:Class ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   rdfs:subClassOf skos:Concept ;
-  skos:prefLabel "Soil order" ;
+  skos:definition "Soil order"@en ;
+  skos:prefLabel "Soil order"@en ;
 .
 ansis:SoilPlasticity
   a owl:Class ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Collection ;
   rdfs:subClassOf [
       a owl:Restriction ;
@@ -2226,11 +1624,13 @@ ansis:SoilPlasticity
     ] ;
   skos:member ansis:degree ;
   skos:member ansis:type ;
-  skos:prefLabel "Soil plasticity" ;
+  skos:definition "Soil plasticity"@en ;
+  skos:prefLabel "Soil plasticity"@en ;
   skos:scopeNote "Plasticity degree only applies to Normal plasticity" ;
 .
 ansis:SoilProfile
   a owl:Class ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Collection ;
   rdfs:subClassOf geo:Feature ;
   rdfs:subClassOf sosa:Sample ;
@@ -2279,7 +1679,6 @@ ansis:SoilProfile
       a owl:Restriction ;
       owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
       owl:onClass [
-          a owl:Class ;
           owl:unionOf (
               ansis:SoilClassification
               ansis:ASC-SoilClassification
@@ -2312,7 +1711,7 @@ ansis:SoilProfile
     ] ;
   skos:definition """A soil profile is a vertical section of a soil from the soil surface through all its horizons to parent material, other consolidated substrate material or selected depth in unconsolidated material.
 
-![Soilprofile - class diagram](https://raw.githubusercontent.com/ANZSoilData/def-au-domain/main/fig/SoilProfile.png)""" ;
+![Soilprofile - class diagram](https://raw.githubusercontent.com/ANZSoilData/def-au-domain/main/fig/SoilProfile.png)"""@en ;
   skos:example """my:P1
   a ansis:SoilProfile ;
   geo:hasGeometry my:Point_1 ;
@@ -2365,7 +1764,7 @@ ansis:SoilProfile
   skos:member ansis:relatedSite ;
   skos:member ansis:relatedSoilSurface ;
   skos:member ansis:type ;
-  skos:prefLabel "Soil profile" ;
+  skos:prefLabel "Soil profile"@en ;
   skos:scopeNote """A soil profile is a local sample of a soil body. Importantly, it records the set of horizons present at this location.
 Each horizon may then have a detailed description determined through a set of observations relating to the different characteristic properties. """ ;
   skos:scopeNote "If type=composite, then it is expected that there are 2::n related profiles whose type=single" ;
@@ -2373,6 +1772,7 @@ Each horizon may then have a detailed description determined through a set of ob
 .
 ansis:SoilSample
   a owl:Class ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Collection ;
   rdfs:subClassOf sosa:Sample ;
   rdfs:subClassOf [
@@ -2383,7 +1783,6 @@ ansis:SoilSample
   rdfs:subClassOf [
       a owl:Restriction ;
       owl:allValuesFrom [
-          a owl:Class ;
           owl:unionOf (
               ansis:SoilLayer
               ansis:SoilHorizon
@@ -2431,7 +1830,7 @@ Sample is a key class in the context of observations. The sample is an intermedi
 <br/>
 - `ansis:depth-lower` + `ansis:depth-upper` (if necessary) to indicate the precise depth range within the profile where the sample was taken
 
-![Sample - class diagram](https://raw.githubusercontent.com/ANZSoilData/def-au-domain/main/fig/Sample.png)""" ;
+![Sample - class diagram](https://raw.githubusercontent.com/ANZSoilData/def-au-domain/main/fig/Sample.png)"""@en ;
   skos:example """my:A11P1
   a ansis:SoilSample ;
   rdfs:comment \"Horizon A11 in Profile 1\" ;
@@ -2464,12 +1863,13 @@ my:A12P1R
   skos:member ansis:depth-upper ;
   skos:member ansis:relatedProfile ;
   skos:member ansis:type ;
-  skos:prefLabel "Soil sample" ;
+  skos:prefLabel "Soil sample"@en ;
   skos:scopeNote """A soil sample must be associated to a profile.
 """ ;
 .
 ansis:SoilSite
   a owl:Class ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Collection ;
   rdfs:subClassOf ansis:LandsurveySite ;
   rdfs:subClassOf [
@@ -2508,7 +1908,7 @@ ansis:SoilSite
     ] ;
   skos:definition """A site where samples, observations, and treatments of soil are carried out.
 
-![Site - class diagram](https://raw.githubusercontent.com/ANZSoilData/def-au-domain/main/fig/Site.png)""" ;
+![Site - class diagram](https://raw.githubusercontent.com/ANZSoilData/def-au-domain/main/fig/Site.png)"""@en ;
   skos:example """my:St1
   a ansis:SoilSite ;
   geo:hasGeometry my:Polygon_1 ;
@@ -2551,11 +1951,12 @@ ansis:SoilSite
   skos:member ansis:relatedSoilBody ;
   skos:member ansis:relatedSoilSurface ;
   skos:member ansis:type ;
-  skos:prefLabel "Soil site" ;
+  skos:prefLabel "Soil site"@en ;
   skos:scopeNote "Samples are taken from profiles, and observations made on those samples in order to characterize the soil-body in which the site is located. " ;
 .
 ansis:SoilStrength
   a owl:Class ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Collection ;
   rdfs:subClassOf [
       a owl:Restriction ;
@@ -2569,18 +1970,18 @@ ansis:SoilStrength
       owl:onProperty ansis:moisture-status ;
       owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
     ] ;
-  skos:definition "![Soilstrength - class diagram](https://raw.githubusercontent.com/ANZSoilData/def-au-domain/main/fig/SoilStrength.png)" ;
+  skos:definition "![Soilstrength - class diagram](https://raw.githubusercontent.com/ANZSoilData/def-au-domain/main/fig/SoilStrength.png)"@en ;
   skos:member ansis:moisture-status ;
   skos:member ansis:strength ;
-  skos:prefLabel "Soil strength" ;
+  skos:prefLabel "Soil strength"@en ;
 .
 ansis:SoilStructure
   a owl:Class ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Collection ;
   rdfs:subClassOf [
       a owl:Restriction ;
       owl:allValuesFrom [
-          a owl:Class ;
           owl:unionOf (
               sp:Pedality-type
               sp:Artificial-aggregates-structure
@@ -2602,7 +2003,6 @@ ansis:SoilStructure
   rdfs:subClassOf [
       a owl:Restriction ;
       owl:onClass [
-          a owl:Class ;
           owl:unionOf (
               sp:Pedality-grade-apedal
               sp:Pedality-grade-pedal
@@ -2613,7 +2013,7 @@ ansis:SoilStructure
     ] ;
   skos:definition """Soil structure or pedality
 
-![Soilstructure - class diagram](https://raw.githubusercontent.com/ANZSoilData/def-au-domain/main/fig/SoilStructure.png)""" ;
+![Soilstructure - class diagram](https://raw.githubusercontent.com/ANZSoilData/def-au-domain/main/fig/SoilStructure.png)"""@en ;
   skos:example """[
       a ansis:SoilStructure ;
       ansis:grade <http://anzsoil.org/def/au/asls/soil-profile/structure-pedality-grade-M> ;
@@ -2622,15 +2022,18 @@ ansis:SoilStructure
   skos:member ansis:grade ;
   skos:member ansis:size ;
   skos:member ansis:type ;
-  skos:prefLabel "Soil structure" ;
+  skos:prefLabel "Soil structure"@en ;
 .
 ansis:SoilSuborder
   a owl:Class ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   rdfs:subClassOf skos:Concept ;
-  skos:prefLabel "Soil sub-order" ;
+  skos:definition "Soil sub-order"@en ;
+  skos:prefLabel "Soil sub-order"@en ;
 .
 ansis:SoilSurface
   a owl:Class ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Collection ;
   rdfs:subClassOf [
       a owl:Restriction ;
@@ -2649,9 +2052,9 @@ ansis:SoilSurface
       owl:minCardinality "0"^^xsd:nonNegativeInteger ;
       owl:onProperty ansis:hasCoarseFragments ;
     ] ;
-  skos:definition """the surface of the soil body
+  skos:definition """The surface of the soil body
 
-![Soilsurface - class diagram](https://raw.githubusercontent.com/ANZSoilData/def-au-domain/main/fig/SoilSurface.png)""" ;
+![Soilsurface - class diagram](https://raw.githubusercontent.com/ANZSoilData/def-au-domain/main/fig/SoilSurface.png)"""@en ;
   skos:example """my:Surface_3
   a ansis:SoilSurface ;
   skos:prefLabel \"Soil surface 3\" ;
@@ -2662,10 +2065,11 @@ ansis:SoilSurface
   skos:member ansis:hasCoarseFragments ;
   skos:member ansis:relatedSoilBody ;
   skos:member ansis:waterRepellence ;
-  skos:prefLabel "Soil surface" ;
+  skos:prefLabel "Soil surface"@en ;
 .
 ansis:StreamChannel
   a owl:Class ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Collection ;
   rdfs:subClassOf [
       a owl:Restriction ;
@@ -2711,7 +2115,7 @@ ansis:StreamChannel
     ] ;
   skos:definition """Stream channel details
 
-![Streamchannel - class diagram](https://raw.githubusercontent.com/ANZSoilData/def-au-domain/main/fig/StreamChannel.png)""" ;
+![Streamchannel - class diagram](https://raw.githubusercontent.com/ANZSoilData/def-au-domain/main/fig/StreamChannel.png)"""@en ;
   skos:member ansis:depth-width-ratio ;
   skos:member ansis:development ;
   skos:member ansis:directionality ;
@@ -2719,10 +2123,11 @@ ansis:StreamChannel
   skos:member ansis:migration-rate ;
   skos:member ansis:pattern ;
   skos:member ansis:spacing ;
-  skos:prefLabel "Stream channel" ;
+  skos:prefLabel "Stream channel"@en ;
 .
 ansis:Substrate
   a owl:Class ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Collection ;
   rdfs:subClassOf [
       a owl:Restriction ;
@@ -2738,14 +2143,14 @@ ansis:Substrate
       a owl:Restriction ;
       owl:maxCardinality "1"^^xsd:nonNegativeInteger ;
       owl:onProperty ansis:distance ;
-      skos:definition "distance between the point of observation of the substrate material and the soil profile" ;
+      skos:definition "distance between the point of observation of the substrate material and the soil profile"@en ;
     ] ;
   rdfs:subClassOf [
       a owl:Restriction ;
       owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
       owl:onClass subst:Confidence ;
       owl:onProperty ansis:confidence ;
-      skos:definition "Degree of confidence that the observed substrate material is the parent material of the observed soil profile or a major part of that profile" ;
+      skos:definition "Degree of confidence that the observed substrate material is the parent material of the observed soil profile or a major part of that profile"@en ;
     ] ;
   rdfs:subClassOf [
       a owl:Restriction ;
@@ -2781,7 +2186,6 @@ ansis:Substrate
       a owl:Restriction ;
       owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
       owl:onClass [
-          a owl:Class ;
           owl:unionOf (
               ls:Lithology-rock-outcrop
               subst:Lithology-rock
@@ -2794,7 +2198,6 @@ ansis:Substrate
       a owl:Restriction ;
       owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
       owl:onClass [
-          a owl:Class ;
           owl:unionOf (
               subst:Rock-genesis-hardened-artificial
               subst:Rock-genesis-hardened-chemical
@@ -2826,7 +2229,7 @@ ansis:Substrate
     ] ;
   skos:definition """observed or inferred materials and masses of earth or rock that do not show pedological development. They are not soils, but typically underlie them. The substrate includes the R horizon and that part of the C horizon that shows no pedological development, but excludes the solum, buried soil horizons (including D horizons), and pans. The substrate beneath a soil profile may or may not be the parent material of the soil.
 
-![Substrate - class diagram](https://raw.githubusercontent.com/ANZSoilData/def-au-domain/main/fig/Substrate.png)""" ;
+![Substrate - class diagram](https://raw.githubusercontent.com/ANZSoilData/def-au-domain/main/fig/Substrate.png)"""@en ;
   skos:member sosa:usedProcedure ;
   skos:member ansis:alteration ;
   skos:member ansis:confidence ;
@@ -2841,10 +2244,11 @@ ansis:Substrate
   skos:member ansis:spacing ;
   skos:member ansis:strength ;
   skos:member ansis:texture ;
-  skos:prefLabel "Substrate" ;
+  skos:prefLabel "Substrate"@en ;
 .
 ansis:Treatment
   a owl:Class ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Collection ;
   rdfs:subClassOf sosa:Actuation ;
   rdfs:subClassOf [
@@ -2854,18 +2258,18 @@ ansis:Treatment
     ] ;
   skos:definition """Intervention or treatment
 
-![Actuation - class diagram](https://raw.githubusercontent.com/ANZSoilData/def-au-domain/main/fig/Actuation.png)""" ;
+![Actuation - class diagram](https://raw.githubusercontent.com/ANZSoilData/def-au-domain/main/fig/Actuation.png)"""@en ;
   skos:member sosa:actsOnProperty ;
   skos:member sosa:hasFeatureOfInterest ;
   skos:member sosa:madeByActuator ;
   skos:member sosa:resultTime ;
   skos:member sosa:usedProcedure ;
   skos:member ansis:relatedProject ;
-  skos:prefLabel "Treatment" ;
   skos:prefLabel "Treatment"@en ;
 .
 ansis:abundance
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   a sosa:ObservableProperty ;
   schema:domainIncludes ansis:CoarseFragments ;
@@ -2883,16 +2287,17 @@ ansis:abundance
   schema:rangeIncludes sp:Pore-abundance-fine ;
   schema:rangeIncludes sp:Root-abundance ;
   schema:rangeIncludes sp:Segregations-abundance ;
-  skos:definition "abundance of items" ;
+  skos:definition "abundance of items"@en ;
   skos:example """ansis:abundance [
           a qudt:QuantityValue ;
           qudt:unit unit:PERCENT ;
           qudt:value \"0.\" ;
         ] ;""" ;
-  skos:prefLabel "abundance" ;
+  skos:prefLabel "abundance"@en ;
 .
 ansis:agent
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   a sosa:ObservableProperty ;
   schema:domainIncludes ansis:LandformElement ;
@@ -2908,70 +2313,78 @@ ansis:agent
   schema:rangeIncludes lf:Geomorphology-agent-stand ;
   schema:rangeIncludes lf:Geomorphology-agent-streamflow ;
   schema:rangeIncludes lf:Geomorphology-agent-wind ;
-  skos:definition "agent of geomorphological or biotic activity" ;
-  skos:prefLabel "agent" ;
+  skos:definition "agent of geomorphological or biotic activity"@en ;
+  skos:prefLabel "agent"@en ;
 .
 ansis:aggradation
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   a sosa:ObservableProperty ;
   schema:domainIncludes ansis:LandSurface ;
   schema:rangeIncludes ls:Aggradation ;
-  skos:definition "aggradation presence" ;
-  skos:prefLabel "aggradation" ;
+  skos:definition "aggradation presence"@en ;
+  skos:prefLabel "aggradation"@en ;
 .
 ansis:alteration
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   a sosa:ObservableProperty ;
   schema:domainIncludes ansis:Substrate ;
   schema:rangeIncludes subst:Rock-alteration ;
-  skos:definition "type of alteration" ;
-  skos:prefLabel "alteration" ;
+  skos:definition "type of alteration"@en ;
+  skos:prefLabel "alteration"@en ;
 .
 ansis:analyte
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a sosa:ObservableProperty ;
   rdfs:subPropertyOf sosa:observedProperty ;
-  skos:definition "chemical species measured" ;
-  skos:prefLabel "analyte" ;
+  skos:definition "chemical species measured"@en ;
+  skos:prefLabel "analyte"@en ;
 .
 ansis:aspect
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   a sosa:ObservableProperty ;
   schema:domainIncludes ansis:LandSurface ;
   schema:domainIncludes ansis:LandsurveySite ;
   rdfs:range qudt:QuantityValue ;
-  skos:definition "direction or azimuth that a terrain surface faces" ;
-  skos:prefLabel "aspect" ;
+  skos:definition "direction or azimuth that a terrain surface faces"@en ;
+  skos:prefLabel "aspect"@en ;
 .
 ansis:carbon
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a sosa:ObservableProperty ;
   rdfs:range qudt:QuantityValue ;
   rdfs:subPropertyOf ansis:chemistry ;
-  skos:prefLabel "soil carbon" ;
+  skos:definition "soil carbon"@en ;
+  skos:prefLabel "soil carbon"@en ;
 .
 ansis:carbonate-effervescence
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   a sosa:ObservableProperty ;
   schema:domainIncludes ansis:SoilHorizon ;
   schema:domainIncludes ansis:SoilLayer ;
   schema:rangeIncludes sp:Carbonate-effervescence ;
   rdfs:subPropertyOf ansis:chemistry ;
-  skos:definition "effervescence of carbonate in fine earth" ;
-  skos:prefLabel "effervescence of carbonate" ;
+  skos:definition "effervescence of carbonate in fine earth"@en ;
+  skos:prefLabel "effervescence of carbonate"@en ;
 .
 ansis:cementation
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   a sosa:ObservableProperty ;
   schema:domainIncludes ansis:Pans ;
   schema:rangeIncludes sp:Pans-cementation ;
-  skos:definition "degree of cementation" ;
-  skos:prefLabel "cementation" ;
+  skos:definition "degree of cementation"@en ;
+  skos:prefLabel "cementation"@en ;
 .
 ansis:chemistry
   a rdf:Property ;
@@ -2979,99 +2392,109 @@ ansis:chemistry
   a sosa:ObservableProperty ;
   schema:domainIncludes ansis:SoilHorizon ;
   schema:domainIncludes ansis:SoilLayer ;
-  skos:prefLabel "soil chemical property" ;
+  skos:prefLabel "soil chemical property"@en ;
 .
 ansis:classification
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   a sosa:ObservableProperty ;
   schema:domainIncludes ansis:SoilBody ;
   schema:domainIncludes ansis:SoilProfile ;
   schema:rangeIncludes ansis:SoilClassification ;
   rdfs:subPropertyOf ansis:type ;
-  skos:definition "classification of the soil body or profile" ;
-  skos:prefLabel "has classification" ;
+  skos:definition "classification of the soil body or profile"@en ;
+  skos:prefLabel "has classification"@en ;
 .
 ansis:classification-family-A1texture
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   a sosa:ObservableProperty ;
   schema:domainIncludes ansis:ASC-SoilClassification ;
   rdfs:subPropertyOf skos:notation ;
-  skos:definition "family criteria - A1 horizon texture" ;
-  skos:prefLabel "classification - A1 horizon texture" ;
+  skos:definition "family criteria - A1 horizon texture"@en ;
+  skos:prefLabel "classification - A1 horizon texture"@en ;
 .
 ansis:classification-family-A1thickness
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   a sosa:ObservableProperty ;
   schema:domainIncludes ansis:ASC-SoilClassification ;
   rdfs:subPropertyOf skos:notation ;
-  skos:definition "family criteria - A1 horizon thickness" ;
-  skos:prefLabel "classification - A1 horizon thickness" ;
+  skos:definition "family criteria - A1 horizon thickness"@en ;
+  skos:prefLabel "classification - A1 horizon thickness"@en ;
 .
 ansis:classification-family-Btexture
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   a sosa:ObservableProperty ;
   schema:domainIncludes ansis:ASC-SoilClassification ;
   rdfs:subPropertyOf skos:notation ;
-  skos:definition "family criteria - B horizon texture" ;
-  skos:prefLabel "classification - B horizon texture" ;
+  skos:definition "family criteria - B horizon texture"@en ;
+  skos:prefLabel "classification - B horizon texture"@en ;
 .
 ansis:classification-family-depth
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   a sosa:ObservableProperty ;
   schema:domainIncludes ansis:ASC-SoilClassification ;
   rdfs:subPropertyOf skos:notation ;
-  skos:definition "family criteria - Soil depth" ;
-  skos:prefLabel "classification - Soil depth" ;
+  skos:definition "family criteria - Soil depth"@en ;
+  skos:prefLabel "classification - Soil depth"@en ;
 .
 ansis:classification-family-gravel
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   a sosa:ObservableProperty ;
   schema:domainIncludes ansis:ASC-SoilClassification ;
   rdfs:subPropertyOf skos:notation ;
-  skos:definition "family criteria - Gravel of the surface and A1 horizon" ;
-  skos:prefLabel "classification - Gravel of the surface and A1 horizon" ;
+  skos:definition "family criteria - Gravel of the surface and A1 horizon"@en ;
+  skos:prefLabel "classification - Gravel of the surface and A1 horizon"@en ;
 .
 ansis:classification-greatgroup
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   a sosa:ObservableProperty ;
   schema:domainIncludes ansis:ASC-SoilClassification ;
   rdfs:subPropertyOf skos:notation ;
-  skos:definition "soil classification - Great group" ;
-  skos:prefLabel "classification - Great group" ;
+  skos:definition "soil classification - Great group"@en ;
+  skos:prefLabel "classification - Great group"@en ;
 .
 ansis:classification-order
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   a sosa:ObservableProperty ;
   schema:domainIncludes ansis:ASC-SoilClassification ;
   rdfs:subPropertyOf skos:notation ;
-  skos:definition "soil classification - Order" ;
-  skos:prefLabel "classification - Order" ;
+  skos:definition "soil classification - Order"@en ;
+  skos:prefLabel "classification - Order"@en ;
 .
 ansis:classification-subgroup
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   a sosa:ObservableProperty ;
   schema:domainIncludes ansis:ASC-SoilClassification ;
   rdfs:subPropertyOf skos:notation ;
-  skos:definition "soil classification - Subgroup" ;
-  skos:prefLabel "classification - Subgroup" ;
+  skos:definition "soil classification - Subgroup"@en ;
+  skos:prefLabel "classification - Subgroup"@en ;
 .
 ansis:classification-suborder
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   a sosa:ObservableProperty ;
   schema:domainIncludes ansis:ASC-SoilClassification ;
   rdfs:subPropertyOf skos:notation ;
-  skos:definition "soil classification - Sub-order" ;
-  skos:prefLabel "classification - Sub-order" ;
+  skos:definition "soil classification - Sub-order"@en ;
+  skos:prefLabel "classification - Sub-order"@en ;
 .
 ansis:colour
   a rdf:Property ;
@@ -3082,10 +2505,11 @@ ansis:colour
   schema:domainIncludes ansis:SoilLayer ;
   schema:rangeIncludes sp:Mottle-colour ;
   schema:rangeIncludes sp:SoilColour ;
-  skos:prefLabel "colour" ;
+  skos:prefLabel "colour"@en ;
 .
 ansis:component
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   schema:domainIncludes sosa:Sampling ;
   schema:domainIncludes ansis:Microrelief ;
@@ -3095,53 +2519,60 @@ ansis:component
   schema:rangeIncludes ls:Microrelief-component-sampled ;
   schema:rangeIncludes owl:Class ;
   rdfs:range owl:Class ;
-  skos:definition "type of component element" ;
-  skos:prefLabel "component" ;
+  skos:definition "type of component element"@en ;
+  skos:prefLabel "component"@en ;
 .
 ansis:compound-pedality
   a owl:DatatypeProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   a sosa:ObservableProperty ;
   schema:domainIncludes ansis:SoilStructure ;
-  skos:prefLabel "compound pedality" ;
+  skos:definition "compound pedality"@en ;
+  skos:prefLabel "compound pedality"@en ;
 .
 ansis:condition-when-dry
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   a sosa:ObservableProperty ;
   schema:domainIncludes ansis:SoilSurface ;
   schema:rangeIncludes sp:Surface-condition ;
-  skos:definition "surface condition when dry" ;
-  skos:prefLabel "condition when dry" ;
+  skos:definition "surface condition when dry"@en ;
+  skos:prefLabel "condition when dry"@en ;
 .
 ansis:confidence
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   schema:domainIncludes ansis:Substrate ;
   schema:rangeIncludes subst:Confidence ;
-  skos:definition "confidence in assessment" ;
-  skos:prefLabel "confidence" ;
+  skos:definition "confidence in assessment"@en ;
+  skos:prefLabel "confidence"@en ;
 .
 ansis:continuity
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   a sosa:ObservableProperty ;
   schema:domainIncludes ansis:Pans ;
   schema:rangeIncludes sp:Pans-continuity ;
-  skos:definition "continuity of linear or planar elements" ;
-  skos:prefLabel "continuity" ;
+  skos:definition "continuity of linear or planar elements"@en ;
+  skos:prefLabel "continuity"@en ;
 .
 ansis:contrast
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   a sosa:ObservableProperty ;
   schema:domainIncludes ansis:Mottles ;
   schema:rangeIncludes sp:Mottle-contrast ;
-  skos:definition "degree of colour contrast" ;
-  skos:prefLabel "contrast" ;
+  skos:definition "degree of colour contrast"@en ;
+  skos:prefLabel "contrast"@en ;
 .
 ansis:degree
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   a sosa:ObservableProperty ;
   schema:domainIncludes ansis:Erosion ;
@@ -3156,23 +2587,24 @@ ansis:degree
   schema:rangeIncludes ls:Erosion-severity-wave ;
   schema:rangeIncludes ls:Erosion-severity-wind ;
   schema:rangeIncludes sp:Consistence-plasticity-degree ;
-  skos:definition "degree or severity or intensity of phenomenon" ;
-  skos:prefLabel "degree or intensity" ;
+  skos:definition "degree or severity or intensity of phenomenon"@en ;
+  skos:prefLabel "degree or intensity"@en ;
 .
 ansis:density
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   a sosa:ObservableProperty ;
   schema:domainIncludes ansis:SoilHorizon ;
   schema:domainIncludes ansis:SoilLayer ;
   rdfs:range qudt:QuantityValue ;
-  skos:definition "mass per unit volume of a substance" ;
+  skos:definition "mass per unit volume of a substance"@en ;
   skos:example """  ansis:density [
       a qudt:QuantityValue ;
       qudt:unit unit:GM-PER-CentiM3 ;
       qudt:value \"1.3\" ;
     ] ;""" ;
-  skos:prefLabel "density" ;
+  skos:prefLabel "density"@en ;
 .
 ansis:depth
   a rdf:Property ;
@@ -3184,11 +2616,12 @@ ansis:depth
   schema:domainIncludes ansis:Substrate ;
   schema:rangeIncludes ls:Inundation-depth ;
   schema:rangeIncludes qudt:QuantityValue ;
-  skos:definition "depth from local surface of entity" ;
-  skos:prefLabel "depth" ;
+  skos:definition "depth from local surface of entity"@en ;
+  skos:prefLabel "depth"@en ;
 .
 ansis:depth-free-water
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   a sosa:ObservableProperty ;
   schema:domainIncludes ansis:SoilSite ;
@@ -3198,8 +2631,8 @@ ansis:depth-free-water
 
 Positive values indicate water above the soil surface
 
-Negative values indicate water below the soil surface""" ;
-  skos:prefLabel "depth to free water" ;
+Negative values indicate water below the soil surface"""@en ;
+  skos:prefLabel "depth to free water"@en ;
 .
 ansis:depth-gully
   a rdf:Property ;
@@ -3209,11 +2642,12 @@ ansis:depth-gully
   schema:rangeIncludes ls:Erosion-depth-gully ;
   schema:rangeIncludes qudt:QuantityValue ;
   rdfs:subPropertyOf ansis:depth ;
-  skos:definition "depth from local surface to the bae of the gully" ;
-  skos:prefLabel "gully depth" ;
+  skos:definition "depth from local surface to the bae of the gully"@en ;
+  skos:prefLabel "gully depth"@en ;
 .
 ansis:depth-lower
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   a sosa:ObservableProperty ;
   schema:domainIncludes geo:Feature ;
@@ -3222,33 +2656,36 @@ ansis:depth-lower
   schema:domainIncludes ansis:SoilSample ;
   rdfs:range qudt:QuantityValue ;
   rdfs:subPropertyOf ansis:depth ;
-  skos:definition "depth from local surface to the base of the element" ;
+  skos:definition "depth from local surface to the base of the element"@en ;
   skos:example """  ansis:depth-lower [
       a qudt:QuantityValue ;
       qudt:unit unit:CentiM ;
       qudt:value \"80.\" ;
     ] ;""" ;
-  skos:prefLabel "lower depth" ;
+  skos:prefLabel "lower depth"@en ;
 .
 ansis:depth-r-horizon
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   a sosa:ObservableProperty ;
   schema:domainIncludes ansis:SoilProfile ;
   rdfs:range qudt:QuantityValue ;
   rdfs:subPropertyOf ansis:depth-upper ;
-  skos:definition "depth from local surface to the top of the R-Horizon" ;
-  skos:prefLabel "depth to R-Horizon" ;
+  skos:definition "depth from local surface to the top of the R-Horizon"@en ;
+  skos:prefLabel "depth to R-Horizon"@en ;
 .
 ansis:depth-reason
   a owl:DatatypeProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   schema:domainIncludes ansis:SoilProfile ;
-  skos:definition "reason for the specific depth of this profile e.g. length of auger | depth of interest | rock | too wet … " ;
-  skos:prefLabel "reason for profile depth" ;
+  skos:definition "reason for the specific depth of this profile e.g. length of auger | depth of interest | rock | too wet … "@en ;
+  skos:prefLabel "reason for profile depth"@en ;
 .
 ansis:depth-upper
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   a sosa:ObservableProperty ;
   schema:domainIncludes geo:Feature ;
@@ -3257,132 +2694,143 @@ ansis:depth-upper
   schema:domainIncludes ansis:SoilSample ;
   rdfs:range qudt:QuantityValue ;
   rdfs:subPropertyOf ansis:depth ;
-  skos:definition "depth from local surface to the top of the element" ;
+  skos:definition "depth from local surface to the top of the element"@en ;
   skos:example """  ansis:depth-upper [
       a qudt:QuantityValue ;
       qudt:unit unit:CentiM ;
       qudt:value \"58.\" ;
     ] ;""" ;
-  skos:prefLabel "upper depth" ;
+  skos:prefLabel "upper depth"@en ;
 .
 ansis:depth-width-ratio
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   a sosa:ObservableProperty ;
   schema:domainIncludes ansis:StreamChannel ;
   schema:rangeIncludes lf:Channel-depth-width ;
   schema:rangeIncludes qudt:QuantityValue ;
-  skos:definition "depth to width ratio of entity" ;
-  skos:definition "ratio of depth to width of the element" ;
-  skos:prefLabel "depth width ratio" ;
+  skos:definition "ratio of depth to width of the element"@en ;
+  skos:prefLabel "depth width ratio"@en ;
 .
 ansis:design-site
   a owl:DatatypeProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;  
   a skos:Concept ;
   schema:domainIncludes ansis:SoilSite ;
   schema:rangeIncludes ansis:SoilSite-design ;
-  skos:definition "overall design of sampling at the site e.g. ASLS|grid|transect" ;
-  skos:prefLabel "site design" ;
+  skos:definition "overall design of sampling at the site e.g. ASLS|grid|transect"@en ;
+  skos:prefLabel "site design"@en ;
 .
 ansis:design-survey
   a owl:DatatypeProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   schema:domainIncludes ansis:SoilSite ;
   schema:rangeIncludes ansis:Survey-design ;
-  skos:definition "overall design of soil or landscape survey e.g. free|grid|stratified|miscellaneous" ;
-  skos:prefLabel "survey design" ;
+  skos:definition "overall design of soil or landscape survey e.g. free|grid|stratified|miscellaneous"@en ;
+  skos:prefLabel "survey design"@en ;
 .
 ansis:designation
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   a sosa:ObservableProperty ;
   schema:domainIncludes ansis:SoilHorizon ;
   schema:rangeIncludes ansis:HorizonDesignation ;
   rdfs:subPropertyOf ansis:classification ;
-  skos:definition "designation of soil horizon with the sequence composing the Profile or Soil Body" ;
-  skos:definition "soil horizon designation" ;
-  skos:prefLabel "horizon designation" ;
+  skos:definition "designation of soil horizon with the sequence composing the Profile or Soil Body"@en ;
+  skos:prefLabel "horizon designation"@en ;
 .
 ansis:designation-master
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   a sosa:ObservableProperty ;
   schema:domainIncludes ansis:HorizonDesignation ;
   schema:rangeIncludes sp:Horizon-code ;
   rdfs:subPropertyOf skos:notation ;
-  skos:definition "soil horizon designation master" ;
-  skos:prefLabel "designation master" ;
+  skos:definition "soil horizon designation master"@en ;
+  skos:prefLabel "designation master"@en ;
 .
 ansis:designation-prefix
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   a sosa:ObservableProperty ;
   schema:domainIncludes ansis:HorizonDesignation ;
   rdfs:range xsd:integer ;
   rdfs:subPropertyOf skos:notation ;
-  skos:definition "soil horizon designation prefix" ;
-  skos:prefLabel "designation prefix" ;
+  skos:definition "soil horizon designation prefix"@en ;
+  skos:prefLabel "designation prefix"@en ;
 .
 ansis:designation-subdivision
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   a sosa:ObservableProperty ;
   schema:domainIncludes ansis:HorizonDesignation ;
   rdfs:range xsd:integer ;
   rdfs:subPropertyOf skos:notation ;
-  skos:definition "soil horizon designation subdivision" ;
-  skos:prefLabel "designation subdivision" ;
+  skos:definition "soil horizon designation subdivision"@en ;
+  skos:prefLabel "designation subdivision"@en ;
 .
 ansis:designation-suffix
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   a sosa:ObservableProperty ;
   schema:domainIncludes ansis:HorizonDesignation ;
   schema:rangeIncludes sp:Horizon-suffix ;
   rdfs:subPropertyOf skos:notation ;
-  skos:definition "soil horizon designation suffix" ;
-  skos:prefLabel "designation suffix" ;
+  skos:definition "soil horizon designation suffix"@en ;
+  skos:prefLabel "designation suffix"@en ;
 .
 ansis:development
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   a sosa:ObservableProperty ;
   schema:domainIncludes ansis:StreamChannel ;
   schema:rangeIncludes lf:Channel-development ;
-  skos:definition "degree of development of element" ;
-  skos:prefLabel "development" ;
+  skos:definition "degree of development of element"@en ;
+  skos:prefLabel "development"@en ;
 .
 ansis:diameter
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   a sosa:ObservableProperty ;
   schema:domainIncludes ansis:Pores ;
   schema:domainIncludes ansis:Roots ;
   schema:rangeIncludes sp:Pore-diameter ;
   schema:rangeIncludes sp:Root-size ;
-  skos:definition "thickness or width of round object" ;
-  skos:prefLabel "diameter" ;
+  skos:definition "thickness or width of round object"@en ;
+  skos:prefLabel "diameter"@en ;
 .
 ansis:directionality
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   a sosa:ObservableProperty ;
   schema:domainIncludes ansis:StreamChannel ;
   schema:rangeIncludes lf:Channel-directionality ;
-  skos:definition "network directionality" ;
-  skos:prefLabel "directionality" ;
+  skos:definition "network directionality"@en ;
+  skos:prefLabel "directionality"@en ;
 .
 ansis:distance
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   a sosa:ObservableProperty ;
   schema:domainIncludes ansis:Substrate ;
   rdfs:range qudt:QuantityValue ;
-  skos:definition "spatial separation of objects" ;
-  skos:prefLabel "distance" ;
+  skos:definition "spatial separation of objects"@en ;
+  skos:prefLabel "distance"@en ;
 .
 ansis:distinctness
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   a sosa:ObservableProperty ;
   schema:domainIncludes ansis:Cutans ;
@@ -3391,80 +2839,87 @@ ansis:distinctness
   schema:rangeIncludes sp:Boundary-distinctness ;
   schema:rangeIncludes sp:Cutans-distinctness ;
   schema:rangeIncludes sp:Mottle-distinctness ;
-  skos:definition "distinctness of boundary" ;
+  skos:definition "distinctness of boundary"@en ;
   skos:example "  ansis:distinctness <http://anzsoil.org/def/au/asls/soil-profile/horizon-boundary-distinctness-G> ;" ;
-  skos:prefLabel "distinctness" ;
+  skos:prefLabel "distinctness"@en ;
   skos:scopeNote "In the context of a soil horizon, this refers to the distinctness of the lower boundary" ;
 .
 ansis:distribution
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   a sosa:ObservableProperty ;
   schema:domainIncludes ansis:CoarseFragments ;
   schema:rangeIncludes sp:Coarse-fragments-distribution ;
-  skos:definition "spatial arrangement of items" ;
-  skos:prefLabel "distribution" ;
+  skos:definition "spatial arrangement of items"@en ;
+  skos:prefLabel "distribution"@en ;
 .
 ansis:disturbance
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   a sosa:ObservableProperty ;
   schema:domainIncludes ansis:LandsurveySite ;
   schema:domainIncludes ansis:SoilSite ;
   schema:rangeIncludes ls:Disturbance-of-site ;
-  skos:definition "disturbance of site" ;
-  skos:prefLabel "disturbance" ;
+  skos:definition "disturbance of site"@en ;
+  skos:prefLabel "disturbance"@en ;
 .
 ansis:drainage
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   a sosa:ObservableProperty ;
   schema:domainIncludes ansis:LandsurveySite ;
   schema:domainIncludes ansis:SoilProfile ;
   schema:domainIncludes ansis:SoilSite ;
   schema:rangeIncludes sp:Site-drainage ;
-  skos:prefLabel "drainage of site or profile" ;
-  skos:prefLabel "drainage" ;
+  skos:definition "drainage of site or profile"@en ;
+  skos:prefLabel "drainage"@en ;
 .
 ansis:duration
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   a sosa:ObservableProperty ;
   schema:domainIncludes ansis:Inundation ;
   schema:rangeIncludes ls:Inundation-duration ;
   schema:rangeIncludes qudt:QuantityValue ;
-  skos:definition "temporal extent of event or phenomenon" ;
-  skos:prefLabel "duration" ;
+  skos:definition "temporal extent of event or phenomenon"@en ;
+  skos:prefLabel "duration"@en ;
 .
 ansis:elevation
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   a sosa:ObservableProperty ;
   schema:domainIncludes ansis:LandSurface ;
   schema:domainIncludes ansis:LandsurveySite ;
   rdfs:range qudt:QuantityValue ;
-  skos:definition "elevation of element above a datum (usually MSL)" ;
-  skos:prefLabel "elevation" ;
+  skos:definition "elevation of element above a datum (usually MSL)"@en ;
+  skos:prefLabel "elevation"@en ;
 .
 ansis:fabric
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   a sosa:ObservableProperty ;
   schema:domainIncludes ansis:SoilHorizon ;
   schema:domainIncludes ansis:SoilLayer ;
   schema:rangeIncludes sp:Fabric-type ;
-  skos:definition "fabric of soil element" ;
-  skos:prefLabel "fabric" ;
+  skos:definition "fabric of soil element"@en ;
+  skos:prefLabel "fabric"@en ;
 .
 ansis:frequency
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   a sosa:ObservableProperty ;
   schema:domainIncludes ansis:Inundation ;
   schema:rangeIncludes ls:Inundation-frequency ;
   schema:rangeIncludes qudt:QuantityValue ;
-  skos:definition "temporal frequency of event or phenomenon" ;
-  skos:prefLabel "frequency" ;
+  skos:definition "temporal frequency of event or phenomenon"@en ;
+  skos:prefLabel "frequency"@en ;
 .
 ansis:genesis
   a rdf:Property ;
@@ -3477,51 +2932,56 @@ ansis:genesis
   schema:rangeIncludes subst:Rock-genesis-sediments ;
   schema:rangeIncludes subst:Rock-genesis-unweathered ;
   schema:rangeIncludes subst:Rock-genesis-weathered ;
-  skos:definition "formation process for material" ;
-  skos:prefLabel "genesis" ;
+  skos:definition "formation process for material"@en ;
+  skos:prefLabel "genesis"@en ;
 .
 ansis:geomorphologyMode
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   a sosa:ObservableProperty ;
   schema:domainIncludes ansis:LandformElement ;
   schema:domainIncludes ansis:LandformPattern ;
   schema:rangeIncludes lf:Geomorphology-mode ;
-  skos:definition "mode of geomorphological activity" ;
-  skos:prefLabel "geomorphology mode" ;
+  skos:definition "mode of geomorphological activity"@en ;
+  skos:prefLabel "geomorphology mode"@en ;
 .
 ansis:geomorphologyStatus
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   a sosa:ObservableProperty ;
   schema:domainIncludes ansis:LandformPattern ;
   schema:rangeIncludes lf:Geomorphology-status ;
-  skos:definition "status of geomorphological activity" ;
-  skos:prefLabel "geomorphological status" ;
+  skos:definition "status of geomorphological activity"@en ;
+  skos:prefLabel "geomorphological status"@en ;
 .
 ansis:grade
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   a sosa:ObservableProperty ;
   schema:domainIncludes ansis:SoilStructure ;
   schema:rangeIncludes sp:Pedality-grade-apedal ;
   schema:rangeIncludes sp:Pedality-grade-pedal ;
-  skos:definition "grade or degree of development of structure" ;
-  skos:prefLabel "grade" ;
+  skos:definition "grade or degree of development of structure"@en ;
+  skos:prefLabel "grade"@en ;
 .
 ansis:grain-size
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   a sosa:ObservableProperty ;
   schema:domainIncludes ansis:Outcrop ;
   schema:domainIncludes ansis:Substrate ;
   schema:rangeIncludes subst:Substrate-grain-size ;
   rdfs:subPropertyOf ansis:size ;
-  skos:definition "size of the most common particles of a material" ;
-  skos:prefLabel "grain size" ;
+  skos:definition "size of the most common particles of a material"@en ;
+  skos:prefLabel "grain size"@en ;
 .
 ansis:hasCoarseFragments
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   a sosa:ObservableProperty ;
   schema:domainIncludes ansis:LandSurface ;
@@ -3529,292 +2989,320 @@ ansis:hasCoarseFragments
   schema:domainIncludes ansis:SoilLayer ;
   schema:domainIncludes ansis:SoilSurface ;
   rdfs:range ansis:CoarseFragments ;
-  skos:definition "link to description of coarse fragments" ;
-  skos:prefLabel "has coarse fragments" ;
+  skos:definition "link to description of coarse fragments"@en ;
+  skos:prefLabel "has coarse fragments"@en ;
 .
 ansis:hasCracks
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   a sosa:ObservableProperty ;
   schema:domainIncludes ansis:SoilHorizon ;
   schema:domainIncludes ansis:SoilLayer ;
   rdfs:range ansis:Cracks ;
-  skos:definition "link to description of cracks" ;
-  skos:prefLabel "has cracks" ;
+  skos:definition "link to description of cracks"@en ;
+  skos:prefLabel "has cracks"@en ;
 .
 ansis:hasCutans
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   a sosa:ObservableProperty ;
   schema:domainIncludes ansis:SoilHorizon ;
   schema:domainIncludes ansis:SoilLayer ;
   rdfs:range ansis:Cutans ;
-  skos:definition "link to description of cutans" ;
-  skos:prefLabel "has cutans" ;
+  skos:definition "link to description of cutans"@en ;
+  skos:prefLabel "has cutans"@en ;
 .
 ansis:hasErosion
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   a sosa:ObservableProperty ;
   schema:domainIncludes ansis:LandSurface ;
   schema:domainIncludes ansis:LandsurveySite ;
   schema:domainIncludes ansis:SoilSite ;
   rdfs:range ansis:Erosion ;
-  skos:definition "link to description of erosion" ;
-  skos:prefLabel "has erosion" ;
+  skos:definition "link to description of erosion"@en ;
+  skos:prefLabel "has erosion"@en ;
 .
 ansis:hasInundation
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   a sosa:ObservableProperty ;
   schema:domainIncludes ansis:LandSurface ;
   rdfs:range ansis:Inundation ;
-  skos:definition "link to description of inundation" ;
-  skos:prefLabel "has inundation" ;
+  skos:definition "link to description of inundation"@en ;
+  skos:prefLabel "has inundation"@en ;
 .
 ansis:hasLandCover
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   a sosa:ObservableProperty ;
   schema:domainIncludes ansis:LandsurveySite ;
   schema:domainIncludes ansis:SoilSite ;
   rdfs:range ansis:LandCover ;
-  skos:definition "land cover around this entity" ;
-  skos:prefLabel "has land cover" ;
+  skos:definition "land cover around this entity"@en ;
+  skos:prefLabel "has land cover"@en ;
 .
 ansis:hasLandManagement
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   a sosa:ObservableProperty ;
   schema:domainIncludes ansis:LandsurveySite ;
   schema:domainIncludes ansis:SoilBody ;
   schema:domainIncludes ansis:SoilSite ;
   rdfs:range ansis:LandManagement ;
-  skos:definition "land management around this entity" ;
-  skos:prefLabel "has land management" ;
+  skos:definition "land management around this entity"@en ;
+  skos:prefLabel "has land management"@en ;
 .
 ansis:hasLandSurface
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   a sosa:ObservableProperty ;
   schema:domainIncludes ansis:LandsurveySite ;
   schema:domainIncludes ansis:SoilBody ;
   schema:domainIncludes ansis:SoilSite ;
   rdfs:range ansis:LandSurface ;
-  skos:definition "land surface at this entity" ;
-  skos:prefLabel "has land surface" ;
+  skos:definition "land surface at this entity"@en ;
+  skos:prefLabel "has land surface"@en ;
 .
 ansis:hasLandUse
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   a sosa:ObservableProperty ;
   schema:domainIncludes ansis:LandsurveySite ;
   schema:domainIncludes ansis:SoilBody ;
   schema:domainIncludes ansis:SoilSite ;
   rdfs:range ansis:LandUse ;
-  skos:definition "land use around this entity" ;
-  skos:prefLabel "has land use" ;
+  skos:definition "land use around this entity"@en ;
+  skos:prefLabel "has land use"@en ;
 .
 ansis:hasLandform
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   a sosa:ObservableProperty ;
   schema:domainIncludes ansis:LandsurveySite ;
   schema:domainIncludes ansis:SoilBody ;
   schema:domainIncludes ansis:SoilSite ;
   rdfs:range ansis:Landform ;
-  skos:definition "landform around this entity" ;
-  skos:prefLabel "has landform" ;
+  skos:definition "landform around this entity"@en ;
+  skos:prefLabel "has landform"@en ;
 .
 ansis:hasLandformElement
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   a sosa:ObservableProperty ;
   schema:domainIncludes ansis:Landform ;
   schema:domainIncludes ansis:LandformPattern ;
   rdfs:range ansis:LandformElement ;
   rdfs:subPropertyOf ansis:hasLandform ;
-  skos:definition "landform element around this entity (<20m)" ;
-  skos:prefLabel "has landform element" ;
+  skos:definition "landform element around this entity (<20m)"@en ;
+  skos:prefLabel "has landform element"@en ;
 .
 ansis:hasLandformPattern
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   a sosa:ObservableProperty ;
   schema:domainIncludes ansis:Landform ;
   rdfs:range ansis:LandformPattern ;
   rdfs:subPropertyOf ansis:hasLandform ;
-  skos:definition "landform pattern around this entity (>600m)" ;
-  skos:prefLabel "has landform pattern" ;
+  skos:definition "landform pattern around this entity (>600m)"@en ;
+  skos:prefLabel "has landform pattern"@en ;
 .
 ansis:hasMicrorelief
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   a sosa:ObservableProperty ;
   schema:domainIncludes ansis:LandsurveySite ;
   schema:domainIncludes ansis:SoilSite ;
   rdfs:range ansis:Microrelief ;
-  skos:definition "link to description of microrelief at the site" ;
-  skos:prefLabel "has microrelief" ;
+  skos:definition "link to description of microrelief at the site"@en ;
+  skos:prefLabel "has microrelief"@en ;
 .
 ansis:hasMicrorelief-biotic
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   a sosa:ObservableProperty ;
   schema:domainIncludes ansis:Microrelief ;
   rdfs:range ansis:Microrelief-biotic ;
-  skos:definition "link to description of biotic microrelief at the site" ;
-  skos:prefLabel "has biotic microrelief" ;
+  skos:definition "link to description of biotic microrelief at the site"@en ;
+  skos:prefLabel "has biotic microrelief"@en ;
 .
 ansis:hasMicrorelief-gilgai
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   a sosa:ObservableProperty ;
   schema:domainIncludes ansis:Microrelief ;
   rdfs:range ansis:Microrelief-gilgai ;
-  skos:definition "link to description of gilgai microrelief at the site" ;
-  skos:prefLabel "has gilgai microrelief" ;
+  skos:definition "link to description of gilgai microrelief at the site"@en ;
+  skos:prefLabel "has gilgai microrelief"@en ;
 .
 ansis:hasMicrorelief-hummocky
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   a sosa:ObservableProperty ;
   schema:domainIncludes ansis:Microrelief ;
   rdfs:range ansis:Microrelief-hummocky ;
-  skos:definition "link to description of hummocky microrelief at the site" ;
-  skos:prefLabel "has hummocky microrelief" ;
+  skos:definition "link to description of hummocky microrelief at the site"@en ;
+  skos:prefLabel "has hummocky microrelief"@en ;
 .
 ansis:hasMicrorelief-other
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   a sosa:ObservableProperty ;
   schema:domainIncludes ansis:Microrelief ;
   rdfs:range ansis:Microrelief-other ;
-  skos:definition "link to description of other microrelief at the site" ;
-  skos:prefLabel "has other microrelief" ;
+  skos:definition "link to description of other microrelief at the site"@en ;
+  skos:prefLabel "has other microrelief"@en ;
 .
 ansis:hasMottles
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   a sosa:ObservableProperty ;
   schema:domainIncludes ansis:SoilHorizon ;
   schema:domainIncludes ansis:SoilLayer ;
   rdfs:range ansis:Mottles ;
-  skos:definition "link to description of mottles and other colour patterns" ;
-  skos:prefLabel "has mottles" ;
+  skos:definition "link to description of mottles and other colour patterns"@en ;
+  skos:prefLabel "has mottles"@en ;
 .
 ansis:hasOutcrop
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   a sosa:ObservableProperty ;
   schema:domainIncludes ansis:LandsurveySite ;
   schema:domainIncludes ansis:SoilSite ;
   rdfs:range ansis:Outcrop ;
-  skos:definition "link to description of rock outcrop at this entity" ;
-  skos:prefLabel "has outcrop" ;
+  skos:definition "link to description of rock outcrop at this entity"@en ;
+  skos:prefLabel "has outcrop"@en ;
 .
 ansis:hasPans
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   a sosa:ObservableProperty ;
   schema:domainIncludes ansis:SoilHorizon ;
   schema:domainIncludes ansis:SoilLayer ;
   rdfs:range ansis:Pans ;
-  skos:definition "link to description of pans" ;
-  skos:prefLabel "has pans" ;
+  skos:definition "link to description of pans"@en ;
+  skos:prefLabel "has pans"@en ;
 .
 ansis:hasPores
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   a sosa:ObservableProperty ;
   schema:domainIncludes ansis:SoilHorizon ;
   schema:domainIncludes ansis:SoilLayer ;
   rdfs:range ansis:Pores ;
-  skos:prefLabel "has macropores" ;
-  skos:prefLabel "link to description of macropores" ;
+  skos:prefLabel "has macropores"@en ;
+  skos:definition "link to description of macropores"@en ;
 .
 ansis:hasRoots
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   a sosa:ObservableProperty ;
   schema:domainIncludes ansis:SoilHorizon ;
   schema:domainIncludes ansis:SoilLayer ;
   schema:domainIncludes ansis:SoilProfile ;
   rdfs:range ansis:Roots ;
-  skos:definition "link to description of roots" ;
-  skos:prefLabel "has roots" ;
+  skos:definition "link to description of roots"@en ;
+  skos:prefLabel "has roots"@en ;
 .
 ansis:hasSegregations
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   a sosa:ObservableProperty ;
   schema:domainIncludes ansis:SoilHorizon ;
   schema:domainIncludes ansis:SoilLayer ;
   rdfs:range ansis:Segregations ;
-  skos:prefLabel "has segregations" ;
-  skos:prefLabel "link to description of segregations" ;
+  skos:prefLabel "has segregations"@en ;
+  skos:definition "link to description of segregations"@en ;
 .
 ansis:hasStreamChannel
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   a sosa:ObservableProperty ;
   schema:domainIncludes ansis:LandformPattern ;
   rdfs:range ansis:StreamChannel ;
-  skos:definition "link to description of stream channel occurrence" ;
-  skos:prefLabel "has stream channel " ;
+  skos:definition "link to description of stream channel occurrence"@en ;
+  skos:prefLabel "has stream channel "@en ;
 .
 ansis:hasSubstrate
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   a sosa:ObservableProperty ;
   schema:domainIncludes ansis:SoilBody ;
   schema:domainIncludes ansis:SoilProfile ;
   rdfs:range ansis:Substrate ;
-  skos:definition "link to description of substrate" ;
-  skos:definition "substrate at this entity" ;
-  skos:prefLabel "has substrate" ;
+  skos:definition "link to description of substrate"@en ;
+  skos:prefLabel "has substrate"@en ;
 .
 ansis:height
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   a sosa:ObservableProperty ;
   schema:domainIncludes ansis:Erosion ;
   schema:domainIncludes ansis:LandformElement ;
   schema:domainIncludes ansis:Microrelief ;
   rdfs:range qudt:QuantityValue ;
-  skos:definition "vertical extent of element" ;
-  skos:prefLabel "height" ;
+  skos:definition "vertical extent of element"@en ;
+  skos:prefLabel "height"@en ;
 .
 ansis:height-drainage
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   a sosa:ObservableProperty ;
   schema:domainIncludes ansis:SoilSite ;
   rdfs:subPropertyOf ansis:height ;
-  skos:definition "vertical extent of drainage" ;
-  skos:prefLabel "drainage height" ;
+  skos:definition "vertical extent of drainage"@en ;
+  skos:prefLabel "drainage height"@en ;
 .
 ansis:integration
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   a sosa:ObservableProperty ;
   schema:domainIncludes ansis:StreamChannel ;
   schema:rangeIncludes lf:Channel-integration ;
-  skos:definition "integration of stream channel network" ;
-  skos:prefLabel "network integration" ;
+  skos:definition "integration of stream channel network"@en ;
+  skos:prefLabel "network integration"@en ;
 .
 ansis:length
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   a sosa:ObservableProperty ;
   schema:domainIncludes ansis:LandformElement ;
   schema:domainIncludes ansis:Microrelief ;
   rdfs:range qudt:QuantityValue ;
-  skos:definition "linear extent - larger dimension" ;
-  skos:prefLabel "length" ;
+  skos:definition "linear extent - larger dimension"@en ;
+  skos:prefLabel "length"@en ;
 .
 ansis:lithology
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   a sosa:ObservableProperty ;
   schema:domainIncludes ansis:CoarseFragments ;
@@ -3825,125 +3313,138 @@ ansis:lithology
   schema:rangeIncludes subst:Lithology-rock ;
   schema:rangeIncludes subst:Lithology-unconsolidated ;
   rdfs:subPropertyOf ansis:material ;
-  skos:definition "lithological type of material" ;
-  skos:prefLabel "lithology" ;
+  skos:definition "lithological type of material"@en ;
+  skos:prefLabel "lithology"@en ;
 .
 ansis:location-in-element
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   a sosa:ObservableProperty ;
   schema:domainIncludes ansis:LandsurveySite ;
   schema:domainIncludes ansis:SoilSite ;
-  skos:definition "location within landform element" ;
-  skos:prefLabel "location in landform element" ;
+  skos:definition "location within landform element"@en ;
+  skos:prefLabel "location in landform element"@en ;
 .
 ansis:location-in-toposequence
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   a sosa:ObservableProperty ;
   schema:domainIncludes ansis:LandsurveySite ;
   schema:domainIncludes ansis:SoilSite ;
-  skos:definition "location within a toposequence" ;
-  skos:prefLabel "location in toposequence" ;
+  skos:definition "location within a toposequence"@en ;
+  skos:prefLabel "location in toposequence"@en ;
 .
 ansis:magnetic-attributes
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   a sosa:ObservableProperty ;
   schema:domainIncludes ansis:Segregations ;
   schema:rangeIncludes sp:Segregations-magnetic-attributes ;
-  skos:definition "magnetic attributes" ;
-  skos:prefLabel "magnetic attributes" ;
+  skos:definition "magnetic attributes"@en ;
+  skos:prefLabel "magnetic attributes"@en ;
 .
 ansis:mapSheet
   a owl:ObjectProperty ;
-  skos:definition "map-sheet on which this location is found" ;
-  skos:prefLabel "map-sheet" ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
+  skos:definition "map-sheet on which this location is found"@en ;
+  skos:prefLabel "map-sheet"@en ;
 .
 ansis:material
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   a sosa:ObservableProperty ;
   schema:domainIncludes ansis:Segregations ;
   schema:rangeIncludes sp:Segregations-nature ;
   schema:rangeIncludes subst:Substrate-mineral-composition ;
-  skos:definition "material or composition of entity or element" ;
-  skos:prefLabel "material" ;
+  skos:definition "material or composition of entity or element"@en ;
+  skos:prefLabel "material"@en ;
 .
 ansis:method-elevation
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   schema:domainIncludes ansis:LandSurface ;
   schema:rangeIncludes ls:Elevation-evaluation-means ;
   rdfs:subPropertyOf sosa:usedProcedure ;
-  skos:definition "means of evaluation of elevation" ;
-  skos:prefLabel "elevation method" ;
+  skos:definition "means of evaluation of elevation"@en ;
+  skos:prefLabel "elevation method"@en ;
 .
 ansis:method-slope
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   schema:domainIncludes ansis:LandformElement ;
   schema:rangeIncludes lf:Slope-procedure ;
   rdfs:subPropertyOf sosa:usedProcedure ;
-  skos:definition "means of evaluation of slope" ;
-  skos:prefLabel "slope method" ;
+  skos:definition "means of evaluation of slope"@en ;
+  skos:prefLabel "slope method"@en ;
 .
 ansis:migration-rate
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   a sosa:ObservableProperty ;
   schema:domainIncludes ansis:StreamChannel ;
   schema:rangeIncludes lf:Channel-migration ;
-  skos:definition "rate of lateral migration of entity" ;
-  skos:prefLabel "migration rate" ;
+  skos:definition "rate of lateral migration of entity"@en ;
+  skos:prefLabel "migration rate"@en ;
 .
 ansis:moisture-status
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   a sosa:ObservableProperty ;
   schema:domainIncludes ansis:SoilColour ;
   schema:domainIncludes ansis:SoilStrength ;
   schema:rangeIncludes sp:Colour-moisture-status ;
   schema:rangeIncludes sp:Soil-water-status ;
-  skos:definition "moisture state of material while property evaluation is carried out" ;
-  skos:prefLabel "moisture status" ;
+  skos:definition "moisture state of material while property evaluation is carried out"@en ;
+  skos:prefLabel "moisture status"@en ;
 .
 ansis:morphological-type
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   a sosa:ObservableProperty ;
   schema:domainIncludes ansis:LandformElement ;
   schema:rangeIncludes lf:Landform-element-type ;
-  skos:definition "morphological type of landform element" ;
-  skos:prefLabel "morphological type" ;
+  skos:definition "morphological type of landform element"@en ;
+  skos:prefLabel "morphological type"@en ;
 .
 ansis:pH
   a owl:DatatypeProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a sosa:ObservableProperty ;
   rdfs:range xsd:decimal ;
   rdfs:subPropertyOf ansis:chemistry ;
-  skos:definition "alkalinity of material" ;
-  skos:prefLabel "pH" ;
+  skos:definition "alkalinity of material"@en ;
+  skos:prefLabel "pH"@en ;
 .
 ansis:pattern
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   a sosa:ObservableProperty ;
   schema:domainIncludes ansis:StreamChannel ;
   schema:rangeIncludes lf:Channel-pattern ;
-  skos:definition "spatial pattern of channels or other linear element" ;
-  skos:prefLabel "pattern" ;
+  skos:definition "spatial pattern of channels or other linear element"@en ;
+  skos:prefLabel "pattern"@en ;
 .
 ansis:permeability
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   a sosa:ObservableProperty ;
   schema:domainIncludes ansis:SoilHorizon ;
   schema:domainIncludes ansis:SoilLayer ;
   schema:rangeIncludes sp:Soil-permeability ;
   schema:rangeIncludes qudt:QuantityValue ;
-  skos:definition "rate of flow of liquid through the material" ;
-  skos:prefLabel "permeability" ;
+  skos:definition "rate of flow of liquid through the material"@en ;
+  skos:prefLabel "permeability"@en ;
 .
 ansis:physical
   a rdf:Property ;
@@ -3951,49 +3452,54 @@ ansis:physical
   a sosa:ObservableProperty ;
   schema:domainIncludes ansis:SoilHorizon ;
   schema:domainIncludes ansis:SoilLayer ;
-  skos:prefLabel "soil physical property" ;
+  skos:prefLabel "soil physical property"@en ;
 .
 ansis:plasticity
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   a sosa:ObservableProperty ;
   schema:domainIncludes ansis:SoilHorizon ;
   schema:domainIncludes ansis:SoilLayer ;
   schema:rangeIncludes ansis:SoilPlasticity ;
-  skos:definition "capability of being formed or molded" ;
-  skos:prefLabel "plasticity" ;
+  skos:definition "capability of being formed or molded"@en ;
+  skos:prefLabel "plasticity"@en ;
 .
 ansis:porosity
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   a sosa:ObservableProperty ;
   schema:domainIncludes ansis:Substrate ;
   rdfs:range qudt:QuantityValue ;
-  skos:definition "proportion of void space in material" ;
-  skos:prefLabel "porosity" ;
+  skos:definition "proportion of void space in material"@en ;
+  skos:prefLabel "porosity"@en ;
 .
 ansis:proportions
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   a sosa:ObservableProperty ;
   schema:domainIncludes ansis:Microrelief-gilgai ;
   schema:rangeIncludes ls:Microrelief-proportions-gilgai ;
-  skos:definition "relative proportions of the components" ;
-  skos:prefLabel "proportions of components" ;
+  skos:definition "relative proportions of the components"@en ;
+  skos:prefLabel "proportions of components"@en ;
 .
 ansis:purpose
   a owl:DatatypeProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   schema:domainIncludes ansis:SiteVisit ;
   schema:domainIncludes ansis:SoilProfile ;
   schema:domainIncludes ansis:SoilSite ;
   schema:rangeIncludes ansis:Profile-purpose ;
   schema:rangeIncludes ansis:Site-purpose ;
-  skos:definition "purpose of or reason for activity" ;
-  skos:prefLabel "purpose" ;
+  skos:definition "purpose of or reason for activity"@en ;
+  skos:prefLabel "purpose"@en ;
 .
 ansis:relatedActivity
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   schema:domainIncludes ansis:SiteVisit ;
   schema:rangeIncludes prov:Activity ;
@@ -4003,59 +3509,65 @@ ansis:relatedActivity
   schema:rangeIncludes ansis:SiteVisit ;
   schema:rangeIncludes ansis:Treatment ;
   rdfs:range prov:Activity ;
-  skos:definition "link to an activity related to this context" ;
-  skos:prefLabel "related activity" ;
+  skos:definition "link to an activity related to this context"@en ;
+  skos:prefLabel "related activity"@en ;
 .
 ansis:relatedHorizon
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   schema:domainIncludes ansis:SoilProfile ;
   rdfs:range ansis:SoilHorizon ;
   rdfs:subPropertyOf ansis:relatedLayer ;
-  skos:definition "related soil horizon within a soil body or sample, or associated with a contact" ;
-  skos:prefLabel "related soil horizon" ;
+  skos:definition "related soil horizon within a soil body or sample, or associated with a contact"@en ;
+  skos:prefLabel "related soil horizon"@en ;
 .
 ansis:relatedLandsurveySite
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   schema:domainIncludes ansis:LandsurveySite ;
   schema:domainIncludes ansis:Outcrop ;
   schema:domainIncludes ansis:SiteVisit ;
   schema:domainIncludes ansis:SoilSite ;
   rdfs:range ansis:LandsurveySite ;
-  skos:definition "link to a land survey site related to this context" ;
-  skos:prefLabel "related land survey site" ;
+  skos:definition "link to a land survey site related to this context"@en ;
+  skos:prefLabel "related land survey site"@en ;
 .
 ansis:relatedLayer
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   schema:domainIncludes ansis:SoilBody ;
   schema:domainIncludes ansis:SoilProfile ;
   rdfs:range ansis:SoilLayer ;
-  skos:definition "related soil layer within a soil body or profile" ;
-  skos:prefLabel "related soil layer" ;
+  skos:definition "related soil layer within a soil body or profile"@en ;
+  skos:prefLabel "related soil layer"@en ;
 .
 ansis:relatedProfile
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   schema:domainIncludes ansis:SoilSample ;
   schema:domainIncludes ansis:SoilSite ;
   rdfs:range ansis:SoilProfile ;
-  skos:definition "link to a soil profile related to this context" ;
-  skos:prefLabel "related soil profile" ;
+  skos:definition "link to a soil profile related to this context"@en ;
+  skos:prefLabel "related soil profile"@en ;
 .
 ansis:relatedProject
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   schema:domainIncludes sosa:Observation ;
   schema:domainIncludes sosa:Sampling ;
   schema:domainIncludes ansis:SiteVisit ;
   rdfs:range proj:Project ;
-  skos:definition "link to project that supported this activity" ;
-  skos:prefLabel "related project" ;
+  skos:definition "link to project that supported this activity"@en ;
+  skos:prefLabel "related project"@en ;
 .
 ansis:relatedSample
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   schema:domainIncludes ansis:Outcrop ;
   schema:domainIncludes ansis:SoilBody ;
@@ -4064,11 +3576,12 @@ ansis:relatedSample
   schema:domainIncludes ansis:SoilProfile ;
   schema:domainIncludes ansis:Substrate ;
   rdfs:range sosa:Sample ;
-  skos:definition "link to a sample related to this context" ;
-  skos:prefLabel "related sample" ;
+  skos:definition "link to a sample related to this context"@en ;
+  skos:prefLabel "related sample"@en ;
 .
 ansis:relatedSite
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   schema:domainIncludes ansis:Outcrop ;
   schema:domainIncludes ansis:SiteVisit ;
@@ -4077,11 +3590,12 @@ ansis:relatedSite
   schema:domainIncludes ansis:SoilSite ;
   rdfs:range ansis:SoilSite ;
   rdfs:subPropertyOf ansis:relatedLandsurveySite ;
-  skos:definition "link to a soil site related to this context" ;
-  skos:prefLabel "related site" ;
+  skos:definition "link to a soil site related to this context"@en ;
+  skos:prefLabel "related site"@en ;
 .
 ansis:relatedSoilBody
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   schema:domainIncludes ansis:SoilHorizon ;
   schema:domainIncludes ansis:SoilLayer ;
@@ -4089,48 +3603,53 @@ ansis:relatedSoilBody
   schema:domainIncludes ansis:SoilSurface ;
   schema:domainIncludes ansis:Substrate ;
   rdfs:range ansis:SoilBody ;
-  skos:definition "link to a soil body related to this context" ;
-  skos:prefLabel "related soil body" ;
+  skos:definition "link to a soil body related to this context"@en ;
+  skos:prefLabel "related soil body"@en ;
 .
 ansis:relatedSoilSurface
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   schema:domainIncludes ansis:SoilBody ;
   schema:domainIncludes ansis:SoilProfile ;
   schema:domainIncludes ansis:SoilSite ;
   rdfs:range ansis:SoilSurface ;
-  skos:definition "soil surface of this entity" ;
-  skos:prefLabel "related soil surface" ;
+  skos:definition "soil surface of this entity"@en ;
+  skos:prefLabel "related soil surface"@en ;
 .
 ansis:relative-inclination
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   a sosa:ObservableProperty ;
   schema:domainIncludes ansis:LandformElement ;
   schema:rangeIncludes lf:Relative-inclination ;
-  skos:definition "relative slope or inclination" ;
-  skos:prefLabel "relative inclination" ;
+  skos:definition "relative slope or inclination"@en ;
+  skos:prefLabel "relative inclination"@en ;
 .
 ansis:relief
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   a sosa:ObservableProperty ;
   schema:domainIncludes ansis:LandformPattern ;
   schema:rangeIncludes lf:Relief ;
-  skos:definition "amount of vertical variation of the landform" ;
-  skos:prefLabel "relief" ;
+  skos:definition "amount of vertical variation of the landform"@en ;
+  skos:prefLabel "relief"@en ;
 .
 ansis:runoff
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   a sosa:ObservableProperty ;
   schema:domainIncludes ansis:LandSurface ;
   schema:rangeIncludes ls:Runoff ;
-  skos:definition "degree of surface water runoff" ;
-  skos:prefLabel "runoff" ;
+  skos:definition "degree of surface water runoff"@en ;
+  skos:prefLabel "runoff"@en ;
 .
 ansis:shape
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   a sosa:ObservableProperty ;
   schema:domainIncludes ansis:CoarseFragments ;
@@ -4139,12 +3658,13 @@ ansis:shape
   schema:rangeIncludes ls:Coarse-fragments-shape ;
   schema:rangeIncludes sp:Boundary-shape ;
   schema:rangeIncludes sp:Segregations-form ;
-  skos:definition "geometry of entity or entity boundary" ;
-  skos:prefLabel "shape" ;
+  skos:definition "geometry of entity or entity boundary"@en ;
+  skos:prefLabel "shape"@en ;
   skos:scopeNote "In the context of a soil horizon, this refers to the shape of the lower boundary" ;
 .
 ansis:size
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   a sosa:ObservableProperty ;
   schema:domainIncludes ansis:CoarseFragments ;
@@ -4155,51 +3675,55 @@ ansis:size
   schema:rangeIncludes sp:Mottle-size ;
   schema:rangeIncludes sp:Pedality-size ;
   schema:rangeIncludes sp:Segregations-size ;
-  skos:definition "geometric scale and extent of element" ;
+  skos:definition "geometric scale and extent of element"@en ;
   skos:narrower ansis:grain-size ;
-  skos:prefLabel "size" ;
+  skos:prefLabel "size"@en ;
 .
 ansis:slope
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   a sosa:ObservableProperty ;
   schema:domainIncludes ansis:LandformElement ;
   schema:rangeIncludes lf:Slope-class ;
   schema:rangeIncludes lf:Slope-modal ;
   schema:rangeIncludes qudt:QuantityValue ;
-  skos:definition "divergence of surface from horizontal" ;
-  skos:prefLabel "slope" ;
+  skos:definition "divergence of surface from horizontal"@en ;
+  skos:prefLabel "slope"@en ;
 .
 ansis:spacing
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   a sosa:ObservableProperty ;
   schema:domainIncludes ansis:StreamChannel ;
   schema:domainIncludes ansis:Substrate ;
   schema:rangeIncludes lf:Channel-spacing ;
   schema:rangeIncludes subst:Substrate-discontinuity-spacing ;
-  skos:definition "lateral separation of elements" ;
-  skos:prefLabel "spacing " ;
+  skos:definition "lateral separation of elements"@en ;
+  skos:prefLabel "spacing "@en ;
   skos:scopeNote "in the context of substrate this refers to the spacing of discontinuities" ;
 .
 ansis:state
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   a sosa:ObservableProperty ;
   schema:domainIncludes ansis:Erosion ;
   schema:rangeIncludes ls:Erosion-state ;
-  skos:definition "erosion status" ;
-  skos:prefLabel "state" ;
+  skos:definition "erosion status"@en ;
+  skos:prefLabel "state"@en ;
 .
 ansis:stickiness
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   a sosa:ObservableProperty ;
   schema:domainIncludes ansis:SoilHorizon ;
   schema:domainIncludes ansis:SoilLayer ;
   schema:rangeIncludes sp:Consistence-stickiness ;
-  skos:definition "adhesiveness or viscosity" ;
-  skos:prefLabel "stickiness" ;
+  skos:definition "adhesiveness or viscosity"@en ;
+  skos:prefLabel "stickiness"@en ;
 .
 ansis:strength
   a rdf:Property ;
@@ -4215,8 +3739,8 @@ ansis:strength
   schema:rangeIncludes sp:Segregations-strength ;
   schema:rangeIncludes subst:Material-strength ;
   schema:rangeIncludes ansis:SoilStrength ;
-  skos:definition "strength of material" ;
-  skos:prefLabel "strength" ;
+  skos:definition "strength of material"@en ;
+  skos:prefLabel "strength"@en ;
 .
 ansis:structure
   a rdf:Property ;
@@ -4228,15 +3752,16 @@ ansis:structure
   schema:rangeIncludes sp:Pans-structure ;
   schema:rangeIncludes subst:Substrate-structure ;
   schema:rangeIncludes ansis:SoilStructure ;
-  skos:definition "internal arrangement of elements of the material or entity" ;
+  skos:definition "internal arrangement of elements of the material or entity"@en ;
   skos:example """  ansis:structure [
       a ansis:SoilStructure ;
       ansis:grade <http://anzsoil.org/def/au/asls/soil-profile/structure-pedality-grade-M> ;
     ] ;""" ;
-  skos:prefLabel "structure" ;
+  skos:prefLabel "structure"@en ;
 .
 ansis:texture
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   a sosa:ObservableProperty ;
   schema:domainIncludes ansis:SoilHorizon ;
@@ -4245,9 +3770,9 @@ ansis:texture
   schema:rangeIncludes sp:Field-texture-mineral ;
   schema:rangeIncludes sp:Field-texture-organic ;
   schema:rangeIncludes subst:Field-texture ;
-  skos:definition "material texture, in terms of particle size distribution and component materials" ;
+  skos:definition "material texture, in terms of particle size distribution and component materials"@en ;
   skos:example "  ansis:texture <http://anzsoil.org/def/au/asls/soil-profile/field-texture-LMC> ;" ;
-  skos:prefLabel "texture" ;
+  skos:prefLabel "texture"@en ;
 .
 ansis:type
   a rdf:Property ;
@@ -4284,80 +3809,86 @@ ansis:type
   schema:rangeIncludes ansis:SiteType ;
   schema:rangeIncludes ansis:SoilSampleType ;
   skos:closeMatch dcterms:type ;
-  skos:definition "type of ansis soil entity" ;
-  skos:prefLabel "type" ;
+  skos:definition "type of ansis soil entity"@en ;
+  skos:prefLabel "type"@en ;
 .
 ansis:underlyingMaterial
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   a sosa:ObservableProperty ;
   schema:domainIncludes ansis:LandformElement ;
   schema:rangeIncludes subst:Lithology-rock ;
   schema:rangeIncludes subst:Lithology-unconsolidated ;
-  skos:prefLabel "lithology of material underlying the landform" ;
-  skos:prefLabel "underlying material" ;
+  skos:definition "lithology of material underlying the landform"@en ;
+  skos:prefLabel "underlying material"@en ;
 .
 ansis:value
   a owl:DatatypeProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   a sosa:ObservableProperty ;
   schema:domainIncludes ansis:SoilClassification ;
   schema:domainIncludes ansis:SoilColour ;
-  skos:definition "literal value" ;
-  skos:prefLabel "value" ;
+  skos:definition "literal value"@en ;
+  skos:prefLabel "value"@en ;
 .
 ansis:velocity
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   a sosa:ObservableProperty ;
   schema:domainIncludes ansis:Inundation ;
   schema:rangeIncludes ls:Inundation-runon-velocity ;
-  skos:definition "velocity of entity" ;
-  skos:prefLabel "velocity" ;
+  skos:definition "velocity of entity"@en ;
+  skos:prefLabel "velocity"@en ;
 .
 ansis:visitor
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   schema:domainIncludes ansis:SiteVisit ;
   schema:rangeIncludes prov:Person ;
   rdfs:subPropertyOf prov:wasAssociatedWith ;
-  skos:definition "site visitor, for the purpose of sampling or observation" ;
-  skos:prefLabel "visitor" ;
+  skos:definition "site visitor, for the purpose of sampling or observation"@en ;
+  skos:prefLabel "visitor"@en ;
 .
 ansis:waterRepellence
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   a sosa:ObservableProperty ;
   schema:domainIncludes ansis:SoilHorizon ;
   schema:domainIncludes ansis:SoilLayer ;
   schema:domainIncludes ansis:SoilSurface ;
   schema:rangeIncludes sp:Water-repellence ;
-  skos:definition "water repellence of material" ;
-  skos:prefLabel "water repellence" ;
+  skos:definition "water repellence of material"@en ;
+  skos:prefLabel "water repellence"@en ;
 .
 ansis:width
   a owl:ObjectProperty ;
+  rdfs:isDefinedBy <https://anzsoil.org/def/au/domain> ;
   a skos:Concept ;
   a sosa:ObservableProperty ;
   schema:domainIncludes ansis:Cracks ;
   schema:domainIncludes ansis:LandformElement ;
   schema:rangeIncludes sp:Cracks-width ;
   schema:rangeIncludes qudt:QuantityValue ;
-  skos:definition "linear extent - smaller dimension" ;
-  skos:prefLabel "width" ;
+  skos:definition "linear extent - smaller dimension"@en ;
+  skos:prefLabel "width"@en ;
 .
 proj:Project
   a owl:Class ;
+  rdfs:isDefinedBy <https://linked.data.gov.au/def/project> ;
   a skos:Concept ;
-  dcterms:description """
-A Project is a planned activity with a budget, a sponsor, and a leader.
+  skos:definition """A Project is a planned activity with a budget, a sponsor, and a leader.
 
 Project stakeholders are indicated using `prov:wasAssociatedWith` or the `prov:qualifiedAssociation` structure which allows their role to be catpured. Some special stakeholders have specific sub-properties with the roles fixed, including project-leader, project-participant, and project-funder.
 
 Activities within a project are indicated using the `proj:hasSubActivity` (simple) or `proj:subActivityAssociation` properties - the latter allowing the nature of the relationshp to be described as well.
 
-![Project details](https://dr-shorthair.github.io/project-ont/images/Project.png)""" ;
-  dcterms:source <https://linked.data.gov.au/def/project> ;
+![Project details](https://dr-shorthair.github.io/project-ont/images/Project.png)"""@en ;
+  dcterms:source "https://linked.data.gov.au/def/project"^^xsd:anyURI ;
   rdfs:label "Project" ;
   rdfs:seeAlso <https://linked.data.gov.au/def/project> ;
   rdfs:subClassOf prov:Activity ;
@@ -4426,58 +3957,5 @@ prov:endedAtTime \"2016-10-31T00:00:00\"^^xsd:dateTime ;
 prov:startedAtTime \"2015-10-01T00:00:00\"^^xsd:dateTime ;
 .
 """ ;
-  skos:prefLabel "Project" ;
-.
-<https://orcid.org/0000-0002-0693-1899>
-  a schema:Person ;
-  schema:affiliation <https://ror.org/03qn8fb07> ;
-  schema:email "linda.gregory@csiro.au" ;
-  schema:identifier "https://orcid.org/0000-0002-0693-1899"^^xsd:anyURI ;
-  schema:name "Linda Gregory" ;
-.
-<https://orcid.org/0000-0002-2991-2308>
-  a schema:Person ;
-  schema:affiliation <https://ror.org/05qbzwv83> ;
-  schema:email "mr.wong@federation.edu.au" ;
-  schema:identifier "https://orcid.org/0000-0002-2991-2308"^^xsd:anyURI ;
-  schema:name "Megan Wong" ;
-.
-<https://orcid.org/0000-0002-3884-3420>
-  a schema:Person ;
-  schema:affiliation <https://ror.org/03qn8fb07> ;
-  schema:email "simon.cox@csiro.au" ;
-  schema:identifier "https://orcid.org/0000-0002-3884-3420"^^xsd:anyURI ;
-  schema:name "Simon J D Cox" ;
-  schema:subjectOf <https://people.csiro.au/C/S/simon-cox> ;
-.
-<https://orcid.org/0000-0003-1625-1253>
-  a schema:Person ;
-  schema:affiliation <https://ror.org/03qn8fb07> ;
-  schema:email "gerard.grealish@csiro.au" ;
-  schema:identifier "https://orcid.org/0000-0003-1625-1253"^^xsd:anyURI ;
-  schema:name "Gerard Grealish" ;
-.
-<https://people-my.csiro.au/w/p/peter-wilson>
-  a schema:AboutPage ;
-.
-<https://people.csiro.au/C/S/simon-cox>
-  a schema:AboutPage ;
-.
-<https://ror.org/03qn8fb07>
-  a schema:Organization ;
-  schema:name "Commonwealth Scientific and Industrial Research Organisation" ;
-  schema:url <https://csiro.au> ;
-.
-<https://ror.org/05qbzwv83>
-  a schema:Organization ;
-  schema:name "Federation University" ;
-  schema:url <https://federation.edu.au/> ;
-.
-<mailto:peter.wilson@csiro.au>
-  a schema:Person ;
-  schema:affiliation <https://ror.org/03qn8fb07> ;
-  schema:email "peter.wilson@csiro.au" ;
-  schema:identifier "mailto:peter.wilson@csiro.au"^^xsd:anyURI ;
-  schema:name "Peter Wilson" ;
-  schema:subjectOf <https://people-my.csiro.au/w/p/peter-wilson> ;
+  skos:prefLabel "Project"@en ;
 .

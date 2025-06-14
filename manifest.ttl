@@ -34,7 +34,7 @@ PREFIX schema: <https://schema.org/>
             schema:name "Non-Spatial Dataset" ;
         ] ,
         [
-            # dcterms:conformsTo <https://w3id.org/profile/vocpub> ;
+            dcterms:conformsTo "validators/ontpub.ttl" ;
             prof:hasArtifact "resources/models/*.ttl" ;
             prof:hasRole <https://prez.dev/ManifestResourceRoles/ResourceData> ;
             schema:description "EIA Models" ;

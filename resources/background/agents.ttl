@@ -1,3 +1,4 @@
+PREFIX id: <http://id.loc.gov/vocabulary/identifiers/>
 PREFIX schema: <https://schema.org/>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
@@ -28,6 +29,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a schema:Organization ;
     schema:name "Commonwealth Scientific and Industrial Research Organisation" ;
     schema:url "https://csiro.au/"^^xsd:anyURI ;
+    schema:identifier "https://ror.org/03qn8fb07"^^id:ror ;
 .
 
 
@@ -286,4 +288,49 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a schema:Person ;
     schema:name "Nadja Simons" ;
     schema:email ""^^xsd:anyURI ;
+.
+
+<mailto:peter.wilson@csiro.au>
+  a schema:Person ;
+  schema:affiliation <https://linked.data.gov.au/org/csiro> ;
+  schema:email "peter.wilson@csiro.au" ;
+  schema:identifier "mailto:peter.wilson@csiro.au"^^xsd:anyURI ;
+  schema:name "Peter Wilson" ;
+  schema:subjectOf <https://people-my.csiro.au/w/p/peter-wilson> ;
+.
+
+<https://orcid.org/0000-0002-0693-1899>
+  a schema:Person ;
+  schema:affiliation <https://linked.data.gov.au/org/csiro> ;
+  schema:email "linda.gregory@csiro.au"^^xsd:anyURI ;
+  schema:identifier "https://orcid.org/0000-0002-0693-1899"^^xsd:anyURI ;
+  schema:name "Linda Gregory" ;
+.
+<https://orcid.org/0000-0002-2991-2308>
+  a schema:Person ;
+  schema:affiliation <https://ror.org/05qbzwv83> ;
+  schema:email "mr.wong@federation.edu.au"^^xsd:anyURI ;
+  schema:identifier "https://orcid.org/0000-0002-2991-2308"^^xsd:anyURI ;
+  schema:name "Megan Wong" ;
+.
+<https://orcid.org/0000-0002-3884-3420>
+  a schema:Person ;
+  schema:affiliation <https://linked.data.gov.au/org/csiro> ;
+  schema:email "simon.cox@csiro.au"^^xsd:anyURI ;
+  schema:identifier "https://orcid.org/0000-0002-3884-3420"^^xsd:anyURI ;
+  schema:name "Simon J D Cox" ;
+  schema:subjectOf <https://people.csiro.au/C/S/simon-cox> ;
+.
+<https://orcid.org/0000-0003-1625-1253>
+  a schema:Person ;
+  schema:affiliation <https://linked.data.gov.au/org/csiro> ;
+  schema:email "gerard.grealish@csiro.au"^^xsd:anyURI ;
+  schema:identifier "https://orcid.org/0000-0003-1625-1253"^^xsd:anyURI ;
+  schema:name "Gerard Grealish" ;
+.
+
+<https://ror.org/05qbzwv83>
+  a schema:Organization ;
+  schema:name "Federation University" ;
+  schema:url <https://federation.edu.au/> ;
 .
