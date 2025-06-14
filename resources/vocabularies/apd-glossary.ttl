@@ -9,9 +9,9 @@ cs:
     a skos:ConceptScheme ;
     skos:definition "AusTraits is an open-source, harmonized database of Australian plant trait data. It synthesises data on nearly 500 traits across more than 30,000 taxa from field campaigns, published literature, taxonomic monographs, and individual taxon descriptions. Begun in 2016 as an initiative between three lab groups, it has grown to be the largest collation of plant trait data for Australian plants. AusTraits integrates plant trait data collected by researchers from diverse disciplines, including functional plant biology, plant physiology, plant taxonomy, and conservation biology. By harmonizing and error checking values, linking all AusTraits data entries to detailed metadata, and documenting trait and trait values definitions, AusTraits is a resource researchers can trust and use for their research agendas with minimal additional filtering or manipulations."@en ;
     schema:creator <https://austraits.org> ;
-    schema:citation "Annotations taken from https://austraits.org/" ;
+    schema:citation "https://austraits.org"^^xsd:anyURI ;
     schema:dateCreated "2023-06-07"^^xsd:date ;
-    schema:dateModified "2024-05-06"^^xsd:date ;
+    schema:dateModified "2025-06-14"^^xsd:date ;
     schema:keywords <http://vocabs.lter-europe.net/EnvThes/10023> ;  # trait
     schema:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
     schema:publisher <https://austraits.org> ;
@@ -40,6 +40,7 @@ cs:
         :glossary_40112, 
         :glossary_40114, 
         :glossary_40124 ;
+    skos:historyNote "This formulation of this AusTraits traits vocabulary contains the same content as the <https://w3id.org/APD/glossary> Concept Scheme in the 'AusTraits Plant Dictionary' in the Research Vocabularies Australia system (https://vocabs.ardc.edu.au/viewById/649) but is VocPub valid - a single Concept Scheme." ;
     skos:prefLabel "AusTraits Plant Dictionary glossary"@en .
 
 :glossary_40004

@@ -1,0 +1,19 @@
+PREFIX schema: <https://schema.org/>
+
+<http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#MeasuredCharacteristic> schema:name "Measured Characteristic" .
+
+<http://semanticscience.org/resource/SIO_000147> schema:name "SIO: 000147" .
+
+<https://w3id.org/iadopt/ont/hasContextObject> schema:name "has context object" .
+
+<http://purl.obolibrary.org/obo/STATO_0000251> schema:name "continuous variable" .
+
+<http://purl.obolibrary.org/obo/PATO_0000125> schema:name "PATO:0000125" .
+
+<http://purl.obolibrary.org/obo/PATO_0001470> schema:name "PATO:0001470" .
+
+<http://purl.obolibrary.org/obo/CHEBI_25555> schema:name "CHEBI:25555 - nitrogen atom" .
+
+<http://purl.obolibrary.org/obo/CHEBI_33937> schema:name "CHEBI:33937 - macronutrient" .
+
+<http://purl.obolibrary.org/obo/PO_0025034> schema:name "PO:0025034" .

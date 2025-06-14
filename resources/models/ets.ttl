@@ -1,0 +1,1324 @@
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX dwct: <http://rs.tdwg.org/dwc/terms/>
+PREFIX ets: <http://terminologies.gfbio.org/terms/ETS/>
+PREFIX att: <http://rs.tdwg.org/dwc/terms/attributes/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+dwct:class
+    a owl:DatatypeProperty ;
+    dcterms:issued "2018-03-21" ;
+    att:organizedInClass ets:Taxon ;
+    att:status "recommended" ;
+    rdfs:isDefinedBy dwct: ;
+    skos:definition "The full scientific name of the class in which the taxon is classified."@en ;
+    skos:example """Examples: "Mammalia", "Hepaticopsida". For discussion see http://terms.tdwg.org/wiki/dwc:class"""@en ;
+    skos:prefLabel "class"@en ;
+.
+
+dwct:country
+    a owl:DatatypeProperty ;
+    dcterms:issued "2017-07-07" ;
+    att:organizedInClass ets:Occurrence ;
+    att:status "recommended" ;
+    rdfs:isDefinedBy dwct: ;
+    skos:definition "The name of the country or major administrative unit in which the Location occurs. Recommended best practice is to use a controlled vocabulary such as the Getty Thesaurus of Geographic Names."@en ;
+    skos:example """Examples: "Germany", "Denmark", "Colombia", "España". For discussion see http://terms.tdwg.org/wiki/dwc:country;"""@en ;
+    skos:prefLabel "country"@en ;
+.
+
+dwct:countryCode
+    a owl:DatatypeProperty ;
+    dcterms:issued "2017-07-07" ;
+    att:organizedInClass ets:Occurrence ;
+    att:status "recommended" ;
+    rdfs:isDefinedBy dwct: ;
+    skos:definition "The standard code for the country in which the Location occurs. Recommended best practice is to use ISO 3166-1-alpha-2 country codes."@en ;
+    skos:example """Examples: 'DE' for Germany, 'AR' for Argentina, 'SV' for El Salvador. For discussion see http://terms.tdwg.org/wiki/dwc:countryCode"""@en ;
+    skos:prefLabel "country code"@en ;
+.
+
+dwct:datasetID
+    a owl:DatatypeProperty ;
+    dcterms:issued "2017-07-07" ;
+    dcterms:modified "2018-05-29" ;
+    att:organizedInClass ets:Metadata ;
+    att:status "recommended" ;
+    rdfs:isDefinedBy dwct: ;
+    skos:definition "An identifier for the set of data. May be a global unique identifier or an identifier specific to a collection or institution."@en ;
+    skos:example """Examples: BExIS ID, or a DOI referring to the published dataset ; For discussion see http://terms.tdwg.org/wiki/dwc:datasetID"""@en ;
+    skos:prefLabel "dataset ID"@en ;
+.
+
+dwct:datasetName
+    a owl:DatatypeProperty ;
+    dcterms:issued "2017-07-07" ;
+    dcterms:modified "2019-03-25" ;
+    att:organizedInClass ets:Metadata ;
+    att:status "recommended" ;
+    rdfs:isDefinedBy dwct: ;
+    skos:definition "The name identifying the data set from which the record was derived."@en ;
+    skos:example """Examples: 'Grinnell Resurvey Mammals', 'Lacey Ctenomys Recaptures'. For discussion see http://terms.tdwg.org/wiki/dwc:datasetName"""@en ;
+    skos:prefLabel "dataset name"@en ;
+.
+
+dwct:day
+    a owl:DatatypeProperty ;
+    dcterms:issued "2017-07-07" ;
+    att:organizedInClass ets:Occurrence ;
+    att:status "recommended" ;
+    rdfs:isDefinedBy dwct: ;
+    skos:definition "The integer day of the month on which the specimens were extracted or sampled."@en ;
+    skos:example """Examples: '9', '28'. For discussion see http://terms.tdwg.org/wiki/dwc:day"""@en ;
+    skos:prefLabel "day"@en ;
+.
+
+dwct:decimalLatitude
+    a owl:DatatypeProperty ;
+    dcterms:issued "2017-07-07" ;
+    att:organizedInClass ets:Occurrence ;
+    att:status "recommended" ;
+    rdfs:isDefinedBy dwct: ;
+    skos:definition "The geographic latitude (in decimal degrees, using the spatial reference system given in geodeticDatum) of the geographic center of a Location. Positive values are north of the Equator, negative values are south of it. Legal values lie between -90 and 90, inclusive."@en ;
+    skos:example """Examples: '-41.0983423'. For discussion see http://terms.tdwg.org/wiki/dwc:decimalLatitude"""@en ;
+    rdfs:isDefinedBy dwct: ;
+    skos:prefLabel "decimal latitude"@en ;
+.
+
+dwct:decimalLongitude
+    a owl:DatatypeProperty ;
+    skos:definition "The geographic longitude (in decimal degrees, using the spatial reference system given in geodeticDatum) of the geographic center of a Location. Positive values are east of the Greenwich Meridian, negative values are west of it. Legal values lie between -180 and 180, inclusive."@en ;
+    dcterms:issued "2017-07-07" ;
+    att:organizedInClass ets:Occurrence ;
+    att:status "recommended" ;
+    rdfs:isDefinedBy dwct: ;
+    skos:example """Examples: '-121.1761111'. For discussion see http://terms.tdwg.org/wiki/dwc:decimalLongitude"""@en ;
+    skos:prefLabel "decimal longitude"@en ;
+.
+
+dwct:family
+    a owl:DatatypeProperty ;
+    dcterms:issued "2018-03-21" ;
+    att:organizedInClass ets:Taxon ;
+    att:status "recommended" ;
+    rdfs:isDefinedBy dwct: ;
+    skos:definition "The full scientific name of the family in which the taxon is classified."@en ;
+    skos:example """Examples: "Felidae", "Monocleaceae". For discussion see http://terms.tdwg.org/wiki/dwc:family"""@en ;
+    skos:prefLabel "family"@en ;
+.
+
+dwct:genus
+    a owl:DatatypeProperty ;
+    dcterms:issued "2018-03-21" ;
+    att:organizedInClass ets:Taxon ;
+    att:status "recommended" ;
+    rdfs:isDefinedBy dwct: ;
+    skos:definition "The full scientific name of the genus in which the taxon is classified."@en ;
+    skos:example """Examples: 'Puma', 'Monoclea'. For discussion see http://terms.tdwg.org/wiki/dwc:genus"""@en ;
+    skos:prefLabel "genus"@en ;
+.
+
+dwct:geodeticDatum
+    a owl:DatatypeProperty ;
+    dcterms:issued "2017-07-07" ;
+    att:organizedInClass ets:Occurrence ;
+    att:status "recommended" ;
+    rdfs:isDefinedBy dwct: ;
+    skos:definition "The ellipsoid, geodetic datum, or spatial reference system (SRS) upon which the geographic coordinates given in decimalLatitude and decimalLongitude as based. Recommended best practice is use the EPSG code as a controlled vocabulary to provide an SRS, if known. Otherwise use a controlled vocabulary for the name or code of the geodetic datum, if known. Otherwise use a controlled vocabulary for the name or code of the ellipsoid, if known. If none of these is known, use the value 'unknown'."@en ;
+    skos:example """Examples: 'EPSG:4326', 'WGS84', 'NAD27', 'Campo Inchauspe', 'European 1950', 'Clarke 1866'. For discussion see http://terms.tdwg.org/wiki/dwc:geodeticDatum"""@en ;
+    skos:prefLabel "geodetic datum"@en ;
+.
+
+dwct:kingdom
+    a owl:DatatypeProperty ;
+    dcterms:issued "2017-07-07" ;
+    dcterms:modified "2018-03-21" ;
+    att:organizedInClass ets:Taxon ;
+    att:status "recommended" ;
+    rdfs:isDefinedBy dwct: ;
+    skos:definition "The full scientific name of the kingdom in which the taxon is classified."@en ;
+    skos:example """Examples: 'Animalia', 'Plantae'. For discussion see http://terms.tdwg.org/wiki/dwc:kingdom"""@en ;
+    skos:prefLabel "kingdom"@en ;
+.
+
+dwct:locationID
+    a owl:DatatypeProperty ;
+    dcterms:issued "2017-07-07" ;
+    att:organizedInClass ets:Occurrence ;
+    att:status "recommended" ;
+    rdfs:isDefinedBy dwct: ;
+    skos:definition "An identifier for the set of location information (data associated with dcterms:Location). May be a global unique identifier or an identifier specific to the data set."@en ;
+    skos:example "Could report the plot within the experimental setting which would be further specified in the metadata or in a separate dataset. For discussion see http://terms.tdwg.org/wiki/dwc:locationID"@en ;
+    skos:prefLabel "location ID"@en ;
+.
+
+dwct:measurementDeterminedBy
+    a owl:DatatypeProperty ;
+    dcterms:issued "2017-07-07" ;
+    att:organizedInClass ets:MeasurementOrFact ;
+    att:status "recommended" ;
+    rdfs:isDefinedBy dwct: ;
+    skos:definition "A list (concatenated and separated) of names of people, groups, or organizations who determined the value of the measurement."@en ;
+    skos:example "The recommended best practice is to separate the values with a vertical bar (' | '). Examples: 'Rob Guralnick', 'Julie Woodruff | Eileen Lacey'. Can be encoded by dataset-specific identifiers for reasons of privacy. This is kept as a co-factor for repeated measurements."@en ;
+    skos:prefLabel "measurement determined by"@en ;
+.
+
+dwct:measurementDeterminedDate
+    a owl:DatatypeProperty ;
+    dcterms:issued "2017-07-07" ;
+    att:organizedInClass ets:MeasurementOrFact ;
+    att:status "recommended" ;
+    rdfs:isDefinedBy dwct: ;
+    skos:definition "The date on which the MeasurementOrFact was made. Recommended best practice is to use an encoding scheme, such as ISO 8601:2004(E)."@en ;
+    skos:example """Examples: '1963-03-08T14:07-0600' is 8 Mar 1963 2:07pm in the time zone six hours earlier than UTC, '2009-02-20T08:40Z' is 20 Feb 2009 8:40am UTC, '1809-02-12' is 12 Feb 1809, '1906-06' is Jun 1906, '1971' is just that year, '2007-03-01T13:00:00Z/2008-05-11T15:30:00Z' is the interval between 1 Mar 2007 1pm UTC and 11 May 2008 3:30pm UTC, '2007-11-13/15' is the interval between 13 Nov 2007 and 15 Nov 2007. For discussion see http://terms.tdwg.org/wiki/dwc:measurementDeterminedDate"""@en ;
+    skos:prefLabel "measurement determined date"@en ;
+.
+
+dwct:month
+    a owl:DatatypeProperty ;
+    dcterms:issued "2017-07-07" ;
+    att:organizedInClass ets:Occurrence ;
+    att:status "recommended" ;
+    rdfs:isDefinedBy dwct: ;
+    skos:definition "The ordinal month, in which the specimens were extracted or sampled."@en ;
+    skos:example """Examples: '1' (=January), '10' (=October). For discussion see http://terms.tdwg.org/wiki/dwc:month"""@en ;
+    skos:prefLabel "month"@en ;
+.
+
+dwct:occurrenceRemarks
+    a owl:DatatypeProperty ;
+    dcterms:issued "2017-07-07" ;
+    dcterms:modified "2018-11-01" ;
+    att:organizedInClass ets:Occurrence ;
+    att:status "recommended" ;
+    rdfs:isDefinedBy dwct: ;
+    skos:definition "Comments or notes about the Occurrence."@en ;
+    skos:example """Examples: 'found dead on road'. For discussion see http://terms.tdwg.org/wiki/dwc:occurrenceRemarks"""@en ;
+    skos:prefLabel "occurrence remarks"@en ;
+.
+
+dwct:order
+    a owl:DatatypeProperty ;
+    dcterms:issued "2017-07-07" ;
+    dcterms:modified "2018-03-21" ;
+    att:organizedInClass ets:Taxon ;
+    att:status "recommended" ;
+    rdfs:isDefinedBy dwct: ;
+    skos:definition "The full scientific name of the order in which the taxon is classified."@en ;
+    skos:example """Examples: 'Carnivora', 'Monocleales'. For discussion see http://terms.tdwg.org/wiki/dwc:order"""@en ;
+    skos:prefLabel "order"@en ;
+.
+
+dwct:phylum
+    a owl:DatatypeProperty ;
+    dcterms:issued "2018-03-21" ;
+    att:organizedInClass ets:Taxon ;
+    att:status "recommended" ;
+    rdfs:isDefinedBy dwct: ;
+    skos:definition "The full scientific name of the phylum or division in which the taxon is classified."@en ;
+    skos:example """Examples: 'Chordata' (phylum), 'Bryophyta' (division). For discussion see http://terms.tdwg.org/wiki/dwc:phylum"""@en ;
+    skos:prefLabel "phylum"@en ;
+.
+
+dwct:preparations
+    a owl:DatatypeProperty ;
+    dcterms:issued "2017-07-07" ;
+    att:organizedInClass ets:Occurrence ;
+    att:status "recommended" ;
+    rdfs:isDefinedBy dwct: ;
+    skos:definition "For preserved specimens, a list (concatenated and separated) of preparations and preservation methods for the occurrence."@en ;
+    skos:prefLabel "preparations"@en ;
+    skos:scopeNote """Do not report procedures for measurement or sampling here (see samplingProtocol and measurementMethod). The recommended best practice is to separate the values with a vertical bar (' | '). Examples: 'fossil', 'cast', 'photograph', 'DNA extract', 'skin' | 'skull' | 'skeleton', 'whole animal (ETOH)' | 'tissue (EDTA)'. For discussion see http://terms.tdwg.org/wiki/dwc:preparations."""@en ;
+.
+
+dwct:samplingProtocol
+    a owl:DatatypeProperty ;
+    dcterms:issued "2017-07-07" ;
+    att:organizedInClass ets:Occurrence ;
+    att:status "recommended" ;
+    rdfs:isDefinedBy dwct: ;
+    skos:definition "The name of, reference to, or description of the method or protocol used for obtaining the specimen."@en ;
+    skos:example """Examples: 'UV light trap', 'mist net', 'bottom trawl', 'ad hoc observation', 'point count', 'Penguins from space: faecal stains reveal the location of emperor penguin colonies, http://dx.doi.org/10.1111/j.1466-8238.2009.00467.x', 'Takats et al. 2001. Guidelines for Nocturnal Owl Monitoring in North America. Beaverhill Bird Observatory and Bird Studies Canada, Edmonton, Alberta. 32 pp.', 'http://www.bsc-eoc.org/download/Owl.pdf'. For discussion see http://terms.tdwg.org/wiki/dwc:samplingProtocol"""@en ;
+    skos:prefLabel "sampling protocol"@en ;
+.
+
+dwct:taxonID
+    a owl:DatatypeProperty ;
+    dcterms:issued "2017-07-07" ;
+    att:organizedInClass ets:Traitdata ;
+    att:status "recommended" ;
+    rdfs:isDefinedBy dwct: ;
+    skos:definition "An identifier for the set of taxon information (data associated with the Taxon class). May be a global unique identifier or an identifier specific to the data set."@en ;
+    skos:example """Examples: "GBIF Backbone Taxonomy:497924", "8fa58e08-08de-4ac1-b69c-1235340b7001", "32567", "http://species.gbif.org/abies_alba_1753", "urn:lsid:gbif.org:usages:32567". For discussion see http://terms.tdwg.org/wiki/dwc:taxonID"""@en ;
+    skos:prefLabel "taxon ID"@en ;
+.
+
+dwct:taxonRank
+    a owl:DatatypeProperty ;
+    dcterms:issued "2017-07-07" ;
+    dcterms:modified "2018-03-21" ;
+    att:organizedInClass ets:Taxon ;
+    att:status "recommended" ;
+    rdfs:isDefinedBy dwct: ;
+    skos:definition "The taxonomic rank of the most specific name in the scientificName. Recommended best practice is to use a controlled vocabulary."@en ;
+    skos:prefLabel "taxon rank"@en ;
+    skos:scopeNote "This is to clarify cases where information is not given on a species level. Examples: 'subspecies', 'varietas', 'forma', 'species', 'genus'. For discussion see http://terms.tdwg.org/wiki/dwc:taxonRank."@en ;
+.
+
+dwct:verbatimLocality
+    a owl:DatatypeProperty ;
+    dcterms:issued "2017-07-07" ;
+    att:organizedInClass ets:Occurrence ;
+    att:status "recommended" ;
+    rdfs:isDefinedBy dwct: ;
+    skos:definition "The specific description of the place."@en ;
+    skos:prefLabel "verbatim locality"@en ;
+    skos:scopeNote "Less specific geographic information can be provided in other geographic terms of Darwin Core (higherGeography, continent, country, stateProvince, county, municipality, waterBody, island, islandGroup). This term may contain information modified from the original to correct perceived errors or standardize the description. Examples: '25 km NNE Bariloche por R. Nac. 237'. For discussion see http://terms.tdwg.org/wiki/dwc:verbatimLocality."@en ;
+.
+
+dwct:year
+    a owl:DatatypeProperty ;
+    dcterms:issued "2017-07-07" ;
+    att:organizedInClass ets:Occurrence ;
+    att:status "recommended" ;
+    rdfs:isDefinedBy dwct: ;
+    skos:definition "The four-digit year, at which the specimens were extracted or sampled."@en ;
+    skos:example """Examples: '2008'. For discussion see http://terms.tdwg.org/wiki/dwc:year"""@en ;
+    skos:prefLabel "year"@en ;
+.
+
+ets:BEPlotID
+    a owl:DatatypeProperty ;
+    dcterms:issued "2017-07-07" ;
+    dcterms:modified "2018-03-21" ;
+    att:organizedInClass ets:BiodiversityExploratories ;
+    att:status "recommended" ;
+    rdfs:isDefinedBy ets: ;
+    skos:definition "EP plot ID (or also any valid Gridplot ID or MIP ID) where the measured specimen was extracted."@en ;
+    skos:prefLabel "BE Plot ID"@en ;
+    skos:scopeNote "Only for specimen that were extracted from the Exploratories directly (or direct offspring, if hatched in the lab). Please also report it, even if this was not part of your research question and provide a Date (a year at last) if available."@en ;
+.
+
+ets:BEType
+    a owl:DatatypeProperty ;
+    dcterms:issued "2017-07-07" ;
+    dcterms:modified "2018-05-29" ;
+    att:organizedInClass ets:BiodiversityExploratories ;
+    att:status "recommended" ;
+    rdfs:isDefinedBy ets: ;
+    skos:definition "Defined code for landscape type of the exploratories plot."@en ;
+    skos:prefLabel "BE type"@en ;
+    skos:scopeNote "Use vocabulary: 'W' for forest and 'G' for grassland plot."@en ;
+.
+
+ets:Exploratory
+    a owl:DatatypeProperty ;
+    dcterms:issued "2017-07-07" ;
+    dcterms:modified "2017-11-01" ;
+    att:organizedInClass ets:BiodiversityExploratories ;
+    att:status "recommended" ;
+    rdfs:isDefinedBy ets: ;
+    skos:definition "Exploratories Region (Hainich, Schorfheide, Alb) for sorting purpose and readability, or if exact Plot ID is not available."@en ;
+    skos:prefLabel "Exploratory"@en ;
+    skos:scopeNote "Use vocabulary: 'HAI'; 'SCH'; 'ALB'."@en ;
+.
+
+ets:OriginBE
+    a owl:DatatypeProperty ;
+    dcterms:issued "2017-07-07" ;
+    att:organizedInClass ets:BiodiversityExploratories ;
+    att:status "recommended" ;
+    rdfs:isDefinedBy ets: ;
+    skos:definition "Did measured specimens originate from Exploratories Plots? TRUE or FALSE, defaults to FALSE"@en ;
+    skos:prefLabel "Origin BE"@en ;
+    skos:scopeNote "As unambiguous flag for data and specimens that are originating from Exploratories sites."@en ;
+.
+
+ets:age
+    a owl:DatatypeProperty ;
+    dcterms:issued "2017-07-07" ;
+    att:organizedInClass ets:Occurrence ;
+    att:status "recommended" ;
+    rdfs:isDefinedBy ets: ;
+    skos:definition "The age of the specimen in years."@en ;
+    skos:prefLabel "age"@en ;
+    skos:scopeNote "Use integer or float numbers. Examples: '2', '0.16'."@en ;
+.
+
+ets:aggregateMeasure
+    a owl:DatatypeProperty ;
+    dcterms:issued "2017-07-07" ;
+    att:organizedInClass ets:MeasurementOrFact ;
+    att:status "recommended" ;
+    rdfs:isDefinedBy ets: ;
+    skos:definition "Is measurementValue reporting an individual measurement or an aggregate Measure? Takes a binary entry: TRUE or FALSE"@en ;
+    skos:prefLabel "aggregate measure"@en ;
+    skos:scopeNote "This is flagging aggregate data in an unambiguous way. Aggregate measures are often reported for repeated measures, e.g. replicate measurements of leaf size from a single plant individual or for grouped measurement, e.g. for weightings of a counted number of specimens (e.g. leaves or small organisms)."@en ;
+.
+
+ets:author
+    a owl:DatatypeProperty ;
+    dcterms:issued "2017-09-05" ;
+    dcterms:modified "2018-05-29" ;
+    att:organizedInClass ets:Metadata ;
+    att:status "recommended" ;
+    rdfs:isDefinedBy ets: ;
+    rdfs:subPropertyOf dcterms:creator ;
+    skos:definition "The person, organization or service primarily responsible for making the dataset."@en ;
+    skos:prefLabel "author"@en ;
+    skos:scopeNote "Multiple names may be provided; Examples: 'John Doe'; 'Bob, Anne'; 'http://orcid.org/0000-0002-1494-568'."@en ;
+.
+
+ets:bibliographicCitation
+    a owl:DatatypeProperty ;
+    dcterms:issued "2017-07-07" ;
+    att:organizedInClass ets:Metadata ;
+    att:status "recommended" ;
+    rdfs:isDefinedBy ets: ;
+    rdfs:subPropertyOf dcterms:bibliographicCitation ;
+    skos:definition "A bibliographic reference for the resource as a statement indicating how this record should be cited (attributed) when used. Recommended practice is to include sufficient bibliographic detail to identify the resource as unambiguously as possible."@en ;
+    skos:example """Examples: 'Ctenomys sociabilis (MVZ 165861)' for a specimen, 'Oliver P. Pearson. 1985. Los tuco-tucos (genera Ctenomys) de los Parques Nacionales Lanin y Nahuel Huapi, Argentina Historia Natural, 5(37):337-343.' for a Taxon. For discussion see http://terms.tdwg.org/wiki/dwc:bibliographicCitation"""@en ;
+    skos:prefLabel "bibliographic citation"@en ;
+.
+
+ets:broaderTerm
+    a owl:DatatypeProperty ;
+    dcterms:issued "2017-08-24" ;
+    dcterms:modified "2017-11-15" ;
+    att:organizedInClass ets:Traitlist ;
+    att:status "recommended" ;
+    rdfs:isDefinedBy ets: ;
+    skos:definition "One or several terms that enclose the trait definition."@en ;
+    skos:prefLabel "broader term"@en ;
+    skos:scopeNote "The broader term is given as the unique identifier (traitID) of the broader trait. Each trait can only have one broader term."@en ;
+.
+
+ets:conformsTo
+    a owl:DatatypeProperty ;
+    dcterms:issued "2019-03-25" ;
+    att:organizedInClass ets:Metadata ;
+    att:status "recommended" ;
+    rdfs:isDefinedBy ets: ;
+    rdfs:subPropertyOf dcterms:conformsTo ;
+    skos:definition "An established standard to which the described resource conforms."@en ;
+    skos:prefLabel "conforms to"@en ;
+    skos:scopeNote "Literal reference (incl. version or date issued) and/or DOI of data standard that the dataset applies. Examples: 'Ecological Trait-data Standard Vocabulary, v0.9.1, URL: https://terminologies.gfbio.org/terms/ets/pages/, DOI: 10.5281/zenodo.1485739'."@en ;
+.
+
+ets:datasetDescription
+    a owl:DatatypeProperty ;
+    dcterms:issued "2019-03-25" ;
+    att:organizedInClass ets:Metadata ;
+    att:status "recommended" ;
+    rdfs:isDefinedBy ets: ;
+    rdfs:subPropertyOf skos:definition ;
+    skos:definition "An account of the resource."@en ;
+    skos:prefLabel "dataset description"@en ;
+    skos:scopeNote "Description may include but is not limited to: an abstract, a table of contents, a graphical representation, or a free-text account of the resource."@en ;
+.
+
+ets:dispersion
+    a owl:DatatypeProperty ;
+    dcterms:issued "2017-07-07" ;
+    att:organizedInClass ets:MeasurementOrFact ;
+    att:status "recommended" ;
+    rdfs:isDefinedBy ets: ;
+    skos:definition "If aggregate measure of multiple individuals or specimens, the numeric value of dispersion (variance or standard deviation) for the mean value reported in measurementValue_user (no unit conversion is provided by the R-package!). Defaults to 0. If a value is provided, report the statistical method in the field statisticalMethod."@en ;
+    skos:prefLabel "dispersion"@en ;
+.
+
+ets:elevation
+    a owl:DatatypeProperty ;
+    dcterms:issued "2017-07-07" ;
+    att:organizedInClass ets:Occurrence ;
+    att:status "recommended" ;
+    rdfs:isDefinedBy ets: ;
+    rdfs:subPropertyOf dwct:verbatimElevation ;
+    skos:definition "The geographic elevation in meters above sea level."@en ;
+    skos:prefLabel "elevation"@en ;
+    skos:scopeNote "May map to verbatimElevation (http://rs.tdwg.org/dwc/terms/verbatimElevation) or minimumElevationInMeters (http://rs.tdwg.org/dwc/terms/minimumElevationInMeters) and maximumElevationInMeters (http://rs.tdwg.org/dwc/terms/maximumElevationInMeters); Examples: '200'. For discussion see http://terms.tdwg.org/wiki/dwc:maximumElevationInMeters."@en ;
+.
+
+ets:eventDate
+    a owl:DatatypeProperty ;
+    dcterms:issued "2017-07-07" ;
+    att:organizedInClass ets:Occurrence ;
+    att:status "recommended" ;
+    rdfs:isDefinedBy ets: ;
+    rdfs:subPropertyOf dwct:eventDate ;
+    skos:definition "The date-time or interval during which an Event occurred. For occurrences, this is the date-time when the event was recorded. Not suitable for a time in a geological context. Recommended best practice is to use an encoding scheme, such as ISO 8601:2004(E). For lower precision, use year, month and day field instead."@en ;
+    skos:prefLabel "event date"@en ;
+    skos:scopeNote "Note: this is not to record the date when the specimens were measured (use measurementDeterminedDate for this). If applicable, at least provide a year. Providing a date is highly viable for studies analyzing temporal variation in traits. Examples: '1963-03-08T14:07-0600' is 8 Mar 1963 2:07pm in the time zone six hours earlier than UTC, '2009-02-20T08:40Z' is 20 Feb 2009 8:40am UTC, '1809-02-12' is 12 Feb 1809, '1906-06' is Jun 1906, '1971' is just that year, '2007-03-01T13:00:00Z/2008-05-11T15:30:00Z' is the interval between 1 Mar 2007 1pm UTC and 11 May 2008 3:30pm UTC, '2007-11-13/15' is the interval between 13 Nov 2007 and 15 Nov 2007. For discussion see http://terms.tdwg.org/wiki/dwc:eventDat."@en ;
+.
+
+ets:eventID
+    a owl:DatatypeProperty ;
+    dcterms:issued "2017-07-07" ;
+    att:organizedInClass ets:Occurrence ;
+    att:status "recommended" ;
+    rdfs:isDefinedBy ets: ;
+    rdfs:subPropertyOf dwct:eventID ;
+    skos:definition "The sampling event or campaign. A globally valid URI or user specified character string that links to another table providing detailed information, e.g. environmental or temporal parameters, descriptions on methods etc.."@en ;
+    skos:example """Examples: a combination of date and sampling region"""@en ;
+    skos:prefLabel "event ID"@en ;
+.
+
+ets:expectedUnit
+    a owl:DatatypeProperty ;
+    dcterms:issued "2017-10-24" ;
+    dcterms:modified "2017-11-15" ;
+    att:organizedInClass ets:Traitlist ;
+    att:status "recommended" ;
+    rdfs:isDefinedBy ets: ;
+    skos:definition "The unit expected for measurement entries."@en ;
+    skos:prefLabel "expected unit"@en ;
+    skos:scopeNote "Only applies to numerical traits. Should be given in SI units."@en ;
+.
+
+ets:factorLevels
+    a owl:DatatypeProperty ;
+    dcterms:issued "2017-09-27" ;
+    dcterms:modified "2017-11-15" ;
+    att:organizedInClass ets:Traitlist ;
+    att:status "recommended" ;
+    rdfs:isDefinedBy ets: ;
+    skos:definition "A comma separated list of terms comprising the constrained vocabulary for categorical traits or ordinal binary traits."@en ;
+    skos:prefLabel "factor levels"@en ;
+    skos:scopeNote "Ordinal traits may be encoded with numerically indexed factor levels; e.g. 1_egg, 2_larvae, 3_pupae, 4_adult; the field traitDescription should define the factor levels."@en ;
+.
+
+ets:habitat
+    a owl:DatatypeProperty ;
+    dcterms:issued "2017-07-07" ;
+    att:organizedInClass ets:Occurrence ;
+    att:status "recommended" ;
+    rdfs:isDefinedBy ets: ;
+    rdfs:subPropertyOf dwct:habitat ;
+    skos:definition "A category or description of the habitat in which the specimen occurred."@en ;
+    skos:example """Examples: 'forest', 'grassland', 'oak savanna', 'pre-cordilleran steppe'. It is recommended to link to ecological ontologies, if available, using public URIs. For discussion see http://terms.tdwg.org/wiki/dwc:habitat"""@en ;
+    skos:prefLabel "habitat"@en ;
+.
+
+ets:individualCount
+    a owl:DatatypeProperty ;
+    dcterms:issued "2017-07-07" ;
+    att:organizedInClass ets:MeasurementOrFact ;
+    att:status "recommended" ;
+    rdfs:isDefinedBy ets: ;
+    rdfs:subPropertyOf dwct:individualCount ;
+    skos:definition "If measurement is an aggregate measure of multiple individuals or specimens, report number of specimens as count, i.e. integer number. Defaults to 1"@en ;
+    skos:example """Examples: "1", "25". For discussion see http://terms.tdwg.org/wiki/dwc:individualCount"""@en ;
+    skos:prefLabel "individual count"@en ;
+.
+
+ets:issued
+    a owl:DatatypeProperty ;
+    dcterms:issued "2019-03-25" ;
+    att:organizedInClass ets:Metadata ;
+    att:status "recommended" ;
+    rdfs:isDefinedBy ets: ;
+    rdfs:subPropertyOf dcterms:issued ;
+    skos:definition "Date of formal issuance (e.g., publication) of the resource. Recommended best practice is to use an encoding scheme, such as ISO 8601:2004(E)."@en ;
+    skos:prefLabel "issued"@en ;
+.
+
+ets:license
+    a owl:DatatypeProperty ;
+    dcterms:issued "2017-07-07" ;
+    att:organizedInClass ets:Metadata ;
+    att:status "recommended" ;
+    rdfs:isDefinedBy ets: ;
+    rdfs:subPropertyOf dcterms:license ;
+    skos:definition "A legal document giving official permission to do something with the resource."@en ;
+    skos:example """Examples: 'http://creativecommons.org/publicdomain/zero/1.0/legalcode', 'http://creativecommons.org/licenses/by/4.0/legalcode'. For discussion see http://terms.tdwg.org/wiki/dwc:license"""@en ;
+    skos:prefLabel "license"@en ;
+.
+
+ets:lifeStage
+    a owl:DatatypeProperty ;
+    dcterms:issued "2017-07-07" ;
+    att:organizedInClass ets:Occurrence ;
+    att:status "recommended" ;
+    rdfs:isDefinedBy ets: ;
+    rdfs:subPropertyOf dwct:lifeStage ;
+    skos:definition "The age class or life stage of the biological individual(s) at the time the Occurrence was recorded. Recommended best practice is to use a controlled vocabulary."@en ;
+    skos:prefLabel "life stage"@en ;
+    skos:scopeNote "Recommended factor levels are: seed, seedling, sapling, adult, egg, larval_instar_1, larval_instar_2, larval_instar_3, ... , pupa; For very taxon-specific life stages, it is recommended to provide detailed explanation in the metadata of the dataset."@en ;
+.
+
+ets:maxAllowedValue
+    a owl:DatatypeProperty ;
+    dcterms:issued "2017-09-27" ;
+    att:organizedInClass ets:Traitlist ;
+    att:status "recommended" ;
+    rdfs:isDefinedBy ets: ;
+    skos:definition "A lower boundary for accepted numerical values."@en ;
+    skos:prefLabel "max allowed value"@en ;
+    skos:scopeNote "May be used for eliminating invalid data. This boundary may constrain a range of values of meaningful orders of magnitude, or constrain entries to positive values."@en ;
+.
+
+ets:measurementAccuracy
+    a owl:DatatypeProperty ;
+    dcterms:issued "2017-07-07" ;
+    att:organizedInClass ets:MeasurementOrFact ;
+    att:status "recommended" ;
+    rdfs:isDefinedBy ets: ;
+    rdfs:subPropertyOf dwct:measurementAccuracy ;
+    skos:definition "The description of the potential error associated with the measurementValue."@en ;
+    skos:example """Examples: '0.01', 'normal distribution with variation of 2 m'. For discussion see http://terms.tdwg.org/wiki/dwc:measurementAccuracy"""@en ;
+    skos:prefLabel "measurement accuracy"@en ;
+.
+
+ets:measurementMethod
+    a owl:DatatypeProperty ;
+    dcterms:issued "2017-07-07" ;
+    att:organizedInClass ets:MeasurementOrFact ;
+    att:status "recommended" ;
+    rdfs:isDefinedBy ets: ;
+    rdfs:subPropertyOf dwct:measurementMethod ;
+    skos:definition "Applies primarily to measured data. The method, tools and scales used to measure a (numerical) trait value. A description of or reference to (publication, URI) the method or protocol used to determine the measurement, fact, characteristic, or assertion."@en ;
+    skos:prefLabel "measurement method"@en ;
+    skos:scopeNote "Should be a concise and standardized text entry or reference (publication, URI), referring to a particular method (e.g. 'direct weighing', 'length-mass regression', 'intertegular span', 'length between node X and y' ) and measurement conditions (e.g. certain temperature or humidity, name of device or scale used for measurement). To avoid repetition or lengthy entries, authors should use global identifiers of methodological terms if available, or enter dataset specific identifiers and provide a more detailed description of the method or protocol used to determine the measurement, fact, characteristic, or assertion in the metadata of the dataset."@en ;
+.
+
+ets:measurementRemarks
+    a owl:DatatypeProperty ;
+    dcterms:issued "2017-07-07" ;
+    att:organizedInClass ets:MeasurementOrFact ;
+    att:status "recommended" ;
+    rdfs:isDefinedBy ets: ;
+    rdfs:subPropertyOf dwct:measurementRemarks ;
+    skos:definition "Remarks concerning a particular measurement, e.g. additional information on the quality and reliability, reference or acknowledgements."@en ;
+    skos:prefLabel "measurement remarks"@en ;
+    skos:scopeNote "Any particularities about the individual measurement or specimen that might affect trait measurement, e.g. 'last antenna segment missing'."@en ;
+.
+
+ets:measurementResolution
+    a owl:DatatypeProperty ;
+    dcterms:issued "2017-07-07" ;
+    att:organizedInClass ets:MeasurementOrFact ;
+    att:status "recommended" ;
+    rdfs:isDefinedBy ets: ;
+    skos:definition "If the trait information was originally given on another taxonomic level than species. Applies mainly for literature and expert knowledge data. not applying for measured data. The hierarchical level to which the trait data would refer."@en ;
+    skos:prefLabel "measurement resolution"@en ;
+    skos:scopeNote "For example, information given in literature could state 'most species in this genus are winged', but the trait data could be given for each species in this genus."@en ;
+.
+
+ets:measurementValue_max
+    a owl:DatatypeProperty ;
+    dcterms:issued "2017-07-07" ;
+    att:organizedInClass ets:MeasurementOrFact ;
+    att:status "recommended" ;
+    rdfs:isDefinedBy ets: ;
+    skos:definition "The upper boundary of observed values. Instead of or in addition to dispersion metric."@en ;
+    skos:prefLabel "measurement value: max"@en ;
+.
+
+ets:measurementValue_min
+    a owl:DatatypeProperty ;
+    dcterms:issued "2017-07-07" ;
+    att:organizedInClass ets:MeasurementOrFact ;
+    att:status "recommended" ;
+    rdfs:isDefinedBy ets: ;
+    skos:definition "The lower boundary of observed values. Instead of or in addition to dispersion metric."@en ;
+    skos:prefLabel "measurement value: min"@en ;
+.
+
+ets:minAllowedValue
+    a owl:DatatypeProperty ;
+    dcterms:issued "2017-09-27" ;
+    att:organizedInClass ets:Traitlist ;
+    att:status "recommended" ;
+    rdfs:isDefinedBy ets: ;
+    skos:definition "An upper boundary for accepted numerical values."@en ;
+    skos:prefLabel "min allowed value"@en ;
+    skos:scopeNote "May be used for eliminating invalid data. This boundary may constrain a range of values of meaningful orders of magnitude."@en ;
+.
+
+ets:morphotype
+    a owl:DatatypeProperty ;
+    dcterms:issued "2017-07-07" ;
+    att:organizedInClass ets:Occurrence ;
+    att:status "recommended" ;
+    rdfs:isDefinedBy ets: ;
+    skos:definition "The morphotype of the observed specimen."@en ;
+    skos:example """Examples: 'worker', 'drone', 'queen'. Since morphotypes can differ between organism groups, provide definition of morphotypes in the metadata of the dataset."""@en ;
+    skos:prefLabel "morphotype"@en ;
+.
+
+ets:narrowerTerm
+    a owl:DatatypeProperty ;
+    dcterms:issued "2017-08-24" ;
+    dcterms:modified "2017-11-15" ;
+    att:organizedInClass ets:Traitlist ;
+    att:status "recommended" ;
+    rdfs:isDefinedBy ets: ;
+    skos:definition "One or several terms that are enclosed by the trait definition."@en ;
+    skos:prefLabel "narrower term"@en ;
+    skos:scopeNote "This allows to derive hierarchical trees of traits. Several traits can be listed as narrower terms of one trait."@en ;
+.
+
+ets:references
+    a owl:DatatypeProperty ;
+    dcterms:issued "2017-08-24" ;
+    att:organizedInClass ets:MeasurementOrFact ;
+    att:status "recommended" ;
+    rdfs:isDefinedBy ets: ;
+    rdfs:subPropertyOf dcterms:references ;
+    skos:definition "Precise reference to the source. If literature data, this should quote the book or online database. If museum specimen, this should report the name of the collection. If expert knowledge, this should name the authority, preferably using ORCID. If trait database, provide reference to the original publication, DOI or URL of the trait-database."@en ;
+    skos:example """Examples: 'http://mvzarctos.berkeley.edu/guid/MVZ:Mamm:165861'; 'http://www.catalogueoflife.org/annual-checklist/show_species_details.php?record_id=6197868'. For discussion see http://terms.tdwg.org/wiki/dwc:references"""@en ;
+    skos:prefLabel "references"@en ;
+.
+
+ets:relatedTerm
+    a owl:DatatypeProperty ;
+    dcterms:issued "2018-09-18" ;
+    att:organizedInClass ets:Traitlist ;
+    att:status "recommended" ;
+    rdfs:isDefinedBy ets: ;
+    skos:definition "One or several terms that relate to this term"@en ;
+    skos:prefLabel "related term"@en ;
+    skos:scopeNote "This allows to link terms of the same hierarchical level or of other branches of the ontolog."@en ;
+.
+
+ets:rights
+    a owl:DatatypeProperty ;
+    dcterms:issued "2019-03-25" ;
+    att:organizedInClass ets:Metadata ;
+    att:status "recommended" ;
+    rdfs:isDefinedBy ets: ;
+    rdfs:subPropertyOf dcterms:rights ;
+    skos:definition "Information about rights held in and over the resource."@en ;
+    skos:prefLabel "rights"@en ;
+    skos:scopeNote "Typically, rights information includes a statement about various property rights associated with the resource, including intellectual property rights."@en ;
+.
+
+ets:rightsHolder
+    a owl:DatatypeProperty ;
+    dcterms:issued "2017-07-07" ;
+    att:organizedInClass ets:Metadata ;
+    att:status "recommended" ;
+    rdfs:isDefinedBy ets: ;
+    rdfs:subPropertyOf dcterms:rightsHolder ;
+    skos:definition "A person or organization owning or managing rights over the resource, i.e. this dataset."@en ;
+    skos:example """Examples: 'The Regents of the University of California'. For discussion see http://terms.tdwg.org/wiki/dwc:rightsHolder"""@en ;
+    skos:prefLabel "rights holder"@en ;
+.
+
+ets:scientificname
+    a owl:DatatypeProperty ;
+    dcterms:isReplacedBy ets:scientificName ;
+    dcterms:issued "2017-07-07" ;
+    dcterms:modified "2018-05-29" ;
+    att:organizedInClass ets:Traitdata ;
+    att:status "historical" ;
+    rdfs:isDefinedBy ets: ;
+    rdfs:subPropertyOf dwct:scientificName ;
+    skos:definition "Original character string provided as species name by the data owner (kept for reference and continuity)"@en ;
+    skos:prefLabel "scientific name"@en ;
+    skos:scopeNote "Can be equal to scientificNameStd. Authors may use abbreviations, or use underscores to separate genus and species name."@en ;
+.
+
+ets:scientificnamestd
+    a owl:DatatypeProperty ;
+    dcterms:isReplacedBy ets:scientificNameStd ;
+    dcterms:issued "2017-07-07" ;
+    dcterms:modified "2017-11-01" ;
+    att:organizedInClass ets:Traitdata ;
+    att:status "historical" ;
+    rdfs:isDefinedBy ets: ;
+    rdfs:subPropertyOf dwct:scientificName ;
+    skos:definition "The full name, with authorship and date information if known. This should resolve to the currently valid (zoological) or accepted (botanical) taxon."@en ;
+    skos:prefLabel "scientific name std"@en ;
+    skos:scopeNote "Provide reference taxonomy in metadata of the dataset. Examples: 'Coleoptera' (order), 'Vespertilionidae' (family), 'Manis' (genus), 'Ctenomys sociabilis' (genus + specificEpithet), 'Ambystoma tigrinum diaboli' (genus + specificEpithet + infraspecificEpithet), 'Roptrocerus typographi (Györfi, 1952)' (genus + specificEpithet + scientificNameAuthorship), 'Quercus agrifolia var. oxyadenia (Torr.) J.T. Howell' (genus + specificEpithet + taxonRank + infraspecificEpithet + scientificNameAuthorship). For discussion see http://terms.tdwg.org/wiki/dwc:scientificNam."@en ;
+.
+
+ets:sex
+    a owl:DatatypeProperty ;
+    dcterms:issued "2017-07-07" ;
+    att:organizedInClass ets:Occurrence ;
+    att:status "recommended" ;
+    rdfs:isDefinedBy ets: ;
+    rdfs:subPropertyOf dwct:sex ;
+    skos:definition "The sex of the biological individual(s) represented in the Occurrence. Recommended best practice is to use a controlled vocabulary."@en ;
+    skos:prefLabel "sex"@en ;
+    skos:scopeNote "Use vocabulary: 'male', 'female', 'subadult', 'unknown', 'hermaphrodite' (no abbreviations or numerical encodings)'."@en ;
+.
+
+ets:source
+    a owl:DatatypeProperty ;
+    dcterms:issued "2018-09-18" ;
+    att:organizedInClass ets:Traitlist ;
+    att:status "recommended" ;
+    rdfs:isDefinedBy ets: ;
+    skos:definition "The original source of the trait definition"@en ;
+    skos:prefLabel "source"@en ;
+    skos:scopeNote "Can be a DOI or bibliographic reference to the original publication of this trait definition."@en ;
+.
+
+ets:statisticalMethod
+    a owl:DatatypeProperty ;
+    dcterms:issued "2017-07-07" ;
+    att:organizedInClass ets:MeasurementOrFact ;
+    att:status "recommended" ;
+    rdfs:isDefinedBy ets: ;
+    skos:definition "For aggregated measures, the method for data aggregation or averaging as well as the variation or range."@en ;
+    skos:example """Examples: 'mean and standard deviation', 'median and 95% confidence interval', 'mean and variance', 'mean and range of values', 'median and 95% interquantile range'"""@en ;
+    skos:prefLabel "statistical method"@en ;
+.
+
+ets:trait
+    a owl:DatatypeProperty ;
+    dcterms:issued "2017-10-24" ;
+    att:organizedInClass ets:Traitlist ;
+    att:status "recommended" ;
+    rdfs:isDefinedBy ets: ;
+    rdfs:subPropertyOf dcterms:title ;
+    skos:definition "A descriptive trait name"@en ;
+    skos:prefLabel "trait"@en ;
+    skos:scopeNote "Trait names should be unique but intuitively comprehensible. Additional specifications such as unit of measurement can be included in the name. Several words are separated by '_'."@en ;
+.
+
+ets:traitDescription
+    a owl:DatatypeProperty ;
+    dcterms:issued "2017-09-27" ;
+    dcterms:modified "2018-05-29" ;
+    att:organizedInClass ets:Traitlist ;
+    att:status "recommended" ;
+    rdfs:isDefinedBy ets: ;
+    rdfs:subPropertyOf skos:definition ;
+    skos:definition "A short, unambiguous definition of the trait as used in the specific study context; may refer to a method of measurement; may copy the description of a public trait ontology;"@en ;
+    skos:prefLabel "trait description"@en ;
+    skos:scopeNote "The definition should make use of terms provided by existing public ontologies, e.g. 'the mass (PATO:mass), either fresh or dried, of a fruit (PO:fruit)."@en ;
+.
+
+ets:traitname
+    a owl:DatatypeProperty ;
+    dcterms:isReplacedBy ets:traitName ;
+    dcterms:issued "2017-07-07" ;
+    att:organizedInClass ets:Traitdata ;
+    att:status "historical" ;
+    rdfs:isDefinedBy ets: ;
+    rdfs:subPropertyOf dwct:measurementType ;
+    skos:definition "Name of the trait as used by the data provider (kept for compatibility on provider side)."@en ;
+    skos:prefLabel "trait name"@en ;
+    skos:scopeNote "This can be a short name or user defined coded trait name. However, it is recommended to provide definition of the user provided trait names in the metadata."@en ;
+.
+
+ets:traitnamestd
+    a owl:DatatypeProperty ;
+    dcterms:isReplacedBy ets:traitNameStd ;
+    dcterms:issued "2017-07-07" ;
+    att:organizedInClass ets:Traitdata ;
+    att:status "historical" ;
+    rdfs:isDefinedBy ets: ;
+    rdfs:subPropertyOf dwct:measurementType ;
+    skos:definition "Descriptive Name of the trait reported. This should follow the controlled vocabulary of a thesaurus of traits available online or published along with the dataset."@en ;
+    skos:prefLabel "trait name std"@en ;
+    skos:scopeNote "Accompanying this, the traitID should provide an unambiguous link to the trait definition in the thesaurus or supplementary dataset."@en ;
+.
+
+ets:traitunit
+    a owl:DatatypeProperty ;
+    dcterms:isReplacedBy ets:traitUnit ;
+    dcterms:issued "2017-07-07" ;
+    att:organizedInClass ets:Traitdata ;
+    att:status "historical" ;
+    rdfs:isDefinedBy ets: ;
+    rdfs:subPropertyOf dwct:measurementUnit ;
+    skos:definition "Reports the unit that the author's raw data were measured in, if applicable (only for numeric values). For unitless numerical values, use 'unitless' in this field. For factorial values, leave empty or provide NA."@en ;
+    skos:prefLabel "trait unit"@en ;
+    skos:scopeNote "For numerical values report unit in format for lengths 'mm', for volumes 'mm3' / 'mm^3', areas 'mm2' / 'mm^2', for movement 'm/s', or for volume to surface ratios: 'mm3/mm2'."@en ;
+.
+
+ets:traitunitstd
+    a owl:DatatypeProperty ;
+    dcterms:isReplacedBy ets:traitUnitStd ;
+    dcterms:issued "2017-07-07" ;
+    att:organizedInClass ets:Traitdata ;
+    att:status "historical" ;
+    rdfs:isDefinedBy ets: ;
+    rdfs:subPropertyOf dwct:measurementUnit ;
+    skos:definition "The units associated with the measurementValue. The expected standard unit for this trait as defined in the traitlist/ thesaurus."@en ;
+    skos:prefLabel "trait unit std"@en ;
+    skos:scopeNote "Recommended best practice is to use the International System of Units (SI). Examples: 'mm', 'C', 'km', 'ha'. For discussion see http://terms.tdwg.org/wiki/dwc:measurementUni."@en ;
+.
+
+ets:traitvalue
+    a owl:DatatypeProperty ;
+    dcterms:isReplacedBy ets:traitValue ;
+    dcterms:issued "2017-07-07" ;
+    att:organizedInClass ets:Traitdata ;
+    att:status "historical" ;
+    rdfs:isDefinedBy ets: ;
+    rdfs:subPropertyOf dwct:measurementValue ;
+    skos:definition "Measured raw value or factor level for this species trait as measured and provided by the author."@en ;
+    skos:prefLabel "trait value"@en ;
+    skos:scopeNote "Must respect the unit given in 'measurementUnit_user' for numerical traits. For categorical traits, the factor levels should be harmonized across the dataset and explained in the metadata."@en ;
+.
+
+ets:traitvaluestd
+    a owl:DatatypeProperty ;
+    dcterms:isReplacedBy ets:traitValueStd ;
+    dcterms:issued "2017-07-07" ;
+    att:organizedInClass ets:Traitdata ;
+    att:status "historical" ;
+    rdfs:isDefinedBy ets: ;
+    rdfs:subPropertyOf dwct:measurementValue ;
+    skos:definition "Standardized measured value or factor level for this species trait. Numerical values must use the correct unit. Factor levels must be compliant with the thesaurus of traits."@en ;
+    skos:prefLabel "trait value std"@en ;
+    skos:scopeNote "Using '.' as a decimal separator! The standardized data values or factor levels must correspond to the expected units and factor levels of the trait thesaurus, e.g. '32.423', 'female', 'apter', '3'."@en ;
+.
+
+ets:valueType
+    a owl:DatatypeProperty ;
+    dcterms:issued "2017-09-27" ;
+    dcterms:modified "2017-11-15" ;
+    att:organizedInClass ets:Traitlist ;
+    att:status "recommended" ;
+    rdfs:isDefinedBy ets: ;
+    skos:definition "Type of trait values. Possible entries are 'numeric', 'integer', 'categorical', 'ordinal', 'logical', or 'character'."@en ;
+    skos:prefLabel "value type"@en ;
+    skos:scopeNote "Numerical values represent measurements of length, volumes, ratios, rates or timespans. Integer values apply to count data (e.g. eggs per clutch). Binary data (encoded as 0 or 1) or logical data (coded as TRUE or FALSE) may apply to qualitative traits such as specific behavior during mating (e.g. are territories defended) or specialization to a given habitat (e.g. species restricted to relicts of primeval forests). Categorical traits should define a constrained set of factor levels, such as sex differences in wing morphology (both sexes winged, both sexes unwinged, only males winged, only females winged) or unconstrained entries such as color. Ordinal categorical traits may be better encoded as integer values, e.g. a logical sequence as in the case of life stages or hibernation stages, or habitat preference traits such as horizontal stratum use."@en ;
+.
+
+ets:verbatimScientificName
+    a owl:DatatypeProperty ;
+    dcterms:issued "2019-03-25" ;
+    att:organizedInClass ets:Traitdata ;
+    att:status "recommended" ;
+    rdfs:isDefinedBy ets: ;
+    rdfs:subPropertyOf dwct:scientificName ;
+    skos:definition "Original character string provided as species name or taxon identifier by the data provider."@en ;
+    skos:prefLabel "verbatim scientific name"@en ;
+    skos:scopeNote "kept for reference and continuity on the provider side; Can be any scientific taxon identifier used by the data provider, or in a project-specific contex."@en ;
+.
+
+ets:verbatimTraitName
+    a owl:DatatypeProperty ;
+    dcterms:issued "2019-03-25" ;
+    att:organizedInClass ets:Traitdata ;
+    att:status "recommended" ;
+    rdfs:isDefinedBy ets: ;
+    rdfs:subPropertyOf dwct:measurementType ;
+    skos:definition "Original character string provided as trait label by the data provider."@en ;
+    skos:prefLabel "verbatim trait name"@en ;
+    skos:scopeNote "kept for reference and continuity on provider side; this can be a short name or user defined coded trait name. However, it is recommended to provide definition of the user provided trait names in the metadata."@en ;
+.
+
+ets:verbatimTraitUnit
+    a owl:DatatypeProperty ;
+    dcterms:issued "2019-03-25" ;
+    att:organizedInClass ets:Traitdata ;
+    att:status "recommended" ;
+    rdfs:isDefinedBy ets: ;
+    rdfs:subPropertyOf dwct:measurementUnit ;
+    skos:definition "Unit that the value reported in 'verbatimTraitValue' was measured in, if applicable (only for numeric values)."@en ;
+    skos:prefLabel "verbatim trait unit"@en ;
+    skos:scopeNote "For unitless numerical values, use 'unitless' in this field. For categorical values, leave empty or provide NA. For numerical values report unit in format for lengths 'mm', for volumes 'mm3' / 'mm^3', areas 'mm2' / 'mm^2', for movement 'm/s', or for volume to surface ratios: 'mm3/mm2'."@en ;
+.
+
+ets:verbatimTraitValue
+    a owl:DatatypeProperty ;
+    dcterms:issued "2019-03-25" ;
+    att:organizedInClass ets:Traitdata ;
+    att:status "recommended" ;
+    rdfs:isDefinedBy ets: ;
+    rdfs:subPropertyOf dwct:measurementValue ;
+    skos:definition "Measured raw value or factor level for this species trait as measured and provided by the data provider."@en ;
+    skos:prefLabel "verbatim trait value"@en ;
+    skos:scopeNote "Must respect the unit given in 'measurementUnit_user' for numerical traits. For categorical traits, the factor levels should be harmonized across the dataset and explained in the metadata."@en ;
+.
+
+ets:version
+    a owl:DatatypeProperty ;
+    dcterms:issued "2017-09-05" ;
+    dcterms:modified "2018-05-29" ;
+    att:organizedInClass ets:Metadata ;
+    att:status "recommended" ;
+    rdfs:isDefinedBy ets: ;
+    skos:definition "The version of the dataset."@en ;
+    skos:prefLabel "version"@en ;
+    skos:scopeNote "Can be a date or numeric versioning scheme, e.g. following semantic versioning https://semver.org."@en ;
+.
+
+ets:warnings
+    a owl:DatatypeProperty ;
+    dcterms:issued "2017-07-07" ;
+    dcterms:modified "2018-05-29" ;
+    att:organizedInClass ets:Traitdata ;
+    att:status "recommended" ;
+    rdfs:isDefinedBy ets: ;
+    skos:definition "Warnings on the quality or reliability of the reported trait value."@en ;
+    skos:prefLabel "warnings"@en ;
+    skos:scopeNote "Warnings from autogenerated data should be stored here, e.g. regarding a lack of match between the provided taxonID and the ontology, or the trait names or values, a mismatch in the units provided and the unit expected according to the trait table. User defined warnings and flags can be added as well, e.g. 'NOTUSE' to mark data that are unreliable or erroneous."@en ;
+.
+
+ets:Comments
+    a owl:DatatypeProperty ;
+    dcterms:isReplacedBy ets:comments ;
+    dcterms:issued "2017-07-07" ;
+    dcterms:modified "2017-11-15" ;
+    att:organizedInClass ets:Traitlist ;
+    att:status "historical" ;
+    rdfs:isDefinedBy ets: ;
+    skos:definition "Details and Examples for clarification of the trait definition."@en ;
+    skos:prefLabel "comments"@en ;
+    skos:scopeNote "Can contain definition of trait levels or requirements for standardized conditions."@en ;
+.
+
+ets:Identifier
+    a owl:DatatypeProperty ;
+    dcterms:isReplacedBy ets:identifier ;
+    dcterms:issued "2017-10-24" ;
+    dcterms:modified "2018-05-29" ;
+    att:organizedInClass ets:Traitlist ;
+    att:status "historical" ;
+    rdfs:isDefinedBy ets: ;
+    rdfs:subPropertyOf dcterms:identifier ;
+    skos:definition "A unique identifier for the trait; globally unique or dataset-specific"@en ;
+    skos:prefLabel "identifier"@en ;
+    skos:scopeNote "Identifiers are ideally globally unique and stable URIs which link to the source of the trait description in a public ontology or thesaurus of traits."@en ;
+.
+
+ets:basisOfRecord
+    a owl:DatatypeProperty ;
+    dcterms:issued "2018-11-01" ;
+    dcterms:replaces ets:basisofrecord ;
+    att:organizedInClass ets:MeasurementOrFact ;
+    att:status "recommended" ;
+    rdfs:isDefinedBy ets: ;
+    rdfs:subPropertyOf dwct:basisOfRecord ;
+    skos:definition "How and from which kind of specimen were the data obtained? Make use of controlled vocabulary. Valid entries are: 'LivingSpecimen'; 'PreservedSpecimen'; 'FossilSpecimen'; 'literatureData'; 'traitDatabase'; 'expertKnowledge' (see Comments)"@en ;
+    skos:prefLabel "basis of record"@en ;
+    skos:scopeNote "Options are: Taken by own measurement (defined in DwC: http://rs.tdwg.org/dwc/terms/LivingSpecimen; http://rs.tdwg.org/dwc/terms/PreservedSpecimen; http://rs.tdwg.org/dwc/terms/FossilSpecimen ) or taken from literature (enter 'literatureData'), from an existing trait database (enter 'traitDatabase'), or expert knowledge (enter 'expertKnowledge'). Provide further information in field 'basisOfRecordDescription' and 'references'."@en ;
+.
+
+ets:basisOfRecordDescription
+    a owl:DatatypeProperty ;
+    dcterms:issued "2018-11-01" ;
+    dcterms:replaces ets:basisofrecorddescription ;
+    att:organizedInClass ets:MeasurementOrFact ;
+    att:status "recommended" ;
+    rdfs:isDefinedBy ets: ;
+    skos:definition "Adding more detail to the basisOfRecord."@en ;
+    skos:prefLabel "basis of record description"@en ;
+    skos:scopeNote "If life specimens were sampled, where did they come from? Have they been reared in cultivation? If literature data or online database, provide type of literature, e.g. textbook, website, URL, etc. If preserved specimens were used, which method of preservation? In case of expert knowledge, give the name of the authority."@en ;
+.
+
+ets:basisofrecord
+    a owl:DatatypeProperty ;
+    dcterms:isReplacedBy ets:basisOfRecord ;
+    dcterms:issued "2017-07-07" ;
+    att:organizedInClass ets:MeasurementOrFact ;
+    att:status "historical" ;
+    rdfs:isDefinedBy ets: ;
+    rdfs:subPropertyOf dwct:basisOfRecord ;
+    skos:definition "How and from which kind of specimen were the data obtained? Make use of controlled vocabulary. Valid entries are: 'LivingSpecimen'; 'PreservedSpecimen'; 'FossilSpecimen'; 'literatureData'; 'traitDatabase'; 'expertKnowledge' (see Comments)"@en ;
+    skos:prefLabel "basis of record"@en ;
+    skos:scopeNote "Options are: Taken by own measurement (defined in DwC: http://rs.tdwg.org/dwc/terms/LivingSpecimen; http://rs.tdwg.org/dwc/terms/PreservedSpecimen; http://rs.tdwg.org/dwc/terms/FossilSpecimen ) or taken from literature (enter 'literatureData'), from an existing trait database (enter 'traitDatabase'), or expert knowledge (enter 'expertKnowledge'). Provide further information in field 'basisOfRecordDescription' and 'references'."@en ;
+.
+
+ets:basisofrecorddescription
+    a owl:DatatypeProperty ;
+    dcterms:isReplacedBy ets:basisOfRecordDescription ;
+    dcterms:issued "2017-07-07" ;
+    att:organizedInClass ets:MeasurementOrFact ;
+    att:status "historical" ;
+    rdfs:isDefinedBy ets: ;
+    skos:definition "Adding more detail to the basisOfRecord."@en ;
+    skos:prefLabel "basis of record description"@en ;
+    skos:scopeNote "If life specimens were sampled, where did they come from? Have they been reared in cultivation? If literature data or online database, provide type of literature, e.g. textbook, website, URL, etc. If preserved specimens were used, which method of preservation? In case of expert knowledge, give the name of the authority."@en ;
+.
+
+ets:comments
+    a owl:DatatypeProperty ;
+    dcterms:issued "2018-11-01" ;
+    dcterms:replaces ets:Comments ;
+    att:organizedInClass ets:Traitlist ;
+    att:status "recommended" ;
+    rdfs:isDefinedBy ets: ;
+    skos:definition "Details and Examples for clarification of the trait definition."@en ;
+    skos:prefLabel "comments"@en ;
+    skos:scopeNote "Can contain definition of trait levels or requirements for standardized conditions."@en ;
+.
+
+ets:identifier
+    a owl:DatatypeProperty ;
+    dcterms:issued "2018-11-01" ;
+    dcterms:replaces ets:Identifier ;
+    att:organizedInClass ets:Traitlist ;
+    att:status "recommended" ;
+    rdfs:isDefinedBy ets: ;
+    rdfs:subPropertyOf dcterms:identifier ;
+    skos:definition "A unique identifier for the trait; globally unique or dataset-specific"@en ;
+    skos:prefLabel "identifier"@en ;
+    skos:scopeNote "Identifiers are ideally globally unique and stable URIs which link to the source of the trait description in a public ontology or thesaurus of traits."@en ;
+.
+
+ets:measurementID
+    a owl:DatatypeProperty ;
+    dcterms:issued "2018-11-01" ;
+    dcterms:replaces ets:measurementid ;
+    att:organizedInClass ets:Traitdata ;
+    att:status "recommended" ;
+    rdfs:isDefinedBy ets: ;
+    rdfs:subPropertyOf dwct:measurementID ;
+    skos:definition "An identifier for the MeasurementOrFact (information pertaining to measurements, facts, characteristics, or assertions). May be a global unique identifier or an identifier specific to the data set."@en ;
+    skos:prefLabel "measurement ID"@en ;
+    skos:scopeNote "Links multi-value trait measurements, e.g. x-y-z coordinates of a morphometric landmark, biochemical compound quantities for different chainlengths. In this case, the trait names must specify the sub-measurement, e.g. 'landmark32_x', and must be specified in a reference trait list, given in the field 'measurementMethod'."@en ;
+.
+
+ets:measurementid
+    a owl:DatatypeProperty ;
+    dcterms:isReplacedBy ets:measurementID ;
+    dcterms:issued "2017-07-07" ;
+    att:organizedInClass ets:Traitdata ;
+    att:status "historical" ;
+    rdfs:isDefinedBy ets: ;
+    rdfs:subPropertyOf dwct:measurementID ;
+    skos:definition "An identifier for the MeasurementOrFact (information pertaining to measurements, facts, characteristics, or assertions). May be a global unique identifier or an identifier specific to the data set."@en ;
+    skos:prefLabel "measurement ID"@en ;
+    skos:scopeNote "Links multi-value trait measurements, e.g. x-y-z coordinates of a morphometric landmark, biochemical compound quantities for different chainlengths. In this case, the trait names must specify the sub-measurement, e.g. 'landmark32_x', and must be specified in a reference trait list, given in the field 'measurementMethod'."@en ;
+.
+
+ets:occurrenceID
+    a owl:DatatypeProperty ;
+    dcterms:issued "2018-11-01" ;
+    dcterms:replaces ets:occurrenceid ;
+    att:organizedInClass ets:Traitdata ;
+    att:status "recommended" ;
+    rdfs:isDefinedBy ets: ;
+    rdfs:subPropertyOf dwct:occurrenceID ;
+    skos:definition "An identifier for the Occurrence (as opposed to a particular digital record of the occurrence). In the absence of a persistent global unique identifier, construct one from a combination of identifiers in the record that will most closely make the occurrenceID globally unique."@en ;
+    skos:prefLabel "occurrence ID"@en ;
+    skos:scopeNote "For a specimen in the absence of a bona fide global unique identifier, for example, use the form: 'urn:catalog:[institutionCode]:[collectionCode]:[catalogNumber]'. Examples: 'urn:lsid:nhm.ku.edu:Herps:32', 'urn:catalog:FMNH:Mammal:145732'. For discussion see http://terms.tdwg.org/wiki/dwc:occurrenceID. This is important for the analysis of co-variation of morphometric data or intraspecific variation. It also couples multiple measurements on a single specimen, which also could be a leaf or a single bone without an assignment to an individual organism. If available, upload related dataset to describe specimens more precisely, e.g. environmental parameters or identity related information."@en ;
+.
+
+ets:occurrenceid
+    a owl:DatatypeProperty ;
+    dcterms:isReplacedBy ets:occurrenceID ;
+    dcterms:issued "2017-07-07" ;
+    att:organizedInClass ets:Traitdata ;
+    att:status "historical" ;
+    rdfs:isDefinedBy ets: ;
+    rdfs:subPropertyOf dwct:occurrenceID ;
+    skos:definition "An identifier for the Occurrence (as opposed to a particular digital record of the occurrence). In the absence of a persistent global unique identifier, construct one from a combination of identifiers in the record that will most closely make the occurrenceID globally unique."@en ;
+    skos:prefLabel "occurrence ID"@en ;
+    skos:scopeNote "For a specimen in the absence of a bona fide global unique identifier, for example, use the form: 'urn:catalog:[institutionCode]:[collectionCode]:[catalogNumber]'. Examples: 'urn:lsid:nhm.ku.edu:Herps:32', 'urn:catalog:FMNH:Mammal:145732'. For discussion see http://terms.tdwg.org/wiki/dwc:occurrenceID. This is important for the analysis of co-variation of morphometric data or intraspecific variation. It also couples multiple measurements on a single specimen, which also could be a leaf or a single bone without an assignment to an individual organism. If available, upload related dataset to describe specimens more precisely, e.g. environmental parameters or identity related information."@en ;
+.
+
+ets:traitID
+    a owl:DatatypeProperty ;
+    dcterms:issued "2018-11-01" ;
+    dcterms:replaces ets:traitid ;
+    att:organizedInClass ets:Traitdata ;
+    att:status "recommended" ;
+    rdfs:isDefinedBy ets: ;
+    skos:definition "Unique identifier of the trait according to a public ontology, or a user-provided thesaurus of traits."@en ;
+    skos:example "Examples: TO:0000181; TOP103; http://top-thesaurus.org/annotationInfo?viz=1&&trait=Seed_mass;"@en ;
+    skos:prefLabel "trait ID"@en ;
+.
+
+ets:traitid
+    a owl:DatatypeProperty ;
+    dcterms:isReplacedBy ets:traitID ;
+    dcterms:issued "2017-07-07" ;
+    dcterms:modified "2018-05-29" ;
+    att:organizedInClass ets:Traitdata ;
+    att:status "historical" ;
+    rdfs:isDefinedBy ets: ;
+    skos:definition "Unique identifier of the trait according to a public ontology, or a user-provided thesaurus of traits."@en ;
+    skos:example "Examples: TO:0000181; TOP103; http://top-thesaurus.org/annotationInfo?viz=1&&trait=Seed_mass;"@en ;
+    skos:prefLabel "trait ID"@en ;
+.
+
+ets:scientificName
+    a owl:DatatypeProperty ;
+    dcterms:issued "2018-11-01" ;
+    dcterms:modified "2019-03-25" ;
+    dcterms:replaces ets:scientificNameStd ;
+    att:organizedInClass ets:Traitdata ;
+    att:status "recommended" ;
+    rdfs:isDefinedBy ets: ;
+    rdfs:subPropertyOf dwct:scientificName ;
+    skos:definition "The full name, with authorship and date information if known. This should resolve to the currently valid (zoological) or accepted (botanical) taxon."@en ;
+    skos:prefLabel "scientific name"@en ;
+    skos:scopeNote "Provide reference taxonomy in metadata of the dataset. Examples: 'Coleoptera' (order), 'Vespertilionidae' (family), 'Manis' (genus), 'Ctenomys sociabilis' (genus + specificEpithet), 'Ambystoma tigrinum diaboli' (genus + specificEpithet + infraspecificEpithet), 'Roptrocerus typographi (Györfi, 1952)' (genus + specificEpithet + scientificNameAuthorship), 'Quercus agrifolia var. oxyadenia (Torr.) J.T. Howell' (genus + specificEpithet + taxonRank + infraspecificEpithet + scientificNameAuthorship). For discussion see http://terms.tdwg.org/wiki/dwc:scientificNam."@en ;
+.
+
+ets:scientificNameStd
+    a owl:DatatypeProperty ;
+    dcterms:isReplacedBy ets:scientificName ;
+    dcterms:issued "2018-11-01" ;
+    dcterms:modified "2019-03-25" ;
+    att:organizedInClass ets:Traitdata ;
+    att:status "historical" ;
+    rdfs:isDefinedBy ets: ;
+    skos:definition "The full name, with authorship and date information if known. This should resolve to the currently valid (zoological) or accepted (botanical) taxon."@en ;
+    skos:prefLabel "scientific name std"@en ;
+    skos:scopeNote "Provide reference taxonomy in metadata of the dataset. Examples: 'Coleoptera' (order), 'Vespertilionidae' (family), 'Manis' (genus), 'Ctenomys sociabilis' (genus + specificEpithet), 'Ambystoma tigrinum diaboli' (genus + specificEpithet + infraspecificEpithet), 'Roptrocerus typographi (Györfi, 1952)' (genus + specificEpithet + scientificNameAuthorship), 'Quercus agrifolia var. oxyadenia (Torr.) J.T. Howell' (genus + specificEpithet + taxonRank + infraspecificEpithet + scientificNameAuthorship). For discussion see http://terms.tdwg.org/wiki/dwc:scientificNam."@en ;
+.
+
+ets:traitName
+    a owl:DatatypeProperty ;
+    dcterms:issued "2018-11-01" ;
+    dcterms:modified "2019-03-25" ;
+    dcterms:replaces ets:traitNameStd ;
+    att:organizedInClass ets:Traitdata ;
+    att:status "recommended" ;
+    rdfs:isDefinedBy ets: ;
+    rdfs:subPropertyOf dwct:measurementType ;
+    skos:definition "Descriptive Name of the trait reported. This should follow the controlled vocabulary of a thesaurus of traits available online or published along with the dataset."@en ;
+    skos:prefLabel "trait name"@en ;
+    skos:scopeNote "Accompanying this, the traitID should provide an unambiguous link to the trait definition in the thesaurus or supplementary dataset."@en ;
+.
+
+ets:traitNameStd
+    a owl:DatatypeProperty ;
+    dcterms:isReplacedBy ets:traitName ;
+    dcterms:issued "2018-11-01" ;
+    dcterms:modified "2019-03-25" ;
+    att:organizedInClass ets:Traitdata ;
+    att:status "historical" ;
+    rdfs:isDefinedBy ets: ;
+    skos:definition "Descriptive Name of the trait reported. This should follow the controlled vocabulary of a thesaurus of traits available online or published along with the dataset."@en ;
+    skos:prefLabel "trait name std"@en ;
+    skos:scopeNote "Accompanying this, the traitID should provide an unambiguous link to the trait definition in the thesaurus or supplementary dataset."@en ;
+.
+
+ets:traitUnit
+    a owl:DatatypeProperty ;
+    dcterms:issued "2018-11-01" ;
+    dcterms:modified "2019-03-25" ;
+    dcterms:replaces ets:traitUnitStd ;
+    att:organizedInClass ets:Traitdata ;
+    att:status "recommended" ;
+    rdfs:isDefinedBy ets: ;
+    rdfs:subPropertyOf dwct:measurementUnit ;
+    skos:definition "The units associated with the measurementValue. The expected standard unit for this trait as defined in the traitlist/ thesaurus."@en ;
+    skos:prefLabel "trait unit"@en ;
+    skos:scopeNote "Recommended best practice is to use the International System of Units (SI). Examples: 'mm', 'C', 'km', 'ha'. For discussion see http://terms.tdwg.org/wiki/dwc:measurementUni."@en ;
+.
+
+ets:traitUnitStd
+    a owl:DatatypeProperty ;
+    dcterms:isReplacedBy ets:traitUnit ;
+    dcterms:issued "2018-11-01" ;
+    dcterms:modified "2019-03-25" ;
+    att:organizedInClass ets:Traitdata ;
+    att:status "historical" ;
+    rdfs:isDefinedBy ets: ;
+    skos:definition "The units associated with the measurementValue. The expected standard unit for this trait as defined in the traitlist/ thesaurus."@en ;
+    skos:prefLabel "trait unit std"@en ;
+    skos:scopeNote "Recommended best practice is to use the International System of Units (SI). Examples: 'mm', 'C', 'km', 'ha'. For discussion see http://terms.tdwg.org/wiki/dwc:measurementUni."@en ;
+.
+
+ets:traitValue
+    a owl:DatatypeProperty ;
+    dcterms:issued "2018-11-01" ;
+    dcterms:modified "2019-03-25" ;
+    dcterms:replaces ets:traitValueStd ;
+    att:organizedInClass ets:Traitdata ;
+    att:status "recommended" ;
+    rdfs:isDefinedBy ets: ;
+    rdfs:subPropertyOf dwct:measurementValue ;
+    skos:definition "Standardized measured value or factor level for this species trait. Numerical values must use the correct unit. Factor levels must be compliant with the thesaurus of traits."@en ;
+    skos:prefLabel "trait value"@en ;
+    skos:scopeNote "Using '.' as a decimal separator! The standardized data values or factor levels must correspond to the expected units and factor levels of the trait thesaurus, e.g. '32.423', 'female', 'apter', '3'."@en ;
+.
+
+ets:traitValueStd
+    a owl:DatatypeProperty ;
+    dcterms:isReplacedBy ets:traitValue ;
+    dcterms:issued "2018-11-01" ;
+    dcterms:modified "2019-03-25" ;
+    att:organizedInClass ets:Traitdata ;
+    att:status "historical" ;
+    rdfs:isDefinedBy ets: ;
+    skos:definition "Standardized measured value or factor level for this species trait. Numerical values must use the correct unit. Factor levels must be compliant with the thesaurus of traits."@en ;
+    skos:prefLabel "trait value std"@en ;
+    skos:scopeNote "Using '.' as a decimal separator! The standardized data values or factor levels must correspond to the expected units and factor levels of the trait thesaurus, e.g. '32.423', 'female', 'apter', '3'."@en ;
+.
+
+ets:BiodiversityExploratories
+    a owl:Class ;
+    dcterms:issued "2017-11-14" ;
+    rdfs:isDefinedBy ets: ;
+    skos:definition "Extended Vocabulary for geolocation within the Biodiversity Exploratories Project"@en ;
+    skos:prefLabel "Biodiversity Exploratories"@en ;
+    skos:scopeNote "These data should be linked to the core traitdata by a ExploratoriesPlotID."@en ;
+.
+
+ets:Metadata
+    a owl:Class ;
+    dcterms:issued "2017-11-14" ;
+    rdfs:isDefinedBy ets: ;
+    skos:definition "Vocabulary to describe dataset-level properties on authorship and rights"@en ;
+    skos:prefLabel "Metadata"@en ;
+    skos:scopeNote "Specifications on terms of use and dataset-level information on authorship and ownership."@en ;
+.
+
+ets:Traitlist
+    a owl:Class ;
+    dcterms:issued "2017-11-14" ;
+    rdfs:isDefinedBy ets: ;
+    skos:definition "Vocabulary for lists of trait definitions"@en ;
+    skos:prefLabel "Trait list"@en ;
+    skos:scopeNote "A minimal set of terms for semantic trait ontologies or thesauri of trait definition."@en ;
+.
+
+ets:MeasurementOrFact
+    a owl:Class ;
+    dcterms:issued "2017-11-14" ;
+    rdfs:isDefinedBy ets: ;
+    skos:definition "Extended Vocabulary for the description of measurement procedures"@en ;
+    skos:prefLabel "Measurement Or Fact"@en ;
+    skos:scopeNote "These data should be linked to the core traitdata by a unique measurementID."@en ;
+.
+
+ets:Occurrence
+    a owl:Class ;
+    dcterms:issued "2017-11-14" ;
+    rdfs:isDefinedBy ets: ;
+    skos:definition "Extended Vocabulary for the description of individual specimens"@en ;
+    skos:prefLabel "Occurrence"@en ;
+    skos:scopeNote "These data should be linked to the core traitdata by a unique occurrenceID or locationID."@en ;
+.
+
+ets:Traitdata
+    a owl:Class ;
+    dcterms:issued "2017-11-14" ;
+    rdfs:isDefinedBy ets: ;
+    skos:definition "Vocabulary for ecological trait data"@en ;
+    skos:prefLabel "Trait data"@en ;
+    skos:scopeNote "The terms in this vocabulary structure facts or measurement values describing a property of an entity (e.g. a single specimen or population) of a specific taxon."@en ;
+.
+
+ets:
+    a owl:Ontology ;
+    dcterms:contributor <https://orcid.org/0000-0002-0829-5849> ;
+    dcterms:creator
+        <https://orcid.org/0000-0002-2033-779X> ,
+        <https://orcid.org/0000-0002-8170-6659> ,
+        <https://orcid.org/0000-0003-3036-6284> ,
+        <https://orcid.org/0000-0002-1643-6023> ,
+        <https://orcid.org/0000-0002-8728-1145> ,
+        <https://orcid.org/0000-0002-2718-7050> ;
+    dcterms:publisher <https://terminologies.gfbio.org> ;
+    owl:versionIRI <http://terminologies.gfbio.org/terms/ets/2019-03-15/ets.owl> ;
+    owl:versionInfo "0.10" ;
+    schema:dateCreated "2018-01-01"^^xsd:date ;
+    schema:dateModified "2019-03-25"^^xsd:date ;
+    schema:dateIssued "2019-03-25"^^xsd:date ;
+    schema:citation "Schneider, F.D., Jochum, M., Le Provost, G., Ostrowski, A., Penone, C. and Simons, N.K. (2019) Ecological Trait-data Standard Vocabulary, v0.10, URL: https://terminologies.gfbio.org/terms/ets/pages/ , DOI: 10.5281/zenodo.2605377" ;
+    schema:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
+    skos:definition "The Ecological Trait-data Standard defines terms for the use in datasets containing quantitative and qualitative functional traits." ;
+    skos:scopeNote """"For more information about this standard visit https://terminologies.gfbio.org/terms/ets/pages/.
+        
+To contribute to this standard, see https://github.com/EcologicalTraitData/ETS""" ;
+    skos:prefLabel "Ecological Trait-data Standard (ETS)"@en ;
+.

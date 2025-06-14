@@ -238,3 +238,52 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:name "Andy Leigh" ;
     schema:email ""^^xsd:anyURI ;
 .
+
+
+<https://terminologies.gfbio.org>
+    a schema:Organization ;
+    schema:name "GFBio Terminology Service" ;
+    schema:url "https://terminologies.gfbio.org/"^^xsd:anyURI ;
+.
+
+<https://orcid.org/0000-0002-0829-5849>
+    a schema:Person ;
+    schema:name "David Fichtmueller" ;
+    schema:email ""^^xsd:anyURI ;
+.
+
+<https://orcid.org/0000-0002-2033-779X>
+    a schema:Person ;
+    schema:name "Andreas Ostrowski" ;
+    schema:email ""^^xsd:anyURI ;
+.
+
+<https://orcid.org/0000-0002-8170-6659>
+    a schema:Person ;
+    schema:name "Caterina Penone" ;
+    schema:email ""^^xsd:anyURI ;
+.
+
+<https://orcid.org/0000-0003-3036-6284>
+    a schema:Person ;
+    schema:name "Florian D. Schneider" ;
+    schema:email ""^^xsd:anyURI ;
+.
+
+<https://orcid.org/0000-0002-1643-6023>
+    a schema:Person ;
+    schema:name "Gaëtane LeProvost" ;
+    schema:email ""^^xsd:anyURI ;
+.
+
+<https://orcid.org/0000-0002-8728-1145>
+    a schema:Person ;
+    schema:name "Malte Jochum" ;
+    schema:email ""^^xsd:anyURI ;
+.
+
+<https://orcid.org/0000-0002-2718-7050>
+    a schema:Person ;
+    schema:name "Nadja Simons" ;
+    schema:email ""^^xsd:anyURI ;
+.
