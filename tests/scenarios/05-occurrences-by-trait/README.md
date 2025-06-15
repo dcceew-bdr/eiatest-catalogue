@@ -10,6 +10,11 @@
 
 ### Steps
 
+ont:hasContextObject obo:PO_0025034 .  # leaf (218)
+ont:hasContextObject obo:PO_0004518 .  # bark (27)
+obo:PO_0009001  # fruit (24+)
+PO_0000003  # whole plant (89+)
+
 ### Postconditions
 
 ## Queries
