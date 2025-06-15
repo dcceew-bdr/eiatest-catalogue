@@ -1,5 +1,6 @@
 PREFIX : <https://linked.data.gov.au/dataset/eiatest/nsl/>
 PREFIX cs: <https://linked.data.gov.au/dataset/eiatest/nsl>
+PREFIX dwc: <http://rs.tdwg.org/dwc/terms/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX schema: <https://schema.org/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -2720,4 +2721,577 @@ This dataset is a minute sample of 250 Taxon Names from it, relevant to data in 
 	skos:inScheme cs: ;
 	skos:prefLabel "Zizina otis"@en ;
 	skos:topConceptOf cs: ;
+.
+
+:acaena-echinata
+    dwc:vernacularName "Acaena echinata" ;
+    dwc:kingdom :plantae ;
+.
+
+:ajuga-australis
+    dwc:vernacularName "austral bugle" ;
+    dwc:kingdom :plantae ;
+.
+
+:araujia-sericifera
+    dwc:vernacularName "Moth Vine" ;
+    dwc:kingdom :plantae ;
+.
+
+:arthropodium-milleflorum
+    dwc:vernacularName "Pale Vanilla-lily" ;
+    dwc:kingdom :plantae ;
+.
+
+:arum-italicum
+    dwc:vernacularName "Italian Arum" ;
+    dwc:kingdom :plantae ;
+.
+
+:asperula-conferta
+    dwc:vernacularName "Common Woodruff" ;
+    dwc:kingdom :plantae ;
+.
+
+:asplenium-flabellifolium
+    dwc:vernacularName "necklace fern" ;
+    dwc:kingdom :plantae ;
+.
+
+:austrostipa
+    dwc:vernacularName "grass" ;
+    dwc:kingdom :plantae ;
+.
+
+:blechnum-minus
+    dwc:vernacularName "Soft Water Fern" ;
+    dwc:kingdom :plantae ;
+.
+
+:brachychiton-populneus-subsp-populneus
+    dwc:vernacularName "Kurrajong" ;
+    dwc:kingdom :plantae ;
+.
+
+:brachyscome-rigidula
+    dwc:vernacularName "Hairy Cut-leaf Daisy" ;
+    dwc:kingdom :plantae ;
+.
+
+:brachyscome-spathulata
+    dwc:vernacularName "Brachyscome spathulata" ;
+    dwc:kingdom :plantae ;
+.
+
+:bursaria-spinosa
+    dwc:vernacularName "Blackthorn" ;
+    dwc:kingdom :plantae ;
+.
+
+:caladenia
+    dwc:vernacularName "Orchid" ;
+    dwc:kingdom :plantae ;
+.
+
+:callistemon-pityoides
+    dwc:vernacularName "Alpine Bottlebrush" ;
+    dwc:kingdom :plantae ;
+.
+
+:calochilus-campestris
+    dwc:vernacularName "Copper beard orchid" ;
+    dwc:kingdom :plantae ;
+.
+
+:calotis-anthemoides
+    dwc:vernacularName "Cut-leaved Burr-daisy" ;
+    dwc:kingdom :plantae ;
+.
+
+:carex-inversa
+    dwc:vernacularName "Carex inversa" ;
+    dwc:kingdom :plantae ;
+.
+
+:casuarina-cunninghamiana-subsp-cunninghamiana
+    dwc:vernacularName "River Sheoak" ;
+    dwc:kingdom :plantae ;
+.
+
+:centranthus-ruber
+    dwc:vernacularName "Red Valerian" ;
+    dwc:kingdom :plantae ;
+.
+
+:centrolepis-strigosa
+    dwc:vernacularName "Centrolepis strigosa" ;
+    dwc:kingdom :plantae ;
+.
+
+:cheilanthes-sieberi
+    dwc:vernacularName "Cheilanthes sieberi" ;
+    dwc:kingdom :plantae ;
+.
+
+:chenopodium-album
+    dwc:vernacularName "Fat Hen" ;
+    dwc:kingdom :plantae ;
+.
+
+:chrysocephalum-apiculatum
+    dwc:vernacularName "Common everlasting" ;
+    dwc:kingdom :plantae ;
+.
+
+:cirsium-vulgare
+    dwc:vernacularName "Spear Thistle" ;
+    dwc:kingdom :plantae ;
+.
+
+:clematis-leptophylla
+    dwc:vernacularName "Clematis leptophylla" ;
+    dwc:kingdom :plantae ;
+.
+
+:conium-maculatum
+    dwc:vernacularName "Hemlock" ;
+    dwc:kingdom :plantae ;
+.
+
+:corunastylis-clivicola
+    dwc:vernacularName "Corunastylis clivicola" ;
+    dwc:kingdom :plantae ;
+.
+
+:corybas-hispidus
+    dwc:vernacularName "Bristly Helmet Orchid" ;
+    dwc:kingdom :plantae ;
+.
+
+:cotoneaster-glaucophyllus
+    dwc:vernacularName "Glaucous Cotoneaster" ;
+    dwc:kingdom :plantae ;
+.
+
+:cyperus-sanguinolentus
+    dwc:vernacularName "Cyperus sanguinolentus" ;
+    dwc:kingdom :plantae ;
+.
+
+:dampiera-fusca
+    dwc:vernacularName "Kydra Dampiera" ;
+    dwc:kingdom :plantae ;
+.
+
+:daucus-glochidiatus
+    dwc:vernacularName "Native Carrot" ;
+    dwc:kingdom :plantae ;
+.
+
+:dichondra-repens
+    dwc:vernacularName "Kidney Weed" ;
+    dwc:kingdom :plantae ;
+.
+
+:dimorphotheca-ecklonis
+    dwc:vernacularName "Cape Daisy" ;
+    dwc:kingdom :plantae ;
+.
+
+:dipodium-roseum
+    dwc:vernacularName "Dipodium roseum" ;
+    dwc:kingdom :plantae ;
+.
+
+:discaria-pubescens
+    dwc:vernacularName "Hairy anchor plantt" ;
+    dwc:kingdom :plantae ;
+.
+
+:diuris
+    dwc:vernacularName "Lemon Doubletail" ;
+    dwc:kingdom :plantae ;
+.
+
+:dodonaea-viscosa
+    dwc:vernacularName "Sticky Hop-bush" ;
+    dwc:kingdom :plantae ;
+.
+
+:einadia-nutans-subsp-nutans
+    dwc:vernacularName "Einadia nutans" ;
+    dwc:kingdom :plantae ;
+.
+
+:eleocharis-sphacelata
+    dwc:vernacularName "Eleocharis sphacelata" ;
+    dwc:kingdom :plantae ;
+.
+
+:eleusine-tristachya
+    dwc:vernacularName "Goose Grass" ;
+    dwc:kingdom :plantae ;
+.
+
+:eriochilus-cucullatus
+    dwc:vernacularName "Eriochilus cucullatus" ;
+    dwc:kingdom :plantae ;
+.
+
+:eryngium-ovinum
+    dwc:vernacularName "Blue devil" ;
+    dwc:kingdom :plantae ;
+.
+
+:eucalyptus
+    dwc:vernacularName "Wattle-leaved Peppermint" ;
+    dwc:kingdom :plantae ;
+.
+
+:ficus-carica
+    dwc:vernacularName "Fig" ;
+    dwc:kingdom :plantae ;
+.
+
+:gentianella-polysperes
+    dwc:vernacularName "Early forest-gentian" ;
+    dwc:kingdom :plantae ;
+.
+
+:glossodia-major
+    dwc:vernacularName "Waxlip Orchid" ;
+    dwc:kingdom :plantae ;
+.
+
+:goodenia
+    dwc:vernacularName "Purple goodenia" ;
+    dwc:kingdom :plantae ;
+.
+
+:grevillea-arenaria-subsp-arenaria
+    dwc:vernacularName "Sand Grevillea" ;
+    dwc:kingdom :plantae ;
+.
+
+:hackelia-suaveolens
+    dwc:vernacularName "Hackelia suaveolens" ;
+    dwc:kingdom :plantae ;
+.
+
+:hydrocotyle-sibthorpioides
+    dwc:vernacularName "Hydrocotyle sibthorpioides" ;
+    dwc:kingdom :plantae ;
+.
+
+:hypericum-gramineum
+    dwc:vernacularName "Small St. John's Wort" ;
+    dwc:kingdom :plantae ;
+.
+
+:hypochaeris-glabra
+    dwc:vernacularName "Smooth Catsear" ;
+    dwc:kingdom :plantae ;
+.
+
+:isotoma-fluviatilis-subsp-australis
+    dwc:vernacularName "Swamp Isotome" ;
+    dwc:kingdom :plantae ;
+.
+
+:juncus-sp
+    dwc:vernacularName "Rush" ;
+    dwc:kingdom :plantae ;
+.
+
+:leptorhynchos-squamatus-subsp-squamatus
+    dwc:vernacularName "Scaly Buttons" ;
+    dwc:kingdom :plantae ;
+.
+
+:leucanthemum-vulgare
+    dwc:vernacularName "Ox-eye Daisy" ;
+    dwc:kingdom :plantae ;
+.
+
+:leucochrysum-albicans-subsp-tricolor
+    dwc:vernacularName "Sunray" ;
+    dwc:kingdom :plantae ;
+.
+
+:leucopogon-fletcheri-subsp-brevisepalus
+    dwc:vernacularName "Beard-heath" ;
+    dwc:kingdom :plantae ;
+.
+
+:leucopogon-virgatus
+    dwc:vernacularName "Beard-heath" ;
+    dwc:kingdom :plantae ;
+.
+
+:lilaeopsis-polyantha
+    dwc:vernacularName "Lilaeopsis" ;
+    dwc:kingdom :plantae ;
+.
+
+:lobelia
+    dwc:vernacularName "Lobelia" ;
+    dwc:kingdom :plantae ;
+.
+
+:lomandra-filiformis-subsp-coriacea
+    dwc:vernacularName "Mat-rush" ;
+    dwc:kingdom :plantae ;
+.
+
+:lotus-australis
+    dwc:vernacularName "Australian Trefoil" ;
+    dwc:kingdom :plantae ;
+.
+
+:luzula-densiflora
+    dwc:vernacularName "Woodrush" ;
+    dwc:kingdom :plantae ;
+.
+
+:lythrum-hyssopifolia
+    dwc:vernacularName "Hyssop Loosestrife" ;
+    dwc:kingdom :plantae ;
+.
+
+:microsorum-pustulatum-subsp-pustulatum
+    dwc:vernacularName "Kangaroo Fern" ;
+    dwc:kingdom :plantae ;
+.
+
+:nassella
+    dwc:vernacularName "Cane needle grass" ;
+    dwc:kingdom :plantae ;
+.
+
+:olearia
+    dwc:vernacularName "Daisy-bush" ;
+    dwc:kingdom :plantae ;
+.
+
+:orobanche-minor
+    dwc:vernacularName "Broomrape" ;
+    dwc:kingdom :plantae ;
+.
+
+:oxalis-thompsoniae
+    dwc:vernacularName "Oxalis Herb" ;
+    dwc:kingdom :plantae ;
+.
+
+:oxylobium-ellipticum
+    dwc:vernacularName "Common Shaggy Pea" ;
+    dwc:kingdom :plantae ;
+.
+
+:pelargonium-australe
+    dwc:vernacularName "Native Storksbill, Wild Geranium" ;
+    dwc:kingdom :plantae ;
+.
+
+:pimelea-linifolia
+    dwc:vernacularName "Slender Rice Flower" ;
+    dwc:kingdom :plantae ;
+.
+
+:pinus-radiata
+    dwc:vernacularName "Radiata Pine, Monterey Pine" ;
+    dwc:kingdom :plantae ;
+.
+
+:prasophyllum
+    dwc:vernacularName "Heathland Leek-orchid" ;
+    dwc:kingdom :plantae ;
+.
+
+:pterostylis-sp
+    dwc:vernacularName "Greenhoods" ;
+    dwc:kingdom :plantae ;
+.
+
+:rytidosperma-sp
+    dwc:vernacularName "Grasses" ;
+    dwc:kingdom :plantae ;
+.
+
+:scleranthus-diander
+    dwc:vernacularName "Tufted knawel" ;
+    dwc:kingdom :plantae ;
+.
+
+:senecio-bathurstianus
+    dwc:vernacularName "Groundsel" ;
+    dwc:kingdom :plantae ;
+.
+
+:silene-gallica-var-gallica
+    dwc:vernacularName "French Catchfly" ;
+    dwc:kingdom :plantae ;
+.
+
+:solanum-cinereum
+    dwc:vernacularName "Narrawa Burr" ;
+    dwc:kingdom :plantae ;
+.
+
+:stellaria-pungens
+    dwc:vernacularName "Prickly Starwort" ;
+    dwc:kingdom :plantae ;
+.
+
+:stylidium-armeria-subsp-armeria
+    dwc:vernacularName "" ;
+    dwc:kingdom :plantae ;
+.
+
+:swainsona
+    dwc:vernacularName "Violet Swainson-pea, Violet Darling Pea" ;
+    dwc:kingdom :plantae ;
+.
+
+:thelymitra-sp
+    dwc:vernacularName "Sun orchids" ;
+    dwc:kingdom :plantae ;
+.
+
+:thysanotus-patersonii
+    dwc:vernacularName "Twining Fringe Lily" ;
+    dwc:kingdom :plantae ;
+.
+
+:triptilodiscus-pygmaeus
+    dwc:vernacularName "Common sunray" ;
+    dwc:kingdom :plantae ;
+.
+
+:veronica-sp
+    dwc:vernacularName "Speedwells" ;
+    dwc:kingdom :plantae ;
+.
+
+:viburnum-tinus
+    dwc:vernacularName "Viburnum" ;
+    dwc:kingdom :plantae ;
+.
+
+:wahlenbergia-sp
+    dwc:vernacularName "Bluebells" ;
+    dwc:kingdom :plantae ;
+.
+
+:wurmbea-dioica-subsp-dioica
+    dwc:vernacularName "Early Nancy" ;
+    dwc:kingdom :plantae ;
+.
+
+:xerochrysum-viscosum
+    dwc:vernacularName "Sticky Everlasting" ;
+    dwc:kingdom :plantae ;
+.
+
+:plantae
+    a skos:Collection ;
+    rdfs:isDefinedBy cs: ;
+    skos:prefLabel "Plantae"@en ;
+    skos:definition "The kingdom of plants"@en ;
+    skos:inScheme cs: ;
+    skos:member
+        :acaena-echinata ,
+        :ajuga-australis ,
+        :araujia-sericifera ,
+        :arthropodium-milleflorum ,
+        :arum-italicum ,
+        :asperula-conferta ,
+        :asplenium-flabellifolium ,
+        :austrostipa ,
+        :blechnum-minus ,
+        :brachychiton-populneus-subsp-populneus ,
+        :brachyscome-rigidula ,
+        :brachyscome-spathulata ,
+        :bursaria-spinosa ,
+        :caladenia ,
+        :callistemon-pityoides ,
+        :calochilus-campestris ,
+        :calotis-anthemoides ,
+        :carex-inversa ,
+        :casuarina-cunninghamiana-subsp-cunninghamiana ,
+        :centranthus-ruber ,
+        :centrolepis-strigosa ,
+        :cheilanthes-sieberi ,
+        :chenopodium-album ,
+        :chrysocephalum-apiculatum ,
+        :cirsium-vulgare ,
+        :clematis-leptophylla ,
+        :conium-maculatum ,
+        :corunastylis-clivicola ,
+        :corybas-hispidus ,
+        :cotoneaster-glaucophyllus ,
+        :cyperus-sanguinolentus ,
+        :dampiera-fusca ,
+        :daucus-glochidiatus ,
+        :dichondra-repens ,
+        :dimorphotheca-ecklonis ,
+        :dipodium-roseum ,
+        :discaria-pubescens ,
+        :diuris ,
+        :dodonaea-viscosa ,
+        :einadia-nutans-subsp-nutans ,
+        :eleocharis-sphacelata ,
+        :eleusine-tristachya ,
+        :eriochilus-cucullatus ,
+        :eryngium-ovinum ,
+        :eucalyptus ,
+        :ficus-carica ,
+        :gentianella-polysperes ,
+        :glossodia-major ,
+        :goodenia ,
+        :grevillea-arenaria-subsp-arenaria ,
+        :hackelia-suaveolens ,
+        :hydrocotyle-sibthorpioides ,
+        :hypericum-gramineum ,
+        :hypochaeris-glabra ,
+        :isotoma-fluviatilis-subsp-australis ,
+        :juncus-sp ,
+        :leptorhynchos-squamatus-subsp-squamatus ,
+        :leucanthemum-vulgare ,
+        :leucochrysum-albicans-subsp-tricolor ,
+        :leucopogon-fletcheri-subsp-brevisepalus ,
+        :leucopogon-virgatus ,
+        :lilaeopsis-polyantha ,
+        :lobelia ,
+        :lomandra-filiformis-subsp-coriacea ,
+        :lotus-australis ,
+        :luzula-densiflora ,
+        :lythrum-hyssopifolia ,
+        :microsorum-pustulatum-subsp-pustulatum ,
+        :nassella ,
+        :olearia ,
+        :orobanche-minor ,
+        :oxalis-thompsoniae ,
+        :oxylobium-ellipticum ,
+        :pelargonium-australe ,
+        :pimelea-linifolia ,
+        :pinus-radiata ,
+        :prasophyllum ,
+        :pterostylis-sp ,
+        :rytidosperma-sp ,
+        :scleranthus-diander ,
+        :senecio-bathurstianus ,
+        :silene-gallica-var-gallica ,
+        :solanum-cinereum ,
+        :stellaria-pungens ,
+        :stylidium-armeria-subsp-armeria ,
+        :swainsona ,
+        :thelymitra-sp ,
+        :thysanotus-patersonii ,
+        :triptilodiscus-pygmaeus ,
+        :veronica-sp ,
+        :viburnum-tinus ,
+        :wahlenbergia-sp ,
+        :wurmbea-dioica-subsp-dioica ,
+        :xerochrysum-viscosum ;
 .
