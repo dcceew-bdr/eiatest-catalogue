@@ -30,11 +30,8 @@ This dataset is a minute sample of 250 Taxon Names from it, relevant to data in 
     schema:keywords <http://vocabs.lter-europe.net/EnvThes/21654> ;
     schema:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
     schema:publisher <https://linked.data.gov.au/org/dcceew> ;
-    schema:version "3" ;
+    schema:version "4" ;
     skos:hasTopConcept
-        :acacia-boormanii ,
-        :acacia-genistifolia ,
-        :acacia-ulicifolia ,
         :acaena-echinata ,
         :acanthiza-reguloides ,
         :acanthorhynchus-tenuirostris ,
@@ -42,9 +39,7 @@ This dataset is a minute sample of 250 Taxon Names from it, relevant to data in 
         :ajuga-australis ,
         :alisterus-scapularis ,
         :amphibolurus-muricatus ,
-        :anas-castanea ,
-        :anas-gracilis ,
-        :anas-superciliosa ,
+        :anas ,
         :anhinga-novaehollandiae ,
         :antechinus-agilis ,
         :anthochaera-carunculata ,
@@ -58,8 +53,7 @@ This dataset is a minute sample of 250 Taxon Names from it, relevant to data in 
         :austroaeschna-pulchra ,
         :austroargiolestes-calcaris ,
         :austrolestes-annulosus ,
-        :austrostipa-densiflora ,
-        :austrostipa-scabra ,
+        :austrostipa ,
         :belenois-java ,
         :blechnum-minus ,
         :brachychiton-populneus-subsp-populneus ,
@@ -67,10 +61,7 @@ This dataset is a minute sample of 250 Taxon Names from it, relevant to data in 
         :brachyscome-spathulata ,
         :bursaria-spinosa ,
         :cacatua-sanguinea ,
-        :caladenia-actensis ,
-        :caladenia-caerulea ,
-        :caladenia-fuscata ,
-        :caladenia-montana ,
+        :caladenia ,
         :callistemon-pityoides ,
         :calochilus-campestris ,
         :calotis-anthemoides ,
@@ -99,8 +90,7 @@ This dataset is a minute sample of 250 Taxon Names from it, relevant to data in 
         :corybas-hispidus ,
         :cotoneaster-glaucophyllus ,
         :cracticus-torquatus ,
-        :crinia-parinsignifera ,
-        :crinia-signifera ,
+        :crinia ,
         :ctenotus-taeniolatus ,
         :cygnus-atratus ,
         :cyperus-sanguinolentus ,
@@ -114,9 +104,7 @@ This dataset is a minute sample of 250 Taxon Names from it, relevant to data in 
         :dipodium-roseum ,
         :diporiphora-nobbi ,
         :discaria-pubescens ,
-        :diuris-chryseopsis ,
-        :diuris-pardina ,
-        :diuris-sulphurea ,
+        :diuris ,
         :dodonaea-viscosa ,
         :drosera-sp ,
         :ectropis-sp ,
@@ -137,8 +125,7 @@ This dataset is a minute sample of 250 Taxon Names from it, relevant to data in 
         :gadopsis-bispinosa ,
         :gentianella-polysperes ,
         :glossodia-major ,
-        :goodenia-hederacea-subsp-alpestris ,
-        :goodenia-pinnatifida ,
+        :goodenia ,
         :grevillea-arenaria-subsp-arenaria ,
         :hackelia-suaveolens ,
         :haliaeetus-leucogaster ,
@@ -163,13 +150,9 @@ This dataset is a minute sample of 250 Taxon Names from it, relevant to data in 
         :leucopogon-virgatus ,
         :ligustrum-sp ,
         :lilaeopsis-polyantha ,
-        :limnodynastes-dumerilii ,
-        :limnodynastes-peronii ,
-        :limnodynastes-tasmaniensis ,
-        :litoria-peronii ,
-        :litoria-verreauxii-verreauxii ,
-        :lobelia-browniana ,
-        :lobelia-simplicicaulis ,
+        :limnodynastes ,
+        :litoria ,
+        :lobelia ,
         :lomandra-filiformis-subsp-coriacea ,
         :lotus-australis ,
         :lucia-limbaria ,
@@ -185,15 +168,12 @@ This dataset is a minute sample of 250 Taxon Names from it, relevant to data in 
         :microtis-sp ,
         :mus-musculus ,
         :myiagra-rubecula ,
-        :nassella-neesiana ,
-        :nassella-trichotoma ,
+        :nassella ,
         :notamacropus-rufogriseus ,
         :nyctemera-amicus ,
         :nycticorax-caledonicus ,
         :ocybadistes-walkeri ,
-        :olearia-argophylla ,
-        :olearia-lirata ,
-        :olearia-phlogopappa-subsp-serrata ,
+        :olearia ,
         :orobanche-minor ,
         :oryctolagus-cuniculus ,
         :osphranter-robustus ,
@@ -215,8 +195,7 @@ This dataset is a minute sample of 250 Taxon Names from it, relevant to data in 
         :pogona-barbata ,
         :polytelis-swainsonii ,
         :porphyrio-melanotus ,
-        :prasophyllum-innubum ,
-        :prasophyllum-tadgellianum ,
+        :prasophyllum ,
         :psephotus-haematonotus ,
         :pseudonaja-textilis ,
         :pseudophryne-pengilleyi ,
@@ -224,8 +203,7 @@ This dataset is a minute sample of 250 Taxon Names from it, relevant to data in 
         :pyracantha-sp ,
         :pyrrholaemus-sagittatus ,
         :rattus-rattus ,
-        :rhipidura-albiscapa ,
-        :rhipidura-leucophrys ,
+        :rhipidura ,
         :rosa-sp ,
         :rytidosperma-sp ,
         :scleranthus-diander ,
@@ -238,15 +216,13 @@ This dataset is a minute sample of 250 Taxon Names from it, relevant to data in 
         :strepera-graculina ,
         :sturnus-vulgaris ,
         :stylidium-armeria-subsp-armeria ,
-        :swainsona-recta ,
-        :swainsona-sericea ,
+        :swainsona ,
         :synemon-plana ,
         :tachyglossus-aculeatus ,
         :tagetes-erecta ,
         :thelymitra-sp ,
         :thysanotus-patersonii ,
-        :tiliqua-nigrolutea ,
-        :tiliqua-rugosa ,
+        :tiliqua ,
         :trapezites-eliena ,
         :trapezites-phigalia ,
         :trichoglossus-moluccanus ,
@@ -267,13 +243,26 @@ This dataset is a minute sample of 250 Taxon Names from it, relevant to data in 
         :zizina-otis ;
 .
 
+:acacia
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Acacia genus"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Acacia"@en ;
+	skos:topConceptOf cs: ;
+	skos:narrower
+	    :acacia-boormanii ,
+	    :acacia-genistifolia ,
+	    :acacia-ulicifolia ;
+.
+
 :acacia-boormanii
 	a skos:Concept ;
 	rdfs:isDefinedBy cs: ;
 	skos:definition "Acacia boormanii"@en ;
 	skos:inScheme cs: ;
 	skos:prefLabel "Acacia boormanii"@en ;
-	skos:topConceptOf cs: ;
+	skos:broader :acacia ;
 .
 
 :acacia-genistifolia
@@ -282,7 +271,7 @@ This dataset is a minute sample of 250 Taxon Names from it, relevant to data in 
 	skos:definition "Acacia genistifolia"@en ;
 	skos:inScheme cs: ;
 	skos:prefLabel "Acacia genistifolia"@en ;
-	skos:topConceptOf cs: ;
+	skos:broader :acacia ;
 .
 
 :acacia-ulicifolia
@@ -291,7 +280,7 @@ This dataset is a minute sample of 250 Taxon Names from it, relevant to data in 
 	skos:definition "Acacia ulicifolia"@en ;
 	skos:inScheme cs: ;
 	skos:prefLabel "Acacia ulicifolia"@en ;
-	skos:topConceptOf cs: ;
+	skos:broader :acacia ;
 .
 
 :acaena-echinata
@@ -357,13 +346,26 @@ This dataset is a minute sample of 250 Taxon Names from it, relevant to data in 
 	skos:topConceptOf cs: ;
 .
 
+:anas
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Anas genus"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Anas"@en ;
+	skos:topConceptOf cs: ;
+	skos:narrower
+	    :anas-castanea ,
+	    :anas-gracilis ,
+	    :anas-superciliosa ;
+.
+
 :anas-castanea
 	a skos:Concept ;
 	rdfs:isDefinedBy cs: ;
 	skos:definition "Anas castanea"@en ;
 	skos:inScheme cs: ;
 	skos:prefLabel "Anas castanea"@en ;
-	skos:topConceptOf cs: ;
+	skos:broader :anas ;
 .
 
 :anas-gracilis
@@ -372,7 +374,7 @@ This dataset is a minute sample of 250 Taxon Names from it, relevant to data in 
 	skos:definition "Anas gracilis"@en ;
 	skos:inScheme cs: ;
 	skos:prefLabel "Anas gracilis"@en ;
-	skos:topConceptOf cs: ;
+	skos:broader :anas ;
 .
 
 :anas-superciliosa
@@ -381,7 +383,7 @@ This dataset is a minute sample of 250 Taxon Names from it, relevant to data in 
 	skos:definition "Anas superciliosa"@en ;
 	skos:inScheme cs: ;
 	skos:prefLabel "Anas superciliosa"@en ;
-	skos:topConceptOf cs: ;
+	skos:broader :anas ;
 .
 
 :anhinga-novaehollandiae
@@ -501,13 +503,25 @@ This dataset is a minute sample of 250 Taxon Names from it, relevant to data in 
 	skos:topConceptOf cs: ;
 .
 
+:austrostipa
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Austrostipa genus"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Austrostipa"@en ;
+	skos:topConceptOf cs: ;
+	skos:narrower
+	    :austrostipa-densiflora ,
+	    :austrostipa-scabra ;
+.
+
 :austrostipa-densiflora
 	a skos:Concept ;
 	rdfs:isDefinedBy cs: ;
 	skos:definition "Austrostipa densiflora"@en ;
 	skos:inScheme cs: ;
 	skos:prefLabel "Austrostipa densiflora"@en ;
-	skos:topConceptOf cs: ;
+	skos:broader :austrostipa ;
 .
 
 :austrostipa-scabra
@@ -517,6 +531,7 @@ This dataset is a minute sample of 250 Taxon Names from it, relevant to data in 
 	skos:inScheme cs: ;
 	skos:prefLabel "Austrostipa scabra"@en ;
 	skos:topConceptOf cs: ;
+	skos:broader :austrostipa ;
 .
 
 :belenois-java
@@ -546,13 +561,25 @@ This dataset is a minute sample of 250 Taxon Names from it, relevant to data in 
 	skos:topConceptOf cs: ;
 .
 
+:brachyscome
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Brachyscome genus"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Brachyscome"@en ;
+	skos:topConceptOf cs: ;
+	skos:narrower
+	    :brachyscome-rigidula ,
+	    :brachyscome-spathulata ;
+.
+
 :brachyscome-rigidula
 	a skos:Concept ;
 	rdfs:isDefinedBy cs: ;
 	skos:definition "Brachyscome rigidula"@en ;
 	skos:inScheme cs: ;
 	skos:prefLabel "Brachyscome rigidula"@en ;
-	skos:topConceptOf cs: ;
+	skos:broader :brachyscome ;
 .
 
 :brachyscome-spathulata
@@ -561,7 +588,7 @@ This dataset is a minute sample of 250 Taxon Names from it, relevant to data in 
 	skos:definition "Brachyscome spathulata"@en ;
 	skos:inScheme cs: ;
 	skos:prefLabel "Brachyscome spathulata"@en ;
-	skos:topConceptOf cs: ;
+	skos:broader :brachyscome ;
 .
 
 :bursaria-spinosa
@@ -582,13 +609,27 @@ This dataset is a minute sample of 250 Taxon Names from it, relevant to data in 
 	skos:topConceptOf cs: ;
 .
 
+:caladenia
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Caladenia genus"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Caladenia"@en ;
+	skos:topConceptOf cs: ;
+	skos:narrower
+	    :caladenia-actensis ,
+	    :caladenia-caerulea ,
+	    :caladenia-fuscata ,
+	    :caladenia-montana ;
+.
+
 :caladenia-actensis
 	a skos:Concept ;
 	rdfs:isDefinedBy cs: ;
 	skos:definition "Caladenia actensis"@en ;
 	skos:inScheme cs: ;
 	skos:prefLabel "Caladenia actensis"@en ;
-	skos:topConceptOf cs: ;
+	skos:braoder :caladenia ;
 .
 
 :caladenia-caerulea
@@ -597,7 +638,7 @@ This dataset is a minute sample of 250 Taxon Names from it, relevant to data in 
 	skos:definition "Caladenia caerulea"@en ;
 	skos:inScheme cs: ;
 	skos:prefLabel "Caladenia caerulea"@en ;
-	skos:topConceptOf cs: ;
+	skos:braoder :caladenia ;
 .
 
 :caladenia-fuscata
@@ -606,7 +647,7 @@ This dataset is a minute sample of 250 Taxon Names from it, relevant to data in 
 	skos:definition "Caladenia fuscata"@en ;
 	skos:inScheme cs: ;
 	skos:prefLabel "Caladenia fuscata"@en ;
-	skos:topConceptOf cs: ;
+	skos:braoder :caladenia ;
 .
 
 :caladenia-montana
@@ -615,7 +656,7 @@ This dataset is a minute sample of 250 Taxon Names from it, relevant to data in 
 	skos:definition "Caladenia montana"@en ;
 	skos:inScheme cs: ;
 	skos:prefLabel "Caladenia montana"@en ;
-	skos:topConceptOf cs: ;
+	skos:braoder :caladenia ;
 .
 
 :callistemon-pityoides
@@ -870,13 +911,25 @@ This dataset is a minute sample of 250 Taxon Names from it, relevant to data in 
 	skos:topConceptOf cs: ;
 .
 
+:crinia
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Crinia genus"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Crinia"@en ;
+	skos:topConceptOf cs: ;
+	skos:narrower
+	    :crinia-parinsignifera ,
+	    :crinia-signifera ;
+.
+
 :crinia-parinsignifera
 	a skos:Concept ;
 	rdfs:isDefinedBy cs: ;
 	skos:definition "Crinia parinsignifera"@en ;
 	skos:inScheme cs: ;
 	skos:prefLabel "Crinia parinsignifera"@en ;
-	skos:topConceptOf cs: ;
+	skos:broader :crinia ;
 .
 
 :crinia-signifera
@@ -885,7 +938,7 @@ This dataset is a minute sample of 250 Taxon Names from it, relevant to data in 
 	skos:definition "Crinia signifera"@en ;
 	skos:inScheme cs: ;
 	skos:prefLabel "Crinia signifera"@en ;
-	skos:topConceptOf cs: ;
+	skos:broader :crinia ;
 .
 
 :ctenotus-taeniolatus
@@ -1005,13 +1058,26 @@ This dataset is a minute sample of 250 Taxon Names from it, relevant to data in 
 	skos:topConceptOf cs: ;
 .
 
+:diuris
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Diuris genus"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Diuris"@en ;
+	skos:topConceptOf cs: ;
+	skos:narrower
+	    :diuris-chryseopsis ,
+	    :diuris-pardina ,
+	    :diuris-sulphurea ;
+.
+
 :diuris-chryseopsis
 	a skos:Concept ;
 	rdfs:isDefinedBy cs: ;
 	skos:definition "Diuris chryseopsis"@en ;
 	skos:inScheme cs: ;
 	skos:prefLabel "Diuris chryseopsis"@en ;
-	skos:topConceptOf cs: ;
+	skos:broader :diuris ;
 .
 
 :diuris-pardina
@@ -1020,7 +1086,7 @@ This dataset is a minute sample of 250 Taxon Names from it, relevant to data in 
 	skos:definition "Diuris pardina"@en ;
 	skos:inScheme cs: ;
 	skos:prefLabel "Diuris pardina"@en ;
-	skos:topConceptOf cs: ;
+	skos:broader :diuris ;
 .
 
 :diuris-sulphurea
@@ -1029,7 +1095,7 @@ This dataset is a minute sample of 250 Taxon Names from it, relevant to data in 
 	skos:definition "Diuris sulphurea"@en ;
 	skos:inScheme cs: ;
 	skos:prefLabel "Diuris sulphurea"@en ;
-	skos:topConceptOf cs: ;
+	skos:broader :diuris ;
 .
 
 :dodonaea-viscosa
@@ -1145,8 +1211,14 @@ This dataset is a minute sample of 250 Taxon Names from it, relevant to data in 
 	rdfs:isDefinedBy cs: ;
 	skos:definition "Eucalyptus genus"@en ;
 	skos:inScheme cs: ;
-	skos:prefLabel "Eucalyptus genus"@en ;
+	skos:prefLabel "Eucalyptus"@en ;
 	skos:topConceptOf cs: ;
+	skos:narrower
+	    :eucalyptus-bridgesiana ,
+	    :eucalyptus-globulus ,
+	    :eucalyptus-melliodora ,
+	    :eucalyptus-pauciflora ,
+	    :eucalyptus-polyanthemos ;
 .
 
 :eucalyptus-bridgesiana
@@ -1257,13 +1329,25 @@ This dataset is a minute sample of 250 Taxon Names from it, relevant to data in 
 	skos:topConceptOf cs: ;
 .
 
+:goodenia
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Goodenia genus"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Goodenia"@en ;
+	skos:topConceptOf cs: ;
+	skos:narrower
+	    :goodenia-hederacea-subsp-alpestris ,
+	    :goodenia-pinnatifida ;
+.
+
 :goodenia-hederacea-subsp-alpestris
 	a skos:Concept ;
 	rdfs:isDefinedBy cs: ;
 	skos:definition "Goodenia hederacea subsp. alpestris"@en ;
 	skos:inScheme cs: ;
 	skos:prefLabel "Goodenia hederacea subsp. alpestris"@en ;
-	skos:topConceptOf cs: ;
+	skos:broader :goodenia ;
 .
 
 :goodenia-pinnatifida
@@ -1272,7 +1356,7 @@ This dataset is a minute sample of 250 Taxon Names from it, relevant to data in 
 	skos:definition "Goodenia pinnatifida"@en ;
 	skos:inScheme cs: ;
 	skos:prefLabel "Goodenia pinnatifida"@en ;
-	skos:topConceptOf cs: ;
+	skos:broader :goodenia ;
 .
 
 :grevillea-arenaria-subsp-arenaria
@@ -1408,6 +1492,7 @@ This dataset is a minute sample of 250 Taxon Names from it, relevant to data in 
 	skos:inScheme cs: ;
 	skos:prefLabel "Juncus sp."@en ;
 	skos:topConceptOf cs: ;
+	skos:narrower :juncus-fockei ;
 .
 
 :junonia-villida
@@ -1509,13 +1594,26 @@ This dataset is a minute sample of 250 Taxon Names from it, relevant to data in 
 	skos:topConceptOf cs: ;
 .
 
+:limnodynastes
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Limnodynastes genus"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Limnodynastes"@en ;
+	skos:topConceptOf cs: ;
+	skos:narrower
+	    :limnodynastes-dumerilii ,
+	    :limnodynastes-peronii ,
+	    :limnodynastes-tasmaniensis ;
+.
+
 :limnodynastes-dumerilii
 	a skos:Concept ;
 	rdfs:isDefinedBy cs: ;
 	skos:definition "Limnodynastes dumerilii"@en ;
 	skos:inScheme cs: ;
 	skos:prefLabel "Limnodynastes dumerilii"@en ;
-	skos:topConceptOf cs: ;
+	skos:broader :limnodynastes ;
 .
 
 :limnodynastes-peronii
@@ -1524,7 +1622,7 @@ This dataset is a minute sample of 250 Taxon Names from it, relevant to data in 
 	skos:definition "Limnodynastes peronii"@en ;
 	skos:inScheme cs: ;
 	skos:prefLabel "Limnodynastes peronii"@en ;
-	skos:topConceptOf cs: ;
+	skos:broader :limnodynastes ;
 .
 
 :limnodynastes-tasmaniensis
@@ -1533,7 +1631,19 @@ This dataset is a minute sample of 250 Taxon Names from it, relevant to data in 
 	skos:definition "Limnodynastes tasmaniensis"@en ;
 	skos:inScheme cs: ;
 	skos:prefLabel "Limnodynastes tasmaniensis"@en ;
+	skos:broader :limnodynastes ;
+.
+
+:litoria
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Litoria genus"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Litoria"@en ;
 	skos:topConceptOf cs: ;
+	skos:narrower
+	    :litoria-peronii ,
+	    :litoria-verreauxii-verreauxii ;
 .
 
 :litoria-peronii
@@ -1542,7 +1652,7 @@ This dataset is a minute sample of 250 Taxon Names from it, relevant to data in 
 	skos:definition "Litoria peronii"@en ;
 	skos:inScheme cs: ;
 	skos:prefLabel "Litoria peronii"@en ;
-	skos:topConceptOf cs: ;
+	skos:broader :litoria ;
 .
 
 :litoria-verreauxii-verreauxii
@@ -1551,7 +1661,19 @@ This dataset is a minute sample of 250 Taxon Names from it, relevant to data in 
 	skos:definition "Litoria verreauxii verreauxii"@en ;
 	skos:inScheme cs: ;
 	skos:prefLabel "Litoria verreauxii verreauxii"@en ;
+	skos:broader :litoria ;
+.
+
+:lobelia
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Lobelia genus"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Lobelia"@en ;
 	skos:topConceptOf cs: ;
+	skos:narrower
+	    :lobelia-browniana ,
+	    :lobelia-simplicicaulis ;
 .
 
 :lobelia-browniana
@@ -1560,7 +1682,7 @@ This dataset is a minute sample of 250 Taxon Names from it, relevant to data in 
 	skos:definition "Lobelia browniana"@en ;
 	skos:inScheme cs: ;
 	skos:prefLabel "Lobelia browniana"@en ;
-	skos:topConceptOf cs: ;
+	skos:broader :lobelia ;
 .
 
 :lobelia-simplicicaulis
@@ -1569,7 +1691,7 @@ This dataset is a minute sample of 250 Taxon Names from it, relevant to data in 
 	skos:definition "Lobelia simplicicaulis"@en ;
 	skos:inScheme cs: ;
 	skos:prefLabel "Lobelia simplicicaulis"@en ;
-	skos:topConceptOf cs: ;
+	skos:broader :lobelia ;
 .
 
 :lomandra-filiformis-subsp-coriacea
@@ -1707,13 +1829,25 @@ This dataset is a minute sample of 250 Taxon Names from it, relevant to data in 
 	skos:topConceptOf cs: ;
 .
 
+:nassella
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Nassella genus"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Nassella"@en ;
+	skos:topConceptOf cs: ;
+	skos:narrower
+	    :nassella-neesiana ,
+	    :nassella-trichotoma ;
+.
+
 :nassella-neesiana
 	a skos:Concept ;
 	rdfs:isDefinedBy cs: ;
 	skos:definition "Nassella neesiana"@en ;
 	skos:inScheme cs: ;
 	skos:prefLabel "Nassella neesiana"@en ;
-	skos:topConceptOf cs: ;
+	skos:broader :nassella ;
 .
 
 :nassella-trichotoma
@@ -1722,7 +1856,7 @@ This dataset is a minute sample of 250 Taxon Names from it, relevant to data in 
 	skos:definition "Nassella trichotoma"@en ;
 	skos:inScheme cs: ;
 	skos:prefLabel "Nassella trichotoma"@en ;
-	skos:topConceptOf cs: ;
+	skos:broader :nassella ;
 .
 
 :notamacropus-rufogriseus
@@ -1761,13 +1895,26 @@ This dataset is a minute sample of 250 Taxon Names from it, relevant to data in 
 	skos:topConceptOf cs: ;
 .
 
+:olearia
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Olearia genus"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Olearia"@en ;
+	skos:topConceptOf cs: ;
+	skos:narrower
+	    :olearia-argophylla ,
+	    :olearia-lirata ,
+	    :olearia-phlogopappa-subsp-serrata ;
+.
+
 :olearia-argophylla
 	a skos:Concept ;
 	rdfs:isDefinedBy cs: ;
 	skos:definition "Olearia argophylla"@en ;
 	skos:inScheme cs: ;
 	skos:prefLabel "Olearia argophylla"@en ;
-	skos:topConceptOf cs: ;
+	skos:broader :olearia ;
 .
 
 :olearia-lirata
@@ -1776,7 +1923,7 @@ This dataset is a minute sample of 250 Taxon Names from it, relevant to data in 
 	skos:definition "Olearia lirata"@en ;
 	skos:inScheme cs: ;
 	skos:prefLabel "Olearia lirata"@en ;
-	skos:topConceptOf cs: ;
+	skos:broader :olearia ;
 .
 
 :olearia-phlogopappa-subsp-serrata
@@ -1785,7 +1932,7 @@ This dataset is a minute sample of 250 Taxon Names from it, relevant to data in 
 	skos:definition "Olearia phlogopappa subsp. serrata"@en ;
 	skos:inScheme cs: ;
 	skos:prefLabel "Olearia phlogopappa subsp. serrata"@en ;
-	skos:topConceptOf cs: ;
+	skos:broader :olearia ;
 .
 
 :orobanche-minor
@@ -1984,6 +2131,19 @@ This dataset is a minute sample of 250 Taxon Names from it, relevant to data in 
 	skos:inScheme cs: ;
 	skos:prefLabel "Prasophyllum innubum"@en ;
 	skos:topConceptOf cs: ;
+	skos:narrower
+	    :prasophyllum-innubum ,
+	    :prasophyllum-tadgellianum ;
+.
+
+
+:prasophyllum-innubum
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Prasophyllum innubum"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Prasophyllum innubum"@en ;
+	skos:broader :prasophyllum ;
 .
 
 :prasophyllum-tadgellianum
@@ -1992,7 +2152,7 @@ This dataset is a minute sample of 250 Taxon Names from it, relevant to data in 
 	skos:definition "Prasophyllum tadgellianum"@en ;
 	skos:inScheme cs: ;
 	skos:prefLabel "Prasophyllum tadgellianum"@en ;
-	skos:topConceptOf cs: ;
+	skos:broader :prasophyllum ;
 .
 
 :psephotus-haematonotus
@@ -2121,13 +2281,25 @@ This dataset is a minute sample of 250 Taxon Names from it, relevant to data in 
 	skos:topConceptOf cs: ;
 .
 
+:rhipidura
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Rhipidura genus"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Rhipidura"@en ;
+	skos:topConceptOf cs: ;
+	skos:narrower
+	    :rhipidura-albiscapa ,
+	    :rhipidura-leucophrys ;
+.
+
 :rhipidura-albiscapa
 	a skos:Concept ;
 	rdfs:isDefinedBy cs: ;
 	skos:definition "Rhipidura albiscapa"@en ;
 	skos:inScheme cs: ;
 	skos:prefLabel "Rhipidura albiscapa"@en ;
-	skos:topConceptOf cs: ;
+	skos:broader :rhipidura ;
 .
 
 :rhipidura-leucophrys
@@ -2136,7 +2308,7 @@ This dataset is a minute sample of 250 Taxon Names from it, relevant to data in 
 	skos:definition "Rhipidura leucophrys"@en ;
 	skos:inScheme cs: ;
 	skos:prefLabel "Rhipidura leucophrys"@en ;
-	skos:topConceptOf cs: ;
+	skos:broader :rhipidura ;
 .
 
 :rosa-canina
@@ -2283,13 +2455,25 @@ This dataset is a minute sample of 250 Taxon Names from it, relevant to data in 
 	skos:topConceptOf cs: ;
 .
 
+:swainsona
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Swainsona genus"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Swainsona"@en ;
+	skos:topConceptOf cs: ;
+	skos:narrower
+	    :swainsona-recta ,
+	    :swainsona-sericea ;
+.
+
 :swainsona-recta
 	a skos:Concept ;
 	rdfs:isDefinedBy cs: ;
 	skos:definition "Swainsona recta"@en ;
 	skos:inScheme cs: ;
 	skos:prefLabel "Swainsona recta"@en ;
-	skos:topConceptOf cs: ;
+	skos:broader :swainsona ;
 .
 
 :swainsona-sericea
@@ -2298,7 +2482,7 @@ This dataset is a minute sample of 250 Taxon Names from it, relevant to data in 
 	skos:definition "Swainsona sericea"@en ;
 	skos:inScheme cs: ;
 	skos:prefLabel "Swainsona sericea"@en ;
-	skos:topConceptOf cs: ;
+	skos:broader :swainsona ;
 .
 
 :synemon-plana
@@ -2346,13 +2530,25 @@ This dataset is a minute sample of 250 Taxon Names from it, relevant to data in 
 	skos:topConceptOf cs: ;
 .
 
+:tiliqua
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Tiliqua genus"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Tiliqua"@en ;
+	skos:topConceptOf cs: ;
+	skos:narrower
+	    :tiliqua-nigrolutea ,
+	    :tiliqua-rugosa ;
+.
+
 :tiliqua-nigrolutea
 	a skos:Concept ;
 	rdfs:isDefinedBy cs: ;
 	skos:definition "Tiliqua nigrolutea"@en ;
 	skos:inScheme cs: ;
 	skos:prefLabel "Tiliqua nigrolutea"@en ;
-	skos:topConceptOf cs: ;
+	skos:broader :tiliqua ;
 .
 
 :tiliqua-rugosa
@@ -2361,7 +2557,7 @@ This dataset is a minute sample of 250 Taxon Names from it, relevant to data in 
 	skos:definition "Tiliqua rugosa"@en ;
 	skos:inScheme cs: ;
 	skos:prefLabel "Tiliqua rugosa"@en ;
-	skos:topConceptOf cs: ;
+	skos:broader :tiliqua ;
 .
 
 :trapezites-eliena

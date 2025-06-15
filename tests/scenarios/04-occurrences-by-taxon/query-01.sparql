@@ -1,0 +1,27 @@
+PREFIX dwc: <http://rs.tdwg.org/dwc/terms/>
+PREFIX geo: <http://www.opengis.net/ont/geosparql#>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX time: <http://www.w3.org/2006/time#>
+
+SELECT ?o ?space ?time ?taxon_name_pl
+WHERE {
+	{
+      SELECT ?taxon_name ?taxon_name_pl
+      WHERE {
+	    BIND (<https://linked.data.gov.au/dataset/eiatest/nsl/anas> AS ?c)
+        ?c
+          skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+          skos:narrower* ?taxon_name ;
+        .
+
+  		?taxon_name skos:prefLabel ?taxon_name_pl .
+      }
+    }
+    ?o
+      a dwc:Occurrence ;
+  	  dwc:scientificNameID ?taxon_name ;
+      geo:hasGeometry/geo:asWKT ?space ;
+      time:hasTime/time:inXSDDateTime ?time ;
+    .
+}
