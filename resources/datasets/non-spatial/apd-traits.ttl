@@ -74,105 +74,105 @@ cs:
     skos:broader :trait_0012010 ;
     skos:definition "Eucalyptus, Corymbia or Angophora taxa with 'Box' type bark."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "eucalypt_box"@en .
+    skos:prefLabel "eucalypt box"@en .
 
 :bark_morphology_eucalyptus_eucalypt_gum
     a skos:Concept ;
     skos:broader :trait_0012010 ;
     skos:definition "Eucalyptus, Corymbia or Angophora taxa with 'Gum' type bark."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "eucalypt_gum"@en .
+    skos:prefLabel "eucalypt gum"@en .
 
 :bark_morphology_eucalyptus_eucalypt_ironbark
     a skos:Concept ;
     skos:broader :trait_0012010 ;
     skos:definition "Eucalyptus, Corymbia or Angophora taxa with 'Ironbark' type bark."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "eucalypt_ironbark"@en .
+    skos:prefLabel "eucalypt ironbark"@en .
 
 :bark_morphology_eucalyptus_eucalypt_peppermint
     a skos:Concept ;
     skos:broader :trait_0012010 ;
     skos:definition "Eucalyptus, Corymbia or Angophora taxa with 'Peppermint' type bark."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "eucalypt_peppermint"@en .
+    skos:prefLabel "eucalypt peppermint"@en .
 
 :bark_morphology_eucalyptus_eucalypt_ribbonbark
     a skos:Concept ;
     skos:broader :trait_0012010 ;
     skos:definition "Eucalyptus, Corymbia or Angophora taxa with 'Gum' type bark that sheds in ribbons."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "eucalypt_ribbonbark"@en .
+    skos:prefLabel "eucalypt ribbonbark"@en .
 
 :bark_morphology_eucalyptus_eucalypt_stocking
     a skos:Concept ;
     skos:broader :trait_0012010 ;
     skos:definition "Eucalyptus, Corymbia or Angophora taxa with 'Gum' type bark above a rough barked stocking."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "eucalypt_stocking"@en .
+    skos:prefLabel "eucalypt stocking"@en .
 
 :bark_morphology_eucalyptus_eucalypt_stringybark
     a skos:Concept ;
     skos:broader :trait_0012010 ;
     skos:definition "Eucalyptus, Corymbia or Angophora taxa with 'Stringy' type bark."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "eucalypt_stringybark"@en .
+    skos:prefLabel "eucalypt stringybark"@en .
 
 :bark_photosynthetic_status_non_photosynthetic_bark
     a skos:Concept ;
     skos:broader :trait_0020222 ;
     skos:definition "Plant's bark is not photosynthetic."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "non_photosynthetic_bark"@en .
+    skos:prefLabel "non-photosynthetic bark"@en .
 
 :bark_photosynthetic_status_photosynthetic_bark
     a skos:Concept ;
     skos:broader :trait_0020222 ;
     skos:definition "Plant's bark is photosynthetic."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "photosynthetic_bark"@en .
+    skos:prefLabel "photosynthetic bark"@en .
 
 :bud_bank_location_apical_buds
     a skos:Concept ;
     skos:broader :trait_0030513 ;
     skos:definition "Plants resprout from above-ground apical meristems. Also termed a caudex. Term refers to palm-like plants with aerial buds that resprout, including grass trees, palms, tree ferns, and pandanus. (Synonym, aerial apical sprouter)"@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "apical_buds"@en .
+    skos:prefLabel "apical buds"@en .
 
 :bud_bank_location_basal_buds
     a skos:Concept ;
     skos:broader :trait_0030513 ;
     skos:definition "Plants resprout from its base, with buds originating from stem tissue (e.g. lignotuber) and root tissue (root crown) not distinguished between. Most buds designated as being basal are likely to be resprouts from a lignotuber, but this trait value is used if the dataset reported `basal buds` rather than `basal stem buds` or `lignotuber`."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "basal_buds"@en .
+    skos:prefLabel "basal buds"@en .
 
 :bud_bank_location_basal_stem_buds
     a skos:Concept ;
     skos:broader :trait_0030513 ;
     skos:definition "Plants resprout from the base of the stem. Australian plants with basal stem buds usually have a lignotuber, documented in the trait `storage_organ`. (Synonym, rootstock, lignotuberous resprouter)"@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "basal_stem_buds"@en .
+    skos:prefLabel "basal stem buds"@en .
 
 :bud_bank_location_bud-bearing_root
     a skos:Concept ;
     skos:broader :trait_0030513 ;
     skos:definition "Root buds produce vertical suckers (from root crown) or adventitious roots. (Synonyms, root-suckering resprouter, adventitious buds)"@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "bud-bearing_root"@en .
+    skos:prefLabel "bud-bearing root"@en .
 
 :bud_bank_location_epicormic_buds
     a skos:Concept ;
     skos:broader :trait_0030513 ;
     skos:definition "Plants resprout from the stem or trunk."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "epicormic_buds"@en .
+    skos:prefLabel "epicormic buds"@en .
 
 :bud_bank_location_fleshy_underground_organ
     a skos:Concept ;
     skos:broader :trait_0030513 ;
     skos:definition "Plants resprouts from buds on a fleshy underground organ that is a taproot tuber, bulb, corm, stem tuber, root tuber, or belowground caudex. (Synonym, geophyte)"@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "fleshy_underground_organ"@en .
+    skos:prefLabel "fleshy underground organ"@en .
 
 :bud_bank_location_none
     a skos:Concept ;
@@ -193,35 +193,35 @@ cs:
     skos:broader :trait_0030513 ;
     skos:definition "Plants resprout from buds on a fleshy rhizome, rhizophore, or fibrous rhizome."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "rhizome_non_woody"@en .
+    skos:prefLabel "rhizome non woody"@en .
 
 :bud_bank_location_rhizome_woody
     a skos:Concept ;
     skos:broader :trait_0030513 ;
     skos:definition "Plants resprout from buds on a woody rhizome."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "rhizome_woody"@en .
+    skos:prefLabel "rhizome woody"@en .
 
 :bud_bank_location_root_crown
     a skos:Concept ;
     skos:broader :trait_0030513 ;
     skos:definition "Plants resprout from the root crown, the root tissue at the root-stem transition."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "root_crown"@en .
+    skos:prefLabel "root crown"@en .
 
 :bud_bank_location_stem_buds
     a skos:Concept ;
     skos:broader :trait_0030513 ;
     skos:definition "Plants resprout from stem buds; this trait value is separate to epicormic buds. (Synonyms, aerial axillary resprouter)"@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "stem_buds"@en .
+    skos:prefLabel "stem buds"@en .
 
 :bud_bank_location_stem_tuber
     a skos:Concept ;
     skos:broader :trait_0030513 ;
     skos:definition "Plants resprout from buds on a stem tuber."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "stem_tuber"@en .
+    skos:prefLabel "stem tuber"@en .
 
 :bud_bank_location_stolon
     a skos:Concept ;
@@ -235,28 +235,28 @@ cs:
     skos:broader :trait_0030513 ;
     skos:definition "Plants that resprout from underground organ, but the type of organ isn't specified."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "underground_buds"@en .
+    skos:prefLabel "underground buds"@en .
 
 :clonal_spread_mechanism_aboveground_clonal
     a skos:Concept ;
     skos:broader :trait_0030511 ;
     skos:definition "Vegetative buds or plant fragments that can disperse and produce new plants (including axillary buds, bulbils and turions)."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "aboveground_clonal"@en .
+    skos:prefLabel "aboveground clonal"@en .
 
 :clonal_spread_mechanism_adventitious_roots
     a skos:Concept ;
     skos:broader :trait_0030511 ;
     skos:definition "Adventitious roots can form at nodes on the main roots or aboveground from nodes on stems."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "adventitious_roots"@en .
+    skos:prefLabel "adventitious roots"@en .
 
 :clonal_spread_mechanism_belowground_clonal
     a skos:Concept ;
     skos:broader :trait_0030511 ;
     skos:definition "Plants use an unspecified underground organ for clonal spread."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "belowground_clonal"@en .
+    skos:prefLabel "belowground clonal"@en .
 
 :clonal_spread_mechanism_bulb
     a skos:Concept ;
@@ -277,7 +277,7 @@ cs:
     skos:broader :trait_0030511 ;
     skos:definition "Plant does not display clonal growth."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "non_clonal"@en .
+    skos:prefLabel "non clonal"@en .
 
 :clonal_spread_mechanism_rhizome
     a skos:Concept ;
@@ -291,21 +291,21 @@ cs:
     skos:broader :trait_0030511 ;
     skos:definition "Root buds that produce vertical suckers."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "root_buds"@en .
+    skos:prefLabel "root buds"@en .
 
 :clonal_spread_mechanism_root_tuber
     a skos:Concept ;
     skos:broader :trait_0030511 ;
     skos:definition "A swollen root that functions as a storage organ and has buds that allow clonal growth."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "root_tuber"@en .
+    skos:prefLabel "root tuber"@en .
 
 :clonal_spread_mechanism_stem_tuber
     a skos:Concept ;
     skos:broader :trait_0030511 ;
     skos:definition "A swollen underground stem that functions as a storage organ and has buds that allow clonal growth."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "stem_tuber"@en .
+    skos:prefLabel "stem tuber"@en .
 
 :clonal_spread_mechanism_stolon
     a skos:Concept ;
@@ -340,7 +340,7 @@ cs:
     skos:broader :trait_0030026 ;
     skos:definition "Taxa that avoid competition with other strata by rapidly completing their life cycle after fire; a sub-category of 'ground'."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "post_fire_ephemeral"@en .
+    skos:prefLabel "post fire ephemeral"@en .
 
 :competitive_stratum_upper
     a skos:Concept ;
@@ -417,7 +417,7 @@ cs:
     skos:broader :trait_0012623 ;
     skos:definition "When the bracts below the inflorescence are persistent and functional as dispersal appendages. This includes persistent glumes, the modified membranous bracts in the family Poaceae that surround the spikelet of a grass."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "bracts_and_glumes"@en .
+    skos:prefLabel "bracts and glumes"@en .
 
 :dispersal_appendage_bristles
     a skos:Concept ;
@@ -438,28 +438,28 @@ cs:
     skos:broader :trait_0012623 ;
     skos:definition "Broad term that includes a suite of appendages that provides a fleshy reward to attract dispersers; highest level of resolution available for some studies."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "fleshy_reward"@en .
+    skos:prefLabel "fleshy reward"@en .
 
 :dispersal_appendage_floating_seed
     a skos:Concept ;
     skos:broader :trait_0012623 ;
     skos:definition "Seed that is dispersed by floating on water."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "floating_seed"@en .
+    skos:prefLabel "floating seed"@en .
 
 :dispersal_appendage_floral_parts
     a skos:Concept ;
     skos:broader :trait_0012623 ;
     skos:definition "When some plant floral parts (the petals, sepals, or style) are persistent and aid in seed and fruit dispersal. This is a broad term not explicitly suggesting a dispersal mechanism."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "floral_parts"@en .
+    skos:prefLabel "floral parts"@en .
 
 :dispersal_appendage_flotation_scales
     a skos:Concept ;
     skos:broader :trait_0012623 ;
     skos:definition "Scales enhancing flotation, thereby assisting with dispersal."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "flotation_scales"@en .
+    skos:prefLabel "flotation scales"@en .
 
 :dispersal_appendage_hairs
     a skos:Concept ;
@@ -480,7 +480,7 @@ cs:
     skos:broader :trait_0012623 ;
     skos:definition "When some part of the seed, fruit, or associated tissues is inflated, aiding in seed or fruit dispersal."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "inflated_parts"@en .
+    skos:prefLabel "inflated parts"@en .
 
 :dispersal_appendage_none
     a skos:Concept ;
@@ -536,7 +536,7 @@ cs:
     skos:broader :trait_0012623 ;
     skos:definition "Broad term that includes a suite of appendages that aid in wind dispersal; highest level of resolution available for some studies."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "wing_or_plume"@en .
+    skos:prefLabel "wing or plume"@en .
 
 :dispersal_appendage_wings
     a skos:Concept ;
@@ -725,28 +725,28 @@ cs:
     skos:broader :trait_0030212 ;
     skos:definition "Flying foxes are an important fruit dispersal agent."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "flying_foxes"@en .
+    skos:prefLabel "flying foxes"@en .
 
 :dispersers_flying_vertebrates
     a skos:Concept ;
     skos:broader :trait_0030212 ;
     skos:definition "Flying birds and bats are important fruit dispersal agents."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "flying_vertebrates"@en .
+    skos:prefLabel "flying vertebrates"@en .
 
 :dispersers_garden_refuse
     a skos:Concept ;
     skos:broader :trait_0030212 ;
     skos:definition "Fruit are dispersed through garden refuse."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "garden_refuse"@en .
+    skos:prefLabel "garden refuse"@en .
 
 :dispersers_indigenous_people
     a skos:Concept ;
     skos:broader :trait_0030212 ;
     skos:definition "Indigenous people disperse the fruit through traditional practices."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "indigenous_people"@en .
+    skos:prefLabel "indigenous people"@en .
 
 :dispersers_insects
     a skos:Concept ;
@@ -774,14 +774,14 @@ cs:
     skos:broader :trait_0030212 ;
     skos:definition "Domesticated ammals are an important fruit dispersal agent."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "mammals_domestic"@en .
+    skos:prefLabel "mammals domestic"@en .
 
 :dispersers_non-flying_vertebrates
     a skos:Concept ;
     skos:broader :trait_0030212 ;
     skos:definition "Mammals and non-flying birds (i.e. cassowary, emu) are important fruit dispersal agents."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "non-flying_vertebrates"@en .
+    skos:prefLabel "non-flying vertebrates"@en .
 
 :dispersers_passive
     a skos:Concept ;
@@ -830,7 +830,7 @@ cs:
     skos:broader :trait_0030212 ;
     skos:definition "Water currents are an important fruit dispersal agent; the diaspore may be either floating or submerged in fresh/saltwater currents."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "water_currents"@en .
+    skos:prefLabel "water currents"@en .
 
 :dispersers_wind
     a skos:Concept ;
@@ -858,35 +858,35 @@ cs:
     skos:broader :trait_0030651 ;
     skos:definition "Plants rarely or never experience fires because they are aquatic."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "aquatic_taxon"@en .
+    skos:prefLabel "aquatic taxon"@en .
 
 :fire_exposure_level_fire_avoidance_among_rocks
     a skos:Concept ;
     skos:broader :trait_0030651 ;
     skos:definition "Plants rarely experience fires because their habitat is restricted to rocky outcrops or rock pavement."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "fire_avoidance_among_rocks"@en .
+    skos:prefLabel "fire avoidance among rocks"@en .
 
 :fire_exposure_level_fire_avoidance_in_swamp
     a skos:Concept ;
     skos:broader :trait_0030651 ;
     skos:definition "Plants rarely experience fires because their habitat is usually saturated, but populations can be catastrophically impacted during severe droughts when the swamps dry out."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "fire_avoidance_in_swamp"@en .
+    skos:prefLabel "fire avoidance in swamp"@en .
 
 :fire_exposure_level_fire_avoidance_near_water
     a skos:Concept ;
     skos:broader :trait_0030651 ;
     skos:definition "Plants rarely or never experience fires because their habitat is close to a body of water."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "fire_avoidance_near_water"@en .
+    skos:prefLabel "fire avoidance near water"@en .
 
 :fire_exposure_level_seasonal_fire_avoidance
     a skos:Concept ;
     skos:broader :trait_0030651 ;
     skos:definition "Plants avoid fire by only have above-ground parts during seasons when fire is rare or absent, but populations can be catastrophically impacted if fire occurs during an atypical season."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "seasonal_fire_avoidance"@en .
+    skos:prefLabel "seasonal fire avoidance"@en .
 
 :flower_androecium_structural_phyllotaxis_irregular
     a skos:Concept ;
@@ -928,7 +928,7 @@ cs:
     skos:broader :trait_0012413 ;
     skos:definition "Filament attached to the dorsal side of the anther, at the base."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "dorsifixed_at_base"@en .
+    skos:prefLabel "dorsifixed at base"@en .
 
 :flower_anther_attachment_ventrifixed
     a skos:Concept ;
@@ -949,28 +949,28 @@ cs:
     skos:broader :trait_0012414 ;
     skos:definition "Connective extension more than a third but less than length of anther; e.g. Idiospermum australiense."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "long_extension"@en .
+    skos:prefLabel "long extension"@en .
 
 :flower_anther_connective_extension_present_general
     a skos:Concept ;
     skos:broader :trait_0012414 ;
     skos:definition "Apical connective extensions are present but no information on their length relative to the anthers."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "present_general"@en .
+    skos:prefLabel "present general"@en .
 
 :flower_anther_connective_extension_short_extension
     a skos:Concept ;
     skos:broader :trait_0012414 ;
     skos:definition "Connective extension less than a third of the length of anther."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "short_extension"@en .
+    skos:prefLabel "short extension"@en .
 
 :flower_anther_connective_extension_very_long_extension
     a skos:Concept ;
     skos:broader :trait_0012414 ;
     skos:definition "Connective extension more than length of anther; e.g. Galbulimima belgraveana."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "very_long_extension"@en .
+    skos:prefLabel "very long extension"@en .
 
 :flower_anther_dehiscence_circular
     a skos:Concept ;
@@ -984,35 +984,35 @@ cs:
     skos:broader :trait_0012415 ;
     skos:definition "The two thecae of a single anther are fused at one end with a single pore through which pollen exits."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "common_stomium_confluent_thecae"@en .
+    skos:prefLabel "common stomium confluent thecae"@en .
 
 :flower_anther_dehiscence_flap_valvate
     a skos:Concept ;
     skos:broader :trait_0012415 ;
     skos:definition "Anther with one or more flap-like valves on horizontal hinges, opening vertically."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "flap_valvate"@en .
+    skos:prefLabel "flap valvate"@en .
 
 :flower_anther_dehiscence_h_valvate
     a skos:Concept ;
     skos:broader :trait_0012415 ;
     skos:definition "Anther with two valves on longitudinal hinges, opening horizontally as salon doors; when the stomium bifurcates at its distal and/or proximal end and thus a valve is formed."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "h_valvate"@en .
+    skos:prefLabel "h valvate"@en .
 
 :flower_anther_dehiscence_longitudinal_slit
     a skos:Concept ;
     skos:broader :trait_0012415 ;
     skos:definition "Anther with longitudinal slits that extend along the entire length of each theca."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "longitudinal_slit"@en .
+    skos:prefLabel "longitudinal slit"@en .
 
 :flower_anther_dehiscence_pores_many
     a skos:Concept ;
     skos:broader :trait_0012415 ;
     skos:definition "Anther with pollen exiting from many pores along its length."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "pores_many"@en .
+    skos:prefLabel "pores many"@en .
 
 :flower_anther_dehiscence_poricidal
     a skos:Concept ;
@@ -1026,35 +1026,35 @@ cs:
     skos:broader :trait_0012415 ;
     skos:definition "Anther where dehiscence of longitudinal slits is incomplete and only occurs over a short extent at the apical end of the theca."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "short_apical_slits"@en .
+    skos:prefLabel "short apical slits"@en .
 
 :flower_anther_dehiscence_short_basal_slits
     a skos:Concept ;
     skos:broader :trait_0012415 ;
     skos:definition "Anther where dehiscence of longitudinal slits is incomplete and only occurs over a short extent at the base of the theca."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "short_basal_slits"@en .
+    skos:prefLabel "short basal slits"@en .
 
 :flower_anther_dehiscence_short_central_slits
     a skos:Concept ;
     skos:broader :trait_0012415 ;
     skos:definition "Anther where dehiscence of longitudinal slits is incomplete and only occurs over a short extent at the center of the theca."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "short_central_slits"@en .
+    skos:prefLabel "short central slits"@en .
 
 :flower_anther_dehiscence_t_valvate
     a skos:Concept ;
     skos:broader :trait_0012415 ;
     skos:definition "Anther with T-shaped stomium; reduced transverse slit at base."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "t_valvate"@en .
+    skos:prefLabel "t valvate"@en .
 
 :flower_anther_dehiscence_transverse_slit
     a skos:Concept ;
     skos:broader :trait_0012415 ;
     skos:definition "Anther with horizontal slit."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "transverse_slit"@en .
+    skos:prefLabel "transverse slit"@en .
 
 :flower_anther_orientation_apical
     a skos:Concept ;
@@ -1096,7 +1096,7 @@ cs:
     skos:broader :trait_0012417 ;
     skos:definition "Flower colour is blue or purple."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "blue_purple"@en .
+    skos:prefLabel "blue purple"@en .
 
 :flower_colour_green
     a skos:Concept ;
@@ -1124,21 +1124,21 @@ cs:
     skos:broader :trait_0012417 ;
     skos:definition "Flower colour is red or brown."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "red_brown"@en .
+    skos:prefLabel "red brown"@en .
 
 :flower_colour_white_cream
     a skos:Concept ;
     skos:broader :trait_0012417 ;
     skos:definition "Flower colour is white or cream."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "white_cream"@en .
+    skos:prefLabel "white cream"@en .
 
 :flower_colour_yellow_orange
     a skos:Concept ;
     skos:broader :trait_0012417 ;
     skos:definition "Flower colour is yellow or orange."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "yellow_orange"@en .
+    skos:prefLabel "yellow orange"@en .
 
 :flower_filament_absent
     a skos:Concept ;
@@ -1152,42 +1152,42 @@ cs:
     skos:broader :trait_0012432 ;
     skos:definition "Special case where the stamens are fused into the stalk of a fascicle of flowers."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "fused_into_fascicle_stalks"@en .
+    skos:prefLabel "fused into fascicle stalks"@en .
 
 :flower_filament_fused_into_synandrium
     a skos:Concept ;
     skos:broader :trait_0012432 ;
     skos:definition "Filament structure formed when stamens fused together."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "fused_into_synandrium"@en .
+    skos:prefLabel "fused into synandrium"@en .
 
 :flower_filament_long_and_narrow
     a skos:Concept ;
     skos:broader :trait_0012432 ;
     skos:definition "Filaments have a long and narrow shape. (Synonyms, filiform, slender)"@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "long_and_narrow"@en .
+    skos:prefLabel "long and narrow"@en .
 
 :flower_filament_long_and_narrow_divided_in_two
     a skos:Concept ;
     skos:broader :trait_0012432 ;
     skos:definition "Filaments have a long and narrow shape that is divided in two; e.g. Adoxa."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "long_and_narrow_divided_in_two"@en .
+    skos:prefLabel "long and narrow divided in two"@en .
 
 :flower_filament_long_and_very_wide
     a skos:Concept ;
     skos:broader :trait_0012432 ;
     skos:definition "Filaments have a long and very wide shape; for instance, the petal-like (outer) stamens of Nymphaea."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "long_and_very_wide"@en .
+    skos:prefLabel "long and very wide"@en .
 
 :flower_filament_long_and_wide
     a skos:Concept ;
     skos:broader :trait_0012432 ;
     skos:definition "Filaments have a long and wide laminar shape."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "long_and_wide"@en .
+    skos:prefLabel "long and wide"@en .
 
 :flower_filament_petaloid
     a skos:Concept ;
@@ -1201,35 +1201,35 @@ cs:
     skos:broader :trait_0012432 ;
     skos:definition "Filaments present, with no specific defining characteristics."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "present_general"@en .
+    skos:prefLabel "present general"@en .
 
 :flower_filament_short_and_narrow
     a skos:Concept ;
     skos:broader :trait_0012432 ;
     skos:definition "Filaments have a short and narrow shape; subsessile anthers."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "short_and_narrow"@en .
+    skos:prefLabel "short and narrow"@en .
 
 :flower_filament_short_and_wide
     a skos:Concept ;
     skos:broader :trait_0012432 ;
     skos:definition "Filaments have a short and wide laminar shape."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "short_and_wide"@en .
+    skos:prefLabel "short and wide"@en .
 
 :flower_filament_short_general
     a skos:Concept ;
     skos:broader :trait_0012432 ;
     skos:definition "Filament is short relative to the anther."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "short_general"@en .
+    skos:prefLabel "short general"@en .
 
 :flower_gynoecium_phyllotaxis_one_whorl
     a skos:Concept ;
     skos:broader :trait_0012441 ;
     skos:definition "Flowers with a single whorl of carpels."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "one_whorl"@en .
+    skos:prefLabel "one whorl"@en .
 
 :flower_gynoecium_phyllotaxis_spiral
     a skos:Concept ;
@@ -1243,7 +1243,7 @@ cs:
     skos:broader :trait_0012441 ;
     skos:definition "Flowers with two or more whorls of carpels."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "two_or_more_whorls"@en .
+    skos:prefLabel "two or more whorls"@en .
 
 :flower_gynoecium_placentation_apical
     a skos:Concept ;
@@ -1271,7 +1271,7 @@ cs:
     skos:broader :trait_0012442 ;
     skos:definition "Ovules are attached to a central column that emerges from the base of the ovary and protrudes into the non-septate ovary; in syncarpous gynoecia."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "free_central"@en .
+    skos:prefLabel "free central"@en .
 
 :flower_gynoecium_placentation_laminar
     a skos:Concept ;
@@ -1327,7 +1327,7 @@ cs:
     skos:broader :trait_0012444 ;
     skos:definition "Flower where the receptacle is surrounded by the ovary to its mid-level."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "half_inferior"@en .
+    skos:prefLabel "half inferior"@en .
 
 :flower_ovary_position_inferior
     a skos:Concept ;
@@ -1341,7 +1341,7 @@ cs:
     skos:broader :trait_0012444 ;
     skos:definition "Flower where the receptacle surrounds up to one quarter of the ovary."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "one_quarter_inferior"@en .
+    skos:prefLabel "one quarter inferior"@en .
 
 :flower_ovary_position_superior
     a skos:Concept ;
@@ -1355,56 +1355,56 @@ cs:
     skos:broader :trait_0012444 ;
     skos:definition "Flower where the receptacle surrounds more than three quarters of the ovary."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "three_quarters_inferior"@en .
+    skos:prefLabel "three quarters inferior"@en .
 
 :flower_perianth_differentiation_continuous_differentiation_among_petaloid_tepals
     a skos:Concept ;
     skos:broader :trait_0012461 ;
     skos:definition "A flower with series of tepals that all resemble petals, which display continuous, gradual differentiation between whorls."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "continuous_differentiation_among_petaloid_tepals"@en .
+    skos:prefLabel "continuous differentiation among petaloid tepals"@en .
 
 :flower_perianth_differentiation_continuous_differentiation_among_sepaloid_tepals
     a skos:Concept ;
     skos:broader :trait_0012461 ;
     skos:definition "A flower with series of tepals that all resemble sepals, which display continuous, gradual differentiation between whorls."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "continuous_differentiation_among_sepaloid_tepals"@en .
+    skos:prefLabel "continuous differentiation among sepaloid tepals"@en .
 
 :flower_perianth_differentiation_continuous_differentiation_outer_sepaloid_inner_petaloid
     a skos:Concept ;
     skos:broader :trait_0012461 ;
     skos:definition "A flower with multiple whorls, where there is continuous differentiation between the outer sepaloid parts and the inner petaloid parts."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "continuous_differentiation_outer_sepaloid_inner_petaloid"@en .
+    skos:prefLabel "continuous differentiation outer sepaloid inner petaloid"@en .
 
 :flower_perianth_differentiation_marked_differentiation
     a skos:Concept ;
     skos:broader :trait_0012461 ;
     skos:definition "A flower with marked differentiation between whorls, but without an indication if the perianth whorls are petals, sepals, or tepals."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "marked_differentiation"@en .
+    skos:prefLabel "marked differentiation"@en .
 
 :flower_perianth_differentiation_marked_differentiation_among_petaloid_tepals
     a skos:Concept ;
     skos:broader :trait_0012461 ;
     skos:definition "A flower with tepals that all resemble petals, but with marked differentiation between whorls of tepals."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "marked_differentiation_among_petaloid_tepals"@en .
+    skos:prefLabel "marked differentiation among petaloid tepals"@en .
 
 :flower_perianth_differentiation_marked_differentiation_among_sepaloid_tepals
     a skos:Concept ;
     skos:broader :trait_0012461 ;
     skos:definition "A flower with tepals that all resemble sepals, but with marked differentiation between whorls of tepals."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "marked_differentiation_among_sepaloid_tepals"@en .
+    skos:prefLabel "marked differentiation among sepaloid tepals"@en .
 
 :flower_perianth_differentiation_marked_differentiation_outer_sepaloid_inner_petaloid
     a skos:Concept ;
     skos:broader :trait_0012461 ;
     skos:definition "A typical flower with a distinct calyx and corolla."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "marked_differentiation_outer_sepaloid_inner_petaloid"@en .
+    skos:prefLabel "marked differentiation outer sepaloid inner petaloid"@en .
 
 :flower_perianth_differentiation_undifferentiated
     a skos:Concept ;
@@ -1418,14 +1418,14 @@ cs:
     skos:broader :trait_0012461 ;
     skos:definition "A flower with very weak between whorls, but without an indication if the perianth whorls are petals, sepals, or tepals."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "very_weak_differentiation"@en .
+    skos:prefLabel "very weak differentiation"@en .
 
 :flower_perianth_differentiation_weak_differentiation
     a skos:Concept ;
     skos:broader :trait_0012461 ;
     skos:definition "A flower with weak between whorls, but without an indication if the perianth whorls are petals, sepals, or tepals."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "weak_differentiation"@en .
+    skos:prefLabel "weak differentiation"@en .
 
 :flower_perianth_phyllotaxis_irregular
     a skos:Concept ;
@@ -1453,28 +1453,28 @@ cs:
     skos:broader :trait_0012466 ;
     skos:definition "Perianth displaying radial symmetry."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "actinomorphic_general"@en .
+    skos:prefLabel "actinomorphic general"@en .
 
 :flower_perianth_symmetry_actinomorphic_rotational
     a skos:Concept ;
     skos:broader :trait_0012466 ;
     skos:definition "Perianth that can be equally divided into three or more identical sections that, when rotated around the center of the flower by some number of degrees, exactly match each other in orientation and shape."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "actinomorphic_rotational"@en .
+    skos:prefLabel "actinomorphic rotational"@en .
 
 :flower_perianth_symmetry_actinomorphic_spiral
     a skos:Concept ;
     skos:broader :trait_0012466 ;
     skos:definition "Perianth lacking a distinct plane of symmetry because their perianth parts are spirally arranged."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "actinomorphic_spiral"@en .
+    skos:prefLabel "actinomorphic spiral"@en .
 
 :flower_perianth_symmetry_actinomorphic_strictly_polysymmetric
     a skos:Concept ;
     skos:broader :trait_0012466 ;
     skos:definition "Polysymmetry, with three or more planes of bilateral symmetry."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "actinomorphic_strictly_polysymmetric"@en .
+    skos:prefLabel "actinomorphic strictly polysymmetric"@en .
 
 :flower_perianth_symmetry_asymmetric
     a skos:Concept ;
@@ -1530,7 +1530,7 @@ cs:
     skos:broader :trait_0012471 ;
     skos:definition "Aperture that completely encircles the pollen."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "ring_like"@en .
+    skos:prefLabel "ring like"@en .
 
 :flower_pollen_aperture_shape_spiraperturate
     a skos:Concept ;
@@ -1572,7 +1572,7 @@ cs:
     skos:broader :trait_0012482 ;
     skos:definition "Male flowers with pistillodes and/or female flowers with staminodes."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "incompletely_unisexual"@en .
+    skos:prefLabel "incompletely unisexual"@en .
 
 :flower_structural_sex_type_unisexual
     a skos:Concept ;
@@ -1600,42 +1600,42 @@ cs:
     skos:broader :trait_0012483 ;
     skos:definition "Style present but shape unknown."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "present_length_and_shape_unknown"@en .
+    skos:prefLabel "present length and shape unknown"@en .
 
 :flower_style_differentiation_present_long_and_narrow
     a skos:Concept ;
     skos:broader :trait_0012483 ;
     skos:definition "Style present, and long and narrow, including long filiform styles."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "present_long_and_narrow"@en .
+    skos:prefLabel "present long and narrow"@en .
 
 :flower_style_differentiation_present_long_and_wide
     a skos:Concept ;
     skos:broader :trait_0012483 ;
     skos:definition "Style present, and long and wide."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "present_long_and_wide"@en .
+    skos:prefLabel "present long and wide"@en .
 
 :flower_style_differentiation_present_petaloid
     a skos:Concept ;
     skos:broader :trait_0012483 ;
     skos:definition "Style present and petaloid."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "present_petaloid"@en .
+    skos:prefLabel "present petaloid"@en .
 
 :flower_style_differentiation_present_short_and_narrow
     a skos:Concept ;
     skos:broader :trait_0012483 ;
     skos:definition "Style present, and short and narrow, including short filiform styles."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "present_short_and_narrow"@en .
+    skos:prefLabel "present short and narrow"@en .
 
 :flower_style_differentiation_present_short_and_thick
     a skos:Concept ;
     skos:broader :trait_0012483 ;
     skos:definition "Style present, and short and thick."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "present_short_and_thick"@en .
+    skos:prefLabel "present short and thick"@en .
 
 :flowering_cues_fire
     a skos:Concept ;
@@ -1663,42 +1663,42 @@ cs:
     skos:broader :trait_0030213 ;
     skos:definition "Plants increase flowering in response to rain at any time of the year."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "rain_all_year"@en .
+    skos:prefLabel "rain all year"@en .
 
 :flowering_cues_rain_autumn
     a skos:Concept ;
     skos:broader :trait_0030213 ;
     skos:definition "Plants increase flowering in response to autumn rains."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "rain_autumn"@en .
+    skos:prefLabel "rain autumn"@en .
 
 :flowering_cues_rain_obligate
     a skos:Concept ;
     skos:broader :trait_0030213 ;
     skos:definition "Plants only flower following rain events."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "rain_obligate"@en .
+    skos:prefLabel "rain obligate"@en .
 
 :flowering_cues_rain_spring
     a skos:Concept ;
     skos:broader :trait_0030213 ;
     skos:definition "Plants increase flowering in response to spring rains."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "rain_spring"@en .
+    skos:prefLabel "rain spring"@en .
 
 :flowering_cues_rain_summer
     a skos:Concept ;
     skos:broader :trait_0030213 ;
     skos:definition "Plants increase flowering in response to summer rains."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "rain_summer"@en .
+    skos:prefLabel "rain summer"@en .
 
 :flowering_cues_rain_winter
     a skos:Concept ;
     skos:broader :trait_0030213 ;
     skos:definition "Plants increase flowering in response to winter rains."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "rain_winter"@en .
+    skos:prefLabel "rain winter"@en .
 
 :fruit_colour_black
     a skos:Concept ;
@@ -1852,7 +1852,7 @@ cs:
     skos:broader :trait_0012516 ;
     skos:definition "A fruit derived from more than one flower. (Synonyms, aggregate_fruit)"@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "compound_fruit_other"@en .
+    skos:prefLabel "compound fruit other"@en .
 
 :fruit_type_drupe
     a skos:Concept ;
@@ -1880,7 +1880,7 @@ cs:
     skos:broader :trait_0012516 ;
     skos:definition "A dry, indehiscent fruit derived from a single carpel; applies to Fabaceae."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "legume_indehiscent"@en .
+    skos:prefLabel "legume indehiscent"@en .
 
 :fruit_type_mericarp
     a skos:Concept ;
@@ -1894,7 +1894,7 @@ cs:
     skos:broader :trait_0012516 ;
     skos:definition "A fruit composed of several fruitlets developing from a single flower (e.g. raspberries, magnolias); fruits developing from more than one flower are included under compound (aggregate) fruits. (Synonym, apocarp)"@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "multiple_fruit"@en .
+    skos:prefLabel "multiple fruit"@en .
 
 :fruit_type_nut
     a skos:Concept ;
@@ -1992,7 +1992,7 @@ cs:
     skos:broader :trait_0011411 ;
     skos:definition "When leaves are clustered or crowded to the base of the stem, arranged in a rosette or other basal clustering. (Synonym, rosette)"@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "clustered_basal"@en .
+    skos:prefLabel "clustered basal"@en .
 
 :leaf_arrangement_crowded
     a skos:Concept ;
@@ -2160,7 +2160,7 @@ cs:
     skos:broader :trait_0011360 ;
     skos:definition "Mature (fully expanded) leaves on adult plants do not have a glaucous appearance."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "not_glaucous"@en .
+    skos:prefLabel "not glaucous"@en .
 
 :leaf_hairs_adult_leaves_glabrous
     a skos:Concept ;
@@ -2244,35 +2244,35 @@ cs:
     skos:broader :trait_0011317 ;
     skos:definition "Leaf divided repeatedly into two lobes."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "dichotomously_lobed"@en .
+    skos:prefLabel "dichotomously lobed"@en .
 
 :leaf_lamina_division_palmately_compound
     a skos:Concept ;
     skos:broader :trait_0011317 ;
     skos:definition "Leaf divided into leaflets that attach to a central point. (Synonyms, digitate)"@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "palmately_compound"@en .
+    skos:prefLabel "palmately compound"@en .
 
 :leaf_lamina_division_palmately_lobed
     a skos:Concept ;
     skos:broader :trait_0011317 ;
     skos:definition "Leaf with divisions that radiate from a single point, usually the basal junction of major veins."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "palmately_lobed"@en .
+    skos:prefLabel "palmately lobed"@en .
 
 :leaf_lamina_division_pinnately_compound
     a skos:Concept ;
     skos:broader :trait_0011317 ;
     skos:definition "Leaf divided into leaflets that attach along a central axis. [PATO_0000410]"@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "pinnately_compound"@en .
+    skos:prefLabel "pinnately compound"@en .
 
 :leaf_lamina_division_pinnately_lobed
     a skos:Concept ;
     skos:broader :trait_0011317 ;
     skos:definition "Leaf with divisions that are symmetrical across a central axis, usually the midvein."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "pinnately_lobed"@en .
+    skos:prefLabel "pinnately lobed"@en .
 
 :leaf_lamina_division_pinnatifid
     a skos:Concept ;
@@ -2300,7 +2300,7 @@ cs:
     skos:broader :trait_0011317 ;
     skos:definition "Leaf divided repeatedly into three lobes."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "trichotomously_lobed"@en .
+    skos:prefLabel "trichotomously lobed"@en .
 
 :leaf_lamina_division_trifoliate
     a skos:Concept ;
@@ -2412,14 +2412,14 @@ cs:
     skos:broader :trait_0011315 ;
     skos:definition "Leaf margin with lobes that extend more than halfway to the midrib. (Synonyms, parted, divided)"@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "lobed_deep"@en .
+    skos:prefLabel "lobed deep"@en .
 
 :leaf_lobation_lobed_shallow
     a skos:Concept ;
     skos:broader :trait_0011315 ;
     skos:definition "Leaf margin with lobes that extend less than halfway to the midrib. (Synonyms, cleft, sinuate)"@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "lobed_shallow"@en .
+    skos:prefLabel "lobed shallow"@en .
 
 :leaf_lobation_unlobed
     a skos:Concept ;
@@ -2475,28 +2475,28 @@ cs:
     skos:broader :trait_0011313 ;
     skos:definition "Type of toothed leaf margin with teeth that are rounded or obtuse, rather than having a sharp apex. [PO:0025519]"@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "toothed_crenate"@en .
+    skos:prefLabel "toothed crenate"@en .
 
 :leaf_margin_toothed_dentate
     a skos:Concept ;
     skos:broader :trait_0011313 ;
     skos:definition "Type of toothed leaf margin with sharp teeth that point outwards at right angles to the leaf margin."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "toothed_dentate"@en .
+    skos:prefLabel "toothed dentate"@en .
 
 :leaf_margin_toothed_serrate
     a skos:Concept ;
     skos:broader :trait_0011313 ;
     skos:definition "Type of toothed leaf margin with sharp teeth that are angled toward the tip of the leaf. (Synonyms, saw-toothed)"@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "toothed_serrate"@en .
+    skos:prefLabel "toothed serrate"@en .
 
 :leaf_pendulousness_not_pendulous
     a skos:Concept ;
     skos:broader :trait_0011414 ;
     skos:definition "Leaves are not pendulous."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "not_pendulous"@en .
+    skos:prefLabel "not pendulous"@en .
 
 :leaf_pendulousness_pendulous
     a skos:Concept ;
@@ -2510,14 +2510,14 @@ cs:
     skos:broader :trait_0030024 ;
     skos:definition "Plant briefly loses its entire leaf canopy but flushes a new leaf canopy almost simultaneously to leaf loss."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "brevi_deciduous"@en .
+    skos:prefLabel "brevi deciduous"@en .
 
 :leaf_phenology_cold_deciduous
     a skos:Concept ;
     skos:broader :trait_0030024 ;
     skos:definition "Plant loses its entire leaf canopy for part of the year, in response to cold."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "cold_deciduous"@en .
+    skos:prefLabel "cold deciduous"@en .
 
 :leaf_phenology_deciduous
     a skos:Concept ;
@@ -2531,7 +2531,7 @@ cs:
     skos:broader :trait_0030024 ;
     skos:definition "Plant loses its entire leaf canopy for part of the year, in response to drought."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "drought_deciduous"@en .
+    skos:prefLabel "drought deciduous"@en .
 
 :leaf_phenology_evergreen
     a skos:Concept ;
@@ -2545,14 +2545,14 @@ cs:
     skos:broader :trait_0030024 ;
     skos:definition "Plant sometimes loses its leaf canopy for part of the year, in response to drought."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "facultative_drought_deciduous"@en .
+    skos:prefLabel "facultative drought deciduous"@en .
 
 :leaf_phenology_semi_deciduous
     a skos:Concept ;
     skos:broader :trait_0030024 ;
     skos:definition "Plant thins, but does not entirely lose, its leaf canopy in response to an environmental cue, usually drought."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "semi_deciduous"@en .
+    skos:prefLabel "semi deciduous"@en .
 
 :leaf_phyllotaxis_alternate
     a skos:Concept ;
@@ -2643,70 +2643,70 @@ cs:
     skos:broader :trait_0011311 ;
     skos:definition "A 2-dimensional shape that is a very narrow oval, with curved margins, lacking a distinct point, and a length:width ratio between 12:1 and 6:1."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "linear_elliptical"@en .
+    skos:prefLabel "linear elliptical"@en .
 
 :leaf_shape_narrowly_elliptical
     a skos:Concept ;
     skos:broader :trait_0011311 ;
     skos:definition "A 2-dimensional shape that is a narrow oval, with curved margins, lacking a distinct point, and a length:width ratio between 6:1 and 3:1."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "narrowly_elliptical"@en .
+    skos:prefLabel "narrowly elliptical"@en .
 
 :leaf_shape_narrowly_lanceolate
     a skos:Concept ;
     skos:broader :trait_0011311 ;
     skos:definition "A 2-dimensional shape that is very narrowly egg-shaped or teardrop-shaped, with a length:width ratio between 12:1 and 6:1. The petiole attaches near the wide, curved portion of the leaf lamina."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "narrowly_lanceolate"@en .
+    skos:prefLabel "narrowly lanceolate"@en .
 
 :leaf_shape_narrowly_oblanceolate
     a skos:Concept ;
     skos:broader :trait_0011311 ;
     skos:definition "A 2-dimensional shape that is very narrowly teardrop-shaped, with a length:width ratio between 12:1 and 6:1. The leaf lamina has curved outer margins and narrows nearly to a point where it attaches to the petiole. (Synonyms, linear_oblanceolate)"@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "narrowly_oblanceolate"@en .
+    skos:prefLabel "narrowly oblanceolate"@en .
 
 :leaf_shape_narrowly_oblong
     a skos:Concept ;
     skos:broader :trait_0011311 ;
     skos:definition "A 2-dimensional shape that is long and narrow, has parallel sides and a length:width ratio between 6:1 and 3:1. (Synonyms, lorate)"@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "narrowly_oblong"@en .
+    skos:prefLabel "narrowly oblong"@en .
 
 :leaf_shape_narrowly_obovate
     a skos:Concept ;
     skos:broader :trait_0011311 ;
     skos:definition "A 2-dimensional shape that is narrowly egg-shaped or teardrop-shaped with a length:width ratio between 3:1 and 2:1. The leaf lamina has curved outer margins and narrows nearly to a point where it attaches to the petiole. (Synonyms, oblance-obovate)"@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "narrowly_obovate"@en .
+    skos:prefLabel "narrowly obovate"@en .
 
 :leaf_shape_narrowly_obtrullate
     a skos:Concept ;
     skos:broader :trait_0011311 ;
     skos:definition "A 2-dimensional shape that is narrowly parallelogram-shaped, widest near the tip, and with a length:width ratio 3:1 to 6:1."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "narrowly_obtrullate"@en .
+    skos:prefLabel "narrowly obtrullate"@en .
 
 :leaf_shape_narrowly_ovate
     a skos:Concept ;
     skos:broader :trait_0011311 ;
     skos:definition "A 2-dimensional shape that is narrowly egg-shaped, with a length:width ratio between 3:1 and 2:1. The petiole attaches near the wide, curved portion of the leaf lamina. (Synonyms, lance_ovate, widely_lanceolate)"@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "narrowly_ovate"@en .
+    skos:prefLabel "narrowly ovate"@en .
 
 :leaf_shape_narrowly_rhomboidal
     a skos:Concept ;
     skos:broader :trait_0011311 ;
     skos:definition "A 2-dimensional shape that is like a narrow diamond, with approximately straight edges, widest near the middle, and a length:width ratio 6:1 to 3:1. The petiole attaches near one of the points."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "narrowly_rhomboidal"@en .
+    skos:prefLabel "narrowly rhomboidal"@en .
 
 :leaf_shape_narrowly_triangular
     a skos:Concept ;
     skos:broader :trait_0011311 ;
     skos:definition "A 2-dimensional shape that is narrowly triangular to wedge-shaped, with a length:width ratio 6:1 to 3:1 and the petiole attaching near the widest portion of the leaf. (Synonyms, triangular)"@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "narrowly_triangular"@en .
+    skos:prefLabel "narrowly triangular"@en .
 
 :leaf_shape_obcordate
     a skos:Concept ;
@@ -2839,28 +2839,28 @@ cs:
     skos:broader :trait_0011311 ;
     skos:definition "A 2-dimensional shape that is a broad oval, with curved margins, lacking a distinct point, and a length:width ratio of approximately 6:5."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "widely_elliptical"@en .
+    skos:prefLabel "widely elliptical"@en .
 
 :leaf_shape_widely_obovate
     a skos:Concept ;
     skos:broader :trait_0011311 ;
     skos:definition "A 2-dimensional shape that is broadly egg-shaped with a length:width ratio of approximately 6:5. The leaf lamina has curved outer margins and narrows nearly to a point where it attaches to the petiole."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "widely_obovate"@en .
+    skos:prefLabel "widely obovate"@en .
 
 :leaf_shape_widely_obtrullate
     a skos:Concept ;
     skos:broader :trait_0011311 ;
     skos:definition "A 2-dimensional shape that is broadly parallelogram-shaped, widest near the tip, and with a length:width ratio of approximately 6:5."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "widely_obtrullate"@en .
+    skos:prefLabel "widely obtrullate"@en .
 
 :leaf_shape_widely_ovate
     a skos:Concept ;
     skos:broader :trait_0011311 ;
     skos:definition "A 2-dimensional shape that is broadly egg-shaped with a length:width ratio of approximately 6:5. The petiole attaches near the wide, curved portion of the leaf lamina."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "widely_ovate"@en .
+    skos:prefLabel "widely ovate"@en .
 
 :leaf_stomatal_distribution_amphistomatic
     a skos:Concept ;
@@ -2874,7 +2874,7 @@ cs:
     skos:broader :trait_0011613 ;
     skos:definition "Leaves with stomata on both leaf surfaces but more stomata on the lower leaf surface."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "amphistomatic_uneven"@en .
+    skos:prefLabel "amphistomatic uneven"@en .
 
 :leaf_stomatal_distribution_epistomatic
     a skos:Concept ;
@@ -2895,14 +2895,14 @@ cs:
     skos:broader :trait_0011614 ;
     skos:definition "Stomata densely covered by hairs."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "stomata_covered_with_dense_hairs"@en .
+    skos:prefLabel "stomata covered with dense hairs"@en .
 
 :leaf_stomatal_hairs_stomata_not_covered_by_hairs
     a skos:Concept ;
     skos:broader :trait_0011614 ;
     skos:definition "Stomata not hair-covered."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "stomata_not_covered_by_hairs"@en .
+    skos:prefLabel "stomata not covered by hairs"@en .
 
 :leaf_type_broadleaf
     a skos:Concept ;
@@ -3028,35 +3028,35 @@ cs:
     skos:broader :trait_0030013 ;
     skos:definition "Ephemeral plant the germinates and establishes following disturbance, but the type of disturbance is not specified."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "disturbance_ephemeral"@en .
+    skos:prefLabel "disturbance ephemeral"@en .
 
 :life_history_ephemeral_class_fire_ephemeral
     a skos:Concept ;
     skos:broader :trait_0030013 ;
     skos:definition "Ephemeral plant that germinates and establishes following fire, where it is unknown if the plant is an obligate or facultative fire ephemeral."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "fire_ephemeral"@en .
+    skos:prefLabel "fire ephemeral"@en .
 
 :life_history_ephemeral_class_fire_ephemeral_facultative
     a skos:Concept ;
     skos:broader :trait_0030013 ;
     skos:definition "Ephemeral plant that increases its germination and establishment following fire, but can also germinate and establish without fire."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "fire_ephemeral_facultative"@en .
+    skos:prefLabel "fire ephemeral facultative"@en .
 
 :life_history_ephemeral_class_fire_ephemeral_obligate
     a skos:Concept ;
     skos:broader :trait_0030013 ;
     skos:definition "Ephemeral plant that only germinates and establishes following fire."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "fire_ephemeral_obligate"@en .
+    skos:prefLabel "fire ephemeral obligate"@en .
 
 :life_history_ephemeral_class_rain_ephemeral
     a skos:Concept ;
     skos:broader :trait_0030013 ;
     skos:definition "Ephemeral plant that germinates and establishes following rain or flood events."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "rain_ephemeral"@en .
+    skos:prefLabel "rain ephemeral"@en .
 
 :life_history_perennial
     a skos:Concept ;
@@ -3070,21 +3070,21 @@ cs:
     skos:broader :trait_0030012 ;
     skos:definition "A perennial whose lifespan is less than approximately five years, with the exact lifespan generally dependent on environmental conditions."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "short_lived_perennial"@en .
+    skos:prefLabel "short lived perennial"@en .
 
 :nitrogen_fixing_nitrogen_fixer
     a skos:Concept ;
     skos:broader :trait_0030027 ;
     skos:definition "Plant hosts nitrogen-fixing microbes in root nodules."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "nitrogen_fixer"@en .
+    skos:prefLabel "nitrogen fixer"@en .
 
 :nitrogen_fixing_non_nitrogen_fixer
     a skos:Concept ;
     skos:broader :trait_0030027 ;
     skos:definition "Plant does not host nitrogen-fixing microbes."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "non_nitrogen_fixer"@en .
+    skos:prefLabel "non nitrogen fixer"@en .
 
 :parasitic_hemiparasitic
     a skos:Concept ;
@@ -3098,14 +3098,14 @@ cs:
     skos:broader :trait_0030029 ;
     skos:definition "Plant that is photosynthetic and can grow and reproduce without a host but augments its energy, mineral nutrition, and /or water supply through parasitism."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "hemiparasitic_facultative"@en .
+    skos:prefLabel "hemiparasitic facultative"@en .
 
 :parasitic_hemiparasitic_obligate
     a skos:Concept ;
     skos:broader :trait_0030029 ;
     skos:definition "Plant that is photosynthetic but requires a host for at least part of its life cycle."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "hemiparasitic_obligate"@en .
+    skos:prefLabel "hemiparasitic obligate"@en .
 
 :parasitic_holoparasitic
     a skos:Concept ;
@@ -3119,7 +3119,7 @@ cs:
     skos:broader :trait_0030029 ;
     skos:definition "In the context of this trait, a plant that does not acquire energy, mineral nutrition, and/or water via haustoria connected to another plant. It can include species that form a symbiosis, including a parasitic interaction, with a fungal partner."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "not_parasitic"@en .
+    skos:prefLabel "not parasitic"@en .
 
 :parasitic_parasitic
     a skos:Concept ;
@@ -3133,14 +3133,14 @@ cs:
     skos:broader :trait_0030029 ;
     skos:definition "Parasitic plant whose haustoria penetrate the root of a host plant."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "root_parasitic"@en .
+    skos:prefLabel "root parasitic"@en .
 
 :parasitic_stem_parasitic
     a skos:Concept ;
     skos:broader :trait_0030029 ;
     skos:definition "Parasitic plant whose haustoria penetrate the stem of a host plant."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "stem_parasitic"@en .
+    skos:prefLabel "stem parasitic"@en .
 
 :perianth_colour_black
     a skos:Concept ;
@@ -3266,7 +3266,7 @@ cs:
     skos:broader :trait_0020221 ;
     skos:definition "Species that shifts between C3 and CAM photosynthesis depending on water availability."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "facultative_cam"@en .
+    skos:prefLabel "facultative cam"@en .
 
 :photosynthetic_pathway_unknown
     a skos:Concept ;
@@ -3287,7 +3287,7 @@ cs:
     skos:broader :trait_0030017 ;
     skos:definition "Plant that uses a specialised root structure, such as cluster roots, to mine nutrients inaccessible to other plant taxa."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "nutrient_mining"@en .
+    skos:prefLabel "nutrient mining"@en .
 
 :plant_alternative_energy_and_nutrient_acquisition_strategy_saprophyte
     a skos:Concept ;
@@ -3301,7 +3301,7 @@ cs:
     skos:broader :trait_0030021 ;
     skos:definition "Roots arising from stem nodes which cling to a host plant."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "adventitious_roots"@en .
+    skos:prefLabel "adventitious roots"@en .
 
 :plant_climbing_mechanism_hooks
     a skos:Concept ;
@@ -3350,28 +3350,28 @@ cs:
     skos:broader :trait_0030811 ;
     skos:definition "Species which germinate in flooded conditions, grow in both flooded and damp conditions, reproduce above the surface of the water, and which have floating leaves when inundated. (Species with floating leaves; ARf)"@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "amphibious_fluctuation_responders_floating"@en .
+    skos:prefLabel "amphibious fluctuation responders floating"@en .
 
 :plant_flood_regime_classification_amphibious_fluctuation_responders_plastic
     a skos:Concept ;
     skos:broader :trait_0030811 ;
     skos:definition "Species which germinate in flooded conditions, grow in both flooded and damp conditions, reproduce above the surface of the water, and which have morphological plasticity (e.g. heterophylly) in response to water-level variation. (Morphologically plastic species; ARp)"@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "amphibious_fluctuation_responders_plastic"@en .
+    skos:prefLabel "amphibious fluctuation responders plastic"@en .
 
 :plant_flood_regime_classification_amphibious_fluctuation_tolerators_emergent
     a skos:Concept ;
     skos:broader :trait_0030811 ;
     skos:definition "Species which germinate in damp or flooded conditions, which tolerate variation in water level, and which grow with their basal portions under water and reproduce out of water. (Emergent species; ATe)"@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "amphibious_fluctuation_tolerators_emergent"@en .
+    skos:prefLabel "amphibious fluctuation tolerators emergent"@en .
 
 :plant_flood_regime_classification_amphibious_fluctuation_tolerators_low
     a skos:Concept ;
     skos:broader :trait_0030811 ;
     skos:definition "Species which germinate in damp or flooded conditions, which tolerate variation in water level, which are low-growing and tolerate complete submersion when water-levels rise. (Low-growing species; ATl)"@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "amphibious_fluctuation_tolerators_low"@en .
+    skos:prefLabel "amphibious fluctuation tolerators low"@en .
 
 :plant_flood_regime_classification_submerged
     a skos:Concept ;
@@ -3385,21 +3385,21 @@ cs:
     skos:broader :trait_0030811 ;
     skos:definition "Species which germinate, grow and reproduce on saturated soil. (Damp species; Tda)"@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "terrestrial_damp"@en .
+    skos:prefLabel "terrestrial damp"@en .
 
 :plant_flood_regime_classification_terrestrial_dry
     a skos:Concept ;
     skos:broader :trait_0030811 ;
     skos:definition "Species which germinate, grow and reproduce where there is no surface water and the water table is below the soil surface. (Dry species; Tdr)"@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "terrestrial_dry"@en .
+    skos:prefLabel "terrestrial dry"@en .
 
 :plant_growth_form_basal_large
     a skos:Concept ;
     skos:broader :trait_0030010 ;
     skos:definition "A plant whose leaves form a distinctly large basal tuft or rosette, including large acaulescent monocots and cycads."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "basal_large"@en .
+    skos:prefLabel "basal large"@en .
 
 :plant_growth_form_climber
     a skos:Concept ;
@@ -3413,14 +3413,14 @@ cs:
     skos:broader :trait_0030010 ;
     skos:definition "Herbaceous plant that climbs up another plant's stem or branches, rather than being able to support itself. This is usually synonymous with `vine`. Types of climbers (scrambling, twining) are captured under the trait `plant_climbing_mechanism`. (Synonyms, vine)"@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "climber_herbaceous"@en .
+    skos:prefLabel "climber herbaceous"@en .
 
 :plant_growth_form_climber_woody
     a skos:Concept ;
     skos:broader :trait_0030010 ;
     skos:definition "Woody or thick-stemmed (>2 cm) plant that climbs up another plant's stem or branches, rather than being able to support itself. This is usually synonymous with `liana`. Woody climbers generally use hooks, tendrils, and/or adventitious roots to climb; the climbing mechanisms used by a taxon are captured under the trait `plant_climbing_mechanism`. (Synonyms, liana)"@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "climber_woody"@en .
+    skos:prefLabel "climber woody"@en .
 
 :plant_growth_form_fern
     a skos:Concept ;
@@ -3448,7 +3448,7 @@ cs:
     skos:broader :trait_0030010 ;
     skos:definition "A subcategory of graminoid, indicating a plant which explicitly lacks a tussock morphology, with the leaves not growing in tufts."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "graminoid_not_tussock"@en .
+    skos:prefLabel "graminoid not tussock"@en .
 
 :plant_growth_form_herb
     a skos:Concept ;
@@ -3581,7 +3581,7 @@ cs:
     skos:broader :trait_0030016 ;
     skos:definition "A plant that lacks any photosynthetic organs."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "non-photosynthetic_plant"@en .
+    skos:prefLabel "non-photosynthetic plant"@en .
 
 :plant_photosynthetic_organ_phyllode
     a skos:Concept ;
@@ -3609,14 +3609,14 @@ cs:
     skos:broader :trait_0030020 ;
     skos:definition "A sharp-tipped leaf."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "pungent_leaf_apex"@en .
+    skos:prefLabel "pungent leaf apex"@en .
 
 :plant_physical_defence_structures_sharp_pointed_defence
     a skos:Concept ;
     skos:broader :trait_0030020 ;
     skos:definition "Plant that has either spines, thorns, or prickles but the type of physical defence structure is not specified."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "sharp_pointed_defence"@en .
+    skos:prefLabel "sharp pointed defence"@en .
 
 :plant_physical_defence_structures_spine
     a skos:Concept ;
@@ -3630,7 +3630,7 @@ cs:
     skos:broader :trait_0030020 ;
     skos:definition "Trichomes that sting or irritate, by injecting a toxin."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "stinging_or_irritant_hairs"@en .
+    skos:prefLabel "stinging or irritant hairs"@en .
 
 :plant_physical_defence_structures_thorn
     a skos:Concept ;
@@ -3644,49 +3644,49 @@ cs:
     skos:broader :trait_0010070 ;
     skos:definition "Intermediate or high density of hard, sharp spines >100mm long; plant is dangerous to careless large mammals, including humans. (level 5)"@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "high_density_hard_spines_to_100mm"@en .
+    skos:prefLabel "high density hard spines to 100mm"@en .
 
 :plant_spinescence_high_density_hard_spines_to_20mm
     a skos:Concept ;
     skos:broader :trait_0010070 ;
     skos:definition "Intermediate or high density of hard, sharp spines >20mm long; plant may cause significant wounds when hit carelessly. (level 4)"@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "high_density_hard_spines_to_20mm"@en .
+    skos:prefLabel "high density hard spines to 20mm"@en .
 
 :plant_spinescence_high_density_hard_spines_to_5mm
     a skos:Concept ;
     skos:broader :trait_0010070 ;
     skos:definition "Intermediate or high density of hard, sharp spines >5mm long; plant causes strong pain when hit carelessly. (level 3)"@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "high_density_hard_spines_to_5mm"@en .
+    skos:prefLabel "high density hard spines to 5mm"@en .
 
 :plant_spinescence_high_density_soft_spines
     a skos:Concept ;
     skos:broader :trait_0010070 ;
     skos:definition "High density of soft spines, intermediate density of spines of intermediate hardness, or low density of hard, sharp spines >5mm long; plant causes actual pain when hit carelessly. (level 2)"@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "high_density_soft_spines"@en .
+    skos:prefLabel "high density soft spines"@en .
 
 :plant_spinescence_low_density_soft_spines
     a skos:Concept ;
     skos:broader :trait_0010070 ;
     skos:definition "Low or very local density of soft spines <5mm long; plant may sting or prickle when hit carelessly but not impart strong pain. (level 1)"@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "low_density_soft_spines"@en .
+    skos:prefLabel "low density soft spines"@en .
 
 :plant_spinescence_no_spines
     a skos:Concept ;
     skos:broader :trait_0010070 ;
     skos:definition "No spines. (level 0)"@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "no_spines"@en .
+    skos:prefLabel "no spines"@en .
 
 :plant_succulence_not_succulent
     a skos:Concept ;
     skos:broader :trait_0030022 ;
     skos:definition "Neither stems nor leaves are thick and fleshy."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "not_succulent"@en .
+    skos:prefLabel "not succulent"@en .
 
 :plant_succulence_semi-succulent
     a skos:Concept ;
@@ -3707,14 +3707,14 @@ cs:
     skos:broader :trait_0030022 ;
     skos:definition "Leaves are thick and fleshy."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "succulent_leaves"@en .
+    skos:prefLabel "succulent leaves"@en .
 
 :plant_succulence_succulent_stems
     a skos:Concept ;
     skos:broader :trait_0030022 ;
     skos:definition "Stems are thick and fleshy."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "succulent_stems"@en .
+    skos:prefLabel "succulent stems"@en .
 
 :plant_tolerance_calcicole_calcicole
     a skos:Concept ;
@@ -3735,28 +3735,28 @@ cs:
     skos:broader :trait_0030818 ;
     skos:definition "Plants protected from fire by fire retardant in their bark, stems, or other tissues."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "fire_retardant"@en .
+    skos:prefLabel "fire retardant"@en .
 
 :plant_tolerance_fire_fire_retardant_bark
     a skos:Concept ;
     skos:broader :trait_0030818 ;
     skos:definition "Plants protected from fire by fire retardant in their bark."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "fire_retardant_bark"@en .
+    skos:prefLabel "fire retardant bark"@en .
 
 :plant_tolerance_fire_thick_bark
     a skos:Concept ;
     skos:broader :trait_0030818 ;
     skos:definition "Plants protected from fire by thick bark."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "thick_bark"@en .
+    skos:prefLabel "thick bark"@en .
 
 :plant_tolerance_inundation_1-6_months
     a skos:Concept ;
     skos:broader :trait_0030813 ;
     skos:definition "Taxa able to tolerate being inundated for 1-6 months."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "1-6_months"@en .
+    skos:prefLabel "1-6 months"@en .
 
 :plant_tolerance_inundation_aquatic
     a skos:Concept ;
@@ -3770,21 +3770,21 @@ cs:
     skos:broader :trait_0030813 ;
     skos:definition "Taxa able to tolerate being inundated for  more than 6 months."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "greater_than_6_months"@en .
+    skos:prefLabel "greater than 6 months"@en .
 
 :plant_tolerance_inundation_less_than_1_month
     a skos:Concept ;
     skos:broader :trait_0030813 ;
     skos:definition "Taxa able to tolerate being inundated for less than 1 month."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "less_than_1_month"@en .
+    skos:prefLabel "less than 1 month"@en .
 
 :plant_tolerance_inundation_not_applicable
     a skos:Concept ;
     skos:broader :trait_0030813 ;
     skos:definition "Taxa is not typically confronted with being inundated and its response is unknown."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "not_applicable"@en .
+    skos:prefLabel "not applicable"@en .
 
 :plant_tolerance_salt_glycophyte
     a skos:Concept ;
@@ -3805,7 +3805,7 @@ cs:
     skos:broader :trait_0030816 ;
     skos:definition "Plant that is moderately tolerant of soil salinity/sodicity."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "halophyte_moderate"@en .
+    skos:prefLabel "halophyte moderate"@en .
 
 :plant_tolerance_salt_hydrohalophyte
     a skos:Concept ;
@@ -3819,14 +3819,14 @@ cs:
     skos:broader :trait_0030816 ;
     skos:definition "Plant's ability to tolerate salt is unknown."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "salinity_tolerance_undefined"@en .
+    skos:prefLabel "salinity tolerance undefined"@en .
 
 :plant_tolerance_salt_salt_spray_tolerant
     a skos:Concept ;
     skos:broader :trait_0030816 ;
     skos:definition "Plant that is tolerant of salt spray (typically inhabiting near-coastal environments)."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "salt_spray_tolerant"@en .
+    skos:prefLabel "salt spray tolerant"@en .
 
 :plant_tolerance_salt_xerohalophyte
     a skos:Concept ;
@@ -3861,7 +3861,7 @@ cs:
     skos:broader :trait_0030814 ;
     skos:definition "Taxa is virtually never confronted with snow in nature and the response is unknown."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "not_applicable"@en .
+    skos:prefLabel "not applicable"@en .
 
 :plant_tolerance_snow_weeks
     a skos:Concept ;
@@ -3875,7 +3875,7 @@ cs:
     skos:broader :trait_0030812 ;
     skos:definition "Taxa able to tolerate 1-6 months of waterlogging."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "1-6_months"@en .
+    skos:prefLabel "1-6 months"@en .
 
 :plant_tolerance_water_logged_soils_aquatic
     a skos:Concept ;
@@ -3889,21 +3889,21 @@ cs:
     skos:broader :trait_0030812 ;
     skos:definition "Taxa able to tolerate more than 6 months of waterlogging."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "greater_than_6_months"@en .
+    skos:prefLabel "greater than 6 months"@en .
 
 :plant_tolerance_water_logged_soils_less_than_1_month
     a skos:Concept ;
     skos:broader :trait_0030812 ;
     skos:definition "Taxa able to tolerate less than 1 month of waterlogging."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "less_than_1_month"@en .
+    skos:prefLabel "less than 1 month"@en .
 
 :plant_tolerance_water_logged_soils_not_applicable
     a skos:Concept ;
     skos:broader :trait_0030812 ;
     skos:definition "Taxa is not typically confronted with waterlogging and its response is unknown."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "not_applicable"@en .
+    skos:prefLabel "not applicable"@en .
 
 :plant_type_by_resource_use_hydrohalophyte
     a skos:Concept ;
@@ -4043,7 +4043,7 @@ cs:
     skos:broader :trait_0030061 ;
     skos:definition "Plants mostly reproduce through vegetative spread and flowering is rare."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "pollination_rare"@en .
+    skos:prefLabel "pollination rare"@en .
 
 :pollination_syndrome_self
     a skos:Concept ;
@@ -4134,14 +4134,14 @@ cs:
     skos:broader :trait_0030062 ;
     skos:definition "Taxa depend upon a specialist pollinator for pollen transfer."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "biotic_specialised"@en .
+    skos:prefLabel "biotic specialised"@en .
 
 :pollination_system_biotic_unspecialised
     a skos:Concept ;
     skos:broader :trait_0030062 ;
     skos:definition "Taxa are pollinated by a biotic agent, but do not have a specialist pollinator."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "biotic_unspecialised"@en .
+    skos:prefLabel "biotic unspecialised"@en .
 
 :pollination_system_bird
     a skos:Concept ;
@@ -4232,98 +4232,98 @@ cs:
     skos:broader :trait_0030653 ;
     skos:definition "Plants predominantly flower after a fire, usually within the first 1-4 growing seasons following the fire."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "fire_dependent_flowering"@en .
+    skos:prefLabel "fire dependent flowering"@en .
 
 :post_fire_flowering_fire_enhanced_flowering
     a skos:Concept ;
     skos:broader :trait_0030653 ;
     skos:definition "Flowering is enhanced after a fire, with plants flowering more prolifically for the first 1-4 growing seasons following the fire."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "fire_enhanced_flowering"@en .
+    skos:prefLabel "fire enhanced flowering"@en .
 
 :post_fire_flowering_fire_independent_flowering
     a skos:Concept ;
     skos:broader :trait_0030653 ;
     skos:definition "Flowering is independent of fire, with the magnitude of flowers produced by plants unchanged following a fire."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "fire_independent_flowering"@en .
+    skos:prefLabel "fire independent flowering"@en .
 
 :post_fire_flowering_fire_suppressed_flowering
     a skos:Concept ;
     skos:broader :trait_0030653 ;
     skos:definition "Flowering is suppressed or absent after a fire, with plants producing fewer flowers for at least the first 1-4 growing seasons following the fire."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "fire_suppressed_flowering"@en .
+    skos:prefLabel "fire suppressed flowering"@en .
 
 :post_fire_recruitment_post_fire_recruitment
     a skos:Concept ;
     skos:broader :trait_0030652 ;
     skos:definition "Plants that germinate post-fire."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "post_fire_recruitment"@en .
+    skos:prefLabel "post fire recruitment"@en .
 
 :post_fire_recruitment_post_fire_recruitment_absent
     a skos:Concept ;
     skos:broader :trait_0030652 ;
     skos:definition "Plants that do not show increased seeding following fire."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "post_fire_recruitment_absent"@en .
+    skos:prefLabel "post fire recruitment absent"@en .
 
 :resprouting_capacity_fire_killed
     a skos:Concept ;
     skos:broader :trait_0030610 ;
     skos:definition "Fewer than 30% of plants resprout following a fire with 100% leaf scorch. (Synonym, fire-sensitive)"@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "fire_killed"@en .
+    skos:prefLabel "fire killed"@en .
 
 :resprouting_capacity_juvenile_juvenile_fire_killed
     a skos:Concept ;
     skos:broader :trait_0030612 ;
     skos:definition "Few to no juvenile plants resprout following fire with 100% leaf scorch."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "juvenile_fire_killed"@en .
+    skos:prefLabel "juvenile fire killed"@en .
 
 :resprouting_capacity_juvenile_juvenile_moderate_fire_killed
     a skos:Concept ;
     skos:broader :trait_0030612 ;
     skos:definition "25-50% of juvenile plants resprout following fire with 100% leaf scorch."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "juvenile_moderate_fire_killed"@en .
+    skos:prefLabel "juvenile moderate fire killed"@en .
 
 :resprouting_capacity_juvenile_juvenile_resprout
     a skos:Concept ;
     skos:broader :trait_0030612 ;
     skos:definition "More than 50% of juvenile plants survive and resprout following fire with 100% leaf scorch."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "juvenile_resprout"@en .
+    skos:prefLabel "juvenile resprout"@en .
 
 :resprouting_capacity_non_fire_disturbance_resprouts_after_cyclone
     a skos:Concept ;
     skos:broader :trait_0030615 ;
     skos:definition "Plants are able to resprout following 100% leaf loss in a cyclone."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "resprouts_after_cyclone"@en .
+    skos:prefLabel "resprouts after cyclone"@en .
 
 :resprouting_capacity_non_fire_disturbance_resprouts_after_drought
     a skos:Concept ;
     skos:broader :trait_0030615 ;
     skos:definition "Plants are able to resprout following 100% leaf loss during a drought."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "resprouts_after_drought"@en .
+    skos:prefLabel "resprouts after drought"@en .
 
 :resprouting_capacity_non_fire_disturbance_resprouts_non_fire_disturbance
     a skos:Concept ;
     skos:broader :trait_0030615 ;
     skos:definition "Plants that are known to be fire-killed, but have the ability to resprout following a disturbance other than fire that causes 100% leaf loss."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "resprouts_non_fire_disturbance"@en .
+    skos:prefLabel "resprouts non fire disturbance"@en .
 
 :resprouting_capacity_partial_resprouting
     a skos:Concept ;
     skos:broader :trait_0030610 ;
     skos:definition "Between 30-70% of plants resprout following a fire with 100% leaf scorch."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "partial_resprouting"@en .
+    skos:prefLabel "partial resprouting"@en .
 
 :resprouting_capacity_resprouts
     a skos:Concept ;
@@ -4337,7 +4337,7 @@ cs:
     skos:broader :trait_0030028 ;
     skos:definition "Symbiosis in which the mycorrhizal fungi does penetrate the cortex cells of the plant roots and its hyphae form arbuscules and vesicles inside the plant root; endomycorrhizal, AM, VAM."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "arbuscular_mycorrhizal"@en .
+    skos:prefLabel "arbuscular mycorrhizal"@en .
 
 :root_structure_carnivorous
     a skos:Concept ;
@@ -4351,21 +4351,21 @@ cs:
     skos:broader :trait_0030028 ;
     skos:definition "Non-proteoid taxa with cluster roots."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "cluster_roots"@en .
+    skos:prefLabel "cluster roots"@en .
 
 :root_structure_coiling_vam
     a skos:Concept ;
     skos:broader :trait_0030028 ;
     skos:definition "Associations that spread predominantly by intracellular hyphal coils within roots."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "coiling_vam"@en .
+    skos:prefLabel "coiling vam"@en .
 
 :root_structure_dauciform_root
     a skos:Concept ;
     skos:broader :trait_0030028 ;
     skos:definition "A type of cluster root found in the family Cyperaceae."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "dauciform_root"@en .
+    skos:prefLabel "dauciform root"@en .
 
 :root_structure_ectomycorrhizal
     a skos:Concept ;
@@ -4379,14 +4379,14 @@ cs:
     skos:broader :trait_0030028 ;
     skos:definition "A form of arbuscular mycorrhizal relationship only found on plants in the order Ericales. The fungi's hyphae penetrate the plant root but do not form arbuscules."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "ericoid_mycorrhizal"@en .
+    skos:prefLabel "ericoid mycorrhizal"@en .
 
 :root_structure_fine_roots
     a skos:Concept ;
     skos:broader :trait_0030028 ;
     skos:definition "Particularly fine roots for nutrient uptake."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "fine_roots"@en .
+    skos:prefLabel "fine roots"@en .
 
 :root_structure_haustorium
     a skos:Concept ;
@@ -4400,14 +4400,14 @@ cs:
     skos:broader :trait_0030028 ;
     skos:definition "Plant with a partially parasitic root."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "hemiparasitic_root"@en .
+    skos:prefLabel "hemiparasitic root"@en .
 
 :root_structure_long_root_hairs
     a skos:Concept ;
     skos:broader :trait_0030028 ;
     skos:definition "Plant with specialised long root hairs."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "long_root_hairs"@en .
+    skos:prefLabel "long root hairs"@en .
 
 :root_structure_mycorrhizal
     a skos:Concept ;
@@ -4421,35 +4421,35 @@ cs:
     skos:broader :trait_0030028 ;
     skos:definition "Plants lacking a mycorrhizal symbiont."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "non_mycorrhizal"@en .
+    skos:prefLabel "non mycorrhizal"@en .
 
 :root_structure_orchid_mycorrhizal
     a skos:Concept ;
     skos:broader :trait_0030028 ;
     skos:definition "A mycorrhizal relationship specific to orchid taxa, and for most orchids, essential for seedlings to establish."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "orchid_mycorrhizal"@en .
+    skos:prefLabel "orchid mycorrhizal"@en .
 
 :root_structure_parasitic_root
     a skos:Concept ;
     skos:broader :trait_0030028 ;
     skos:definition "Plant with a parasitic root."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "parasitic_root"@en .
+    skos:prefLabel "parasitic root"@en .
 
 :root_structure_proteoid_root
     a skos:Concept ;
     skos:broader :trait_0030028 ;
     skos:definition "Also known as cluster roots, are plant roots that form clusters of closely spaced short lateral rootlets and aid in nutrient upake in nutrient-poor soils; common in members of the family Proteaceae but present in other families as well."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "proteoid_root"@en .
+    skos:prefLabel "proteoid root"@en .
 
 :root_structure_root_hairs
     a skos:Concept ;
     skos:broader :trait_0030028 ;
     skos:definition "Plant with specialised root hairs."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "root_hairs"@en .
+    skos:prefLabel "root hairs"@en .
 
 :root_structure_sand-binding
     a skos:Concept ;
@@ -4470,7 +4470,7 @@ cs:
     skos:broader :trait_0030028 ;
     skos:definition "Mycorrhizae where hyphae grow in a cavity under epidermal cells. Only in the genus Thysanotus (family Laxmaniaceae)."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "subepidermal_mycorrhizal"@en .
+    skos:prefLabel "subepidermal mycorrhizal"@en .
 
 :root_structure_unknown
     a skos:Concept ;
@@ -4484,133 +4484,133 @@ cs:
     skos:broader :trait_0012112 ;
     skos:definition "The primary root is fibrous or fleshy and is relatively long; mesophytic."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "type_i"@en .
+    skos:prefLabel "type i"@en .
 
 :root_system_classification_type_ii
     a skos:Concept ;
     skos:broader :trait_0012112 ;
     skos:definition "The primary root is relatively short and is fibrous. Roots are well branched in a dry habitat but branch little in one that is wet."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "type_ii"@en .
+    skos:prefLabel "type ii"@en .
 
 :root_system_classification_type_iii
     a skos:Concept ;
     skos:broader :trait_0012112 ;
     skos:definition "The primary root is usually long and fibrous. The first order lateral roots are well branched and are usually short; they are rather evenly distributed along the primary root; xerophytic."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "type_iii"@en .
+    skos:prefLabel "type iii"@en .
 
 :root_system_classification_type_iv
     a skos:Concept ;
     skos:broader :trait_0012112 ;
     skos:definition "The primary root is usually long and slender like that of Type II. The first order lateral roots are well branched. Those closest to the surface of the ground, or not far below, are relatively long; xerophytic and mesophytic."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "type_iv"@en .
+    skos:prefLabel "type iv"@en .
 
 :root_system_classification_type_ix
     a skos:Concept ;
     skos:broader :trait_0012112 ;
     skos:definition "Adventitious roots that arise on the aerial stem and branches of some herbaceous taxa, shrubs, and trees; on creepers, vines, and runners; and on subterranean rhizomes and stolons."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "type_ix"@en .
+    skos:prefLabel "type ix"@en .
 
 :root_system_classification_type_v
     a skos:Concept ;
     skos:broader :trait_0012112 ;
     skos:definition "The primary root is divided-forked or branched-and fibrous, and with few first order lateral roots, or, in age, apparently with none; xerophytic."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "type_v"@en .
+    skos:prefLabel "type v"@en .
 
 :root_system_classification_type_vi
     a skos:Concept ;
     skos:broader :trait_0012112 ;
     skos:definition "The primary root is usually as in Type V. The first order lateral roots are mostly on the upper portion of the primary root and are thus relatively superficial; xerophytic or in well aerated sandy soil where the rainfall is not light."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "type_vi"@en .
+    skos:prefLabel "type vi"@en .
 
 :root_system_classification_type_vii
     a skos:Concept ;
     skos:broader :trait_0012112 ;
     skos:definition "Adventitious roots that are in one group and arise on a short horizontal, or vertical, axis of the shoot. They are fibrous or fleshly; mesophytic and hydrophytic."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "type_vii"@en .
+    skos:prefLabel "type vii"@en .
 
 :root_system_classification_type_viii
     a skos:Concept ;
     skos:broader :trait_0012112 ;
     skos:definition "Adventitious roots that are in one group and are fibrous and fleshy, or fibrous and thick. The fibrous adventitious roots are absorbing-anchoring roots and are usually with laterals to the second order; meophytic."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "type_viii"@en .
+    skos:prefLabel "type viii"@en .
 
 :root_system_type_tap_root_absent
     a skos:Concept ;
     skos:broader :trait_0012115 ;
     skos:definition "Tap root not present."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "tap_root_absent"@en .
+    skos:prefLabel "tap root absent"@en .
 
 :root_system_type_tap_root_present
     a skos:Concept ;
     skos:broader :trait_0012115 ;
     skos:definition "Tap root present."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "tap_root_present"@en .
+    skos:prefLabel "tap root present"@en .
 
 :root_system_type_tap_root_sometimes_present
     a skos:Concept ;
     skos:broader :trait_0012115 ;
     skos:definition "Tap root sometimes present."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "tap_root_sometimes_present"@en .
+    skos:prefLabel "tap root sometimes present"@en .
 
 :seed_dormancy_class_morphological_dormancy
     a skos:Concept ;
     skos:broader :trait_0030415 ;
     skos:definition "Seeds exhibit morphological dormancy, generally because an underdeveloped embryo needs to grow."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "morphological_dormancy"@en .
+    skos:prefLabel "morphological dormancy"@en .
 
 :seed_dormancy_class_morphophysiological_dormancy
     a skos:Concept ;
     skos:broader :trait_0030415 ;
     skos:definition "Seeds exhibit morphophysiological dormancy, with both morphological and physiological dormancy mechanisms that must be overcome."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "morphophysiological_dormancy"@en .
+    skos:prefLabel "morphophysiological dormancy"@en .
 
 :seed_dormancy_class_non_dormant
     a skos:Concept ;
     skos:broader :trait_0030415 ;
     skos:definition "Seeds are non-dormant."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "non_dormant"@en .
+    skos:prefLabel "non dormant"@en .
 
 :seed_dormancy_class_physical_dormancy
     a skos:Concept ;
     skos:broader :trait_0030415 ;
     skos:definition "Seeds exhibit physical dormancy, due to one or more water-impermeable layers in the seed coat."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "physical_dormancy"@en .
+    skos:prefLabel "physical dormancy"@en .
 
 :seed_dormancy_class_physiological_dormancy
     a skos:Concept ;
     skos:broader :trait_0030415 ;
     skos:definition "Seeds exhibit physiological dormancy, whereby chemical changes are required within the seed to break dormancy, including temperature stratification and after-ripening."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "physiological_dormancy"@en .
+    skos:prefLabel "physiological dormancy"@en .
 
 :seed_germination_treatment_after_ripening
     a skos:Concept ;
     skos:broader :trait_0030416 ;
     skos:definition "Seed germinates more readily after a period of warm, dry storage."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "after_ripening"@en .
+    skos:prefLabel "after ripening"@en .
 
 :seed_germination_treatment_chemical_treatment
     a skos:Concept ;
     skos:broader :trait_0030416 ;
     skos:definition "Seed germinates more readily after a chemical treatment."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "chemical_treatment"@en .
+    skos:prefLabel "chemical treatment"@en .
 
 :seed_germination_treatment_cold
     a skos:Concept ;
@@ -4645,14 +4645,14 @@ cs:
     skos:broader :trait_0030416 ;
     skos:definition "Seed is heat sensitive. (A fire response, more than a treatment to break dormancy.)"@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "heat_lethal"@en .
+    skos:prefLabel "heat lethal"@en .
 
 :seed_germination_treatment_imbibe_hot
     a skos:Concept ;
     skos:broader :trait_0030416 ;
     skos:definition "Seed germinates more readily after being soaked in hot water; water temperature usually between 70 deg C to just below boiling."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "imbibe_hot"@en .
+    skos:prefLabel "imbibe hot"@en .
 
 :seed_germination_treatment_leaching
     a skos:Concept ;
@@ -4715,14 +4715,14 @@ cs:
     skos:broader :trait_0030416 ;
     skos:definition "Seed germinates more readily after a period of cold, wet storage."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "stratification_cold"@en .
+    skos:prefLabel "stratification cold"@en .
 
 :seed_germination_treatment_stratification_warm
     a skos:Concept ;
     skos:broader :trait_0030416 ;
     skos:definition "Seed germinates more readily after a period of warm, wet storage."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "stratification_warm"@en .
+    skos:prefLabel "stratification warm"@en .
 
 :seed_shape_comma-shaped
     a skos:Concept ;
@@ -4771,7 +4771,7 @@ cs:
     skos:broader :trait_0012618 ;
     skos:definition "A 3-dimensional shape that is elliptic in long section and and laterally compressed/flattened such that it is non-circular in cross section; length:width ratio between 2:1 and 3:2."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "ellipsoid_flattened"@en .
+    skos:prefLabel "ellipsoid flattened"@en .
 
 :seed_shape_fusiform
     a skos:Concept ;
@@ -4792,7 +4792,7 @@ cs:
     skos:broader :trait_0012618 ;
     skos:definition "A 3-dimensional shape that is circular in both long section and somewhat flattened such that it is non-circular in cross section."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "globoid_flattened"@en .
+    skos:prefLabel "globoid flattened"@en .
 
 :seed_shape_hemispheric
     a skos:Concept ;
@@ -4806,7 +4806,7 @@ cs:
     skos:broader :trait_0012618 ;
     skos:definition "A 3-dimensional shape that is a laterally compressed/flattened half-sphere or globe; shape has a flat base, a domed top, and is elliptical in cross-section."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "hemispheric_flattened"@en .
+    skos:prefLabel "hemispheric flattened"@en .
 
 :seed_shape_lenticular
     a skos:Concept ;
@@ -4834,14 +4834,14 @@ cs:
     skos:broader :trait_0012618 ;
     skos:definition "A 3-dimensional shape that is egg-shaped in long section and circular in cross section, where the length dimension is much longer than the width/height dimensions. Term as used in AusTraits includes specific shapes club-shaped (clavate/obclavate) and tear-shaped (lachrimiform). (Synonyms, lachrimiform, tear-shaped, lachrymiform, clavate; obclavate, club-shaped)"@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "ovoid_elongated"@en .
+    skos:prefLabel "ovoid elongated"@en .
 
 :seed_shape_ovoid_flattened
     a skos:Concept ;
     skos:broader :trait_0012618 ;
     skos:definition "A 3-dimensional shape that is egg-shaped in long section and laterally compressed/flattened such that is non-circular in cross section."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "ovoid_flattened"@en .
+    skos:prefLabel "ovoid flattened"@en .
 
 :seed_shape_polyhedral
     a skos:Concept ;
@@ -4855,14 +4855,14 @@ cs:
     skos:broader :trait_0012618 ;
     skos:definition "A 3-dimensional shape with distinct, fairly flat faces and edges, where the length dimension is much longer than the width/height dimensions; includes elongate prisms and elongate tetrahedral shaped seeds."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "polyhedral_elongated"@en .
+    skos:prefLabel "polyhedral elongated"@en .
 
 :seed_shape_polyhedral_inflated
     a skos:Concept ;
     skos:broader :trait_0012618 ;
     skos:definition "A 3-dimensional shape with distinct faces and edges but the faces tend to bulge outwards."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "polyhedral_inflated"@en .
+    skos:prefLabel "polyhedral inflated"@en .
 
 :seed_shape_reniform
     a skos:Concept ;
@@ -4911,14 +4911,14 @@ cs:
     skos:broader :trait_0012619 ;
     skos:definition "Seed surface with branched trichomes or bristles.(Synonyms, stellate, plumose)"@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "hairs_branched"@en .
+    skos:prefLabel "hairs branched"@en .
 
 :seed_surface_hairs_hairs_simple
     a skos:Concept ;
     skos:broader :trait_0012619 ;
     skos:definition "Seed surface with simple trichomes or bristles. (Synonyms, tomentose, velutinous, velvety, sericeous)"@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "hairs_simple"@en .
+    skos:prefLabel "hairs simple"@en .
 
 :seed_surface_reflectivity_dull
     a skos:Concept ;
@@ -5016,14 +5016,14 @@ cs:
     skos:broader :trait_0030411 ;
     skos:definition "Seeds stored in the canopy, usually still within a woody cone."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "canopy_seedbank"@en .
+    skos:prefLabel "canopy seedbank"@en .
 
 :seedbank_location_canopy_seedbank_absent
     a skos:Concept ;
     skos:broader :trait_0030411 ;
     skos:definition "Seed explicitly not stored in the canopy."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "canopy_seedbank_absent"@en .
+    skos:prefLabel "canopy seedbank absent"@en .
 
 :seedbank_location_none
     a skos:Concept ;
@@ -5044,21 +5044,21 @@ cs:
     skos:broader :trait_0030411 ;
     skos:definition "Seeds stored in the soil."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "soil_seedbank"@en .
+    skos:prefLabel "soil seedbank"@en .
 
 :seedbank_location_soil_seedbank_absent
     a skos:Concept ;
     skos:broader :trait_0030411 ;
     skos:definition "Seed explicitly not stored in the soil."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "soil_seedbank_absent"@en .
+    skos:prefLabel "soil seedbank absent"@en .
 
 :seedbank_longevity_class_long_persistent
     a skos:Concept ;
     skos:broader :trait_0030413 ;
     skos:definition "Seed that persists in the seedbank for more than 5 years, although the time interval varies by study."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "long_persistent"@en .
+    skos:prefLabel "long persistent"@en .
 
 :seedbank_longevity_class_persistent
     a skos:Concept ;
@@ -5072,7 +5072,7 @@ cs:
     skos:broader :trait_0030413 ;
     skos:definition "Seed that persists in the seedbank for approximately 1 to 5 years, although the time interval varies by study."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "short_persistent"@en .
+    skos:prefLabel "short persistent"@en .
 
 :seedbank_longevity_class_transient
     a skos:Concept ;
@@ -5086,35 +5086,35 @@ cs:
     skos:broader :trait_0030413 ;
     skos:definition "Seed longevity not important, as seeds are widely dispersed and always available for germination."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "widely_dispersed"@en .
+    skos:prefLabel "widely dispersed"@en .
 
 :seedling_establishment_conditions_establish_anytime
     a skos:Concept ;
     skos:broader :trait_0030217 ;
     skos:definition "Seedlings can establish immediately following a disturbance and in later years as vegetation ages, right thru to mature and over-mature vegetation"@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "establish_anytime"@en .
+    skos:prefLabel "establish anytime"@en .
 
 :seedling_establishment_conditions_establish_intermediate_to_mature_vegetation
     a skos:Concept ;
     skos:broader :trait_0030217 ;
     skos:definition "Seedlings require some environmental characteristics not found in vegetation straight after fires to establish, for they cannot establish within the first season or two after fire but can establish in older vegetation (including mature to over-mature vegetation)."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "establish_intermediate_to_mature_vegetation"@en .
+    skos:prefLabel "establish intermediate to mature vegetation"@en .
 
 :seedling_establishment_conditions_establish_post_disturbance
     a skos:Concept ;
     skos:broader :trait_0030217 ;
     skos:definition "Seedling establishment occurs following disturbances that increase light levels at the ground surface, but the type of disturbance is not documented."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "establish_post_disturbance"@en .
+    skos:prefLabel "establish post disturbance"@en .
 
 :seedling_establishment_conditions_establish_post_fire
     a skos:Concept ;
     skos:broader :trait_0030217 ;
     skos:definition "Seedling establishment occurs following fire."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "establish_post_fire"@en .
+    skos:prefLabel "establish post fire"@en .
 
 :seedling_first_node_leaf_count_paired
     a skos:Concept ;
@@ -5177,7 +5177,7 @@ cs:
     skos:broader :trait_0030412 ;
     skos:definition "Plant does not display serotiny."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "not_serotinous"@en .
+    skos:prefLabel "not serotinous"@en .
 
 :serotiny_serotinous
     a skos:Concept ;
@@ -5191,21 +5191,21 @@ cs:
     skos:broader :trait_0030412 ;
     skos:definition "Plant displays a strong level of serotiny, indicating all seeds are retained as a canopy seedbank until an environmental cue triggers their release."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "serotiny_high"@en .
+    skos:prefLabel "serotiny high"@en .
 
 :serotiny_serotiny_low
     a skos:Concept ;
     skos:broader :trait_0030412 ;
     skos:definition "Plant displays a weak level of serotiny, indicating it releases most of its seeds gradually, with only a small proportion of the seeds retained as a canopy seedbank until an environmental cue triggers the release of the entire seedbank."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "serotiny_low"@en .
+    skos:prefLabel "serotiny low"@en .
 
 :serotiny_serotiny_moderate
     a skos:Concept ;
     skos:broader :trait_0030412 ;
     skos:definition "Plant displays a moderate level of serotiny, indicating it releases some of its seeds gradually, with the remainder retained as a canopy seedbank until an environmental cue triggers the release of the entire seedbank."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "serotiny_moderate"@en .
+    skos:prefLabel "serotiny moderate"@en .
 
 :sex_type_androdioecious
     a skos:Concept ;
@@ -5471,7 +5471,7 @@ cs:
     skos:broader :trait_0030512 ;
     skos:definition "Plants that use fleshy, generally underground organs (swellings) to regenerate, but the type of organ is not specified; examples include corms, tubers, bulbs, and caudex."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "fleshy_underground_organ"@en .
+    skos:prefLabel "fleshy underground organ"@en .
 
 :storage_organ_lignotuber
     a skos:Concept ;
@@ -5485,7 +5485,7 @@ cs:
     skos:broader :trait_0030512 ;
     skos:definition "No storage organ present"@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "no_storage_organ"@en .
+    skos:prefLabel "no storage organ"@en .
 
 :storage_organ_pseudobulb
     a skos:Concept ;
@@ -5506,42 +5506,42 @@ cs:
     skos:broader :trait_0030512 ;
     skos:definition "A type of continually growing or creeping fibrous, non-woody underground stem."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "rhizome_fibrous"@en .
+    skos:prefLabel "rhizome fibrous"@en .
 
 :storage_organ_rhizome_fleshy
     a skos:Concept ;
     skos:broader :trait_0030512 ;
     skos:definition "A type of continually growing or creeping fleshy, non-woody underground stem."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "rhizome_fleshy"@en .
+    skos:prefLabel "rhizome fleshy"@en .
 
 :storage_organ_rhizome_woody
     a skos:Concept ;
     skos:broader :trait_0030512 ;
     skos:definition "A type of continually growing or creeping woody underground stem."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "rhizome_woody"@en .
+    skos:prefLabel "rhizome woody"@en .
 
 :storage_organ_root_tuber
     a skos:Concept ;
     skos:broader :trait_0030512 ;
     skos:definition "A swollen root the stores nutrients, carbohydrates and water. (Synonym, taproot tuber)"@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "root_tuber"@en .
+    skos:prefLabel "root tuber"@en .
 
 :storage_organ_stem_tuber
     a skos:Concept ;
     skos:broader :trait_0030512 ;
     skos:definition "A swollen underground stem that stores nutrients, carbohydrates and water."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "stem_tuber"@en .
+    skos:prefLabel "stem tuber"@en .
 
 :storage_organ_storage_organ
     a skos:Concept ;
     skos:broader :trait_0030512 ;
     skos:definition "Plant has a storage organ, but the type is unknown."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "storage_organ"@en .
+    skos:prefLabel "storage organ"@en .
 
 :storage_organ_tuber
     a skos:Concept ;
@@ -16620,7 +16620,7 @@ cs:
     skos:broader :trait_0030510 ;
     skos:definition "Plant taxa that regenerate and spread only by seed."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "not_vegetative"@en .
+    skos:prefLabel "not vegetative"@en .
 
 :vegetative_reproduction_ability_vegetative
     a skos:Concept ;
@@ -16634,7 +16634,7 @@ cs:
     skos:broader :trait_0030510 ;
     skos:definition "Plant taxa that never (or very rarely) regenerate from seed, instead regenerating and spreading entirely through the growth and division of vegetative material."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "vegetative_obligate"@en .
+    skos:prefLabel "vegetative obligate"@en .
 
 :woodiness_detailed_herbaceous
     a skos:Concept ;
@@ -16648,7 +16648,7 @@ cs:
     skos:broader :trait_0030019 ;
     skos:definition "Plant that forms stems considered only 'partially woody', generally having lower lignin and cellulose contents and possibly not forming secondary xylem. These are generally short-lived, fast-growing stems. (Synonyms, green-stem shrub, soft shrub, soft wood)"@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "semi_woody"@en .
+    skos:prefLabel "semi woody"@en .
 
 :woodiness_detailed_woody
     a skos:Concept ;
@@ -16662,28 +16662,28 @@ cs:
     skos:broader :trait_0030019 ;
     skos:definition "Plant where secondary xylem (true wood) is present only at the base of stems. (Synonyms, suffrutescent)"@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "woody_base"@en .
+    skos:prefLabel "woody base"@en .
 
 :woodiness_detailed_woody_like_inflorescence
     a skos:Concept ;
     skos:broader :trait_0030019 ;
     skos:definition "Taxa, including monocots, that produce thick, stiff, robust lignified inflorescence shoots but are otherwise non-woody."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "woody_like_inflorescence"@en .
+    skos:prefLabel "woody like inflorescence"@en .
 
 :woodiness_detailed_woody_like_stem
     a skos:Concept ;
     skos:broader :trait_0030019 ;
     skos:definition "Taxa, including monocots and ferns, that produce thick, stiff, robust lignified stems but do not produce secondary xylem."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "woody_like_stem"@en .
+    skos:prefLabel "woody like stem"@en .
 
 :woodiness_detailed_woody_root
     a skos:Concept ;
     skos:broader :trait_0030019 ;
     skos:definition "Plant that has a woody rootstock but non-woody above-ground stems."@en ;
     skos:inScheme <https://w3id.org/APD/traits> ;
-    skos:prefLabel "woody_root"@en .
+    skos:prefLabel "woody root"@en .
 
 :woodiness_herbaceous
     a skos:Concept ;
