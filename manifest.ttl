@@ -48,7 +48,7 @@ PREFIX schema: <https://schema.org/>
             schema:name "Catalogues" ;
         ] ,
         [
-            prof:hasArtifact "resources/background/**/*.ttl" ;
+            prof:hasArtifact "resources/background/*.ttl" ;
             prof:hasRole <https://prez.dev/ManifestResourceRoles/CompleteCatalogueAndResourceLabels> ;
             schema:description "Files containing all the labels and vocab inScheme predicates for the resources' content" ;
             schema:name "Background Details" ;
