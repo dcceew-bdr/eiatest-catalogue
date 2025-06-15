@@ -1,10 +1,15 @@
+PREFIX : <https://linked.data.gov.au/dataset/eiatest/nsl/>
+PREFIX cs: <https://linked.data.gov.au/dataset/eiatest/nsl>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
-<https://linked.data.gov.au/dataset/eiatest/nsl>
-    a schema:Dataset ;
-    schema:name "National Species List" ;
-    schema:description """The National Species List (NSL) is an aggregate datasets comprising 12 datasets:
+cs:
+    a skos:ConceptScheme ;
+    skos:historyNote "This small, dummy, NSL was created from the scientific names supplied with the demonstration BDR ACT dataset in the EIA Test Catalogue" ;
+    skos:prefLabel "National Species List - EIA Demonstrator"@en ;
+    skos:definition """The National Species List (NSL) is an aggregate datasets comprising 12 datasets:
 
 * Australian Algae List (AAL)
 * Australian Algae Name Index (AANI)
@@ -16,24 +21,2507 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 * Australian Lichen Checklist (ALC)
 * Australian Plant Census (APC)
 * Australian Plant Name Index (APNI)
-* Catalogue of Australian Bryophytes (CAB)""" ;
-    schema:creator <https://linked.data.gov.au/org/canbr> ;
-    schema:publisher <https://linked.data.gov.au/org/dcceew> ;
-    schema:dateCreated "2025-01-15"^^xsd:date ;
-    schema:dateModified "2025-06-13"^^xsd:date ;
-#    schema:hasPart
-#        <https://linked.data.gov.au/dataset/aal> ,
-#        <https://linked.data.gov.au/dataset/aani> ,
-#        <https://linked.data.gov.au/dataset/abni> ,
-#        <https://linked.data.gov.au/dataset/afd> ,
-#        <https://linked.data.gov.au/dataset/afl> ,
-#        <https://linked.data.gov.au/dataset/afni> ,
-#        <https://linked.data.gov.au/dataset/alni> ,
-#        <https://linked.data.gov.au/dataset/alc> ,
-#        <https://linked.data.gov.au/dataset/apc> ,
-#        <https://linked.data.gov.au/dataset/apni> ,
-#        <https://linked.data.gov.au/dataset/cab> ;
+* Catalogue of Australian Bryophytes (CAB)
+
+This dataset is a minute sample of 250 Taxon Names from it, relevant to data in the ACT region in the EIA Test Catalogue.""" ;
+    schema:creator <https://linked.data.gov.au/org/dcceew> ;
+    schema:dateCreated "2025-06-01"^^xsd:date ;
+    schema:dateModified "2025-06-15"^^xsd:date ;
+    schema:keywords <http://vocabs.lter-europe.net/EnvThes/21654> ;
     schema:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
-    schema:citation "This dataset was created for the EIA Test Catalogue in 2025" ;
-    schema:version "1" ;
+    schema:publisher <https://linked.data.gov.au/org/dcceew> ;
+    schema:version "3" ;
+    skos:hasTopConcept
+        :acacia-boormanii ,
+        :acacia-genistifolia ,
+        :acacia-ulicifolia ,
+        :acaena-echinata ,
+        :acanthiza-reguloides ,
+        :acanthorhynchus-tenuirostris ,
+        :acrocephalus-australis ,
+        :ajuga-australis ,
+        :alisterus-scapularis ,
+        :amphibolurus-muricatus ,
+        :anas-castanea ,
+        :anas-gracilis ,
+        :anas-superciliosa ,
+        :anhinga-novaehollandiae ,
+        :antechinus-agilis ,
+        :anthochaera-carunculata ,
+        :apis-mellifera ,
+        :aprasia-parapulchella ,
+        :araujia-sericifera ,
+        :arthropodium-milleflorum ,
+        :arum-italicum ,
+        :asperula-conferta ,
+        :asplenium-flabellifolium ,
+        :austroaeschna-pulchra ,
+        :austroargiolestes-calcaris ,
+        :austrolestes-annulosus ,
+        :austrostipa-densiflora ,
+        :austrostipa-scabra ,
+        :belenois-java ,
+        :blechnum-minus ,
+        :brachychiton-populneus-subsp-populneus ,
+        :brachyscome-rigidula ,
+        :brachyscome-spathulata ,
+        :bursaria-spinosa ,
+        :cacatua-sanguinea ,
+        :caladenia-actensis ,
+        :caladenia-caerulea ,
+        :caladenia-fuscata ,
+        :caladenia-montana ,
+        :callistemon-pityoides ,
+        :calochilus-campestris ,
+        :calotis-anthemoides ,
+        :carex-inversa ,
+        :casuarina-cunninghamiana-subsp-cunninghamiana ,
+        :centranthus-ruber ,
+        :centrolepis-strigosa ,
+        :cercartetus-nanus ,
+        :cheilanthes-sieberi ,
+        :chelodina-longicollis ,
+        :chenonetta-jubata ,
+        :chenopodium-album ,
+        :christinus-marmoratus ,
+        :chrysocephalum-apiculatum ,
+        :chrysodeixis-argentifera ,
+        :cirsium-vulgare ,
+        :clematis-leptophylla ,
+        :climacteris-picumnus-victoriae ,
+        :columba-livia ,
+        :conium-maculatum ,
+        :cooraboorama-canberrae ,
+        :coracina-novaehollandiae ,
+        :corcorax-melanorhamphos ,
+        :corunastylis-clivicola ,
+        :corvus-coronoides ,
+        :corybas-hispidus ,
+        :cotoneaster-glaucophyllus ,
+        :cracticus-torquatus ,
+        :crinia-parinsignifera ,
+        :crinia-signifera ,
+        :ctenotus-taeniolatus ,
+        :cygnus-atratus ,
+        :cyperus-sanguinolentus ,
+        :dacelo-novaeguineae ,
+        :dama-dama ,
+        :dampiera-fusca ,
+        :daucus-glochidiatus ,
+        :delma-impar ,
+        :dichondra-repens ,
+        :dimorphotheca-ecklonis ,
+        :dipodium-roseum ,
+        :diporiphora-nobbi ,
+        :discaria-pubescens ,
+        :diuris-chryseopsis ,
+        :diuris-pardina ,
+        :diuris-sulphurea ,
+        :dodonaea-viscosa ,
+        :drosera-sp ,
+        :ectropis-sp ,
+        :einadia-nutans-subsp-nutans ,
+        :elanus-axillaris ,
+        :eleocharis-sphacelata ,
+        :eleusine-tristachya ,
+        :eolophus-roseicapilla ,
+        :erigeron-sumatrensis ,
+        :eriochilus-cucullatus ,
+        :eryngium-ovinum ,
+        :euastacus-sp ,
+        :eucalyptus ,
+        :eulamprus-heatwolei ,
+        :falco-berigora ,
+        :felis-catus ,
+        :ficus-carica ,
+        :gadopsis-bispinosa ,
+        :gentianella-polysperes ,
+        :glossodia-major ,
+        :goodenia-hederacea-subsp-alpestris ,
+        :goodenia-pinnatifida ,
+        :grevillea-arenaria-subsp-arenaria ,
+        :hackelia-suaveolens ,
+        :haliaeetus-leucogaster ,
+        :halone-sejuncta ,
+        :hemicordulia-australiae ,
+        :hemiergis-talbingoensis ,
+        :heteronympha-paradelpha ,
+        :hydrocotyle-sibthorpioides ,
+        :hydromys-chrysogaster ,
+        :hylaeus-honestus ,
+        :hypericum-gramineum ,
+        :hypochaeris-glabra ,
+        :isotoma-fluviatilis-subsp-australis ,
+        :juncus-sp ,
+        :junonia-villida ,
+        :lampropholis-sp ,
+        :lasioglossum-peraustrale ,
+        :leptorhynchos-squamatus-subsp-squamatus ,
+        :leucanthemum-vulgare ,
+        :leucochrysum-albicans-subsp-tricolor ,
+        :leucopogon-fletcheri-subsp-brevisepalus ,
+        :leucopogon-virgatus ,
+        :ligustrum-sp ,
+        :lilaeopsis-polyantha ,
+        :limnodynastes-dumerilii ,
+        :limnodynastes-peronii ,
+        :limnodynastes-tasmaniensis ,
+        :litoria-peronii ,
+        :litoria-verreauxii-verreauxii ,
+        :lobelia-browniana ,
+        :lobelia-simplicicaulis ,
+        :lomandra-filiformis-subsp-coriacea ,
+        :lotus-australis ,
+        :lucia-limbaria ,
+        :luzula-densiflora ,
+        :lythrum-hyssopifolia ,
+        :malacorhynchus-membranaceus ,
+        :manorina-melanocephala ,
+        :maratus-vespertilio ,
+        :megachile-lucidiventris ,
+        :megalyra-sp ,
+        :melanodes-anthracitaria ,
+        :microsorum-pustulatum-subsp-pustulatum ,
+        :microtis-sp ,
+        :mus-musculus ,
+        :myiagra-rubecula ,
+        :nassella-neesiana ,
+        :nassella-trichotoma ,
+        :notamacropus-rufogriseus ,
+        :nyctemera-amicus ,
+        :nycticorax-caledonicus ,
+        :ocybadistes-walkeri ,
+        :olearia-argophylla ,
+        :olearia-lirata ,
+        :olearia-phlogopappa-subsp-serrata ,
+        :orobanche-minor ,
+        :oryctolagus-cuniculus ,
+        :osphranter-robustus ,
+        :oxalis-thompsoniae ,
+        :oxylobium-ellipticum ,
+        :oxyura-australis ,
+        :papyrius-nitidus ,
+        :paralucia-aurifera ,
+        :pardalotus-punctatus ,
+        :passer-domesticus ,
+        :pelargonium-australe ,
+        :pernattia-pusilla ,
+        :petroica-phoenicea ,
+        :pieris-rapae ,
+        :pimelea-linifolia ,
+        :pinus-radiata ,
+        :platycercus-eximius ,
+        :podargus-strigoides ,
+        :pogona-barbata ,
+        :polytelis-swainsonii ,
+        :porphyrio-melanotus ,
+        :prasophyllum-innubum ,
+        :prasophyllum-tadgellianum ,
+        :psephotus-haematonotus ,
+        :pseudonaja-textilis ,
+        :pseudophryne-pengilleyi ,
+        :pterostylis-sp ,
+        :pyracantha-sp ,
+        :pyrrholaemus-sagittatus ,
+        :rattus-rattus ,
+        :rhipidura-albiscapa ,
+        :rhipidura-leucophrys ,
+        :rosa-sp ,
+        :rytidosperma-sp ,
+        :scleranthus-diander ,
+        :senecio-bathurstianus ,
+        :silene-gallica-var-gallica ,
+        :solanum-cinereum ,
+        :spatula-rhynchotis ,
+        :stellaria-pungens ,
+        :stictonetta-naevosa ,
+        :strepera-graculina ,
+        :sturnus-vulgaris ,
+        :stylidium-armeria-subsp-armeria ,
+        :swainsona-recta ,
+        :swainsona-sericea ,
+        :synemon-plana ,
+        :tachyglossus-aculeatus ,
+        :tagetes-erecta ,
+        :thelymitra-sp ,
+        :thysanotus-patersonii ,
+        :tiliqua-nigrolutea ,
+        :tiliqua-rugosa ,
+        :trapezites-eliena ,
+        :trapezites-phigalia ,
+        :trichoglossus-moluccanus ,
+        :trichosurus-vulpecula ,
+        :triptilodiscus-pygmaeus ,
+        :tympanocryptis-lineata ,
+        :uperoleia-laevigata ,
+        :utetheisa-pulchelloides ,
+        :vanessa-kershawi ,
+        :varanus-rosenbergi ,
+        :veronica-sp ,
+        :viburnum-tinus ,
+        :vombatus-ursinus ,
+        :wahlenbergia-sp ,
+        :wallabia-bicolor ,
+        :wurmbea-dioica-subsp-dioica ,
+        :xerochrysum-viscosum ,
+        :zizina-otis ;
+.
+
+:acacia-boormanii
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Acacia boormanii"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Acacia boormanii"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:acacia-genistifolia
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Acacia genistifolia"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Acacia genistifolia"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:acacia-ulicifolia
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Acacia ulicifolia"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Acacia ulicifolia"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:acaena-echinata
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Acaena echinata"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Acaena echinata"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:acanthiza-reguloides
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Acanthiza reguloides"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Acanthiza reguloides"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:acanthorhynchus-tenuirostris
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Acanthorhynchus tenuirostris"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Acanthorhynchus tenuirostris"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:acrocephalus-australis
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Acrocephalus australis"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Acrocephalus australis"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:ajuga-australis
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Ajuga australis"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Ajuga australis"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:alisterus-scapularis
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Alisterus scapularis"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Alisterus scapularis"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:amphibolurus-muricatus
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Amphibolurus muricatus"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Amphibolurus muricatus"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:anas-castanea
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Anas castanea"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Anas castanea"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:anas-gracilis
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Anas gracilis"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Anas gracilis"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:anas-superciliosa
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Anas superciliosa"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Anas superciliosa"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:anhinga-novaehollandiae
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Anhinga novaehollandiae"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Anhinga novaehollandiae"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:antechinus-agilis
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Antechinus agilis"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Antechinus agilis"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:anthochaera-carunculata
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Anthochaera carunculata"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Anthochaera carunculata"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:apis-mellifera
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Apis mellifera"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Apis mellifera"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:aprasia-parapulchella
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Aprasia parapulchella"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Aprasia parapulchella"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:araujia-sericifera
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Araujia sericifera"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Araujia sericifera"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:arthropodium-milleflorum
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Arthropodium milleflorum"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Arthropodium milleflorum"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:arum-italicum
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Arum italicum"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Arum italicum"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:asperula-conferta
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Asperula conferta"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Asperula conferta"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:asplenium-flabellifolium
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Asplenium flabellifolium"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Asplenium flabellifolium"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:austroaeschna-pulchra
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Austroaeschna pulchra"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Austroaeschna pulchra"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:austroargiolestes-calcaris
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Austroargiolestes calcaris"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Austroargiolestes calcaris"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:austrolestes-annulosus
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Austrolestes annulosus"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Austrolestes annulosus"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:austrostipa-densiflora
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Austrostipa densiflora"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Austrostipa densiflora"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:austrostipa-scabra
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Austrostipa scabra"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Austrostipa scabra"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:belenois-java
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Belenois java"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Belenois java"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:blechnum-minus
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Blechnum minus"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Blechnum minus"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:brachychiton-populneus-subsp-populneus
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Brachychiton populneus subsp. populneus"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Brachychiton populneus subsp. populneus"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:brachyscome-rigidula
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Brachyscome rigidula"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Brachyscome rigidula"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:brachyscome-spathulata
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Brachyscome spathulata"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Brachyscome spathulata"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:bursaria-spinosa
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Bursaria spinosa"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Bursaria spinosa"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:cacatua-sanguinea
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Cacatua sanguinea"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Cacatua sanguinea"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:caladenia-actensis
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Caladenia actensis"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Caladenia actensis"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:caladenia-caerulea
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Caladenia caerulea"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Caladenia caerulea"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:caladenia-fuscata
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Caladenia fuscata"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Caladenia fuscata"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:caladenia-montana
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Caladenia montana"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Caladenia montana"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:callistemon-pityoides
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Callistemon pityoides"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Callistemon pityoides"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:calochilus-campestris
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Calochilus campestris"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Calochilus campestris"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:calotis-anthemoides
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Calotis anthemoides"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Calotis anthemoides"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:carex-inversa
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Carex inversa"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Carex inversa"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:casuarina-cunninghamiana-subsp-cunninghamiana
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Casuarina cunninghamiana subsp. cunninghamiana"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Casuarina cunninghamiana subsp. cunninghamiana"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:centranthus-ruber
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Centranthus ruber"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Centranthus ruber"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:centrolepis-strigosa
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Centrolepis strigosa"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Centrolepis strigosa"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:cercartetus-nanus
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Cercartetus nanus"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Cercartetus nanus"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:cheilanthes-sieberi
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Cheilanthes sieberi"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Cheilanthes sieberi"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:chelodina-longicollis
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Chelodina longicollis"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Chelodina longicollis"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:chenonetta-jubata
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Chenonetta jubata"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Chenonetta jubata"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:chenopodium-album
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Chenopodium album"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Chenopodium album"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:christinus-marmoratus
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Christinus marmoratus"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Christinus marmoratus"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:chrysocephalum-apiculatum
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Chrysocephalum apiculatum"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Chrysocephalum apiculatum"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:chrysodeixis-argentifera
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Chrysodeixis argentifera"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Chrysodeixis argentifera"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:cirsium-vulgare
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Cirsium vulgare"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Cirsium vulgare"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:clematis-leptophylla
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Clematis leptophylla"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Clematis leptophylla"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:climacteris-picumnus-victoriae
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Climacteris picumnus victoriae"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Climacteris picumnus victoriae"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:columba-livia
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Columba livia"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Columba livia"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:conium-maculatum
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Conium maculatum"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Conium maculatum"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:cooraboorama-canberrae
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Cooraboorama canberrae"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Cooraboorama canberrae"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:coracina-novaehollandiae
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Coracina novaehollandiae"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Coracina novaehollandiae"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:corcorax-melanorhamphos
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Corcorax melanorhamphos"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Corcorax melanorhamphos"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:corunastylis-clivicola
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Corunastylis clivicola"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Corunastylis clivicola"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:corvus-coronoides
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Corvus coronoides"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Corvus coronoides"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:corybas-hispidus
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Corybas hispidus"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Corybas hispidus"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:cotoneaster-glaucophyllus
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Cotoneaster glaucophyllus"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Cotoneaster glaucophyllus"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:cracticus-torquatus
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Cracticus torquatus"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Cracticus torquatus"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:crinia-parinsignifera
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Crinia parinsignifera"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Crinia parinsignifera"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:crinia-signifera
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Crinia signifera"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Crinia signifera"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:ctenotus-taeniolatus
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Ctenotus taeniolatus"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Ctenotus taeniolatus"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:cygnus-atratus
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Cygnus atratus"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Cygnus atratus"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:cyperus-sanguinolentus
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Cyperus sanguinolentus"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Cyperus sanguinolentus"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:dacelo-novaeguineae
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Dacelo novaeguineae"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Dacelo novaeguineae"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:dama-dama
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Dama dama"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Dama dama"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:dampiera-fusca
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Dampiera fusca"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Dampiera fusca"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:daucus-glochidiatus
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Daucus glochidiatus"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Daucus glochidiatus"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:delma-impar
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Delma impar"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Delma impar"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:dichondra-repens
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Dichondra repens"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Dichondra repens"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:dimorphotheca-ecklonis
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Dimorphotheca ecklonis"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Dimorphotheca ecklonis"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:dipodium-roseum
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Dipodium roseum"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Dipodium roseum"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:diporiphora-nobbi
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Diporiphora nobbi"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Diporiphora nobbi"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:discaria-pubescens
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Discaria pubescens"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Discaria pubescens"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:diuris-chryseopsis
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Diuris chryseopsis"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Diuris chryseopsis"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:diuris-pardina
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Diuris pardina"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Diuris pardina"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:diuris-sulphurea
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Diuris sulphurea"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Diuris sulphurea"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:dodonaea-viscosa
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Dodonaea viscosa"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Dodonaea viscosa"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:drosera-sp
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Drosera sp."@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Drosera sp."@en ;
+	skos:topConceptOf cs: ;
+.
+
+:ectropis-sp
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Ectropis sp."@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Ectropis sp."@en ;
+	skos:topConceptOf cs: ;
+.
+
+:einadia-nutans-subsp-nutans
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Einadia nutans subsp. nutans"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Einadia nutans subsp. nutans"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:elanus-axillaris
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Elanus axillaris"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Elanus axillaris"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:eleocharis-sphacelata
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Eleocharis sphacelata"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Eleocharis sphacelata"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:eleusine-tristachya
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Eleusine tristachya"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Eleusine tristachya"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:eolophus-roseicapilla
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Eolophus roseicapilla"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Eolophus roseicapilla"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:erigeron-sumatrensis
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Erigeron sumatrensis"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Erigeron sumatrensis"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:eriochilus-cucullatus
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Eriochilus cucullatus"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Eriochilus cucullatus"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:eryngium-ovinum
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Eryngium ovinum"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Eryngium ovinum"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:euastacus-sp
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Euastacus sp."@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Euastacus sp."@en ;
+	skos:topConceptOf cs: ;
+.
+
+:eucalyptus
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Eucalyptus genus"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Eucalyptus genus"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:eucalyptus-bridgesiana
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Eucalyptus bridgesiana"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Eucalyptus bridgesiana"@en ;
+	skos:broader :eucalyptus ;
+.
+
+:eucalyptus-globulus
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Eucalyptus globulus"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Eucalyptus globulus"@en ;
+	skos:broader :eucalyptus ;
+.
+
+:eucalyptus-melliodora
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Eucalyptus melliodora"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Eucalyptus melliodora"@en ;
+	skos:broader :eucalyptus ;
+.
+
+:eucalyptus-pauciflora
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Eucalyptus pauciflora"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Eucalyptus pauciflora"@en ;
+	skos:broader :eucalyptus ;
+.
+
+:eucalyptus-polyanthemos
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Eucalyptus polyanthemos"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Eucalyptus polyanthemos"@en ;
+	skos:broader :eucalyptus ;
+.
+
+:eulamprus-heatwolei
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Eulamprus heatwolei"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Eulamprus heatwolei"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:falco-berigora
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Falco berigora"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Falco berigora"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:felis-catus
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Felis catus"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Felis catus"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:ficus-carica
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Ficus carica"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Ficus carica"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:gadopsis-bispinosa
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Gadopsis bispinosa"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Gadopsis bispinosa"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:gentianella-polysperes
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Gentianella polysperes"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Gentianella polysperes"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:glossodia-major
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Glossodia major"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Glossodia major"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:goodenia-hederacea-subsp-alpestris
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Goodenia hederacea subsp. alpestris"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Goodenia hederacea subsp. alpestris"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:goodenia-pinnatifida
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Goodenia pinnatifida"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Goodenia pinnatifida"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:grevillea-arenaria-subsp-arenaria
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Grevillea arenaria subsp. arenaria"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Grevillea arenaria subsp. arenaria"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:hackelia-suaveolens
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Hackelia suaveolens"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Hackelia suaveolens"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:haliaeetus-leucogaster
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Haliaeetus leucogaster"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Haliaeetus leucogaster"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:halone-sejuncta
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Halone sejuncta"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Halone sejuncta"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:hemicordulia-australiae
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Hemicordulia australiae"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Hemicordulia australiae"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:hemiergis-talbingoensis
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Hemiergis talbingoensis"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Hemiergis talbingoensis"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:heteronympha-paradelpha
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Heteronympha paradelpha"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Heteronympha paradelpha"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:hydrocotyle-sibthorpioides
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Hydrocotyle sibthorpioides"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Hydrocotyle sibthorpioides"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:hydromys-chrysogaster
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Hydromys chrysogaster"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Hydromys chrysogaster"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:hylaeus-honestus
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Hylaeus honestus"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Hylaeus honestus"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:hypericum-gramineum
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Hypericum gramineum"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Hypericum gramineum"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:hypochaeris-glabra
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Hypochaeris glabra"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Hypochaeris glabra"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:isotoma-fluviatilis-subsp-australis
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Isotoma fluviatilis subsp. australis"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Isotoma fluviatilis subsp. australis"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:juncus-fockei
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Juncus fockei"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Juncus fockei"@en ;
+	skos:broader :juncus-sp ;
+.
+
+:juncus-sp
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Juncus sp."@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Juncus sp."@en ;
+	skos:topConceptOf cs: ;
+.
+
+:junonia-villida
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Junonia villida"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Junonia villida"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:lampropholis-delicata
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Lampropholis delicata"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Lampropholis delicata"@en ;
+	skos:broader :lampropholis-sp ;
+.
+
+:lampropholis-sp
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Lampropholis sp."@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Lampropholis sp."@en ;
+	skos:topConceptOf cs: ;
+.
+
+:lasioglossum-peraustrale
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Lasioglossum peraustrale"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Lasioglossum peraustrale"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:leptorhynchos-squamatus-subsp-squamatus
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Leptorhynchos squamatus subsp. squamatus"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Leptorhynchos squamatus subsp. squamatus"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:leucanthemum-vulgare
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Leucanthemum vulgare"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Leucanthemum vulgare"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:leucochrysum-albicans-subsp-tricolor
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Leucochrysum albicans subsp. tricolor"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Leucochrysum albicans subsp. tricolor"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:leucopogon-fletcheri-subsp-brevisepalus
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Leucopogon fletcheri subsp. brevisepalus"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Leucopogon fletcheri subsp. brevisepalus"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:leucopogon-virgatus
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Leucopogon virgatus"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Leucopogon virgatus"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:ligustrum-sp
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Ligustrum sp."@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Ligustrum sp."@en ;
+	skos:topConceptOf cs: ;
+.
+
+:lilaeopsis-polyantha
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Lilaeopsis polyantha"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Lilaeopsis polyantha"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:limnodynastes-dumerilii
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Limnodynastes dumerilii"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Limnodynastes dumerilii"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:limnodynastes-peronii
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Limnodynastes peronii"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Limnodynastes peronii"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:limnodynastes-tasmaniensis
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Limnodynastes tasmaniensis"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Limnodynastes tasmaniensis"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:litoria-peronii
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Litoria peronii"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Litoria peronii"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:litoria-verreauxii-verreauxii
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Litoria verreauxii verreauxii"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Litoria verreauxii verreauxii"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:lobelia-browniana
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Lobelia browniana"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Lobelia browniana"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:lobelia-simplicicaulis
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Lobelia simplicicaulis"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Lobelia simplicicaulis"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:lomandra-filiformis-subsp-coriacea
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Lomandra filiformis subsp. coriacea"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Lomandra filiformis subsp. coriacea"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:lotus-australis
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Lotus australis"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Lotus australis"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:lucia-limbaria
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Lucia limbaria"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Lucia limbaria"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:luzula-densiflora
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Luzula densiflora"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Luzula densiflora"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:lythrum-hyssopifolia
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Lythrum hyssopifolia"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Lythrum hyssopifolia"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:malacorhynchus-membranaceus
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Malacorhynchus membranaceus"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Malacorhynchus membranaceus"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:manorina-melanocephala
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Manorina melanocephala"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Manorina melanocephala"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:maratus-vespertilio
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Maratus vespertilio"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Maratus vespertilio"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:megachile-lucidiventris
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Megachile lucidiventris"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Megachile lucidiventris"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:megalyra-sp
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Megalyra sp."@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Megalyra sp."@en ;
+	skos:topConceptOf cs: ;
+.
+
+:melanodes-anthracitaria
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Melanodes anthracitaria"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Melanodes anthracitaria"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:microsorum-pustulatum-subsp-pustulatum
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Microsorum pustulatum subsp. pustulatum"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Microsorum pustulatum subsp. pustulatum"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:microtis-sp
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Microtis sp."@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Microtis sp."@en ;
+	skos:topConceptOf cs: ;
+.
+
+:mus-musculus
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Mus musculus"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Mus musculus"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:myiagra-rubecula
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Myiagra rubecula"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Myiagra rubecula"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:nassella-neesiana
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Nassella neesiana"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Nassella neesiana"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:nassella-trichotoma
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Nassella trichotoma"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Nassella trichotoma"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:notamacropus-rufogriseus
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Notamacropus rufogriseus"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Notamacropus rufogriseus"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:nyctemera-amicus
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Nyctemera amicus"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Nyctemera amicus"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:nycticorax-caledonicus
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Nycticorax caledonicus"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Nycticorax caledonicus"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:ocybadistes-walkeri
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Ocybadistes walkeri"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Ocybadistes walkeri"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:olearia-argophylla
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Olearia argophylla"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Olearia argophylla"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:olearia-lirata
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Olearia lirata"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Olearia lirata"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:olearia-phlogopappa-subsp-serrata
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Olearia phlogopappa subsp. serrata"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Olearia phlogopappa subsp. serrata"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:orobanche-minor
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Orobanche minor"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Orobanche minor"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:oryctolagus-cuniculus
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Oryctolagus cuniculus"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Oryctolagus cuniculus"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:osphranter-robustus
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Osphranter robustus"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Osphranter robustus"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:oxalis-thompsoniae
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Oxalis thompsoniae"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Oxalis thompsoniae"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:oxylobium-ellipticum
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Oxylobium ellipticum"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Oxylobium ellipticum"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:oxyura-australis
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Oxyura australis"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Oxyura australis"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:papyrius-nitidus
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Papyrius nitidus"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Papyrius nitidus"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:paralucia-aurifera
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Paralucia aurifera"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Paralucia aurifera"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:pardalotus-punctatus
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Pardalotus punctatus"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Pardalotus punctatus"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:passer-domesticus
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Passer domesticus"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Passer domesticus"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:pelargonium-australe
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Pelargonium australe"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Pelargonium australe"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:pernattia-pusilla
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Pernattia pusilla"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Pernattia pusilla"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:petroica-phoenicea
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Petroica phoenicea"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Petroica phoenicea"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:pieris-rapae
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Pieris rapae"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Pieris rapae"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:pimelea-linifolia
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Pimelea linifolia"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Pimelea linifolia"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:pinus-radiata
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Pinus radiata"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Pinus radiata"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:platycercus-eximius
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Platycercus eximius"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Platycercus eximius"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:podargus-strigoides
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Podargus strigoides"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Podargus strigoides"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:pogona-barbata
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Pogona barbata"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Pogona barbata"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:polytelis-swainsonii
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Polytelis swainsonii"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Polytelis swainsonii"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:porphyrio-melanotus
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Porphyrio melanotus"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Porphyrio melanotus"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:prasophyllum-innubum
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Prasophyllum innubum"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Prasophyllum innubum"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:prasophyllum-tadgellianum
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Prasophyllum tadgellianum"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Prasophyllum tadgellianum"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:psephotus-haematonotus
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Psephotus haematonotus"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Psephotus haematonotus"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:pseudonaja-textilis
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Pseudonaja textilis"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Pseudonaja textilis"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:pseudophryne-pengilleyi
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Pseudophryne pengilleyi"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Pseudophryne pengilleyi"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:pterostylis-aciculiformis
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Pterostylis aciculiformis"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Pterostylis aciculiformis"@en ;
+	skos:broader :pterostylis-sp ;
+.
+
+:pterostylis-ampliata
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Pterostylis ampliata"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Pterostylis ampliata"@en ;
+	skos:broader :pterostylis-sp ;
+.
+
+:pterostylis-curta
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Pterostylis curta"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Pterostylis curta"@en ;
+	skos:broader :pterostylis-sp ;
+.
+
+:pterostylis-cycnocephala
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Pterostylis cycnocephala"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Pterostylis cycnocephala"@en ;
+	skos:broader :pterostylis-sp ;
+.
+
+:pterostylis-decurva
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Pterostylis decurva"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Pterostylis decurva"@en ;
+	skos:broader :pterostylis-sp ;
+.
+
+:pterostylis-jonesii
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Pterostylis jonesii"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Pterostylis jonesii"@en ;
+	skos:broader :pterostylis-sp ;
+.
+
+:pterostylis-rubescens
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Pterostylis rubescens"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Pterostylis rubescens"@en ;
+	skos:broader :pterostylis-sp ;
+.
+
+:pterostylis-sp
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Pterostylis sp."@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Pterostylis sp."@en ;
+	skos:topConceptOf cs: ;
+.
+
+:pyracantha-sp
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Pyracantha sp."@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Pyracantha sp."@en ;
+	skos:topConceptOf cs: ;
+.
+
+:pyrrholaemus-sagittatus
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Pyrrholaemus sagittatus"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Pyrrholaemus sagittatus"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:rattus-rattus
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Rattus rattus"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Rattus rattus"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:rhipidura-albiscapa
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Rhipidura albiscapa"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Rhipidura albiscapa"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:rhipidura-leucophrys
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Rhipidura leucophrys"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Rhipidura leucophrys"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:rosa-canina
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Rosa canina"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Rosa canina"@en ;
+	skos:broader :rosa-sp ;
+.
+
+:rosa-sp
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Rosa sp."@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Rosa sp."@en ;
+	skos:topConceptOf cs: ;
+.
+
+:rytidosperma-carphoides
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Rytidosperma carphoides"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Rytidosperma carphoides"@en ;
+	skos:broader :rytidosperma-sp ;
+.
+
+:rytidosperma-oreophilum
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Rytidosperma oreophilum"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Rytidosperma oreophilum"@en ;
+	skos:broader :rytidosperma-sp ;
+.
+
+:rytidosperma-pallidum
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Rytidosperma pallidum"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Rytidosperma pallidum"@en ;
+	skos:broader :rytidosperma-sp ;
+.
+
+:rytidosperma-sp
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Rytidosperma sp."@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Rytidosperma sp."@en ;
+	skos:topConceptOf cs: ;
+.
+
+:scleranthus-diander
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Scleranthus diander"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Scleranthus diander"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:senecio-bathurstianus
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Senecio bathurstianus"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Senecio bathurstianus"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:silene-gallica-var-gallica
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Silene gallica var. gallica"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Silene gallica var. gallica"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:solanum-cinereum
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Solanum cinereum"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Solanum cinereum"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:spatula-rhynchotis
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Spatula rhynchotis"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Spatula rhynchotis"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:stellaria-pungens
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Stellaria pungens"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Stellaria pungens"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:stictonetta-naevosa
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Stictonetta naevosa"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Stictonetta naevosa"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:strepera-graculina
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Strepera graculina"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Strepera graculina"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:sturnus-vulgaris
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Sturnus vulgaris"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Sturnus vulgaris"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:stylidium-armeria-subsp-armeria
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Stylidium armeria subsp. armeria"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Stylidium armeria subsp. armeria"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:swainsona-recta
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Swainsona recta"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Swainsona recta"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:swainsona-sericea
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Swainsona sericea"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Swainsona sericea"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:synemon-plana
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Synemon plana"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Synemon plana"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:tachyglossus-aculeatus
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Tachyglossus aculeatus"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Tachyglossus aculeatus"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:tagetes-erecta
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Tagetes erecta"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Tagetes erecta"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:thelymitra-sp
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Thelymitra sp."@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Thelymitra sp."@en ;
+	skos:topConceptOf cs: ;
+.
+
+:thysanotus-patersonii
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Thysanotus patersonii"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Thysanotus patersonii"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:tiliqua-nigrolutea
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Tiliqua nigrolutea"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Tiliqua nigrolutea"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:tiliqua-rugosa
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Tiliqua rugosa"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Tiliqua rugosa"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:trapezites-eliena
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Trapezites eliena"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Trapezites eliena"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:trapezites-phigalia
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Trapezites phigalia"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Trapezites phigalia"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:trichoglossus-moluccanus
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Trichoglossus moluccanus"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Trichoglossus moluccanus"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:trichosurus-vulpecula
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Trichosurus vulpecula"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Trichosurus vulpecula"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:triptilodiscus-pygmaeus
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Triptilodiscus pygmaeus"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Triptilodiscus pygmaeus"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:tympanocryptis-lineata
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Tympanocryptis lineata"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Tympanocryptis lineata"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:uperoleia-laevigata
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Uperoleia laevigata"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Uperoleia laevigata"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:utetheisa-pulchelloides
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Utetheisa pulchelloides"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Utetheisa pulchelloides"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:vanessa-kershawi
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Vanessa kershawi"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Vanessa kershawi"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:varanus-rosenbergi
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Varanus rosenbergi"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Varanus rosenbergi"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:veronica-sp
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Veronica sp."@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Veronica sp."@en ;
+	skos:topConceptOf cs: ;
+.
+
+:viburnum-tinus
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Viburnum tinus"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Viburnum tinus"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:vombatus-ursinus
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Vombatus ursinus"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Vombatus ursinus"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:wahlenbergia-sp
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Wahlenbergia sp."@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Wahlenbergia sp."@en ;
+	skos:topConceptOf cs: ;
+.
+
+:wallabia-bicolor
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Wallabia bicolor"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Wallabia bicolor"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:wurmbea-dioica-subsp-dioica
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Wurmbea dioica subsp. dioica"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Wurmbea dioica subsp. dioica"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:xerochrysum-viscosum
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Xerochrysum viscosum"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Xerochrysum viscosum"@en ;
+	skos:topConceptOf cs: ;
+.
+
+:zizina-otis
+	a skos:Concept ;
+	rdfs:isDefinedBy cs: ;
+	skos:definition "Zizina otis"@en ;
+	skos:inScheme cs: ;
+	skos:prefLabel "Zizina otis"@en ;
+	skos:topConceptOf cs: ;
 .
