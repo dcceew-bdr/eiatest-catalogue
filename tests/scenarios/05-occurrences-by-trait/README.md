@@ -15,6 +15,21 @@ ont:hasContextObject obo:PO_0004518 .  # bark (27)
 obo:PO_0009001  # fruit (24+)
 PO_0000003  # whole plant (89+)
 
+```
+PREFIX dwc: <http://rs.tdwg.org/dwc/terms/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+SELECT *
+WHERE {
+  ?c a skos:Concept ;
+      skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+	.
+  
+  MINUS {
+    ?c dwc:kingdom <https://linked.data.gov.au/dataset/eiatest/nsl/plantae>
+  }
+}
+```
+
 ### Postconditions
 
 ## Queries
