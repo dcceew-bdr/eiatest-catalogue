@@ -3,6 +3,7 @@ PREFIX geo: <http://www.opengis.net/ont/geosparql#>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX prov: <http://www.w3.org/ns/prov#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX schema: <https://schema.org/>
 PREFIX sh: <http://www.w3.org/ns/shacl#>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -218,7 +219,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 :Requirement-FC-part-of
 	a sh:NodeShape ;
 	sh:targetClass geo:FeatureCollection ;
-    sh:message "Requirement-FC-part-of: Each Feature Collection MUST indicate that it is part of exactly one schema:Dataset instance with use of the schema:isPartOf predicate or the Dataset must indicate the Feature Collection is a part of it with schema:hasPart" ;
+    sh:message "Requirement-FC-part-of: Each Feature Collection MUST indicate that it is part of exactly one schema:Dataset instance with use of the schema:isPartOf predicate or the Dataset must indicate the Feature Collection is a part of it with rdfs:member" ;
     sh:or (
         [
             sh:property [
@@ -230,7 +231,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         ]
         [
             sh:property [
-                sh:path [ sh:inversePath schema:hasPart ] ;
+                sh:path [ sh:inversePath rdfs:member ] ;
                 sh:minCount 1 ;
                 sh:maxCount 1 ;
                 sh:class schema:Dataset ;
@@ -283,7 +284,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 :Requirement-F-part-of
 	a sh:NodeShape ;
 	sh:targetClass geo:Feature ;
-    sh:message "Requirement-F-part-of: Each Feature MUST indicate that it is part of exactly one geo:FeatureCollection instance with use of the schema:isPartOf predicate" ;
+    sh:message "Requirement-F-part-of: Each Feature MUST indicate that it is part of exactly one geo:FeatureCollection instance with use of the schema:isPartOf predicate or Feature Collection must indicate the Feature Collection is a part of it with rdfs:member" ;
     sh:or (
         [
             sh:property [
@@ -295,7 +296,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         ]
         [
             sh:property [
-                sh:path [ sh:inversePath schema:hasPart ] ;
+                sh:path [ sh:inversePath rdfs:member ] ;
                 sh:minCount 1 ;
                 sh:maxCount 1 ;
                 sh:class geo:FeatureCollection ;

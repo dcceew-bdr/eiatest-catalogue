@@ -1,6 +1,7 @@
 PREFIX geo: <http://www.opengis.net/ont/geosparql#>
 PREFIX ns1: <https://w3id.org/tern/ontologies/tern/>
 PREFIX ns2: <http://rs.tdwg.org/dwc/terms/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX schema: <https://schema.org/>
 PREFIX time: <http://www.w3.org/2006/time#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
@@ -29,12 +30,12 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 Using Knowledge Graph technology, the BDR consolidates biodiversity data currently scattered across government, industry, and research institutions. It supports Australia's Nature Positive agenda by making biodiversity data more accessible, accurate, and interoperable with existing environmental information systems.
 
 This dataset is a small sample of BDR data for the Australian Capital Territory only.""" ;
-    schema:hasPart <https://linked.data.gov.au/dataset/eiatest/bdr-act/incidental-occurrences> ;
+    rdfs:member <https://linked.data.gov.au/dataset/eiatest/bdr-act/incidental-occurrences> ;
     schema:keywords <http://vocabs.lter-europe.net/EnvThes/21673> ;
     schema:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
     schema:name "Biodiversity Data Repository Dataset for the ACT" ;
     schema:publisher <https://linked.data.gov.au/org/dcceew> ;
-    schema:version "3" ;
+    schema:version "4" ;
 .
 
 <https://linked.data.gov.au/dataset/bdr/e5f57231-972f-41be-9215-93c216e92a63/occurrence/002AB487-4DA0-492B-920B-599A4ADA66D2>
@@ -8033,7 +8034,7 @@ This dataset is a small sample of BDR data for the Australian Capital Territory 
                 ] ;
         ] ;
     schema:description "Incidental occurrence observations of taxa" ;
-    schema:hasPart
+    rdfs:member
         <https://linked.data.gov.au/dataset/bdr/e5f57231-972f-41be-9215-93c216e92a63/occurrence/002AB487-4DA0-492B-920B-599A4ADA66D2> ,
         <https://linked.data.gov.au/dataset/bdr/e5f57231-972f-41be-9215-93c216e92a63/occurrence/0097E6C0-20CE-461C-AB32-4EC91CB963B0> ,
         <https://linked.data.gov.au/dataset/bdr/e5f57231-972f-41be-9215-93c216e92a63/occurrence/01D748EB-DF67-460F-A6A6-BDD19701B959> ,

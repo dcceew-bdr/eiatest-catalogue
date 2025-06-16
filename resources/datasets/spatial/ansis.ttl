@@ -3,6 +3,7 @@ PREFIX alum: <https://linked.data.gov.au/def/alum/>
 PREFIX ansis: <https://anzsoil.org/def/au/domain/>
 PREFIX geo: <http://www.opengis.net/ont/geosparql#>
 PREFIX ls: <http://anzsoil.org/def/au/asls/land-surface/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX schema: <https://schema.org/>
 PREFIX sp: <http://anzsoil.org/def/au/asls/soil-profile/>
 PREFIX subst: <http://anzsoil.org/def/au/asls/substrate/>
@@ -22,7 +23,7 @@ This system is a federator so the data is delivered from their respective points
         <https://linked.data.gov.au/org/daff> ;
     schema:citation "Annotations taken from https://ansis.net/" ;
     schema:dateCreated "2025-05-15"^^xsd:date ;
-    schema:dateModified "2025-06-11"^^xsd:date ;
+    schema:dateModified "2025-06-16"^^xsd:date ;
     schema:keywords <http://vocabs.lter-europe.net/EnvThes/24> ;  # soil
     schema:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
     schema:publisher <https://linked.data.gov.au/org/daff> ;
@@ -35,7 +36,8 @@ This system is a federator so the data is delivered from their respective points
         time:hasBeginning [ time:inXSDgYear "1966"^^xsd:gYear ] ;
         time:hasEnd [ time:inXSDgYear "2014"^^xsd:gYear ] ;
     ] ;
-    schema:hasPart ss: ;
+    rdfs:member ss: ;
+    schema:version "1" ;
 .
 
 ss:
@@ -50,7 +52,7 @@ ss:
         time:hasBeginning [ time:inXSDgYear "1966"^^xsd:gYear ] ;
         time:hasEnd [ time:inXSDgYear "2014"^^xsd:gYear ] ;
     ] ;
-    schema:hasPart
+    rdfs:member
         :006cfc71-b6a0-46d2-a6bb-51565f7a7f9f ,
         :006e2173-e6cc-4aa3-b3f4-05ed49417322 ,
         :015e3961-93bc-4912-b8eb-c29b54c00bd1 ,

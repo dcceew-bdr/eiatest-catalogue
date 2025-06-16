@@ -1,5 +1,6 @@
 PREFIX : <https://linked.data.gov.au/dataset/eiatest/ref-areas/>
 PREFIX geo: <http://www.opengis.net/ont/geosparql#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX schema: <https://schema.org/>
 PREFIX tern: <https://w3id.org/tern/ontologies/tern/>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
@@ -11,7 +12,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:description "Important named areas in Australia to be used as reference area " ;
     schema:creator <https://linked.data.gov.au/org/dcceew> ;
     schema:dateCreated "2025-06-10"^^xsd:date ;
-    schema:dateModified "2025-06-11"^^xsd:date ;
+    schema:dateModified "2025-06-16"^^xsd:date ;
     schema:keywords
         <http://vocabs.lter-europe.net/EnvThes/20700> ,  # organizational unit
         <http://vocabs.lter-europe.net/EnvThes/21891> ;  # terrestrial ecosystem
@@ -21,8 +22,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         a geo:Geometry ;
         geo:asWKT "POLYGON ((96 -45, 96 -9, 168 -9, 168 -45, 96 -45))"^^geo:wktLiteral ;  # ACT BB
     ] ;
-    schema:hasPart
+    rdfs:member
         :aus-and-states ;
+    schema:version "1" ;
 .
 
 :aus-and-states
@@ -34,7 +36,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         a geo:Geometry ;
         geo:asWKT "POLYGON ((149.2626256835152 -35.02249299190089, 149.12254736436992 -35.122660728496406, 149.01142378158428 -35.18213532209999, 148.94647126488562 -35.28621586090627, 148.88856179216634 -35.264304168526, 148.8103057479511 -35.29169378400134, 148.74378811036814 -35.35899398202645, 148.78448125336007 -35.411425531650664, 148.7641346818641 -35.47090012525425, 148.7656998027484 -35.54993872991165, 148.7876114951287 -35.66810535667667, 148.907343242778 -35.827747686875774, 148.99733769362552 -35.867658269425554, 149.16167538647755 -35.7894022252103, 149.26575592528383 -35.74557884044977, 149.2798420132426 -35.726797389838104, 149.3455770903834 -35.61019588395739, 149.45435299184257 -35.54446080681658, 149.31975259579235 -35.3597765424686, 149.28062457368472 -35.26039136631524, 149.312709551813 -35.0733594206408, 149.312709551813 -35.0733594206408, 149.2626256835152 -35.02249299190089))"^^geo:wktLiteral ;  # ACT approx convex hull
     ] ;
-    schema:hsPart
+    rdfs:member
         :australia ;
 .
 
