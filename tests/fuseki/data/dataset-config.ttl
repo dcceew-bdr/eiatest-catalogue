@@ -6,6 +6,8 @@
 @prefix tdb2:   <http://jena.apache.org/2016/tdb#> .
 @prefix geosparql: <http://jena.apache.org/geosparql#> .
 @prefix text: <http://jena.apache.org/text#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <https://schema.org/> .
 
 ja:DatasetRDFS  rdfs:subClassOf  ja:RDFDataset .
 
@@ -93,6 +95,6 @@ ja:MemoryDataset  rdfs:subClassOf  ja:RDFDataset .
     text:langField        "lang" ;
     text:graphField       "graph" ;
     text:map (
-        [ text:field "label" ;
-          text:predicate rdfs:label ]
+        [ text:field "label" ; text:predicate skos:prefLabel ]
+        [ text:field "name" ; text:predicate schema:name ]
     ) .
