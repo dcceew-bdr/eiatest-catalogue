@@ -1,0 +1,74 @@
+PREFIX ns1: <http://example.com/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<https://linked.data.gov.au/dataset/eiatest/eia-demo-collection>
+    a skos:Collection ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/apd-nsl> ;
+    skos:definition "A static collection of 5 traits to be used for demonstrations within the EIA Scenario Demonstrator tool"@en ;
+    skos:historyNote "Made in June, 2025 y the BDR Team, for demonstration purposes only." ;
+    skos:inScheme <https://linked.data.gov.au/dataset/eiatest/apd-nsl> ;
+    skos:member
+        <https://w3id.org/APD/traits/bark_morphology_eucalyptus_eucalypt_box> ,
+        <https://w3id.org/APD/traits/bark_morphology_eucalyptus_eucalypt_gum> ,
+        <https://w3id.org/APD/traits/perianth_colour_orange> ,
+        <https://w3id.org/APD/traits/perianth_colour_red> ,
+        <https://w3id.org/APD/traits/perianth_colour_white> ,
+        <https://w3id.org/APD/traits/perianth_colour_yellow> ;
+    skos:prefLabel "EIA Demonstration collection"@en ;
+.
+
+<https://w3id.org/APD/traits/bark_morphology_eucalyptus_eucalypt_box>
+    ns1:exhibitorOfTrait
+        <https://id.biodiversity.org.au/instance/apni/613405> ,
+        <https://id.biodiversity.org.au/instance/apni/613680> ,
+        <https://id.biodiversity.org.au/instance/apni/657735> ;
+.
+
+<https://w3id.org/APD/traits/bark_morphology_eucalyptus_eucalypt_gum>
+    ns1:exhibitorOfTrait
+        <https://id.biodiversity.org.au/instance/apni/612948> ,
+        <https://id.biodiversity.org.au/instance/apni/613606> ;
+.
+
+<https://w3id.org/APD/traits/perianth_colour_orange>
+    ns1:exhibitorOfTrait <https://id.biodiversity.org.au/instance/apni/51445352> ;
+.
+
+<https://w3id.org/APD/traits/perianth_colour_red>
+    ns1:exhibitorOfTrait <https://id.biodiversity.org.au/instance/apni/51445352> ;
+.
+
+<https://w3id.org/APD/traits/perianth_colour_white>
+    ns1:exhibitorOfTrait
+        <https://id.biodiversity.org.au/instance/apni/612948> ,
+        <https://id.biodiversity.org.au/instance/apni/613405> ,
+        <https://id.biodiversity.org.au/instance/apni/613606> ,
+        <https://id.biodiversity.org.au/instance/apni/613680> ,
+        <https://id.biodiversity.org.au/instance/apni/657735> ;
+.
+
+<https://w3id.org/APD/traits/perianth_colour_yellow>
+    ns1:exhibitorOfTrait
+        <https://id.biodiversity.org.au/instance/apni/51433716> ,
+        <https://id.biodiversity.org.au/instance/apni/722977> ;
+.
+
+<https://linked.data.gov.au/dataset/eiatest/apd-nsl>
+    a schema:CreativeWork ;
+    schema:citation "Created for the EIA Test Catalogue demonstrator" ;
+    schema:creator <https://linked.data.gov.au/org/dcceew> ;
+    schema:dateCreated "2025-06-16"^^xsd:date ;
+    schema:dateModified "2025-06-17"^^xsd:date ;
+    schema:description "Maps traits in the APD to Taxon Names in the NSL." ;
+    schema:hasPart <https://w3id.org/APD/traits/eia-demo> ;
+    schema:keywords
+        <http://vocabs.lter-europe.net/EnvThes/10023> ,
+        <http://vocabs.lter-europe.net/EnvThes/21654> ;
+    schema:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
+    schema:name "AusTraits to NSL Mapping Linkset" ;
+    schema:publisher <https://linked.data.gov.au/org/dcceew> ;
+    schema:version "3" ;
+.
