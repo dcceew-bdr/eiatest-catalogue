@@ -58,7 +58,7 @@ dependencies = [
 [package.metadata]
 requires-dist = [
     { name = "httpx", specifier = ">=0.28.1,<0.29.0" },
-    { name = "kurra", specifier = ">=1.5.2" },
+    { name = "kurra", specifier = ">=1.5.4" },
     { name = "rdflib", specifier = ">=7.1.4" },
 ]
 
@@ -119,7 +119,7 @@ wheels = [
 
 [[package]]
 name = "kurra"
-version = "1.5.2"
+version = "1.5.4"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "httpx" },
@@ -128,9 +128,9 @@ dependencies = [
     { name = "rich" },
     { name = "typer" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/43/ed/afa98d28ee2eecc889eef3debbebe04320d63c0ba2c068db70a41ca26d67/kurra-1.5.2.tar.gz", hash = "sha256:b15022223f739772765b9e3c5aca5f758e6e82c84d37b613ea58799c82390e3f", size = 99647 }
+sdist = { url = "https://files.pythonhosted.org/packages/04/49/4ea60cdd40dc7fa55ad4320716244471b5f8da6cedda72745090a151ac31/kurra-1.5.4.tar.gz", hash = "sha256:1e7ba083a73033b795539943453219c98dcad60b9291bb6f360d87a53fee1dbf", size = 101448 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/5c/9d/d882d85503f35c706688da371abe1aca2ff2d77321f964a0a72973abcd7f/kurra-1.5.2-py3-none-any.whl", hash = "sha256:16139188468987340d1936e80056bb8f0cc9a3950a1fa4541982c2215f592a33", size = 18935 },
+    { url = "https://files.pythonhosted.org/packages/3d/7c/a2e7d30bd0709444e15459e5e2922dd0ee9081ee85b019405987fc65572c/kurra-1.5.4-py3-none-any.whl", hash = "sha256:1ac9750b6d09da3875f247340ca6c49a8d95c5a9c899fba344664c25b2c191a1", size = 19033 },
 ]
 
 [[package]]
