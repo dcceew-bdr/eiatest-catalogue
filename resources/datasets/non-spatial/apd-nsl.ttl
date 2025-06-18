@@ -61,7 +61,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:citation "Created for the EIA Test Catalogue demonstrator" ;
     schema:creator <https://linked.data.gov.au/org/dcceew> ;
     schema:dateCreated "2025-06-16"^^xsd:date ;
-    schema:dateModified "2025-06-17"^^xsd:date ;
+    schema:dateModified "2025-06-18"^^xsd:date ;
     schema:description "Maps traits in the APD to Taxon Names in the NSL." ;
     schema:hasPart <https://w3id.org/APD/traits/eia-demo> ;
     schema:keywords
@@ -71,5 +71,5 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
     schema:name "AusTraits to NSL Mapping Linkset" ;
     schema:publisher <https://linked.data.gov.au/org/dcceew> ;
-    schema:version "3" ;
+    schema:version "4" ;
 .

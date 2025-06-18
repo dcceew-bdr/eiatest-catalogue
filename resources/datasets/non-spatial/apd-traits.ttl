@@ -56,7 +56,7 @@ cs:
     schema:citation "https://austraits.org"^^xsd:anyURI ;
     schema:creator <https://austraits.org> ;
     schema:dateCreated "2023-06-07"^^xsd:date ;
-    schema:dateModified "2025-06-14"^^xsd:date ;
+    schema:dateModified "2025-06-18"^^xsd:date ;
     schema:publisher <https://austraits.org> ;
     schema:keywords
         <http://vocabs.lter-europe.net/EnvThes/10023> ,  # trait
@@ -69,7 +69,9 @@ cs:
         :trait_group_0020001 ,
         :trait_group_0030001 ;
     skos:historyNote "This formulation of this AusTraits traits vocabulary contains the same content as the <https://w3id.org/APD/traits> Concept Scheme in the 'AusTraits Plant Dictionary' in the Research Vocabularies Australia system (https://vocabs.ardc.edu.au/viewById/649) but is VocPub valid - a single Concept Scheme." ;
-    skos:prefLabel "AusTraits Plant Dictionary traits"@en .
+    skos:prefLabel "AusTraits Plant Dictionary traits"@en ;
+    schema:version "1" ;
+.
 
 :bark_morphology_eucalyptus_eucalypt_box
     a skos:Concept ;

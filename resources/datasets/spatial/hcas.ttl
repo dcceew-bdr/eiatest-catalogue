@@ -9,7 +9,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:creator <https://linked.data.gov.au/org/csiro> ;
     schema:citation "Data from https://fed.dcceew.gov.au/datasets/habitat-condition-assessment-system-hcas-version-3-1-90m-gridded-habitat-condition-long-term-epoch-1988-2022" ;
     schema:dateCreated "2025-05-15"^^xsd:date ;
-    schema:dateModified "2025-05-27"^^xsd:date ;
+    schema:dateModified "2025-06-18"^^xsd:date ;
     schema:keywords
         <http://vocabs.lter-europe.net/EnvThes/EnvEu_13> ,  # habitat
         <https://linked.data.gov.au/def/eia-dk/characteristics-environment> ;
@@ -19,4 +19,5 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         a geo:Geometry ;
         geo:asWKT "POLYGON ((148.75 -35.12, 148.75 -35.95, 149.425 -35.95, 149.425 -35.12, 148.75 -35.12))"^^geo:wktLiteral ;  # ACT BB
     ] ;
+    schema:version "1" ;
 .

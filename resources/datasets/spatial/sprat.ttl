@@ -9,7 +9,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:creator <https://linked.data.gov.au/org/dcceew> ;
     schema:citation "Annotations taken from https://www.dcceew.gov.au/environment/environmental-information-data/databases-applications/snes" ;
     schema:dateCreated "2025-05-15"^^xsd:date ;
-    schema:dateModified "2025-05-27"^^xsd:date ;
+    schema:dateModified "2025-06-18"^^xsd:date ;
     schema:url "https://www.dcceew.gov.au/environment/environmental-information-data/databases-applications/snes"^^xsd:anyURI ;
     schema:keywords
         <http://vocabs.lter-europe.net/EnvThes/20743> ,  # threatened species
@@ -20,4 +20,5 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         a geo:Geometry ;
         geo:asWKT "POLYGON ((148.75 -35.12, 148.75 -35.95, 149.425 -35.95, 149.425 -35.12, 148.75 -35.12))"^^geo:wktLiteral ;  # ACT BB
     ] ;
+    schema:version "1" ;
 .
