@@ -24,7 +24,9 @@ This system is a federator so the data is delivered from their respective points
     schema:citation "Annotations taken from https://ansis.net/" ;
     schema:dateCreated "2025-05-15"^^xsd:date ;
     schema:dateModified "2025-06-16"^^xsd:date ;
-    schema:keywords <http://vocabs.lter-europe.net/EnvThes/24> ;  # soil
+    schema:keywords
+        <http://vocabs.lter-europe.net/EnvThes/24> ,  # soil
+        <https://linked.data.gov.au/def/eia-dk/observations-soil> ;
     schema:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
     schema:publisher <https://linked.data.gov.au/org/daff> ;
     geo:hasBoundingBox [

@@ -11,7 +11,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:dateCreated "2025-05-15"^^xsd:date ;
     schema:dateModified "2025-05-27"^^xsd:date ;
     schema:url "https://www.dcceew.gov.au/environment/environmental-information-data/databases-applications/snes"^^xsd:anyURI ;
-    schema:keywords <http://vocabs.lter-europe.net/EnvThes/20743> ;  # threatened species
+    schema:keywords
+        <http://vocabs.lter-europe.net/EnvThes/20743> ,  # threatened species
+        <https://linked.data.gov.au/def/eia-dk/characteristics-biodiversity> ;
     schema:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
     schema:publisher <https://linked.data.gov.au/org/dcceew> ;
     geo:hasBoundingBox [

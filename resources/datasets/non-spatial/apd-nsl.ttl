@@ -66,7 +66,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:hasPart <https://w3id.org/APD/traits/eia-demo> ;
     schema:keywords
         <http://vocabs.lter-europe.net/EnvThes/10023> ,
-        <http://vocabs.lter-europe.net/EnvThes/21654> ;
+        <http://vocabs.lter-europe.net/EnvThes/21654> ,
+        <https://linked.data.gov.au/def/eia-dk/characteristics-biodiversity> ;
     schema:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
     schema:name "AusTraits to NSL Mapping Linkset" ;
     schema:publisher <https://linked.data.gov.au/org/dcceew> ;
