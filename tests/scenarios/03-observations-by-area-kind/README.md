@@ -33,13 +33,19 @@ PREFIX time: <http://www.w3.org/2006/time#>
 
 SELECT ?observation ?name ?spatiality ?temporality ?envthes_keyword
 WHERE {
-    VALUES ?envthes_keyword {
-        <KW1>
-        <KW2>
+    {
+        SELECT ?d 
+        WHERE {
+            VALUES ?eia_kind_keyword {
+                <KW1>
+                <KW2>
+            }
+            ?d schema:keywords eia_kind_keyword
+        }
     }
     
     ?d 
-        schema:keywords ?envthes_keyword
+        schema:keywords ?eia_kind_keyword ;
         rdfs:member/rdfs:member ?feature ;
     .
     
