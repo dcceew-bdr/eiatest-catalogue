@@ -36,21 +36,35 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://w3id.org/profile/ontpub/req/2.1.12>
     a sh:NodeShape ;
-    sh:property [
-        a sh:PropertyShape ;
-        sh:or (
-            [
-                sh:datatype xsd:anyURI ;
-            ]
-            [
+    sh:or (
+        [
+            sh:property [
+                a sh:PropertyShape ;
+                sh:or (
+                    [
+                        sh:datatype xsd:anyURI ;
+                    ]
+                    [
+                        sh:nodeKind sh:Literal ;
+                    ]
+                ) ;
+                sh:message "Requirement 2.1.12a: Ontologies SHOULD present a license for its use indicated with the schema:license use indicating either the literal text of a license or a URL of a license using the datatype xsd:anyURI or they may link to a Semantic Web version of a license via its IRI." ;
+                sh:minCount 1 ;
+                sh:path schema:license ;
+                sh:severity sh:Warning ;
                 sh:nodeKind sh:Literal ;
             ]
-        ) ;
-        sh:message "Requirement 2.1.12: Ontologies SHOULD present a license for its use indicated with the schema:license use indicating either the literal text of a license or a URL of a license using the datatype xsd:anyURI." ;
-        sh:minCount 1 ;
-        sh:path schema:license ;
-        sh:severity sh:Warning
-    ] ;
+        ]
+        [
+            sh:property [
+                a sh:PropertyShape ;
+                sh:minCount 1 ;
+                sh:path schema:license ;
+                sh:severity sh:Warning ;
+                sh:nodeKind sh:IRI ;
+            ]
+        ]
+    ) ;
     sh:targetClass owl:Ontology ;
 .
 
@@ -290,7 +304,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a sh:NodeShape ;
     sh:property [
             sh:description "Requirement 2.1.8 Each ontology MAY have at least any number of contributors, indicated using schema:contributor property that must be a IRI value indicating an agent, that is an instance of schema:Person, schema:Organization or a subclass of either" ;
-            sh:minCount 1 ;
             sh:or (
                 [
                     sh:class schema:Organization

@@ -1,0 +1,23 @@
+PREFIX geo: <http://www.opengis.net/ont/geosparql#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX schema: <https://schema.org/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<https://linked.data.gov.au/dataset/eiatest/nvis-model>
+    a owl:Ontology ;
+    schema:name "National Vegetation Information System (NVIS) Model" ;
+    schema:description """The data model for NVIS, a dataset that provides information on the extent and distribution of vegetation types in Australia.""" ;
+    schema:creator <https://linked.data.gov.au/org/dcceew> ;
+    schema:citation "Annotations taken from https://www.dcceew.gov.au/environment/environment-information-australia/national-vegetation-information-system" ;
+    schema:dateCreated "2025-06-19"^^xsd:date ;
+    schema:dateModified "2025-06-19"^^xsd:date ;
+    schema:dateIssued "2025-06-19"^^xsd:date ;
+    schema:keywords
+        <http://vocabs.lter-europe.net/EnvThes/20537> ;  # vegetation cover
+    schema:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
+    schema:publisher <https://linked.data.gov.au/org/dcceew> ;
+    schema:version "1" ;
+    schema:codeRepository "https://github.com/dcceew-bdr/eiatest-catalogue"^^xsd:anyURI ;
+    schema:copyrightHolder <https://linked.data.gov.au/org/dcceew> ;
+    owl:versionIRI <https://linked.data.gov.au/dataset/eiatest/nvis-model/1> ;
+.

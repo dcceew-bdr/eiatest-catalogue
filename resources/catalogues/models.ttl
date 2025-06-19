@@ -8,16 +8,18 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:codeRepository "https://github.com/dcceew-bdr/eiatest-catalogue" ;
     schema:creator <https://kurrawong.ai> ;
     schema:dateCreated "2025-05-11"^^xsd:date ;
-    schema:dateModified "2025-06-14"^^xsd:date ;
+    schema:dateModified "2025-06-19"^^xsd:date ;
     schema:description """Environmental Information Australia models.
 
 Part of the EIA Test Catalogue.""" ;
     schema:hasPart
         <https://anzsoil.org/def/au/domain> ,
         <https://linked.data.gov.au/def/eia-supermodel> ,
-        <http://terminologies.gfbio.org/terms/ETS/> ;
+        <http://terminologies.gfbio.org/terms/ETS/> ,
+        <https://linked.data.gov.au/dataset/eiatest/nvis-model> ,
+        <https://linked.data.gov.au/dataset/eiatest/bdr-act-model> ;
     schema:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
     schema:name "EIA Test Models Catalogue" ;
     schema:publisher <https://linked.data.gov.au/org/dcceew> ;
-    schema:version "6" ;
+    schema:version "7" ;
 .

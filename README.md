@@ -60,7 +60,7 @@ Once running:
        * `kurra db sparql "DROP ALL" SPARQL_ENDPOINT -u xxx -p yyy`
 3. load custom Prez endpoints definition
    * via the Fuseki UI or using [kurra](https://pypi.org/project/kurra/)
-       * `kurra db upload config/prez-endpoints.ttl SPARQL_ENDPOINT -u xxx -p yyy`
+       * `kurra db upload config/prez-endpoints.ttl SPARQL_ENDPOINT -g http://prez-system -u xxx -p yyy `
 4. sync the data up
    * use [PrezManifest](https://github.com/Kurrawong/prezmanifest)
     * `pm sync manifest.ttl SPARQL_ENDPOINT -u xxx -p yyy`

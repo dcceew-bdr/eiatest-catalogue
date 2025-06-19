@@ -38166,7 +38166,16 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "nitrogen wet deposition"@en .
 
-# <http://vocabs.lter-europe.net/elter_cl/10189> skos:narrower :21747 .
+<http://vocabs.lter-europe.net/elter_cl/10189>
+    a skos:Concept ;
+    skos:altLabel "species traits"@en ;
+    skos:definition "MONERIS keyword"@en ;
+    skos:historyNote "Missing as a Concept in the original; added here" ;
+    skos:inScheme cs: ;
+    skos:narrower :21747 ;
+    skos:prefLabel "MONERIS keyword"@en ;
+    skos:topConceptOf cs: ;
+.
 
 :10024 a skos:Concept ;
     skos:altLabel "species traits"@en ;
