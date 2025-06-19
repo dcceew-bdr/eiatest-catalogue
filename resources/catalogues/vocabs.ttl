@@ -8,7 +8,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:codeRepository "https://github.com/dcceew-bdr/eiatest-catalogue" ;
     schema:creator <https://kurrawong.ai> ;
     schema:dateCreated "2025-05-11"^^xsd:date ;
-    schema:dateModified "2025-06-13"^^xsd:date ;
+    schema:dateModified "2025-06-19"^^xsd:date ;
     schema:description """Environmental Information Australia vocabularies.
 
 Part of the EIA Test Catalogue.""" ;
@@ -19,9 +19,10 @@ Part of the EIA Test Catalogue.""" ;
         <https://w3id.org/APD/glossary> ,
         <http://anzsoil.org/def/au/asls/land-surface> ,
         <http://anzsoil.org/def/au/asls/soil-profile> ,
-        <http://anzsoil.org/def/au/asls/substrate> ;
+        <http://anzsoil.org/def/au/asls/substrate> ,
+        <https://linked.data.gov.au/dataset/eiatest/nvis-veg> ;
     schema:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
     schema:name "EIA Test Vocabularies Catalogue" ;
     schema:publisher <https://linked.data.gov.au/org/dcceew> ;
-    schema:version "5" ;
+    schema:version "6" ;
 .
