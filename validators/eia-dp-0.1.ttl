@@ -41,9 +41,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     sh:targetObjectsOf schema:keywords ;
     sh:property [
         sh:path skos:inScheme ;
-        sh:value <http://vocabs.lter-europe.net/EnvThes> ;
-        sh:minCount 1 ;
-        sh:message "Keywords for the dataset must be Concept IRIs from the EnvThes vocabulary"
+        sh:qualifiedValueShape [ sh:value <http://vocabs.lter-europe.net/EnvThes>  ] ;
+        sh:qualifiedMinCount 1 ;
+        sh:message "At least one keyword for the dataset must be a Concept from the EnvThes vocabulary"
     ] ;
 .
 
