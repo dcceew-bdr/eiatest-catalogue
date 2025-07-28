@@ -21,6 +21,12 @@ You'll see a warning in the docker logs of the `fuseki` service:
 WARN  GeoAssembler    :: Dataset empty. Spatial Index not constructed. Server will require restarting after adding data and any updates to build Spatial Index.
 ```
 
+We need to add a custom Prez Profile for the Occurrences to display properly:
+
+```
+kurra db upload ../../resources/prez-config/profiles.ttl http://localhost:3030/eiatest-catalogue
+```
+
 We can add some data and restart the server:
 ```
 kurra db upload ../../resources/datasets/nvis.ttl http://localhost:3030/eiatest-catalogue
@@ -53,7 +59,7 @@ WHERE {
 Alternatively, for a fully working setup, use prez-manifest to run the following command:
 
 ```
-pm load sparql ../../manifest.ttl http://localhost:3030/eiatest-catalogue/
+pm sync ../../manifest.ttl http://localhost:3030/eiatest-catalogue/
 ```
 
 After the data is loaded, restart the fuseki server and give it time to create the spatial index:
