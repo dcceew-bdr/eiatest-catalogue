@@ -32,7 +32,7 @@ NVIS provides data for extant (current) and estimated pre-1750 native vegetation
     rdfs:member <https://linked.data.gov.au/dataset/eiatest/nvis/act> ;
     schema:keywords
         <http://vocabs.lter-europe.net/EnvThes/20537> ,  # vegetation cover
-        <https://linked.data.gov.au/def/eia-dk/characteristics-vegetation> ;
+        <https://linked.data.gov.au/def/eia-dk/observations-vegetation> ;
 .
 
 <https://linked.data.gov.au/dataset/eiatest/nvis/act>
