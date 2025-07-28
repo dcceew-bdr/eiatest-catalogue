@@ -10,4 +10,7 @@ dependencies = [
     "kurra>=1.5.4",
 ]
 
-
+[dependency-groups]
+dev = [
+    "geopandas>=1.1.1",
+]

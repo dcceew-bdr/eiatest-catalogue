@@ -8,7 +8,6 @@ PREFIX schema: <https://schema.org/>
             dcterms:conformsTo <https://w3id.org/profile/vocpub> ;
             prof:hasArtifact "resources/vocabularies/*.ttl" ;
             prof:hasRole <https://prez.dev/ManifestResourceRoles/ResourceData> ;
-            schema:description "EIA Vocabularies" ;
             schema:name "Vocabularies" ;
         ] ,
         [
@@ -16,48 +15,41 @@ PREFIX schema: <https://schema.org/>
             dcterms:conformsTo "validators/loci-dp.ttl" ;
             prof:hasArtifact "resources/datasets/spatial/*.ttl" ;
             prof:hasRole <https://prez.dev/ManifestResourceRoles/ResourceData> ;
-            schema:description "Spatial EIA Datasets" ;
             schema:name "Spatial Datasets" ;
         ] ,
         [
             # dcterms:conformsTo "validators/bcp.ttl" ;
             prof:hasArtifact "resources/datasets/non-spatial/nsl.ttl" ;
             prof:hasRole <https://prez.dev/ManifestResourceRoles/ResourceData> ;
-            schema:description "Non-spatial EIA Datasets - NSL" ;
             schema:name "Non-Spatial Dataset" ;
         ] ,
         [
             dcterms:conformsTo <https://w3id.org/profile/vocpub> ;
             prof:hasArtifact "resources/datasets/non-spatial/apd-traits.ttl" ;
             prof:hasRole <https://prez.dev/ManifestResourceRoles/ResourceData> ;
-            schema:description "Non-spatial EIA Datasets - AusTraits" ;
             schema:name "Non-Spatial Dataset" ;
         ] ,
         [
             dcterms:conformsTo "validators/bcp.ttl" ;
             prof:hasArtifact "resources/datasets/non-spatial/apd-nsl.ttl" ;
             prof:hasRole <https://prez.dev/ManifestResourceRoles/ResourceData> ;
-            schema:description "Non-spatial EIA Datasets - APD - NSL" ;
             schema:name "Non-Spatial Dataset" ;
         ] ,
         [
             dcterms:conformsTo "validators/ontpub.ttl" ;
             prof:hasArtifact "resources/models/*.ttl" ;
             prof:hasRole <https://prez.dev/ManifestResourceRoles/ResourceData> ;
-            schema:description "EIA Models" ;
             schema:name "Models" ;
         ] ,
         [
             # dcterms:conformsTo "validators/bcp.ttl" ;
             prof:hasArtifact "resources/catalogues/*.ttl" ;
             prof:hasRole <https://prez.dev/ManifestResourceRoles/CatalogueData> ;
-            schema:description "The definition of, and medata for, the several EIA catalogues" ;
             schema:name "Catalogues" ;
         ] ,
         [
             prof:hasArtifact "resources/background/*.ttl" ;
             prof:hasRole <https://prez.dev/ManifestResourceRoles/CompleteCatalogueAndResourceLabels> ;
-            schema:description "Files containing all the labels and vocab inScheme predicates for the resources' content" ;
             schema:name "Background Details" ;
         ] ;
 .
