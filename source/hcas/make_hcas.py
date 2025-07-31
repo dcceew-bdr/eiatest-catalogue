@@ -81,6 +81,7 @@ for i, feature in enumerate(geojson_data["features"]):
     g.add((geom, GEO.asWKT, Literal(shape(feature["geometry"]).wkt, datatype=GEO.wktLiteral)))
     att = BNode()
     g.add((f_iri, TERN.hasAttribute, att))
+    g.add((f_iri, RDF.type, TERN.Attribute))
     g.add((att, TERN.attribute, URIRef("https://linked.data.gov.au/dataset/eiatest/hcas-attributes/habitat-condition")))
     g.add((att, TERN.hasValue, Literal(feature["properties"]["VALUE"], datatype=XSD.float)))
     g.add((HCAS_FC, RDFS.member, f_iri))

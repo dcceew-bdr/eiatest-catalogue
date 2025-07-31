@@ -73,7 +73,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:citation "Data from https://fed.dcceew.gov.au/datasets/habitat-condition-assessment-system-hcas-version-3-1-90m-gridded-habitat-condition-long-term-epoch-1988-2022" ;
     schema:creator <https://linked.data.gov.au/org/csiro> ;
     schema:dateCreated "2025-05-15"^^xsd:date ;
-    schema:dateModified "2025-06-18"^^xsd:date ;
+    schema:dateModified "2025-07-31"^^xsd:date ;
     schema:description "HCAS provides an estimate of habitat condition, using the following inputs: environmental data (ENV) variables, remote sensing data (RS) variables and reference sites condition data." ;
     schema:keywords
         <http://vocabs.lter-europe.net/EnvThes/EnvEu_13> ,
@@ -85,7 +85,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 .
 
 <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000000>
-    a geo:Feature ;
+    a
+        geo:Feature ,
+        tern:Attribute ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -99,7 +101,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 .
 
 <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000001>
-    a geo:Feature ;
+    a
+        geo:Feature ,
+        tern:Attribute ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -113,7 +117,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 .
 
 <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000002>
-    a geo:Feature ;
+    a
+        geo:Feature ,
+        tern:Attribute ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -127,7 +133,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 .
 
 <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000003>
-    a geo:Feature ;
+    a
+        geo:Feature ,
+        tern:Attribute ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -141,7 +149,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 .
 
 <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000004>
-    a geo:Feature ;
+    a
+        geo:Feature ,
+        tern:Attribute ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -155,7 +165,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 .
 
 <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000005>
-    a geo:Feature ;
+    a
+        geo:Feature ,
+        tern:Attribute ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -169,7 +181,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 .
 
 <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000006>
-    a geo:Feature ;
+    a
+        geo:Feature ,
+        tern:Attribute ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -183,7 +197,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 .
 
 <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000007>
-    a geo:Feature ;
+    a
+        geo:Feature ,
+        tern:Attribute ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -197,7 +213,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 .
 
 <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000008>
-    a geo:Feature ;
+    a
+        geo:Feature ,
+        tern:Attribute ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -211,7 +229,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 .
 
 <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000009>
-    a geo:Feature ;
+    a
+        geo:Feature ,
+        tern:Attribute ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -225,7 +245,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 .
 
 <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000010>
-    a geo:Feature ;
+    a
+        geo:Feature ,
+        tern:Attribute ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -239,7 +261,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 .
 
 <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000011>
-    a geo:Feature ;
+    a
+        geo:Feature ,
+        tern:Attribute ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -253,7 +277,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 .
 
 <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000012>
-    a geo:Feature ;
+    a
+        geo:Feature ,
+        tern:Attribute ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -267,7 +293,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 .
 
 <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000013>
-    a geo:Feature ;
+    a
+        geo:Feature ,
+        tern:Attribute ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -281,7 +309,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 .
 
 <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000014>
-    a geo:Feature ;
+    a
+        geo:Feature ,
+        tern:Attribute ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -295,7 +325,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 .
 
 <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000015>
-    a geo:Feature ;
+    a
+        geo:Feature ,
+        tern:Attribute ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -309,7 +341,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 .
 
 <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000016>
-    a geo:Feature ;
+    a
+        geo:Feature ,
+        tern:Attribute ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -323,7 +357,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 .
 
 <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000017>
-    a geo:Feature ;
+    a
+        geo:Feature ,
+        tern:Attribute ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -337,7 +373,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 .
 
 <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000018>
-    a geo:Feature ;
+    a
+        geo:Feature ,
+        tern:Attribute ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -351,7 +389,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 .
 
 <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000019>
-    a geo:Feature ;
+    a
+        geo:Feature ,
+        tern:Attribute ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -365,7 +405,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 .
 
 <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000020>
-    a geo:Feature ;
+    a
+        geo:Feature ,
+        tern:Attribute ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -379,7 +421,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 .
 
 <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000021>
-    a geo:Feature ;
+    a
+        geo:Feature ,
+        tern:Attribute ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -393,7 +437,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 .
 
 <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000022>
-    a geo:Feature ;
+    a
+        geo:Feature ,
+        tern:Attribute ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -407,7 +453,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 .
 
 <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000023>
-    a geo:Feature ;
+    a
+        geo:Feature ,
+        tern:Attribute ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -421,7 +469,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 .
 
 <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000024>
-    a geo:Feature ;
+    a
+        geo:Feature ,
+        tern:Attribute ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -435,7 +485,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 .
 
 <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000025>
-    a geo:Feature ;
+    a
+        geo:Feature ,
+        tern:Attribute ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -449,7 +501,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 .
 
 <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000026>
-    a geo:Feature ;
+    a
+        geo:Feature ,
+        tern:Attribute ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -463,7 +517,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 .
 
 <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000027>
-    a geo:Feature ;
+    a
+        geo:Feature ,
+        tern:Attribute ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -477,7 +533,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 .
 
 <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000028>
-    a geo:Feature ;
+    a
+        geo:Feature ,
+        tern:Attribute ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -491,7 +549,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 .
 
 <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000029>
-    a geo:Feature ;
+    a
+        geo:Feature ,
+        tern:Attribute ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -505,7 +565,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 .
 
 <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000030>
-    a geo:Feature ;
+    a
+        geo:Feature ,
+        tern:Attribute ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -519,7 +581,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 .
 
 <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000031>
-    a geo:Feature ;
+    a
+        geo:Feature ,
+        tern:Attribute ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -533,7 +597,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 .
 
 <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000032>
-    a geo:Feature ;
+    a
+        geo:Feature ,
+        tern:Attribute ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -547,7 +613,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 .
 
 <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000033>
-    a geo:Feature ;
+    a
+        geo:Feature ,
+        tern:Attribute ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -561,7 +629,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 .
 
 <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000034>
-    a geo:Feature ;
+    a
+        geo:Feature ,
+        tern:Attribute ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -575,7 +645,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 .
 
 <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000035>
-    a geo:Feature ;
+    a
+        geo:Feature ,
+        tern:Attribute ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -589,7 +661,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 .
 
 <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000036>
-    a geo:Feature ;
+    a
+        geo:Feature ,
+        tern:Attribute ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -603,7 +677,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 .
 
 <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000037>
-    a geo:Feature ;
+    a
+        geo:Feature ,
+        tern:Attribute ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -617,7 +693,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 .
 
 <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000038>
-    a geo:Feature ;
+    a
+        geo:Feature ,
+        tern:Attribute ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -631,7 +709,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 .
 
 <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000039>
-    a geo:Feature ;
+    a
+        geo:Feature ,
+        tern:Attribute ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -645,7 +725,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 .
 
 <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000040>
-    a geo:Feature ;
+    a
+        geo:Feature ,
+        tern:Attribute ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -659,7 +741,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 .
 
 <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000041>
-    a geo:Feature ;
+    a
+        geo:Feature ,
+        tern:Attribute ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -673,7 +757,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 .
 
 <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000042>
-    a geo:Feature ;
+    a
+        geo:Feature ,
+        tern:Attribute ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -687,7 +773,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 .
 
 <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000043>
-    a geo:Feature ;
+    a
+        geo:Feature ,
+        tern:Attribute ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -701,7 +789,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 .
 
 <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000044>
-    a geo:Feature ;
+    a
+        geo:Feature ,
+        tern:Attribute ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -715,7 +805,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 .
 
 <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000045>
-    a geo:Feature ;
+    a
+        geo:Feature ,
+        tern:Attribute ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -729,7 +821,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 .
 
 <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000046>
-    a geo:Feature ;
+    a
+        geo:Feature ,
+        tern:Attribute ;
     geo:hasGeometry
         [
             a geo:Geometry ;
