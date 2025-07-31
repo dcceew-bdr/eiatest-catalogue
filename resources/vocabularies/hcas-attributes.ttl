@@ -1,0 +1,31 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<https://linked.data.gov.au/dataset/eiatest/hcas-attributes/habitat-condition>
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/hcas-attributes> ;
+    skos:definition "The condition of habitat according to the HCAS dataset, which is a relative measure of the existing condition of observed habitat versus theoretical undisturbed habitat on a scale of 0 - 1, completely disturbed to undisturbed."@en ;
+    skos:inScheme <https://linked.data.gov.au/dataset/eiatest/hcas-attributes> ;
+    skos:prefLabel "Habitat Condition"@en ;
+    skos:topConceptOf <https://linked.data.gov.au/dataset/eiatest/hcas-attributes> ;
+.
+
+<https://linked.data.gov.au/dataset/eiatest/hcas-attributes>
+    a skos:ConceptScheme ;
+    skos:definition "Attributes of habitat as measured within the HCAS dataset"@en ;
+    skos:hasTopConcept
+        <https://linked.data.gov.au/dataset/eiatest/hcas-attributes/habitat-condition> ;
+    skos:historyNote "2025-07: Created for test use in the EIA Test Catalogue" ;
+    skos:prefLabel "HCAS Attributes"@en ;
+    schema:citation "See the HCAS Dataset at https://linked.data.gov.au/dataset/eiatest/hcas"^^xsd:anyURI ;
+    schema:creator <https://linked.data.gov.au/org/dcceew> ;
+    schema:dateCreated "2025-07-31"^^xsd:date ;
+    schema:dateModified "2025-07-31"^^xsd:date ;
+    schema:keywords
+        <http://vocabs.lter-europe.net/EnvThes/20537> ,
+        <https://vocabs.lter-europe.net/EnvThes/en/page/21894> ;
+    schema:publisher <https://linked.data.gov.au/org/dcceew> ;
+    schema:version "1" ;
+.

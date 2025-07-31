@@ -9,7 +9,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:creator <https://linked.data.gov.au/org/csiro> ;
     schema:citation "Data from https://fed.dcceew.gov.au/datasets/habitat-condition-assessment-system-hcas-version-3-1-90m-gridded-habitat-condition-long-term-epoch-1988-2022" ;
     schema:dateCreated "2025-05-15"^^xsd:date ;
-    schema:dateModified "2025-06-18"^^xsd:date ;
+    schema:dateModified "2025-07-31"^^xsd:date ;
     schema:keywords
         <http://vocabs.lter-europe.net/EnvThes/EnvEu_13> ,  # habitat
         <https://linked.data.gov.au/def/eia-dk/characteristics-environment> ;
@@ -17,7 +17,17 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:publisher <https://linked.data.gov.au/org/dcceew> ;
     geo:hasBoundingBox [
         a geo:Geometry ;
-        geo:asWKT "POLYGON ((148.75 -35.12, 148.75 -35.95, 149.425 -35.95, 149.425 -35.12, 148.75 -35.12))"^^geo:wktLiteral ;  # ACT BB
+        geo:asWKT "POLYGON ((148.763096 -35.856001, 148.763096 -35.124591, 149.391917 -35.124591, 149.391917 -35.856001, 148.763096 -35.856001))"^^geo:wktLiteral ;  # HCAS area
     ] ;
     schema:version "1" ;
 .
+
+<https://linked.data.gov.au/dataset/eiatest/hcas/tiles>
+    a geo:FeatureCollection ;
+    geo:hasBoundingBox [
+        a geo:Geometry ;
+        geo:asWKT "POLYGON ((148.763096 -35.856001, 148.763096 -35.124591, 149.391917 -35.124591, 149.391917 -35.856001, 148.763096 -35.856001))"^^geo:wktLiteral ;  # HCAS area
+    ] ;
+    #rdfs:member :1130033,
+    schema:isPartOf <https://linked.data.gov.au/dataset/eiatest/hcas> ;
+    schema:name "HCAS Coarse Tiles for the ACT" .
