@@ -719,6 +719,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 006cfc71-b6a0-46d2-a6bb-51565f7a7f9f" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -760,6 +761,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 006e2173-e6cc-4aa3-b3f4-05ed49417322" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -792,6 +794,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 015e3961-93bc-4912-b8eb-c29b54c00bd1" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -833,6 +836,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 017dbf11-b31c-4c7d-bfc1-468ed3e99def" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -874,6 +878,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 01ab2933-0cbb-4d79-9339-5ed9796f85a7" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -902,6 +907,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 01dbc097-6efd-4608-9c9e-3debd63f7380" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -942,6 +948,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 01dccabe-147a-416d-913f-bf125bfd73e1" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -976,6 +983,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 01ea9c29-92d4-49ae-a677-da8bba80842d" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -1015,6 +1023,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 0209076a-6d45-4dbe-9a71-35759857e77a" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -1056,6 +1065,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 020f903e-3bcb-4b10-90f6-fd1d9bc43b53" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -1097,6 +1107,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 0242492f-9066-4dfb-8a16-f2f225dbee56" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -1137,6 +1148,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 02529ca8-32ee-43b1-8d0b-db2560f4c955" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -1177,6 +1189,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 025fb8c3-6d79-4b2e-97c8-6a4271627359" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -1218,6 +1231,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 02cdb4b3-4c4a-4af7-8010-d3bbd5ef9b64" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -1259,6 +1273,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 02fef733-5eef-42a7-bd32-13f4b0a00bba" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -1300,6 +1315,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 0313023b-c8f4-499d-8b15-b353b3f3147f" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -1341,6 +1357,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 03407baf-95d1-409d-b54c-996f54e10f12" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -1374,6 +1391,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 0341e998-f6d2-406e-b940-8bfddede177e" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -1415,6 +1433,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 037740f1-073b-41c9-a5cd-9d5d135d5223" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -1456,6 +1475,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 03ce7f55-b3b8-40f6-9965-dfbe5a8a4f76" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -1497,6 +1517,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 03e5eec0-473c-4cc6-b7b3-bb00f3791129" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -1538,6 +1559,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 047f1828-ce05-44a0-abc2-92ca447b9d85" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -1579,6 +1601,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 04db2b1a-9b01-44a0-915d-8715b4b3a421" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -1607,6 +1630,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 058546b0-b6c4-40aa-bac8-183b249380b5" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -1635,6 +1659,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 058e0a97-e19f-421f-b12b-473cd8741488" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -1674,6 +1699,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 05a89b2f-2d69-401a-b4b2-3da8550462e2" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -1715,6 +1741,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 061cdd16-34fa-4889-9a70-4f4154c004cb" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -1756,6 +1783,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 0683c0df-fbb6-4459-a79d-58b5e76797a3" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -1797,6 +1825,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 069c8b98-03ee-4ec2-8565-7eadc5b99a01" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -1830,6 +1859,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 06ffbdd6-1a6a-437b-87b2-f35df34e14aa" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -1858,6 +1888,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 07ad58bc-c572-456f-a606-d4de91373d91" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -1892,6 +1923,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 08666e7d-320e-42f0-8203-56268e0014e3" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -1920,6 +1952,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 0866943a-ba0d-466e-91e7-4c81ea710491" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -1961,6 +1994,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 08cae5c1-d48f-4480-bd96-153782ef3c58" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -2002,6 +2036,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 09637289-be9d-4fb5-8e9a-059ba1e83b5f" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -2043,6 +2078,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 09683519-8dbd-4504-85bc-4aaeea5cbe73" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -2081,6 +2117,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 09fb54d5-e7b4-4f10-9aca-0970695d9fe5" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -2122,6 +2159,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 0b1a684e-2a69-4dd7-bd63-cd850b9aa2c3" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -2163,6 +2201,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 0b7b4511-d831-4d54-86e5-d7f626bc2428" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -2204,6 +2243,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 0bb66fe5-8437-4f45-9c8a-6880d91e04ca" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -2245,6 +2285,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 0bbe9eab-3932-48a7-9c2b-520f50ffba86" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -2279,6 +2320,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 0bf06084-6481-4deb-9e77-aab947896505" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -2320,6 +2362,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 0df94a51-7c4d-4437-8dfc-a6b5e928b2fc" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -2361,6 +2404,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 0e472360-f185-4384-9470-31c0ddc94b87" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -2402,6 +2446,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 0e641ce1-d01c-4e1c-9e6c-c35900604b8e" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -2443,6 +2488,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 0e648e90-330e-4728-9262-95bbf53df306" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -2476,6 +2522,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 0e953d12-db26-4f06-b8ed-8b50e862f2b4" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -2516,6 +2563,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 0efa2a2d-dcac-4bb3-b8be-ecb62d596a6f" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -2556,6 +2604,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 0f483fc2-82c4-4c84-8c77-9ba5138af90d" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -2597,6 +2646,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 0f77e730-abaa-4d5a-9fa5-f1563ad5f3f7" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -2637,6 +2687,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 0fe231d9-8a63-4bae-83f8-fdf359fe1b4f" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -2670,6 +2721,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 100599cc-4736-4933-a955-03215b6d96ee" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -2711,6 +2763,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 104905b0-5e2e-4a0c-a5c4-3bd6e6e3d871" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -2752,6 +2805,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 10570cc8-f621-47a8-8aac-164144518e4f" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -2792,6 +2846,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 1098f060-c1b7-4e49-8596-cf74d4a36792" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -2831,6 +2886,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 10c9ffb9-6724-46b6-87da-8d8173168a06" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -2859,6 +2915,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 11b5918f-2b7d-413b-bbbb-37150ee626d9" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -2899,6 +2956,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 122b9810-d24b-4eb5-8842-07399c619275" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -2940,6 +2998,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 127951b7-8ca7-49ee-b6e4-9bbea2465956" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -2981,6 +3040,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 1280ecd0-ab53-41d0-b3dd-c827ba2ee2c3" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -3022,6 +3082,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 12f262b9-2d06-46a7-b350-0862a9b72894" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -3062,6 +3123,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 149fedd7-1a2c-452e-b8f4-11fef5de2744" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -3096,6 +3158,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 14ae5779-d238-4855-b560-beb84f0448f9" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -3137,6 +3200,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 14cbafea-08ef-4fe3-89ab-eb169d5ea07f" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -3178,6 +3242,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 155a5336-5f9d-4b69-8973-f522b03dde9a" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -3219,6 +3284,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 165d04ff-4d21-467c-9144-200f9c58b777" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -3259,6 +3325,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 1673fa9e-3239-4d2a-b25c-f55aa0080f1b" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -3300,6 +3367,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 16e4c8fd-53c2-4bb3-84f2-48cea0f4e19e" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -3341,6 +3409,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 16f2f1a0-583d-42bb-8aa2-9407f9caed2d" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -3381,6 +3450,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 18763fc4-f964-41c8-8b78-32d949a4c94c" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -3422,6 +3492,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 1889573a-33af-4885-a20d-04ffe88e031a" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -3463,6 +3534,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 18f5fa95-60b0-4d99-a134-e264dcfa4eb8" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -3504,6 +3576,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 192ec665-9557-4926-be8e-90435bde7530" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -3542,6 +3615,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 196482db-57f6-493f-98a5-b111c0f3274a" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -3575,6 +3649,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 19f58fe6-7c23-4653-8432-66975f8f1ae0" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -3616,6 +3691,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 1a3f853a-b712-4bd0-9d85-7415dbf8eb03" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -3644,6 +3720,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 1a456c6f-2de3-412d-9d03-a5b14531a5c7" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -3685,6 +3762,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 1b971470-7fb4-4025-bf84-d5f2a1aed94a" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -3713,6 +3791,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 1bdb0c66-e1d2-439d-b7cf-c89a3fbb7cbb" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -3754,6 +3833,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 1c1a11fd-87e4-4587-9c90-d9c733081a60" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -3793,6 +3873,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 1c56f88d-319b-4428-9d6a-218d095096c0" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -3834,6 +3915,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 1d1032f7-cf4b-4921-95d2-f21c6bcafb38" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -3875,6 +3957,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 1dc000a1-3dcf-4256-819c-c882aafed99b" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -3916,6 +3999,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 1e004733-6853-4a17-931e-c8e95cc37bc7" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -3944,6 +4028,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 1e47c0c7-54ed-4946-8569-c2f629670f0b" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -3984,6 +4069,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 1e5c7f8f-d6ff-4ea2-9c7b-17624443ce06" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -4012,6 +4098,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 1e9fa3e3-0029-4efb-9539-06661f50bf4b" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -4053,6 +4140,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 1f01eb11-c163-48c0-91d3-c4b3fb8062a4" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -4092,6 +4180,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 1f0aa0a0-2553-4969-96d6-9371bfd4f899" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -4133,6 +4222,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 1f38fbaa-eb17-40ca-a69e-06bd9772197f" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -4174,6 +4264,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 1f8b06e7-0581-441a-8a86-e2fc85a1a53b" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -4215,6 +4306,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 1fe63a8e-97e0-4ef7-a402-00b5e938e036" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -4254,6 +4346,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 2041e632-5a9d-4976-ad9e-a7a412ec7675" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -4282,6 +4375,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 207bd2d3-0101-4b63-9d9a-46b895454ff9" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -4322,6 +4416,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 209ac7bc-70c1-46d8-aaff-0b5f2c10b466" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -4363,6 +4458,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 20a2d699-b1e9-4c46-95ed-b8892dd272eb" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -4404,6 +4500,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 220e58c7-7f2d-448c-bf42-297b16ef8eec" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -4445,6 +4542,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 235cb088-3498-495a-8d39-7917696899e0" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -4473,6 +4571,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 23f0a371-8fca-472d-8742-6a8253d815ad" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -4514,6 +4613,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 24245fdb-5b69-43d0-ab53-6190df87bb6f" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -4555,6 +4655,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 242c5990-6a43-4b4a-bd12-eca91d1e6bb3" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -4595,6 +4696,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 242e315f-53e7-4acf-8a22-552e6432dcf8" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -4636,6 +4738,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 24b34b63-f650-465a-9cac-e92e1ce67a5d" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -4676,6 +4779,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 24c43091-22b0-4a27-9959-e7c6167674db" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -4716,6 +4820,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 2512b0ce-eb25-480f-b43a-b880bad99715" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -4757,6 +4862,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 251f8022-ea3d-47bc-a946-f6ee1dca5990" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -4790,6 +4896,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 254babd0-246a-4f95-a20b-f6722c9a6926" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -4831,6 +4938,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 26d34316-82d3-4473-a354-f12a7aa9a2aa" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -4871,6 +4979,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 26fb512f-a930-476e-9ffb-acf1e3d6b88f" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -4912,6 +5021,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 26fdcfad-8e0f-412f-9f30-a6aaa4fad1be" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -4953,6 +5063,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 27bb7c32-2a64-4ceb-80ee-d9771696aa5d" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -4994,6 +5105,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 28a5e689-5ee7-4312-90ee-f8d7739395b4" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -5028,6 +5140,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 28c1f2c5-4ac3-47e6-9ceb-0010d596a121" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -5069,6 +5182,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 28eb286e-42d1-45ee-88d2-c31b7bba685c" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -5108,6 +5222,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 291daba2-1640-4c04-9425-7413eaaaeb52" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -5144,6 +5259,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 294da128-a7af-448e-9e51-77bacdb271fa" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -5172,6 +5288,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 29a46bb6-822c-4aaf-ac8b-0274b555901b" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -5213,6 +5330,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 29a9b069-8d9b-4167-9976-1358b66c1d01" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -5241,6 +5359,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 29e8bbc7-1659-4af4-90a3-d18d4ddc66ee" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -5281,6 +5400,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 29f172ae-167e-4afd-bd33-45ec1970c06a" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -5321,6 +5441,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 2a398d8a-0a20-4269-9b32-a1860b0dd65d" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -5361,6 +5482,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 2a56dc4c-ae42-410e-88c3-5c6672db7e00" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -5395,6 +5517,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 2af52155-e4a9-4493-9461-1d283a1dd5b1" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -5436,6 +5559,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 2af9c290-d3f4-4705-861c-279fcc96cf76" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -5477,6 +5601,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 2b4bbb16-29ef-4cf1-8c70-6ce92d682b22" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -5505,6 +5630,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 2b570559-1cd7-4958-9353-26401fb60f43" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -5546,6 +5672,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 2b5fd17a-117a-469e-b565-fca3106335b9" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -5586,6 +5713,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 2b8813b8-3e26-4d5d-9a8d-c9fa2631af1f" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -5627,6 +5755,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 2b94c347-68d2-401f-98eb-f9631599088d" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -5668,6 +5797,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 2b9acd03-6645-4811-8133-cbc100b2ca3b" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -5709,6 +5839,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 2bf1ae9d-db67-443e-a9dc-bd5f3306c960" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -5750,6 +5881,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 2ca3b496-10ec-43a5-8205-6bf22b2ee540" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -5783,6 +5915,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 2cabd977-5525-4b4d-bb1e-c9bf94716c01" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -5823,6 +5956,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 2e29affe-1bb0-4e85-9a54-16ed2cd58876" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -5862,6 +5996,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 2e81397d-196d-4f7c-8d71-79b326dcc15b" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -5902,6 +6037,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 2f104f42-eb5e-4756-b3d8-c08c0b780697" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -5942,6 +6078,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 2fcef32f-84ec-46dc-acd6-878c35920f13" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -5983,6 +6120,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 30580525-c788-46ab-a0dc-dc517a116a18" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -6024,6 +6162,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 30a086c7-7c2a-4fec-90ce-df1c7f16e239" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -6057,6 +6196,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 311314d2-fd22-4957-8a07-c3cf96f01f8f" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -6090,6 +6230,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 312816e0-222b-4e19-864c-f892fe196886" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -6130,6 +6271,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 3138654b-e6ba-44ca-949d-d0ddf5d1db88" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -6163,6 +6305,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 318ec710-0ab2-4865-a83f-3ed569a2d8ed" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -6203,6 +6346,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 31cc069d-dc51-4067-a3fa-f4ce35670986" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -6244,6 +6388,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 32376755-fc88-47c1-9795-55c1f2592b7b" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -6285,6 +6430,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 328856d8-4e73-4c08-a074-ad98c5aa3a5e" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -6326,6 +6472,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 334cc200-7ef7-4652-aad0-90279842f2d9" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -6367,6 +6514,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 3412711b-57d2-4a68-8870-cd73de986072" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -6406,6 +6554,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 3415aa0c-3765-4072-bf2f-82d675e34657" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -6434,6 +6583,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 345d5dd9-352f-4dd3-8c78-21dc8f176c5d" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -6475,6 +6625,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 34c0d4e0-cc9e-4db0-9876-ab3cdb1098f1" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -6516,6 +6667,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 34c29a85-52ff-477a-a6e8-28a5752142ba" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -6549,6 +6701,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 3509356d-e395-47f8-9159-e6f8b0279c33" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -6582,6 +6735,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 35097903-f76d-4011-b3fa-37d3d88bbc14" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -6622,6 +6776,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 356dc389-d302-4f54-89e6-0d04a2aa6e57" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -6662,6 +6817,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 36395688-9732-433e-a398-33084781f205" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -6690,6 +6846,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 36a1a060-ab8c-4f3c-944f-079095de1db6" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -6718,6 +6875,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 36da099d-f06c-46f4-aa14-711e1f0297ca" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -6752,6 +6910,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 37b6d5f2-33b3-4904-b836-7c64c1323042" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -6780,6 +6939,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 37df3923-2260-4583-80e4-25b79c4e0156" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -6821,6 +6981,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 3892f3a4-b39c-403c-9635-fe500503d8de" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -6862,6 +7023,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 392cf992-dc24-41f3-8dee-0c8bef678ff7" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -6903,6 +7065,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 39d29fe5-5c4b-4085-a59a-00cc426851ad" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -6944,6 +7107,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 3baed83c-c145-474b-a698-d76f8782afb3" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -6985,6 +7149,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 3c11bc39-7748-4e72-8157-7992d3a22dc8" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -7025,6 +7190,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 3ce990d9-db4e-4804-924a-fbcf3c5ebec6" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -7066,6 +7232,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 3d16a025-2572-4e4a-a4b6-e12b6e4aaafd" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -7107,6 +7274,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 3daf76a6-725f-4029-b863-428e4712d2ce" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -7148,6 +7316,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 3f0c3ab7-21dc-4075-abd2-44a74098584b" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -7189,6 +7358,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 406e5ed0-e309-4aa5-ad54-f9eb30db3dbb" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -7230,6 +7400,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 412286dc-e557-48d5-ae99-68ae879b3b0f" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -7263,6 +7434,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 417f4a72-13bc-4479-8f8a-0948316020c7" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -7304,6 +7476,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 42a69339-11de-4585-8ad7-050f73550734" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -7345,6 +7518,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 42ef2123-e020-4bbe-8e87-49376cefa87e" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -7373,6 +7547,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 43274438-50f7-4f5e-9eb3-0d2c8ddef8c6" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -7413,6 +7588,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 43302abe-29f2-4b81-99e1-bdb2e83ecd6c" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -7446,6 +7622,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 4354837c-ba06-41c6-92c0-b55b14edf6d4" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -7487,6 +7664,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 443a2e45-e402-439f-bc33-99b36cabd6cf" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -7515,6 +7693,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 451cbe24-9fbc-49ac-83c4-f8ca45e3f041" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -7555,6 +7734,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 45c36859-ef11-4234-9d31-17e33c411dfd" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -7596,6 +7776,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 4600de9c-50f0-4ae8-bc0c-e0879774c833" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -7624,6 +7805,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 46078dfa-28a1-456e-b096-13b1ca7dcc71" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -7664,6 +7846,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 4745df4e-86ba-465c-8984-7c3ee3a4edfd" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -7705,6 +7888,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 488c6394-e33e-4cad-ae9d-763a47ad2a0d" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -7733,6 +7917,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 489beb2d-db38-42ba-ac18-60010ee56694" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -7774,6 +7959,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 49892ac0-cbfb-49eb-84a0-be51a761283b" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -7815,6 +8001,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 49e5c459-c12f-4cfb-be0d-e79fa4d27369" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -7856,6 +8043,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 49efb674-2a07-45c3-9756-e0799e443049" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -7897,6 +8085,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 4a1e20aa-5cee-4a23-a907-5723548fe8d1" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -7938,6 +8127,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 4a27ef1f-2739-41d2-bf9f-4261d05ea97e" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -7979,6 +8169,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 4b0b90da-c553-4745-b35d-415c6ec64268" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -8019,6 +8210,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 4b91346c-525a-4161-8391-3239361386eb" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -8060,6 +8252,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 4c0e29ee-0012-4c44-a071-d4a1dbfdea5a" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -8100,6 +8293,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 4c90e215-5b47-4f12-9c23-d60fc5e9647f" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -8141,6 +8335,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 4cb1b5f9-5ae6-4bb7-876a-8ac542ed37c5" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -8182,6 +8377,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 4cbc831f-caa5-4ebe-96fd-7cef19b22af5" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -8223,6 +8419,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 4ce60b5f-2f40-4665-a521-90e92a5fc351" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -8263,6 +8460,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 4cf67651-f9c4-43ff-af0e-a3e907aee856" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -8304,6 +8502,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 4d4dc29f-2a81-4dba-87d5-3ef9af6ed578" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -8344,6 +8543,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 4d83fddc-37c7-4e03-bda1-02f890d3de57" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -8385,6 +8585,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 4d8fc7e4-8119-479f-9300-3bbe433023d8" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -8419,6 +8620,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 4dc99c00-f579-4645-8074-05193e0807ff" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -8460,6 +8662,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 4f277673-457b-4055-9a73-1c88042dfc7c" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -8501,6 +8704,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 4fe274a8-13ed-4b85-9300-c7d3a25e2054" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -8542,6 +8746,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 50bbba12-c35d-4fdb-9bf9-711930621c8d" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -8582,6 +8787,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 50c413ef-3d80-491a-86c8-908a660881ee" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -8623,6 +8829,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 5115ceff-9fa9-45dc-8672-2ea3f280df7e" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -8664,6 +8871,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 511bdb8e-9b69-48a2-8a9b-089965d5932b" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -8705,6 +8913,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 51db9d97-9ad0-48fc-8dd2-4d40780c7cea" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -8746,6 +8955,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 523b665b-e163-46b6-82cf-64ca586e8e08" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -8787,6 +8997,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 524a368f-bd42-443d-beed-7b03fe4e96c3" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -8828,6 +9039,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 526708de-98d6-4707-a9dc-99d87a7d2d13" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -8869,6 +9081,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 529e600f-6a77-42f7-a1f5-cbe579507c78" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -8910,6 +9123,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 52b4b2e5-9aa2-4725-8922-fd64a1a61e0f" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -8951,6 +9165,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 52d8149a-3001-4f0b-86b7-cdc8a7fa355e" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -8992,6 +9207,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 52e8afb5-4336-4699-839d-37f251d0b093" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -9033,6 +9249,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 534e7f81-ab18-458e-a060-f3351a623740" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -9070,6 +9287,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 53b05871-2184-49eb-949a-5eaef294a2d3" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -9104,6 +9322,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 53c26a9d-da41-4210-a116-67494754f0e6" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -9137,6 +9356,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 5422a75e-4c4d-4e5b-8fbd-b34a12c0d899" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -9178,6 +9398,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 544806d2-bf8b-42ea-820b-901bc4c191c9" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -9218,6 +9439,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 5467e29f-6fca-4376-9a4f-3da8a621919c" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -9251,6 +9473,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 55277e2d-390d-4093-b946-9dbe2f62da1e" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -9291,6 +9514,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 55670793-dde1-49b1-abdb-862d6cc4e937" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -9332,6 +9556,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 55af2287-76e9-4a73-ac0b-859bf6824b84" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -9373,6 +9598,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 55c29fff-3836-4587-9b28-88420ce9d8ad" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -9414,6 +9640,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 56147b13-9c61-4b0e-b75b-3694d2dc1719" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -9447,6 +9674,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 568093b0-7262-41bc-957b-a47a317a21c8" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -9488,6 +9716,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 572c0224-37c2-444d-83d4-ebd488d8607d" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -9529,6 +9758,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 575e2710-5398-4db1-b150-3e1456745ab6" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -9569,6 +9799,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 57860045-9814-4e5d-8436-2ca5b42a357d" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -9610,6 +9841,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 5829b285-df75-4a61-b88c-e90a800ff85d" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -9638,6 +9870,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 59a2105a-f4d4-4596-bd38-02d0761817a3" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -9679,6 +9912,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 5b66a5b6-03a8-4b8f-af06-dcc774698cb9" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -9720,6 +9954,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 5b9fcabc-3853-44b0-b239-124a9a274c79" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -9761,6 +9996,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 5bcffae8-daa2-4b2a-bc43-79f83902732e" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -9802,6 +10038,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 5bf9f92b-b149-4557-a567-4bbcd0f282b7" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -9842,6 +10079,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 5c7ed333-eedc-4fc7-8879-9412014f46cf" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -9883,6 +10121,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 5d6d1459-5394-402a-919e-244e5f903421" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -9924,6 +10163,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 5dab7b0f-dbb3-44d3-afff-ae7618056475" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -9965,6 +10205,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 5e44450e-b7b5-43a7-880a-8e88d0c98324" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -9999,6 +10240,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 5eeea2b0-d950-4268-abf6-2124d44a34f7" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -10040,6 +10282,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 5f6813e6-b3fe-4ef9-b492-d3f850432959" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -10074,6 +10317,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 604759e0-0d22-4e87-b57f-0b6c19afa400" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -10115,6 +10359,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 60a86e95-183e-4159-ac91-2d93ae65e126" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -10143,6 +10388,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 60b6e741-15d1-450d-9cee-10d4e76ebbc7" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -10184,6 +10430,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 611e69d3-a43a-4d92-abf8-ae99c6334aa3" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -10225,6 +10472,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 617ab162-e9fc-4db6-999e-47ad6790c170" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -10266,6 +10514,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 61d93b90-9c0b-4eee-b5ca-8fd7c79afbaf" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -10306,6 +10555,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 6241a12e-0c37-4933-96e0-9e5fcdc2094f" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -10346,6 +10596,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 624d64f1-4c41-469d-87a9-7be0baf41583" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -10380,6 +10631,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 625c6eed-099c-4dde-add4-51a84c2d16d2" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -10421,6 +10673,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 629cc7d7-d957-4d31-9f38-3664ddd43031" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -10462,6 +10715,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 62f744ef-0a4f-4abb-ba28-41e82b2e6cef" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -10503,6 +10757,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 6331a30f-4b72-407a-bcbf-152240c6db6a" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -10544,6 +10799,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 640f3e4b-a3e2-4cd2-87a9-7625a9fd7e00" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -10584,6 +10840,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 64307169-6876-4c6b-9001-854cc0a7fbf9" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -10625,6 +10882,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 6548d178-1367-4351-91aa-7f94727e4fd5" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -10658,6 +10916,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 65bc6d13-7774-4044-bf25-a345d9bea89b" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -10698,6 +10957,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 65f6385d-c889-42b1-a517-5818bb33bd44" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -10726,6 +10986,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 672f8770-e11c-4c27-980e-08ed1e53ae5d" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -10767,6 +11028,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 6748b8b4-d5df-40c1-9624-b45152848c63" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -10807,6 +11069,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 6751093e-d282-489e-863f-4534bd61a86a" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -10848,6 +11111,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 676dc12b-db8b-4c60-ab06-5f4f2ac2f91b" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -10889,6 +11153,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 680a2373-3248-467b-85ef-4fddb052ae3d" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -10929,6 +11194,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 681fc9a3-7ea1-408e-9e66-af7866041798" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -10970,6 +11236,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 686793ab-9241-4f60-9591-e217d57a68f3" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -11010,6 +11277,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 68abc649-d648-45c2-af9e-c6655223d914" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -11051,6 +11319,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 69050b78-5f1e-4b5b-8de2-e91bd3bf41e6" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -11079,6 +11348,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 6955e8a1-f728-4b2e-ae33-8b7cde3e0811" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -11120,6 +11390,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 698baa07-64bf-461e-8a16-f9c771027213" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -11161,6 +11432,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 6af69fb0-f824-4c8a-94a2-a7d97b9285fe" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -11202,6 +11474,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 6b725434-14da-430e-ab74-2fa155fe2de5" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -11241,6 +11514,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 6ba7d16b-1cae-497f-b5c8-2ebdf27b09f2" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -11282,6 +11556,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 6c55cd23-1740-4880-9f9b-2488e69930c0" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -11323,6 +11598,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 6cb4be3d-b5f6-42c2-b4d7-858799cd08da" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -11363,6 +11639,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 6dbea509-9e3d-466b-b2ea-7d5548bfbae3" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -11404,6 +11681,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 6df70dd0-ccfb-4529-b82c-38cb077d832f" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -11445,6 +11723,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 6e298000-e2eb-44b0-97b1-1b50248054df" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -11486,6 +11765,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 6ec2073e-631c-4c40-8996-9f6d3c85a7fa" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -11525,6 +11805,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 6f3a1ccd-e8c3-4ed6-923b-dd42dd5d1e03" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -11566,6 +11847,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 6fa5961d-fdfa-4bcf-81ae-d730007627c5" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -11607,6 +11889,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 6faa3aac-adc9-48c3-9e3d-2588de825d1f" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -11648,6 +11931,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 705aaad9-db1d-4f16-9ed8-09b251df8166" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -11688,6 +11972,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 70c03ba6-87ca-498f-ac66-4f187a70b551" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -11728,6 +12013,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 71010454-c2be-40da-bb18-78de354464a5" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -11767,6 +12053,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 7160befc-a7f8-4d16-ad88-de34b4ba20f3" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -11801,6 +12088,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 71c3274a-4d35-49a6-9fdf-f910fafb1a10" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -11842,6 +12130,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 71e611a0-9f91-4872-a23d-4d3281c4512a" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -11870,6 +12159,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 720bce08-aae9-46da-9f39-d704bb6a6d6b" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -11911,6 +12201,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 72d6f8b2-825d-483a-9adc-a8355b11c03f" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -11944,6 +12235,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 72dfcd0f-e6f9-4b37-8b91-9a87b7a19f5e" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -11985,6 +12277,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 738c84ad-6093-475f-bf77-200c2b9221f0" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -12026,6 +12319,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 73a99459-5433-4736-9cb5-c64b4c160987" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -12067,6 +12361,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 7402c149-bf82-476c-bb7f-84044dce468e" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -12107,6 +12402,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 747d4e01-a726-49b3-ab1f-1a49954cbaaf" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -12148,6 +12444,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 74c59001-a01e-45d8-a8b2-e5fb48928194" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -12189,6 +12486,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 74e3f64e-71fb-4849-b3e9-32fafb63a958" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -12229,6 +12527,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 75c30a82-b5ab-4344-8882-5cfbb6b12e81" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -12263,6 +12562,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 7693170e-f382-4cf5-8c9d-1667b1eec198" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -12304,6 +12604,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 76cfd1fb-6932-4c54-8c09-0ef0d0217fa2" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -12338,6 +12639,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 776d4e61-8a86-4c6c-b270-5365da8bfedf" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -12379,6 +12681,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 783a74f1-0eb1-4277-9715-aa2f8c5ec68f" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -12419,6 +12722,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 78da0b12-95d7-4ee7-a306-569361d03198" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -12460,6 +12764,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 792f8706-029d-48f9-8317-79cb9709d0f5" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -12501,6 +12806,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 794bdb00-8990-4240-94c9-80e97829c863" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -12542,6 +12848,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 79ad8417-09ca-4c62-8c90-0a18098d8d83" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -12582,6 +12889,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 7a29f649-f73a-408e-b68d-fde333e510d5" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -12623,6 +12931,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 7aa7ad57-5c99-46ec-b7b5-7b0941e43e17" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -12658,6 +12967,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 7abb517e-c158-40bb-a54c-3935463d3bd3" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -12699,6 +13009,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 7ac5a278-dfff-458f-a77a-cbb5bed92209" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -12740,6 +13051,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 7b74a94f-15dc-4860-a679-1333b38c8d4e" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -12774,6 +13086,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 7ba5d7fb-369b-4b7e-9aad-cb929f043b6e" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -12814,6 +13127,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 7c19311b-a17b-4cb2-b59c-0eda828e2124" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -12855,6 +13169,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 7ca6c455-a86c-4d51-9b8e-cca20633d3a2" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -12896,6 +13211,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 7cb6448c-25ff-41bf-8882-7df29e7b0f42" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -12924,6 +13240,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 7cd9bab5-4c11-48a6-8441-4b46e23e30fb" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -12962,6 +13279,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 7d1b8ec8-2ac6-4c37-9623-d0bd3e61e331" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -13003,6 +13321,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 7d251203-25d6-4855-95df-bcf322d01788" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -13043,6 +13362,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 7d6e3b33-6541-4c06-a965-ca6d152b2706" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -13084,6 +13404,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 7d79ec2b-f6f5-4ea5-83c9-2d15339f5685" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -13125,6 +13446,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 7e0409aa-955c-40e6-86da-34525e8cfab9" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -13153,6 +13475,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 7e0e5c88-2123-4de4-a401-1ad33e8083a7" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -13181,6 +13504,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 7e750d11-dbf3-4dcc-9b48-e1e2770029f3" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -13222,6 +13546,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 7ea5c136-7eeb-4b5a-8926-8767a4b4c8e5" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -13263,6 +13588,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 7eeb5b1f-4c79-4438-a3f8-fed50abf7b7e" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -13299,6 +13625,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 7eeb8017-27ef-4bdf-b8de-fcbb531a7f58" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -13340,6 +13667,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 7f295349-7026-469a-8cbe-297a5ae1d390" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -13381,6 +13709,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 7fd6527b-ab58-4aab-bf40-710f39f0575c" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -13422,6 +13751,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 7fdfade3-33c9-45ca-99e3-625fff27d977" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -13456,6 +13786,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 80399ee3-cc20-4c4d-ad41-6496fd6237bb" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -13497,6 +13828,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 812b9023-aabd-477c-b40f-345fc9c00cdc" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -13538,6 +13870,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 814ecc4d-4f1f-4cec-882b-ef770747fe03" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -13579,6 +13912,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 82a24c55-1efb-40dd-9c7e-8971c168e7a8" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -13620,6 +13954,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 82bd2ccd-6571-4c61-b4f7-034fa0afdcad" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -13661,6 +13996,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 838c1706-9a40-4005-9dfc-28baa7fb98b8" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -13702,6 +14038,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 84170740-ec79-40ea-9145-899606223453" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -13742,6 +14079,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 843c66cb-6098-4834-83db-48275bc7bcf4" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -13782,6 +14120,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 84840c35-8500-4148-b955-5ff0dc12db5c" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -13822,6 +14161,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 8498d3e4-5b16-403e-b5b1-3c4a77cf0ec3" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -13855,6 +14195,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 84ae4a69-ec6e-4521-aad1-85bc59f3609d" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -13896,6 +14237,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 8523ae53-8138-4d51-a69a-a24bc3027f65" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -13937,6 +14279,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 8589d901-7ba0-4d48-b2a8-721eed0f486b" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -13977,6 +14320,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 8593f706-87ae-4278-ba7e-e1570b5e8802" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -14018,6 +14362,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 862bbdd7-0caf-4b12-a379-e22f9d624215" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -14055,6 +14400,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 8659f231-5e68-4a5c-87b9-a81873b93627" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -14096,6 +14442,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 86b7295c-b280-49ee-8b0b-cba037d16aa3" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -14136,6 +14483,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 86bcb9b9-25e3-4355-9b54-c69fa7fe103e" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -14177,6 +14525,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 88458bb2-43a1-4093-a391-014dffe2a556" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -14218,6 +14567,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 88a096af-711f-4427-86a1-75912c43cc6d" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -14259,6 +14609,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 88ff27b4-9f95-4bcc-a732-5632a024433b" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -14298,6 +14649,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 890ba753-d673-4761-9f6e-a13fc172f94f" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -14331,6 +14683,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 891840e6-247e-434a-a9ff-29e9db0ad76c" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -14372,6 +14725,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 89765dce-2913-450c-94a1-10f405cc4936" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -14413,6 +14767,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 89a7e95a-c2a8-4cf7-b1ae-506aa0997bc8" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -14448,6 +14803,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 89aab33a-de66-4665-b91d-5e67ab4d623f" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -14489,6 +14845,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 8a120946-f4e2-40b6-8089-fbe267089f6c" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -14529,6 +14886,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 8a777c57-55a4-4986-ba43-933cff0845b7" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -14563,6 +14921,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 8a9a619c-c609-487f-b602-d7a6de5ec8cd" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -14604,6 +14963,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 8b1d873b-8bd4-4b56-adde-f7da2fb090c5" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -14645,6 +15005,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 8c1eb449-1420-4d9e-8e98-7ab240e01547" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -14684,6 +15045,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 8c96adeb-31b7-4772-935a-5e285d7cd29c" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -14718,6 +15080,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 8c9a75b4-cb6e-4d28-8473-023594cda8a2" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -14757,6 +15120,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 8caa5603-3dcf-424e-9fbe-6029c58cf000" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -14798,6 +15162,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 8cb51192-29b4-4f64-a8fa-81a5bdd1bc37" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -14838,6 +15203,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 8cdc0859-4734-47d6-8614-c9a2e7f92412" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -14879,6 +15245,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 8d04a310-2a5b-47cb-a87d-5a5752042083" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -14920,6 +15287,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 8d6e2afd-7a92-444f-9fdc-be2c830c78b9" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -14961,6 +15329,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 8e4e5b12-5f94-4226-a30b-278c000e5507" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -15002,6 +15371,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 8e8f6871-0d22-448d-aacd-26e460e10752" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -15043,6 +15413,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 8f1d973a-0c46-4871-a7a8-254d405a75db" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -15084,6 +15455,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 8fca44ef-d04c-4ec0-928d-773896de107c" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -15125,6 +15497,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 8fd45e55-176a-4dfc-b888-6f36d40cd5ea" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -15166,6 +15539,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 908d9489-230e-4109-8c49-2a7733600a9e" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -15207,6 +15581,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 90af5b8d-b1f5-4713-b4de-ff3728bd2869" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -15248,6 +15623,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 91a95447-df22-4b38-8e98-42fd5a7604d1" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -15288,6 +15664,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 92725da4-416a-4f1e-aaf4-7291aa3fabb0" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -15329,6 +15706,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 92d04aae-b4b1-4012-86fa-59b134a69a6c" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -15357,6 +15735,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 93171f4e-e32b-46af-8195-39126df76b47" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -15398,6 +15777,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 93391065-76b5-4709-8dc1-0b3baa93be8e" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -15439,6 +15819,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 933d528e-ca55-45f6-bed0-5a2ac57d6fa0" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -15480,6 +15861,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 94b9b775-4bfc-4bfe-811a-d32a76b1c7df" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -15521,6 +15903,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 966e833e-0431-48df-be24-1d9948a66bd8" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -15555,6 +15938,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 96881283-c281-4c37-af23-6b2299a821a0" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -15596,6 +15980,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 96cce5db-6b68-49d0-af63-ab68e236effb" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -15637,6 +16022,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 98a403e9-bd50-4c4c-8805-96c725c6c4e9" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -15678,6 +16064,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 990f1213-5c28-4f7b-99a0-614bb3b28e11" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -15718,6 +16105,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 99257f8a-a07d-438e-990b-04436ebb0aca" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -15752,6 +16140,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 994a571a-6555-41f5-88e9-20738c0355c1" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -15792,6 +16181,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 999578b7-ae22-41f2-a0af-87aa988df1ea" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -15833,6 +16223,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 99fe4a74-fa19-4d98-86a8-9f7c2884bc05" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -15874,6 +16265,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 9a176fce-d6d8-4977-b276-47d5760b48e1" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -15915,6 +16307,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 9a610f23-6649-4647-b4d2-8e2b0c0c5c16" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -15956,6 +16349,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 9a6a5b8f-1736-402a-8238-1bab0b2002c8" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -15997,6 +16391,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 9a74f396-6927-4ac8-8d18-393bd303ceba" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -16038,6 +16433,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 9acdf36b-13e8-4e3a-80b3-e7264b026eca" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -16071,6 +16467,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 9b17405e-540c-4aad-9ac6-f5122b96df1d" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -16099,6 +16496,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 9ba22b74-4746-48b2-b76e-af72e36edebb" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -16139,6 +16537,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 9be1db58-5f8a-4e23-b2d7-8c330a8619aa" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -16179,6 +16578,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 9bf609fc-0004-4c95-b8ba-9f09f357907a" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -16219,6 +16619,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 9c3ced55-6580-4019-b772-32c094d0aba3" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -16260,6 +16661,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 9c5b92a4-015a-4631-a56d-8c227fa23f2e" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -16301,6 +16703,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 9cb79de1-5ed9-4386-a982-1d7eca95014d" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -16341,6 +16744,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 9e1291c9-f42e-477b-b417-ae0a942abbd9" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -16369,6 +16773,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 9ebbfb65-c6c8-4c3b-a269-ce9a8e16f7ca" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -16409,6 +16814,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 9f14f076-bfe0-4736-8cd6-00a21a25d83f" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -16450,6 +16856,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 9f1a676b-f1b3-4176-9b0c-d06c843c3eb8" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -16491,6 +16898,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site 9fde6f96-763c-497f-a98c-ae25931db6a2" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -16531,6 +16939,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site a048f363-ed86-4598-b41a-d368f85dfad2" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -16572,6 +16981,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site a08c63a2-58ee-4c18-b983-4287cab357b2" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -16612,6 +17022,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site a171c67c-33eb-498f-8964-2ba81b319d5a" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -16653,6 +17064,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site a17264b7-f5ce-4532-b23f-d6a0af652d9e" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -16692,6 +17104,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site a185d935-42f3-4010-994b-54bd49c91f20" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -16733,6 +17146,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site a19cfdc2-ee5a-465d-b841-17bfdb09fe78" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -16774,6 +17188,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site a1ae5b1b-d3e8-4d31-953b-21861371b2dc" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -16808,6 +17223,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site a1e1a64b-dd36-4f09-8d76-9801f69abae0" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -16842,6 +17258,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site a2e0d68f-1145-46dc-a9c7-3b9d1c8382b3" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -16881,6 +17298,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site a2eaa7cf-9626-40f0-b7a4-1fdd90310bb1" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -16922,6 +17340,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site a379d193-81fd-401b-99da-530beac4c64e" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -16963,6 +17382,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site a3bf2c97-151e-4649-9b82-3bea1c1851fa" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -17004,6 +17424,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site a4c68a9c-549a-49e1-8e62-f80d93855dc1" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -17045,6 +17466,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site a4e70eb5-64a2-40e3-96b7-7d642daa63ff" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -17085,6 +17507,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site a5cd636a-afe0-4fd3-b149-9632aacc8f45" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -17126,6 +17549,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site a5fd5744-f577-4cb2-b364-beedf46ac439" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -17154,6 +17578,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site a5fddd20-acea-4c9b-bec2-a3986e15634c" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -17195,6 +17620,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site a646810d-ff43-4c7d-92bc-b1d948f15392" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -17236,6 +17662,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site a6bbd9e7-b1b5-45e0-a741-db3e8c7d3f78" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -17276,6 +17703,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site a73afbe2-84fd-4699-b7aa-e1a80180b2c6" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -17304,6 +17732,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site a7a6421b-bf27-4cfc-ae8a-dba9c2387845" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -17332,6 +17761,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site a7f94c2e-71c3-493a-81f9-e5573324ee50" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -17372,6 +17802,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site a85c1ec2-28a1-4573-9f42-6fe9e8d394d2" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -17400,6 +17831,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site a9b1954c-427b-452a-abd9-d5f92bb7a53c" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -17428,6 +17860,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site ab9a758a-c21b-4c1a-8557-c1d10739ac61" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -17469,6 +17902,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site abb888d2-4678-4704-97f8-80bb3de11c8d" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -17509,6 +17943,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site acba4dfb-6e98-40aa-9d94-ea3c053a53c6" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -17549,6 +17984,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site acf29769-872e-4ff7-83ef-3e257f6eb616" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -17590,6 +18026,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site ad2e1cb6-9cbc-4364-ba40-2a21a556416f" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -17630,6 +18067,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site ad40427a-be45-4e1b-b1fb-0ec6d087f80d" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -17671,6 +18109,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site ad69141f-395a-408c-a3a2-01fa036a1c58" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -17711,6 +18150,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site addeffd8-04bc-49f0-8b73-f22532d8ee64" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -17752,6 +18192,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site adf49d13-0f1b-4677-91e7-24032fe731cf" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -17792,6 +18233,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site aecb0f74-7df2-4c14-bb83-558e58d8f523" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -17833,6 +18275,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site aef5aa67-e257-4fb4-9aac-d01ee722d9be" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -17874,6 +18317,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site af1d8f28-928a-47ce-84ee-25874ae96c8c" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -17915,6 +18359,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site b0039041-5828-4f1d-9887-31ff4435e250" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -17956,6 +18401,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site b098bcf0-a612-4efe-9737-910844fe8e79" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -17997,6 +18443,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site b0a17330-cf28-4984-be64-f775e715d702" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -18038,6 +18485,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site b0df45fd-fb14-4ff5-9bf6-c713d4730ae2" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -18066,6 +18514,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site b1985824-7c67-46ee-9b60-7498a0d90cb1" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -18107,6 +18556,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site b1f39583-d058-46f8-a088-3ffbb558defa" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -18141,6 +18591,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site b239be3f-09f3-4db2-ad6f-ddb92b83f055" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -18181,6 +18632,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site b26bfbe5-e3d6-429e-925c-ccc4366c0588" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -18220,6 +18672,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site b2ca93c1-2254-4217-a52b-f7a06835d1c3" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -18260,6 +18713,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site b2f149ee-2478-4361-afe4-55525e90f0a3" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -18288,6 +18742,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site b3a16adc-98b2-4223-92c1-b3676ea07f0c" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -18329,6 +18784,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site b3ac1b55-02fb-4370-b615-16ebf92fdacf" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -18370,6 +18826,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site b3d13965-47f7-4c45-90ef-ce2b5b0cf15d" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -18411,6 +18868,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site b43be971-3169-47eb-a3e1-eeaf162ef32b" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -18451,6 +18909,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site b45a0ca2-bdb7-4969-b982-cf84ee77891b" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -18492,6 +18951,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site b482c195-90ac-4f06-a868-9cbf3e529e36" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -18532,6 +18992,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site b48bac5b-545b-4ec9-9a69-7affb94c6447" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -18565,6 +19026,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site b5b4deb2-a023-4299-915b-cf1fdb576006" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -18606,6 +19068,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site b5b7fc31-6854-43ed-bd1a-fbcd18f24ece" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -18646,6 +19109,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site b5e628e8-b7aa-49f8-8aa1-a6de811e4d7e" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -18674,6 +19138,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site b5f356aa-bcaf-4d76-88dc-3db635e7d8db" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -18714,6 +19179,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site b6e7d9a6-f7dd-4881-a53d-f7d688b4128d" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -18755,6 +19221,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site b6eb78a2-cb8c-4d5c-a09b-22b5f0d8a816" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -18791,6 +19258,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site b743f7d9-2d62-4518-8a03-03ef7f9fcd7c" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -18830,6 +19298,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site b753ca8f-3755-480f-90f4-4ac1fba89fe2" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -18871,6 +19340,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site b7ad42ea-b18a-4027-ad6b-a57378480605" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -18906,6 +19376,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site b7e9705c-9b7c-43a1-8ecf-0c60423659b4" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -18934,6 +19405,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site b81b8bad-fa29-4ac2-bdad-fe679523d27a" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -18975,6 +19447,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site b837cfa4-f0bb-4342-9e4d-2c90f203254f" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -19016,6 +19489,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site b88eb08b-625b-4079-b5bc-0dabb45c01b6" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -19057,6 +19531,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site b901702d-a4f1-4196-9b90-c51224e21524" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -19098,6 +19573,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site b92cc72b-5833-4aa4-b479-fb8d99b13c89" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -19139,6 +19615,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site ba2facaa-8986-44b7-9d5b-adfa18d14320" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -19178,6 +19655,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site ba371b6f-dffa-49b6-9217-e0ec5c532b62" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -19218,6 +19696,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site baea91d3-9052-4992-adba-0d0a5cdf693f" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -19246,6 +19725,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site bba31d63-6b49-4de6-96a2-3a229b88c586" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -19287,6 +19767,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site bc174830-c80a-4f93-8352-e074ec5d2bdc" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -19327,6 +19808,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site bc5980f5-3271-4105-88df-4bd19b5259e4" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -19368,6 +19850,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site bc93efc9-00d9-4aed-980b-70252b8c7f7a" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -19409,6 +19892,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site bdb82094-2f57-41ab-aee6-548593b8d4f1" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -19443,6 +19927,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site be33440c-4259-48e3-96b5-2fe590067369" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -19471,6 +19956,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site be58a28f-a6b8-4405-b7b2-373d709460ad" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -19512,6 +19998,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site be96163e-a2c2-40a6-b37f-01744f2d8c10" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -19540,6 +20027,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site bea20e62-7d55-4f91-b3c0-b93500320277" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -19572,6 +20060,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site becca488-ef1c-4253-889f-a86816775dd5" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -19611,6 +20100,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site bf2dd767-cce9-42d1-857c-854976861ab0" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -19652,6 +20142,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site bf98e585-3e62-490a-aa96-7a7cd6e66a3b" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -19686,6 +20177,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site bf9ea32c-ec48-43ee-b2df-9b9fe6a1d1ec" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -19727,6 +20219,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site bfec0a35-17b6-41ac-9f13-7ad35d5ca84a" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -19768,6 +20261,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site c03523f0-1d41-46e4-84f3-e10e157b0fb0" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -19808,6 +20302,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site c035e60b-40ed-4702-8b16-bbeddf1d27a8" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -19848,6 +20343,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site c0677898-9818-4bc0-a8e5-ab8a89a99b08" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -19889,6 +20385,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site c08c3f11-7e31-4a45-8bf9-1c1960858996" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -19922,6 +20419,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site c0e47ef8-2591-4299-8006-2d51a3b87a92" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -19963,6 +20461,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site c1d21716-435e-4f5c-981b-1a47935e59c8" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -20004,6 +20503,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site c26616de-c854-41fe-9b70-838bcdcf406d" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -20038,6 +20538,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site c27c5ed1-1285-4db8-a623-7331b52284d1" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -20079,6 +20580,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site c2b4651d-c6ae-4adb-ac9f-73048f3cfd65" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -20120,6 +20622,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site c320a870-8f0e-48b0-aa11-738268620d82" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -20161,6 +20664,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site c4228193-8760-40bd-aafe-542b0435bdc6" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -20200,6 +20704,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site c45a8c2c-f8a1-417c-83cf-78dfe178b02a" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -20240,6 +20745,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site c58c86f9-d4f8-4e9f-a236-67c1ba6d2948" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -20281,6 +20787,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site c5a6aa5c-8fa6-4c2f-b93d-9148f7c9ca34" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -20320,6 +20827,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site c603fff3-ad10-48f3-8b93-dcb610df9684" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -20361,6 +20869,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site c6c191e8-94d7-40ba-9c0b-06475908ef9d" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -20396,6 +20905,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site c716d380-1071-4b50-b8ed-2de047743881" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -20430,6 +20940,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site c717e2ee-d2a9-4585-845e-70a3c29d2721" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -20471,6 +20982,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site c7a747ee-c5a0-43d1-8329-5ff9d9e78d52" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -20510,6 +21022,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site c7e148a8-aa66-4e74-80eb-661eb3aca54c" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -20551,6 +21064,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site c8053d64-faad-4727-bc3a-78f83d9d3d35" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -20585,6 +21099,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site c811ede9-a57a-434f-a47c-5bd78a0a0d77" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -20618,6 +21133,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site c82460b6-3a60-4606-87e6-25d256ddc691" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -20659,6 +21175,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site c8a15d05-0601-4813-b7dd-d48efc7cfed7" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -20692,6 +21209,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site c8f03260-33f7-4f2e-b48e-479f5c4344e8" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -20733,6 +21251,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site c90ed6f1-24ec-44c6-9e78-94b04b587b99" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -20773,6 +21292,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site c9aa2668-dc4e-4bc2-85a7-4dacd614880b" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -20814,6 +21334,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site ca1d0ba3-59ff-4a76-86af-19e891a010e9" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -20855,6 +21376,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site cab8047d-5c8c-4ce3-82d2-5f5eb867f061" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -20896,6 +21418,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site cac07624-0fee-4e65-8526-a8dac41ff66e" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -20937,6 +21460,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site cc060ecf-ddf3-4770-9fb5-8bab8dacbfa2" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -20978,6 +21502,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site ccef5b5f-f740-4fde-9d84-87930d67bab6" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -21019,6 +21544,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site cd758481-5e61-4652-811a-9242531207c0" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -21052,6 +21578,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site ce69cd57-83ad-4d2e-ba02-d007bdf9d080" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -21091,6 +21618,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site cede9a07-46bb-43ce-857a-c17ecfdc28a1" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -21130,6 +21658,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site cf43949c-7efc-4037-986f-85d4ec457695" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -21171,6 +21700,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site cf5b9773-6421-444f-947c-9e3a84138109" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -21199,6 +21729,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site d0170a35-5d31-42f4-8492-542fe669d096" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -21227,6 +21758,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site d05014b5-7c33-4ff7-bdc4-8c77efab1a03" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -21266,6 +21798,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site d0d85ada-2047-4f8e-b910-29eb8e437d58" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -21307,6 +21840,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site d0fc5ae6-367d-46d5-8a28-ccf7a89d0af5" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -21348,6 +21882,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site d128033f-25cf-4550-b5b3-70d8f90c926e" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -21389,6 +21924,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site d273ed08-bb0d-41d8-af92-a60d1078e28d" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -21423,6 +21959,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site d28b8b57-97d1-4a10-8dfd-8db4f898e7b3" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -21464,6 +22001,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site d2a69057-eb66-473a-85af-9455696d7c72" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -21504,6 +22042,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site d2aaaccc-e3f3-49f3-b088-eba19c004788" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -21545,6 +22084,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site d3210504-27d7-43e8-af1b-1fc6c9bd1b82" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -21573,6 +22113,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site d3337f11-a9d0-4bae-8778-5f15a8e2c325" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -21614,6 +22155,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site d386cbac-9c0f-407f-9a1b-6aca74371fd4" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -21649,6 +22191,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site d44ebd0b-2e01-4bb1-9c15-45f9ac9c7a58" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -21688,6 +22231,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site d4a3383a-250b-4879-917c-4f3cf969d6c3" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -21729,6 +22273,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site d4b65997-1ef0-4e7f-8a26-a06eb70abb3f" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -21769,6 +22314,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site d5e07b6a-f4f9-4d9c-8821-f6d1c849b4fe" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -21810,6 +22356,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site d60ffa25-cdc7-48ea-ad55-3aacb8d256bb" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -21850,6 +22397,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site d7012ad6-e5fd-469f-92fa-7b61836514b4" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -21890,6 +22438,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site d73efaaf-220d-425b-a53e-e3860f9c78b9" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -21930,6 +22479,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site d76bced7-a902-4c78-be34-a350fba58d86" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -21971,6 +22521,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site d7d1b9df-4ca9-4279-af3f-0d847a8fb1f5" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -22011,6 +22562,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site d878cd50-f718-4ec1-8753-60e217dd076d" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -22052,6 +22604,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site d91d12ae-d699-474d-9f2b-7befaea986d8" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -22091,6 +22644,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site d9202ac6-ec9e-45f3-a030-ff544d263846" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -22132,6 +22686,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site d9512eb0-f35f-4e94-9d19-0d381122791b" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -22160,6 +22715,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site d9811a9b-3cfe-4d56-8fc3-bc964804b9e9" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -22200,6 +22756,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site da755d96-f924-4cdd-9c2b-bb5d41389b61" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -22239,6 +22796,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site dab3dcbd-837e-4288-9126-833ac150bdcf" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -22280,6 +22838,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site dabe7147-c0f6-4d31-b8ae-960645739be7" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -22321,6 +22880,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site dabe9760-ef4b-40ac-a5d5-64fdbce4dd18" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -22362,6 +22922,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site db14deeb-ec2f-4de5-8906-9350ede7e2c2" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -22403,6 +22964,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site db2d4783-04ec-4cf1-988f-945906d4efb5" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -22444,6 +23006,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site dbc443d5-1e8c-4dc5-99e5-2f73fe8ee434" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -22485,6 +23048,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site dc911162-eb2e-4e61-9dc3-9f438afea3d0" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -22526,6 +23090,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site dcb312aa-8f32-4b21-9024-42438f4c5d67" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -22559,6 +23124,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site dcbe6cf7-2cd9-48a8-893e-817836e6bab2" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -22599,6 +23165,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site dd06c33e-f1a0-493a-882e-674f7e37db9f" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -22640,6 +23207,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site dd0f44df-58ec-4344-8c8b-7ef676efd873" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -22680,6 +23248,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site dd7b1403-28bd-44ad-abe3-4ae8c1667585" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -22721,6 +23290,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site dd9ac86f-5812-4e37-9576-dff5a6455051" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -22762,6 +23332,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site ddf84b37-8c54-425f-9bdb-83746b3c7a63" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -22802,6 +23373,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site de3d8d52-8041-47a8-a634-9444e1be5b21" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -22835,6 +23407,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site de47da57-8c50-4583-a183-3d901af5f2ba" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -22874,6 +23447,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site df219e78-cb5a-401f-a742-129e21e388a3" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -22914,6 +23488,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site df3cdb56-7ec0-40c1-bfe5-5fd3e167be8f" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -22952,6 +23527,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site e0071d17-c14b-43b9-a9ed-7801a2c32201" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -22993,6 +23569,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site e01512a9-b1d7-4ffa-b37b-af3dbad9290f" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -23034,6 +23611,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site e03ceab0-2bfc-4438-a6f6-a6b3e8eaa208" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -23069,6 +23647,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site e05bcb8e-04d4-499c-a1a3-713d65415b9c" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -23110,6 +23689,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site e0c3cda8-d2d7-4bbc-903a-ac7337ceba8c" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -23150,6 +23730,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site e0d458b8-be22-48bc-941e-b50f2a030f98" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -23191,6 +23772,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site e15e178b-516c-4849-830a-9e8605150c17" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -23232,6 +23814,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site e18bebe4-bc35-479a-bf1a-f2d6568e8778" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -23260,6 +23843,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site e1e0e874-a0c1-4574-b634-9fe1d36df0fb" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -23301,6 +23885,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site e22b400e-f583-4b83-a139-65f7617aee8e" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -23340,6 +23925,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site e2506597-f0c8-40f7-9233-2f47ad296abe" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -23381,6 +23967,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site e328de66-cc8d-4bca-b1ac-d52d2e6f4aa7" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -23421,6 +24008,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site e391369a-e2fa-4437-9fe5-9fb6941fbb39" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -23449,6 +24037,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site e3e3e3f6-d756-4f9a-b846-3314177c30ff" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -23490,6 +24079,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site e43171e4-646d-40cf-a51e-4fd4b2a7f3dc" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -23518,6 +24108,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site e4b0eeef-1275-49cf-a39f-0312e9615b4d" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -23559,6 +24150,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site e5847c6a-33c8-42ad-84ea-1f698a33255f" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -23599,6 +24191,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site e59aaf65-b277-48bd-a7f8-b240ec40eafe" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -23640,6 +24233,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site e5d8ca77-22fd-4184-8ec5-c4f3453e7756" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -23678,6 +24272,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site e5e63912-97e4-48e9-beaf-2656d8525ec8" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -23711,6 +24306,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site e67529c9-4c88-4fe8-a64a-5f81d74394b0" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -23752,6 +24348,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site e76942cf-7dba-4005-8dc4-61c2078d5827" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -23792,6 +24389,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site e7cf5f04-a495-4f77-a6b2-ed11cc9dd618" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -23825,6 +24423,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site e85ec0b4-3a9e-4d09-a772-865ef8a74f48" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -23866,6 +24465,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site e899e03e-6102-446d-9828-4c812355ffca" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -23907,6 +24507,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site e8ba09ae-c269-49e0-8d04-c3e7a9c10bdf" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -23947,6 +24548,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site e8cb123c-b4d6-4c51-9eee-2e8e54a26fd4" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -23987,6 +24589,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site e94fb975-c9bd-4810-889e-62e9a74ac6bd" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -24028,6 +24631,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site e961df8b-43f0-495a-85eb-76bb72cee571" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -24056,6 +24660,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site e996d2ec-2a75-44f2-9f48-c8f88b3990a2" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -24097,6 +24702,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site e99a12d8-529a-4251-9189-4fc9c0103d99" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -24138,6 +24744,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site e9c774ba-3ab7-4644-bf4c-3f6cae39266d" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -24172,6 +24779,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site ea0553ed-5d13-4e46-a331-2b98defe9f96" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -24211,6 +24819,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site ea1ad331-1c73-421c-a8b1-7f5785a461a9" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -24249,6 +24858,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site ea35245e-786c-43d3-922a-7823569711f0" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -24289,6 +24899,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site ea754d22-7389-491d-b0df-6b53ab0dca35" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -24330,6 +24941,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site eb79afd1-e7d1-4cba-bf83-1124579e8966" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -24358,6 +24970,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site ebefaf9b-a6ba-48da-9cd7-81c2835e386d" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -24399,6 +25012,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site ec4cc9a7-5852-40de-bb6b-5ece74d2e36c" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -24440,6 +25054,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site ec7c8482-86e6-467d-9c21-136e21c64ba2" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -24481,6 +25096,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site ec7cdcfe-9459-43c5-8549-9ea13160c8af" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -24522,6 +25138,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site ec84a7a3-54f9-484a-b9f9-5a08c81725c0" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -24563,6 +25180,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site ed6c7f64-413a-4b03-a1d8-e8796e3e89f4" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -24602,6 +25220,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site ed8fd8e1-0fb6-455b-b02c-60136ce31e95" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -24642,6 +25261,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site ee25defc-bf9f-4caa-a59a-e77697814f6b" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -24683,6 +25303,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site ee5db8a9-4e37-4389-b0ea-b6d6db4fb5f6" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -24723,6 +25344,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site ee7ff85d-b7e4-40d0-9f5e-e48359329204" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -24751,6 +25373,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site ee8db8d3-0012-4de7-997c-e7ed0084baa1" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -24792,6 +25415,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site eeda64c5-e517-4d01-8034-836f199073be" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -24833,6 +25457,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site efba9e4e-0118-4bc2-a10f-282966269a52" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -24874,6 +25499,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site efdcd14a-58f7-44c2-8138-3364496b10a2" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -24914,6 +25540,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site efe65779-337d-44a6-ba02-53b91c69c8f8" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -24955,6 +25582,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site f0a86dd0-c2b1-46a8-957c-604df05aff74" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -24996,6 +25624,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site f19d2a5c-f6ee-4bea-b2a3-290acf453760" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -25037,6 +25666,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site f2595cd8-94d2-49f7-8083-afad8391176b" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -25078,6 +25708,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site f294f124-7114-4766-bc7f-4b750a04fcb2" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -25119,6 +25750,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site f37234ce-4ff8-4bfb-b482-31ab75742ea8" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -25157,6 +25789,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site f3effbc2-d301-445b-9954-e4ce08bf1784" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -25191,6 +25824,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site f4397dc9-55ad-4c3f-a223-2b82654bb80f" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -25224,6 +25858,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site f46c930c-a358-414b-8aee-4143b4dfa54c" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -25265,6 +25900,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site f480afc5-54c5-416b-9ab1-80983dd17d8e" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -25306,6 +25942,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site f48b8e2b-de73-4c4d-9671-9e9f3bd43556" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -25345,6 +25982,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site f58d42a9-f006-4848-bea6-e878e1a78cdb" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -25386,6 +26024,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site f5a485a5-fcca-41b4-a2a1-1e280b38957e" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -25427,6 +26066,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site f5eb72dd-5c05-47e9-99f5-b982bb0bf0ec" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -25467,6 +26107,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site f5f024f1-8a62-4290-9a30-2fa4786f582c" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -25507,6 +26148,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site f648d32f-0f29-4094-ae33-a4628723a057" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -25548,6 +26190,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site f7122521-9097-4fbe-a294-5f9bbc2526c1" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -25589,6 +26232,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site f7c57b28-dd8d-41dd-84f8-f2943524e753" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -25630,6 +26274,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site f84283d1-10a7-4ab4-9e04-85d7a3a96573" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -25670,6 +26315,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site f85cf007-b05c-457d-b233-79e1fa2a43df" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -25711,6 +26357,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site f8e7dccc-09a9-45e6-a754-7e23fb349cae" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -25751,6 +26398,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site f917e917-4dda-4efc-a400-71004d01f5de" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -25792,6 +26440,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site f9ca261f-1b4c-414a-b0af-fbc53642ed38" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -25833,6 +26482,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site fae83fe1-5be9-491a-8fa7-294139489e99" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -25861,6 +26511,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site faec6b44-1a5c-4d73-8aac-602806290be6" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -25889,6 +26540,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site fb64da57-5cb6-4271-9c0c-eb2b11e79943" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -25930,6 +26582,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site fc6bf097-089d-4a66-97aa-99b6934e4188" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -25963,6 +26616,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site fcceba55-4582-4f5d-9a5b-d63a65209731" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -25996,6 +26650,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site fd0f35b1-dd18-417d-b7b0-88c746d091d5" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -26037,6 +26692,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site fec3e31e-db96-402b-a039-99f3e9de00bf" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -26071,6 +26727,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site feef665d-fb92-4993-9c82-ed60b5ec92d1" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
@@ -26104,6 +26761,7 @@ ss:
     a
         geo:Feature ,
         ansis:SoilSite ;
+    schema:name "Soil Site ff1c2ee1-cc2c-4d6c-9176-25e5044b4fc4" ;
     geo:hasGeometry
         [
             a geo:Geometry ;
