@@ -1,9 +1,11 @@
 PREFIX geo: <http://www.opengis.net/ont/geosparql#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX schema: <https://schema.org/>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://linked.data.gov.au/dataset/eiatest/hcas>
     a schema:Dataset ;
+    rdfs:member <https://linked.data.gov.au/dataset/eiatest/hcas/tiles> ;
     schema:name "Habitat Condition and Assessment System (HCAS) Dataset" ;
     schema:description "HCAS provides an estimate of habitat condition, using the following inputs: environmental data (ENV) variables, remote sensing data (RS) variables and reference sites condition data." ;
     schema:creator <https://linked.data.gov.au/org/csiro> ;

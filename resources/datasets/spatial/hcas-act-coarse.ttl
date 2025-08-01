@@ -4,65 +4,6 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX schema: <https://schema.org/>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
-<https://linked.data.gov.au/dataset/eiatest/hcas/tiles>
-    a geo:FeatureCollection ;
-    geo:hasBoundingBox
-        [
-            a geo:Geometry ;
-            geo:asWKT "POLYGON ((148.763096 -35.856001, 148.763096 -35.124591, 149.391917 -35.124591, 149.391917 -35.856001, 148.763096 -35.856001))"^^geo:wktLiteral ;
-        ] ;
-    rdfs:member
-        <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000000> ,
-        <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000001> ,
-        <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000002> ,
-        <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000003> ,
-        <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000004> ,
-        <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000005> ,
-        <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000006> ,
-        <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000007> ,
-        <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000008> ,
-        <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000009> ,
-        <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000010> ,
-        <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000011> ,
-        <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000012> ,
-        <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000013> ,
-        <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000014> ,
-        <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000015> ,
-        <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000016> ,
-        <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000017> ,
-        <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000018> ,
-        <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000019> ,
-        <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000020> ,
-        <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000021> ,
-        <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000022> ,
-        <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000023> ,
-        <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000024> ,
-        <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000025> ,
-        <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000026> ,
-        <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000027> ,
-        <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000028> ,
-        <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000029> ,
-        <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000030> ,
-        <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000031> ,
-        <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000032> ,
-        <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000033> ,
-        <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000034> ,
-        <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000035> ,
-        <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000036> ,
-        <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000037> ,
-        <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000038> ,
-        <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000039> ,
-        <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000040> ,
-        <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000041> ,
-        <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000042> ,
-        <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000043> ,
-        <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000044> ,
-        <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000045> ,
-        <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000046> ;
-    schema:isPartOf <https://linked.data.gov.au/dataset/eiatest/hcas> ;
-    schema:name "HCAS Coarse Tiles for the ACT" ;
-.
-
 <https://linked.data.gov.au/dataset/eiatest/hcas>
     a schema:Dataset ;
     geo:hasBoundingBox
@@ -70,6 +11,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
             a geo:Geometry ;
             geo:asWKT "POLYGON ((148.763096 -35.856001, 148.763096 -35.124591, 149.391917 -35.124591, 149.391917 -35.856001, 148.763096 -35.856001))"^^geo:wktLiteral ;
         ] ;
+    rdfs:member <https://linked.data.gov.au/dataset/eiatest/hcas/tiles> ;
     schema:citation "Data from https://fed.dcceew.gov.au/datasets/habitat-condition-assessment-system-hcas-version-3-1-90m-gridded-habitat-condition-long-term-epoch-1988-2022" ;
     schema:creator <https://linked.data.gov.au/org/csiro> ;
     schema:dateCreated "2025-05-15"^^xsd:date ;
@@ -77,7 +19,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:description "HCAS provides an estimate of habitat condition, using the following inputs: environmental data (ENV) variables, remote sensing data (RS) variables and reference sites condition data." ;
     schema:keywords
         <http://vocabs.lter-europe.net/EnvThes/EnvEu_13> ,
-        <https://linked.data.gov.au/def/eia-dk/observations-vegetation> ;
+        <https://linked.data.gov.au/def/eia-dk/characteristics-environment> ;
     schema:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
     schema:name "Habitat Condition and Assessment System (HCAS) Dataset" ;
     schema:publisher <https://linked.data.gov.au/org/dcceew> ;
@@ -834,4 +776,63 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
             tern:attribute <https://linked.data.gov.au/dataset/eiatest/hcas-attributes/habitat-condition> ;
             tern:hasValue "0.34901962"^^xsd:float ;
         ] ;
+.
+
+<https://linked.data.gov.au/dataset/eiatest/hcas/tiles>
+    a geo:FeatureCollection ;
+    geo:hasBoundingBox
+        [
+            a geo:Geometry ;
+            geo:asWKT "POLYGON ((148.763096 -35.856001, 148.763096 -35.124591, 149.391917 -35.124591, 149.391917 -35.856001, 148.763096 -35.856001))"^^geo:wktLiteral ;
+        ] ;
+    rdfs:member
+        <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000000> ,
+        <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000001> ,
+        <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000002> ,
+        <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000003> ,
+        <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000004> ,
+        <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000005> ,
+        <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000006> ,
+        <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000007> ,
+        <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000008> ,
+        <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000009> ,
+        <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000010> ,
+        <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000011> ,
+        <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000012> ,
+        <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000013> ,
+        <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000014> ,
+        <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000015> ,
+        <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000016> ,
+        <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000017> ,
+        <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000018> ,
+        <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000019> ,
+        <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000020> ,
+        <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000021> ,
+        <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000022> ,
+        <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000023> ,
+        <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000024> ,
+        <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000025> ,
+        <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000026> ,
+        <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000027> ,
+        <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000028> ,
+        <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000029> ,
+        <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000030> ,
+        <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000031> ,
+        <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000032> ,
+        <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000033> ,
+        <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000034> ,
+        <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000035> ,
+        <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000036> ,
+        <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000037> ,
+        <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000038> ,
+        <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000039> ,
+        <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000040> ,
+        <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000041> ,
+        <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000042> ,
+        <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000043> ,
+        <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000044> ,
+        <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000045> ,
+        <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000046> ;
+    schema:isPartOf <https://linked.data.gov.au/dataset/eiatest/hcas> ;
+    schema:name "HCAS Coarse Tiles for the ACT" ;
 .
