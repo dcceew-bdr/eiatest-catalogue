@@ -2,7 +2,7 @@ import json
 from shapely.geometry import shape
 from pathlib import Path
 from rdflib import Graph, URIRef, Literal, BNode, Namespace
-from rdflib.namespace import RDF, RDFS, SKOS, XSD, GEO
+from rdflib.namespace import RDF, RDFS, SKOS, XSD, GEO, SDO
 HCAS_FC = URIRef("https://linked.data.gov.au/dataset/eiatest/hcas/tiles")
 HCAS_NS = Namespace("https://linked.data.gov.au/dataset/eiatest/hcas/")
 HCAS_TILES = Namespace("https://linked.data.gov.au/dataset/eiatest/hcas/tile/")
@@ -73,15 +73,17 @@ g.bind("", HCAS_TILES)
 i = 100000
 for i, feature in enumerate(geojson_data["features"]):
     fid = i
-    f_iri = HCAS_NS[f"tile/{str(fid).zfill(6)}"]
+    f_id = str(fid).zfill(6)
+    f_iri = HCAS_NS[f"tile/{f_id}"]
     g.add((f_iri, RDF.type, GEO.Feature))
+    g.add((f_iri, SDO.name, Literal(f"HCAS Tile {f_id}")))
     geom = BNode()
     g.add((f_iri, GEO.hasGeometry, geom))
     g.add((geom, RDF.type, GEO.Geometry))
     g.add((geom, GEO.asWKT, Literal(shape(feature["geometry"]).wkt, datatype=GEO.wktLiteral)))
     att = BNode()
     g.add((f_iri, TERN.hasAttribute, att))
-    g.add((f_iri, RDF.type, TERN.Attribute))
+    g.add((att, RDF.type, TERN.Attribute))
     g.add((att, TERN.attribute, URIRef("https://linked.data.gov.au/dataset/eiatest/hcas-attributes/habitat-condition")))
     g.add((att, TERN.hasValue, Literal(feature["properties"]["VALUE"], datatype=XSD.float)))
     g.add((HCAS_FC, RDFS.member, f_iri))

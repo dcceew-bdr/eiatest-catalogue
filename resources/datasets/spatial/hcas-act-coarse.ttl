@@ -85,752 +85,752 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 .
 
 <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000000>
-    a
-        geo:Feature ,
-        tern:Attribute ;
+    a geo:Feature ;
     geo:hasGeometry
         [
             a geo:Geometry ;
             geo:asWKT "POLYGON ((148.942759 -35.198031, 149.032591 -35.198031, 149.032591 -35.124591, 148.942759 -35.124591, 148.942759 -35.198031))"^^geo:wktLiteral ;
         ] ;
+    schema:name "HCAS Tile 000000" ;
     tern:hasAttribute
         [
+            a tern:Attribute ;
             tern:attribute <https://linked.data.gov.au/dataset/eiatest/hcas-attributes/habitat-condition> ;
             tern:hasValue "0.64705884"^^xsd:float ;
         ] ;
 .
 
 <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000001>
-    a
-        geo:Feature ,
-        tern:Attribute ;
+    a geo:Feature ;
     geo:hasGeometry
         [
             a geo:Geometry ;
             geo:asWKT "POLYGON ((149.032591 -35.198031, 149.122423 -35.198031, 149.122423 -35.124591, 149.032591 -35.124591, 149.032591 -35.198031))"^^geo:wktLiteral ;
         ] ;
+    schema:name "HCAS Tile 000001" ;
     tern:hasAttribute
         [
+            a tern:Attribute ;
             tern:attribute <https://linked.data.gov.au/dataset/eiatest/hcas-attributes/habitat-condition> ;
             tern:hasValue "0.65490198"^^xsd:float ;
         ] ;
 .
 
 <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000002>
-    a
-        geo:Feature ,
-        tern:Attribute ;
+    a geo:Feature ;
     geo:hasGeometry
         [
             a geo:Geometry ;
             geo:asWKT "POLYGON ((149.122423 -35.198031, 149.212254 -35.198031, 149.212254 -35.124591, 149.122423 -35.124591, 149.122423 -35.198031))"^^geo:wktLiteral ;
         ] ;
+    schema:name "HCAS Tile 000002" ;
     tern:hasAttribute
         [
+            a tern:Attribute ;
             tern:attribute <https://linked.data.gov.au/dataset/eiatest/hcas-attributes/habitat-condition> ;
             tern:hasValue "0.67058825"^^xsd:float ;
         ] ;
 .
 
 <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000003>
-    a
-        geo:Feature ,
-        tern:Attribute ;
+    a geo:Feature ;
     geo:hasGeometry
         [
             a geo:Geometry ;
             geo:asWKT "POLYGON ((148.852928 -35.271405, 148.942759 -35.271405, 148.942759 -35.198031, 148.852928 -35.198031, 148.852928 -35.271405))"^^geo:wktLiteral ;
         ] ;
+    schema:name "HCAS Tile 000003" ;
     tern:hasAttribute
         [
+            a tern:Attribute ;
             tern:attribute <https://linked.data.gov.au/dataset/eiatest/hcas-attributes/habitat-condition> ;
             tern:hasValue "0.64313728"^^xsd:float ;
         ] ;
 .
 
 <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000004>
-    a
-        geo:Feature ,
-        tern:Attribute ;
+    a geo:Feature ;
     geo:hasGeometry
         [
             a geo:Geometry ;
             geo:asWKT "POLYGON ((148.942759 -35.271405, 149.032591 -35.271405, 149.032591 -35.198031, 148.942759 -35.198031, 148.942759 -35.271405))"^^geo:wktLiteral ;
         ] ;
+    schema:name "HCAS Tile 000004" ;
     tern:hasAttribute
         [
+            a tern:Attribute ;
             tern:attribute <https://linked.data.gov.au/dataset/eiatest/hcas-attributes/habitat-condition> ;
             tern:hasValue "0.66666669"^^xsd:float ;
         ] ;
 .
 
 <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000005>
-    a
-        geo:Feature ,
-        tern:Attribute ;
+    a geo:Feature ;
     geo:hasGeometry
         [
             a geo:Geometry ;
             geo:asWKT "POLYGON ((149.032591 -35.271405, 149.122423 -35.271405, 149.122423 -35.198031, 149.032591 -35.198031, 149.032591 -35.271405))"^^geo:wktLiteral ;
         ] ;
+    schema:name "HCAS Tile 000005" ;
     tern:hasAttribute
         [
+            a tern:Attribute ;
             tern:attribute <https://linked.data.gov.au/dataset/eiatest/hcas-attributes/habitat-condition> ;
             tern:hasValue "0.627451"^^xsd:float ;
         ] ;
 .
 
 <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000006>
-    a
-        geo:Feature ,
-        tern:Attribute ;
+    a geo:Feature ;
     geo:hasGeometry
         [
             a geo:Geometry ;
             geo:asWKT "POLYGON ((149.122423 -35.271405, 149.212254 -35.271405, 149.212254 -35.198031, 149.122423 -35.198031, 149.122423 -35.271405))"^^geo:wktLiteral ;
         ] ;
+    schema:name "HCAS Tile 000006" ;
     tern:hasAttribute
         [
+            a tern:Attribute ;
             tern:attribute <https://linked.data.gov.au/dataset/eiatest/hcas-attributes/habitat-condition> ;
             tern:hasValue "0.64313728"^^xsd:float ;
         ] ;
 .
 
 <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000007>
-    a
-        geo:Feature ,
-        tern:Attribute ;
+    a geo:Feature ;
     geo:hasGeometry
         [
             a geo:Geometry ;
             geo:asWKT "POLYGON ((149.212254 -35.271405, 149.302086 -35.271405, 149.302086 -35.198031, 149.212254 -35.198031, 149.212254 -35.271405))"^^geo:wktLiteral ;
         ] ;
+    schema:name "HCAS Tile 000007" ;
     tern:hasAttribute
         [
+            a tern:Attribute ;
             tern:attribute <https://linked.data.gov.au/dataset/eiatest/hcas-attributes/habitat-condition> ;
             tern:hasValue "0.59215689"^^xsd:float ;
         ] ;
 .
 
 <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000008>
-    a
-        geo:Feature ,
-        tern:Attribute ;
+    a geo:Feature ;
     geo:hasGeometry
         [
             a geo:Geometry ;
             geo:asWKT "POLYGON ((148.763096 -35.344712, 148.852928 -35.344712, 148.852928 -35.271405, 148.763096 -35.271405, 148.763096 -35.344712))"^^geo:wktLiteral ;
         ] ;
+    schema:name "HCAS Tile 000008" ;
     tern:hasAttribute
         [
+            a tern:Attribute ;
             tern:attribute <https://linked.data.gov.au/dataset/eiatest/hcas-attributes/habitat-condition> ;
             tern:hasValue "0.40392157"^^xsd:float ;
         ] ;
 .
 
 <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000009>
-    a
-        geo:Feature ,
-        tern:Attribute ;
+    a geo:Feature ;
     geo:hasGeometry
         [
             a geo:Geometry ;
             geo:asWKT "POLYGON ((148.852928 -35.344712, 148.942759 -35.344712, 148.942759 -35.271405, 148.852928 -35.271405, 148.852928 -35.344712))"^^geo:wktLiteral ;
         ] ;
+    schema:name "HCAS Tile 000009" ;
     tern:hasAttribute
         [
+            a tern:Attribute ;
             tern:attribute <https://linked.data.gov.au/dataset/eiatest/hcas-attributes/habitat-condition> ;
             tern:hasValue "0.60784316"^^xsd:float ;
         ] ;
 .
 
 <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000010>
-    a
-        geo:Feature ,
-        tern:Attribute ;
+    a geo:Feature ;
     geo:hasGeometry
         [
             a geo:Geometry ;
             geo:asWKT "POLYGON ((148.942759 -35.344712, 149.032591 -35.344712, 149.032591 -35.271405, 148.942759 -35.271405, 148.942759 -35.344712))"^^geo:wktLiteral ;
         ] ;
+    schema:name "HCAS Tile 000010" ;
     tern:hasAttribute
         [
+            a tern:Attribute ;
             tern:attribute <https://linked.data.gov.au/dataset/eiatest/hcas-attributes/habitat-condition> ;
             tern:hasValue "0.65882355"^^xsd:float ;
         ] ;
 .
 
 <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000011>
-    a
-        geo:Feature ,
-        tern:Attribute ;
+    a geo:Feature ;
     geo:hasGeometry
         [
             a geo:Geometry ;
             geo:asWKT "POLYGON ((149.032591 -35.344712, 149.122423 -35.344712, 149.122423 -35.271405, 149.032591 -35.271405, 149.032591 -35.344712))"^^geo:wktLiteral ;
         ] ;
+    schema:name "HCAS Tile 000011" ;
     tern:hasAttribute
         [
+            a tern:Attribute ;
             tern:attribute <https://linked.data.gov.au/dataset/eiatest/hcas-attributes/habitat-condition> ;
             tern:hasValue "0.64705884"^^xsd:float ;
         ] ;
 .
 
 <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000012>
-    a
-        geo:Feature ,
-        tern:Attribute ;
+    a geo:Feature ;
     geo:hasGeometry
         [
             a geo:Geometry ;
             geo:asWKT "POLYGON ((149.122423 -35.344712, 149.212254 -35.344712, 149.212254 -35.271405, 149.122423 -35.271405, 149.122423 -35.344712))"^^geo:wktLiteral ;
         ] ;
+    schema:name "HCAS Tile 000012" ;
     tern:hasAttribute
         [
+            a tern:Attribute ;
             tern:attribute <https://linked.data.gov.au/dataset/eiatest/hcas-attributes/habitat-condition> ;
             tern:hasValue "0.63529414"^^xsd:float ;
         ] ;
 .
 
 <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000013>
-    a
-        geo:Feature ,
-        tern:Attribute ;
+    a geo:Feature ;
     geo:hasGeometry
         [
             a geo:Geometry ;
             geo:asWKT "POLYGON ((149.212254 -35.344712, 149.302086 -35.344712, 149.302086 -35.271405, 149.212254 -35.271405, 149.212254 -35.344712))"^^geo:wktLiteral ;
         ] ;
+    schema:name "HCAS Tile 000013" ;
     tern:hasAttribute
         [
+            a tern:Attribute ;
             tern:attribute <https://linked.data.gov.au/dataset/eiatest/hcas-attributes/habitat-condition> ;
             tern:hasValue "0.63921571"^^xsd:float ;
         ] ;
 .
 
 <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000014>
-    a
-        geo:Feature ,
-        tern:Attribute ;
+    a geo:Feature ;
     geo:hasGeometry
         [
             a geo:Geometry ;
             geo:asWKT "POLYGON ((149.302086 -35.344712, 149.391917 -35.344712, 149.391917 -35.271405, 149.302086 -35.271405, 149.302086 -35.344712))"^^geo:wktLiteral ;
         ] ;
+    schema:name "HCAS Tile 000014" ;
     tern:hasAttribute
         [
+            a tern:Attribute ;
             tern:attribute <https://linked.data.gov.au/dataset/eiatest/hcas-attributes/habitat-condition> ;
             tern:hasValue "0.60784316"^^xsd:float ;
         ] ;
 .
 
 <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000015>
-    a
-        geo:Feature ,
-        tern:Attribute ;
+    a geo:Feature ;
     geo:hasGeometry
         [
             a geo:Geometry ;
             geo:asWKT "POLYGON ((148.763096 -35.417954, 148.852928 -35.417954, 148.852928 -35.344712, 148.763096 -35.344712, 148.763096 -35.417954))"^^geo:wktLiteral ;
         ] ;
+    schema:name "HCAS Tile 000015" ;
     tern:hasAttribute
         [
+            a tern:Attribute ;
             tern:attribute <https://linked.data.gov.au/dataset/eiatest/hcas-attributes/habitat-condition> ;
             tern:hasValue "0.36078432"^^xsd:float ;
         ] ;
 .
 
 <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000016>
-    a
-        geo:Feature ,
-        tern:Attribute ;
+    a geo:Feature ;
     geo:hasGeometry
         [
             a geo:Geometry ;
             geo:asWKT "POLYGON ((148.852928 -35.417954, 148.942759 -35.417954, 148.942759 -35.344712, 148.852928 -35.344712, 148.852928 -35.417954))"^^geo:wktLiteral ;
         ] ;
+    schema:name "HCAS Tile 000016" ;
     tern:hasAttribute
         [
+            a tern:Attribute ;
             tern:attribute <https://linked.data.gov.au/dataset/eiatest/hcas-attributes/habitat-condition> ;
             tern:hasValue "0.50588238"^^xsd:float ;
         ] ;
 .
 
 <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000017>
-    a
-        geo:Feature ,
-        tern:Attribute ;
+    a geo:Feature ;
     geo:hasGeometry
         [
             a geo:Geometry ;
             geo:asWKT "POLYGON ((148.942759 -35.417954, 149.032591 -35.417954, 149.032591 -35.344712, 148.942759 -35.344712, 148.942759 -35.417954))"^^geo:wktLiteral ;
         ] ;
+    schema:name "HCAS Tile 000017" ;
     tern:hasAttribute
         [
+            a tern:Attribute ;
             tern:attribute <https://linked.data.gov.au/dataset/eiatest/hcas-attributes/habitat-condition> ;
             tern:hasValue "0.61176473"^^xsd:float ;
         ] ;
 .
 
 <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000018>
-    a
-        geo:Feature ,
-        tern:Attribute ;
+    a geo:Feature ;
     geo:hasGeometry
         [
             a geo:Geometry ;
             geo:asWKT "POLYGON ((149.032591 -35.417954, 149.122423 -35.417954, 149.122423 -35.344712, 149.032591 -35.344712, 149.032591 -35.417954))"^^geo:wktLiteral ;
         ] ;
+    schema:name "HCAS Tile 000018" ;
     tern:hasAttribute
         [
+            a tern:Attribute ;
             tern:attribute <https://linked.data.gov.au/dataset/eiatest/hcas-attributes/habitat-condition> ;
             tern:hasValue "0.61176473"^^xsd:float ;
         ] ;
 .
 
 <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000019>
-    a
-        geo:Feature ,
-        tern:Attribute ;
+    a geo:Feature ;
     geo:hasGeometry
         [
             a geo:Geometry ;
             geo:asWKT "POLYGON ((149.122423 -35.417954, 149.212254 -35.417954, 149.212254 -35.344712, 149.122423 -35.344712, 149.122423 -35.417954))"^^geo:wktLiteral ;
         ] ;
+    schema:name "HCAS Tile 000019" ;
     tern:hasAttribute
         [
+            a tern:Attribute ;
             tern:attribute <https://linked.data.gov.au/dataset/eiatest/hcas-attributes/habitat-condition> ;
             tern:hasValue "0.65882355"^^xsd:float ;
         ] ;
 .
 
 <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000020>
-    a
-        geo:Feature ,
-        tern:Attribute ;
+    a geo:Feature ;
     geo:hasGeometry
         [
             a geo:Geometry ;
             geo:asWKT "POLYGON ((149.302086 -35.417954, 149.391917 -35.417954, 149.391917 -35.344712, 149.302086 -35.344712, 149.302086 -35.417954))"^^geo:wktLiteral ;
         ] ;
+    schema:name "HCAS Tile 000020" ;
     tern:hasAttribute
         [
+            a tern:Attribute ;
             tern:attribute <https://linked.data.gov.au/dataset/eiatest/hcas-attributes/habitat-condition> ;
             tern:hasValue "0.61176473"^^xsd:float ;
         ] ;
 .
 
 <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000021>
-    a
-        geo:Feature ,
-        tern:Attribute ;
+    a geo:Feature ;
     geo:hasGeometry
         [
             a geo:Geometry ;
             geo:asWKT "POLYGON ((148.763096 -35.491128, 148.852928 -35.491128, 148.852928 -35.417954, 148.763096 -35.417954, 148.763096 -35.491128))"^^geo:wktLiteral ;
         ] ;
+    schema:name "HCAS Tile 000021" ;
     tern:hasAttribute
         [
+            a tern:Attribute ;
             tern:attribute <https://linked.data.gov.au/dataset/eiatest/hcas-attributes/habitat-condition> ;
             tern:hasValue "0.35686275"^^xsd:float ;
         ] ;
 .
 
 <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000022>
-    a
-        geo:Feature ,
-        tern:Attribute ;
+    a geo:Feature ;
     geo:hasGeometry
         [
             a geo:Geometry ;
             geo:asWKT "POLYGON ((148.852928 -35.491128, 148.942759 -35.491128, 148.942759 -35.417954, 148.852928 -35.417954, 148.852928 -35.491128))"^^geo:wktLiteral ;
         ] ;
+    schema:name "HCAS Tile 000022" ;
     tern:hasAttribute
         [
+            a tern:Attribute ;
             tern:attribute <https://linked.data.gov.au/dataset/eiatest/hcas-attributes/habitat-condition> ;
             tern:hasValue "0.42352942"^^xsd:float ;
         ] ;
 .
 
 <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000023>
-    a
-        geo:Feature ,
-        tern:Attribute ;
+    a geo:Feature ;
     geo:hasGeometry
         [
             a geo:Geometry ;
             geo:asWKT "POLYGON ((148.942759 -35.491128, 149.032591 -35.491128, 149.032591 -35.417954, 148.942759 -35.417954, 148.942759 -35.491128))"^^geo:wktLiteral ;
         ] ;
+    schema:name "HCAS Tile 000023" ;
     tern:hasAttribute
         [
+            a tern:Attribute ;
             tern:attribute <https://linked.data.gov.au/dataset/eiatest/hcas-attributes/habitat-condition> ;
             tern:hasValue "0.59215689"^^xsd:float ;
         ] ;
 .
 
 <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000024>
-    a
-        geo:Feature ,
-        tern:Attribute ;
+    a geo:Feature ;
     geo:hasGeometry
         [
             a geo:Geometry ;
             geo:asWKT "POLYGON ((149.032591 -35.491128, 149.122423 -35.491128, 149.122423 -35.417954, 149.032591 -35.417954, 149.032591 -35.491128))"^^geo:wktLiteral ;
         ] ;
+    schema:name "HCAS Tile 000024" ;
     tern:hasAttribute
         [
+            a tern:Attribute ;
             tern:attribute <https://linked.data.gov.au/dataset/eiatest/hcas-attributes/habitat-condition> ;
             tern:hasValue "0.627451"^^xsd:float ;
         ] ;
 .
 
 <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000025>
-    a
-        geo:Feature ,
-        tern:Attribute ;
+    a geo:Feature ;
     geo:hasGeometry
         [
             a geo:Geometry ;
             geo:asWKT "POLYGON ((149.122423 -35.491128, 149.212254 -35.491128, 149.212254 -35.417954, 149.122423 -35.417954, 149.122423 -35.491128))"^^geo:wktLiteral ;
         ] ;
+    schema:name "HCAS Tile 000025" ;
     tern:hasAttribute
         [
+            a tern:Attribute ;
             tern:attribute <https://linked.data.gov.au/dataset/eiatest/hcas-attributes/habitat-condition> ;
             tern:hasValue "0.62352943"^^xsd:float ;
         ] ;
 .
 
 <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000026>
-    a
-        geo:Feature ,
-        tern:Attribute ;
+    a geo:Feature ;
     geo:hasGeometry
         [
             a geo:Geometry ;
             geo:asWKT "POLYGON ((148.763096 -35.564236, 148.852928 -35.564236, 148.852928 -35.491128, 148.763096 -35.491128, 148.763096 -35.564236))"^^geo:wktLiteral ;
         ] ;
+    schema:name "HCAS Tile 000026" ;
     tern:hasAttribute
         [
+            a tern:Attribute ;
             tern:attribute <https://linked.data.gov.au/dataset/eiatest/hcas-attributes/habitat-condition> ;
             tern:hasValue "0.32156864"^^xsd:float ;
         ] ;
 .
 
 <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000027>
-    a
-        geo:Feature ,
-        tern:Attribute ;
+    a geo:Feature ;
     geo:hasGeometry
         [
             a geo:Geometry ;
             geo:asWKT "POLYGON ((148.852928 -35.564236, 148.942759 -35.564236, 148.942759 -35.491128, 148.852928 -35.491128, 148.852928 -35.564236))"^^geo:wktLiteral ;
         ] ;
+    schema:name "HCAS Tile 000027" ;
     tern:hasAttribute
         [
+            a tern:Attribute ;
             tern:attribute <https://linked.data.gov.au/dataset/eiatest/hcas-attributes/habitat-condition> ;
             tern:hasValue "0.27843139"^^xsd:float ;
         ] ;
 .
 
 <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000028>
-    a
-        geo:Feature ,
-        tern:Attribute ;
+    a geo:Feature ;
     geo:hasGeometry
         [
             a geo:Geometry ;
             geo:asWKT "POLYGON ((148.942759 -35.564236, 149.032591 -35.564236, 149.032591 -35.491128, 148.942759 -35.491128, 148.942759 -35.564236))"^^geo:wktLiteral ;
         ] ;
+    schema:name "HCAS Tile 000028" ;
     tern:hasAttribute
         [
+            a tern:Attribute ;
             tern:attribute <https://linked.data.gov.au/dataset/eiatest/hcas-attributes/habitat-condition> ;
             tern:hasValue "0.39215687"^^xsd:float ;
         ] ;
 .
 
 <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000029>
-    a
-        geo:Feature ,
-        tern:Attribute ;
+    a geo:Feature ;
     geo:hasGeometry
         [
             a geo:Geometry ;
             geo:asWKT "POLYGON ((149.032591 -35.564236, 149.122423 -35.564236, 149.122423 -35.491128, 149.032591 -35.491128, 149.032591 -35.564236))"^^geo:wktLiteral ;
         ] ;
+    schema:name "HCAS Tile 000029" ;
     tern:hasAttribute
         [
+            a tern:Attribute ;
             tern:attribute <https://linked.data.gov.au/dataset/eiatest/hcas-attributes/habitat-condition> ;
             tern:hasValue "0.60784316"^^xsd:float ;
         ] ;
 .
 
 <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000030>
-    a
-        geo:Feature ,
-        tern:Attribute ;
+    a geo:Feature ;
     geo:hasGeometry
         [
             a geo:Geometry ;
             geo:asWKT "POLYGON ((149.122423 -35.564236, 149.212254 -35.564236, 149.212254 -35.491128, 149.122423 -35.491128, 149.122423 -35.564236))"^^geo:wktLiteral ;
         ] ;
+    schema:name "HCAS Tile 000030" ;
     tern:hasAttribute
         [
+            a tern:Attribute ;
             tern:attribute <https://linked.data.gov.au/dataset/eiatest/hcas-attributes/habitat-condition> ;
             tern:hasValue "0.627451"^^xsd:float ;
         ] ;
 .
 
 <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000031>
-    a
-        geo:Feature ,
-        tern:Attribute ;
+    a geo:Feature ;
     geo:hasGeometry
         [
             a geo:Geometry ;
             geo:asWKT "POLYGON ((148.763096 -35.637278, 148.852928 -35.637278, 148.852928 -35.564236, 148.763096 -35.564236, 148.763096 -35.637278))"^^geo:wktLiteral ;
         ] ;
+    schema:name "HCAS Tile 000031" ;
     tern:hasAttribute
         [
+            a tern:Attribute ;
             tern:attribute <https://linked.data.gov.au/dataset/eiatest/hcas-attributes/habitat-condition> ;
             tern:hasValue "0.32549021"^^xsd:float ;
         ] ;
 .
 
 <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000032>
-    a
-        geo:Feature ,
-        tern:Attribute ;
+    a geo:Feature ;
     geo:hasGeometry
         [
             a geo:Geometry ;
             geo:asWKT "POLYGON ((148.852928 -35.637278, 148.942759 -35.637278, 148.942759 -35.564236, 148.852928 -35.564236, 148.852928 -35.637278))"^^geo:wktLiteral ;
         ] ;
+    schema:name "HCAS Tile 000032" ;
     tern:hasAttribute
         [
+            a tern:Attribute ;
             tern:attribute <https://linked.data.gov.au/dataset/eiatest/hcas-attributes/habitat-condition> ;
             tern:hasValue "0.28235295"^^xsd:float ;
         ] ;
 .
 
 <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000033>
-    a
-        geo:Feature ,
-        tern:Attribute ;
+    a geo:Feature ;
     geo:hasGeometry
         [
             a geo:Geometry ;
             geo:asWKT "POLYGON ((148.942759 -35.637278, 149.032591 -35.637278, 149.032591 -35.564236, 148.942759 -35.564236, 148.942759 -35.637278))"^^geo:wktLiteral ;
         ] ;
+    schema:name "HCAS Tile 000033" ;
     tern:hasAttribute
         [
+            a tern:Attribute ;
             tern:attribute <https://linked.data.gov.au/dataset/eiatest/hcas-attributes/habitat-condition> ;
             tern:hasValue "0.39215687"^^xsd:float ;
         ] ;
 .
 
 <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000034>
-    a
-        geo:Feature ,
-        tern:Attribute ;
+    a geo:Feature ;
     geo:hasGeometry
         [
             a geo:Geometry ;
             geo:asWKT "POLYGON ((149.032591 -35.637278, 149.122423 -35.637278, 149.122423 -35.564236, 149.032591 -35.564236, 149.032591 -35.637278))"^^geo:wktLiteral ;
         ] ;
+    schema:name "HCAS Tile 000034" ;
     tern:hasAttribute
         [
+            a tern:Attribute ;
             tern:attribute <https://linked.data.gov.au/dataset/eiatest/hcas-attributes/habitat-condition> ;
             tern:hasValue "0.6156863"^^xsd:float ;
         ] ;
 .
 
 <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000035>
-    a
-        geo:Feature ,
-        tern:Attribute ;
+    a geo:Feature ;
     geo:hasGeometry
         [
             a geo:Geometry ;
             geo:asWKT "POLYGON ((149.122423 -35.637278, 149.212254 -35.637278, 149.212254 -35.564236, 149.122423 -35.564236, 149.122423 -35.637278))"^^geo:wktLiteral ;
         ] ;
+    schema:name "HCAS Tile 000035" ;
     tern:hasAttribute
         [
+            a tern:Attribute ;
             tern:attribute <https://linked.data.gov.au/dataset/eiatest/hcas-attributes/habitat-condition> ;
             tern:hasValue "0.65882355"^^xsd:float ;
         ] ;
 .
 
 <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000036>
-    a
-        geo:Feature ,
-        tern:Attribute ;
+    a geo:Feature ;
     geo:hasGeometry
         [
             a geo:Geometry ;
             geo:asWKT "POLYGON ((148.763096 -35.710252, 148.852928 -35.710252, 148.852928 -35.637278, 148.763096 -35.637278, 148.763096 -35.710252))"^^geo:wktLiteral ;
         ] ;
+    schema:name "HCAS Tile 000036" ;
     tern:hasAttribute
         [
+            a tern:Attribute ;
             tern:attribute <https://linked.data.gov.au/dataset/eiatest/hcas-attributes/habitat-condition> ;
             tern:hasValue "0.29803923"^^xsd:float ;
         ] ;
 .
 
 <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000037>
-    a
-        geo:Feature ,
-        tern:Attribute ;
+    a geo:Feature ;
     geo:hasGeometry
         [
             a geo:Geometry ;
             geo:asWKT "POLYGON ((148.852928 -35.710252, 148.942759 -35.710252, 148.942759 -35.637278, 148.852928 -35.637278, 148.852928 -35.710252))"^^geo:wktLiteral ;
         ] ;
+    schema:name "HCAS Tile 000037" ;
     tern:hasAttribute
         [
+            a tern:Attribute ;
             tern:attribute <https://linked.data.gov.au/dataset/eiatest/hcas-attributes/habitat-condition> ;
             tern:hasValue "0.27058825"^^xsd:float ;
         ] ;
 .
 
 <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000038>
-    a
-        geo:Feature ,
-        tern:Attribute ;
+    a geo:Feature ;
     geo:hasGeometry
         [
             a geo:Geometry ;
             geo:asWKT "POLYGON ((148.942759 -35.710252, 149.032591 -35.710252, 149.032591 -35.637278, 148.942759 -35.637278, 148.942759 -35.710252))"^^geo:wktLiteral ;
         ] ;
+    schema:name "HCAS Tile 000038" ;
     tern:hasAttribute
         [
+            a tern:Attribute ;
             tern:attribute <https://linked.data.gov.au/dataset/eiatest/hcas-attributes/habitat-condition> ;
             tern:hasValue "0.40784314"^^xsd:float ;
         ] ;
 .
 
 <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000039>
-    a
-        geo:Feature ,
-        tern:Attribute ;
+    a geo:Feature ;
     geo:hasGeometry
         [
             a geo:Geometry ;
             geo:asWKT "POLYGON ((149.032591 -35.710252, 149.122423 -35.710252, 149.122423 -35.637278, 149.032591 -35.637278, 149.032591 -35.710252))"^^geo:wktLiteral ;
         ] ;
+    schema:name "HCAS Tile 000039" ;
     tern:hasAttribute
         [
+            a tern:Attribute ;
             tern:attribute <https://linked.data.gov.au/dataset/eiatest/hcas-attributes/habitat-condition> ;
             tern:hasValue "0.50980395"^^xsd:float ;
         ] ;
 .
 
 <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000040>
-    a
-        geo:Feature ,
-        tern:Attribute ;
+    a geo:Feature ;
     geo:hasGeometry
         [
             a geo:Geometry ;
             geo:asWKT "POLYGON ((148.763096 -35.78316, 148.852928 -35.78316, 148.852928 -35.710252, 148.763096 -35.710252, 148.763096 -35.78316))"^^geo:wktLiteral ;
         ] ;
+    schema:name "HCAS Tile 000040" ;
     tern:hasAttribute
         [
+            a tern:Attribute ;
             tern:attribute <https://linked.data.gov.au/dataset/eiatest/hcas-attributes/habitat-condition> ;
             tern:hasValue "0.28627452"^^xsd:float ;
         ] ;
 .
 
 <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000041>
-    a
-        geo:Feature ,
-        tern:Attribute ;
+    a geo:Feature ;
     geo:hasGeometry
         [
             a geo:Geometry ;
             geo:asWKT "POLYGON ((148.852928 -35.78316, 148.942759 -35.78316, 148.942759 -35.710252, 148.852928 -35.710252, 148.852928 -35.78316))"^^geo:wktLiteral ;
         ] ;
+    schema:name "HCAS Tile 000041" ;
     tern:hasAttribute
         [
+            a tern:Attribute ;
             tern:attribute <https://linked.data.gov.au/dataset/eiatest/hcas-attributes/habitat-condition> ;
             tern:hasValue "0.29411766"^^xsd:float ;
         ] ;
 .
 
 <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000042>
-    a
-        geo:Feature ,
-        tern:Attribute ;
+    a geo:Feature ;
     geo:hasGeometry
         [
             a geo:Geometry ;
             geo:asWKT "POLYGON ((148.942759 -35.78316, 149.032591 -35.78316, 149.032591 -35.710252, 148.942759 -35.710252, 148.942759 -35.78316))"^^geo:wktLiteral ;
         ] ;
+    schema:name "HCAS Tile 000042" ;
     tern:hasAttribute
         [
+            a tern:Attribute ;
             tern:attribute <https://linked.data.gov.au/dataset/eiatest/hcas-attributes/habitat-condition> ;
             tern:hasValue "0.38431373"^^xsd:float ;
         ] ;
 .
 
 <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000043>
-    a
-        geo:Feature ,
-        tern:Attribute ;
+    a geo:Feature ;
     geo:hasGeometry
         [
             a geo:Geometry ;
             geo:asWKT "POLYGON ((149.032591 -35.78316, 149.122423 -35.78316, 149.122423 -35.710252, 149.032591 -35.710252, 149.032591 -35.78316))"^^geo:wktLiteral ;
         ] ;
+    schema:name "HCAS Tile 000043" ;
     tern:hasAttribute
         [
+            a tern:Attribute ;
             tern:attribute <https://linked.data.gov.au/dataset/eiatest/hcas-attributes/habitat-condition> ;
             tern:hasValue "0.32156864"^^xsd:float ;
         ] ;
 .
 
 <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000044>
-    a
-        geo:Feature ,
-        tern:Attribute ;
+    a geo:Feature ;
     geo:hasGeometry
         [
             a geo:Geometry ;
             geo:asWKT "POLYGON ((148.852928 -35.856001, 148.942759 -35.856001, 148.942759 -35.78316, 148.852928 -35.78316, 148.852928 -35.856001))"^^geo:wktLiteral ;
         ] ;
+    schema:name "HCAS Tile 000044" ;
     tern:hasAttribute
         [
+            a tern:Attribute ;
             tern:attribute <https://linked.data.gov.au/dataset/eiatest/hcas-attributes/habitat-condition> ;
             tern:hasValue "0.33725491"^^xsd:float ;
         ] ;
 .
 
 <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000045>
-    a
-        geo:Feature ,
-        tern:Attribute ;
+    a geo:Feature ;
     geo:hasGeometry
         [
             a geo:Geometry ;
             geo:asWKT "POLYGON ((148.942759 -35.856001, 149.032591 -35.856001, 149.032591 -35.78316, 148.942759 -35.78316, 148.942759 -35.856001))"^^geo:wktLiteral ;
         ] ;
+    schema:name "HCAS Tile 000045" ;
     tern:hasAttribute
         [
+            a tern:Attribute ;
             tern:attribute <https://linked.data.gov.au/dataset/eiatest/hcas-attributes/habitat-condition> ;
             tern:hasValue "0.29411766"^^xsd:float ;
         ] ;
 .
 
 <https://linked.data.gov.au/dataset/eiatest/hcas/tile/000046>
-    a
-        geo:Feature ,
-        tern:Attribute ;
+    a geo:Feature ;
     geo:hasGeometry
         [
             a geo:Geometry ;
             geo:asWKT "POLYGON ((149.032591 -35.856001, 149.122423 -35.856001, 149.122423 -35.78316, 149.032591 -35.78316, 149.032591 -35.856001))"^^geo:wktLiteral ;
         ] ;
+    schema:name "HCAS Tile 000046" ;
     tern:hasAttribute
         [
+            a tern:Attribute ;
             tern:attribute <https://linked.data.gov.au/dataset/eiatest/hcas-attributes/habitat-condition> ;
             tern:hasValue "0.34901962"^^xsd:float ;
         ] ;
