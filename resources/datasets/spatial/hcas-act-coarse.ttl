@@ -77,7 +77,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:description "HCAS provides an estimate of habitat condition, using the following inputs: environmental data (ENV) variables, remote sensing data (RS) variables and reference sites condition data." ;
     schema:keywords
         <http://vocabs.lter-europe.net/EnvThes/EnvEu_13> ,
-        <https://linked.data.gov.au/def/eia-dk/characteristics-environment> ;
+        <https://linked.data.gov.au/def/eia-dk/observations-vegetation> ;
     schema:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
     schema:name "Habitat Condition and Assessment System (HCAS) Dataset" ;
     schema:publisher <https://linked.data.gov.au/org/dcceew> ;
