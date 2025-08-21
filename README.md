@@ -1,14 +1,15 @@
 # EIA Test Catalogue
 
-This catalogue was created in May/June 2025 to test a proposed EIA "Supermodel".
+This catalogue was created in mid-2025 to showcase the integration of [Environment Information Australia (EIA)](https://www.dcceew.gov.au/environment/environment-information-australia) datasets.
 
-The catalogue lists test versions of major Australian environmental datasets within the scope of [Environment Information Australia (EIA)](https://www.dcceew.gov.au/environment/environment-information-australia) [DCCEEW](https://www.dcceew.gov.au/). A demonstration client, which will soon be online at <https://portal.bdr.gov.au> will show how these datasets can be "deeply integrated" using [Semantic Web](https://en.wikipedia.org/wiki/Semantic_Web) and [Knowledge Graph](https://en.wikipedia.org/wiki/Knowledge_graph) methods.
+The catalogue [lists test versions of major Australian environmental datasets](https://eia.testing.bdr.gov.au/catalogs/catalogue:eiatest-datasets/collections) within EIA's scope. It also lists [models](https://eia.testing.bdr.gov.au/catalogs/catalogue:eiatest-models/collections) and [vocabularies](https://eia.testing.bdr.gov.au/catalogs/catalogue:eiatest-vocabs/collections) needed to support the integration of the datasets.
 
-While most data catalogues list datasets so they can be discovered easily, they don't often provide much assistance for their deep integration, i.e. integration of elements within the datasets. This catalogue does provide for this by ensuring that each dataset listed here is available in a form that is conceptually and technically aligned to a cohesive [Supermodel](https://linked.data.gov.au/def/supermodel).
+The catalogue tool also provides the [EIA Scenario Demonstrator](https://eia.testing.bdr.gov.au/eia-demo) which describes a series of data discovery scenarios that show off different aspects of the dataset's integration using [Semantic Web](https://en.wikipedia.org/wiki/Semantic_Web) and [Knowledge Graph](https://en.wikipedia.org/wiki/Knowledge_graph) methods.
 
-The supermodels used for the items in this catalogue is online at:
 
-* **<https://linked.data.gov.au/def/eia-supermodel>** - _coming soon!_
+The enterprise data model - a "Supermodel" - within which all elements of this catalogue are positioned is online at:
+
+* **<https://linked.data.gov.au/def/eia-supermodel>**
 
 ## License & Rights
 
