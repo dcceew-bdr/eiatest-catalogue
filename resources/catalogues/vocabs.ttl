@@ -15,7 +15,7 @@ Part of the EIA Test Catalogue.""" ;
     schema:hasPart
         <http://vocabs.lter-europe.net/EnvThes> ,
         <https://linked.data.gov.au/def/alum> ,
-        <https://linked.data.gov.au/eia-dk> ,
+        <https://linked.data.gov.au/def/eia-dk> ,
         <https://w3id.org/APD/glossary> ,
         <http://anzsoil.org/def/au/asls/land-surface> ,
         <http://anzsoil.org/def/au/asls/soil-profile> ,
