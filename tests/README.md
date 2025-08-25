@@ -27,6 +27,11 @@ We need to add a custom Prez Profile for the Occurrences to display properly:
 kurra db upload ../../resources/prez-config/profiles.ttl http://localhost:3030/eiatest-catalogue
 ```
 
+As well as some custom prefixes for the catalogue to display properly:
+```
+kurra db upload ../../resources/prez-config/prefixes.ttl http://localhost:3030/eiatest-catalogue
+```
+
 We can add some data and restart the server:
 ```
 kurra db upload ../../resources/datasets/nvis.ttl http://localhost:3030/eiatest-catalogue

@@ -1,0 +1,169 @@
+PREFIX vann: <http://purl.org/vocab/vann/>
+
+[ vann:preferredNamespacePrefix "ex" ;
+ vann:preferredNamespaceUri "http://example.org/"
+] .
+
+[ vann:preferredNamespacePrefix "ogcfeat" ;
+ vann:preferredNamespaceUri "http://www.opengis.net/ogcapi-features-1/1.0/"
+] .
+
+[ vann:preferredNamespacePrefix "exns" ;
+ vann:preferredNamespaceUri "http://example.org/ns#"
+] .
+
+[ vann:preferredNamespacePrefix "EnvThes" ;
+ vann:preferredNamespaceUri "http://vocabs.lter-europe.net/EnvThes/"
+] .
+
+[ vann:preferredNamespacePrefix "alum" ;
+ vann:preferredNamespaceUri "https://linked.data.gov.au/def/alum/"
+] .
+
+[ vann:preferredNamespacePrefix "lter-europe" ;
+ vann:preferredNamespaceUri "http://vocabs.lter-europe.net/"
+] .
+
+[ vann:preferredNamespacePrefix "apd-traits" ;
+ vann:preferredNamespaceUri "https://w3id.org/APD/traits/"
+] .
+
+[ vann:preferredNamespacePrefix "nvis-veg" ;
+ vann:preferredNamespaceUri "https://linked.data.gov.au/dataset/eiatest/nvis-veg/"
+] .
+
+[ vann:preferredNamespacePrefix "ansis" ;
+ vann:preferredNamespaceUri "https://anzsoil.org/def/au/domain/"
+] .
+
+[ vann:preferredNamespacePrefix "sp" ;
+ vann:preferredNamespaceUri "http://anzsoil.org/def/au/asls/soil-profile/"
+] .
+
+[ vann:preferredNamespacePrefix "ets" ;
+ vann:preferredNamespaceUri "http://terminologies.gfbio.org/terms/ETS/"
+] .
+
+[ vann:preferredNamespacePrefix "ansis-data" ;
+ vann:preferredNamespaceUri "https://linked.data.gov.au/dataset/eiatest/ansis/"
+] .
+
+[ vann:preferredNamespacePrefix "ld-au-org" ;
+ vann:preferredNamespaceUri "https://linked.data.gov.au/org/"
+] .
+
+[ vann:preferredNamespacePrefix "eiatest" ;
+ vann:preferredNamespaceUri "https://linked.data.gov.au/dataset/eiatest/"
+] .
+
+[ vann:preferredNamespacePrefix "APD" ;
+ vann:preferredNamespaceUri "https://w3id.org/APD/"
+] .
+
+[ vann:preferredNamespacePrefix "orcid" ;
+ vann:preferredNamespaceUri "https://orcid.org/"
+] .
+
+[ vann:preferredNamespacePrefix "land-surface" ;
+ vann:preferredNamespaceUri "http://anzsoil.org/def/au/asls/land-surface/"
+] .
+
+[ vann:preferredNamespacePrefix "asls" ;
+ vann:preferredNamespaceUri "http://anzsoil.org/def/au/asls/"
+] .
+
+[ vann:preferredNamespacePrefix "bdr-act" ;
+ vann:preferredNamespaceUri "https://linked.data.gov.au/dataset/eiatest/bdr-act/"
+] .
+
+[ vann:preferredNamespacePrefix "bdr-occurrence" ;
+ vann:preferredNamespaceUri "https://linked.data.gov.au/dataset/bdr/e5f57231-972f-41be-9215-93c216e92a63/occurrence/"
+] .
+
+[ vann:preferredNamespacePrefix "subst" ;
+ vann:preferredNamespaceUri "http://anzsoil.org/def/au/asls/substrate/"
+] .
+
+[ vann:preferredNamespacePrefix "catalogue" ;
+ vann:preferredNamespaceUri "https://linked.data.gov.au/catalogue/"
+] .
+
+[ vann:preferredNamespacePrefix "instance-apni" ;
+ vann:preferredNamespaceUri "https://id.biodiversity.org.au/instance/apni/"
+] .
+
+[ vann:preferredNamespacePrefix "afd" ;
+ vann:preferredNamespaceUri "https://id.biodiversity.org.au/instance/afd/"
+] .
+
+[ vann:preferredNamespacePrefix "name-apni" ;
+ vann:preferredNamespaceUri "https://id.biodiversity.org.au/name/apni/"
+] .
+
+[ vann:preferredNamespacePrefix "project" ;
+ vann:preferredNamespaceUri "https://linked.data.gov.au/def/project#"
+] .
+
+[ vann:preferredNamespacePrefix "anzsoil-au" ;
+ vann:preferredNamespaceUri "https://anzsoil.org/def/au/"
+] .
+
+[ vann:preferredNamespacePrefix "apd-glossary" ;
+ vann:preferredNamespaceUri "https://w3id.org/APD/glossary/"
+] .
+
+[ vann:preferredNamespacePrefix "def" ;
+ vann:preferredNamespaceUri "https://linked.data.gov.au/def/"
+] .
+
+[ vann:preferredNamespacePrefix "nsl" ;
+ vann:preferredNamespaceUri "https://linked.data.gov.au/dataset/eiatest/nsl/"
+] .
+
+[ vann:preferredNamespacePrefix "dwc-terms" ;
+ vann:preferredNamespaceUri "http://rs.tdwg.org/dwc/terms/"
+] .
+
+[ vann:preferredNamespacePrefix "eia-dk" ;
+ vann:preferredNamespaceUri "https://linked.data.gov.au/def/eia-dk/"
+] .
+
+[ vann:preferredNamespacePrefix "ld-gov-au" ;
+ vann:preferredNamespaceUri "https://linked.data.gov.au/"
+] .
+
+[ vann:preferredNamespacePrefix "afd-taxa" ;
+ vann:preferredNamespaceUri "https://biodiversity.org.au/afd/taxa/"
+] .
+
+[ vann:preferredNamespacePrefix "ror" ;
+ vann:preferredNamespaceUri "https://ror.org/"
+] .
+
+[ vann:preferredNamespacePrefix "elter-cl" ;
+ vann:preferredNamespaceUri "http://vocabs.lter-europe.net/elter_cl/"
+] .
+
+[ vann:preferredNamespacePrefix "ref-areas" ;
+ vann:preferredNamespaceUri "https://linked.data.gov.au/dataset/eiatest/ref-areas/"
+] .
+
+[ vann:preferredNamespacePrefix "nvis" ;
+ vann:preferredNamespaceUri "https://linked.data.gov.au/dataset/eiatest/nvis/"
+] .
+
+[ vann:preferredNamespacePrefix "hcas" ;
+ vann:preferredNamespaceUri "https://linked.data.gov.au/dataset/eiatest/hcas/"
+] .
+
+[ vann:preferredNamespacePrefix "hcas-tile" ;
+ vann:preferredNamespaceUri "https://linked.data.gov.au/dataset/eiatest/hcas/tile/"
+] .
+
+[ vann:preferredNamespacePrefix "hcas-attributes" ;
+ vann:preferredNamespaceUri "https://linked.data.gov.au/dataset/eiatest/hcas-attributes/"
+] .
+
+[ vann:preferredNamespacePrefix "prez-profile" ;
+ vann:preferredNamespaceUri "https://prez.dev/profile/"
+] .
