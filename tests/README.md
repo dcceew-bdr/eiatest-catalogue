@@ -20,21 +20,27 @@ You'll see a warning in the docker logs of the `fuseki` service:
 ```
 WARN  GeoAssembler    :: Dataset empty. Spatial Index not constructed. Server will require restarting after adding data and any updates to build Spatial Index.
 ```
-
-We need to add a custom Prez Profile for the Occurrences to display properly:
-
+Don't forget to upload some custom endpoint configuration for the prez instance:
 ```
-kurra db upload ../../resources/prez-config/profiles.ttl http://localhost:3030/eiatest-catalogue
+kurra db upload ../../config/prez-endpoints.ttl http://localhost:3030/eiatest-catalogue -g http://prez-system
 ```
 
 As well as some custom prefixes for the catalogue to display properly:
 ```
-kurra db upload ../../resources/prez-config/prefixes.ttl http://localhost:3030/eiatest-catalogue
+kurra db upload ../../resources/prez-config/prefixes.ttl http://localhost:3030/eiatest-catalogue -g http://prez-system
+```
+
+We can also add a custom Prez Profile for the Occurrences to display properly:
+
+```
+kurra db upload ../../resources/prez-config/profiles.ttl http://localhost:3030/eiatest-catalogue -g http://prez-system
 ```
 
 We can add some data and restart the server:
 ```
-kurra db upload ../../resources/datasets/nvis.ttl http://localhost:3030/eiatest-catalogue
+kurra db upload ../../resources/catalogues/datasets.ttl http://localhost:3030/eiatest-catalogue
+kurra db upload ../../resources/catalogues/models.ttl http://localhost:3030/eiatest-catalogue
+kurra db upload ../../resources/catalogues/vocabs.ttl http://localhost:3030/eiatest-catalogue
 
 task frs
 ```

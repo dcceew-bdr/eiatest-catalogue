@@ -20,4 +20,4 @@ services:
     environment:
       SPARQL_ENDPOINT: 'http://fuseki:3030/eiatest-catalogue'
       ENABLE_SPARQL_ENDPOINT: true
-      CUSTOM_ENDPOINT: true
+      CUSTOM_ENDPOINTS: true
