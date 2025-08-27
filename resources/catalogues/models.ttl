@@ -15,9 +15,7 @@ Part of the EIA Test Catalogue.""" ;
     schema:hasPart
         <https://anzsoil.org/def/au/domain> ,
         <https://linked.data.gov.au/def/eia-supermodel> ,
-        <http://terminologies.gfbio.org/terms/ETS/> ,
-        <https://linked.data.gov.au/dataset/eiatest/nvis-model> ,
-        <https://linked.data.gov.au/dataset/eiatest/bdr-act-model> ;
+        <http://terminologies.gfbio.org/terms/ETS/> ;
     schema:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
     schema:name "EIA Test Models Catalogue" ;
     schema:publisher <https://linked.data.gov.au/org/dcceew> ;
