@@ -56,7 +56,7 @@ ex:items-object a ont:DynamicEndpoint,
     rdfs:label "Items Object" ;
     ont:apiPath "/catalogs/{catalogId}/collections/{recordsCollectionId}/items/{itemId}" ;
     ont:relevantShapes ex:shape-R0-HL3,
-        ex:shape-R0-HL3-1.
+        ex:shape-R0-HL3-1, ex:shape-R0-HL3-2 .
 
 ex:shape-R0-HL1 a sh:NodeShape ;
     sh:property [ sh:or ( [ sh:class skos:Collection ] [ sh:class dcat:Dataset ] [ sh:class schema:Dataset ] [ sh:class dcat:Resource ] [ sh:class schema:CreativeWork ] [ sh:class skos:ConceptScheme ] [ sh:class owl:Ontology ] ) ;
@@ -96,6 +96,8 @@ ex:shape-R0-HL3-2 a sh:NodeShape ;
     sh:property [ sh:or ( [ sh:class dcat:Dataset ] [ sh:class schema:Dataset ] ) ;
         sh:path [ sh:inversePath rdfs:member ] ;
     ] ;
+        [ sh:or ( [ sh:class dcat:Catalog ] [ sh:class schema:DataCatalog ] ) ;
+            sh:path ( [ sh:inversePath rdfs:member ] [ sh:alternativePath ( [ sh:inversePath dcterms:hasPart ] [ sh:inversePath schema:hasPart ] ) ] ) ] ;
     sh:targetClass geo:FeatureCollection ;
     ont:hierarchyLevel 3 .
 
