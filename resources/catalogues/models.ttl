@@ -8,7 +8,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:codeRepository "https://github.com/dcceew-bdr/eiatest-catalogue" ;
     schema:creator <https://kurrawong.ai> ;
     schema:dateCreated "2025-05-11"^^xsd:date ;
-    schema:dateModified "2025-06-19"^^xsd:date ;
+    schema:dateModified "2025-08-27"^^xsd:date ;
     schema:description """Environmental Information Australia models.
 
 Part of the EIA Test Catalogue.""" ;
@@ -19,5 +19,5 @@ Part of the EIA Test Catalogue.""" ;
     schema:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
     schema:name "EIA Test Models Catalogue" ;
     schema:publisher <https://linked.data.gov.au/org/dcceew> ;
-    schema:version "7" ;
+    schema:version "8" ;
 .
