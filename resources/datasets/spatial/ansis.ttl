@@ -1,6 +1,7 @@
 PREFIX : <https://linked.data.gov.au/dataset/eiatest/ansis/>
 PREFIX alum: <https://linked.data.gov.au/def/alum/>
 PREFIX ansis: <https://anzsoil.org/def/au/domain/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
 PREFIX geo: <http://www.opengis.net/ont/geosparql#>
 PREFIX ls: <http://anzsoil.org/def/au/asls/land-surface/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
@@ -40,6 +41,7 @@ This system is a federator so the data is delivered from their respective points
     ] ;
     rdfs:member ss: ;
     schema:version "2" ;
+    dcterms:conformsTo <https://anzsoil.org/def/au/domain> ;
 .
 
 ss:

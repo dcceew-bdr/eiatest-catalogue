@@ -1,13 +1,22 @@
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://linked.data.gov.au/def/eia-supermodel>
-    a schema:Dataset ;
+    a owl:Ontology ;
+    schema:copyrightHolder <https://linked.data.gov.au/org/dcceew> ;
+    schema:copyrightNotice "(c) 2025 DCCEEW" ;
     schema:name "Environment Information Australia (EIA) Supermodel" ;
-    schema:description """This multi-part enterprise data model...""" ;
+    schema:description """the multi-part, enterprise, Semantic Web data model designed to test EIA dataset integration""" ;
     schema:creator <https://kurrawong.ai> ;
-    schema:publisher <https://linked.data.gov.au/org/agldwg> ;
+    schema:keywords "supermodel" ;
+    schema:publisher <https://linked.data.gov.au/org/dcceew> ;
     schema:dateCreated "2025-06-01"^^xsd:date ;
     schema:dateModified "2025-06-13"^^xsd:date ;
-    schema:version "1" ;
+    schema:dateIssued "2025-06-13"^^xsd:date ;
+    schema:version "1.0" ;
+    skos:historyNote "Created for the EIA Demo, 2025" ;
+    schema:codeRepository "https://github.com/dcceew-bdr/eia-supermodel"^^xsd:anyURI ;
+    owl:versionIRI <https://linked.data.gov.au/def/eia-supermodel/1.0> ;
 .

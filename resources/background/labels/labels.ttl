@@ -141,3 +141,20 @@ sosa:Procedure
     schema:name "Procedure"@en ;
 .
 
+
+<https://www.ogc.org/license>
+    schema:description "The Open Geospatial Consortium's license agreement for standards."@en ;
+    schema:name "OGC Document License Agreement"@en ;
+.
+
+<https://linked.data.gov.au/org/canbr>
+    a schema:Organization ;
+    schema:name "Centre for Australian National Biodiversity Research" ;
+    schema:url "https://www.anbg.gov.au/cpbr/index.html"^^xsd:anyURI ;
+.
+
+<https://linked.data.gov.au/org/ogc>
+    a schema:Organization ;
+    schema:name "Open Geospatial Consortium" ;
+    schema:url "https://www.ogc.org"^^xsd:anyURI ;
+.

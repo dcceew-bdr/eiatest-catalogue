@@ -1,0 +1,23 @@
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX prof: <http://www.w3.org/ns/dx/prof/>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<https://linked.data.gov.au/def/bdr-pr>
+    a owl:Ontology ;
+    schema:copyrightHolder <https://linked.data.gov.au/org/dcceew> ;
+    schema:creator <https://linked.data.gov.au/org/canbr> ;
+    schema:dateCreated "2025-03-29"^^xsd:date ;
+    schema:dateModified "2025-07-26"^^xsd:date ;
+    schema:dateIssued "2025-06-30"^^xsd:date ;
+    schema:description """The definition of the Biodiversity Data Repository (BDR)'s profile of Australian Biodiversity Information Standard (ABIS).""" ;
+    schema:keywords "component" ;
+    schema:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
+    schema:name "BDR Profile of ABIS" ;
+    schema:publisher <https://linked.data.gov.au/org/dcceew> ;
+    schema:version "1.2" ;
+    owl:versionIRI <https://linked.data.gov.au/dataset/eiatest/bdr-pr/1.2> ;
+    skos:historyNote "Summary of the profile created for the EIA Demo, 2025" ;
+    schema:codeRepository "https://github.com/dcceew-bdr/bdr-pr"^^xsd:anyURI ;
+.
