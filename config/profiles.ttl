@@ -12,32 +12,64 @@
 @prefix shext: <http://example.com/shacl-extension#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix schema: <https://schema.org/> .
 
 <https://prez.dev/profile/occurrence-object>
-    a prof:Profile , prez:ObjectProfile ;
+    a prof:Profile, prez:ObjectProfile ;
     dcterms:identifier "occurrence-object"^^xsd:token ;
     dcterms:description "An occurrence profile." ;
     dcterms:title "Occurence profile" ;
     altr-ext:constrainsClass geo:Feature, ns2:Occurrence ;
     altr-ext:hasDefaultResourceFormat "text/anot+turtle" ;
-    altr-ext:hasResourceFormat "application/geo+json" ,
+    altr-ext:hasResourceFormat
+        "application/geo+json",
+        "application/ld+json",
+        "application/anot+ld+json",
+        "application/rdf+xml",
+        "text/anot+turtle",
+        "text/turtle" ;
+    altr-ext:hasNodeShape
+        [
+            a sh:NodeShape ;
+            sh:targetClass ns2:Occurrence ;
+            altr-ext:hasDefaultProfile <https://prez.dev/profile/occurrence-object>
+        ] ;
+    sh:property
+        [
+            sh:path
+                [
+                    sh:union
+                        (
+                            [ shext:bNodeDepth "1" ]
+                            shext:allPredicateValues
+                            ( geo:hasGeometry geo:asWKT )
+                        )
+                ]
+        ] ;
+.
+
+<https://prez.dev/profile/eia-feature-listing>
+    a prof:Profile , prez:ListingProfile ;
+    dcterms:description "Displays only RDF type for geo:Features" ;
+    dcterms:identifier "featlist"^^xsd:token ;
+    dcterms:title "Geo Features Listing" ;
+    altr-ext:hasNodeShape
+        [
+            a sh:NodeShape ;
+            sh:targetClass geo:Feature ;
+            altr-ext:hasDefaultProfile <https://prez.dev/profile/eia-feature-listing>
+        ] ;
+    altr-ext:constrainsClass geo:Feature ;
+    altr-ext:hasDefaultResourceFormat "text/anot+turtle" ;
+    altr-ext:hasResourceFormat
         "application/ld+json" ,
         "application/anot+ld+json" ,
+        "application/n-triples" ,
+        "application/anot+n-triples" ,
         "application/rdf+xml" ,
         "text/anot+turtle" ,
         "text/turtle" ;
-    altr-ext:hasNodeShape [
-        a sh:NodeShape ;
-        sh:targetClass ns2:Occurrence ;
-        altr-ext:hasDefaultProfile <https://prez.dev/profile/occurrence-object>
-    ] ;
     sh:property [
-        sh:path [
-            sh:union (
-             [ shext:bNodeDepth "1" ]
-              shext:allPredicateValues
-              ( geo:hasGeometry geo:asWKT )
-            )
-          ]
+        sh:path [ sh:union ( rdf:type ) ] ;
         ] ;
-    .
+.
