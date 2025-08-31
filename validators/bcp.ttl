@@ -17,7 +17,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:creator <http://orcid.org/0000-0002-8742-7730> ;
     schema:dateModified "2025-06-12"^^xsd:date ;
     schema:publisher <https://linked.data.gov.au/org/dcceew> ;
-    schema:description "The Basic Catalogue Profile SHACL validator" ;
+    schema:description "The Basic Catalogue Profile validator" ;
     schema:name "Basic Catalogue Profile Validator" ;
     schema:hasPart
         :Requirement-CW-exists ,

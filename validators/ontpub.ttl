@@ -661,9 +661,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         schema:Person ;
 .
 
-<https://w3id.org/profile/ontpub/validator>
+<https://linked.data.gov.au/def/ontpub/validator>
     a owl:Ontology ;
-    owl:versionIRI <https://w3id.org/profile/ontpub/validator/1.2> ;
+    owl:versionIRI <https://linked.data.gov.au/def/ontpub/validator/1.2> ;
     owl:versionInfo """1.2 2025-06: added schema:citation to allowed history properties
 
 :1.1: changed dcterms:provenance to skos:historyNote, updated validator metadata to OntPub 1.1""" ;

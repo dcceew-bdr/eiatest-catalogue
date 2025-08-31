@@ -16,7 +16,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:creator <https://kurrawong.ai> ;
     schema:dateModified "2025-05-19"^^xsd:date ;
     schema:publisher <https://linked.data.gov.au/org/dcceew> ;
-    schema:description "The EIA Data Profile SHACL validator." ;
+    schema:description "The EIA Data Profile SHACL validator" ;
     schema:name "EIA Data Profile Validator" ;
     schema:hasPart
         :Requirement-D-keywords-envthes ,
