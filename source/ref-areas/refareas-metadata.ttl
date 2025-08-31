@@ -1,3 +1,4 @@
+PREFIX dcterms: <http://purl.org/dc/terms/>
 PREFIX geo: <http://www.opengis.net/ont/geosparql#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX schema: <https://schema.org/>
@@ -5,6 +6,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://linked.data.gov.au/dataset/eiatest/refareas>
     a schema:Dataset ;
+    dcterms:conformsTo <http://www.opengis.net/ont/geosparql> ;
     rdfs:member
         <https://linked.data.gov.au/dataset/eiatest/refareas/st> ,
         <https://linked.data.gov.au/dataset/eiatest/refareas/capad2024> ,

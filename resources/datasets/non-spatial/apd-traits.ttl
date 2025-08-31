@@ -51,7 +51,7 @@ PREFIX oboecore: <http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#>
 cs:
     a skos:ConceptScheme ;
     dcterms:conformsTo
-        <https://w3id.org/profile/vocpub> ,
+        <https://linked.data.gov.au/def/vocpub> ,
         <http://terminologies.gfbio.org/terms/ETS/> ;
     schema:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
     schema:citation "https://austraits.org"^^xsd:anyURI ;

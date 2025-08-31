@@ -9,6 +9,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://linked.data.gov.au/dataset/eiatest/bdr-act>
     a schema:Dataset ;
+    dcterms:conformsTo <https://linked.data.gov.au/def/bdr-pr> ;
     geo:hasBoundingBox
         [
             a geo:Geometry ;

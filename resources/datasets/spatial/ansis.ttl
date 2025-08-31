@@ -15,6 +15,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://linked.data.gov.au/dataset/eiatest/ansis>
     a schema:Dataset ;
+    dcterms:conformsTo <https://anzsoil.org/def/au/domain> ;
     schema:name "Australian National Soil Information System (ANSIS) Dataset" ;
     schema:description """The Australian National Soil Information System (ANSIS) provides access to nationally consistent soil data and information to support the sustainable management of soil - it does not hold data.
 
@@ -41,7 +42,6 @@ This system is a federator so the data is delivered from their respective points
     ] ;
     rdfs:member ss: ;
     schema:version "2" ;
-    dcterms:conformsTo <https://anzsoil.org/def/au/domain> ;
 .
 
 ss:

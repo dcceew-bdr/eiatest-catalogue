@@ -2781,6 +2781,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://linked.data.gov.au/dataset/eiatest/nsl>
     a skos:ConceptScheme ;
+    dcterms:conformsTo
     skos:definition """The National Species List (NSL) is an aggregate datasets comprising 12 datasets:
 
 * Australian Algae List (AAL)

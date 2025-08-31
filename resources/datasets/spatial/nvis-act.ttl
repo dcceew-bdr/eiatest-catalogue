@@ -7,6 +7,7 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://linked.data.gov.au/dataset/eiatest/nvis> a schema:Dataset ;
+    dcterms:conformsTo <http://www.opengis.net/ont/geosparql> ;
     geo:hasBoundingBox [ a geo:Geometry ;
             geo:asWKT "POLYGON ((96 -45, 96 -9, 168 -9, 168 -45, 96 -45))"^^geo:wktLiteral ] ;
     rdfs:member :act ;
