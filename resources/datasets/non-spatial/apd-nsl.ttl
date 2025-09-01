@@ -9,7 +9,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Collection ;
     rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/apd-nsl> ;
     skos:definition "A static collection of 5 traits to be used for demonstrations within the EIA Scenario Demonstrator tool"@en ;
-    skos:historyNote "Made in June, 2025 y the BDR Team, for demonstration purposes only." ;
+    skos:historyNote "Made in June, 2025 by the BDR Team, for demonstration purposes only." ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/apd-nsl> ;
     skos:member
         <https://w3id.org/APD/traits/bark_morphology_eucalyptus_eucalypt_box> ,
@@ -64,7 +64,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:dateCreated "2025-06-16"^^xsd:date ;
     schema:dateModified "2025-06-18"^^xsd:date ;
     schema:description "Maps traits in the APD to Taxon Names in the NSL." ;
-    schema:hasPart <https://w3id.org/APD/traits/eia-demo> ;
+    schema:hasPart <https://linked.data.gov.au/dataset/eiatest/eia-demo-collection> ;
     schema:keywords
         <http://vocabs.lter-europe.net/EnvThes/10023> ,
         <http://vocabs.lter-europe.net/EnvThes/21654> ,

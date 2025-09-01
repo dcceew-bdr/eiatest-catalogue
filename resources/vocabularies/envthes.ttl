@@ -5726,7 +5726,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "sociosphere"@en .
 
 :30318 a skos:Concept ;
-    dcterms:source <https://www.engineeringtoolbox.com/> ;
+    dcterms:source "https://www.engineeringtoolbox.com/"^^xsd:anyURI ;
     skos:broader :21463 ;
     skos:definition "Flow rate per unit pressure is a measure of how much liquid or gas flows through a pipe or other passage when a certain pressure is applied. It is expressed as the volume of liquid or gas that flows through a passage per unit of pressure applied."@en ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
@@ -6058,7 +6058,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :30378 a skos:Concept,
         iadopt:Variable ;
-    dcterms:source <https://community.wmo.int/en/governance/commission-membership/commission-observation-infrastructure-and-information-systems-infcom/standing-committee-information-management-and-technology-sc-imt/expert-team-metadata-standards-et-metadata/task-team-wigos-metadata-tt-wigosmd> ;
+    dcterms:source "https://community.wmo.int/en/governance/commission-membership/commission-observation-infrastructure-and-information-systems-infcom/standing-committee-information-management-and-technology-sc-imt/expert-team-metadata-standards-et-metadata/task-team-wigos-metadata-tt-wigosmd"^^xsd:anyURI ;
     skos:altLabel "area fraction of sky covered by clouds"@en ;
     skos:broader :20935 ;
     skos:definition "The amount of sky estimated to be covered by a specified cloud type (partial cloud amount), or by all cloud types (total cloud amount). In either case, the estimate is made to the nearest okta (eighth) and is reported on a scale which is essentially one of the nearest eighth, except that figures 0 and 8 on the scale signify a completely clear and cloudy sky, respectively, with consequent adjustment to the adjacent 1 and 7 okta intervals."@en ;
@@ -6071,7 +6071,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :30379 a skos:Concept,
         iadopt:Variable ;
-    dcterms:source <https://linked.data.gov.au/def/nrm/3a2b344c-07b5-4536-8db3-06b73bc0e263> ;
+    dcterms:source "https://linked.data.gov.au/def/nrm/3a2b344c-07b5-4536-8db3-06b73bc0e263"^^xsd:anyURI ;
     skos:altLabel "height of tree trunk affected by fire"@en ;
     skos:broader :20935 ;
     skos:definition "Height of char imprinted on a tree trunk by fire as measured from the base of the tree trunk to the highest vertical extent using a 360° sweep at each sampling location."@en ;
@@ -6182,7 +6182,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :30388 a skos:Concept,
         iadopt:Variable ;
-    dcterms:source <https://en.wikipedia.org/wiki/Sex> ;
+    dcterms:source "https://en.wikipedia.org/wiki/Sex"^^xsd:anyURI ;
     skos:broader :20935 ;
     skos:definition "The biological trait that determines whether a sexually reproducing organism produces male or female gametes."@en ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
@@ -38309,7 +38309,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     iadopt:constrains :23 .
 
 :10363 a skos:Concept ;
-    dcterms:source <http://purl.obolibrary.org/obo/PATO_0000150> ;
+    dcterms:source "http://purl.obolibrary.org/obo/PATO_0000150"^^xsd:anyURI ;
     skos:broader :21463 ;
     skos:definition "A morphologic quality inhering in a bearer by virtue of the bearer's relative size, organization and distribution of its surface elements or the representation or invention of the appearance of its surface; visual and tactile surface characteristics."@en ;
     skos:exactMatch <http://purl.obolibrary.org/obo/PATO_0000150> ;
@@ -58326,7 +58326,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :22279 a skos:Concept,
         iadopt:Variable ;
-    dcterms:source <http://www.eionet.europa.eu/gemet/concept/7898> ;
+    dcterms:source "http://www.eionet.europa.eu/gemet/concept/7898"^^xsd:anyURI ;
     skos:altLabel "تكوين التربة"@ar,
         "Структура на почвите"@bg,
         "složení půdy"@cs,
@@ -59116,7 +59116,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "water level, stagnant surface water"@en .
 
 :30360 a skos:Concept ;
-    dcterms:source <https://gcmd.earthdata.nasa.gov/kms/concept/61c3b720-abc8-4430-866c-f1da35d2cd0b> ;
+    dcterms:source "https://gcmd.earthdata.nasa.gov/kms/concept/61c3b720-abc8-4430-866c-f1da35d2cd0b"^^xsd:anyURI ;
     skos:broader :10351 ;
     skos:definition "The degree to which Aerosols prevent light from passing through. Optical depth/thickness depends upon the physical constitution ,the form, and the concentration of particles."@en ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
@@ -60851,7 +60851,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     iadopt:hasProperty :21524 .
 
 :30361 a skos:Concept ;
-    dcterms:source <http://vocab.nerc.ac.uk/collection/P07/current/6GN00U5J/> ;
+    dcterms:source "http://vocab.nerc.ac.uk/collection/P07/current/6GN00U5J/"^^xsd:anyURI ;
     skos:broader :30362 ;
     skos:definition "Aerosol particles that have taken up ambient water through hygroscopic growth"@en ;
     skos:historyNote "Small annotations changed from original for the BDR" ;
@@ -64593,7 +64593,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :20887 a skos:Concept,
         iadopt:Constraint ;
-    dcterms:source <http://purl.obolibrary.org/obo/ENVO_01000155> ;
+    dcterms:source "http://purl.obolibrary.org/obo/ENVO_01000155"^^xsd:anyURI ;
     skos:altLabel "مادة عضوية"@ar,
         "Органичен материал"@bg,
         "látka organická"@cs,

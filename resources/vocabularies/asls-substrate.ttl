@@ -42,7 +42,7 @@ The substrate should be observed at the point of the soil profile observation or
   dcterms:rights "copyright CSIRO 2009, 2021. All rights reserved."@en ;
   dcterms:source "National Committee on Soil and Terrain (2009), 'Australian soil and land survey field handbook (3rd edn).' (CSIRO Publishing: Melbourne)"@en ;
   dcterms:title "Substrate classifiers" ;
-  rdfs:seeAlso <https://www.publish.csiro.au/book/5230> ;
+  rdfs:seeAlso "https://www.publish.csiro.au/book/5230"^^xsd:anyURI ;
   skos:changeNote "2025-06-07 - made VocPub conformant; used prefLabels for missing definitions" ;
   skos:changeNote "2022-07-26 - add observable-properties collection" ;
   skos:changeNote "2022-07-26 - removed dcterms:description and rdfs:label - duplicates skos:definition and skos:prefLabel" ;
