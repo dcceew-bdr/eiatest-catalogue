@@ -2781,8 +2781,23 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://linked.data.gov.au/dataset/eiatest/nsl>
     a skos:ConceptScheme ;
-    dcterms:conformsTo
+    dcterms:conformsTo <https://linked.data.gov.au/def/nsl> ;
     skos:definition """The National Species List (NSL) is an aggregate datasets comprising 12 datasets:
+
+* Australian Algae List (AAL)
+* Australian Algae Name Index (AANI)
+* Australian Bryophyte Name Index (ABNI)
+* Australian Faunal Directory
+* Australian Fungi List (AFL)
+* Australian Fungi Name Index (AFNI)
+* Australian Lichen Name Index (ALNI)
+* Australian Lichen Checklist (ALC)
+* Australian Plant Census (APC)
+* Australian Plant Name Index (APNI)
+* Catalogue of Australian Bryophytes (CAB)
+
+This dataset is a minute sample of 250 Taxon Names from it, relevant to data in the ACT region in the EIA Test Catalogue."""@en ;
+    schema:description """The National Species List (NSL) is an aggregate datasets comprising 12 datasets:
 
 * Australian Algae List (AAL)
 * Australian Algae Name Index (AANI)
@@ -3010,9 +3025,10 @@ This dataset is a minute sample of 250 Taxon Names from it, relevant to data in 
         <https://id.biodiversity.org.au/name/apni/85348> ;
     skos:historyNote "This small, dummy, NSL was created from the scientific names supplied with the demonstration BDR ACT dataset in the EIA Test Catalogue" ;
     skos:prefLabel "National Species List - EIA Demonstrator"@en ;
+    schema:name "National Species List - EIA Demonstrator" ;
     schema:creator <https://linked.data.gov.au/org/dcceew> ;
     schema:dateCreated "2025-06-01"^^xsd:date ;
-    schema:dateModified "2025-06-18"^^xsd:date ;
+    schema:dateModified "2025-09-01"^^xsd:date ;
     schema:keywords
         <http://vocabs.lter-europe.net/EnvThes/21654> ,  # taxonomy
         <https://linked.data.gov.au/def/eia-dk/characteristics-biodiversity> ;
