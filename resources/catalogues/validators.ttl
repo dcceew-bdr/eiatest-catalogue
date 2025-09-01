@@ -2,7 +2,7 @@ PREFIX schema: <https://schema.org/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
-<https://linked.data.gov.au/catalogue/eiatest-validators>
+<https://linked.data.gov.au/dataset/eiatest/catalogue/eiatest-validators>
     a schema:DataCatalog ;
     skos:historyNote "This catalogue was created in May/June 2025 to test a proposed EIA Supermodel"@en ;
     schema:codeRepository "https://github.com/dcceew-bdr/eiatest-catalogue" ;

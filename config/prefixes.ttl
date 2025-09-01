@@ -85,7 +85,7 @@ PREFIX vann: <http://purl.org/vocab/vann/>
 ] .
 
 [ vann:preferredNamespacePrefix "catalogue" ;
- vann:preferredNamespaceUri "https://linked.data.gov.au/catalogue/"
+ vann:preferredNamespaceUri "https://linked.data.gov.au/dataset/eiatest/catalogue/"
 ] .
 
 [ vann:preferredNamespacePrefix "instance-apni" ;
