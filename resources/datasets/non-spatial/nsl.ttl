@@ -2797,21 +2797,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 * Catalogue of Australian Bryophytes (CAB)
 
 This dataset is a minute sample of 250 Taxon Names from it, relevant to data in the ACT region in the EIA Test Catalogue."""@en ;
-    schema:description """The National Species List (NSL) is an aggregate datasets comprising 12 datasets:
-
-* Australian Algae List (AAL)
-* Australian Algae Name Index (AANI)
-* Australian Bryophyte Name Index (ABNI)
-* Australian Faunal Directory
-* Australian Fungi List (AFL)
-* Australian Fungi Name Index (AFNI)
-* Australian Lichen Name Index (ALNI)
-* Australian Lichen Checklist (ALC)
-* Australian Plant Census (APC)
-* Australian Plant Name Index (APNI)
-* Catalogue of Australian Bryophytes (CAB)
-
-This dataset is a minute sample of 250 Taxon Names from it, relevant to data in the ACT region in the EIA Test Catalogue.""" ;
     skos:hasTopConcept
         <https://biodiversity.org.au/afd/taxa/Limnodynastes> ,
         <https://biodiversity.org.au/afd/taxa/Litoria> ,
