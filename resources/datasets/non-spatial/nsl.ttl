@@ -7,7 +7,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/afd/70873464>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:broader <https://id.biodiversity.org.au/instance/afd/70873457> ;
     skos:definition "Lampropholis delicata"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
@@ -16,7 +16,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/apni/51411040>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:broader <https://id.biodiversity.org.au/instance/apni/51411015> ;
     skos:definition "Pterostylis aciculiformis"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
@@ -25,7 +25,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/apni/51411223>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:broader <https://id.biodiversity.org.au/instance/apni/51411015> ;
     skos:definition "Pterostylis curta"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
@@ -34,7 +34,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/apni/51411227>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:broader <https://id.biodiversity.org.au/instance/apni/51411015> ;
     skos:definition "Pterostylis cycnocephala"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
@@ -43,7 +43,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/apni/51411239>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:broader <https://id.biodiversity.org.au/instance/apni/51411015> ;
     skos:definition "Pterostylis decurva"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
@@ -52,7 +52,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/apni/51411382>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:broader <https://id.biodiversity.org.au/instance/apni/51411015> ;
     skos:definition "Pterostylis jonesii"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
@@ -61,7 +61,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/apni/51411675>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:broader <https://id.biodiversity.org.au/instance/apni/51411015> ;
     skos:definition "Pterostylis rubescens"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
@@ -70,7 +70,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/apni/646470>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:broader <https://id.biodiversity.org.au/instance/apni/646471> ;
     skos:definition "Rosa canina"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
@@ -79,7 +79,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/apni/708549>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:broader <https://id.biodiversity.org.au/instance/apni/708543> ;
     skos:definition "Rytidosperma carphoides"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
@@ -88,7 +88,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/apni/709088>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:broader <https://id.biodiversity.org.au/instance/apni/708543> ;
     skos:definition "Rytidosperma oreophilum"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
@@ -97,7 +97,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/apni/921721>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:broader <https://id.biodiversity.org.au/instance/apni/708543> ;
     skos:definition "Rytidosperma pallidum"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
@@ -106,7 +106,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/name/apni/51346944>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:broader <https://id.biodiversity.org.au/instance/apni/51411015> ;
     skos:definition "Pterostylis ampliata"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
@@ -115,7 +115,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/afd/70785062>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Megalyra sp."@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Megalyra sp."@en ;
@@ -124,7 +124,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/afd/70786428>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Pernattia pusilla"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Pernattia pusilla"@en ;
@@ -133,7 +133,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/afd/70792265>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Tachyglossus aculeatus"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Tachyglossus aculeatus"@en ;
@@ -142,7 +142,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/afd/70792310>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Vombatus ursinus"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Vombatus ursinus"@en ;
@@ -151,7 +151,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/afd/70792326>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Cercartetus nanus"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Cercartetus nanus"@en ;
@@ -160,7 +160,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/afd/70792345>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Trichosurus vulpecula"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Trichosurus vulpecula"@en ;
@@ -169,7 +169,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/afd/70793480>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Felis catus"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Felis catus"@en ;
@@ -178,7 +178,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/afd/70793532>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Oryctolagus cuniculus"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Oryctolagus cuniculus"@en ;
@@ -187,7 +187,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/afd/70793644>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Rattus rattus"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Rattus rattus"@en ;
@@ -196,7 +196,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/afd/70793659>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Hydromys chrysogaster"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Hydromys chrysogaster"@en ;
@@ -205,7 +205,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/afd/70793751>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Dama dama"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Dama dama"@en ;
@@ -214,7 +214,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/afd/70793957>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Mus musculus"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Mus musculus"@en ;
@@ -223,7 +223,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/afd/70805440>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Varanus rosenbergi"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Varanus rosenbergi"@en ;
@@ -232,7 +232,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/afd/70807230>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Antechinus agilis"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Antechinus agilis"@en ;
@@ -241,7 +241,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/afd/70812905>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Synemon plana"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Synemon plana"@en ;
@@ -250,7 +250,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/afd/70813229>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Osphranter robustus"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Osphranter robustus"@en ;
@@ -259,7 +259,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/afd/70813855>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:broader <https://biodiversity.org.au/afd/taxa/Limnodynastes> ;
     skos:definition "Limnodynastes peronii"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
@@ -268,7 +268,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/afd/70813857>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:broader <https://biodiversity.org.au/afd/taxa/Limnodynastes> ;
     skos:definition "Limnodynastes tasmaniensis"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
@@ -277,7 +277,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/afd/70821462>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Notamacropus rufogriseus"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Notamacropus rufogriseus"@en ;
@@ -286,7 +286,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/afd/70822374>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Chelodina longicollis"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Chelodina longicollis"@en ;
@@ -295,7 +295,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/afd/70822616>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Pseudophryne pengilleyi"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Pseudophryne pengilleyi"@en ;
@@ -304,7 +304,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/afd/70824148>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Delma impar"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Delma impar"@en ;
@@ -313,7 +313,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/afd/70824166>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Aprasia parapulchella"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Aprasia parapulchella"@en ;
@@ -322,7 +322,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/afd/70824212>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Apis mellifera"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Apis mellifera"@en ;
@@ -331,7 +331,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/afd/70838577>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Ctenotus taeniolatus"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Ctenotus taeniolatus"@en ;
@@ -340,7 +340,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/afd/70839287>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:broader <https://biodiversity.org.au/afd/taxa/Tiliqua> ;
     skos:definition "Tiliqua nigrolutea"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
@@ -349,7 +349,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/afd/70839289>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:broader <https://biodiversity.org.au/afd/taxa/Tiliqua> ;
     skos:definition "Tiliqua rugosa"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
@@ -358,7 +358,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/afd/70848235>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Hemiergis talbingoensis"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Hemiergis talbingoensis"@en ;
@@ -367,7 +367,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/afd/70857657>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Nyctemera amicus"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Nyctemera amicus"@en ;
@@ -376,7 +376,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/afd/70857964>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Utetheisa pulchelloides"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Utetheisa pulchelloides"@en ;
@@ -385,7 +385,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/afd/70858375>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Halone sejuncta"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Halone sejuncta"@en ;
@@ -394,7 +394,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/afd/70860354>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Pyrrholaemus sagittatus"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Pyrrholaemus sagittatus"@en ;
@@ -403,7 +403,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/afd/70860741>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Dacelo novaeguineae"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Dacelo novaeguineae"@en ;
@@ -412,7 +412,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/afd/70860802>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Eolophus roseicapilla"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Eolophus roseicapilla"@en ;
@@ -421,7 +421,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/afd/70860828>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Platycercus eximius"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Platycercus eximius"@en ;
@@ -430,7 +430,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/afd/70861284>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Pardalotus punctatus"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Pardalotus punctatus"@en ;
@@ -439,7 +439,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/afd/70861331>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Psephotus haematonotus"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Psephotus haematonotus"@en ;
@@ -448,7 +448,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/afd/70861937>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Alisterus scapularis"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Alisterus scapularis"@en ;
@@ -457,7 +457,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/afd/70861947>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Polytelis swainsonii"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Polytelis swainsonii"@en ;
@@ -466,7 +466,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/afd/70863131>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Chrysodeixis argentifera"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Chrysodeixis argentifera"@en ;
@@ -475,7 +475,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/afd/70864109>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:broader <https://id.biodiversity.org.au/name/apni/200502> ;
     skos:definition "Anas castanea"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
@@ -484,7 +484,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/afd/70864121>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Chenonetta jubata"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Chenonetta jubata"@en ;
@@ -493,7 +493,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/afd/70864148>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Myiagra rubecula"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Myiagra rubecula"@en ;
@@ -502,7 +502,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/afd/70864408>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Stictonetta naevosa"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Stictonetta naevosa"@en ;
@@ -511,7 +511,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/afd/70864411>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Oxyura australis"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Oxyura australis"@en ;
@@ -520,7 +520,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/afd/70864490>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Cracticus torquatus"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Cracticus torquatus"@en ;
@@ -529,7 +529,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/afd/70864515>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Strepera graculina"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Strepera graculina"@en ;
@@ -538,7 +538,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/afd/70864703>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Podargus strigoides"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Podargus strigoides"@en ;
@@ -547,7 +547,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/afd/70864773>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Coracina novaehollandiae"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Coracina novaehollandiae"@en ;
@@ -556,7 +556,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/afd/70864810>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Climacteris picumnus victoriae"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Climacteris picumnus victoriae"@en ;
@@ -565,7 +565,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/afd/70865084>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Corcorax melanorhamphos"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Corcorax melanorhamphos"@en ;
@@ -574,7 +574,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/afd/70865151>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:broader <https://biodiversity.org.au/afd/taxa/Rhipidura_%28Rhipidura%29> ;
     skos:definition "Rhipidura leucophrys"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
@@ -583,7 +583,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/afd/70865441>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Acanthorhynchus tenuirostris"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Acanthorhynchus tenuirostris"@en ;
@@ -592,7 +592,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/afd/70865454>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Anthochaera carunculata"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Anthochaera carunculata"@en ;
@@ -601,7 +601,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/afd/70865488>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Acrocephalus australis"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Acrocephalus australis"@en ;
@@ -610,7 +610,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/afd/70865532>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Passer domesticus"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Passer domesticus"@en ;
@@ -619,7 +619,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/afd/70865868>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Manorina melanocephala"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Manorina melanocephala"@en ;
@@ -628,7 +628,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/afd/70865937>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Anhinga novaehollandiae"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Anhinga novaehollandiae"@en ;
@@ -637,7 +637,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/afd/70866183>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Nycticorax caledonicus"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Nycticorax caledonicus"@en ;
@@ -646,7 +646,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/afd/70866544>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Columba livia"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Columba livia"@en ;
@@ -655,7 +655,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/afd/70869717>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Cooraboorama canberrae"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Cooraboorama canberrae"@en ;
@@ -664,7 +664,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/afd/70874001>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Malacorhynchus membranaceus"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Malacorhynchus membranaceus"@en ;
@@ -673,7 +673,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/afd/70874278>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Christinus marmoratus"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Christinus marmoratus"@en ;
@@ -682,7 +682,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/afd/70874470>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Elanus axillaris"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Elanus axillaris"@en ;
@@ -691,7 +691,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/afd/70874476>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Haliaeetus leucogaster"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Haliaeetus leucogaster"@en ;
@@ -700,7 +700,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/afd/70880577>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Maratus vespertilio"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Maratus vespertilio"@en ;
@@ -709,7 +709,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/afd/70880677>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:broader <https://biodiversity.org.au/afd/taxa/Litoria> ;
     skos:definition "Litoria verreauxii verreauxii"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
@@ -718,7 +718,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/afd/70902619>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Diporiphora nobbi"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Diporiphora nobbi"@en ;
@@ -727,7 +727,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/afd/70902633>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Amphibolurus muricatus"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Amphibolurus muricatus"@en ;
@@ -736,7 +736,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/afd/70916094>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Microtis sp."@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Microtis sp."@en ;
@@ -745,7 +745,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/afd/70922944>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Megachile lucidiventris"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Megachile lucidiventris"@en ;
@@ -754,7 +754,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/afd/70924553>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Pseudonaja textilis"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Pseudonaja textilis"@en ;
@@ -763,7 +763,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/afd/70927170>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Papyrius nitidus"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Papyrius nitidus"@en ;
@@ -772,7 +772,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/afd/70928125>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Trapezites eliena"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Trapezites eliena"@en ;
@@ -781,7 +781,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/afd/70928137>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Trapezites phigalia"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Trapezites phigalia"@en ;
@@ -790,7 +790,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/afd/70929000>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Ocybadistes walkeri"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Ocybadistes walkeri"@en ;
@@ -799,7 +799,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/afd/70929784>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Vanessa kershawi"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Vanessa kershawi"@en ;
@@ -808,7 +808,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/afd/70930229>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Pieris rapae"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Pieris rapae"@en ;
@@ -817,7 +817,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/afd/70930581>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Belenois java"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Belenois java"@en ;
@@ -826,7 +826,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/afd/70930897>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Heteronympha paradelpha"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Heteronympha paradelpha"@en ;
@@ -835,7 +835,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/afd/70931075>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Hylaeus honestus"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Hylaeus honestus"@en ;
@@ -844,7 +844,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/afd/70932361>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Zizina otis"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Zizina otis"@en ;
@@ -853,7 +853,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/afd/70932688>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Lucia limbaria"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Lucia limbaria"@en ;
@@ -862,7 +862,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/afd/70932690>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Paralucia aurifera"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Paralucia aurifera"@en ;
@@ -871,7 +871,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/afd/70940392>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Hemicordulia australiae"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Hemicordulia australiae"@en ;
@@ -880,7 +880,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/afd/70941122>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Austrolestes annulosus"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Austrolestes annulosus"@en ;
@@ -889,7 +889,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/afd/70941460>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Austroaeschna pulchra"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Austroaeschna pulchra"@en ;
@@ -898,7 +898,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/afd/70944024>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Austroargiolestes calcaris"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Austroargiolestes calcaris"@en ;
@@ -907,7 +907,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/afd/70946949>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Euastacus sp."@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Euastacus sp."@en ;
@@ -916,7 +916,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/afd/72275031>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Spatula rhynchotis"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Spatula rhynchotis"@en ;
@@ -925,7 +925,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/afd/72346919>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Pogona barbata"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Pogona barbata"@en ;
@@ -934,7 +934,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/afd/72346953>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Wallabia bicolor"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Wallabia bicolor"@en ;
@@ -943,7 +943,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/afd/72364506>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Ectropis sp."@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Ectropis sp."@en ;
@@ -952,7 +952,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/afd/72369291>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Sturnus vulgaris"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Sturnus vulgaris"@en ;
@@ -961,7 +961,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/afd/72376816>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Corvus coronoides"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Corvus coronoides"@en ;
@@ -970,7 +970,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/afd/72378462>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:broader <https://id.biodiversity.org.au/name/apni/200502> ;
     skos:definition "Anas superciliosa"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
@@ -979,7 +979,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/afd/72394733>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Melanodes anthracitaria"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Melanodes anthracitaria"@en ;
@@ -988,7 +988,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/afd/72402808>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Junonia villida"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Junonia villida"@en ;
@@ -997,7 +997,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/afd/72404579>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Cacatua sanguinea"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Cacatua sanguinea"@en ;
@@ -1006,7 +1006,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/afd/72412106>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Petroica phoenicea"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Petroica phoenicea"@en ;
@@ -1015,7 +1015,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/afd/72428425>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Falco berigora"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Falco berigora"@en ;
@@ -1024,7 +1024,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/afd/72449909>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:broader <https://biodiversity.org.au/afd/taxa/Rhipidura_%28Rhipidura%29> ;
     skos:definition "Rhipidura albiscapa"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
@@ -1033,7 +1033,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/afd/72464636>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Eulamprus heatwolei"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Eulamprus heatwolei"@en ;
@@ -1042,7 +1042,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/afd/72465082>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Porphyrio melanotus"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Porphyrio melanotus"@en ;
@@ -1051,7 +1051,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/afd/72467557>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Acanthiza reguloides"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Acanthiza reguloides"@en ;
@@ -1060,7 +1060,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/afd/72575428>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Lasioglossum peraustrale"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Lasioglossum peraustrale"@en ;
@@ -1069,7 +1069,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/afd/72575509>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Trichoglossus moluccanus"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Trichoglossus moluccanus"@en ;
@@ -1078,7 +1078,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/afd/72576075>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Tympanocryptis lineata"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Tympanocryptis lineata"@en ;
@@ -1087,7 +1087,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/afd/72598461>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Cygnus atratus"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Cygnus atratus"@en ;
@@ -1096,7 +1096,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/afd/72598696>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:broader <https://id.biodiversity.org.au/name/apni/84643> ;
     skos:definition "Crinia parinsignifera"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
@@ -1105,7 +1105,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/afd/72598784>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:broader <https://id.biodiversity.org.au/name/apni/84643> ;
     skos:definition "Crinia signifera"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
@@ -1114,7 +1114,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/afd/72599270>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Gadopsis bispinosa"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Gadopsis bispinosa"@en ;
@@ -1123,7 +1123,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/afd/72599310>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:broader <https://biodiversity.org.au/afd/taxa/Litoria> ;
     skos:definition "Litoria peronii"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
@@ -1132,7 +1132,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/afd/72599647>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Uperoleia laevigata"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Uperoleia laevigata"@en ;
@@ -1141,7 +1141,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/afd/72600712>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:broader <https://biodiversity.org.au/afd/taxa/Limnodynastes> ;
     skos:definition "Limnodynastes dumerilii"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
@@ -1150,7 +1150,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/afd/72602369>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:broader <https://id.biodiversity.org.au/name/apni/200502> ;
     skos:definition "Anas gracilis"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
@@ -1159,7 +1159,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/apni/4300169>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Tagetes erecta"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Tagetes erecta"@en ;
@@ -1168,7 +1168,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/apni/51396966>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:braoder <https://id.biodiversity.org.au/name/apni/90466> ;
     skos:definition "Caladenia actensis"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
@@ -1177,7 +1177,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/apni/51397660>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:braoder <https://id.biodiversity.org.au/name/apni/90466> ;
     skos:definition "Caladenia fuscata"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
@@ -1186,7 +1186,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/apni/51398081>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:braoder <https://id.biodiversity.org.au/name/apni/90466> ;
     skos:definition "Caladenia montana"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
@@ -1195,7 +1195,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/apni/51401202>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:braoder <https://id.biodiversity.org.au/name/apni/90466> ;
     skos:definition "Caladenia caerulea"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
@@ -1204,7 +1204,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/apni/51403899>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:broader <https://id.biodiversity.org.au/name/apni/78645> ;
     skos:definition "Diuris chryseopsis"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
@@ -1213,7 +1213,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/apni/51404033>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:broader <https://id.biodiversity.org.au/name/apni/78645> ;
     skos:definition "Diuris pardina"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
@@ -1222,7 +1222,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/apni/51404119>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:broader <https://id.biodiversity.org.au/name/apni/78645> ;
     skos:definition "Diuris sulphurea"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
@@ -1231,7 +1231,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/apni/51409459>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:broader <https://id.biodiversity.org.au/name/apni/85348> ;
     skos:definition "Prasophyllum innubum"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
@@ -1244,7 +1244,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/apni/51409651>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:broader <https://id.biodiversity.org.au/name/apni/85348> ;
     skos:definition "Prasophyllum tadgellianum"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
@@ -1253,7 +1253,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/apni/51432107>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Erigeron sumatrensis"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Erigeron sumatrensis"@en ;
@@ -1262,7 +1262,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/apni/517136>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Drosera sp."@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Drosera sp."@en ;
@@ -1271,7 +1271,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/apni/51756099>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:broader <https://id.biodiversity.org.au/name/apni/103168> ;
     skos:definition "Olearia argophylla"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
@@ -1280,7 +1280,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/apni/519417>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:broader <https://id.biodiversity.org.au/name/apni/75044> ;
     skos:definition "Swainsona recta"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
@@ -1289,7 +1289,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/apni/557894>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:broader <https://id.biodiversity.org.au/name/apni/199335> ;
     skos:definition "Austrostipa scabra"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
@@ -1299,7 +1299,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/apni/557927>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:broader <https://id.biodiversity.org.au/name/apni/63766> ;
     skos:definition "Nassella trichotoma"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
@@ -1308,7 +1308,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/apni/588434>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:broader <https://id.biodiversity.org.au/instance/apni/661151> ;
     skos:definition "Juncus fockei"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
@@ -1317,7 +1317,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/apni/604235>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:broader <https://id.biodiversity.org.au/name/apni/56859> ;
     skos:definition "Acacia boormanii"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
@@ -1326,7 +1326,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/apni/610010>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:broader <https://id.biodiversity.org.au/name/apni/56859> ;
     skos:definition "Acacia ulicifolia"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
@@ -1335,7 +1335,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/apni/612524>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:broader <https://id.biodiversity.org.au/name/apni/89049> ;
     skos:definition "Goodenia hederacea subsp. alpestris"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
@@ -1346,7 +1346,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     ns1:kingdom <https://linked.data.gov.au/dataset/eiatest/nsl/plantae> ;
     ns1:vernacularName "Tasmanian blue gum" ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:broader <https://id.biodiversity.org.au/name/apni/102507> ;
     skos:definition "Eucalyptus globulus"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
@@ -1355,7 +1355,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/apni/613018>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:broader <https://id.biodiversity.org.au/name/apni/89049> ;
     skos:definition "Goodenia pinnatifida"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
@@ -1366,7 +1366,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     ns1:kingdom <https://linked.data.gov.au/dataset/eiatest/nsl/plantae> ;
     ns1:vernacularName "Yellow box" ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:broader <https://id.biodiversity.org.au/name/apni/102507> ;
     skos:definition "Eucalyptus melliodora"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
@@ -1377,7 +1377,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     ns1:kingdom <https://linked.data.gov.au/dataset/eiatest/nsl/plantae> ;
     ns1:vernacularName "Snow gum" ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:broader <https://id.biodiversity.org.au/name/apni/102507> ;
     skos:definition "Eucalyptus pauciflora"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
@@ -1388,7 +1388,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     ns1:kingdom <https://linked.data.gov.au/dataset/eiatest/nsl/plantae> ;
     ns1:vernacularName "Red box" ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:broader <https://id.biodiversity.org.au/name/apni/102507> ;
     skos:definition "Eucalyptus polyanthemos"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
@@ -1397,7 +1397,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/apni/645300>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:broader <https://id.biodiversity.org.au/name/apni/63766> ;
     skos:definition "Nassella neesiana"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
@@ -1406,7 +1406,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/apni/646437>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Pyracantha sp."@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Pyracantha sp."@en ;
@@ -1415,7 +1415,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/apni/646972>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:broader <https://id.biodiversity.org.au/name/apni/199335> ;
     skos:definition "Austrostipa densiflora"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
@@ -1426,7 +1426,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     ns1:kingdom <https://linked.data.gov.au/dataset/eiatest/nsl/plantae> ;
     ns1:vernacularName "Apple box" ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:broader <https://id.biodiversity.org.au/name/apni/102507> ;
     skos:definition "Eucalyptus bridgesiana"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
@@ -1435,7 +1435,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/apni/662861>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:broader <https://id.biodiversity.org.au/name/apni/86121> ;
     skos:definition "Lobelia browniana"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
@@ -1444,7 +1444,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/apni/662990>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:broader <https://id.biodiversity.org.au/name/apni/86121> ;
     skos:definition "Lobelia simplicicaulis"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
@@ -1453,7 +1453,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/apni/707208>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Ligustrum sp."@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Ligustrum sp."@en ;
@@ -1462,7 +1462,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/apni/780711>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:broader <https://id.biodiversity.org.au/name/apni/56859> ;
     skos:definition "Acacia genistifolia"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
@@ -1471,7 +1471,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/apni/781045>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:broader <https://id.biodiversity.org.au/name/apni/103168> ;
     skos:definition "Olearia lirata"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
@@ -1480,7 +1480,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/apni/794411>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:broader <https://id.biodiversity.org.au/name/apni/103168> ;
     skos:definition "Olearia phlogopappa subsp. serrata"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
@@ -1489,7 +1489,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/apni/928522>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:broader <https://id.biodiversity.org.au/name/apni/75044> ;
     skos:definition "Swainsona sericea"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
@@ -1498,7 +1498,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/afd/70873457>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Lampropholis sp."@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Lampropholis sp."@en ;
@@ -1509,7 +1509,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     ns1:kingdom <https://linked.data.gov.au/dataset/eiatest/nsl/plantae> ;
     ns1:vernacularName "Einadia nutans" ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Einadia nutans subsp. nutans"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Einadia nutans subsp. nutans"@en ;
@@ -1520,7 +1520,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     ns1:kingdom <https://linked.data.gov.au/dataset/eiatest/nsl/plantae> ;
     ns1:vernacularName "River Sheoak" ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Casuarina cunninghamiana subsp. cunninghamiana"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Casuarina cunninghamiana subsp. cunninghamiana"@en ;
@@ -1531,7 +1531,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     ns1:kingdom <https://linked.data.gov.au/dataset/eiatest/nsl/plantae> ;
     ns1:vernacularName "Spear Thistle" ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Cirsium vulgare"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Cirsium vulgare"@en ;
@@ -1542,7 +1542,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     ns1:kingdom <https://linked.data.gov.au/dataset/eiatest/nsl/plantae> ;
     ns1:vernacularName "Sunray" ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Leucochrysum albicans subsp. tricolor"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Leucochrysum albicans subsp. tricolor"@en ;
@@ -1553,7 +1553,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     ns1:kingdom <https://linked.data.gov.au/dataset/eiatest/nsl/plantae> ;
     ns1:vernacularName "Soft Water Fern" ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Blechnum minus"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Blechnum minus"@en ;
@@ -1564,7 +1564,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     ns1:kingdom <https://linked.data.gov.au/dataset/eiatest/nsl/plantae> ;
     ns1:vernacularName "Centrolepis strigosa" ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Centrolepis strigosa"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Centrolepis strigosa"@en ;
@@ -1575,7 +1575,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     ns1:kingdom <https://linked.data.gov.au/dataset/eiatest/nsl/plantae> ;
     ns1:vernacularName "austral bugle" ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Ajuga australis"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Ajuga australis"@en ;
@@ -1586,7 +1586,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     ns1:kingdom <https://linked.data.gov.au/dataset/eiatest/nsl/plantae> ;
     ns1:vernacularName "Hyssop Loosestrife" ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Lythrum hyssopifolia"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Lythrum hyssopifolia"@en ;
@@ -1597,7 +1597,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     ns1:kingdom <https://linked.data.gov.au/dataset/eiatest/nsl/plantae> ;
     ns1:vernacularName "Early forest-gentian" ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Gentianella polysperes"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Gentianella polysperes"@en ;
@@ -1608,7 +1608,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     ns1:kingdom <https://linked.data.gov.au/dataset/eiatest/nsl/plantae> ;
     ns1:vernacularName "Copper beard orchid" ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Calochilus campestris"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Calochilus campestris"@en ;
@@ -1619,7 +1619,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     ns1:kingdom <https://linked.data.gov.au/dataset/eiatest/nsl/plantae> ;
     ns1:vernacularName "Bristly Helmet Orchid" ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Corybas hispidus"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Corybas hispidus"@en ;
@@ -1630,7 +1630,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     ns1:kingdom <https://linked.data.gov.au/dataset/eiatest/nsl/plantae> ;
     ns1:vernacularName "Dipodium roseum" ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Dipodium roseum"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Dipodium roseum"@en ;
@@ -1641,7 +1641,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     ns1:kingdom <https://linked.data.gov.au/dataset/eiatest/nsl/plantae> ;
     ns1:vernacularName "Eriochilus cucullatus" ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Eriochilus cucullatus"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Eriochilus cucullatus"@en ;
@@ -1652,7 +1652,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     ns1:kingdom <https://linked.data.gov.au/dataset/eiatest/nsl/plantae> ;
     ns1:vernacularName "Waxlip Orchid" ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Glossodia major"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Glossodia major"@en ;
@@ -1663,7 +1663,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     ns1:kingdom <https://linked.data.gov.au/dataset/eiatest/nsl/plantae> ;
     ns1:vernacularName "Sun orchids" ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Thelymitra sp."@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Thelymitra sp."@en ;
@@ -1674,7 +1674,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     ns1:kingdom <https://linked.data.gov.au/dataset/eiatest/nsl/plantae> ;
     ns1:vernacularName "Twining Fringe Lily" ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Thysanotus patersonii"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Thysanotus patersonii"@en ;
@@ -1685,7 +1685,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     ns1:kingdom <https://linked.data.gov.au/dataset/eiatest/nsl/plantae> ;
     ns1:vernacularName "Small St. John's Wort" ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Hypericum gramineum"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Hypericum gramineum"@en ;
@@ -1696,7 +1696,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     ns1:kingdom <https://linked.data.gov.au/dataset/eiatest/nsl/plantae> ;
     ns1:vernacularName "Eleocharis sphacelata" ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Eleocharis sphacelata"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Eleocharis sphacelata"@en ;
@@ -1707,7 +1707,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     ns1:kingdom <https://linked.data.gov.au/dataset/eiatest/nsl/plantae> ;
     ns1:vernacularName "Australian Trefoil" ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Lotus australis"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Lotus australis"@en ;
@@ -1718,7 +1718,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     ns1:kingdom <https://linked.data.gov.au/dataset/eiatest/nsl/plantae> ;
     ns1:vernacularName "Corunastylis clivicola" ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Corunastylis clivicola"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Corunastylis clivicola"@en ;
@@ -1729,7 +1729,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     ns1:kingdom <https://linked.data.gov.au/dataset/eiatest/nsl/plantae> ;
     ns1:vernacularName "Kangaroo Fern" ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Microsorum pustulatum subsp. pustulatum"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Microsorum pustulatum subsp. pustulatum"@en ;
@@ -1740,7 +1740,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     ns1:kingdom <https://linked.data.gov.au/dataset/eiatest/nsl/plantae> ;
     ns1:vernacularName "Sand Grevillea" ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Grevillea arenaria subsp. arenaria"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Grevillea arenaria subsp. arenaria"@en ;
@@ -1751,7 +1751,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     ns1:kingdom <https://linked.data.gov.au/dataset/eiatest/nsl/plantae> ;
     ns1:vernacularName "Cheilanthes sieberi" ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Cheilanthes sieberi"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Cheilanthes sieberi"@en ;
@@ -1762,7 +1762,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     ns1:kingdom <https://linked.data.gov.au/dataset/eiatest/nsl/plantae> ;
     ns1:vernacularName "Acaena echinata" ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Acaena echinata"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Acaena echinata"@en ;
@@ -1773,7 +1773,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     ns1:kingdom <https://linked.data.gov.au/dataset/eiatest/nsl/plantae> ;
     ns1:vernacularName "Glaucous Cotoneaster" ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Cotoneaster glaucophyllus"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Cotoneaster glaucophyllus"@en ;
@@ -1784,7 +1784,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     ns1:kingdom <https://linked.data.gov.au/dataset/eiatest/nsl/plantae> ;
     ns1:vernacularName "Sticky Hop-bush" ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Dodonaea viscosa"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Dodonaea viscosa"@en ;
@@ -1795,7 +1795,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     ns1:kingdom <https://linked.data.gov.au/dataset/eiatest/nsl/plantae> ;
     ns1:vernacularName "Blue devil" ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Eryngium ovinum"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Eryngium ovinum"@en ;
@@ -1806,7 +1806,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     ns1:kingdom <https://linked.data.gov.au/dataset/eiatest/nsl/plantae> ;
     ns1:vernacularName "Hydrocotyle sibthorpioides" ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Hydrocotyle sibthorpioides"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Hydrocotyle sibthorpioides"@en ;
@@ -1817,7 +1817,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     ns1:kingdom <https://linked.data.gov.au/dataset/eiatest/nsl/plantae> ;
     ns1:vernacularName "Pale Vanilla-lily" ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Arthropodium milleflorum"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Arthropodium milleflorum"@en ;
@@ -1828,7 +1828,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     ns1:kingdom <https://linked.data.gov.au/dataset/eiatest/nsl/plantae> ;
     ns1:vernacularName "Common everlasting" ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Chrysocephalum apiculatum"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Chrysocephalum apiculatum"@en ;
@@ -1839,7 +1839,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     ns1:kingdom <https://linked.data.gov.au/dataset/eiatest/nsl/plantae> ;
     ns1:vernacularName "Beard-heath" ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Leucopogon fletcheri subsp. brevisepalus"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Leucopogon fletcheri subsp. brevisepalus"@en ;
@@ -1850,7 +1850,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     ns1:kingdom <https://linked.data.gov.au/dataset/eiatest/nsl/plantae> ;
     ns1:vernacularName "Swamp Isotome" ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Isotoma fluviatilis subsp. australis"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Isotoma fluviatilis subsp. australis"@en ;
@@ -1861,7 +1861,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     ns1:kingdom <https://linked.data.gov.au/dataset/eiatest/nsl/plantae> ;
     ns1:vernacularName "Radiata Pine, Monterey Pine" ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Pinus radiata"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Pinus radiata"@en ;
@@ -1872,7 +1872,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     ns1:kingdom <https://linked.data.gov.au/dataset/eiatest/nsl/plantae> ;
     ns1:vernacularName "Kidney Weed" ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Dichondra repens"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Dichondra repens"@en ;
@@ -1883,7 +1883,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     ns1:kingdom <https://linked.data.gov.au/dataset/eiatest/nsl/plantae> ;
     ns1:vernacularName "Narrawa Burr" ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Solanum cinereum"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Solanum cinereum"@en ;
@@ -1894,7 +1894,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     ns1:kingdom <https://linked.data.gov.au/dataset/eiatest/nsl/plantae> ;
     ns1:vernacularName "Beard-heath" ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Leucopogon virgatus"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Leucopogon virgatus"@en ;
@@ -1905,7 +1905,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     ns1:kingdom <https://linked.data.gov.au/dataset/eiatest/nsl/plantae> ;
     ns1:vernacularName "Fig" ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Ficus carica"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Ficus carica"@en ;
@@ -1916,7 +1916,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     ns1:kingdom <https://linked.data.gov.au/dataset/eiatest/nsl/plantae> ;
     ns1:vernacularName "Slender Rice Flower" ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Pimelea linifolia"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Pimelea linifolia"@en ;
@@ -1927,7 +1927,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     ns1:kingdom <https://linked.data.gov.au/dataset/eiatest/nsl/plantae> ;
     ns1:vernacularName "Fat Hen" ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Chenopodium album"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Chenopodium album"@en ;
@@ -1938,7 +1938,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     ns1:kingdom <https://linked.data.gov.au/dataset/eiatest/nsl/plantae> ;
     ns1:vernacularName "Moth Vine" ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Araujia sericifera"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Araujia sericifera"@en ;
@@ -1949,7 +1949,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     ns1:kingdom <https://linked.data.gov.au/dataset/eiatest/nsl/plantae> ;
     ns1:vernacularName "Kydra Dampiera" ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Dampiera fusca"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Dampiera fusca"@en ;
@@ -1960,7 +1960,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     ns1:kingdom <https://linked.data.gov.au/dataset/eiatest/nsl/plantae> ;
     ns1:vernacularName "Clematis leptophylla" ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Clematis leptophylla"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Clematis leptophylla"@en ;
@@ -1971,7 +1971,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     ns1:kingdom <https://linked.data.gov.au/dataset/eiatest/nsl/plantae> ;
     ns1:vernacularName "Mat-rush" ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Lomandra filiformis subsp. coriacea"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Lomandra filiformis subsp. coriacea"@en ;
@@ -1982,7 +1982,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     ns1:kingdom <https://linked.data.gov.au/dataset/eiatest/nsl/plantae> ;
     ns1:vernacularName "Early Nancy" ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Wurmbea dioica subsp. dioica"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Wurmbea dioica subsp. dioica"@en ;
@@ -1993,7 +1993,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     ns1:kingdom <https://linked.data.gov.au/dataset/eiatest/nsl/plantae> ;
     ns1:vernacularName "Ox-eye Daisy" ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Leucanthemum vulgare"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Leucanthemum vulgare"@en ;
@@ -2004,7 +2004,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     ns1:kingdom <https://linked.data.gov.au/dataset/eiatest/nsl/plantae> ;
     ns1:vernacularName "necklace fern" ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Asplenium flabellifolium"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Asplenium flabellifolium"@en ;
@@ -2015,7 +2015,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     ns1:kingdom <https://linked.data.gov.au/dataset/eiatest/nsl/plantae> ;
     ns1:vernacularName "Italian Arum" ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Arum italicum"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Arum italicum"@en ;
@@ -2026,7 +2026,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     ns1:kingdom <https://linked.data.gov.au/dataset/eiatest/nsl/plantae> ;
     ns1:vernacularName "Goose Grass" ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Eleusine tristachya"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Eleusine tristachya"@en ;
@@ -2037,7 +2037,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     ns1:kingdom <https://linked.data.gov.au/dataset/eiatest/nsl/plantae> ;
     ns1:vernacularName "Broomrape" ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Orobanche minor"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Orobanche minor"@en ;
@@ -2048,7 +2048,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     ns1:kingdom <https://linked.data.gov.au/dataset/eiatest/nsl/plantae> ;
     ns1:vernacularName "Tufted knawel" ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Scleranthus diander"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Scleranthus diander"@en ;
@@ -2057,7 +2057,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/instance/apni/646471>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Rosa sp."@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Rosa sp."@en ;
@@ -2068,7 +2068,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     ns1:kingdom <https://linked.data.gov.au/dataset/eiatest/nsl/plantae> ;
     ns1:vernacularName "Prickly Starwort" ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Stellaria pungens"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Stellaria pungens"@en ;
@@ -2079,7 +2079,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     ns1:kingdom <https://linked.data.gov.au/dataset/eiatest/nsl/plantae> ;
     ns1:vernacularName "Viburnum" ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Viburnum tinus"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Viburnum tinus"@en ;
@@ -2090,7 +2090,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     ns1:kingdom <https://linked.data.gov.au/dataset/eiatest/nsl/plantae> ;
     ns1:vernacularName "Bluebells" ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Wahlenbergia sp."@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Wahlenbergia sp."@en ;
@@ -2101,7 +2101,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     ns1:kingdom <https://linked.data.gov.au/dataset/eiatest/nsl/plantae> ;
     ns1:vernacularName "Woodrush" ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Luzula densiflora"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Luzula densiflora"@en ;
@@ -2112,7 +2112,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     ns1:kingdom <https://linked.data.gov.au/dataset/eiatest/nsl/plantae> ;
     ns1:vernacularName "Native Storksbill, Wild Geranium" ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Pelargonium australe"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Pelargonium australe"@en ;
@@ -2123,7 +2123,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     ns1:kingdom <https://linked.data.gov.au/dataset/eiatest/nsl/plantae> ;
     ns1:vernacularName "Oxalis Herb" ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Oxalis thompsoniae"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Oxalis thompsoniae"@en ;
@@ -2134,7 +2134,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     ns1:kingdom <https://linked.data.gov.au/dataset/eiatest/nsl/plantae> ;
     ns1:vernacularName "Hemlock" ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Conium maculatum"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Conium maculatum"@en ;
@@ -2145,7 +2145,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     ns1:kingdom <https://linked.data.gov.au/dataset/eiatest/nsl/plantae> ;
     ns1:vernacularName "Lilaeopsis" ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Lilaeopsis polyantha"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Lilaeopsis polyantha"@en ;
@@ -2156,7 +2156,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     ns1:kingdom <https://linked.data.gov.au/dataset/eiatest/nsl/plantae> ;
     ns1:vernacularName "Cape Daisy" ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Dimorphotheca ecklonis"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Dimorphotheca ecklonis"@en ;
@@ -2167,7 +2167,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     ns1:kingdom <https://linked.data.gov.au/dataset/eiatest/nsl/plantae> ;
     ns1:vernacularName "" ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Stylidium armeria subsp. armeria"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Stylidium armeria subsp. armeria"@en ;
@@ -2178,7 +2178,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     ns1:kingdom <https://linked.data.gov.au/dataset/eiatest/nsl/plantae> ;
     ns1:vernacularName "Speedwells" ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Veronica sp."@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Veronica sp."@en ;
@@ -2189,7 +2189,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     ns1:kingdom <https://linked.data.gov.au/dataset/eiatest/nsl/plantae> ;
     ns1:vernacularName "Smooth cat's ear" ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Hypochaeris glabra"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Hypochaeris glabra"@en ;
@@ -2200,7 +2200,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     ns1:kingdom <https://linked.data.gov.au/dataset/eiatest/nsl/plantae> ;
     ns1:vernacularName "Common Woodruff" ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Asperula conferta"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Asperula conferta"@en ;
@@ -2211,7 +2211,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     ns1:kingdom <https://linked.data.gov.au/dataset/eiatest/nsl/plantae> ;
     ns1:vernacularName "Scaly Buttons" ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Leptorhynchos squamatus subsp. squamatus"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Leptorhynchos squamatus subsp. squamatus"@en ;
@@ -2222,7 +2222,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     ns1:kingdom <https://linked.data.gov.au/dataset/eiatest/nsl/plantae> ;
     ns1:vernacularName "Common sunray" ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Triptilodiscus pygmaeus"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Triptilodiscus pygmaeus"@en ;
@@ -2233,7 +2233,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     ns1:kingdom <https://linked.data.gov.au/dataset/eiatest/nsl/plantae> ;
     ns1:vernacularName "Groundsel" ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Senecio bathurstianus"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Senecio bathurstianus"@en ;
@@ -2244,7 +2244,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     ns1:kingdom <https://linked.data.gov.au/dataset/eiatest/nsl/plantae> ;
     ns1:vernacularName "Common Shaggy Pea" ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Oxylobium ellipticum"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Oxylobium ellipticum"@en ;
@@ -2255,7 +2255,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     ns1:kingdom <https://linked.data.gov.au/dataset/eiatest/nsl/plantae> ;
     ns1:vernacularName "Native Carrot" ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Daucus glochidiatus"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Daucus glochidiatus"@en ;
@@ -2266,7 +2266,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     ns1:kingdom <https://linked.data.gov.au/dataset/eiatest/nsl/plantae> ;
     ns1:vernacularName "Carex inversa" ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Carex inversa"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Carex inversa"@en ;
@@ -2277,7 +2277,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     ns1:kingdom <https://linked.data.gov.au/dataset/eiatest/nsl/plantae> ;
     ns1:vernacularName "Kurrajong" ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Brachychiton populneus subsp. populneus"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Brachychiton populneus subsp. populneus"@en ;
@@ -2288,7 +2288,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     ns1:kingdom <https://linked.data.gov.au/dataset/eiatest/nsl/plantae> ;
     ns1:vernacularName "Cyperus sanguinolentus" ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Cyperus sanguinolentus"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Cyperus sanguinolentus"@en ;
@@ -2299,7 +2299,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     ns1:kingdom <https://linked.data.gov.au/dataset/eiatest/nsl/plantae> ;
     ns1:vernacularName "Blackthorn" ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Bursaria spinosa"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Bursaria spinosa"@en ;
@@ -2310,7 +2310,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     ns1:kingdom <https://linked.data.gov.au/dataset/eiatest/nsl/plantae> ;
     ns1:vernacularName "Sticky Everlasting" ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Xerochrysum viscosum"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Xerochrysum viscosum"@en ;
@@ -2321,7 +2321,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     ns1:kingdom <https://linked.data.gov.au/dataset/eiatest/nsl/plantae> ;
     ns1:vernacularName "French Catchfly" ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Silene gallica var. gallica"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Silene gallica var. gallica"@en ;
@@ -2332,7 +2332,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     ns1:kingdom <https://linked.data.gov.au/dataset/eiatest/nsl/plantae> ;
     ns1:vernacularName "Red Valerian" ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Centranthus ruber"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Centranthus ruber"@en ;
@@ -2343,7 +2343,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     ns1:kingdom <https://linked.data.gov.au/dataset/eiatest/nsl/plantae> ;
     ns1:vernacularName "Cut-leaved Burr-daisy" ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Calotis anthemoides"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Calotis anthemoides"@en ;
@@ -2354,7 +2354,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     ns1:kingdom <https://linked.data.gov.au/dataset/eiatest/nsl/plantae> ;
     ns1:vernacularName "Hairy anchor plantt" ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Discaria pubescens"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Discaria pubescens"@en ;
@@ -2365,7 +2365,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     ns1:kingdom <https://linked.data.gov.au/dataset/eiatest/nsl/plantae> ;
     ns1:vernacularName "Alpine Bottlebrush" ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Callistemon pityoides"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Callistemon pityoides"@en ;
@@ -2376,7 +2376,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     ns1:kingdom <https://linked.data.gov.au/dataset/eiatest/nsl/plantae> ;
     ns1:vernacularName "Hackelia suaveolens" ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Hackelia suaveolens"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Hackelia suaveolens"@en ;
@@ -2385,7 +2385,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://linked.data.gov.au/dataset/eiatest/nsl/brachyscome>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Brachyscome genus"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:narrower
@@ -2397,7 +2397,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://biodiversity.org.au/afd/taxa/Litoria>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Litoria genus"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:narrower
@@ -2409,7 +2409,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://biodiversity.org.au/afd/taxa/Rhipidura_%28Rhipidura%29>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Rhipidura genus"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:narrower
@@ -2421,7 +2421,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://biodiversity.org.au/afd/taxa/Tiliqua>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Tiliqua genus"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:narrower
@@ -2435,7 +2435,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     ns1:kingdom <https://linked.data.gov.au/dataset/eiatest/nsl/plantae> ;
     ns1:vernacularName "Brachyscome spathulata" ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:broader <https://linked.data.gov.au/dataset/eiatest/nsl/brachyscome> ;
     skos:definition "Brachyscome spathulata"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
@@ -2446,7 +2446,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     ns1:kingdom <https://linked.data.gov.au/dataset/eiatest/nsl/plantae> ;
     ns1:vernacularName "Hairy Cut-leaf Daisy" ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:broader <https://linked.data.gov.au/dataset/eiatest/nsl/brachyscome> ;
     skos:definition "Brachyscome rigidula"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
@@ -2457,7 +2457,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     ns1:kingdom <https://linked.data.gov.au/dataset/eiatest/nsl/plantae> ;
     ns1:vernacularName "Rush" ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Juncus sp."@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:narrower <https://id.biodiversity.org.au/instance/apni/588434> ;
@@ -2467,7 +2467,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/name/apni/84643>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Crinia genus"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:narrower
@@ -2479,7 +2479,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://biodiversity.org.au/afd/taxa/Limnodynastes>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Limnodynastes genus"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:narrower
@@ -2494,7 +2494,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     ns1:kingdom <https://linked.data.gov.au/dataset/eiatest/nsl/plantae> ;
     ns1:vernacularName "grass" ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Austrostipa genus"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:narrower
@@ -2506,7 +2506,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/name/apni/200502>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Anas genus"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:narrower
@@ -2519,7 +2519,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://id.biodiversity.org.au/name/apni/56859>
     a skos:Concept ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Acacia genus"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:narrower
@@ -2534,7 +2534,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     ns1:kingdom <https://linked.data.gov.au/dataset/eiatest/nsl/plantae> ;
     ns1:vernacularName "Cane needle grass" ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Nassella genus"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:narrower
@@ -2548,7 +2548,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     ns1:kingdom <https://linked.data.gov.au/dataset/eiatest/nsl/plantae> ;
     ns1:vernacularName "Violet Swainson-pea, Violet Darling Pea" ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Swainsona genus"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:narrower
@@ -2562,7 +2562,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     ns1:kingdom <https://linked.data.gov.au/dataset/eiatest/nsl/plantae> ;
     ns1:vernacularName "Lobelia" ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Lobelia genus"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:narrower
@@ -2576,7 +2576,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     ns1:kingdom <https://linked.data.gov.au/dataset/eiatest/nsl/plantae> ;
     ns1:vernacularName "Purple goodenia" ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Goodenia genus"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:narrower
@@ -2595,7 +2595,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     ns1:kingdom <https://linked.data.gov.au/dataset/eiatest/nsl/plantae> ;
     ns1:vernacularName "Grasses" ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Rytidosperma sp."@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Rytidosperma sp."@en ;
@@ -2606,7 +2606,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     ns1:kingdom <https://linked.data.gov.au/dataset/eiatest/nsl/plantae> ;
     ns1:vernacularName "Daisy-bush" ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Olearia genus"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:narrower
@@ -2621,7 +2621,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     ns1:kingdom <https://linked.data.gov.au/dataset/eiatest/nsl/plantae> ;
     ns1:vernacularName "Lemon Doubletail" ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Diuris genus"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:narrower
@@ -2636,7 +2636,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     ns1:kingdom <https://linked.data.gov.au/dataset/eiatest/nsl/plantae> ;
     ns1:vernacularName "Orchid" ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Caladenia genus"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:narrower
@@ -2652,7 +2652,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     ns1:kingdom <https://linked.data.gov.au/dataset/eiatest/nsl/plantae> ;
     ns1:vernacularName "Eucalyptus" ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Eucalyptus genus"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:narrower
@@ -2669,7 +2669,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     ns1:kingdom <https://linked.data.gov.au/dataset/eiatest/nsl/plantae> ;
     ns1:vernacularName "Greenhoods" ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "Pterostylis sp."@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:prefLabel "Pterostylis sp."@en ;
@@ -2678,7 +2678,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://linked.data.gov.au/dataset/eiatest/nsl/plantae>
     a skos:Collection ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/eiatest/nsl> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/dataset/nsl> ;
     skos:definition "The kingdom of plants"@en ;
     skos:inScheme <https://linked.data.gov.au/dataset/eiatest/nsl> ;
     skos:member
