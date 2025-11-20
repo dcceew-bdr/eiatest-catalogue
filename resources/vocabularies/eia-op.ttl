@@ -1,0 +1,58 @@
+PREFIX : <https://linked.data.gov.au/def/eia-op/>
+PREFIX cs: <https://linked.data.gov.au/def/eia-op>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+cs:
+    a skos:ConceptScheme ;
+    skos:definition "A vocabulary of all the Observable Properties within the Environmental Information Australia Supermodel"@en ;
+    skos:hasTopConcept
+        <http://linked.data.gov.au/def/tern-cv/39e0f5efdc39ec10992833ad019f0ddf2b42b49b098313df991b8229a37aed21> ,
+        <http://linked.data.gov.au/def/tern-cv/0bbd7fcd-0782-4efc-96e6-1f0f7669c655> ;
+    skos:historyNote "Created for the EIA Test Catalogue in 2025" ;
+    skos:prefLabel "EIA Observable Properties Vocabulary"@en ;
+    schema:creator <https://linked.data.gov.au/org/dcceew> ;
+    schema:dateCreated "2025-06-30"^^xsd:date ;
+    schema:dateModified "2025-11-20"^^xsd:date ;
+    schema:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
+    schema:publisher <https://linked.data.gov.au/org/dcceew> ;
+    schema:version "1" ;
+.
+
+<http://linked.data.gov.au/def/tern-cv/39e0f5efdc39ec10992833ad019f0ddf2b42b49b098313df991b8229a37aed21>
+    a skos:Concept ;
+    rdfs:isDefinedBy <http://linked.data.gov.au/def/tern-cv/5699eca7-9ef0-47a6-bcfb-9306e0e2b85e> ;
+    skos:definition "Height is the vertical distance above the surface."@en ;
+    skos:historyNote "Created for the EIA Test Catalogue in 2025" ;
+    skos:inScheme cs: ;
+    skos:narrower <http://linked.data.gov.au/def/tern-cv/09296da0-c645-4165-950c-780c21b3c140> ;
+    skos:prefLabel "height"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://linked.data.gov.au/def/tern-cv/09296da0-c645-4165-950c-780c21b3c140>
+    a skos:Concept ;
+    rdfs:isDefinedBy <http://linked.data.gov.au/def/tern-cv/5699eca7-9ef0-47a6-bcfb-9306e0e2b85e> ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/39e0f5efdc39ec10992833ad019f0ddf2b42b49b098313df991b8229a37aed21> ;
+    skos:definition "The height of a whole plant from the ground to the highest vegetative component (i.e. non-reproductive)."@en ;
+    skos:historyNote "Created for the EIA Test Catalogue in 2025" ;
+    skos:inScheme cs: ;
+    skos:prefLabel "plant height"@en ;
+.
+
+<http://linked.data.gov.au/def/tern-cv/0bbd7fcd-0782-4efc-96e6-1f0f7669c655>
+    a skos:Concept ;
+    rdfs:isDefinedBy <http://linked.data.gov.au/def/tern-cv/5699eca7-9ef0-47a6-bcfb-9306e0e2b85e> ;
+    skos:definition "The sum/total of cross-sectional area of all tree trunks measured at breast height over bark. It can be thought of as the surface area of a cut stump at a height of 1.3 m."@en ;
+    skos:historyNote "Created for the EIA Test Catalogue in 2025" ;
+    skos:inScheme cs: ;
+    skos:prefLabel "tree basal area"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://linked.data.gov.au/def/tern-cv/5699eca7-9ef0-47a6-bcfb-9306e0e2b85e>
+    schema:name "TERN Parameter Type Vocabulary" ;
+.
