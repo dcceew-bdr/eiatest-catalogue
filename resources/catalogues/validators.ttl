@@ -14,9 +14,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 Part of the EIA Test Catalogue.""" ;
     schema:hasPart
         <https://linked.data.gov.au/def/bcp/validator> ,
+        <https://linked.data.gov.au/def/loci-dp/validator> ,
         <https://linked.data.gov.au/def/eia-dp/validator> ,
         <http://www.opengis.net/def/geosparql/validator> ,
-        <https://linked.data.gov.au/def/loci-dp/validator> ,
         <https://linked.data.gov.au/def/ontpub/validator> ,
         <https://linked.data.gov.au/def/vocpub/validator> ;
     schema:license <http://purl.org/NET/rdflicense/cc-by4.0> ;

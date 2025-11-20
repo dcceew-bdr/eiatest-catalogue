@@ -11,14 +11,14 @@ PREFIX schema: <https://schema.org/>
             schema:name "Vocabularies" ;
         ] ,
         [
-            # dcterms:conformsTo "validators/eia-dp-0.1.ttl" ;
-            dcterms:conformsTo "validators/loci-dp.ttl" ;
+            # dcterms:conformsTo "resources/validators/eia-dp-0.1.ttl" ;
+            dcterms:conformsTo "resources/validators/loci-dp.ttl" ;
             prof:hasArtifact "resources/datasets/spatial/*.ttl" ;
             prof:hasRole <https://prez.dev/ManifestResourceRoles/ResourceData> ;
             schema:name "Spatial Datasets" ;
         ] ,
         [
-            # dcterms:conformsTo "validators/bcp.ttl" ;
+            # dcterms:conformsTo "resources/validators/bcp.ttl" ;
             prof:hasArtifact "resources/datasets/non-spatial/nsl.ttl" ;
             prof:hasRole <https://prez.dev/ManifestResourceRoles/ResourceData> ;
             schema:name "Non-Spatial Dataset" ;
@@ -30,19 +30,19 @@ PREFIX schema: <https://schema.org/>
             schema:name "Non-Spatial Dataset" ;
         ] ,
         [
-            dcterms:conformsTo "validators/bcp.ttl" ;
+            dcterms:conformsTo "resources/validators/bcp.ttl" ;
             prof:hasArtifact "resources/datasets/non-spatial/apd-nsl.ttl" ;
             prof:hasRole <https://prez.dev/ManifestResourceRoles/ResourceData> ;
             schema:name "Non-Spatial Dataset" ;
         ] ,
         [
-            dcterms:conformsTo "validators/ontpub.ttl" ;
+            dcterms:conformsTo "resources/validators/ontpub.ttl" ;
             prof:hasArtifact "resources/models/*.ttl" ;
             prof:hasRole <https://prez.dev/ManifestResourceRoles/ResourceData> ;
             schema:name "Models" ;
         ] ,
         [
-            # dcterms:conformsTo "validators/bcp.ttl" ;
+            # dcterms:conformsTo "resources/validators/bcp.ttl" ;
             prof:hasArtifact "resources/catalogues/*.ttl" ;
             prof:hasRole <https://prez.dev/ManifestResourceRoles/CatalogueData> ;
             schema:name "Catalogues" ;
