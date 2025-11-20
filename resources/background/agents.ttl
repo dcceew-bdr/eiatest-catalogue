@@ -343,9 +343,21 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:url "https://kurrawong.ai"^^xsd:anyURI ;
 .
 
+<http://orcid.org/0000-0002-7878-2693>
+    a schema:Person ;
+    schema:email "rob@metalinkage.com.au"^^xsd:anyURI ;
+    schema:name "Robert Atkinson" ;
+.
+
 <https://linked.data.gov.au/def/abares>
     a schema:Organization ;
     schema:name "Australian Bureau of Agricultural and Resource Economics and Sciences" ;
     schema:parentOrganization <https://linked.data.gov.au/org/daff> ;
     schema:url "https://www.agriculture.gov.au/abares"^^xsd:anyURI ;
+.
+
+<https://www.w3.org>
+    a schema:Organization ;
+    schema:name "World Wide Web Consortium" ;
+    schema:url "https://www.w3.org"^^xsd:anyURI ;
 .
