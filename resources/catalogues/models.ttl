@@ -1,3 +1,6 @@
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX role: <https://linked.data.gov.au/def/supermodel/role/>
 PREFIX schema: <https://schema.org/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
@@ -13,6 +16,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 Part of the EIA Test Catalogue.""" ;
     schema:hasPart
+        # Component Models
         <https://linked.data.gov.au/def/abis> ,
         <https://anzsoil.org/def/au/domain> ,
         <https://linked.data.gov.au/def/bdr-pr> ,
@@ -20,9 +24,111 @@ Part of the EIA Test Catalogue.""" ;
         <http://terminologies.gfbio.org/terms/ETS/> ,
         <http://www.opengis.net/ont/geosparql> ,
         <https://linked.data.gov.au/def/nsl> ,
-        <https://linked.data.gov.au/def/nsl> ;
+        <https://linked.data.gov.au/def/nsl> ,
+        # Background Models
+        <http://www.w3.org/2002/07/owl> ,
+        <http://www.w3.org/ns/dx/prof> ,
+        <https://schema.org> ,
+        <http://www.w3.org/2004/02/skos/core> ,
+        <https://www.opengis.net/ont/geosparql> ;
     schema:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
     schema:name "EIA Test Models Catalogue" ;
     schema:publisher <https://linked.data.gov.au/org/dcceew> ;
     schema:version "8" ;
+.
+
+<https://linked.data.gov.au/def/abis>
+    dcat:qualifiedRelation [
+        a dcat:Relationship ;
+        dcterms:relation <https://linked.data.gov.au/def/eia-supermodel> ;
+        dcat:hadRole role:component-model ;
+    ] ;
+.
+
+<https://anzsoil.org/def/au/domain>
+    dcat:qualifiedRelation [
+        a dcat:Relationship ;
+        dcterms:relation <https://linked.data.gov.au/def/eia-supermodel> ;
+        dcat:hadRole role:component-model ;
+    ] ;
+.
+
+<https://linked.data.gov.au/def/bdr-pr>
+    dcat:qualifiedRelation [
+        a dcat:Relationship ;
+        dcterms:relation <https://linked.data.gov.au/def/eia-supermodel> ;
+        dcat:hadRole role:component-model ;
+    ] ;
+.
+
+<http://terminologies.gfbio.org/terms/ETS/>
+    dcat:qualifiedRelation [
+        a dcat:Relationship ;
+        dcterms:relation <https://linked.data.gov.au/def/eia-supermodel> ;
+        dcat:hadRole role:component-model ;
+    ] ;
+.
+
+<http://www.opengis.net/ont/geosparql>
+    dcat:qualifiedRelation [
+        a dcat:Relationship ;
+        dcterms:relation <https://linked.data.gov.au/def/eia-supermodel> ;
+        dcat:hadRole role:component-model ;
+    ] ;
+.
+
+<https://linked.data.gov.au/def/nsl>
+    dcat:qualifiedRelation [
+        a dcat:Relationship ;
+        dcterms:relation <https://linked.data.gov.au/def/eia-supermodel> ;
+        dcat:hadRole role:component-model ;
+    ] ;
+.
+
+<https://linked.data.gov.au/def/nsl>
+    dcat:qualifiedRelation [
+        a dcat:Relationship ;
+        dcterms:relation <https://linked.data.gov.au/def/eia-supermodel> ;
+        dcat:hadRole role:component-model ;
+    ] ;
+.
+
+<http://www.w3.org/2002/07/owl>
+    dcat:qualifiedRelation [
+        a dcat:Relationship ;
+        dcterms:relation <https://linked.data.gov.au/def/eia-supermodel> ;
+        dcat:hadRole role:background-model ;
+    ] ;
+.
+
+<http://www.w3.org/ns/dx/prof>
+    dcat:qualifiedRelation [
+        a dcat:Relationship ;
+        dcterms:relation <https://linked.data.gov.au/def/eia-supermodel> ;
+        dcat:hadRole role:background-model ;
+    ] ;
+.
+
+<https://schema.org>
+    dcat:qualifiedRelation [
+        a dcat:Relationship ;
+        dcterms:relation <https://linked.data.gov.au/def/eia-supermodel> ;
+        dcat:hadRole role:background-model ;
+    ] ;
+.
+
+<http://www.w3.org/2004/02/skos/core>
+    dcat:qualifiedRelation [
+        a dcat:Relationship ;
+        dcterms:relation <https://linked.data.gov.au/def/eia-supermodel> ;
+        dcat:hadRole role:background-model ;
+    ] ;
+.
+
+<https://www.opengis.net/ont/geosparql>
+    dcat:qualifiedRelation [
+        a dcat:Relationship ;
+        dcterms:relation <https://linked.data.gov.au/def/eia-supermodel> ;
+        dcat:hadRole role:background-model ;
+    ] ;
 .
