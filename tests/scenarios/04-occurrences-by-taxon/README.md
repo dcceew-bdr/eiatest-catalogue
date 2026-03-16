@@ -8,7 +8,7 @@ This scenario shows how the National Species List can be used to search for occu
 
 ### Purpose
 
-Shows simple integration of the NSL & BDR.
+Shows simple integration of the NSL & BRD.
 
 ### Logic
 
