@@ -8,11 +8,11 @@ This scenario shows how the National Species List can be used to search for occu
 
 ### Purpose
 
-Shows simple integration of the NSL & BRD.
+Shows simple integration of the NSL & BDR.
 
 ### Logic
 
-Retrieve, from the BRD, all Occurrences of either a species (name) or a set of such, depending on selection in the NSL.
+Retrieve, from the BDR, all Occurrences of either a species (name) or a set of such, depending on selection in the NSL.
 
 ### Steps
 
