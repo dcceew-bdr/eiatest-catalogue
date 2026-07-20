@@ -1,10 +1,12 @@
 # EIA Test Catalogue
 
-This catalogue was created in mid-2025 to showcase the integration of [Environment Information Australia (EIA)](https://www.dcceew.gov.au/environment/environment-information-australia) datasets.
+This repository contains the 2025 [Environment Information Australia (EIA)](https://www.dcceew.gov.au/environment/environment-information-australia) integration demonstrator. It remains available to support the public demonstration service but is not the authoritative source for BDR models, vocabularies or reference datasets.
+
+This catalogue was created in mid-2025 to showcase the integration of EIA datasets.
 
 The catalogue [lists test versions of major Australian environmental datasets](https://eia.testing.bdr.gov.au/catalogs/catalogue:eiatest-datasets/collections) within EIA's scope. It also lists [models](https://eia.testing.bdr.gov.au/catalogs/catalogue:eiatest-models/collections) and [vocabularies](https://eia.testing.bdr.gov.au/catalogs/catalogue:eiatest-vocabs/collections) needed to support the integration of the datasets.
 
-The catalogue tool also provides the [EIA Scenario Demonstrator](https://eia.testing.bdr.gov.au/eia-demo) which describes a series of data discovery scenarios that show off different aspects of the dataset's integration using [Semantic Web](https://en.wikipedia.org/wiki/Semantic_Web) and [Knowledge Graph](https://en.wikipedia.org/wiki/Knowledge_graph) methods.
+The [EIA Scenario Demonstrator](https://eia.testing.bdr.gov.au/eia-demo) describes a series of data discovery scenarios that show off different aspects of the dataset's integration using [Semantic Web](https://en.wikipedia.org/wiki/Semantic_Web) and [Knowledge Graph](https://en.wikipedia.org/wiki/Knowledge_graph) methods.
 
 
 The enterprise data model - a "Supermodel" - within which all elements of this catalogue are positioned is online at:
