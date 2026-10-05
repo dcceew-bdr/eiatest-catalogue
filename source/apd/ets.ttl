@@ -353,7 +353,7 @@ ns1:status
     dcterms:issued "2017-07-07" ;
     ns1:organizedInClass <http://terminologies.gfbio.org/terms/ETS/Occurrence> ;
     ns1:status "recommended" ;
-    rdfs:comment "Do not report procedures for measurement or sampling here (see samplingProtocol and measurementMethod). The recommended best practice is to separate the values with a vertical bar (' | '). Examples: "fossil", "cast", "photograph", "DNA extract", "skin | "skull | skeleton", "whole animal (ETOH) | tissue (EDTA)". For discussion see http://terms.tdwg.org/wiki/dwc:preparations"@en ;
+    rdfs:comment """Do not report procedures for measurement or sampling here (see samplingProtocol and measurementMethod). The recommended best practice is to separate the values with a vertical bar (' | '). Examples: "fossil", "cast", "photograph", "DNA extract", "skin | skull | skeleton", "whole animal (ETOH) | tissue (EDTA)". For discussion see http://terms.tdwg.org/wiki/dwc:preparations"""@en ;
     rdfs:isDefinedBy <http://rs.tdwg.org/dwc/terms/> ;
 .
 
