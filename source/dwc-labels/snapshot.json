@@ -1,0 +1,109 @@
+{
+  "sources": {
+    "core": {
+      "url": "https://rs.tdwg.org/dump/terms.ttl",
+      "retrieved_at": "2026-11-24T02:13:07.105011+00:00",
+      "sha256": "c07e9aa080d3733c644d2893e41086ff033539c16e9bcc0ee7a9c8dc7922e190"
+    },
+    "organizedInClass": {
+      "url": "https://rs.tdwg.org/dwc/terms/attributes/organizedInClass.ttl",
+      "retrieved_at": "2026-11-24T02:13:07.976972+00:00",
+      "sha256": "6f06d338f9ca48cc1e882de829ba963a88303adc059e06d9571aeb505de897a7"
+    },
+    "status": {
+      "url": "https://rs.tdwg.org/dwc/terms/attributes/status.ttl",
+      "retrieved_at": "2026-11-24T02:13:08.851411+00:00",
+      "sha256": "678b72cbd44e808bfa7eea5c141102425b1e2fda7cfcea92dbde5881cc62a8c8"
+    }
+  },
+  "labels": {
+    "http://rs.tdwg.org/dwc/terms/Occurrence": {
+      "value": "Occurrence",
+      "language": "en"
+    },
+    "http://rs.tdwg.org/dwc/terms/attributes/organizedInClass": {
+      "value": "Organized in Class",
+      "language": "en"
+    },
+    "http://rs.tdwg.org/dwc/terms/attributes/status": {
+      "value": "Status",
+      "language": "en"
+    },
+    "http://rs.tdwg.org/dwc/terms/basisOfRecord": {
+      "value": "Basis Of Record",
+      "language": "en"
+    },
+    "http://rs.tdwg.org/dwc/terms/eventDate": {
+      "value": "Event Date",
+      "language": "en"
+    },
+    "http://rs.tdwg.org/dwc/terms/eventID": {
+      "value": "Event ID",
+      "language": "en"
+    },
+    "http://rs.tdwg.org/dwc/terms/habitat": {
+      "value": "Habitat",
+      "language": "en"
+    },
+    "http://rs.tdwg.org/dwc/terms/individualCount": {
+      "value": "Individual Count",
+      "language": "en"
+    },
+    "http://rs.tdwg.org/dwc/terms/lifeStage": {
+      "value": "Life Stage",
+      "language": "en"
+    },
+    "http://rs.tdwg.org/dwc/terms/measurementAccuracy": {
+      "value": "Measurement Accuracy",
+      "language": "en"
+    },
+    "http://rs.tdwg.org/dwc/terms/measurementID": {
+      "value": "Measurement ID",
+      "language": "en"
+    },
+    "http://rs.tdwg.org/dwc/terms/measurementMethod": {
+      "value": "Measurement Method",
+      "language": "en"
+    },
+    "http://rs.tdwg.org/dwc/terms/measurementRemarks": {
+      "value": "Measurement Remarks",
+      "language": "en"
+    },
+    "http://rs.tdwg.org/dwc/terms/measurementType": {
+      "value": "Measurement Type",
+      "language": "en"
+    },
+    "http://rs.tdwg.org/dwc/terms/measurementUnit": {
+      "value": "Measurement Unit",
+      "language": "en"
+    },
+    "http://rs.tdwg.org/dwc/terms/measurementValue": {
+      "value": "Measurement Value",
+      "language": "en"
+    },
+    "http://rs.tdwg.org/dwc/terms/occurrenceID": {
+      "value": "Occurrence ID",
+      "language": "en"
+    },
+    "http://rs.tdwg.org/dwc/terms/scientificName": {
+      "value": "Scientific Name",
+      "language": "en"
+    },
+    "http://rs.tdwg.org/dwc/terms/scientificNameID": {
+      "value": "Scientific Name ID",
+      "language": "en"
+    },
+    "http://rs.tdwg.org/dwc/terms/sex": {
+      "value": "Sex",
+      "language": "en"
+    },
+    "http://rs.tdwg.org/dwc/terms/verbatimElevation": {
+      "value": "Verbatim Elevation",
+      "language": "en"
+    },
+    "http://rs.tdwg.org/dwc/terms/vernacularName": {
+      "value": "Vernacular Name",
+      "language": "en"
+    }
+  }
+}

@@ -1,24 +1,24 @@
 PREFIX schema: <https://schema.org/>
 
-<http://rs.tdwg.org/dwc/terms/Occurrence> schema:name "Occurrence" .
-<http://rs.tdwg.org/dwc/terms/attributes/organizedInClass> schema:name "organized tn class" .
-<http://rs.tdwg.org/dwc/terms/attributes/status> schema:name "status" .
-<http://rs.tdwg.org/dwc/terms/basisOfRecord> schema:name "basis of record" .
-<http://rs.tdwg.org/dwc/terms/eventDate> schema:name "event date" .
-<http://rs.tdwg.org/dwc/terms/eventID> schema:name "event ID" .
-<http://rs.tdwg.org/dwc/terms/habitat> schema:name "habitat" .
-<http://rs.tdwg.org/dwc/terms/individualCount> schema:name "individual count" .
-<http://rs.tdwg.org/dwc/terms/lifeStage> schema:name "lifeStage" .
-<http://rs.tdwg.org/dwc/terms/measurementAccuracy> schema:name "measurement accuracy" .
-<http://rs.tdwg.org/dwc/terms/measurementID> schema:name "measurement ID" .
-<http://rs.tdwg.org/dwc/terms/measurementMethod> schema:name "measurement method" .
-<http://rs.tdwg.org/dwc/terms/measurementRemarks> schema:name "measurement remarks" .
-<http://rs.tdwg.org/dwc/terms/measurementType> schema:name "measurement type" .
-<http://rs.tdwg.org/dwc/terms/measurementUnit> schema:name "measurement unit" .
-<http://rs.tdwg.org/dwc/terms/measurementValue> schema:name "measurementvalue" .
-<http://rs.tdwg.org/dwc/terms/occurrenceID> schema:name "occurrence ID" .
-<http://rs.tdwg.org/dwc/terms/scientificName> schema:name "scientific name" .
-<http://rs.tdwg.org/dwc/terms/scientificNameID> schema:name "scientific name ID" .
-<http://rs.tdwg.org/dwc/terms/sex> schema:name "sex" .
-<http://rs.tdwg.org/dwc/terms/verbatimElevation> schema:name "verbatim elevation" .
-<http://rs.tdwg.org/dwc/terms/vernacularName> schema:name "vernacular name" .
+<http://rs.tdwg.org/dwc/terms/Occurrence> schema:name "Occurrence"@en .
+<http://rs.tdwg.org/dwc/terms/attributes/organizedInClass> schema:name "Organized in Class"@en .
+<http://rs.tdwg.org/dwc/terms/attributes/status> schema:name "Status"@en .
+<http://rs.tdwg.org/dwc/terms/basisOfRecord> schema:name "Basis Of Record"@en .
+<http://rs.tdwg.org/dwc/terms/eventDate> schema:name "Event Date"@en .
+<http://rs.tdwg.org/dwc/terms/eventID> schema:name "Event ID"@en .
+<http://rs.tdwg.org/dwc/terms/habitat> schema:name "Habitat"@en .
+<http://rs.tdwg.org/dwc/terms/individualCount> schema:name "Individual Count"@en .
+<http://rs.tdwg.org/dwc/terms/lifeStage> schema:name "Life Stage"@en .
+<http://rs.tdwg.org/dwc/terms/measurementAccuracy> schema:name "Measurement Accuracy"@en .
+<http://rs.tdwg.org/dwc/terms/measurementID> schema:name "Measurement ID"@en .
+<http://rs.tdwg.org/dwc/terms/measurementMethod> schema:name "Measurement Method"@en .
+<http://rs.tdwg.org/dwc/terms/measurementRemarks> schema:name "Measurement Remarks"@en .
+<http://rs.tdwg.org/dwc/terms/measurementType> schema:name "Measurement Type"@en .
+<http://rs.tdwg.org/dwc/terms/measurementUnit> schema:name "Measurement Unit"@en .
+<http://rs.tdwg.org/dwc/terms/measurementValue> schema:name "Measurement Value"@en .
+<http://rs.tdwg.org/dwc/terms/occurrenceID> schema:name "Occurrence ID"@en .
+<http://rs.tdwg.org/dwc/terms/scientificName> schema:name "Scientific Name"@en .
+<http://rs.tdwg.org/dwc/terms/scientificNameID> schema:name "Scientific Name ID"@en .
+<http://rs.tdwg.org/dwc/terms/sex> schema:name "Sex"@en .
+<http://rs.tdwg.org/dwc/terms/verbatimElevation> schema:name "Verbatim Elevation"@en .
+<http://rs.tdwg.org/dwc/terms/vernacularName> schema:name "Vernacular Name"@en .
